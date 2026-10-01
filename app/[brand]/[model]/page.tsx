@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
 import AutoInternalLinks from "@/components/internal-links/AutoInternalLinks";
 import DocumentModelPage from "@/components/pages/DocumentModelPage";
+import NewDocModelPage from "@/components/pages/NewDocModelPage";
 import NewDocEnginePage from "@/components/pages/NewDocEnginePage";
-import { getEnginePageData, getEnginePageStaticParams } from "@/lib/enginePageData";
+import {
+  getEnginePageData,
+  getEnginePageStaticParams,
+} from "@/lib/enginePageData";
 import { getInternalLinkPlan } from "@/lib/internalLinkIndex";
-import { getModelPageData, getModelPageStaticParams } from "@/lib/modelPageData";
+import {
+  getModelPageData,
+  getModelPageStaticParams,
+} from "@/lib/modelPageData";
 import { SITE_URL } from "@/lib/site";
 import { notFound, permanentRedirect } from "next/navigation";
 
@@ -70,8 +77,13 @@ export default async function ModelPage({ params }: ModelPageProps) {
   const enginePageData = await getEnginePageData(brand, model);
 
   if (enginePageData) {
-    if (brand !== enginePageData.brand.slug || model !== enginePageData.engine.slug) {
-      permanentRedirect(`/${enginePageData.brand.slug}/${enginePageData.engine.slug}`);
+    if (
+      brand !== enginePageData.brand.slug ||
+      model !== enginePageData.engine.slug
+    ) {
+      permanentRedirect(
+        `/${enginePageData.brand.slug}/${enginePageData.engine.slug}`,
+      );
     }
 
     const internalLinkPlan = await getInternalLinkPlan({
@@ -127,7 +139,7 @@ export default async function ModelPage({ params }: ModelPageProps) {
         maxLinksPerPage={internalLinkPlan.maxLinksPerPage}
         maxLinksPerTarget={internalLinkPlan.defaultMaxLinksPerTarget}
       />
-      <DocumentModelPage data={pageData} />
+      <NewDocModelPage data={pageData} />
     </>
   );
 }

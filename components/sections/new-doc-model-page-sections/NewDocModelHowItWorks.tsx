@@ -7,7 +7,7 @@ import Section from "@/components/ui/Section";
 
 type Props = {
   data: HowItWorksData;
-  bgImage: string;
+  bgImage?: string;
   sectionId?: string;
   flush?: boolean;
   variantLayout?: boolean;
@@ -17,31 +17,65 @@ type Props = {
 
 function ArrowIcon() {
   return (
-    <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" aria-hidden="true">
-      <path d="M5 12h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-      <path d="m13 6 6 6-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <svg
+      viewBox="0 0 24 24"
+      className="h-3.5 w-3.5"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="M5 12h14"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      <path
+        d="m13 6 6 6-6 6"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
 
 function TickIcon() {
   return (
-    <svg viewBox="0 0 16 16" className="h-3.5 w-3.5" fill="none" aria-hidden="true">
-      <path d="m3.2 8.3 3 3.1 6.7-7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    <svg
+      viewBox="0 0 16 16"
+      className="h-3.5 w-3.5"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="m3.2 8.3 3 3.1 6.7-7"
+        stroke="currentColor"
+        strokeWidth="2.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
 
-function splitHeading(title: string) {
+function splitHeading(title: string | undefined) {
+  if (!title) return [];
   return title
     .split(/\s+-\s+/)
     .map((line) => line.trim())
     .filter(Boolean);
 }
 
-function renderMobileHeadingLine(line: string, index: number, isAccentLine: boolean) {
+function renderMobileHeadingLine(
+  line: string,
+  index: number,
+  isAccentLine: boolean,
+) {
   const normalizedLine = normalizeCopy(line);
-  const accentMatch = normalizedLine.match(/(BMW Replacement Engine|Replacement Engine|What to Choose|Choose)/i);
+  const accentMatch = normalizedLine.match(
+    /(BMW Replacement Engine|Replacement Engine|What to Choose|Choose)/i,
+  );
   if (!accentMatch || accentMatch.index === undefined) {
     if (isAccentLine) {
       const words = normalizedLine.split(/\s+/);
@@ -98,7 +132,11 @@ type TrustIconConfig = {
 function trustIconForLabel(label: string): TrustIconConfig {
   const normalized = label.toLowerCase();
 
-  if (normalized.includes("nationwide") || normalized.includes("delivery") || normalized.includes("uk-wide")) {
+  if (
+    normalized.includes("nationwide") ||
+    normalized.includes("delivery") ||
+    normalized.includes("uk-wide")
+  ) {
     return {
       src: "/icons/engine-market/light-green-nationwide-delivery.png",
       className: "h-[30px] w-[44px] object-contain sm:h-[18px] sm:w-[30px]",
@@ -127,32 +165,43 @@ function trustIconForLabel(label: string): TrustIconConfig {
 
 function stepIconSrc(card: HowItWorksData["cards"][number]) {
   if (card.number === 1) return "/Home/reg-here.webp";
-  if (card.number === 2) return "/icons/engine-market/how-compare-prices-3d.png";
+  if (card.number === 2)
+    return "/icons/engine-market/how-compare-prices-3d.png";
   if (card.number === 3) return "/icons/engine-market/how-choose-deal.png";
 
-  const combined = `${card.front.h3} ${card.front.text} ${card.back.heading}`.toLowerCase();
+  const combined =
+    `${card.front.h3} ${card.front.text} ${card.back.heading}`.toLowerCase();
 
-  if (combined.includes("registration") || combined.includes("reg")) return "/Home/reg-here.webp";
-  if (combined.includes("choose") || combined.includes("best deal") || combined.includes("save")) {
+  if (combined.includes("registration") || combined.includes("reg"))
+    return "/Home/reg-here.webp";
+  if (
+    combined.includes("choose") ||
+    combined.includes("best deal") ||
+    combined.includes("save")
+  ) {
     return "/icons/engine-market/how-choose-deal.png";
   }
-  if (combined.includes("compare")) return "/icons/engine-market/how-compare-prices-3d.png";
-  if (combined.includes("quote")) return "/icons/engine-market/how-get-quote.png";
+  if (combined.includes("compare"))
+    return "/icons/engine-market/how-compare-prices-3d.png";
+  if (combined.includes("quote"))
+    return "/icons/engine-market/how-get-quote.png";
 
   return "/icons/engine-market/how-choose-deal.png";
 }
 
-export default function HowItWorksSection({
+export default function NewDocModelHowItWorks({
   data,
   bgImage,
   sectionId,
   flush = false,
   variantLayout = false,
   compactSpacing = false,
-  newDesignMode = false,
+  newDesignMode = true,
 }: Props) {
   const [activeStep, setActiveStep] = useState<number | null>(null);
-  const headingLines = data.headingLines?.length ? data.headingLines : splitHeading(data.h2);
+  const headingLines = data.headingLines?.length
+    ? data.headingLines
+    : splitHeading(data.h2);
   const ui = data.ui ?? {};
   const cards = data.cards.map((card) => ({
     ...card,
@@ -169,12 +218,14 @@ export default function HowItWorksSection({
     },
   }));
 
-  const footerTrustItems = (ui.mobileTrustItems ?? [
-    "12-Month Warranty",
-    "Supply & Fit Available",
-    "Nationwide Delivery",
-    "Trusted UK Suppliers",
-  ]).map((label) => ({
+  const footerTrustItems = (
+    ui.mobileTrustItems ?? [
+      "12-Month Warranty",
+      "Supply & Fit Available",
+      "Nationwide Delivery",
+      "Trusted UK Suppliers",
+    ]
+  ).map((label) => ({
     label: normalizeCopy(label),
     icon: trustIconForLabel(label),
   }));
@@ -182,19 +233,20 @@ export default function HowItWorksSection({
   return (
     <Section
       id={sectionId}
-      className={`relative overflow-hidden ${newDesignMode ? "bg-white" : "bg-[#f7f8fb]"} ${
-        flush
+      className={`relative overflow-hidden ${newDesignMode ? "bg-white" : "bg-[#f7f8fb]"} ${flush
           ? "!px-0 !py-[2px]"
           : compactSpacing
             ? "px-2 pb-5 pt-3 sm:pb-6 sm:pt-5 lg:pb-7 lg:pt-6"
-            : newDesignMode ? "px-2 py-9 sm:py-10 lg:py-12" : "px-2 pb-7 pt-4 sm:py-8 lg:py-10"
-      }`}
+            : newDesignMode
+              ? "!px-4 !py-5 sm:!px-6 sm:!py-8 lg:!px-8 lg:!py-10"
+              : " pb-7 pt-4 sm:py-8 lg:py-10"
+        }`}
     >
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div
           className="absolute right-0 top-0 hidden h-[340px] w-[440px] opacity-[0.08] lg:block"
           style={{
-            backgroundImage: `linear-gradient(180deg, rgba(248,249,250,0.5), rgba(248,249,250,0.92)), url(${bgImage})`,
+            backgroundImage: `url(${bgImage})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "top right",
@@ -206,31 +258,45 @@ export default function HowItWorksSection({
         className={
           flush
             ? "relative max-w-[1400px] !px-0 sm:!px-0 lg:!px-0"
-            : `relative max-w-7xl ${newDesignMode ? "!px-4 sm:!px-6 lg:!px-8" : variantLayout ? "px-4 sm:px-5 lg:px-6" : ""}`
+            : `relative !max-w-7xl ${newDesignMode ? "!px-0" : variantLayout ? "px-4 sm:px-5 lg:px-6" : ""}`
         }
       >
         <div className="mx-auto lg:mx-0">
-          <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-[#1289d5]/40 bg-[#06244d]/95 px-3.5 py-1.5 text-[14px] font-bold uppercase text-[white] shadow-[0_0_20px_rgba(26,145,232,0.25)] sm:mb-5 sm:text-[13px]">
+          <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-[#1289d5]/40 bg-[linear-gradient(135deg,#042f5a,#075b94)] px-3.5 py-1.5 text-[14px] font-bold uppercase text-white shadow-[0_0_20px_rgba(26,145,232,0.25)] sm:mb-5 sm:text-[13px]">
             <span>{normalizeCopy(data.tag)}</span>
           </div>
 
-          <h2 className={`max-w-[850px] font-['Manrope'] font-extrabold text-[#0d1b2e] ${newDesignMode ? "!text-[34px] leading-[1.04] tracking-[-0.04em] lg:!text-[40px] lg:leading-[1.04] lg:tracking-[-0.04em]" : "text-[27px] leading-[1.12] tracking-[-0.5px] lg:text-[44px] lg:leading-[1.03] lg:tracking-[-1px]"}`}>
+          <h2
+            style={{
+              fontFamily:
+                '"Bebas Neue", "Urbanist", ui-sans-serif, system-ui, sans-serif',
+              letterSpacing: "0.01em",
+            }}
+            className={`max-w-[850px] font-[var(--font-urbanist)] font-extrabold text-[#0d1b2e] ${newDesignMode ? "!text-[40px] leading-[1.04] tracking-normal sm:!text-[41px] lg:!text-[46px] lg:leading-[1.04]" : "text-[27px] leading-[1.12] tracking-normal lg:text-[44px] lg:leading-[1.03]"}`}
+          >
             {headingLines.map((line, index) => {
-              const isAccent = headingLines.length > 1 && index === headingLines.length - 1;
+              const isAccent =
+                headingLines.length > 1 && index === headingLines.length - 1;
               return (
                 <span
                   key={`${line}-${index}`}
-                  className={`block ${isAccent ? "lg:text-[#15803d]" : ""} ${index > 0 ? newDesignMode ? "mt-1 text-[34px] leading-[1.04] lg:text-[40px]" : "mt-1 text-[21px] leading-[1.15] lg:text-[34px]" : ""}`}
+                  className={`block ${isAccent ? "lg:text-[#15803d]" : ""} ${index > 0 ? (newDesignMode ? "mt-1 text-[34px] leading-[1.04] lg:text-[40px]" : "mt-1 text-[21px] leading-[1.15] lg:text-[34px]") : ""}`}
                 >
-                  <span className="lg:hidden">{renderMobileHeadingLine(line, index, isAccent)}</span>
-                  <span className="hidden lg:inline">{renderMobileHeadingLine(line, index, isAccent)}</span>
+                  <span className="lg:hidden">
+                    {renderMobileHeadingLine(line, index, isAccent)}
+                  </span>
+                  <span className="hidden lg:inline">
+                    {renderMobileHeadingLine(line, index, isAccent)}
+                  </span>
                 </span>
               );
             })}
           </h2>
         </div>
 
-        <div className={`${compactSpacing ? "mt-4" : "mt-5"} grid gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-4 ${variantLayout ? "xl:gap-5" : ""}`}>
+        <div
+          className={`${compactSpacing ? "mt-4" : "mt-5"} grid gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-4 ${variantLayout ? "xl:gap-5" : ""}`}
+        >
           {cards.map((card) => {
             const flipped = activeStep === card.number;
             const isRegistrationCard = card.number === 1;
@@ -240,11 +306,10 @@ export default function HowItWorksSection({
             return (
               <div
                 key={card.number}
-                className={`perspective-1000 ${
-                  variantLayout
+                className={`perspective-1000 ${variantLayout
                     ? "min-h-[252px] sm:min-h-[256px] lg:min-h-[248px] xl:min-h-[272px]"
                     : "min-h-[244px] sm:min-h-[252px] lg:min-h-[244px] xl:min-h-[274px]"
-                } ${card.number === 1 ? "md:col-span-2 md:mx-auto md:w-full md:max-w-[420px] lg:col-span-1 lg:max-w-none" : ""}`}
+                  } ${card.number === 1 ? "md:col-span-2 md:mx-auto md:w-full md:max-w-[420px] lg:col-span-1 lg:max-w-none" : ""}`}
               >
                 <button
                   type="button"
@@ -254,20 +319,20 @@ export default function HowItWorksSection({
                   aria-label={`${flipped ? "Hide details for" : "Show details for"} step ${card.number}`}
                 >
                   <div
-                    className={`relative h-full ${
-                      variantLayout
+                    className={`relative h-full ${variantLayout
                         ? "min-h-[252px] sm:min-h-[256px] lg:min-h-[248px] xl:min-h-[272px]"
                         : "min-h-[244px] sm:min-h-[252px] lg:min-h-[244px] xl:min-h-[274px]"
-                    } rounded-[18px] transition duration-500 [transform-style:preserve-3d] ${flipped ? "[transform:rotateY(180deg)]" : ""}`}
+                      } rounded-[18px] transition duration-500 [transform-style:preserve-3d] ${flipped ? "[transform:rotateY(180deg)]" : ""}`}
                   >
-                    <div className="absolute inset-0 flex h-full flex-col overflow-hidden rounded-[18px] border border-[#dbe4ef] bg-[linear-gradient(180deg,#ffffff_0%,#fbfdff_100%)] px-3 pb-2.5 pt-3 text-center shadow-[0_18px_40px_rgba(13,27,46,0.08)] [backface-visibility:hidden] sm:px-4 sm:pb-3 sm:pt-4 lg:px-4 lg:pb-3 lg:pt-4">
-                      <span className={`ml-auto font-['Manrope'] font-extrabold uppercase leading-none tracking-[0.14em] text-[#b3bcc9] ${variantLayout ? "text-[18px] sm:text-[22px] lg:text-[21px]" : "text-[20px] sm:text-[24px] lg:text-[22px]"}`}>
+                    <div className="absolute inset-0 flex h-full flex-col overflow-hidden rounded-[18px] border border-[#dbe4ef] bg-white px-3 pb-2.5 pt-3 text-center shadow-[0_18px_40px_rgba(13,27,46,0.08)] [backface-visibility:hidden] sm:px-4 sm:pb-3 sm:pt-4 lg:px-4 lg:pb-3 lg:pt-4">
+                      <span
+                        className={`ml-auto font-[var(--font-urbanist)] font-extrabold uppercase leading-none tracking-[0.14em] text-[#b3bcc9] ${variantLayout ? "text-[18px] sm:text-[22px] lg:text-[21px]" : "text-[20px] sm:text-[24px] lg:text-[22px]"}`}
+                      >
                         {stepNumber}
                       </span>
 
                       <div
-                        className={`mx-auto flex items-center justify-center rounded-[14px] ${
-                          isRegistrationCard
+                        className={`mx-auto flex items-center justify-center rounded-[14px] ${isRegistrationCard
                             ? variantLayout
                               ? "h-[74px] w-[224px] sm:h-[86px] sm:w-[242px] lg:h-[76px] lg:w-[214px]"
                               : "h-[82px] w-[238px] sm:h-[94px] sm:w-[256px] lg:h-[82px] lg:w-[230px]"
@@ -278,7 +343,7 @@ export default function HowItWorksSection({
                               : variantLayout
                                 ? "h-[72px] w-[72px] sm:h-[84px] sm:w-[84px] lg:h-[78px] lg:w-[78px]"
                                 : "h-[80px] w-[80px] sm:h-[90px] sm:w-[90px] lg:h-[82px] lg:w-[82px]"
-                        }`}
+                          }`}
                       >
                         <img
                           src={stepIconSrc(card)}
@@ -301,9 +366,15 @@ export default function HowItWorksSection({
 
                       <div className="mt-2.5 flex items-start justify-center lg:mt-2.5">
                         <h3
-                          className={`font-['Manrope'] font-bold leading-[1.14] text-[#0d1b2e] ${
-                            variantLayout ? "text-[17px] lg:text-[16px] xl:text-[18px]" : "text-[18px] lg:text-[17px] xl:text-[20px]"
-                          }`}
+                          style={{
+                            fontFamily:
+                              '"Bebas Neue", "Urbanist", ui-sans-serif, system-ui, sans-serif',
+                            letterSpacing: "0.03em",
+                          }}
+                          className={`leading-[1.14] text-[#0d1b2e] ${variantLayout
+                              ? "text-[22px] lg:text-[21px] xl:text-[23px]"
+                              : "text-[23px] lg:text-[22px] xl:text-[25px]"
+                            }`}
                         >
                           {card.front.h3}
                         </h3>
@@ -311,9 +382,10 @@ export default function HowItWorksSection({
 
                       <div className="mt-1.5 flex items-start justify-center lg:mt-1.5">
                         <p
-                          className={`mx-auto w-full max-w-[340px] text-[#5a6478] ${
-                            variantLayout ? "text-[13px] leading-[1.45] lg:max-w-[300px] lg:text-[12px] lg:leading-[1.45]" : "text-[13px] leading-[1.5] lg:max-w-[300px] lg:text-[13px] lg:leading-[1.5]"
-                          }`}
+                          className={`mx-auto w-full max-w-[340px] text-[#5a6478] ${variantLayout
+                              ? "text-[13px] leading-[1.45] lg:max-w-[300px] lg:text-[12px] lg:leading-[1.45]"
+                              : "text-[13px] leading-[1.5] lg:max-w-[300px] lg:text-[13px] lg:leading-[1.5]"
+                            }`}
                         >
                           {card.front.text}
                         </p>
@@ -327,14 +399,21 @@ export default function HowItWorksSection({
                       </div>
                     </div>
 
-                    <div className="absolute inset-0 flex h-full flex-col overflow-hidden rounded-[18px] border-[0.5px] border-[#2969af] bg-[#0d1b2e] p-3.5 text-white shadow-[0_0_0_1px_rgba(42,109,214,1),0_0_5px_rgba(42,109,214,0.4),0_0_12px_rgba(42,109,214,0.3),0_0_20px_rgba(42,109,214,0.2),0_3px_10px_rgba(42,109,214,0.25)] [backface-visibility:hidden] [transform:rotateY(180deg)] sm:p-4 lg:p-4">
+                    <div className="absolute inset-0 flex h-full flex-col overflow-hidden rounded-[18px] border-[0.5px] border-[#2969af] bg-[#061a33] p-3.5 text-white shadow-[0_0_0_1px_rgba(42,109,214,1),0_0_5px_rgba(42,109,214,0.4),0_0_12px_rgba(42,109,214,0.3),0_0_20px_rgba(42,109,214,0.2),0_3px_10px_rgba(42,109,214,0.25)] [backface-visibility:hidden] [transform:rotateY(180deg)] sm:p-4 lg:p-4">
                       <div className="flex items-center justify-start gap-3">
-                        <span className="font-['Manrope'] text-[12px] font-extrabold uppercase tracking-[0.14em] text-[#86efac]">
+                        <span className="font-[var(--font-urbanist)] text-[12px] font-extrabold uppercase tracking-[0.14em] text-[#86efac]">
                           Step {card.number}
                         </span>
                       </div>
 
-                      <h3 className="mt-3 text-center font-['Manrope'] text-[18px] font-bold leading-[1.15] text-white sm:text-[21px] lg:text-[18px]">
+                      <h3
+                        style={{
+                          fontFamily:
+                            '"Bebas Neue", "Urbanist", ui-sans-serif, system-ui, sans-serif',
+                          letterSpacing: "0.03em",
+                        }}
+                        className="mt-3 text-center text-[22px] leading-[1.15] text-white sm:text-[25px] lg:text-[22px]"
+                      >
                         {card.back.heading}
                       </h3>
 
@@ -345,7 +424,10 @@ export default function HowItWorksSection({
 
                         <ul className="mt-4 space-y-2.5 lg:mt-4 lg:space-y-2.5">
                           {card.back.bullets.map((bullet) => (
-                            <li key={bullet} className="flex items-start gap-3 text-[12.5px] leading-[1.5] text-[#e7eef8] sm:text-[13px] lg:gap-3 lg:text-[12.5px] lg:leading-[1.5]">
+                            <li
+                              key={bullet}
+                              className="flex items-start gap-3 text-[12.5px] leading-[1.5] text-[#e7eef8] sm:text-[13px] lg:gap-3 lg:text-[12.5px] lg:leading-[1.5]"
+                            >
                               <span className="mt-0.5 flex h-5 w-5 flex-none items-center justify-center rounded-full bg-[#15803d] text-white lg:h-5 lg:w-5">
                                 <TickIcon />
                               </span>
@@ -363,18 +445,21 @@ export default function HowItWorksSection({
         </div>
 
         <div
-          className={`mx-auto mt-2 flex flex-nowrap items-stretch justify-center gap-2 rounded-[12px] px-4 sm:mx-0 sm:flex-wrap sm:items-center sm:gap-3 lg:gap-4 ${
-            compactSpacing ? "py-2 sm:mt-4 sm:py-3" : "py-4 sm:mt-6"
-          } ${
-            variantLayout ? `border-t border-[#e3ebf5] ${compactSpacing ? "lg:mt-3" : "lg:mt-5"} lg:px-0` : compactSpacing ? "lg:mt-4" : "lg:mt-[24px]"
-          }`}
+          className={`mx-auto mt-2 flex flex-nowrap items-stretch justify-center gap-2 rounded-[12px] px-4 sm:mx-0 sm:flex-wrap sm:items-center sm:gap-3 lg:gap-4 ${compactSpacing ? "py-2 sm:mt-4 sm:py-3" : "py-4 sm:mt-6"
+            } ${variantLayout
+              ? `border-t border-[#e3ebf5] ${compactSpacing ? "lg:mt-3" : "lg:mt-5"} lg:px-0`
+              : compactSpacing
+                ? "lg:mt-4"
+                : "lg:mt-[24px]"
+            }`}
         >
           {footerTrustItems.map((item, index) => (
             <div key={item.label} className="contents">
               <div
-                className={`flex flex-1 flex-col items-center justify-center gap-1 p-1.5 sm:flex-none sm:flex-row sm:gap-2 ${
-                  variantLayout ? "rounded-none bg-transparent sm:px-1 sm:py-0" : "rounded-lg bg-slate-50 sm:rounded-full sm:px-3 sm:py-1.5"
-                }`}
+                className={`flex flex-1 flex-col items-center justify-center gap-1 p-1.5 sm:flex-none sm:flex-row sm:gap-2 ${variantLayout
+                    ? "rounded-none bg-transparent sm:px-1 sm:py-0"
+                    : "rounded-lg bg-slate-50 sm:rounded-full sm:px-3 sm:py-1.5"
+                  }`}
               >
                 <img
                   src={item.icon.src}
@@ -388,14 +473,19 @@ export default function HowItWorksSection({
                 </span>
               </div>
               {index < footerTrustItems.length - 1 ? (
-                <div className="h-5 w-px shrink-0 self-center bg-slate-300 sm:h-6" aria-hidden="true"></div>
+                <div
+                  className="h-5 w-px shrink-0 self-center bg-slate-300 sm:h-6"
+                  aria-hidden="true"
+                ></div>
               ) : null}
             </div>
           ))}
         </div>
 
         {ui.footerNote ? (
-          <p className={`mt-3 text-center text-[12px] leading-[1.6] text-[#64748b] ${variantLayout ? "sm:text-left" : "sm:text-center"}`}>
+          <p
+            className={`mt-3 text-center text-[12px] leading-[1.6] text-[#64748b] ${variantLayout ? "sm:text-left" : "sm:text-center"}`}
+          >
             {normalizeCopy(ui.footerNote)}
           </p>
         ) : null}
