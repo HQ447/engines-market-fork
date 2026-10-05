@@ -324,7 +324,11 @@ export default function NewDocBrandEngineCodes({ data }: Props) {
 
   return (
     <section id="brand-engine-codes" className="relative overflow-hidden bg-white px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-7">
-      <ModelMobileAccordion title={normalize(headingLines[0] ?? section.h2)} icon={<EngineIcon />}>
+      <ModelMobileAccordion
+        title={normalize(headingLines[0] ?? section.h2)}
+        icon={<EngineIcon className="h-5 w-5" />}
+        buttonClassName="!-my-[14px]"
+      >
         <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[240px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[12px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
           {heroImage ? <Image src={heroImage} alt="" fill className="object-contain object-right-top p-4 mix-blend-multiply [mask-image:linear-gradient(to_bottom,black_50%,transparent)]" sizes="430px" /> : null}
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.52)_0%,rgba(255,255,255,0.76)_55%,#fff_100%)] lg:bg-none" />

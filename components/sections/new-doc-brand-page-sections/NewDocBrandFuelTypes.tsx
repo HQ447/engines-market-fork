@@ -426,7 +426,7 @@ function FuelCard({
         </div>
       </div>
 
-      <ul className="mt-4 h-[38px] min-h-[38px] space-y-1.5 overflow-y-auto pl-2 text-[13px] leading-[1.4] text-[#334e70] [scrollbar-color:#b9cbd7_transparent] [scrollbar-width:thin] md:h-auto md:min-h-[92px] md:overflow-visible">
+      <ul className="mt-4 h-auto min-h-[92px] space-y-1.5 overflow-visible pl-2 text-[13px] leading-[1.4] text-[#334e70]">
         {highlights.map((value, index) => (
           <li key={`${value}-${index}`} className="flex gap-2">
             <span className={`font-black ${tone.icon}`}>✓</span>
@@ -1067,11 +1067,12 @@ export default function NewDocBrandFuelTypes({ data }: Props) {
   return (
     <section
       id="brand-fuel-types"
-      className="relative overflow-hidden bg-white px-4 py-3 sm:px-6 sm:py-8 lg:px-8 lg:py-7"
+      className="relative overflow-hidden bg-white px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-7"
     >
       <ModelMobileAccordion
         title={normalize(headingLines[0] ?? heading.primary)}
         icon={<BsFuelPumpDiesel className="h-5 w-5" aria-hidden="true" />}
+          buttonClassName="!-my-[14px]"
       >
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="grid items-center gap-6 lg:grid-cols-[1.15fr_0.85fr]">
@@ -1124,11 +1125,12 @@ export default function NewDocBrandFuelTypes({ data }: Props) {
           <ComparisonTable section={{ ...section, items: fuelItems }} brandName={data.brand.name} />
           <InformationBlocks />
 
-          <div
-            ref={mobileCardsRef}
-            onScroll={(event) => syncMobileCardIndex(event.currentTarget)}
-            className="mt-6 flex touch-pan-x snap-x snap-mandatory items-start gap-3 overflow-x-auto overscroll-x-contain pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:grid-cols-2 md:overflow-visible md:pb-0 xl:grid-cols-4"
-          >
+            <div
+              ref={mobileCardsRef}
+              onScroll={(event) => syncMobileCardIndex(event.currentTarget)}
+              className="mt-6 flex snap-x snap-mandatory items-start gap-3 overflow-x-auto overscroll-x-contain pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:grid-cols-2 md:overflow-visible md:pb-0 xl:grid-cols-4"
+              style={{ touchAction: "pan-x pan-y" }}
+            >
             {fuelItems.map((item, index) => (
               <div
                 key={`${item.title}-${index}`}

@@ -174,6 +174,7 @@ export default function NewDocBrandWhyChoose({ data, heroImage }: Props) {
       <ModelMobileAccordion
         title={section.h2}
         icon={<FiShield className="h-5 w-5" aria-hidden="true" />}
+          buttonClassName="!-my-[14px]"
       >
         <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[18px] bg-[#061a33] shadow-[0_14px_32px_rgba(7,25,54,0.14)]">
           {/* ── Mobile background image ── */}

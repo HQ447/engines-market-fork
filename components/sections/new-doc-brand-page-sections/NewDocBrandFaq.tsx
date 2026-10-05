@@ -49,6 +49,7 @@ export default function NewDocBrandFaq({ data, heroImage }: Props) {
       <ModelMobileAccordion
         title={headingLines[0] ?? faq.h2}
         icon={<FiMessageCircle className="h-5 w-5" aria-hidden="true" />}
+          buttonClassName="!-my-[14px]"
       >
         <div className="relative mx-auto w-full max-w-7xl">
           {/* FAQ heading / intro area */}

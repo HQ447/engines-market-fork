@@ -245,6 +245,7 @@ export default function NewDocBrandCommonProblems({ data, bgImage }: Props) {
       <ModelMobileAccordion
         title={heading.primary}
         icon={<FiAlertTriangle className="h-5 w-5" aria-hidden="true" />}
+          buttonClassName="!-my-[14px]"
       >
         <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[240px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[12px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
           <span className="absolute right-0 top-0 text-[60px] font-black uppercase leading-none tracking-[-0.08em] text-[#a9c8e2]/50">

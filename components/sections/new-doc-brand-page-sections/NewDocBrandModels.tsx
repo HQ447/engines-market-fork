@@ -34,6 +34,14 @@ function priceRangeOnly(value: string) {
   return prices[0] ?? value;
 }
 
+function priceRangeParts(value: string) {
+  const prices = value.match(/£\s?[\d,]+(?:\.\d+)?/gi) ?? [];
+
+  return prices.length >= 2
+    ? { minimum: prices[0], maximum: prices[1] }
+    : null;
+}
+
 function ChevronIcon({ open }: { open: boolean }) {
   return open ? <FiChevronUp /> : <FiChevronDown />;
 }
@@ -93,6 +101,7 @@ export default function NewDocBrandModels({ data, brandSlug }: Props) {
             <path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
           </svg>
         }
+          buttonClassName="!-my-[14px]"
       >
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="max-w-[760px]">
@@ -131,6 +140,7 @@ export default function NewDocBrandModels({ data, brandSlug }: Props) {
               const image = card.image || ENGINE_IMAGE;
               const title = modelName(card.h3);
               const price = priceRangeOnly(card.priceRange);
+              const priceParts = priceRangeParts(price);
               const rowIndex = Math.floor(index / columns);
               const isLastRow = rowIndex === totalRows - 1 && totalRows > 1;
               const opensUpward = isMobile && index >= visibleCards.length - 2;
@@ -176,7 +186,7 @@ export default function NewDocBrandModels({ data, brandSlug }: Props) {
 
                   {isOpen ? (
                     <div className={`${expandedPanelClass} min-h-[180px] overflow-hidden border-[0.5px] border-[#2969af] bg-[#0d1b2e] px-3 pb-3 pt-3 text-white shadow-[0_0_0_1px_rgba(42,109,214,1),0_0_5px_rgba(42,109,214,0.4),0_0_12px_rgba(42,109,214,0.3),0_0_20px_rgba(42,109,214,0.2),0_3px_10px_rgba(42,109,214,0.25)] before:pointer-events-none before:absolute before:inset-0 before:bg-[linear-gradient(125deg,rgba(255,255,255,0.18)_0%,rgba(255,255,255,0.05)_22%,rgba(255,255,255,0)_42%,rgba(45,107,255,0.16)_50%,rgba(255,255,255,0)_64%)] after:pointer-events-none after:absolute after:inset-x-0 after:top-0 after:h-px after:bg-gradient-to-r after:from-transparent after:via-white/70 after:to-transparent`}>
-                      <div className="relative z-10 space-y-2 xl:space-y-4">
+                      <div className="relative z-10 space-y-[9px] md:space-y-2 xl:space-y-4">
                         <div className="flex items-center justify-between gap-2 rounded-[8px] border border-blue-500 bg-white/[0.03] px-2.5 py-2.5 shadow-[0_0_15px_rgba(59,130,246,0.5),inset_0_0_12px_rgba(59,130,246,0.3)]">
                           <span className="flex-none text-[10px] font-semibold uppercase tracking-[0.08em] text-white/60">Model</span>
                           <span className="min-w-0 flex-1 truncate text-right text-[11px] font-semibold leading-none text-white">{title}</span>
@@ -187,7 +197,19 @@ export default function NewDocBrandModels({ data, brandSlug }: Props) {
                         </div>
                         <div className="flex items-center justify-between gap-2 rounded-[8px] border border-blue-500 bg-white/[0.03] px-2.5 py-2.5 shadow-[0_0_15px_rgba(59,130,246,0.5),inset_0_0_12px_rgba(59,130,246,0.3)]">
                           <span className="flex-none text-[10px] font-semibold uppercase tracking-[0.08em] text-white/60">Price</span>
-                          <span className="min-w-0 flex-1 text-right font-['Manrope'] text-[12px] font-extrabold leading-tight text-white">{price}</span>
+                          <span className="min-w-0 flex-1 text-right font-['Manrope'] text-[12px] font-extrabold leading-tight text-white">
+                            <span className="md:hidden">
+                              {priceParts ? (
+                                <>
+                                  <span className="block">{priceParts.minimum} -</span>
+                                  <span className="block">{priceParts.maximum}</span>
+                                </>
+                              ) : (
+                                price
+                              )}
+                            </span>
+                            <span className="hidden md:inline">{price}</span>
+                          </span>
                         </div>
                       </div>
                       <Link href={href} className="relative z-10 mt-3 inline-flex min-h-10 w-full items-center justify-between gap-2 overflow-hidden rounded-xl border border-green-400 bg-slate-900 px-2.5 py-2 text-white shadow-[0_0_15px_rgba(74,222,128,0.5),inset_0_0_12px_rgba(74,222,128,0.3)] transition hover:bg-slate-800 hover:shadow-[0_0_20px_rgba(74,222,128,0.8),inset_0_0_15px_rgba(74,222,128,0.5)]">
