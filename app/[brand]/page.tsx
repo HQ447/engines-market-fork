@@ -1,27 +1,25 @@
 import type { Metadata } from "next";
-import HeroSection from "@/components/sections/HeroSection";
-import HowItWorksSection from "@/components/sections/HowItWorksSection";
-import LiveMarketPricesSection from "@/components/sections/LiveMarketPricesSection";
-import ReviewsSection from "@/components/sections/ReviewsSection";
-import ModelsSection from "@/components/sections/ModelsSection";
-import EngineCodesSection from "@/components/sections/EngineCodesSection";
-import CommonProblemsSection from "@/components/sections/CommonProblemsSection";
-import EngineTypesSection from "@/components/sections/EngineTypesSection";
-import EngineSizesSection from "@/components/sections/EngineSizesSection";
-import FuelTypesSection from "@/components/sections/FuelTypesSection";
-import EngineYearsSection from "@/components/sections/EngineYearsSection";
-import FaqSection from "@/components/sections/FaqSection";
-import TrustCtaSection from "@/components/sections/TrustCtaSection";
 import AutoInternalLinks from "@/components/internal-links/AutoInternalLinks";
+import NewDocBrandCommonProblems from "@/components/sections/new-doc-brand-page-sections/NewDocBrandCommonProblems";
+import NewDocBrandEngineCodes from "@/components/sections/new-doc-brand-page-sections/NewDocBrandEngineCodes";
+import NewDocBrandEngineSizes from "@/components/sections/new-doc-brand-page-sections/NewDocBrandEngineSizes";
+import NewDocBrandEngineTypes from "@/components/sections/new-doc-brand-page-sections/NewDocBrandEngineTypes";
+import NewDocBrandEngineYears from "@/components/sections/new-doc-brand-page-sections/NewDocBrandEngineYears";
+import NewDocBrandFaq from "@/components/sections/new-doc-brand-page-sections/NewDocBrandFaq";
+import NewDocBrandFuelTypes from "@/components/sections/new-doc-brand-page-sections/NewDocBrandFuelTypes";
+import NewDocBrandHero from "@/components/sections/new-doc-brand-page-sections/NewDocBrandHero";
+import NewDocBrandHowItWorks from "@/components/sections/new-doc-brand-page-sections/NewDocBrandHowItWorks";
+import NewDocBrandLiveMarketPrices from "@/components/sections/new-doc-brand-page-sections/NewDocBrandLiveMarketPrices";
+import NewDocBrandModels from "@/components/sections/new-doc-brand-page-sections/NewDocBrandModels";
+import NewDocBrandReviews from "@/components/sections/new-doc-brand-page-sections/NewDocBrandReviews";
+import NewDocBrandWhyChoose from "@/components/sections/new-doc-brand-page-sections/NewDocBrandWhyChoose";
 import { getBrandPageData, getBrandSlugs } from "@/lib/brandData";
-import { getEngineLinkMapForBrand } from "@/lib/enginePageData";
 import { resolveBrandPageVisuals } from "@/lib/engineImageSelection";
 import { getInternalLinkPlan } from "@/lib/internalLinkIndex";
 import { resolveModelImagePaths } from "@/lib/modelImageAssets";
 import { getBrandModelCards } from "@/lib/modelPageData";
 import { SITE_URL } from "@/lib/site";
 import { buildBrandStructuredData } from "@/lib/structuredData";
-import { buildStaticReviewsSection } from "@/lib/staticReviews";
 import { notFound } from "next/navigation";
 
 type BrandPageProps = {
@@ -71,7 +69,6 @@ export default async function BrandPage({ params }: BrandPageProps) {
     pageData.sections.models.cards,
   );
   const structuredData = buildBrandStructuredData(pageData, allBrandModelCards);
-  const reviewsData = buildStaticReviewsSection(pageData.brand.name);
   const brandVisuals = resolveBrandPageVisuals(pageData);
   const modelCardsWithResolvedImages = allBrandModelCards.map((card) => ({
     ...card,
@@ -83,13 +80,6 @@ export default async function BrandPage({ params }: BrandPageProps) {
       configuredHeroImage: card.image,
     }).resolvedSmallImage,
   }));
-  const heroModelCards = modelCardsWithResolvedImages.slice(0, 3);
-  const trustCtaImage =
-    pageData.brand.slug === "land-rover"
-      ? "/images/brands/land-rover/cta-image.webp"
-      : brandVisuals.hero ?? modelCardsWithResolvedImages[0]?.image;
-  const initialTimestamp = new Date().toISOString();
-  const engineLinks = await getEngineLinkMapForBrand(pageData.brand.slug);
   const internalLinkPlan = await getInternalLinkPlan({
     brandSlug: pageData.brand.slug,
     currentPath: pageData.seo.canonical,
@@ -110,70 +100,54 @@ export default async function BrandPage({ params }: BrandPageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
-      <HeroSection
-        data={pageData.sections.hero}
-        bgImage={brandVisuals.hero}
-        modelCards={heroModelCards}
-        brandSlug={pageData.brand.slug}
-        disclaimerMode="icon"
-        engineLinks={engineLinks}
-      />
+      <NewDocBrandHero data={pageData} heroImage={brandVisuals.hero} />
 
-      <HowItWorksSection
+      <NewDocBrandHowItWorks
         data={pageData.sections.howItWorks}
         bgImage={pageData.assets.howItWorksBg}
         sectionId="how-it-works"
         compactSpacing
       />
 
-      <LiveMarketPricesSection
-        data={pageData.sections.liveMarketPrices}
-        modelCards={pageData.sections.models.cards}
-        imageSrc={pageData.sections.liveMarketPrices.imageSrc ?? brandVisuals.liveMarket}
-        displayMode="document"
-        initialTimestamp={initialTimestamp}
+      <NewDocBrandLiveMarketPrices
+        data={pageData}
+        heroImage={brandVisuals.liveMarket || brandVisuals.hero}
       />
 
-      <ReviewsSection data={reviewsData} useDataHeading documentMode />
+      <NewDocBrandReviews data={pageData} />
 
-      <ModelsSection
+      <NewDocBrandModels
         data={{
           ...pageData.sections.models,
           cards: modelCardsWithResolvedImages,
         }}
         brandSlug={pageData.brand.slug}
-        documentMode
       />
 
-      <EngineCodesSection data={pageData.sections.engineCodes} bgImage={brandVisuals.hero} />
+      <NewDocBrandEngineCodes data={pageData} />
 
-      <CommonProblemsSection data={pageData.sections.commonProblems} bgImage={pageData.assets.commonProblemsBg} documentMode />
-
-      <EngineTypesSection
-        data={pageData.sections.engineTypes}
-        bgImage={pageData.assets.engineTypesBg}
-        documentMode
-        sectionId="brand-engine-types"
+      <NewDocBrandCommonProblems
+        data={pageData}
+        bgImage={brandVisuals.hero}
       />
 
-      <EngineSizesSection
-        brandName={pageData.brand.name}
-        data={pageData.sections.engineSizes}
-        bgImage={pageData.assets.engineSizesBg}
-        documentMode
+      <NewDocBrandEngineTypes
+        data={pageData}
+        bgImage={brandVisuals.hero}
       />
 
-      <FuelTypesSection data={pageData.sections.fuelTypes} bgImage={pageData.assets.fuelTypesBg} documentMode />
-
-      <EngineYearsSection brandName={pageData.brand.name} data={pageData.sections.engineYears} />
-
-      <FaqSection data={pageData.sections.faq} documentMode />
-
-      <TrustCtaSection
-        data={pageData.sections.trustCta}
-        brandName={pageData.brand.name}
-        imageSrc={trustCtaImage}
+      <NewDocBrandEngineSizes
+        data={pageData}
+        bgImage={brandVisuals.hero}
       />
+
+      <NewDocBrandFuelTypes data={pageData} />
+
+      <NewDocBrandEngineYears data={pageData} heroImage={brandVisuals.hero} />
+
+      <NewDocBrandFaq data={pageData} heroImage={brandVisuals.hero} />
+
+      <NewDocBrandWhyChoose data={pageData} heroImage={brandVisuals.hero} />
     </>
   );
 }

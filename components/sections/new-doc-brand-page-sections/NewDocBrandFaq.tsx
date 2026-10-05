@@ -10,12 +10,12 @@ import {
   FiMinus,
   FiPlus,
 } from "react-icons/fi";
-import type { ModelPageData } from "@/types/model";
-import ModelMobileAccordion from "./ModelMobileAccordion";
+import type { BrandPageData } from "@/types/brand";
+import ModelMobileAccordion from "../new-doc-model-page-sections/ModelMobileAccordion";
 
-type Props = { data: ModelPageData };
+type Props = { data: BrandPageData; heroImage?: string };
 
-function getHeadingLines(data: ModelPageData["sections"]["faq"]) {
+function getHeadingLines(data: BrandPageData["sections"]["faq"]) {
   if (data.headingLines?.length) return data.headingLines;
 
   const accent = "Frequently Asked Questions";
@@ -32,25 +32,23 @@ function getHeadingLines(data: ModelPageData["sections"]["faq"]) {
   return [data.h2];
 }
 
-export default function NewDocModelFaq({ data }: Props) {
+export default function NewDocBrandFaq({ data, heroImage }: Props) {
   const faq = data.sections.faq;
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const headingLines = getHeadingLines(faq);
-  const vehicleImage =
-    data.assets.mainImage || data.assets.smallImage || data.assets.heroBg;
+  const vehicleImage = heroImage || data.assets.heroBg;
   const ui = faq.ui ?? {};
 
   return (
     <section
-      className="relative overflow-hidden bg-white px-4 py-3 sm:px-6 sm:py-5 lg:px-8 lg:py-7"
+      className="relative overflow-hidden bg-white px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-7"
       aria-labelledby="model-faq-title"
     >
       <ModelMobileAccordion
         title={headingLines[0] ?? faq.h2}
         icon={<FiMessageCircle className="h-5 w-5" aria-hidden="true" />}
-        buttonClassName="mt-[-0.25rem] mb-3 sm:mt-0 sm:mb-0"
       >
         <div className="relative mx-auto w-full max-w-7xl">
           {/* FAQ heading / intro area */}
