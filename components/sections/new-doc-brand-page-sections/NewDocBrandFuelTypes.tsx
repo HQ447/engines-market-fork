@@ -1,7 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState, type CSSProperties, type FormEvent } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type FormEvent,
+} from "react";
 import { BsFuelPumpDiesel } from "react-icons/bs";
 import { FaSearch, FaShieldAlt, FaTools } from "react-icons/fa";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
@@ -61,12 +67,17 @@ type CanonicalFuelKind = "diesel" | "petrol" | "hybrid" | "electric";
 const fallbackFuelItems: Record<CanonicalFuelKind, FuelItem> = {
   diesel: {
     title: "Diesel Engines",
-    description: "Excellent fuel economy, strong torque and proven long-distance durability.",
+    description:
+      "Excellent fuel economy, strong torque and proven long-distance durability.",
     descriptor:
       "Diesel engines remain a strong choice for motorway commuters and high-mileage drivers, especially where torque and fuel economy matter most.",
     families: ["Typical replacement cost: £1,500 - £4,000"],
     foundIn: ["1 Series", "3 Series", "5 Series", "X models"],
-    knownFor: ["Timing chain wear", "DPF and AdBlue issues", "EGR cooler leaks"],
+    knownFor: [
+      "Timing chain wear",
+      "DPF and AdBlue issues",
+      "EGR cooler leaks",
+    ],
     typicalModels: ["BMW 1 Series", "BMW 3 Series", "BMW X5"],
     importantNotes: ["Best for long-distance driving"],
     cta: "Get quotes for Diesel engines",
@@ -78,19 +89,28 @@ const fallbackFuelItems: Record<CanonicalFuelKind, FuelItem> = {
       "Petrol engines suit lower-mileage drivers, city use and performance-focused models where refinement and responsive power delivery matter.",
     families: ["Typical replacement cost: £1,500 - £3,800"],
     foundIn: ["1 Series", "3 Series", "M models"],
-    knownFor: ["Timing chain guide wear", "Coolant housing leaks", "High pressure fuel pump faults"],
+    knownFor: [
+      "Timing chain guide wear",
+      "Coolant housing leaks",
+      "High pressure fuel pump faults",
+    ],
     typicalModels: ["BMW 1 Series", "BMW 2 Series", "BMW M models"],
     importantNotes: ["Best for city and short trips"],
     cta: "Get quotes for Petrol engines",
   },
   hybrid: {
     title: "Hybrid (PHEV)",
-    description: "Electric assistance with petrol efficiency for mixed driving.",
+    description:
+      "Electric assistance with petrol efficiency for mixed driving.",
     descriptor:
       "Hybrid engines combine a combustion engine with an electric drive system, reducing urban running costs while keeping petrol flexibility.",
     families: ["Typical replacement cost: £2,500 - £4,500 + battery"],
     foundIn: ["PHEV models"],
-    knownFor: ["Battery degradation", "Thermal shock wear", "Electric water pump failure"],
+    knownFor: [
+      "Battery degradation",
+      "Thermal shock wear",
+      "Electric water pump failure",
+    ],
     typicalModels: ["BMW 330e", "BMW 530e", "BMW X5 xDrive45e"],
     importantNotes: ["Best for company car users"],
     cta: "Get quotes for Hybrid engines",
@@ -102,7 +122,11 @@ const fallbackFuelItems: Record<CanonicalFuelKind, FuelItem> = {
       "Electric drivetrains remove many combustion-engine service items, though drive units, battery modules and charging systems still need specialist checks.",
     families: ["Typical replacement cost: £2,500 - £5,000 + battery"],
     foundIn: ["BEV models"],
-    knownFor: ["Battery module degradation", "Onboard charger failure", "Electric motor bearing wear"],
+    knownFor: [
+      "Battery module degradation",
+      "Onboard charger failure",
+      "Electric motor bearing wear",
+    ],
     typicalModels: ["BMW i3", "BMW i4", "BMW iX"],
     importantNotes: ["Best for low-maintenance city drivers"],
     cta: "Get quotes for Electric engines",
@@ -119,7 +143,9 @@ function completeFuelItems(items: FuelItem[]) {
   const used = new Set<FuelItem>();
 
   for (const kind of ["diesel", "petrol", "hybrid", "electric"] as const) {
-    const item = items.find((candidate) => canonicalFuelKind(candidate) === kind);
+    const item = items.find(
+      (candidate) => canonicalFuelKind(candidate) === kind,
+    );
     if (item) {
       displayed.push(item);
       used.add(item);
@@ -399,7 +425,11 @@ function FuelCard({
 
   return (
     <article
-      className={`relative flex h-full min-w-0 flex-col overflow-hidden rounded-xl border border-[#c4d6e6] bg-[linear-gradient(135deg,rgba(255,255,255,0.86)_0%,rgba(255,255,255,0.72)_52%,rgba(255,255,255,0.82)_100%)] p-4 shadow-[inset_1px_1px_0_rgba(255,255,255,0.9),inset_-1px_-1px_0_rgba(255,255,255,0.58),0_8px_22px_rgba(19,92,145,0.12)] backdrop-blur-xl transition ${active ? "ring-2 ring-offset-2" : ""}`}
+      onClick={(event) => {
+        if ((event.target as HTMLElement).closest("a, button")) return;
+        onToggle();
+      }}
+      className={`relative flex h-full min-w-0 cursor-pointer flex-col overflow-hidden rounded-xl border border-[#c4d6e6] bg-[linear-gradient(135deg,rgba(255,255,255,0.86)_0%,rgba(255,255,255,0.72)_52%,rgba(255,255,255,0.82)_100%)] p-4 shadow-[inset_1px_1px_0_rgba(255,255,255,0.9),inset_-1px_-1px_0_rgba(255,255,255,0.58),0_8px_22px_rgba(19,92,145,0.12)] backdrop-blur-xl transition ${active ? "ring-2 ring-offset-2" : ""}`}
       style={
         active
           ? ({ "--tw-ring-color": tone.accent } as CSSProperties)
@@ -816,7 +846,9 @@ function RegistrationWarrantyBox({ data }: Props) {
         <span className="grid h-10 w-10 shrink-0 place-items-center rounded-[10px] border-2 border-[#f5c542] text-[14px] font-black text-[#f5c542] md:h-14 md:w-14 md:rounded-[14px] md:text-[18px]">
           12
         </span>
-        <p className="text-[12px] font-black uppercase md:text-[16px]">{warrantyCopy(data)}</p>
+        <p className="text-[12px] font-black uppercase md:text-[16px]">
+          {warrantyCopy(data)}
+        </p>
       </div>
     </div>
   );
@@ -835,6 +867,10 @@ function FuelDetailPanel({
   const [openDetail, setOpenDetail] = useState<DetailKey | null>(null);
   const modelValues = detailModelValues(item);
   const issueValues = detailIssueValues(item);
+  const headingTitle = `${normalize(brandName)} ${normalize(item.title)}`;
+  const headingSubtitle = normalize(item.descriptor || item.description).split(
+    /[.!?]/,
+  )[0];
   const choiceValues = (item.importantNotes ?? []).filter(
     (value) => !/^typical searches:/i.test(value),
   );
@@ -899,13 +935,12 @@ function FuelDetailPanel({
           <h3
             className={`text-[21px] font-extrabold leading-[1.15] ${tone.icon}`}
           >
-            {normalize(brandName)} {normalize(item.title)}{" "}
-            <span className="font-semibold">
-              —{" "}
-              {normalize(item.descriptor || item.description).split(/[.!?]/)[0]}
+            <span className="block font-extrabold">{headingTitle}</span>
+            <span className="mt-1 block text-[16px] font-semibold leading-[1.35]">
+              {headingSubtitle}
             </span>
           </h3>
-          <p className="mt-2 text-[14px] leading-[1.6] text-[#526a87]">
+          <p className="mt-3 text-[14px] leading-[1.6] text-[#526a87]">
             {normalize(item.description)}
           </p>
         </div>
@@ -1072,7 +1107,7 @@ export default function NewDocBrandFuelTypes({ data }: Props) {
       <ModelMobileAccordion
         title={normalize(headingLines[0] ?? heading.primary)}
         icon={<BsFuelPumpDiesel className="h-5 w-5" aria-hidden="true" />}
-          buttonClassName="!-my-[14px]"
+        buttonClassName="!-my-[14px]"
       >
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="grid items-center gap-6 lg:grid-cols-[1.15fr_0.85fr]">
@@ -1122,15 +1157,18 @@ export default function NewDocBrandFuelTypes({ data }: Props) {
             </div>
           </div>
 
-          <ComparisonTable section={{ ...section, items: fuelItems }} brandName={data.brand.name} />
+          <ComparisonTable
+            section={{ ...section, items: fuelItems }}
+            brandName={data.brand.name}
+          />
           <InformationBlocks />
 
-            <div
-              ref={mobileCardsRef}
-              onScroll={(event) => syncMobileCardIndex(event.currentTarget)}
-              className="mt-6 flex snap-x snap-mandatory items-start gap-3 overflow-x-auto overscroll-x-contain pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:grid-cols-2 md:overflow-visible md:pb-0 xl:grid-cols-4"
-              style={{ touchAction: "pan-x pan-y" }}
-            >
+          <div
+            ref={mobileCardsRef}
+            onScroll={(event) => syncMobileCardIndex(event.currentTarget)}
+            className="mt-6 flex snap-x snap-mandatory items-start gap-3 overflow-x-auto overscroll-x-contain pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:grid-cols-2 md:overflow-visible md:pb-0 xl:grid-cols-4"
+            style={{ touchAction: "pan-x pan-y" }}
+          >
             {fuelItems.map((item, index) => (
               <div
                 key={`${item.title}-${index}`}
@@ -1167,8 +1205,11 @@ export default function NewDocBrandFuelTypes({ data }: Props) {
           </div>
 
           {fuelItems.length > 1 ? (
-            <div className="mt-1 flex items-center justify-center gap-2 md:hidden" aria-label="Fuel type cards">
-                {fuelItems.map((item, index) => (
+            <div
+              className="mt-1 flex items-center justify-center gap-2 md:hidden"
+              aria-label="Fuel type cards"
+            >
+              {fuelItems.map((item, index) => (
                 <button
                   key={`fuel-card-dot-${item.title}-${index}`}
                   type="button"

@@ -476,7 +476,7 @@ function EngineCard({
       aria-pressed={flipped}
     >
       <div
-        className="relative min-h-[430px] transition-transform duration-500 [transform-style:preserve-3d]"
+        className="relative transition-transform duration-500 [transform-style:preserve-3d]"
         style={{ transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)" }}
       >
         <div

@@ -13,6 +13,7 @@ type Props = { data: ModelsSectionData; brandSlug: string };
 const ENGINE_IMAGE =
   "/images/engines/fac66331-c94d-48e9-983a-7997fd84a619_removalai_preview.webp";
 const MOBILE_MODEL_BATCH_SIZE = 6;
+const DESKTOP_MODEL_ROW_COUNT = 2;
 
 function splitHeading(value: string) {
   const parts = value
@@ -59,6 +60,7 @@ export default function NewDocBrandModels({ data, brandSlug }: Props) {
   const [openModel, setOpenModel] = useState<string | null>(null);
   const [columns, setColumns] = useState(2);
   const [isMobile, setIsMobile] = useState(false);
+  const [showAllModels, setShowAllModels] = useState(false);
   const [mobileVisibleCount, setMobileVisibleCount] = useState(
     MOBILE_MODEL_BATCH_SIZE,
   );
@@ -81,13 +83,14 @@ export default function NewDocBrandModels({ data, brandSlug }: Props) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const totalRows = Math.ceil(data.cards.length / columns);
   const useStackedExpansion = columns <= 2;
   const visibleCards = isMobile
     ? data.cards.slice(0, mobileVisibleCount)
-    : data.cards;
-  const hasMoreMobileModels =
-    isMobile && mobileVisibleCount < data.cards.length;
+    : showAllModels
+      ? data.cards
+      : data.cards.slice(0, columns * DESKTOP_MODEL_ROW_COUNT);
+  const visibleRows = Math.ceil(visibleCards.length / columns);
+  const hasMoreModels = visibleCards.length < data.cards.length;
 
   return (
     <section
@@ -142,7 +145,7 @@ export default function NewDocBrandModels({ data, brandSlug }: Props) {
               const price = priceRangeOnly(card.priceRange);
               const priceParts = priceRangeParts(price);
               const rowIndex = Math.floor(index / columns);
-              const isLastRow = rowIndex === totalRows - 1 && totalRows > 1;
+              const isLastRow = rowIndex === visibleRows - 1 && visibleRows > 1;
               const opensUpward = isMobile && index >= visibleCards.length - 2;
 
               const expandedPanelClass = isMobile
@@ -222,18 +225,22 @@ export default function NewDocBrandModels({ data, brandSlug }: Props) {
               );
             })}
           </div>
-          {hasMoreMobileModels ? (
-            <div className="mt-5 flex justify-center md:hidden">
+          {hasMoreModels ? (
+            <div className="mt-5 flex justify-center">
               <button
                 type="button"
-                onClick={() =>
-                  setMobileVisibleCount((current) =>
-                    Math.min(
-                      current + MOBILE_MODEL_BATCH_SIZE,
-                      data.cards.length,
-                    ),
-                  )
-                }
+                onClick={() => {
+                  if (isMobile) {
+                    setMobileVisibleCount((current) =>
+                      Math.min(
+                        current + MOBILE_MODEL_BATCH_SIZE,
+                        data.cards.length,
+                      ),
+                    );
+                  } else {
+                    setShowAllModels(true);
+                  }
+                }}
                 className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2 text-[12px] font-bold text-[#0d1b2e] transition hover:border-[#0d1b2e] hover:bg-slate-50"
               >
                 See More

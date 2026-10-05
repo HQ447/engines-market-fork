@@ -193,7 +193,7 @@ export default function NewDocBrandWhyChoose({ data, heroImage }: Props) {
           </div>
 
           {/* ── Main content area ── */}
-          <div className="relative z-10 px-4 py-5 sm:px-6 sm:py-6 lg:px-7 lg:py-7">
+          <div className="relative z-10 px-4 py-5 sm:px-6 sm:py-6 lg:px-7 lg:pb-7 lg:pt-0">
             {/* top row: text left | car image right */}
             <div className="flex items-center gap-6 lg:gap-8">
               {/* Left: tag + heading + description */}
@@ -230,7 +230,7 @@ export default function NewDocBrandWhyChoose({ data, heroImage }: Props) {
               {/* Right: car image (inline, not absolute) */}
               <div
                 className="relative hidden shrink-0 md:block"
-                style={{ width: "38%", aspectRatio: "16/9" }}
+                style={{ width: "46%", aspectRatio: "16/9" }}
               >
                 {/* diagonal left-edge fade */}
                 <div className="pointer-events-none absolute inset-0 z-10 bg-[linear-gradient(to_right,#061a33_0%,rgba(6,26,51,0.3)_30%,transparent_60%)]" />
@@ -238,7 +238,7 @@ export default function NewDocBrandWhyChoose({ data, heroImage }: Props) {
                   src={heroImage}
                   alt={section.imageAlt ?? `${data.brand.name} engine`}
                   fill
-                  sizes="(max-width: 1023px) 38vw, 500px"
+                  sizes="(max-width: 1023px) 46vw, 620px"
                   className="rounded-xl object-contain object-center drop-shadow-[0_12px_24px_rgba(0,0,0,0.4)]"
                 />
                 {/* 12-Month badge — overlaid on image */}
