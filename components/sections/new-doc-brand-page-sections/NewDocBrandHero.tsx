@@ -10,7 +10,13 @@ import { IoShieldCheckmark } from "react-icons/io5";
 import { FaTools } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 
-type Props = { data: BrandPageData; heroImage?: string };
+type BrandModelCard = BrandPageData["sections"]["models"]["cards"][number];
+
+type Props = {
+  data: BrandPageData;
+  heroImage?: string;
+  modelCards?: BrandModelCard[];
+};
 
 const tickerItems = [
   {
@@ -163,7 +169,30 @@ function renderHeroHeading(title: string) {
   );
 }
 
-export default function NewDocBrandHero({ data, heroImage }: Props) {
+function buildFallbackHighlights(modelCards: BrandModelCard[]) {
+  const preferred = [
+    modelCards.find((card) => /defender/i.test(card.slug)),
+    modelCards.find((card) => /discovery/i.test(card.slug)),
+    modelCards.find((card) => /range-rover/i.test(card.slug)),
+  ].filter(Boolean) as BrandModelCard[];
+
+  const cards = (preferred.length >= 3 ? preferred : modelCards).slice(0, 3);
+
+  return cards.map((card) => ({
+    title: card.h3,
+    price: card.priceRange,
+    line2: card.subtitle,
+    detail: card.subtitle,
+    image: card.image,
+    imageAlt: card.h3,
+  }));
+}
+
+export default function NewDocBrandHero({
+  data,
+  heroImage,
+  modelCards = [],
+}: Props) {
   const [registration, setRegistration] = useState("");
   const [hasImageError, setHasImageError] = useState(false);
   const [isDisclaimerOpen, setIsDisclaimerOpen] = useState(false);
@@ -172,7 +201,9 @@ export default function NewDocBrandHero({ data, heroImage }: Props) {
   const modelName = displayBrandName(data);
   const imageSrc = heroImage || data.assets.heroBg;
 
-  const engineHighlights = hero.highlights ?? [];
+  const engineHighlights = hero.highlights?.length
+    ? hero.highlights
+    : buildFallbackHighlights(modelCards);
   const disclaimer = hero.disclaimer;
   const hasDisclaimer = Boolean(disclaimer?.note?.trim());
   const disclaimerLines = disclaimer?.note?.trim()
@@ -295,10 +326,10 @@ export default function NewDocBrandHero({ data, heroImage }: Props) {
                     className="flex min-w-0 items-center gap-3 rounded-2xl border border-white/70 bg-white/45 px-3 py-3 shadow-[0_14px_32px_rgba(20,72,120,0.2),inset_0_1px_rgba(255,255,255,0.85)] backdrop-blur-[18px] sm:px-4"
                   >
                     <div className="flex h-14 w-20 shrink-0 items-center justify-center rounded-xl border-0 bg-transparent p-0">
-                      {imageSrc ? (
+                      {highlight.image || imageSrc ? (
                         <Image
-                          src={imageSrc}
-                          alt=""
+                          src={highlight.image || imageSrc || ""}
+                          alt={highlight.imageAlt || ""}
                           width={64}
                           height={48}
                           className="h-full w-full object-contain"

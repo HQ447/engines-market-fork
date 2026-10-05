@@ -100,7 +100,11 @@ export default async function BrandPage({ params }: BrandPageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
-      <NewDocBrandHero data={pageData} heroImage={brandVisuals.hero} />
+      <NewDocBrandHero
+        data={pageData}
+        heroImage={brandVisuals.hero}
+        modelCards={modelCardsWithResolvedImages}
+      />
 
       <NewDocBrandHowItWorks
         data={pageData.sections.howItWorks}
