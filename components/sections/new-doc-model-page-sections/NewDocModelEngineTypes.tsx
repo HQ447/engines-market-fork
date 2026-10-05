@@ -655,7 +655,9 @@ export default function NewDocModelEngineTypes({ data }: Props) {
     data.assets.mainImage || data.assets.smallImage || data.assets.heroBg;
   const types = section.types.slice(0, 6);
   const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
-  const [activeMobileCard, setActiveMobileCard] = useState<number | null>(null);
+  const [activeMobileCard, setActiveMobileCard] = useState<number | null>(
+    types.length ? types.length - 1 : null,
+  );
   const [flippedMobileCard, setFlippedMobileCard] = useState<number | null>(
     null,
   );

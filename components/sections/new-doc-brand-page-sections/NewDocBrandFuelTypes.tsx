@@ -429,7 +429,7 @@ function FuelCard({
         if ((event.target as HTMLElement).closest("a, button")) return;
         onToggle();
       }}
-      className={`relative flex h-full min-w-0 cursor-pointer flex-col overflow-hidden rounded-xl border border-[#c4d6e6] bg-[linear-gradient(135deg,rgba(255,255,255,0.86)_0%,rgba(255,255,255,0.72)_52%,rgba(255,255,255,0.82)_100%)] p-4 shadow-[inset_1px_1px_0_rgba(255,255,255,0.9),inset_-1px_-1px_0_rgba(255,255,255,0.58),0_8px_22px_rgba(19,92,145,0.12)] backdrop-blur-xl transition ${active ? "ring-2 ring-offset-2" : ""}`}
+      className={`relative flex h-full min-w-0 cursor-pointer flex-col overflow-hidden rounded-xl border border-[#c4d6e6] bg-[linear-gradient(135deg,rgba(255,255,255,0.86)_0%,rgba(255,255,255,0.72)_52%,rgba(255,255,255,0.82)_100%)] p-4 shadow-[inset_1px_1px_0_rgba(255,255,255,0.9),inset_-1px_-1px_0_rgba(255,255,255,0.58),0_8px_22px_rgba(19,92,145,0.12)] backdrop-blur-xl transition ${active ? "md:ring-2 md:ring-offset-2" : ""}`}
       style={
         active
           ? ({ "--tw-ring-color": tone.accent } as CSSProperties)
