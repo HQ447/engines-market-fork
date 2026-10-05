@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
-import type { ModelPageData } from "@/types/model";
+import type { BrandPageData } from "@/types/brand";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
+import { splitBrandHeading } from "./brandHeading";
 
-type Props = { data: ModelPageData };
+type Props = { data: BrandPageData; heroImage?: string };
 
 function normalize(value: string) {
   return value
@@ -16,11 +17,7 @@ function normalize(value: string) {
 }
 
 function splitMarketHeading(value: string) {
-  const heading = value.replace(/[–—]/g, "-").replace(/-\s*$/, "").trim();
-  const match = heading.match(/^(.*?\sfor\s)(.+)$/i);
-  return match
-    ? { primary: match[1].trim(), accent: match[2].trim() }
-    : { primary: heading, accent: "" };
+  return splitBrandHeading(value);
 }
 
 function PulseIcon() {
@@ -56,7 +53,7 @@ function Chevron({ open }: { open: boolean }) {
 }
 
 /** This document-page copy keeps its type scale and gutters independent of the brand-page widget. */
-export default function NewDocModelLiveMarketPrices({ data }: Props) {
+export default function NewDocBrandLiveMarketPrices({ data, heroImage }: Props) {
   const market = data.sections.liveMarketPrices;
   const [activeTab, setActiveTab] = useState("all");
   const [menuOpen, setMenuOpen] = useState(false);
@@ -80,7 +77,7 @@ export default function NewDocModelLiveMarketPrices({ data }: Props) {
     ? market.headingLines
     : [market.h2];
   const marketHeading = splitMarketHeading(market.h2);
-  const imageSrc = market.imageSrc ?? data.assets.mainImage;
+  const imageSrc = market.imageSrc ?? heroImage ?? data.assets.heroBg;
 
   return (
     <Section className="bg-[#f7f8fb] !px-4 !py-5 sm:!px-6 sm:!py-8 lg:!px-8 lg:!py-7">
@@ -234,3 +231,4 @@ export default function NewDocModelLiveMarketPrices({ data }: Props) {
     </Section>
   );
 }
+

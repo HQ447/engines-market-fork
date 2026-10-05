@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import type { ModelPageData } from "@/types/model";
+import type { BrandPageData } from "@/types/brand";
 import { FiCalendar } from "react-icons/fi";
-import ModelMobileAccordion from "./ModelMobileAccordion";
+import ModelMobileAccordion from "../new-doc-model-page-sections/ModelMobileAccordion";
+import { splitBrandHeading } from "./brandHeading";
 
-type Props = { data: ModelPageData };
+type Props = { data: BrandPageData; heroImage?: string };
 
 function normalize(value: string) {
   return value.replace(/[–—]/g, "-").trim();
@@ -33,23 +34,27 @@ function ColumnTitle({
   );
 }
 
-export default function NewDocModelEngineYears({ data }: Props) {
+export default function NewDocBrandEngineYears({ data, heroImage }: Props) {
   const section = data.sections.engineYears;
   const headingLines = section.headingLines?.length
     ? section.headingLines
     : [section.h2];
+  const headingParts = splitBrandHeading(headingLines[0] ?? section.h2);
   const [activeIndex, setActiveIndex] = useState(0);
   const active = section.years[activeIndex] ?? section.years[0];
-  const sectionImage =
-    data.assets.mainImage || data.assets.smallImage || data.assets.heroBg;
+  const sectionImage = heroImage || data.assets.heroBg;
   const yearImage = sectionImage;
   if (!active) return null;
 
   return (
-    <section className="relative overflow-hidden bg-[#f7f8fb] px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-7">
+    <section
+      data-no-auto-link="true"
+      className="relative overflow-hidden bg-[#f7f8fb] px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-7"
+    >
       <ModelMobileAccordion
         title={normalize(headingLines[0] ?? section.h2)}
         icon={<FiCalendar className="h-5 w-5" aria-hidden="true" />}
+          buttonClassName="!-my-[14px]"
       >
         <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[240px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[12px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
           {sectionImage ? (
@@ -76,14 +81,21 @@ export default function NewDocModelEngineYears({ data }: Props) {
             className="mt-5 max-w-[760px] !text-[40px] font-extrabold leading-[1.03] tracking-normal !tracking-[-0.02em] text-[#09264e] sm:!tracking-[0.01em] sm:!text-[41px] lg:max-w-[760px] lg:whitespace-normal lg:!text-[46px]"
           >
             <span className="lg:hidden">
-              {headingLines.map((line, index) => (
-                <span
-                  key={`${line}-${index}`}
-                  className={`block ${index > 0 ? "text-[#15803d]" : ""}`}
-                >
-                  {normalize(line)}
-                </span>
-              ))}
+              {headingLines.length > 1 ? (
+                headingLines.map((line, index) => (
+                  <span
+                    key={`${line}-${index}`}
+                    className={`block ${index > 0 ? "text-[#15803d]" : ""}`}
+                  >
+                    {normalize(line)}
+                  </span>
+                ))
+              ) : (
+                <>
+                  <span>{normalize(headingParts.primary)}</span>{" "}
+                  {headingParts.accent ? <span className="text-[#15803d]">{normalize(headingParts.accent)}</span> : null}
+                </>
+              )}
             </span>
             <span className="hidden lg:inline">
               {headingLines.length > 1 ? (
@@ -94,7 +106,10 @@ export default function NewDocModelEngineYears({ data }: Props) {
                   </span>
                 </>
               ) : (
-                normalize(section.h2)
+                <>
+                  {normalize(headingParts.primary)}{" "}
+                  {headingParts.accent ? <span className="text-[#15803d]">{normalize(headingParts.accent)}</span> : null}
+                </>
               )}
             </span>
           </h2>
@@ -125,7 +140,10 @@ export default function NewDocModelEngineYears({ data }: Props) {
               );
             })}
           </div>
-          <article className="mt-5 overflow-hidden rounded-xl border border-[#8cc5ef] bg-white ">
+          <article
+            data-no-auto-link="true"
+            className="mt-5 overflow-hidden rounded-xl border border-[#8cc5ef] bg-white "
+          >
             <div className="grid lg:grid-cols-[275px_minmax(0,1fr)]">
               <aside
                 className="relative  min-h-[280px] overflow-hidden bg-[#061a33] p-6 text-white"
@@ -146,8 +164,8 @@ export default function NewDocModelEngineYears({ data }: Props) {
                   </p>
                   <div className="mt-6 flex lg:flex-col lg:absolute lg:bottom-0  justify-between gap-2">
                     <span className="shrink-0 rounded-full border border-white/25 bg-white/10 px-3 py-1 text-[12px] font-bold lg:whitespace-nowrap">
-                      {active.badges?.[0]
-                        ? normalize(active.badges[0].label)
+                      {active.badges?.length
+                        ? active.badges.map((badge) => normalize(badge.label)).join(" · ")
                         : "Generation"}
                     </span>
                     <span className="text-[12px] lg:ml-2 font-bold text-[#7bdfad]">
@@ -163,7 +181,7 @@ export default function NewDocModelEngineYears({ data }: Props) {
                       {section.ui?.keyChangesLabel || "Key changes"}
                     </ColumnTitle>
                     <ul className="mt-4 space-y-3">
-                      {(active.keyChanges ?? []).slice(0, 4).map((item) => (
+                      {(active.keyChanges ?? []).map((item) => (
                         <li
                           key={item}
                           className="flex gap-3 text-[12px] leading-[1.4] text-[#526a87]"
@@ -179,7 +197,7 @@ export default function NewDocModelEngineYears({ data }: Props) {
                       {section.ui?.mainEnginesLabel || "Main engines"}
                     </ColumnTitle>
                     <div className="mt-4 space-y-2 lg:space-y-5">
-                      {(active.mainEngines ?? []).slice(0, 5).map((item) => (
+                      {(active.mainEngines ?? []).map((item) => (
                         <p
                           key={item}
                           className="grid grid-cols-[78px_1fr] gap-2 text-[12px] leading-[1.35] text-[#526a87]"
@@ -197,7 +215,7 @@ export default function NewDocModelEngineYears({ data }: Props) {
                       {section.ui?.popularModelsLabel || "Popular variants"}
                     </ColumnTitle>
                     <ul className="mt-4 space-y-3">
-                      {(active.popularModels ?? []).slice(0, 5).map((item) => (
+                      {(active.popularModels ?? []).map((item) => (
                         <li
                           key={item}
                           className="flex gap-3 text-[13px] text-[#17375f]"
@@ -213,7 +231,7 @@ export default function NewDocModelEngineYears({ data }: Props) {
                       {section.ui?.knownForLabel || "Known for"}
                     </ColumnTitle>
                     <ul className="mt-4 space-y-3">
-                      {(active.knownFor ?? []).slice(0, 5).map((item) => (
+                      {(active.knownFor ?? []).map((item) => (
                         <li
                           key={item}
                           className="flex gap-3 text-[12px] leading-[1.4] text-[#526a87]"

@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import { FaExclamation, FaFacebookF, FaGoogle } from "react-icons/fa";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { SiTrustpilot } from "react-icons/si";
-import type { ModelPageData } from "@/types/model";
+import type { BrandPageData } from "@/types/brand";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import { buildStaticReviewsSection } from "@/lib/staticReviews";
 
-type Props = { data: ModelPageData };
+type Props = { data: BrandPageData };
 
 const REVIEW_SOURCES = ["google", "facebook", "trustpilot"] as const;
 type ReviewSource = (typeof REVIEW_SOURCES)[number];
@@ -56,7 +56,7 @@ function ReviewCard({
   source: ReviewSource;
 }) {
   return (
-    <article className="relative overflow-hidden rounded-[18px] border border-[#e2edf6] bg-white px-5 py-5 shadow-[0_12px_28px_rgba(20,74,116,0.08)] sm:px-6">
+    <article className="relative overflow-hidden rounded-[18px] border border-[#cbd5e1] bg-white px-5 py-5 shadow-[0_12px_28px_rgba(20,74,116,0.08)] sm:px-6">
       <div className="flex items-start justify-between gap-4">
         <span className="text-[25px] leading-none tracking-[2px] text-[#ffb400]">
           ★★★★★
@@ -68,7 +68,7 @@ function ReviewCard({
           &rdquo;
         </span>
       </div>
-      <p className="mt-4 text-[16px] italic leading-[1.52] text-[#142c4b] sm:text-[17px]">
+      <p className="mt-4 text-[14px] leading-[1.52] text-[#142c4b] sm:text-[15px]">
         &ldquo;{review.text}&rdquo;
       </p>
       <div className="mt-5 flex items-center gap-3 border-t border-[#e7eff5] pt-4">
@@ -167,8 +167,8 @@ function RatingCircle({ value, count }: { value: number; count: number }) {
   );
 }
 
-export default function NewDocModelReviews({ data }: Props) {
-  const reviews = buildStaticReviewsSection(data.model.name);
+export default function NewDocBrandReviews({ data }: Props) {
+  const reviews = buildStaticReviewsSection(data.brand.name);
   const reviewCount = reviews.reviews.length;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [experienceOpen, setExperienceOpen] = useState(false);

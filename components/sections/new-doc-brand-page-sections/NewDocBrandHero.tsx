@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useMemo, useState, type FormEvent } from "react";
-import type { ModelPageData } from "@/types/model";
+import type { BrandPageData } from "@/types/brand";
 import { GoShieldCheck } from "react-icons/go";
 import { FaTruckFast } from "react-icons/fa6";
 import { IoShieldCheckmark } from "react-icons/io5";
@@ -10,7 +10,13 @@ import { IoShieldCheckmark } from "react-icons/io5";
 import { FaTools } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 
-type Props = { data: ModelPageData };
+type BrandModelCard = BrandPageData["sections"]["models"]["cards"][number];
+
+type Props = {
+  data: BrandPageData;
+  heroImage?: string;
+  modelCards?: BrandModelCard[];
+};
 
 const tickerItems = [
   {
@@ -107,12 +113,8 @@ function badgeIcon(label: string) {
   return <FaTools />;
 }
 
-function displayModelName(data: ModelPageData) {
-  const name = data.model.name
-    .replace(new RegExp(`^${data.brand.name}\\s+`, "i"), "")
-    .trim();
-
-  return name || data.model.name;
+function displayBrandName(data: BrandPageData) {
+  return data.brand.name;
 }
 
 function normalizeText(text: string) {
@@ -167,17 +169,41 @@ function renderHeroHeading(title: string) {
   );
 }
 
-export default function NewDocModelHero({ data }: Props) {
+function buildFallbackHighlights(modelCards: BrandModelCard[]) {
+  const preferred = [
+    modelCards.find((card) => /defender/i.test(card.slug)),
+    modelCards.find((card) => /discovery/i.test(card.slug)),
+    modelCards.find((card) => /range-rover/i.test(card.slug)),
+  ].filter(Boolean) as BrandModelCard[];
+
+  const cards = (preferred.length >= 3 ? preferred : modelCards).slice(0, 3);
+
+  return cards.map((card) => ({
+    title: card.h3,
+    price: card.priceRange,
+    line2: card.subtitle,
+    detail: card.subtitle,
+    image: card.image,
+    imageAlt: card.h3,
+  }));
+}
+
+export default function NewDocBrandHero({
+  data,
+  heroImage,
+  modelCards = [],
+}: Props) {
   const [registration, setRegistration] = useState("");
   const [hasImageError, setHasImageError] = useState(false);
   const [isDisclaimerOpen, setIsDisclaimerOpen] = useState(false);
 
   const hero = data.sections.hero;
-  const modelName = displayModelName(data);
-  const imageSrc =
-    data.assets.mainImage || data.assets.smallImage || data.assets.heroBg;
+  const modelName = displayBrandName(data);
+  const imageSrc = heroImage || data.assets.heroBg;
 
-  const engineHighlights = hero.highlights?.slice(0, 3) ?? [];
+  const engineHighlights = hero.highlights?.length
+    ? hero.highlights
+    : buildFallbackHighlights(modelCards);
   const disclaimer = hero.disclaimer;
   const hasDisclaimer = Boolean(disclaimer?.note?.trim());
   const disclaimerLines = disclaimer?.note?.trim()
@@ -270,24 +296,22 @@ export default function NewDocModelHero({ data }: Props) {
               </div>
             ) : null}
 
-            <div className="mt-4 grid max-w-[650px] grid-cols-2 overflow-hidden rounded-2xl border border-[#158de2]/45 bg-[#061a33] shadow-[0_0_22px_rgba(20,140,228,0.3)] sm:mt-5 sm:grid-cols-4">
-              {hero.trustBadges.slice(0, 4).map((badge, index) => (
+            <div className={`mt-4 grid max-w-[650px] overflow-hidden rounded-2xl border border-[#158de2]/45 bg-[#061a33] shadow-[0_0_22px_rgba(20,140,228,0.3)] sm:mt-5 ${hero.trustBadges.length >= 4 ? "grid-cols-4" : "grid-cols-3"}`}>
+              {hero.trustBadges.map((badge, index) => (
                 <div
                   key={badge}
                   className={[
-                    "flex min-w-0 items-center gap-2 px-4 py-3 text-white",
+                    "flex min-w-0 items-center justify-center gap-1.5 px-2 py-3 text-center text-white sm:gap-2 sm:px-4",
                     "border-[#61c4ff]/25",
-                    index < 2 ? "border-b" : "",
-                    index % 2 === 1 ? "border-l" : "",
-                    "sm:border-b-0",
                     index > 0 ? "sm:border-l" : "sm:border-l-0",
+                    index > 0 ? "border-l" : "border-l-0",
                   ].join(" ")}
                 >
-                  <span className="text-[20px] text-[#67a9fb] lg:text-[25px]">
+                  <span className="shrink-0 text-[18px] text-[#67a9fb] sm:text-[20px] lg:text-[25px]">
                     {badgeIcon(badge)}
                   </span>
 
-                  <span className="text-[11px] font-semibold leading-[1.14] lg:text-[12px]">
+                  <span className="min-w-0 break-words text-[10px] font-semibold leading-[1.14] sm:text-[11px] lg:text-[12px]">
                     {badge}
                   </span>
                 </div>
@@ -302,10 +326,10 @@ export default function NewDocModelHero({ data }: Props) {
                     className="flex min-w-0 items-center gap-3 rounded-2xl border border-white/70 bg-white/45 px-3 py-3 shadow-[0_14px_32px_rgba(20,72,120,0.2),inset_0_1px_rgba(255,255,255,0.85)] backdrop-blur-[18px] sm:px-4"
                   >
                     <div className="flex h-14 w-20 shrink-0 items-center justify-center rounded-xl border-0 bg-transparent p-0">
-                      {imageSrc ? (
+                      {highlight.image || imageSrc ? (
                         <Image
-                          src={imageSrc}
-                          alt=""
+                          src={highlight.image || imageSrc || ""}
+                          alt={highlight.imageAlt || ""}
                           width={64}
                           height={48}
                           className="h-full w-full object-contain"
@@ -403,7 +427,7 @@ export default function NewDocModelHero({ data }: Props) {
                     autoCapitalize="characters"
                     autoComplete="off"
                     spellCheck={false}
-                    className="min-w-0 flex-1 bg-transparent px-3 text-center text-[14px] font-black uppercase tracking-[0.07em] text-[#10151c] outline-none placeholder:text-[#222] placeholder:opacity-75 sm:text-[15px]"
+                    className="min-w-0 flex-1 bg-transparent px-3 text-center text-[14px] font-black uppercase tracking-[0.07em] text-[#10151c] outline-none placeholder:text-[#6b7280] placeholder:opacity-100 sm:text-[15px]"
                     style={{
                       fontFamily:
                         '"Charles Wright", "Arial Black", Arial, sans-serif',

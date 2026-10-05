@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import type { ModelPageData } from "@/types/model";
+import type { BrandPageData, CommonProblemsData } from "@/types/brand";
 import { FaChevronDown, FaChevronRight, FaChevronUp } from "react-icons/fa6";
 import { FiAlertTriangle } from "react-icons/fi";
-import ModelMobileAccordion from "./ModelMobileAccordion";
+import ModelMobileAccordion from "../new-doc-model-page-sections/ModelMobileAccordion";
 
-type Props = { data: ModelPageData };
+type Props = { data: BrandPageData; bgImage?: string };
 
 function normalize(value: string) {
   return value.replace(/[–—]/g, "-").replace(/\?/g, "·").trim();
@@ -55,9 +55,7 @@ function Gauge() {
   );
 }
 
-type Problem = NonNullable<
-  ModelPageData["sections"]["commonProblems"]
->["problems"][number];
+type Problem = CommonProblemsData["problems"][number];
 
 function ProblemIcon({
   index,
@@ -119,7 +117,7 @@ function ProblemDetails({
           <div className="mt-3 flex flex-wrap gap-2">
             {normalize(active.affectedModels)
               .split(",")
-              .slice(0, 2)
+              .slice(0, 4)
               .map((model) => (
                 <span
                   key={model}
@@ -219,10 +217,9 @@ function ProblemDetails({
   );
 }
 
-export default function NewDocModelCommonProblems({ data }: Props) {
+export default function NewDocBrandCommonProblems({ data, bgImage }: Props) {
   const section = data.sections.commonProblems;
-  const sectionImage =
-    data.assets.mainImage || data.assets.smallImage || data.assets.heroBg;
+  const sectionImage = bgImage || data.assets.commonProblemsBg || data.assets.heroBg;
   const [activeIndex, setActiveIndex] = useState(0);
   const [expandedIntro, setExpandedIntro] = useState(false);
   const [mobileExpandedIndex, setMobileExpandedIndex] = useState<number | null>(
@@ -248,10 +245,11 @@ export default function NewDocModelCommonProblems({ data }: Props) {
       <ModelMobileAccordion
         title={heading.primary}
         icon={<FiAlertTriangle className="h-5 w-5" aria-hidden="true" />}
+          buttonClassName="!-my-[14px]"
       >
         <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[240px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[12px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
           <span className="absolute right-0 top-0 text-[60px] font-black uppercase leading-none tracking-[-0.08em] text-[#a9c8e2]/50">
-            {data.model.name.replace(
+            {data.brand.name.replace(
               new RegExp(`^${data.brand.name}\\s+`, "i"),
               "",
             )}

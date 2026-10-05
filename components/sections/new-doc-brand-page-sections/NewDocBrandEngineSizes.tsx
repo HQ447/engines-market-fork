@@ -2,16 +2,17 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import type { ModelPageData } from "@/types/model";
+import type { BrandPageData } from "@/types/brand";
 import { BsFillFuelPumpDieselFill } from "react-icons/bs";
 import { FaChevronRight } from "react-icons/fa6";
 import { FaDroplet } from "react-icons/fa6";
 import { CiCircleChevUp, CiCircleChevDown } from "react-icons/ci";
 import { TbEngine } from "react-icons/tb";
-import ModelMobileAccordion from "./ModelMobileAccordion";
-type Props = { data: ModelPageData };
+import ModelMobileAccordion from "../new-doc-model-page-sections/ModelMobileAccordion";
+import { splitBrandHeading } from "./brandHeading";
+type Props = { data: BrandPageData; bgImage?: string };
 type SizeItem =
-  ModelPageData["sections"]["engineSizes"]["groups"][number]["items"][number];
+  BrandPageData["sections"]["engineSizes"]["groups"][number]["items"][number];
 
 function normalize(value: string) {
   return value.replace(/[–—]/g, "-").trim();
@@ -75,7 +76,7 @@ function EngineIcon() {
   );
 }
 
-function SizeDetails({ item, data }: { item: SizeItem; data: ModelPageData }) {
+function SizeDetails({ item, data }: { item: SizeItem; data: BrandPageData }) {
   const ui = data.sections.engineSizes.ui;
   const detailCards = [
     [
@@ -141,23 +142,18 @@ function SizeDetails({ item, data }: { item: SizeItem; data: ModelPageData }) {
   );
 }
 
-export default function NewDocModelEngineSizes({ data: modelData }: Props) {
-  const data = {
-    ...modelData,
-    assets: {
-      ...modelData.assets,
-      mainImage:
-        modelData.assets.mainImage ||
-        modelData.assets.smallImage ||
-        modelData.assets.heroBg,
-    },
-  };
+export default function NewDocBrandEngineSizes({ data, bgImage }: Props) {
   const section = data.sections.engineSizes;
+  const sectionImage = bgImage || data.assets.engineSizesBg || data.assets.heroBg;
   const groups = section.groups;
   const [activeGroup, setActiveGroup] = useState(0);
   const [activeItem, setActiveItem] = useState(0);
   const items = groups[activeGroup]?.items ?? [];
   const hasThreeGroups = groups.length > 2;
+  const headingLines = section.headingLines?.length
+    ? section.headingLines
+    : [section.h2];
+  const headingParts = splitBrandHeading(headingLines[0] ?? section.h2);
 
   return (
     <section
@@ -166,16 +162,15 @@ export default function NewDocModelEngineSizes({ data: modelData }: Props) {
     >
       <ModelMobileAccordion
         title={normalize(
-          (section.headingLines?.length
-            ? section.headingLines
-            : [section.h2])[0] ?? section.h2,
+          headingLines[0] ?? section.h2,
         )}
         icon={<TbEngine className="h-5 w-5" aria-hidden="true" />}
+          buttonClassName="!-my-[14px]"
       >
         <div className="pointer-events-none absolute right-0 top-0 z-0 h-[215px] w-full opacity-24 sm:h-[240px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[12px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-80">
-          {data.assets.mainImage ? (
+          {sectionImage ? (
             <Image
-              src={data.assets.mainImage}
+              src={sectionImage}
               alt=""
               fill
               className="translate-x-[8%] object-contain object-right-top md:object-right-center md:scale-100 sm:translate-x-0"
@@ -198,17 +193,21 @@ export default function NewDocModelEngineSizes({ data: modelData }: Props) {
                 }}
                 className="mt-5 !text-[40px] font-extrabold leading-[1.04] tracking-normal !tracking-[-0.02em] text-[#09264e] sm:!tracking-[0.01em] sm:!text-[41px] lg:!text-[46px]"
               >
-                {(section.headingLines?.length
-                  ? section.headingLines
-                  : [section.h2]
-                ).map((line, index) => (
-                  <span
-                    key={`${line}-${index}`}
-                    className={`block ${index === 1 ? "text-[#15803d]" : ""}`}
-                  >
-                    {normalize(line)}
-                  </span>
-                ))}
+                {headingLines.length > 1 ? (
+                  headingLines.map((line, index) => (
+                    <span
+                      key={`${line}-${index}`}
+                      className={`block ${index === headingLines.length - 1 ? "text-[#15803d]" : ""}`}
+                    >
+                      {normalize(line)}
+                    </span>
+                  ))
+                ) : (
+                  <>
+                    <span>{normalize(headingParts.primary)}</span>{" "}
+                    {headingParts.accent ? <span className="text-[#15803d]">{normalize(headingParts.accent)}</span> : null}
+                  </>
+                )}
               </h2>
               <p className="mt-4 max-w-[760px] text-[14px] leading-[1.6] text-[#526a87] lg:text-[15px]">
                 {normalize(section.intro)}

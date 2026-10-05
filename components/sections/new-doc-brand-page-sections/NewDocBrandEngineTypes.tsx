@@ -1,13 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
-import type { ModelPageData } from "@/types/model";
+import { useState } from "react";
+import type { BrandPageData } from "@/types/brand";
 import { FaChevronRight } from "react-icons/fa6";
 import { TbArrowRight, TbEngine, TbRefresh } from "react-icons/tb";
-import ModelMobileAccordion from "./ModelMobileAccordion";
+import ModelMobileAccordion from "../new-doc-model-page-sections/ModelMobileAccordion";
+import { splitBrandHeading } from "./brandHeading";
 
-type Props = { data: ModelPageData };
+type Props = { data: BrandPageData; bgImage?: string };
 
 function normalize(value: string) {
   return value.replace(/[–—]/g, "-").trim();
@@ -84,14 +85,19 @@ function EngineTypeIcon({
 }
 
 function splitPriceRange(value: string) {
-  const normalizedValue = normalize(value);
-  const match = normalizedValue.match(
-    /^(.*?)(\s*\([^)]*\)|\s+supply only|\s+added to engine price)$/i,
+  const normalizedValue = normalize(value).replace(
+    /^typical\s+(?:price\s+range|added\s+cost)\s*:\s*/i,
+    "",
   );
+  const match = normalizedValue.match(
+    /^(.*?)(\s*\([^)]*\)|\s+supply only|\s+on top of engine price|\s+added to engine price)$/i,
+  );
+  const suffix = match?.[2]?.trim();
 
   return {
     price: match?.[1]?.trim() || normalizedValue,
-    suffix: match?.[2]?.trim(),
+    suffix:
+      suffix && /on top of engine price/i.test(suffix) ? suffix : undefined,
   };
 }
 
@@ -125,7 +131,7 @@ function MobileEngineTypeStack({
   onFlip,
   onUnflip,
 }: {
-  types: ModelPageData["sections"]["engineTypes"]["types"];
+  types: BrandPageData["sections"]["engineTypes"]["types"];
   activeIndex: number | null;
   flippedIndex: number | null;
   onSelect: (index: number) => void;
@@ -163,14 +169,13 @@ function MobileEngineTypeStack({
                 marginTop: stackIndex === 0 ? 0 : previousIsActive ? 8 : -54,
                 transform: `translateX(${offsetX}px) rotate(0deg)`,
                 width: "calc(100% - 42px)",
-                height: active ? (flipped ? 220 : 188) : undefined,
                 perspective: active ? "1200px" : undefined,
                 WebkitPerspective: active ? "1200px" : undefined,
               }}
             >
               {active ? (
                 <div
-                  className="relative h-full w-full transition-transform duration-[550ms]"
+                  className="relative grid w-full transition-transform duration-[550ms]"
                   style={{
                     transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
                     transformStyle: "preserve-3d",
@@ -178,7 +183,7 @@ function MobileEngineTypeStack({
                   }}
                 >
                   <div
-                    className="absolute inset-0"
+                    className="col-start-1 row-start-1"
                     style={{
                       backfaceVisibility: "hidden",
                       WebkitBackfaceVisibility: "hidden",
@@ -194,7 +199,7 @@ function MobileEngineTypeStack({
                           onFlip(stackIndex);
                         }
                       }}
-                      className="flex h-full w-full cursor-pointer flex-col rounded-[10px] border border-[#d8e6f5] bg-white shadow-[0_8px_18px_rgba(13,27,46,0.07)]"
+                      className="flex min-h-[188px] w-full cursor-pointer flex-col rounded-[10px] border border-[#d8e6f5] bg-white shadow-[0_8px_18px_rgba(13,27,46,0.07)]"
                       aria-expanded={!flipped}
                     >
                       <div className="flex items-center gap-3 px-3 py-2.5">
@@ -216,9 +221,6 @@ function MobileEngineTypeStack({
                       <div className="px-3 pb-2.5 pt-2.5">
                         <div className="grid grid-cols-[minmax(145px,1fr)_1px_minmax(0,1fr)] items-center gap-3">
                           <div className="min-w-0">
-                            <div className="text-[10.5px] font-medium leading-[1.2] text-[#64748b]">
-                              Average price range
-                            </div>
                             <div className="mt-1 whitespace-nowrap text-[16px] font-extrabold leading-[1.1] text-[#0d1b2e]">
                               {priceRange.price}
                             </div>
@@ -257,7 +259,7 @@ function MobileEngineTypeStack({
                     </div>
                   </div>
                   <div
-                    className="absolute inset-0"
+                    className="col-start-1 row-start-1"
                     style={{
                       backfaceVisibility: "hidden",
                       transform: "rotateY(180deg)",
@@ -288,7 +290,7 @@ function MobileEngineTypeStack({
                       </p>
                       {type.backBullets?.length ? (
                         <ul className="mt-2 space-y-1 text-[10.5px] leading-[1.42] text-[#cbd5e1]">
-                          {type.backBullets.slice(0, 3).map((bullet) => (
+                          {type.backBullets.map((bullet) => (
                             <li key={bullet} className="flex gap-2">
                               <span className="mt-[4px] h-[5px] w-[5px] flex-none rounded-full bg-[#22c55e]" />
                               <span>{normalize(bullet)}</span>
@@ -326,11 +328,6 @@ function MobileEngineTypeStack({
                       <span className="block whitespace-nowrap text-[12px] font-extrabold leading-none text-[#15803d]">
                         {priceRange.price}
                       </span>
-                      {priceRange.suffix ? (
-                        <span className="mt-1 block max-w-[82px] truncate whitespace-nowrap text-[8.5px] font-semibold leading-none text-[#64748b]">
-                          ({priceRange.suffix})
-                        </span>
-                      ) : null}
                     </span>
                   </div>
                 </div>
@@ -348,7 +345,7 @@ function MobileSupplyFitCard({
   flipped,
   onToggle,
 }: {
-  type: ModelPageData["sections"]["engineTypes"]["types"][number];
+  type: BrandPageData["sections"]["engineTypes"]["types"][number];
   flipped: boolean;
   onToggle: () => void;
 }) {
@@ -400,7 +397,7 @@ function MobileSupplyFitCard({
         </div>
         {flipped && type.backBullets?.length ? (
           <ul className="mx-3 mb-2 space-y-1 rounded-[8px] bg-[#f8fbff] px-3 py-2 text-[10.5px] leading-[1.38] text-[#475569]">
-            {type.backBullets.slice(0, 3).map((bullet) => (
+            {type.backBullets.map((bullet) => (
               <li key={bullet} className="flex gap-2">
                 <span className="mt-[5px] h-[4px] w-[4px] flex-none rounded-full bg-[#15803d]" />
                 <span>{normalize(bullet)}</span>
@@ -413,11 +410,6 @@ function MobileSupplyFitCard({
         />
         <div className="grid grid-cols-[minmax(132px,1fr)_1px_minmax(0,1fr)] items-center gap-3 px-3 py-2.5">
           <div className="min-w-0">
-            <div
-              className={`text-[10px] font-medium ${flipped ? "text-[#64748b]" : "text-white/65"}`}
-            >
-              Average price range
-            </div>
             <div
               className={`mt-1 whitespace-nowrap text-[16px] font-extrabold ${flipped ? "text-[#0d1b2e]" : "text-white"}`}
             >
@@ -456,47 +448,17 @@ function EngineCard({
   flipped,
   onFlip,
 }: {
-  data: ModelPageData;
+  data: BrandPageData;
   index: number;
   flipped: boolean;
   onFlip: () => void;
 }) {
   const section = data.sections.engineTypes;
   const type = section.types[index];
-  const frontDescription = type
-    ? normalize(type.frontDescription || type.description)
-    : "";
   const [descriptionExpanded, setDescriptionExpanded] = useState(false);
-  const [hasLongDescription, setHasLongDescription] = useState(false);
-  const descriptionMeasureRef = useRef<HTMLSpanElement>(null);
-
-  useEffect(() => {
-    const measureDescription = () => {
-      const element = descriptionMeasureRef.current;
-      if (!element) return;
-
-      const lineHeight = Number.parseFloat(getComputedStyle(element).lineHeight);
-      setHasLongDescription(
-        element.getBoundingClientRect().height > lineHeight * 3 + 1,
-      );
-    };
-
-    measureDescription();
-    const resizeObserver = new ResizeObserver(measureDescription);
-    if (descriptionMeasureRef.current) {
-      resizeObserver.observe(descriptionMeasureRef.current);
-    }
-    window.addEventListener("resize", measureDescription);
-
-    return () => {
-      resizeObserver.disconnect();
-      window.removeEventListener("resize", measureDescription);
-    };
-  }, [frontDescription]);
-
   if (!type) return null;
   const priceRange = splitPriceRange(type.priceRange);
-  const bullets = type.backBullets?.slice(0, 3) ?? [];
+  const bullets = type.backBullets ?? [];
   const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
@@ -514,11 +476,11 @@ function EngineCard({
       aria-pressed={flipped}
     >
       <div
-        className="relative min-h-[400px] transition-transform duration-500 [transform-style:preserve-3d]"
+        className="relative transition-transform duration-500 [transform-style:preserve-3d]"
         style={{ transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)" }}
       >
         <div
-          className="relative flex min-h-[400px] flex-col overflow-hidden rounded-2xl border border-[#d8e6f2] bg-white/95 p-3.5 shadow-[0_8px_24px_rgba(20,80,127,0.1)] sm:p-4"
+          className="relative flex flex-col overflow-hidden rounded-2xl border border-[#d8e6f2] bg-white/95 p-3.5 shadow-[0_8px_24px_rgba(20,80,127,0.1)] sm:p-4"
           style={{
             backfaceVisibility: "hidden",
             WebkitBackfaceVisibility: "hidden",
@@ -531,47 +493,38 @@ function EngineCard({
             </span>
           </div>
           <h4 className="mt-3 line-clamp-1 text-[15px] font-extrabold leading-[1.12] text-[#09264e] lg:text-[15px]">
-            {normalize(modelTypeTitle(data.model.name, type.title))}
+            {normalize(modelTypeTitle(data.brand.name, type.title))}
           </h4>
-          <div className="relative mt-2 min-h-[61px]">
+          <div className="relative mt-2">
             <p
               className={`${descriptionExpanded ? "" : "line-clamp-3 pr-5"} text-[14px] leading-[1.45] text-[#476382]`}
             >
-              {frontDescription}
+              {normalize(type.frontDescription || type.description)}
             </p>
-            <span
-              ref={descriptionMeasureRef}
-              aria-hidden="true"
-              className="pointer-events-none absolute inset-x-0 top-0 invisible text-[14px] leading-[1.45] text-[#476382]"
+            <button
+              type="button"
+              aria-label={`${descriptionExpanded ? "Hide" : "Show"} full ${type.title} description`}
+              aria-expanded={descriptionExpanded}
+              onClick={(event) => {
+                event.stopPropagation();
+                setDescriptionExpanded((current) => !current);
+              }}
+              className="absolute bottom-0 right-0 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/90 text-[#0d1b2e] shadow-sm transition hover:bg-[#e8f4fd]"
             >
-              {frontDescription}
-            </span>
-            {hasLongDescription ? (
-              <button
-                type="button"
-                aria-label={`${descriptionExpanded ? "Hide" : "Show"} full ${type.title} description`}
-                aria-expanded={descriptionExpanded}
-                onClick={(event) => {
-                  event.stopPropagation();
-                  setDescriptionExpanded((current) => !current);
-                }}
-                className="absolute bottom-0 right-0 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/90 text-[#0d1b2e] shadow-sm transition hover:bg-[#e8f4fd]"
-              >
-                <FaChevronRight
-                  className={`h-2.5 w-2.5 transition-transform ${descriptionExpanded ? "-rotate-90" : "rotate-90"}`}
-                />
-              </button>
-            ) : null}
+              <FaChevronRight
+                className={`h-2.5 w-2.5 transition-transform ${descriptionExpanded ? "-rotate-90" : "rotate-90"}`}
+              />
+            </button>
           </div>
           <div className="rounded-xl bg-[#f6f6f6] px-3.5 py-2.5">
             <p className="text-[11px] text-[#55708d]">
-              {section.ui?.priceLabel || "Average price range"}:
+              {section.ui?.priceLabel || "Typical price"}:
             </p>
             <p className="mt-0.5 text-[16px] sm:text-[19px] font-extrabold leading-tight text-[#09264e]">
               {priceRange.price}
               {priceRange.suffix ? (
-                <span className="ml-1 text-[10px] font-bold sm:text-[12px]">
-                  {priceRange.suffix}
+                <span className="ml-1 text-[9px] font-semibold text-[#64748b] sm:text-[10px]">
+                  ({priceRange.suffix})
                 </span>
               ) : null}
             </p>
@@ -649,18 +602,22 @@ function EngineCard({
   );
 }
 
-export default function NewDocModelEngineTypes({ data }: Props) {
+export default function NewDocBrandEngineTypes({ data, bgImage }: Props) {
   const section = data.sections.engineTypes;
   const sectionImage =
-    data.assets.mainImage || data.assets.smallImage || data.assets.heroBg;
-  const types = section.types.slice(0, 6);
+    bgImage || data.assets.engineTypesBg || data.assets.heroBg;
+  const types = section.types;
   const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
-  const [activeMobileCard, setActiveMobileCard] = useState<number | null>(
+  const [activeMobileCard, setActiveMobileCard] = useState<number | null>(() =>
     types.length ? types.length - 1 : null,
   );
   const [flippedMobileCard, setFlippedMobileCard] = useState<number | null>(
     null,
   );
+  const headingLines = section.headingLines?.length
+    ? section.headingLines
+    : [section.h2];
+  const headingParts = splitBrandHeading(headingLines[0] ?? section.h2);
 
   return (
     <section
@@ -669,11 +626,10 @@ export default function NewDocModelEngineTypes({ data }: Props) {
     >
       <ModelMobileAccordion
         title={normalize(
-          (section.headingLines?.length
-            ? section.headingLines
-            : [section.h2])[0] ?? section.h2,
+          headingLines[0] ?? section.h2,
         )}
         icon={<TbEngine className="h-5 w-5" aria-hidden="true" />}
+          buttonClassName="!-my-[14px]"
       >
         <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[240px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[12px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
           {sectionImage ? (
@@ -701,17 +657,21 @@ export default function NewDocModelEngineTypes({ data }: Props) {
                 }}
                 className="mt-5 !text-[40px] font-extrabold leading-[1.04] tracking-normal !tracking-[-0.02em] text-[#09264e] sm:!tracking-[0.01em] sm:!text-[41px] lg:!text-[46px]"
               >
-                {(section.headingLines?.length
-                  ? section.headingLines
-                  : [section.h2]
-                ).map((line, index) => (
-                  <span
-                    key={`${line}-${index}`}
-                    className={`block ${index === 1 ? "text-[#15803d]" : ""}`}
-                  >
-                    {normalize(line)}
-                  </span>
-                ))}
+                {headingLines.length > 1 ? (
+                  headingLines.map((line, index) => (
+                    <span
+                      key={`${line}-${index}`}
+                      className={`block ${index === headingLines.length - 1 ? "text-[#15803d]" : ""}`}
+                    >
+                      {normalize(line)}
+                    </span>
+                  ))
+                ) : (
+                  <>
+                    <span>{normalize(headingParts.primary)}</span>{" "}
+                    {headingParts.accent ? <span className="text-[#15803d]">{normalize(headingParts.accent)}</span> : null}
+                  </>
+                )}
               </h2>
               <p className="mt-4 max-w-[760px] text-[14px] leading-[1.6] text-[#526a87] lg:text-[15px]">
                 {normalize(section.intro)}
@@ -750,11 +710,23 @@ export default function NewDocModelEngineTypes({ data }: Props) {
           <div className="mt-5 rounded-2xl border border-[#1b8ed9]/60 bg-[#061a33] p-5 text-white  sm:p-6">
             <p className="text-[16px] font-extrabold">
               {section.closingCard?.title ||
-                "All engine types include a minimum 12-month unlimited mileage warranty"}
+                "Compare Land Rover engine prices with vetted UK suppliers"}
             </p>
             <p className="mt-2 max-w-[1050px] text-[13px] leading-[1.6] text-white/80">
               {normalize(section.closing)}
             </p>
+            <a
+              href="#quote-form"
+              data-quote-context="Engine types closing"
+              data-quote-source="engine-types"
+              className="mt-4 inline-flex min-h-[42px] items-center justify-center gap-2 rounded-lg border border-[#53d39b] bg-[#15803d] px-4 py-2 text-center text-[12px] font-extrabold uppercase leading-tight text-white shadow-[0_6px_14px_rgba(0,97,62,0.28)] transition hover:brightness-110"
+            >
+              {normalize(
+                section.closingCard?.buttonText ||
+                  `Compare ${data.brand.name} Engine Prices`,
+              )}
+              <TbArrowRight className="h-4 w-4" aria-hidden="true" />
+            </a>
           </div>
         </div>
       </ModelMobileAccordion>

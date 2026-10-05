@@ -189,7 +189,7 @@ function stepIconSrc(card: HowItWorksData["cards"][number]) {
   return "/icons/engine-market/how-choose-deal.png";
 }
 
-export default function NewDocModelHowItWorks({
+export default function NewDocBrandHowItWorks({
   data,
   bgImage,
   sectionId,
@@ -502,3 +502,5 @@ export default function NewDocModelHowItWorks({
     </Section>
   );
 }
+
+

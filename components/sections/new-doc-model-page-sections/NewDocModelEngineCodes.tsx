@@ -150,13 +150,13 @@ export default function NewDocModelEngineCodes({ data: modelData }: Props) {
   return (
     <section
       id="model-engine-codes"
-      className="relative overflow-hidden bg-white px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-10"
+      className="relative overflow-hidden bg-white px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-7"
     >
       <ModelMobileAccordion
         title={normalize(headingLines[0] ?? section.h2)}
         icon={<FiSettings className="h-5 w-5" aria-hidden="true" />}
       >
-        <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[240px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[-2px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
+        <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[240px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[12px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
           <span className="absolute right-0 top-0 text-[64px] font-black uppercase leading-none tracking-[-0.08em] text-[#a9c8e2]/45">
             {data.model.name.replace(
               new RegExp(`^${data.brand.name}\\s+`, "i"),
@@ -264,13 +264,28 @@ export default function NewDocModelEngineCodes({ data: modelData }: Props) {
                 </div>
               </div>
               <div className="space-y-2 bg-[#f8fcff] p-1 sm:p-4 lg:grid lg:grid-cols-2 lg:gap-2 lg:space-y-0">
-                {engines.map((engine) => {
+                {Array.from({ length: Math.ceil(engines.length / 2) }).map(
+                  (_, rowIndex) => {
+                    const row = engines.slice(rowIndex * 2, rowIndex * 2 + 2);
+                    const activeEngine = row.find(
+                      (engine) => expandedCode === engine.code,
+                    );
+                    const rowEngines = activeEngine
+                      ? [
+                          activeEngine,
+                          ...row.filter((engine) => engine !== activeEngine),
+                        ]
+                      : row;
+
+                    return (
+                      <div key={`engine-row-${rowIndex}`} className="contents">
+                        {rowEngines.map((engine) => {
                   const expanded = expandedCode === engine.code;
                   const engineImage = fallbackEngineImage(engine.fuel);
                   return (
                     <article
                       key={engine.code}
-                      className={`overflow-hidden rounded-xl border bg-white transition ${expanded ? "border-[#36c79a] lg:col-span-2 lg:order-first" : "border-[#cfe5f6] hover:border-[#37aaf4]"}`}
+                      className={`overflow-hidden rounded-xl border bg-white transition ${expanded ? "border-[#36c79a] lg:col-span-2" : "border-[#cfe5f6] hover:border-[#37aaf4]"}`}
                     >
                       <button
                         type="button"
@@ -425,7 +440,11 @@ export default function NewDocModelEngineCodes({ data: modelData }: Props) {
                       ) : null}
                     </article>
                   );
-                })}
+                        })}
+                      </div>
+                    );
+                  },
+                )}
               </div>
             </div>
           ) : null}

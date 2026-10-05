@@ -259,13 +259,13 @@ export default function NewDocModelFuelTypes({ data: modelData }: Props) {
   return (
     <section
       id="model-fuel-types"
-      className="relative overflow-hidden bg-white px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-10"
+      className="relative overflow-hidden bg-white px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-7"
     >
       <ModelMobileAccordion
         title={normalize(fuelHeadingLines[0] ?? fuelHeading.primary)}
         icon={<BsFuelPumpDiesel className="h-5 w-5" aria-hidden="true" />}
       >
-        <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[250px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[-2px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
+        <div className="pointer-events-none absolute right-0 top-0 z-0 h-[210px] w-full opacity-25 sm:h-[250px] sm:opacity-30 md:right-[max(1rem,calc((100vw-80rem)/2+1rem))] md:top-[12px] md:h-[220px] md:w-[430px] md:overflow-hidden md:opacity-70">
           {data.assets.mainImage ? (
             <>
               <Image
