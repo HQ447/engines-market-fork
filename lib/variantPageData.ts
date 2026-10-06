@@ -1,10 +1,12 @@
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { sanitizeMojibake } from "@/lib/sanitizeBrandData";
+import { withNormalizedSeoCanonical } from "@/lib/site";
 import type { VariantPageData } from "@/types/variant";
 
 const VARIANTS_DIR = path.join(process.cwd(), "data", "variants");
 const UTF8_BOM = /^\uFEFF/;
+let allVariantPagesPromise: Promise<VariantPageData[]> | null = null;
 
 function normalizeSlugPart(value: string) {
   return value.trim().toLowerCase();
@@ -117,7 +119,7 @@ function parseVariantPageData(raw: string) {
     JSON.parse(raw.replace(UTF8_BOM, "")) as VariantPageData,
   );
 
-  return isVariantPageData(parsed) ? parsed : null;
+  return isVariantPageData(parsed) ? withNormalizedSeoCanonical(parsed) : null;
 }
 
 async function readVariantPageFile(fileBaseName: string) {
@@ -131,25 +133,33 @@ async function readVariantPageFile(fileBaseName: string) {
 }
 
 export async function getAllVariantPageData() {
-  try {
-    const entries = await readdir(VARIANTS_DIR, { withFileTypes: true });
-    const pages = await Promise.all(
-      entries
-        .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
-        .map(async (entry) => {
-          try {
-            const raw = await readFile(path.join(VARIANTS_DIR, entry.name), "utf-8");
-            return parseVariantPageData(raw);
-          } catch {
-            return null;
-          }
-        }),
-    );
-
-    return pages.filter((page): page is VariantPageData => page !== null);
-  } catch {
-    return [];
+  if (allVariantPagesPromise) {
+    return allVariantPagesPromise;
   }
+
+  allVariantPagesPromise = (async () => {
+    try {
+      const entries = await readdir(VARIANTS_DIR, { withFileTypes: true });
+      const pages = await Promise.all(
+        entries
+          .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
+          .map(async (entry) => {
+            try {
+              const raw = await readFile(path.join(VARIANTS_DIR, entry.name), "utf-8");
+              return parseVariantPageData(raw);
+            } catch {
+              return null;
+            }
+          }),
+      );
+
+      return pages.filter((page): page is VariantPageData => page !== null);
+    } catch {
+      return [];
+    }
+  })();
+
+  return allVariantPagesPromise;
 }
 
 export async function getVariantPageData(brand: string, model: string, variant: string) {

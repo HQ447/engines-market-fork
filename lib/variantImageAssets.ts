@@ -323,4 +323,33 @@ export function resolveVariantArtworkSlug(args: Parameters<typeof resolveVariant
   return resolveVariantArtworkMatch(args)?.slug;
 }
 
+/** Reuses the first available variant artwork as a model-section visual. */
+export function resolveModelVariantArtwork({
+  brandSlug,
+  brandName,
+  modelSlug,
+  modelName,
+  variants,
+}: {
+  brandSlug?: string;
+  brandName?: string;
+  modelSlug?: string;
+  modelName?: string;
+  variants: Array<{ slug?: string; h3?: string; image?: string | null }>;
+}) {
+  return variants
+    .map((variant) =>
+      resolveVariantArtwork({
+        brandSlug,
+        brandName,
+        modelSlug,
+        modelName,
+        variantSlug: variant.slug,
+        cardTitle: variant.h3,
+        cardImage: variant.image,
+      }),
+    )
+    .find(Boolean);
+}
+
 export const resolveBmwVariantArtwork = resolveVariantArtwork;

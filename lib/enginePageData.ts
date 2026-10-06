@@ -2,10 +2,10 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import type { EnginePageData } from "@/types/engine-page";
 import { getEngineCodeLookupKeys, type EngineLinkMap } from "@/lib/engineLinks";
+import { withNormalizedSeoCanonical } from "@/lib/site";
 
 const ENGINES_DIR = path.join(process.cwd(), "data", "engines");
 const UTF8_BOM = /^\uFEFF/;
-const SHOULD_CACHE_ENGINE_PAGES = process.env.NODE_ENV === "production";
 let allEnginePagesPromise: Promise<EnginePageData[]> | null = null;
 
 function normalizeSlugPart(value: string) {
@@ -32,7 +32,7 @@ function isEnginePageData(value: unknown): value is EnginePageData {
 
 function parseEnginePageData(raw: string) {
   const parsed = JSON.parse(raw.replace(UTF8_BOM, "")) as EnginePageData;
-  return isEnginePageData(parsed) ? parsed : null;
+  return isEnginePageData(parsed) ? withNormalizedSeoCanonical(parsed) : null;
 }
 
 async function readEnginePageDataFile(fileBaseName: string) {
@@ -46,11 +46,11 @@ async function readEnginePageDataFile(fileBaseName: string) {
 }
 
 export async function getAllEnginePageData() {
-  if (SHOULD_CACHE_ENGINE_PAGES && allEnginePagesPromise) {
+  if (allEnginePagesPromise) {
     return allEnginePagesPromise;
   }
 
-  const loadPagesPromise = (async () => {
+  allEnginePagesPromise = (async () => {
     try {
       const entries = await readdir(ENGINES_DIR, { withFileTypes: true });
       const pages = await Promise.all(
@@ -72,11 +72,7 @@ export async function getAllEnginePageData() {
     }
   })();
 
-  if (SHOULD_CACHE_ENGINE_PAGES) {
-    allEnginePagesPromise = loadPagesPromise;
-  }
-
-  return loadPagesPromise;
+  return allEnginePagesPromise;
 }
 
 export async function getEnginePageData(brand: string, engineSlug: string) {

@@ -1,1 +1,1425 @@
-{"brand": {"name": "Nissan", "slug": "nissan", "tone": "premium"}, "model": {"name": "Nissan Altra", "slug": "altra", "legacySlug": "nissan-altra"}, "seo": {"title": "Nissan Altra Engine Replacement - Compare Prices", "description": "Nissan Altra engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £800. 12-month warranty & UK supply fit specialists.", "canonical": "/nissan/altra"}, "assets": {"mainImage": "/images/brands/nissan/models/nissan-altra-model-card.png", "smallImage": "/images/brands/nissan/models/nissan-altra-model-card.png", "heroBg": "/images/brands/nissan/models/nissan-altra-model-card.png", "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp", "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp", "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp", "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp", "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp", "ctaImage": "/images/brands/nissan/models/nissan-altra-model-card.png"}, "sections": {"hero": {"tag": "NISSAN ENGINE MARKETPLACE", "h1": "Nissan Altra Engine Replacement - Compare Prices & Save", "subheading": "Get quotes today from trusted UK Nissan Altra engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available nationwide.", "trustBadges": ["Supply & Fit Available", "12-Month Warranty", "Nationwide Delivery", "100+ Suppliers"], "ctaLinkText": "Get Free Nissan Altra Engine Quotes →", "supportingText": "Get tailored Nissan Altra engine quotes from vetted UK specialists.", "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network", "form": {"heading": "Find Your Nissan Altra Engine", "subtitle": "Enter your registration number to compare Nissan Altra engine options.", "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)", "buttonText": "Get Free Nissan Altra Engine Quotes →", "note": ""}, "imageAlt": "Nissan Altra engine replacement UK - compare reconditioned and rebuilt engine prices", "highlights": [{"title": "Nissan Altra SR20DE Engines", "price": "from £800 to £1,800", "line1": "Nissan Altra SR20DE Engines - from £800 to £1,800", "line2": "-> Rebuilt units from £800 · Common codes: SR20DE, SR20DET, KA24DE, EM18", "detail": "-> Rebuilt units from £800 · Common codes: SR20DE, SR20DET, KA24DE, EM18", "image": "", "imageAlt": "Nissan Altra SR20DE petrol engine replacement - SR20DE SR20DET rebuilt reconditioned UK"}, {"title": "Nissan Altra KA24DE Engines", "price": "from £900 to £2,000", "line1": "Nissan Altra KA24DE Engines - from £900 to £2,000", "line2": "-> Rebuilt units from £900 · Common codes: KA24DE, SR20DE, SR20DET", "detail": "-> Rebuilt units from £900 · Common codes: KA24DE, SR20DE, SR20DET", "image": "", "imageAlt": "Nissan Altra KA24DE 4WD engine replacement - KA24DE SR20DE rebuilt reconditioned UK"}, {"title": "Nissan Altra EM18 Electric Motors", "price": "from £1,500 to £4,500", "line1": "Nissan Altra EM18 Electric Motors - from £1,500 to £4,500", "line2": "-> Rebuilt units from £1,500 · Common codes: EM18", "detail": "-> Rebuilt units from £1,500 · Common codes: EM18", "image": "", "imageAlt": "Nissan Altra EM18 electric motor replacement - EM18 rebuilt reconditioned UK specialist"}], "headingLines": ["Nissan Altra Engine Replacement", "Compare Prices & Save"], "mobileBar": {"brandText": "ENGINEMARKET", "callLabel": "Call", "quoteLabel": "GET QUOTES"}, "registrationInput": {"label": "Enter your vehicle registration", "platePlaceholder": "AB12 CDE", "countryCode": "UK", "countryLabel": "United Kingdom"}}, "howItWorks": {"tag": "How It Works", "h2": "3 Simple Steps to Finding the Best Nissan Altra Replacement Engine", "cards": [{"number": 1, "icon": "registration", "front": {"h3": "Enter Your Nissan Altra Registration", "text": "Instantly verify your exact model, engine code and fuel type via DVLA - R'nessa 2.0 G to Altra EV."}, "back": {"heading": "Your Car, Precisely Identified", "text": "Engines Market uses the official DVLA database to pull accurate details about your Altra, not just model name.", "bullets": ["Your Precise Model - from R'nessa 2.0 G, 2.0 GT Turbo, 2.4 X 4WD to Altra EV", "Your Engine Code - SR20DE, SR20DET, KA24DE, EM18 and more", "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly", "No paperwork, no guesswork, 100% free."]}}], "tagline": "", "headingLines": ["3 Simple Steps", "to Finding the Best Nissan Altra Replacement Engine"], "ui": {"stepLabel": "Step", "desktopClosedLabel": "Click to expand", "desktopOpenLabel": "Click to view details", "mobileOpenLabel": "Tap to flip", "mobileCloseLabel": "Tap to flip back", "footerNote": "Most replacements completed within 3-5 days.", "mobileTrustItems": ["12-Month Warranty", "Supply & Fit Available", "Nationwide Delivery", "Trusted UK Suppliers"]}}, "liveMarketPrices": {"tag": "Live UK Engine Market Data", "h2": "What Are UK Drivers Paying for Nissan Altra Engine Replacement-", "h3": "The table below shows typical UK rebuilt engine costs across Nissan Altra variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.", "introBullets": [{"label": "Live market context", "text": "See realistic rebuilt-engine quote ranges across documented Nissan Altra variants."}, {"label": "Variant specific", "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."}, {"label": "Specialist pricing", "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."}, {"label": "Quote benchmark", "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."}], "cta": {"heading": "Benchmark your own Nissan Altra quote", "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Altra engine code.", "buttonText": "Compare My Nissan Altra Engine", "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."}, "badges": ["6 recent enquiries visible", "Typical rebuilt market ranges", "Engine-code matched rows", "UK specialist network"], "feed": {"isDynamic": false, "rowsCount": 6, "columns": ["Year", "Model", "Engine Code", "Fuel", "Avg. Quoted Price", "Reported Issue"], "timestampLabel": "Last Updated", "refreshLabel": "Refresh feed", "density": "premium", "visibleRows": 6, "entries": [{"Year": "1997-2001", "Model": "Nissan Altra (N30) R'nessa 2.0 G", "Engine Code": "SR20DE", "Fuel": "Petrol 2.0L", "Avg. Quoted Price": "£800-£1,800", "Reported Issue": "Timing chain rattle"}, {"Year": "1998-2001", "Model": "Nissan Altra (N30) R'nessa 2.0 GT Turbo", "Engine Code": "SR20DET", "Fuel": "Petrol 2.0L", "Avg. Quoted Price": "£1,200-£2,500", "Reported Issue": "Turbo oil seal leak"}, {"Year": "1999-2001", "Model": "Nissan Altra (N30) R'nessa 2.4 X 4WD", "Engine Code": "KA24DE", "Fuel": "Petrol 2.4L", "Avg. Quoted Price": "£900-£2,000", "Reported Issue": "Head gasket failure"}, {"Year": "1997-2001", "Model": "Nissan Altra (N30) R'nessa 2.0 G Auto", "Engine Code": "SR20DE", "Fuel": "Petrol 2.0L", "Avg. Quoted Price": "£850-£1,900", "Reported Issue": "Oil consumption"}, {"Year": "1998-2002", "Model": "Nissan Altra (N30) Altra EV", "Engine Code": "EM18", "Fuel": "Electric N/A", "Avg. Quoted Price": "£1,500-£4,500", "Reported Issue": "Battery degradation"}, {"Year": "1999-2001", "Model": "Nissan Altra (N30) R'nessa 2.4 X 2WD", "Engine Code": "KA24DE", "Fuel": "Petrol 2.4L", "Avg. Quoted Price": "£850-£1,950", "Reported Issue": "Timing chain stretch"}]}, "headingLines": ["What Are UK Drivers Paying for Nissan Altra Engine Replacement-"], "imageAlt": "Nissan Altra replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000", "filterTabs": [{"key": "all", "label": "All", "matchers": []}, {"key": "nissan-altra-rnessa-2-0-g-engine", "label": "Nissan Altra R'nessa 2.0 G", "matchers": ["nissan altra r'nessa 2.0 g", "nissan altra rnessa 2 0 g engine"]}, {"key": "nissan-altra-rnessa-2-0-gt-turbo-engine", "label": "Nissan Altra R'nessa 2.0 GT Turbo", "matchers": ["nissan altra r'nessa 2.0 gt turbo", "nissan altra rnessa 2 0 gt turbo engine"]}, {"key": "nissan-altra-rnessa-2-4-x-4wd-engine", "label": "Nissan Altra R'nessa 2.4 X 4WD", "matchers": ["nissan altra r'nessa 2.4 x 4wd", "nissan altra rnessa 2 4 x 4wd engine"]}, {"key": "nissan-altra-altra-ev-engine", "label": "Nissan Altra Altra EV", "matchers": ["nissan altra altra ev", "nissan altra altra ev engine"]}, {"key": "nissan-altra-rnessa-2-0-g-auto-engine", "label": "Nissan Altra R'nessa 2.0 G Auto", "matchers": ["nissan altra r'nessa 2.0 g auto", "nissan altra rnessa 2 0 g auto engine"]}, {"key": "nissan-altra-rnessa-2-4-x-2wd-engine", "label": "Nissan Altra R'nessa 2.4 X 2WD", "matchers": ["nissan altra r'nessa 2.4 x 2wd", "nissan altra rnessa 2 4 x 2wd engine"]}], "ui": {"showingSingleLabel": "entry", "showingPluralLabel": "entries", "acrossAllLabel": "across all models", "noEntriesLabel": "No entries match that model filter yet.", "updatedLabel": "Last updated:", "ctaLabel": "Live Quote Benchmark"}, "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"}, "reviews": {"tag": "Customer Reviews", "h2": "Trusted by Nissan Altra Owners Across the UK", "rating": {"value": 4.8, "count": 0, "summary": "", "basedOn": ""}, "reviews": [], "leaveReviewCta": {"text": "", "linkText": "Leave a review ->"}}, "variantCoverage": {"tag": "Models We Cover", "h2": "Nissan Altra Engine Replacement - All Variants Covered", "subheading": "From the economical R'nessa 2.0 G to the rare Altra EV, our network of UK Nissan Altra engine specialists helps you compare rebuilt, reconditioned and used engine prices, with typical price range for a rebuilt unit with 12-month warranty - supply & fit available nationwide.", "groups": [], "cards": [{"h3": "Nissan Altra R'nessa 2.0 G Engine Replacement", "slug": "nissan-altra-rnessa-2-0-g-engine", "subtitle": "SR20DE 2.0L Petrol ? 140hp ? 1997-2001", "priceRange": "£800-£1,800", "cta": "Compare R'nessa 2.0 G Engine Prices", "engineCodes": ["SR20DE"], "fuel": "Petrol", "power": "140hp", "years": "1997-2001", "image": ""}, {"h3": "Nissan Altra R'nessa 2.0 GT Turbo Engine Replacement", "slug": "nissan-altra-rnessa-2-0-gt-turbo-engine", "subtitle": "SR20DET 2.0L Petrol ? 210hp ? 1998-2001", "priceRange": "£1,200-£2,500", "cta": "Compare R'nessa 2.0 GT Turbo Engine Prices", "engineCodes": ["SR20DET"], "fuel": "Petrol", "power": "210hp", "years": "1998-2001", "image": ""}, {"h3": "Nissan Altra R'nessa 2.4 X 4WD Engine Replacement", "slug": "nissan-altra-rnessa-2-4-x-4wd-engine", "subtitle": "KA24DE 2.4L Petrol ? 150hp ? 1999-2001", "priceRange": "£900-£2,000", "cta": "Compare R'nessa 2.4 X 4WD Engine Prices", "engineCodes": ["KA24DE"], "fuel": "Petrol", "power": "150hp", "years": "1999-2001", "image": ""}, {"h3": "Nissan Altra Altra EV Engine Replacement", "slug": "nissan-altra-altra-ev-engine", "subtitle": "EM18 Electric ? 62kW ? 1998-2002", "priceRange": "£1,500-£4,500", "cta": "Compare Altra EV Engine Prices", "engineCodes": ["EM18"], "fuel": "Electric", "power": "", "years": "1998-2002", "image": ""}, {"h3": "Nissan Altra R'nessa 2.0 G Auto Engine Replacement", "slug": "nissan-altra-rnessa-2-0-g-auto-engine", "subtitle": "SR20DE 2.0L Petrol ? 140hp ? 1997-2001", "priceRange": "£850-£1,900", "cta": "Compare R'nessa 2.0 G Auto Engine Prices", "engineCodes": ["SR20DE"], "fuel": "Petrol", "power": "140hp", "years": "1997-2001", "image": ""}, {"h3": "Nissan Altra R'nessa 2.4 X 2WD Engine Replacement", "slug": "nissan-altra-rnessa-2-4-x-2wd-engine", "subtitle": "KA24DE 2.4L Petrol ? 150hp ? 1999-2001", "priceRange": "£850-£1,950", "cta": "Compare R'nessa 2.4 X 2WD Engine Prices", "engineCodes": ["KA24DE"], "fuel": "Petrol", "power": "150hp", "years": "1999-2001", "image": ""}], "directory": {"h3": "All Nissan Altra Variants - Engine Replacement Coverage", "intro": "A full alphabetical listing of every Nissan Altra trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.", "groups": [{"title": "Diesel Variants", "items": ["None available for this model."]}, {"title": "Petrol Variants", "items": ["R'nessa 1.8 G", "R'nessa 2.0 G", "R'nessa 2.0 G Auto", "R'nessa 2.0 GT", "R'nessa 2.0 GT Turbo", "R'nessa 2.4 X", "R'nessa 2.4 X 2WD", "R'nessa 2.4 X 4WD", "R'nessa 2.4 X Auto"]}, {"title": "Performance Variants", "items": ["R'nessa 2.0 GT Turbo", "Altra EV"]}], "label": "Variant Directory"}, "closing": "Not sure which variant your Nissan Altra is- Enter your registration number above - we'll identify the exact sub-model, engine code and compatible replacement options instantly.", "engineGuide": {"tag": "Engine Codes", "h2": "Nissan Altra Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Altra across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "families": [{"name": "Petrol Engines", "entries": [{"code": "SR20DE", "title": "2.0L Petrol", "familyHeading": "SR Series (1997-2001)", "history": "The SR20DE powered the standard R'nessa 2.0 G, offering reliable naturally-aspirated performance for UK import owners.", "fuel": "Petrol", "size": "2.0 Litre", "power": "130-140 hp", "years": "1997-2001", "compatibleVariants": ["R'nessa 2.0 G, R'nessa 2.0 G Auto, R'nessa 2.0 GL"], "commonFailures": ["Timing chain tensioner wear at 80k+ miles", "Oil consumption from worn piston rings", "Throttle body carbon buildup affecting idle"], "avgRebuiltPrice": "£800 - £1,800", "cta": "Get quotes for SR20DE Nissan Altra engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "SR20DET", "title": "2.0L Petrol", "familyHeading": "SR Series (1997-2001)", "history": "The turbocharged SR20DET defined the R'nessa GT, delivering performance-oriented power for enthusiasts seeking forced induction.", "fuel": "Petrol", "size": "2.0 Litre", "power": "200-210 hp", "years": "1998-2001", "compatibleVariants": ["R'nessa 2.0 GT, R'nessa 2.0 GT Turbo, R'nessa GT AWD"], "commonFailures": ["Turbocharger oil seal failure causing blue smoke", "Coil pack misfire under boost conditions", "Intercooler piping cracks from heat cycling"], "avgRebuiltPrice": "£1,200 - £2,500", "cta": "Get quotes for SR20DET Nissan Altra engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "KA24DE", "title": "2.4L Petrol", "familyHeading": "SR Series (1997-2001)", "history": "The larger-displacement KA24DE provided robust torque for 4WD R'nessa X variants, favoured for towing and load-carrying.", "fuel": "Petrol", "size": "2.4 Litre", "power": "145-155 hp", "years": "1999-2001", "compatibleVariants": ["R'nessa 2.4 X, R'nessa 2.4 X 2WD, R'nessa 2.4 X 4WD, R'nessa 2.4 X Auto"], "commonFailures": ["Head gasket failure on high-mileage units", "Timing chain stretch causing rattling noise", "Oil pump wear leading to low pressure warnings"], "avgRebuiltPrice": "£900 - £2,000", "cta": "Get quotes for KA24DE Nissan Altra engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}, {"name": "Hybrid / Electrified Engines", "entries": [{"code": "EM18", "title": "Electric Motor", "familyHeading": "EM Series (1998-2002)", "history": "The EM18 powered the ultra-rare Altra EV fleet vehicle, representing Nissan's early commercial electric vehicle effort.", "fuel": "Electric", "size": "N/A", "power": "62 kW (83 hp equivalent)", "years": "1998-2002", "compatibleVariants": ["Altra EV, Altra EV Fleet"], "commonFailures": ["Lithium battery pack degradation reducing range", "Motor controller/inverter failure causing power loss", "Cooling system leaks affecting motor temperature"], "avgRebuiltPrice": "£1,500 - £4,500", "cta": "Get quotes for EM18 Nissan Altra engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}], "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Altra engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."}, "headingLines": ["Nissan Altra Engine Replacement", "All Variants Covered"], "ui": {"fromPriceLabel": "from price", "specsLabel": "Specs", "rebuiltLabel": "Rebuilt", "yearsLabel": "Years", "yearsFallback": "Check exact year coverage by registration"}}, "engineCodes": {"tag": "Engine Codes", "h2": "Nissan Altra Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Altra across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "closingLine": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Altra engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.", "filters": ["Petrol Engines", "Hybrid / Electrified Engines"], "groups": [{"name": "Petrol Engines", "era": "Extracted from detailed petrol and performance engine families across Nissan Altra variants.", "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.", "engines": [{"code": "SR20DE", "title": "2.0L Petrol", "familyHeading": "SR Series (1997-2001)", "fuel": "Petrol", "size": "2.0L", "power": "130-140 hp", "compatibleModels": "R'nessa 2.0 G, R'nessa 2.0 G Auto, R'nessa 2.0 GL", "avgRebuiltPrice": "£800 - £1,800", "cta": "Get quotes for SR20DE Nissan Altra engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "SR20DET", "title": "2.0L Petrol", "familyHeading": "SR Series (1997-2001)", "fuel": "Petrol", "size": "2.0L", "power": "200-210 hp", "compatibleModels": "R'nessa 2.0 GT, R'nessa 2.0 GT Turbo, R'nessa GT AWD", "avgRebuiltPrice": "£1,200 - £2,500", "cta": "Get quotes for SR20DET Nissan Altra engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "KA24DE", "title": "2.4L Petrol", "familyHeading": "SR Series (1997-2001)", "fuel": "Petrol", "size": "2.4L", "power": "145-155 hp", "compatibleModels": "R'nessa 2.4 X, R'nessa 2.4 X 2WD, R'nessa 2.4 X 4WD, R'nessa 2.4 X Auto", "avgRebuiltPrice": "£900 - £2,000", "cta": "Get quotes for KA24DE Nissan Altra engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}, {"name": "Hybrid / Electrified Engines", "era": "Extracted from electrified powertrains and hybrid engine families used in Nissan Altra variants.", "failureNote": "Main replacement demand comes from cooling, battery-support and high-voltage control faults.", "engines": [{"code": "EM18", "title": "Electric Motor", "familyHeading": "EM Series (1998-2002)", "fuel": "Electric", "size": "N/A", "power": "62 kW (83 hp equivalent)", "compatibleModels": "Altra EV, Altra EV Fleet", "avgRebuiltPrice": "£1,500 - £4,500", "cta": "Get quotes for EM18 Nissan Altra engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}], "headingLines": ["Nissan Altra Engine Codes", "Full Technical Specifications & Replacement Guide"], "closingAction": {"title": "Can't find your engine code-", "buttonText": "Enter Your Reg"}, "ui": {"summaryPriceLabel": "Avg. rebuilt price", "exampleImageLabel": "Example engine visual", "historyLabel": "Engine History", "variantsLabel": "Compatible Nissan Altra variants", "specsTitle": "Technical Specifications", "fuelLabel": "Fuel type", "sizeLabel": "Engine size", "powerLabel": "Power output", "yearsLabel": "Years fitted", "failuresTitle": "Common Failures", "supplyLabel": "Supply only"}}, "commonProblems": {"tag": "Common Problems", "h2": "Nissan Altra Engine Problems - What It Costs to Fix & When Replacement Makes Sense", "h3": "The Nissan Altra (R'nessa) petrol engines - SR20DE, SR20DET and KA24DE - dominate UK replacement enquiries. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty. Use this section to decide whether repair or replacement offers better value for your specific issue.", "problems": [{"group": "Nissan Altra SR20DE Timing Chain Rattle", "h4": "Nissan Altra SR20DE Timing Chain Rattle - Why Early SR20 Engines Fail", "affectedModels": "Nissan Altra R'nessa 2.0 G, 2.0 G Auto (1997-2001, SR20DE)", "typicalFailureMileage": "70,000-110,000 miles", "rootCause": "Original timing chain tensioner loses hydraulic pressure, allowing chain slap and guide wear that can lead to catastrophic interference if ignored.", "repairOptions": [{"tier": "Minor - Preventative Chain Kit", "dealerPrice": "£900 - £1,400", "specialistPrice": "£550 - £850", "whatItInvolves": "Replace tensioner, guides and chain before failure", "longevity": "Viable if caught early; 40-60k mile extension"}, {"tier": "Full Replacement - Rebuilt SR20DE", "dealerPrice": "£2,200 - £3,500", "specialistPrice": "£800 - £1,800", "whatItInvolves": "Supply & fit rebuilt engine with upgraded tensioner, bench tested", "longevity": "Lifetime solution; 12-month warranty included"}], "recommendation": "If your SR20DE is rattling on cold start but still runs, a preventative chain kit from a specialist offers excellent value. If the chain has jumped or valves are bent, replacement is the only viable option.", "cta": "Compare rebuilt SR20DE engine prices for your Nissan Altra"}, {"group": "Nissan Altra KA24DE Head Gasket Failure", "h4": "Nissan Altra KA24DE Head Gasket Failure - Coolant Loss & Overheating", "affectedModels": "Nissan Altra R'nessa 2.4 X, 2.4 X 4WD (1999-2001, KA24DE)", "typicalFailureMileage": "90,000-130,000 miles", "rootCause": "Cylinder head warping from thermal cycling combined with original gasket material breakdown, allowing coolant into combustion chambers.", "repairOptions": [{"tier": "Intermediate - Head Skim & Gasket", "dealerPrice": "£1,100 - £1,800", "specialistPrice": "£700 - £1,200", "whatItInvolves": "Remove head, machine surface, fit multi-layer steel gasket", "longevity": "Viable if block is undamaged; 30-50k mile expectation"}, {"tier": "Full Replacement - Rebuilt KA24DE", "dealerPrice": "£2,400 - £3,800", "specialistPrice": "£900 - £2,000", "whatItInvolves": "Supply & fit rebuilt engine with MLS gasket, pressure tested", "longevity": "Definitive solution; addresses block wear too"}], "recommendation": "For KA24DE units showing white smoke or coolant loss, get a compression test first. If bores are scored, replacement is more cost-effective than repeated head repairs.", "cta": "Get quotes for KA24DE Nissan Altra engine replacement"}, {"group": "Nissan Altra SR20DET Turbo Failure", "h4": "Nissan Altra SR20DET Turbo Failure - Blue Smoke & Power Loss", "affectedModels": "Nissan Altra R'nessa 2.0 GT Turbo (1998-2001, SR20DET)", "typicalFailureMileage": "60,000-100,000 miles", "rootCause": "Turbocharger journal bearing wear from oil starvation or coked oil lines, causing shaft play, seal failure and loss of boost pressure.", "repairOptions": [{"tier": "Intermediate - Turbo Rebuild/Replace", "dealerPrice": "£1,400 - £2,200", "specialistPrice": "£800 - £1,500", "whatItInvolves": "Remove turbo, refurbish or replace with reconditioned unit", "longevity": "Viable if engine internals are healthy"}, {"tier": "Full Replacement - Rebuilt SR20DET", "dealerPrice": "£3,000 - £4,500", "specialistPrice": "£1,200 - £2,500", "whatItInvolves": "Supply & fit rebuilt engine with upgraded turbo, oil lines checked", "longevity": "Best value if engine has other wear; warranty included"}], "recommendation": "If your SR20DET is smoking blue under boost but compression is good, a quality turbo rebuild is cost-effective. If the engine has high mileage or oil consumption, full replacement prevents repeat failures.", "cta": "Compare rebuilt SR20DET engine prices for your Nissan Altra"}, {"group": "Nissan Altra EM18 Electric Motor Controller Fault", "h4": "Nissan Altra EM18 Electric Motor Controller Fault - Power Loss & No Start", "affectedModels": "Nissan Altra EV (1998-2002, EM18)", "typicalFailureMileage": "80,000-150,000 miles (or age-related)", "rootCause": "Inverter/controller electronics degradation from thermal cycling and moisture ingress, causing intermittent or complete loss of drive power.", "repairOptions": [{"tier": "Specialist - Controller Repair/Replace", "dealerPrice": "£2,000 - £4,000", "specialistPrice": "£1,500 - £3,500", "whatItInvolves": "Diagnose inverter, repair PCB or source replacement unit", "longevity": "Viable for fleet vehicles; requires EV specialist"}, {"tier": "Full Replacement - Rebuilt EM18 Unit", "dealerPrice": "£4,500 - £7,000", "specialistPrice": "£1,500 - £4,500", "whatItInvolves": "Supply & fit rebuilt motor/controller assembly, battery health check", "longevity": "Only option for severe degradation; limited supplier availability"}], "recommendation": "Due to the extreme rarity of Altra EV units, we recommend contacting our network first to confirm specialist availability before committing to repair. Battery health must be assessed alongside motor issues.", "cta": "Enquire about EM18 Nissan Altra EV motor availability"}], "finalCta": {"h4": "Don't Let Engine Failure Write Off Your Nissan Altra", "paragraph": "Whether you're dealing with SR20DE timing chain noise, KA24DE head gasket failure, or SR20DET turbo issues, EngineMarket makes it simple to compare prices from trusted UK Nissan Altra specialists. Every rebuilt engine includes upgraded components addressing the original failure point, plus a minimum 12-month unlimited mileage warranty and nationwide delivery. Compare quotes today and get back on the road without the main dealer premium.", "buttonText": "Compare Nissan Altra Engine Replacement Prices Now →", "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket's UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Altra and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."}}, "engineTypes": {"tag": "Replacement Engine Options", "h2": "Nissan Altra Engine Types - Options, Costs & What to Expect", "intro": "Every engine type for the Nissan Altra is available through our UK network with typical price ranges based on variant, engine code and budget.", "types": [{"title": "Nissan Altra Reconditioned Engines (Recon)", "description": "Professionally cleaned, inspected and resealed engines with worn components replaced to restore reliable performance for your R'nessa or Altra.", "frontDescription": "Professionally cleaned, inspected and resealed engines with worn components replaced to restore reliable performance for your R'nessa or Altra.", "frontDisclaimer": "Availability varies by engine code; SR20DE most common.", "backDescription": "Reconditioned units undergo thorough inspection, cleaning and replacement of worn seals, gaskets and bearings. Ideal for SR20DE and KA24DE engines with solid cores.", "backBullets": ["Typical turnaround: 3-7 working days", "Includes 12-month unlimited mileage warranty", "Best value for engines with minor wear"], "priceRange": "£800 - £2,200 (supply only)", "cta": "Compare reconditioned Nissan Altra engine prices"}, {"title": "Nissan Altra Rebuilt Engines", "description": "Fully disassembled engines machined to spec with new pistons, rings and bearings for near-factory reliability on high-mileage R'nessa units.", "frontDescription": "Fully disassembled engines machined to spec with new pistons, rings and bearings for near-factory reliability on high-mileage R'nessa units.", "frontDisclaimer": "Rebuild specs vary; confirm component upgrades with supplier.", "backDescription": "Rebuilt engines receive comprehensive machining and component replacement addressing known failure points like timing chains and head gaskets.", "backBullets": ["Upgraded tensioners and MLS gaskets included", "Bench-tested before dispatch", "Ideal for SR20DET and high-mileage KA24DE"], "priceRange": "£900 - £2,500 (supply only)", "cta": "Get rebuilt Nissan Altra engine quotes"}, {"title": "Nissan Altra Used Engines", "description": "Low-mileage donor engines sourced from UK and Japanese breakers, offering affordable replacement for budget-conscious Nissan Altra owners.", "frontDescription": "Low-mileage donor engines sourced from UK and Japanese breakers, offering affordable replacement for budget-conscious Nissan Altra owners.", "frontDisclaimer": "Mileage and condition vary; request compression test report.", "backDescription": "Used engines are tested and graded by mileage and condition. Best for SR20DE units where preventative replacement is preferred over repair.", "backBullets": ["Compression and leak-down test reports available", "3-6 month warranty typical from breakers", "Fastest availability for common codes"], "priceRange": "£400 - £1,200 (supply only)", "cta": "Check used Nissan Altra engine availability"}, {"title": "Nissan Altra Remanufactured Engines", "description": "Factory-spec remanufactured engines built to original tolerances with new components throughout for maximum longevity on your R'nessa.", "frontDescription": "Factory-spec remanufactured engines built to original tolerances with new components throughout for maximum longevity on your R'nessa.", "frontDisclaimer": "Limited supplier availability; lead times may apply.", "backDescription": "Remanufactured units are built to OEM specifications with all critical components renewed. The premium choice for performance SR20DET applications.", "backBullets": ["All bearings, seals and gaskets replaced new", "Dynamometer tested before dispatch", "Closest to new-engine reliability"], "priceRange": "£1,200 - £3,000 (supply only)", "cta": "Compare remanufactured Nissan Altra engine costs"}, {"title": "Nissan Altra Refurbished Engines", "description": "Targeted refurbishment addressing specific known failures like timing chains or turbos, offering cost-effective repair for diagnosed issues.", "frontDescription": "Targeted refurbishment addressing specific known failures like timing chains or turbos, offering cost-effective repair for diagnosed issues.", "frontDisclaimer": "Scope varies; confirm exactly which components are renewed.", "backDescription": "Refurbished engines focus on repairing the identified failure point while retaining serviceable original components. Suitable for budget-conscious repairs.", "backBullets": ["Addresses single failure mode (e.g., chain, turbo)", "Shorter lead time than full rebuild", "Best when engine otherwise healthy"], "priceRange": "£600 - £1,800 (supply only)", "cta": "View refurbished Nissan Altra engine options"}, {"title": "Nissan Altra Supply & Fit Engines", "description": "Complete engine replacement service including supply, fitting, fluids and road test from vetted UK Nissan Altra specialists nationwide.", "frontDescription": "Complete engine replacement service including supply, fitting, fluids and road test from vetted UK Nissan Altra specialists nationwide.", "frontDisclaimer": "Fitment cost varies by workshop location and engine complexity.", "backDescription": "Supply & fit packages bundle engine supply with professional installation, saving coordination hassle and ensuring warranty validity through approved fitters.", "backBullets": ["Includes removal, fitting, fluids and road test", "Warranty valid only when fitted by approved specialist", "Request quotes specifying your variant and location"], "priceRange": "£400 - £900 added to engine price", "cta": "Find Nissan Altra engine supply & fit deals"}], "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Altra within hours.", "headingLines": ["Nissan Altra Engine Types", "Options, Costs & What to Expect"], "ui": {"priceLabel": "Typical price range", "frontActionLabel": "What is it-", "backActionLabel": "Flip back"}, "closingCard": {"label": "Engine Replacement Help", "title": "Compare Nissan Altra engine prices with vetted UK suppliers", "buttonText": "Compare Nissan Altra Prices"}}, "engineSizes": {"tag": "Engine Sizes", "h2": "Nissan Altra Engines by Size - Find the Right Displacement for Your Variant", "intro": "Every displacement fitted to the Nissan Altra is listed below, with compatible engine codes, production years and common failure points to help you identify the correct replacement.", "groups": [{"title": "Nissan Altra Petrol Engine Sizes", "items": [{"title": "Nissan Altra 2.0L Petrol Engines", "description": "The 2.0L SR20 family powered most R'nessa variants from 1997-2001, offering a balance of efficiency and performance. The naturally-aspirated SR20DE was the volume seller, while the turbocharged SR20DET defined the GT performance trim.", "engineCodes": ["SR20DE", "SR20DET"], "compatibleModels": ["R'nessa 2.0 G", "2.0 G Auto", "2.0 GT", "2.0 GT Turbo"], "productionYears": "N30, 1997-2001", "commonFailurePoints": ["Timing chain tensioner wear (SR20DE)", "turbo oil seal failure (SR20DET)"], "cta": "Compare Nissan Altra 2.0L petrol engine prices"}, {"title": "Nissan Altra 2.4L Petrol Engines", "description": "The larger 2.4L KA24DE was fitted to 4WD R'nessa X variants from 1999, providing increased torque for load-carrying and towing applications where the 2.0L felt underpowered.", "engineCodes": ["KA24DE"], "compatibleModels": ["R'nessa 2.4 X", "2.4 X 2WD", "2.4 X 4WD", "2.4 X Auto"], "productionYears": "N30, 1999-2001", "commonFailurePoints": ["Head gasket failure on high-mileage units", "timing chain stretch"], "cta": "Compare Nissan Altra 2.4L petrol engine prices"}]}, {"title": "Nissan Altra Electric Engine Sizes", "items": [{"title": "Nissan Altra Electric Engines", "description": "The ultra-rare Altra EV used the EM18 electric motor producing 62kW, representing Nissan's early commercial electric vehicle effort for fleet applications in the late 1990s.", "engineCodes": ["EM18"], "compatibleModels": ["Altra EV", "Altra EV Fleet"], "productionYears": "N30, 1998-2002", "commonFailurePoints": ["Battery pack degradation", "motor controller/inverter failure"], "cta": "Enquire about Nissan Altra electric engine availability"}]}], "closing": "Not sure which engine size your Nissan Altra needs- Enter your registration number above - we'll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Altra specialists.", "headingLines": ["Nissan Altra Engines by Size", "Find the Right Displacement for Your Variant"], "ui": {"swapLabel": "Swap panel", "engineCodesLabel": "Engine Code(s)", "compatibleModelsLabel": "Compatible Models (UK)", "productionYearsLabel": "Production Years", "warningLabel": "Common Failure Points", "warningTitle": "Watch for these known weak points", "helperLabel": "Engine Size Advice", "helperTitle": "Need help matching the exact engine size-", "helperButtonText": "Find My Engine"}}, "fuelTypes": {"tag": "Fuel Type", "h2": "Nissan Altra Engines by Fuel Type", "intro": "Choose your Nissan Altra engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early SR20DE to the rare EM18 electric motor.", "items": [{"title": "Nissan Altra Petrol Engines", "description": "Petrol engines dominate the Nissan Altra (R'nessa) replacement market, with SR20DE, SR20DET and KA24DE units covering all UK import variants from 1997-2001.", "descriptor": "Petrol engines dominate the Nissan Altra (R'nessa) replacement market, with SR20DE, SR20DET and KA24DE units covering all UK import variants from 1997-2001.", "familiesLabel": "Common Nissan Altra Petrol Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Petrol Models", "notesLabel": "", "families": ["SR20DE - standard 2.0L unit (R'nessa 2.0 G), timing chain tensioner wear common", "SR20DET - turbo performance variant (GT), turbo oil seal failures under boost", "KA24DE - 2.4L 4WD engine (R'nessa X), head gasket failure at high mileage"], "foundIn": ["R'nessa N30 (1997-2001) - SR20DE, SR20DET, KA24DE"], "knownFor": ["SR20DE: Reliable if timing chain maintained; rattling on cold start is warning sign", "SR20DET: Strong performance but turbo requires quality oil and regular checks", "KA24DE: Robust torque but prone to head gasket failure in UK climate"], "typicalModels": ["R'nessa 2.0 G", "R'nessa 2.0 GT Turbo", "R'nessa 2.4 X 4WD"], "importantNotes": [], "cta": "Get quotes for Nissan Altra Petrol replacement engines"}, {"title": "Nissan Altra Electric Engines", "description": "The EM18 electric motor powered the ultra-rare Altra EV fleet vehicle (1998-2002), with replacement requiring specialist EV knowledge due to extremely limited UK availability.", "descriptor": "The EM18 electric motor powered the ultra-rare Altra EV fleet vehicle (1998-2002), with replacement requiring specialist EV knowledge due to extremely limited UK availability.", "familiesLabel": "Nissan Altra Electric Engine Codes", "foundInLabel": "Found In", "knownForLabel": "", "modelsLabel": "", "notesLabel": "Important Notes", "families": ["EM18 - 62kW motor/controller assembly for Altra EV fleet variants", "Single-speed reduction gear driven by permanent magnet synchronous motor", "Lithium-ion battery pack (approx. 30-35 kWh) mounted under floor", "Regenerative braking recovers energy to extend urban range"], "foundIn": ["Altra EV, Altra EV Fleet (1998-2002)"], "knownFor": [], "typicalModels": [], "importantNotes": ["Only ~200 Altra EV units produced globally; UK numbers extremely low", "Replacement requires specialist with EM18 experience; standard garages cannot service", "Battery health must be assessed alongside motor condition for accurate quoting"], "cta": "Enquire about Nissan Altra Electric engine availability"}], "closing": "Not sure which fuel type your Nissan Altra has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Altra specialists.", "headingLines": ["Nissan Altra Engines by Fuel Type"], "ui": {"swapLabel": "Swap panel", "familiesLabel": "Common Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Models (UK)", "notesLabel": "Important Notes", "closingButtonText": "Find my engine", "emptyStateTitle": "Fuel type guidance", "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."}}, "engineYears": {"tag": "Engine Years", "h2": "Nissan Altra Engines by Year - What Was Fitted & When", "intro": "This section covers all major engine changes across the Nissan Altra (R'nessa) production timeline, organised so owners can quickly identify their engine and compare rebuilt engine prices from UK specialists.", "jumpLabel": "Jump to model year", "years": [{"year": "1997 - 1998", "preview": "Early N30 R'nessa Launch", "description": "The R'nessa launched with the SR20DE 2.0L petrol engine, establishing the baseline powertrain for UK import variants.", "keyChanges": ["Introduction of N30 chassis with SR20DE 2.0L petrol engine", "Front-wheel drive layout with automatic or manual transmission options", "Early ECU mapping specific to Japanese domestic market specifications"], "mainEngines": ["SR20DE - 2.0L petrol (R'nessa 2.0 G / 2.0 GL)"], "popularModels": ["Nissan R'nessa 2.0 G", "Nissan R'nessa 2.0 GL"], "knownFor": ["Reliable SR20DE block but early tensioner design prone to wear", "JDM ECU may require adaptation for UK fuel and emissions", "Good parts interchangeability with UK-market Primera SR20 units"], "engineCodesCovered": ["SR20DE"], "cta": "Get quotes for 1997-1998 Nissan Altra replacement engines", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "Nissan R'nessa SR20DE engine replacement • SR20DE timing chain rattle fix • R'nessa 2.0 G engine cost UK", "enquiries": ["Nissan R'nessa SR20DE engine replacement", "SR20DE timing chain rattle fix", "R'nessa 2.0 G engine cost UK"]}, {"year": "1998 - 1999", "preview": "Turbo & EV Introduction", "description": "The SR20DET turbo engine debuted in the R'nessa GT, while the ultra-rare Altra EV introduced the EM18 electric motor for fleet applications.", "keyChanges": ["SR20DET turbo engine added for R'nessa GT performance variant", "Altra EV launched with EM18 electric motor and lithium battery pack", "Minor ECU revisions for turbo boost control and emissions"], "mainEngines": ["SR20DE - 2.0L petrol (R'nessa 2.0 G)", "SR20DET - 2.0L turbo petrol (R'nessa GT)", "EM18 - electric motor (Altra EV)"], "popularModels": ["Nissan R'nessa 2.0 GT Turbo", "Nissan Altra EV"], "knownFor": ["SR20DET delivers strong performance but requires diligent oil maintenance", "EM18 availability extremely limited; specialist sourcing essential", "Turbo variants command premium pricing in replacement market"], "engineCodesCovered": ["SR20DE", "SR20DET", "EM18"], "cta": "Get quotes for 1998-1999 Nissan Altra replacement engines", "badges": [{"label": "Technology Change", "tone": "accent"}], "ticker": "R'nessa GT SR20DET turbo replacement • Altra EV EM18 motor availability • SR20DET blue smoke fix", "enquiries": ["R'nessa GT SR20DET turbo replacement", "Altra EV EM18 motor availability", "SR20DET blue smoke fix"]}, {"year": "1999 - 2001", "preview": "4WD KA24DE & Facelift Updates", "description": "The larger KA24DE 2.4L engine was introduced for 4WD R'nessa X variants, while facelift models received updated sensors and ECU mapping.", "keyChanges": ["KA24DE 2.4L engine added for R'nessa 2.4 X 4WD variants", "Facelift updates to wiring looms and sensor connectors", "Revised engine mounts for improved NVH in later production"], "mainEngines": ["SR20DE - 2.0L petrol (R'nessa 2.0 G, facelift)", "SR20DET - 2.0L turbo petrol (R'nessa GT, facelift)", "KA24DE - 2.4L petrol (R'nessa 2.4 X 4WD)"], "popularModels": ["Nissan R'nessa 2.4 X 4WD", "Nissan R'nessa 2.0 G (facelift)", "Nissan R'nessa 2.0 GT Turbo (facelift)"], "knownFor": ["KA24DE offers robust torque but head gasket failure common at high mileage", "Facelift models have improved wiring but sensor compatibility must be verified", "4WD variants require specific sump and mount configuration"], "engineCodesCovered": ["SR20DE", "SR20DET", "KA24DE"], "cta": "Get quotes for 1999-2001 Nissan Altra replacement engines", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "R'nessa 2.4 X KA24DE head gasket • Facelift SR20DE wiring compatibility • 4WD sump for R'nessa engine", "enquiries": ["R'nessa 2.4 X KA24DE head gasket", "Facelift SR20DE wiring compatibility", "4WD sump for R'nessa engine"]}, {"year": "2002", "preview": "Final Altra EV Production Run", "description": "The final year of Altra EV production saw minimal changes, with EM18 electric motor units becoming increasingly scarce in the UK replacement market.", "keyChanges": ["Final production year for Altra EV with EM18 motor", "No significant engineering changes; focus on fleet support", "Increasing scarcity of replacement EM18 units in UK"], "mainEngines": ["EM18 - electric motor (Altra EV final units)"], "popularModels": ["Nissan Altra EV (final production)"], "knownFor": ["Extreme rarity makes EM18 replacement a specialist-only proposition", "Battery degradation is primary concern over motor failure", "Fleet operators should plan for long lead times on parts"], "engineCodesCovered": ["EM18"], "cta": "Enquire about 2002 Nissan Altra EV engine availability", "badges": [{"label": "Major Engine Changes", "tone": "accent"}, {"label": "1 engine highlights", "tone": "muted"}], "enquiries": []}], "closing": "Not sure which year your Nissan Altra was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Altra specialists.", "headingLines": ["Nissan Altra Engines by Year", "What Was Fitted & When"], "ui": {"keyChangesLabel": "Key Changes", "knownForLabel": "Known For", "mainEnginesLabel": "Main Engines", "popularModelsLabel": "Popular Models", "engineCodesLabel": "Engine Codes Covered", "enquiriesLabel": "Common Replacement Enquiries"}, "summaryCta": {"label": "Year Finder", "title": "Not sure which year your Nissan Altra was built-", "buttonText": "Find My Engine"}}, "faq": {"tag": "FAQ", "h2": "Nissan Altra Engine Replacement - Frequently Asked Questions", "intro": "", "items": [{"question": "Is the Nissan Altra the same as the R'nessa-", "answer": "Yes, the Nissan Altra is the electric variant of the R'nessa (chassis N30). Most UK replacement enquiries target the petrol R'nessa variants using SR20DE, SR20DET or KA24DE engines.", "keyPoints": ["Altra EV used EM18 electric motor; R'nessa used petrol engines", "Both share N30 chassis, body panels and many components", "Search using both names to capture all UK stock listings"], "cta": "Compare Nissan Altra and R'nessa engine prices today"}, {"question": "Will a Nissan Primera SR20DE fit my R'nessa-", "answer": "Generally yes, the SR20DE from UK-market Primera shares the same block architecture, but wiring loom, mounts and ancillaries may require adaptation for R'nessa fitment.", "keyPoints": ["Core engine block and head are interchangeable between models", "R'nessa-specific sump, mounts and wiring may need swapping", "Always verify transmission bellhousing pattern matches your gearbox"], "cta": "Get quotes for SR20DE engines compatible with Nissan R'nessa"}, {"question": "How much to replace Nissan R'nessa engine UK-", "answer": "Rebuilt SR20DE engines typically cost £800-£1,800 supply-only; fitted prices add £400-£900 labour. SR20DET and KA24DE units command higher pricing due to complexity.", "keyPoints": ["Supply-only pricing excludes fitting, fluids and road test", "Turbo SR20DET units cost £1,200-£2,500 due to turbocharger value", "Always request itemised quotes showing warranty terms and inclusions"], "cta": "Compare rebuilt Nissan R'nessa engine prices from UK specialists"}, {"question": "Does the Nissan Altra EV use a petrol engine-", "answer": "No, the Altra EV exclusively used the EM18 electric motor. Petrol engines (SR20/KA24) were fitted only to R'nessa variants, not the Altra EV badge.", "keyPoints": ["Altra EV = electric only; R'nessa = petrol only", "EM18 replacement requires EV specialist; very limited UK availability", "Confirm your VIN before ordering to avoid incompatible engine purchase"], "cta": "Enquire about EM18 electric motor availability for Nissan Altra EV"}, {"question": "Where to find a KA24DE engine in UK-", "answer": "KA24DE engines are sourced through specialist Japanese import breakers and UK Nissan specialists. Availability is moderate but lead times of 2-4 weeks are common.", "keyPoints": ["Request compression test reports before committing to purchase", "Verify 2WD vs 4WD sump configuration matches your R'nessa variant", "Rebuilt units with upgraded head gasket offer best long-term value"], "cta": "Find KA24DE engine suppliers for Nissan R'nessa 2.4 X"}, {"question": "What is the engine code for Nissan R'nessa GT-", "answer": "The R'nessa GT Turbo uses the SR20DET engine code. Non-turbo GT variants (if specified) would use SR20DE, but UK imports are predominantly turbo.", "keyPoints": ["SR20DET = turbocharged; SR20DE = naturally aspirated", "Check engine bay plaque or VIN decoder for definitive identification", "Turbo variants require specific oil, cooling and exhaust considerations"], "cta": "Get quotes for SR20DET Nissan R'nessa GT engine replacement"}, {"question": "Can I fit an SR20DET into a non-turbo R'nessa-", "answer": "Yes, but it requires significant modification: turbo plumbing, intercooler, ECU, wiring loom and exhaust upgrades. Most owners find buying a GT donor more cost-effective.", "keyPoints": ["Engine mounts and transmission may bolt up directly", "Fuel system, ECU and wiring require extensive adaptation", "Professional tuning essential to avoid engine damage post-conversion"], "cta": "Compare SR20DET swap packages for Nissan R'nessa conversion"}, {"question": "Do you supply the 4WD sump for R'nessa-", "answer": "Yes, our network includes specialists who stock R'nessa-specific 4WD sumps for KA24DE and SR20DE engines. Always confirm drivetrain configuration when ordering.", "keyPoints": ["4WD sumps have different pickup location and mounting points", "Using a 2WD sump on 4WD can cause oil starvation under cornering", "Include chassis code (N30) and variant when requesting quotes"], "cta": "Find Nissan R'nessa 4WD engine sump suppliers UK"}, {"question": "Is the Nissan R'nessa engine reliable-", "answer": "SR20DE and KA24DE are fundamentally robust engines if maintained; common failures (timing chain, head gasket) are well-documented and addressable with rebuilt units.", "keyPoints": ["Regular oil changes critical for SR20 timing chain longevity", "KA24DE benefits from upgraded multi-layer steel head gasket", "Rebuilt engines with component upgrades offer best reliability"], "cta": "Compare reliable rebuilt engines for Nissan R'nessa UK"}, {"question": "What warranty on Nissan R'nessa engines-", "answer": "Engines supplied through EngineMarket carry a minimum 12-month unlimited mileage warranty. Always confirm exact terms, coverage exclusions and approved fitting requirements with your chosen supplier.", "keyPoints": ["Warranty typically covers parts and labour for manufacturing defects", "Fitting by non-approved workshop may void warranty coverage", "Keep all invoices and compression test reports for warranty claims"], "cta": "Get Nissan R'nessa engine quotes with 12-month warranty included"}], "headingLines": ["Nissan Altra Engine Replacement", "Frequently Asked Questions"], "defaultOpenIndex": 0, "ui": {"questionLabelPrefix": "Question", "keyPointsLabel": "Key points", "warningTitle": "Check fitment and engine condition before ordering"}}, "trustCta": {"tag": "Why Choose Us", "h2": "Why UK Nissan Altra Owners Trust EngineMarket", "intro": "Join thousands of UK drivers who compare Nissan Altra engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.", "points": [{"title": "Trusted Nissan Altra Engine Suppliers", "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Altra owners."}, {"title": "Compare Nissan Altra Engine Replacement Companies", "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."}, {"title": "UK Engine Replacement Services for Nissan Altra", "description": "Covering every variant from budget SR20DE to rare EM18 electric, with supply-only or full supply & fit available nationwide."}], "finalText": "Find the best Nissan Altra engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.", "buttonText": "Compare Nissan Altra Engine Prices Now →", "secondaryAction": {"text": "Call Our Experts", "href": "tel:03330000044"}, "imageAlt": "Nissan Altra vehicle", "ui": {"pointLabel": "Included", "stripLabel": "Trusted UK Engine Marketplace", "stripTitle": "Compare Nissan Altra engine prices with vetted UK specialists", "trustBullets": ["100% Free", "No Obligation", "Fast & secure process", "UK-based support"], "imageBadgeLabel": "Trusted supplier network", "imageBadgeTitle": "Warranty-backed rebuilt & used options", "imageBadgeText": "Every quote checked for fitment, quality and lead time."}}}}
+{
+  "brand": {
+    "name": "Nissan",
+    "slug": "nissan",
+    "tone": "premium"
+  },
+  "model": {
+    "name": "Nissan Altra",
+    "slug": "altra",
+    "legacySlug": "nissan-altra"
+  },
+  "seo": {
+    "title": "Nissan Altra Engine Replacement - Compare Prices",
+    "description": "Nissan Altra engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £800. 12-month warranty & UK supply fit specialists.",
+    "canonical": "/nissan/altra"
+  },
+  "assets": {
+    "mainImage": "/images/brands/nissan/models/nissan-altra-model-card.png",
+    "smallImage": "/images/brands/nissan/models/nissan-altra-model-card.png",
+    "heroBg": "/images/brands/nissan/models/nissan-altra-model-card.png",
+    "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp",
+    "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp",
+    "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp",
+    "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp",
+    "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp",
+    "ctaImage": "/images/brands/nissan/models/nissan-altra-model-card.png"
+  },
+  "sections": {
+    "hero": {
+      "tag": "NISSAN ENGINE MARKETPLACE",
+      "h1": "Nissan Altra Engine Replacement - Compare Prices & Save",
+      "subheading": "Get quotes today from trusted UK Nissan Altra engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available nationwide.",
+      "trustBadges": [
+        "Supply & Fit Available",
+        "12-Month Warranty",
+        "Nationwide Delivery",
+        "100+ Suppliers"
+      ],
+      "ctaLinkText": "Get Free Nissan Altra Engine Quotes →",
+      "supportingText": "Get tailored Nissan Altra engine quotes from vetted UK specialists.",
+      "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network",
+      "form": {
+        "heading": "Find Your Nissan Altra Engine",
+        "subtitle": "Enter your registration number to compare Nissan Altra engine options.",
+        "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)",
+        "buttonText": "Get Free Nissan Altra Engine Quotes →",
+        "note": ""
+      },
+      "imageAlt": "Nissan Altra engine replacement UK - compare reconditioned and rebuilt engine prices",
+      "highlights": [
+        {
+          "title": "Nissan Altra SR20DE Engines",
+          "price": "from £800 to £1,800",
+          "line1": "Nissan Altra SR20DE Engines - from £800 to £1,800",
+          "line2": "-> Rebuilt units from £800 · Common codes: SR20DE, SR20DET, KA24DE, EM18",
+          "detail": "-> Rebuilt units from £800 · Common codes: SR20DE, SR20DET, KA24DE, EM18",
+          "image": "",
+          "imageAlt": "Nissan Altra SR20DE petrol engine replacement - SR20DE SR20DET rebuilt reconditioned UK"
+        },
+        {
+          "title": "Nissan Altra KA24DE Engines",
+          "price": "from £900 to £2,000",
+          "line1": "Nissan Altra KA24DE Engines - from £900 to £2,000",
+          "line2": "-> Rebuilt units from £900 · Common codes: KA24DE, SR20DE, SR20DET",
+          "detail": "-> Rebuilt units from £900 · Common codes: KA24DE, SR20DE, SR20DET",
+          "image": "",
+          "imageAlt": "Nissan Altra KA24DE 4WD engine replacement - KA24DE SR20DE rebuilt reconditioned UK"
+        },
+        {
+          "title": "Nissan Altra EM18 Electric Motors",
+          "price": "from £1,500 to £4,500",
+          "line1": "Nissan Altra EM18 Electric Motors - from £1,500 to £4,500",
+          "line2": "-> Rebuilt units from £1,500 · Common codes: EM18",
+          "detail": "-> Rebuilt units from £1,500 · Common codes: EM18",
+          "image": "",
+          "imageAlt": "Nissan Altra EM18 electric motor replacement - EM18 rebuilt reconditioned UK specialist"
+        }
+      ],
+      "headingLines": [
+        "Nissan Altra Engine Replacement",
+        "Compare Prices & Save"
+      ],
+      "mobileBar": {
+        "brandText": "ENGINEMARKET",
+        "callLabel": "Call",
+        "quoteLabel": "GET QUOTES"
+      },
+      "registrationInput": {
+        "label": "Enter your vehicle registration",
+        "platePlaceholder": "AB12 CDE",
+        "countryCode": "UK",
+        "countryLabel": "United Kingdom"
+      }
+    },
+    "howItWorks": {
+      "tag": "How It Works",
+      "h2": "3 Simple Steps to Finding the Best Nissan Altra Replacement Engine",
+      "cards": [
+        {
+          "number": 1,
+          "icon": "registration",
+          "front": {
+            "h3": "Enter Your Nissan Altra Registration",
+            "text": "Instantly verify your exact model, engine code and fuel type via DVLA - R'nessa 2.0 G to Altra EV."
+          },
+          "back": {
+            "heading": "Your Car, Precisely Identified",
+            "text": "Engines Market uses the official DVLA database to pull accurate details about your Altra, not just model name.",
+            "bullets": [
+              "Your Precise Model - from R'nessa 2.0 G, 2.0 GT Turbo, 2.4 X 4WD to Altra EV",
+              "Your Engine Code - SR20DE, SR20DET, KA24DE, EM18 and more",
+              "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly",
+              "No paperwork, no guesswork, 100% free."
+            ]
+          }
+        },
+        {
+          "number": 2,
+          "icon": "quote",
+          "front": {
+            "h3": "Get Quotes from Nissan Engine Specialists",
+            "text": "Same-day quotes from vetted UK suppliers - full breakdown, no obligation."
+          },
+          "back": {
+            "heading": "Quotes You Can Trust",
+            "text": "Your verified details are securely shared with up to 10 of our most relevant UK suppliers, matched to your variant and location.",
+            "bullets": [
+              "Vetted UK Suppliers - specialists who understand Nissan diesel and petrol engines",
+              "Same-Day Quotes - usually within hours, not days",
+              "Supply & Fit Service - or supply-only to your own garage",
+              "Full Breakdown - price, warranty length, delivery estimate and fitting cost all shown clearly",
+              "No hidden fees. No sales calls unless you approve."
+            ]
+          }
+        },
+        {
+          "number": 3,
+          "icon": "shield",
+          "front": {
+            "h3": "Choose the Best Deal & Save",
+            "text": "Compare supplier reviews, warranty and price - then pick the right one for you."
+          },
+          "back": {
+            "heading": "Your Choice, Your Control",
+            "text": "You decide which specialist to go with. We simply make the search fast, safe and transparent.",
+            "bullets": [
+              "Online Reviews - read real customer feedback",
+              "Warranty Length - minimum 12 months, often 24 months on rebuilt units",
+              "Terms of Service - including collection, fitting and aftercare",
+              "Technical Expertise - see each supplier's Nissan experience",
+              "You deal directly with your chosen provider. No pressure, no commitment until you're ready."
+            ]
+          }
+        }
+      ],
+      "tagline": "",
+      "headingLines": [
+        "3 Simple Steps",
+        "to Finding the Best Nissan Altra Replacement Engine"
+      ],
+      "ui": {
+        "stepLabel": "Step",
+        "desktopClosedLabel": "Click to expand",
+        "desktopOpenLabel": "Click to view details",
+        "mobileOpenLabel": "Tap to flip",
+        "mobileCloseLabel": "Tap to flip back",
+        "footerNote": "Most replacements completed within 3-5 days.",
+        "mobileTrustItems": [
+          "12-Month Warranty",
+          "Supply & Fit Available",
+          "Nationwide Delivery",
+          "Trusted UK Suppliers"
+        ]
+      }
+    },
+    "liveMarketPrices": {
+      "tag": "Live UK Engine Market Data",
+      "h2": "What Are UK Drivers Paying for Nissan Altra Engine Replacement-",
+      "h3": "The table below shows typical UK rebuilt engine costs across Nissan Altra variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.",
+      "introBullets": [
+        {
+          "label": "Live market context",
+          "text": "See realistic rebuilt-engine quote ranges across documented Nissan Altra variants."
+        },
+        {
+          "label": "Variant specific",
+          "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."
+        },
+        {
+          "label": "Specialist pricing",
+          "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."
+        },
+        {
+          "label": "Quote benchmark",
+          "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."
+        }
+      ],
+      "cta": {
+        "heading": "Benchmark your own Nissan Altra quote",
+        "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Altra engine code.",
+        "buttonText": "Compare My Nissan Altra Engine",
+        "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."
+      },
+      "badges": [
+        "6 recent enquiries visible",
+        "Typical rebuilt market ranges",
+        "Engine-code matched rows",
+        "UK specialist network"
+      ],
+      "feed": {
+        "isDynamic": false,
+        "rowsCount": 6,
+        "columns": [
+          "Year",
+          "Model",
+          "Engine Code",
+          "Fuel",
+          "Avg. Quoted Price",
+          "Reported Issue"
+        ],
+        "timestampLabel": "Last Updated",
+        "refreshLabel": "Refresh feed",
+        "density": "premium",
+        "visibleRows": 6,
+        "entries": [
+          {
+            "Year": "1997-2001",
+            "Model": "Nissan Altra (N30) R'nessa 2.0 G",
+            "Engine Code": "SR20DE",
+            "Fuel": "Petrol 2.0L",
+            "Avg. Quoted Price": "£800-£1,800",
+            "Reported Issue": "Timing chain rattle"
+          },
+          {
+            "Year": "1998-2001",
+            "Model": "Nissan Altra (N30) R'nessa 2.0 GT Turbo",
+            "Engine Code": "SR20DET",
+            "Fuel": "Petrol 2.0L",
+            "Avg. Quoted Price": "£1,200-£2,500",
+            "Reported Issue": "Turbo oil seal leak"
+          },
+          {
+            "Year": "1999-2001",
+            "Model": "Nissan Altra (N30) R'nessa 2.4 X 4WD",
+            "Engine Code": "KA24DE",
+            "Fuel": "Petrol 2.4L",
+            "Avg. Quoted Price": "£900-£2,000",
+            "Reported Issue": "Head gasket failure"
+          },
+          {
+            "Year": "1997-2001",
+            "Model": "Nissan Altra (N30) R'nessa 2.0 G Auto",
+            "Engine Code": "SR20DE",
+            "Fuel": "Petrol 2.0L",
+            "Avg. Quoted Price": "£850-£1,900",
+            "Reported Issue": "Oil consumption"
+          },
+          {
+            "Year": "1998-2002",
+            "Model": "Nissan Altra (N30) Altra EV",
+            "Engine Code": "EM18",
+            "Fuel": "Electric N/A",
+            "Avg. Quoted Price": "£1,500-£4,500",
+            "Reported Issue": "Battery degradation"
+          },
+          {
+            "Year": "1999-2001",
+            "Model": "Nissan Altra (N30) R'nessa 2.4 X 2WD",
+            "Engine Code": "KA24DE",
+            "Fuel": "Petrol 2.4L",
+            "Avg. Quoted Price": "£850-£1,950",
+            "Reported Issue": "Timing chain stretch"
+          }
+        ]
+      },
+      "headingLines": [
+        "What Are UK Drivers Paying for Nissan Altra Engine Replacement-"
+      ],
+      "imageAlt": "Nissan Altra replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000",
+      "filterTabs": [
+        {
+          "key": "all",
+          "label": "All",
+          "matchers": []
+        },
+        {
+          "key": "nissan-altra-rnessa-2-0-g-engine",
+          "label": "Nissan Altra R'nessa 2.0 G",
+          "matchers": [
+            "nissan altra r'nessa 2.0 g",
+            "nissan altra rnessa 2 0 g engine"
+          ]
+        },
+        {
+          "key": "nissan-altra-rnessa-2-0-gt-turbo-engine",
+          "label": "Nissan Altra R'nessa 2.0 GT Turbo",
+          "matchers": [
+            "nissan altra r'nessa 2.0 gt turbo",
+            "nissan altra rnessa 2 0 gt turbo engine"
+          ]
+        },
+        {
+          "key": "nissan-altra-rnessa-2-4-x-4wd-engine",
+          "label": "Nissan Altra R'nessa 2.4 X 4WD",
+          "matchers": [
+            "nissan altra r'nessa 2.4 x 4wd",
+            "nissan altra rnessa 2 4 x 4wd engine"
+          ]
+        },
+        {
+          "key": "nissan-altra-altra-ev-engine",
+          "label": "Nissan Altra Altra EV",
+          "matchers": [
+            "nissan altra altra ev",
+            "nissan altra altra ev engine"
+          ]
+        },
+        {
+          "key": "nissan-altra-rnessa-2-0-g-auto-engine",
+          "label": "Nissan Altra R'nessa 2.0 G Auto",
+          "matchers": [
+            "nissan altra r'nessa 2.0 g auto",
+            "nissan altra rnessa 2 0 g auto engine"
+          ]
+        },
+        {
+          "key": "nissan-altra-rnessa-2-4-x-2wd-engine",
+          "label": "Nissan Altra R'nessa 2.4 X 2WD",
+          "matchers": [
+            "nissan altra r'nessa 2.4 x 2wd",
+            "nissan altra rnessa 2 4 x 2wd engine"
+          ]
+        }
+      ],
+      "ui": {
+        "showingSingleLabel": "entry",
+        "showingPluralLabel": "entries",
+        "acrossAllLabel": "across all models",
+        "noEntriesLabel": "No entries match that model filter yet.",
+        "updatedLabel": "Last updated:",
+        "ctaLabel": "Live Quote Benchmark"
+      },
+      "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"
+    },
+    "reviews": {
+      "tag": "Customer Reviews",
+      "h2": "Trusted by Nissan Altra Owners Across the UK",
+      "rating": {
+        "value": 4.8,
+        "count": 0,
+        "summary": "",
+        "basedOn": ""
+      },
+      "reviews": [],
+      "leaveReviewCta": {
+        "text": "",
+        "linkText": "Leave a review ->"
+      }
+    },
+    "variantCoverage": {
+      "tag": "Models We Cover",
+      "h2": "Nissan Altra Engine Replacement - All Variants Covered",
+      "subheading": "From the economical R'nessa 2.0 G to the rare Altra EV, our network of UK Nissan Altra engine specialists helps you compare rebuilt, reconditioned and used engine prices, with typical price range for a rebuilt unit with 12-month warranty - supply & fit available nationwide.",
+      "groups": [],
+      "cards": [
+        {
+          "h3": "Nissan Altra R'nessa 2.0 G Engine Replacement",
+          "slug": "nissan-altra-rnessa-2-0-g-engine",
+          "subtitle": "SR20DE 2.0L Petrol ? 140hp ? 1997-2001",
+          "priceRange": "£800-£1,800",
+          "cta": "Compare R'nessa 2.0 G Engine Prices",
+          "engineCodes": [
+            "SR20DE"
+          ],
+          "fuel": "Petrol",
+          "power": "140hp",
+          "years": "1997-2001",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Altra R'nessa 2.0 GT Turbo Engine Replacement",
+          "slug": "nissan-altra-rnessa-2-0-gt-turbo-engine",
+          "subtitle": "SR20DET 2.0L Petrol ? 210hp ? 1998-2001",
+          "priceRange": "£1,200-£2,500",
+          "cta": "Compare R'nessa 2.0 GT Turbo Engine Prices",
+          "engineCodes": [
+            "SR20DET"
+          ],
+          "fuel": "Petrol",
+          "power": "210hp",
+          "years": "1998-2001",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Altra R'nessa 2.4 X 4WD Engine Replacement",
+          "slug": "nissan-altra-rnessa-2-4-x-4wd-engine",
+          "subtitle": "KA24DE 2.4L Petrol ? 150hp ? 1999-2001",
+          "priceRange": "£900-£2,000",
+          "cta": "Compare R'nessa 2.4 X 4WD Engine Prices",
+          "engineCodes": [
+            "KA24DE"
+          ],
+          "fuel": "Petrol",
+          "power": "150hp",
+          "years": "1999-2001",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Altra Altra EV Engine Replacement",
+          "slug": "nissan-altra-altra-ev-engine",
+          "subtitle": "EM18 Electric ? 62kW ? 1998-2002",
+          "priceRange": "£1,500-£4,500",
+          "cta": "Compare Altra EV Engine Prices",
+          "engineCodes": [
+            "EM18"
+          ],
+          "fuel": "Electric",
+          "power": "",
+          "years": "1998-2002",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Altra R'nessa 2.0 G Auto Engine Replacement",
+          "slug": "nissan-altra-rnessa-2-0-g-auto-engine",
+          "subtitle": "SR20DE 2.0L Petrol ? 140hp ? 1997-2001",
+          "priceRange": "£850-£1,900",
+          "cta": "Compare R'nessa 2.0 G Auto Engine Prices",
+          "engineCodes": [
+            "SR20DE"
+          ],
+          "fuel": "Petrol",
+          "power": "140hp",
+          "years": "1997-2001",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Altra R'nessa 2.4 X 2WD Engine Replacement",
+          "slug": "nissan-altra-rnessa-2-4-x-2wd-engine",
+          "subtitle": "KA24DE 2.4L Petrol ? 150hp ? 1999-2001",
+          "priceRange": "£850-£1,950",
+          "cta": "Compare R'nessa 2.4 X 2WD Engine Prices",
+          "engineCodes": [
+            "KA24DE"
+          ],
+          "fuel": "Petrol",
+          "power": "150hp",
+          "years": "1999-2001",
+          "image": ""
+        }
+      ],
+      "directory": {
+        "h3": "All Nissan Altra Variants - Engine Replacement Coverage",
+        "intro": "A full alphabetical listing of every Nissan Altra trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.",
+        "groups": [
+          {
+            "title": "Diesel Variants",
+            "items": [
+              "None available for this model."
+            ]
+          },
+          {
+            "title": "Petrol Variants",
+            "items": [
+              "R'nessa 1.8 G",
+              "R'nessa 2.0 G",
+              "R'nessa 2.0 G Auto",
+              "R'nessa 2.0 GT",
+              "R'nessa 2.0 GT Turbo",
+              "R'nessa 2.4 X",
+              "R'nessa 2.4 X 2WD",
+              "R'nessa 2.4 X 4WD",
+              "R'nessa 2.4 X Auto"
+            ]
+          },
+          {
+            "title": "Performance Variants",
+            "items": [
+              "R'nessa 2.0 GT Turbo",
+              "Altra EV"
+            ]
+          }
+        ],
+        "label": "Variant Directory"
+      },
+      "closing": "Not sure which variant your Nissan Altra is- Enter your registration number above - we'll identify the exact sub-model, engine code and compatible replacement options instantly.",
+      "engineGuide": {
+        "tag": "Engine Codes",
+        "h2": "Nissan Altra Engine Codes - Full Technical Specifications & Replacement Guide",
+        "h3": "Every engine code fitted to the Nissan Altra across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+        "families": [
+          {
+            "name": "Petrol Engines",
+            "entries": [
+              {
+                "code": "SR20DE",
+                "title": "2.0L Petrol",
+                "familyHeading": "SR Series (1997-2001)",
+                "history": "The SR20DE powered the standard R'nessa 2.0 G, offering reliable naturally-aspirated performance for UK import owners.",
+                "fuel": "Petrol",
+                "size": "2.0 Litre",
+                "power": "130-140 hp",
+                "years": "1997-2001",
+                "compatibleVariants": [
+                  "R'nessa 2.0 G, R'nessa 2.0 G Auto, R'nessa 2.0 GL"
+                ],
+                "commonFailures": [
+                  "Timing chain tensioner wear at 80k+ miles",
+                  "Oil consumption from worn piston rings",
+                  "Throttle body carbon buildup affecting idle"
+                ],
+                "avgRebuiltPrice": "£800 - £1,800",
+                "cta": "Get quotes for SR20DE Nissan Altra engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "SR20DET",
+                "title": "2.0L Petrol",
+                "familyHeading": "SR Series (1997-2001)",
+                "history": "The turbocharged SR20DET defined the R'nessa GT, delivering performance-oriented power for enthusiasts seeking forced induction.",
+                "fuel": "Petrol",
+                "size": "2.0 Litre",
+                "power": "200-210 hp",
+                "years": "1998-2001",
+                "compatibleVariants": [
+                  "R'nessa 2.0 GT, R'nessa 2.0 GT Turbo, R'nessa GT AWD"
+                ],
+                "commonFailures": [
+                  "Turbocharger oil seal failure causing blue smoke",
+                  "Coil pack misfire under boost conditions",
+                  "Intercooler piping cracks from heat cycling"
+                ],
+                "avgRebuiltPrice": "£1,200 - £2,500",
+                "cta": "Get quotes for SR20DET Nissan Altra engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "KA24DE",
+                "title": "2.4L Petrol",
+                "familyHeading": "SR Series (1997-2001)",
+                "history": "The larger-displacement KA24DE provided robust torque for 4WD R'nessa X variants, favoured for towing and load-carrying.",
+                "fuel": "Petrol",
+                "size": "2.4 Litre",
+                "power": "145-155 hp",
+                "years": "1999-2001",
+                "compatibleVariants": [
+                  "R'nessa 2.4 X, R'nessa 2.4 X 2WD, R'nessa 2.4 X 4WD, R'nessa 2.4 X Auto"
+                ],
+                "commonFailures": [
+                  "Head gasket failure on high-mileage units",
+                  "Timing chain stretch causing rattling noise",
+                  "Oil pump wear leading to low pressure warnings"
+                ],
+                "avgRebuiltPrice": "£900 - £2,000",
+                "cta": "Get quotes for KA24DE Nissan Altra engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              }
+            ]
+          },
+          {
+            "name": "Hybrid / Electrified Engines",
+            "entries": [
+              {
+                "code": "EM18",
+                "title": "Electric Motor",
+                "familyHeading": "EM Series (1998-2002)",
+                "history": "The EM18 powered the ultra-rare Altra EV fleet vehicle, representing Nissan's early commercial electric vehicle effort.",
+                "fuel": "Electric",
+                "size": "N/A",
+                "power": "62 kW (83 hp equivalent)",
+                "years": "1998-2002",
+                "compatibleVariants": [
+                  "Altra EV, Altra EV Fleet"
+                ],
+                "commonFailures": [
+                  "Lithium battery pack degradation reducing range",
+                  "Motor controller/inverter failure causing power loss",
+                  "Cooling system leaks affecting motor temperature"
+                ],
+                "avgRebuiltPrice": "£1,500 - £4,500",
+                "cta": "Get quotes for EM18 Nissan Altra engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              }
+            ]
+          }
+        ],
+        "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Altra engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."
+      },
+      "headingLines": [
+        "Nissan Altra Engine Replacement",
+        "All Variants Covered"
+      ],
+      "ui": {
+        "fromPriceLabel": "from price",
+        "specsLabel": "Specs",
+        "rebuiltLabel": "Rebuilt",
+        "yearsLabel": "Years",
+        "yearsFallback": "Check exact year coverage by registration"
+      }
+    },
+    "engineCodes": {
+      "tag": "Engine Codes",
+      "h2": "Nissan Altra Engine Codes - Full Technical Specifications & Replacement Guide",
+      "h3": "Every engine code fitted to the Nissan Altra across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+      "closingLine": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Altra engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.",
+      "filters": [
+        "Petrol Engines",
+        "Hybrid / Electrified Engines"
+      ],
+      "groups": [
+        {
+          "name": "Petrol Engines",
+          "era": "Extracted from detailed petrol and performance engine families across Nissan Altra variants.",
+          "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.",
+          "engines": [
+            {
+              "code": "SR20DE",
+              "title": "2.0L Petrol",
+              "familyHeading": "SR Series (1997-2001)",
+              "fuel": "Petrol",
+              "size": "2.0L",
+              "power": "130-140 hp",
+              "compatibleModels": "R'nessa 2.0 G, R'nessa 2.0 G Auto, R'nessa 2.0 GL",
+              "avgRebuiltPrice": "£800 - £1,800",
+              "cta": "Get quotes for SR20DE Nissan Altra engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "SR20DET",
+              "title": "2.0L Petrol",
+              "familyHeading": "SR Series (1997-2001)",
+              "fuel": "Petrol",
+              "size": "2.0L",
+              "power": "200-210 hp",
+              "compatibleModels": "R'nessa 2.0 GT, R'nessa 2.0 GT Turbo, R'nessa GT AWD",
+              "avgRebuiltPrice": "£1,200 - £2,500",
+              "cta": "Get quotes for SR20DET Nissan Altra engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "KA24DE",
+              "title": "2.4L Petrol",
+              "familyHeading": "SR Series (1997-2001)",
+              "fuel": "Petrol",
+              "size": "2.4L",
+              "power": "145-155 hp",
+              "compatibleModels": "R'nessa 2.4 X, R'nessa 2.4 X 2WD, R'nessa 2.4 X 4WD, R'nessa 2.4 X Auto",
+              "avgRebuiltPrice": "£900 - £2,000",
+              "cta": "Get quotes for KA24DE Nissan Altra engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            }
+          ]
+        },
+        {
+          "name": "Hybrid / Electrified Engines",
+          "era": "Extracted from electrified powertrains and hybrid engine families used in Nissan Altra variants.",
+          "failureNote": "Main replacement demand comes from cooling, battery-support and high-voltage control faults.",
+          "engines": [
+            {
+              "code": "EM18",
+              "title": "Electric Motor",
+              "familyHeading": "EM Series (1998-2002)",
+              "fuel": "Electric",
+              "size": "N/A",
+              "power": "62 kW (83 hp equivalent)",
+              "compatibleModels": "Altra EV, Altra EV Fleet",
+              "avgRebuiltPrice": "£1,500 - £4,500",
+              "cta": "Get quotes for EM18 Nissan Altra engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            }
+          ]
+        }
+      ],
+      "headingLines": [
+        "Nissan Altra Engine Codes",
+        "Full Technical Specifications & Replacement Guide"
+      ],
+      "closingAction": {
+        "title": "Can't find your engine code-",
+        "buttonText": "Enter Your Reg"
+      },
+      "ui": {
+        "summaryPriceLabel": "Avg. rebuilt price",
+        "exampleImageLabel": "Example engine visual",
+        "historyLabel": "Engine History",
+        "variantsLabel": "Compatible Nissan Altra variants",
+        "specsTitle": "Technical Specifications",
+        "fuelLabel": "Fuel type",
+        "sizeLabel": "Engine size",
+        "powerLabel": "Power output",
+        "yearsLabel": "Years fitted",
+        "failuresTitle": "Common Failures",
+        "supplyLabel": "Supply only"
+      }
+    },
+    "commonProblems": {
+      "tag": "Common Problems",
+      "h2": "Nissan Altra Engine Problems - What It Costs to Fix & When Replacement Makes Sense",
+      "h3": "The Nissan Altra (R'nessa) petrol engines - SR20DE, SR20DET and KA24DE - dominate UK replacement enquiries. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty. Use this section to decide whether repair or replacement offers better value for your specific issue.",
+      "problems": [
+        {
+          "group": "Nissan Altra SR20DE Timing Chain Rattle",
+          "h4": "Nissan Altra SR20DE Timing Chain Rattle - Why Early SR20 Engines Fail",
+          "affectedModels": "Nissan Altra R'nessa 2.0 G, 2.0 G Auto (1997-2001, SR20DE)",
+          "typicalFailureMileage": "70,000-110,000 miles",
+          "rootCause": "Original timing chain tensioner loses hydraulic pressure, allowing chain slap and guide wear that can lead to catastrophic interference if ignored.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Preventative Chain Kit",
+              "dealerPrice": "£900 - £1,400",
+              "specialistPrice": "£550 - £850",
+              "whatItInvolves": "Replace tensioner, guides and chain before failure",
+              "longevity": "Viable if caught early; 40-60k mile extension"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt SR20DE",
+              "dealerPrice": "£2,200 - £3,500",
+              "specialistPrice": "£800 - £1,800",
+              "whatItInvolves": "Supply & fit rebuilt engine with upgraded tensioner, bench tested",
+              "longevity": "Lifetime solution; 12-month warranty included"
+            }
+          ],
+          "recommendation": "If your SR20DE is rattling on cold start but still runs, a preventative chain kit from a specialist offers excellent value. If the chain has jumped or valves are bent, replacement is the only viable option.",
+          "cta": "Compare rebuilt SR20DE engine prices for your Nissan Altra"
+        },
+        {
+          "group": "Nissan Altra KA24DE Head Gasket Failure",
+          "h4": "Nissan Altra KA24DE Head Gasket Failure - Coolant Loss & Overheating",
+          "affectedModels": "Nissan Altra R'nessa 2.4 X, 2.4 X 4WD (1999-2001, KA24DE)",
+          "typicalFailureMileage": "90,000-130,000 miles",
+          "rootCause": "Cylinder head warping from thermal cycling combined with original gasket material breakdown, allowing coolant into combustion chambers.",
+          "repairOptions": [
+            {
+              "tier": "Intermediate - Head Skim & Gasket",
+              "dealerPrice": "£1,100 - £1,800",
+              "specialistPrice": "£700 - £1,200",
+              "whatItInvolves": "Remove head, machine surface, fit multi-layer steel gasket",
+              "longevity": "Viable if block is undamaged; 30-50k mile expectation"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt KA24DE",
+              "dealerPrice": "£2,400 - £3,800",
+              "specialistPrice": "£900 - £2,000",
+              "whatItInvolves": "Supply & fit rebuilt engine with MLS gasket, pressure tested",
+              "longevity": "Definitive solution; addresses block wear too"
+            }
+          ],
+          "recommendation": "For KA24DE units showing white smoke or coolant loss, get a compression test first. If bores are scored, replacement is more cost-effective than repeated head repairs.",
+          "cta": "Get quotes for KA24DE Nissan Altra engine replacement"
+        },
+        {
+          "group": "Nissan Altra SR20DET Turbo Failure",
+          "h4": "Nissan Altra SR20DET Turbo Failure - Blue Smoke & Power Loss",
+          "affectedModels": "Nissan Altra R'nessa 2.0 GT Turbo (1998-2001, SR20DET)",
+          "typicalFailureMileage": "60,000-100,000 miles",
+          "rootCause": "Turbocharger journal bearing wear from oil starvation or coked oil lines, causing shaft play, seal failure and loss of boost pressure.",
+          "repairOptions": [
+            {
+              "tier": "Intermediate - Turbo Rebuild/Replace",
+              "dealerPrice": "£1,400 - £2,200",
+              "specialistPrice": "£800 - £1,500",
+              "whatItInvolves": "Remove turbo, refurbish or replace with reconditioned unit",
+              "longevity": "Viable if engine internals are healthy"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt SR20DET",
+              "dealerPrice": "£3,000 - £4,500",
+              "specialistPrice": "£1,200 - £2,500",
+              "whatItInvolves": "Supply & fit rebuilt engine with upgraded turbo, oil lines checked",
+              "longevity": "Best value if engine has other wear; warranty included"
+            }
+          ],
+          "recommendation": "If your SR20DET is smoking blue under boost but compression is good, a quality turbo rebuild is cost-effective. If the engine has high mileage or oil consumption, full replacement prevents repeat failures.",
+          "cta": "Compare rebuilt SR20DET engine prices for your Nissan Altra"
+        },
+        {
+          "group": "Nissan Altra EM18 Electric Motor Controller Fault",
+          "h4": "Nissan Altra EM18 Electric Motor Controller Fault - Power Loss & No Start",
+          "affectedModels": "Nissan Altra EV (1998-2002, EM18)",
+          "typicalFailureMileage": "80,000-150,000 miles (or age-related)",
+          "rootCause": "Inverter/controller electronics degradation from thermal cycling and moisture ingress, causing intermittent or complete loss of drive power.",
+          "repairOptions": [
+            {
+              "tier": "Specialist - Controller Repair/Replace",
+              "dealerPrice": "£2,000 - £4,000",
+              "specialistPrice": "£1,500 - £3,500",
+              "whatItInvolves": "Diagnose inverter, repair PCB or source replacement unit",
+              "longevity": "Viable for fleet vehicles; requires EV specialist"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt EM18 Unit",
+              "dealerPrice": "£4,500 - £7,000",
+              "specialistPrice": "£1,500 - £4,500",
+              "whatItInvolves": "Supply & fit rebuilt motor/controller assembly, battery health check",
+              "longevity": "Only option for severe degradation; limited supplier availability"
+            }
+          ],
+          "recommendation": "Due to the extreme rarity of Altra EV units, we recommend contacting our network first to confirm specialist availability before committing to repair. Battery health must be assessed alongside motor issues.",
+          "cta": "Enquire about EM18 Nissan Altra EV motor availability"
+        }
+      ],
+      "finalCta": {
+        "h4": "Don't Let Engine Failure Write Off Your Nissan Altra",
+        "paragraph": "Whether you're dealing with SR20DE timing chain noise, KA24DE head gasket failure, or SR20DET turbo issues, EngineMarket makes it simple to compare prices from trusted UK Nissan Altra specialists. Every rebuilt engine includes upgraded components addressing the original failure point, plus a minimum 12-month unlimited mileage warranty and nationwide delivery. Compare quotes today and get back on the road without the main dealer premium.",
+        "buttonText": "Compare Nissan Altra Engine Replacement Prices Now →",
+        "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket's UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Altra and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."
+      }
+    },
+    "engineTypes": {
+      "tag": "Replacement Engine Options",
+      "h2": "Nissan Altra Engine Types - Options, Costs & What to Expect",
+      "intro": "Every engine type for the Nissan Altra is available through our UK network with typical price ranges based on variant, engine code and budget.",
+      "types": [
+        {
+          "title": "Nissan Altra Reconditioned Engines (Recon)",
+          "description": "Professionally cleaned, inspected and resealed engines with worn components replaced to restore reliable performance for your R'nessa or Altra.",
+          "frontDescription": "Professionally cleaned, inspected and resealed engines with worn components replaced to restore reliable performance for your R'nessa or Altra.",
+          "frontDisclaimer": "Availability varies by engine code; SR20DE most common.",
+          "backDescription": "Reconditioned units undergo thorough inspection, cleaning and replacement of worn seals, gaskets and bearings. Ideal for SR20DE and KA24DE engines with solid cores.",
+          "backBullets": [
+            "Typical turnaround: 3-7 working days",
+            "Includes 12-month unlimited mileage warranty",
+            "Best value for engines with minor wear"
+          ],
+          "priceRange": "£800 - £2,200 (supply only)",
+          "cta": "Compare reconditioned Nissan Altra engine prices"
+        },
+        {
+          "title": "Nissan Altra Rebuilt Engines",
+          "description": "Fully disassembled engines machined to spec with new pistons, rings and bearings for near-factory reliability on high-mileage R'nessa units.",
+          "frontDescription": "Fully disassembled engines machined to spec with new pistons, rings and bearings for near-factory reliability on high-mileage R'nessa units.",
+          "frontDisclaimer": "Rebuild specs vary; confirm component upgrades with supplier.",
+          "backDescription": "Rebuilt engines receive comprehensive machining and component replacement addressing known failure points like timing chains and head gaskets.",
+          "backBullets": [
+            "Upgraded tensioners and MLS gaskets included",
+            "Bench-tested before dispatch",
+            "Ideal for SR20DET and high-mileage KA24DE"
+          ],
+          "priceRange": "£900 - £2,500 (supply only)",
+          "cta": "Get rebuilt Nissan Altra engine quotes"
+        },
+        {
+          "title": "Nissan Altra Used Engines",
+          "description": "Low-mileage donor engines sourced from UK and Japanese breakers, offering affordable replacement for budget-conscious Nissan Altra owners.",
+          "frontDescription": "Low-mileage donor engines sourced from UK and Japanese breakers, offering affordable replacement for budget-conscious Nissan Altra owners.",
+          "frontDisclaimer": "Mileage and condition vary; request compression test report.",
+          "backDescription": "Used engines are tested and graded by mileage and condition. Best for SR20DE units where preventative replacement is preferred over repair.",
+          "backBullets": [
+            "Compression and leak-down test reports available",
+            "3-6 month warranty typical from breakers",
+            "Fastest availability for common codes"
+          ],
+          "priceRange": "£400 - £1,200 (supply only)",
+          "cta": "Check used Nissan Altra engine availability"
+        },
+        {
+          "title": "Nissan Altra Remanufactured Engines",
+          "description": "Factory-spec remanufactured engines built to original tolerances with new components throughout for maximum longevity on your R'nessa.",
+          "frontDescription": "Factory-spec remanufactured engines built to original tolerances with new components throughout for maximum longevity on your R'nessa.",
+          "frontDisclaimer": "Limited supplier availability; lead times may apply.",
+          "backDescription": "Remanufactured units are built to OEM specifications with all critical components renewed. The premium choice for performance SR20DET applications.",
+          "backBullets": [
+            "All bearings, seals and gaskets replaced new",
+            "Dynamometer tested before dispatch",
+            "Closest to new-engine reliability"
+          ],
+          "priceRange": "£1,200 - £3,000 (supply only)",
+          "cta": "Compare remanufactured Nissan Altra engine costs"
+        },
+        {
+          "title": "Nissan Altra Refurbished Engines",
+          "description": "Targeted refurbishment addressing specific known failures like timing chains or turbos, offering cost-effective repair for diagnosed issues.",
+          "frontDescription": "Targeted refurbishment addressing specific known failures like timing chains or turbos, offering cost-effective repair for diagnosed issues.",
+          "frontDisclaimer": "Scope varies; confirm exactly which components are renewed.",
+          "backDescription": "Refurbished engines focus on repairing the identified failure point while retaining serviceable original components. Suitable for budget-conscious repairs.",
+          "backBullets": [
+            "Addresses single failure mode (e.g., chain, turbo)",
+            "Shorter lead time than full rebuild",
+            "Best when engine otherwise healthy"
+          ],
+          "priceRange": "£600 - £1,800 (supply only)",
+          "cta": "View refurbished Nissan Altra engine options"
+        },
+        {
+          "title": "Nissan Altra Supply & Fit Engines",
+          "description": "Complete engine replacement service including supply, fitting, fluids and road test from vetted UK Nissan Altra specialists nationwide.",
+          "frontDescription": "Complete engine replacement service including supply, fitting, fluids and road test from vetted UK Nissan Altra specialists nationwide.",
+          "frontDisclaimer": "Fitment cost varies by workshop location and engine complexity.",
+          "backDescription": "Supply & fit packages bundle engine supply with professional installation, saving coordination hassle and ensuring warranty validity through approved fitters.",
+          "backBullets": [
+            "Includes removal, fitting, fluids and road test",
+            "Warranty valid only when fitted by approved specialist",
+            "Request quotes specifying your variant and location"
+          ],
+          "priceRange": "£400 - £900 added to engine price",
+          "cta": "Find Nissan Altra engine supply & fit deals"
+        }
+      ],
+      "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Altra within hours.",
+      "headingLines": [
+        "Nissan Altra Engine Types",
+        "Options, Costs & What to Expect"
+      ],
+      "ui": {
+        "priceLabel": "Typical price range",
+        "frontActionLabel": "What is it-",
+        "backActionLabel": "Flip back"
+      },
+      "closingCard": {
+        "label": "Engine Replacement Help",
+        "title": "Compare Nissan Altra engine prices with vetted UK suppliers",
+        "buttonText": "Compare Nissan Altra Prices"
+      }
+    },
+    "engineSizes": {
+      "tag": "Engine Sizes",
+      "h2": "Nissan Altra Engines by Size - Find the Right Displacement for Your Variant",
+      "intro": "Every displacement fitted to the Nissan Altra is listed below, with compatible engine codes, production years and common failure points to help you identify the correct replacement.",
+      "groups": [
+        {
+          "title": "Nissan Altra Petrol Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Altra 2.0L Petrol Engines",
+              "description": "The 2.0L SR20 family powered most R'nessa variants from 1997-2001, offering a balance of efficiency and performance. The naturally-aspirated SR20DE was the volume seller, while the turbocharged SR20DET defined the GT performance trim.",
+              "engineCodes": [
+                "SR20DE",
+                "SR20DET"
+              ],
+              "compatibleModels": [
+                "R'nessa 2.0 G",
+                "2.0 G Auto",
+                "2.0 GT",
+                "2.0 GT Turbo"
+              ],
+              "productionYears": "N30, 1997-2001",
+              "commonFailurePoints": [
+                "Timing chain tensioner wear (SR20DE)",
+                "turbo oil seal failure (SR20DET)"
+              ],
+              "cta": "Compare Nissan Altra 2.0L petrol engine prices"
+            },
+            {
+              "title": "Nissan Altra 2.4L Petrol Engines",
+              "description": "The larger 2.4L KA24DE was fitted to 4WD R'nessa X variants from 1999, providing increased torque for load-carrying and towing applications where the 2.0L felt underpowered.",
+              "engineCodes": [
+                "KA24DE"
+              ],
+              "compatibleModels": [
+                "R'nessa 2.4 X",
+                "2.4 X 2WD",
+                "2.4 X 4WD",
+                "2.4 X Auto"
+              ],
+              "productionYears": "N30, 1999-2001",
+              "commonFailurePoints": [
+                "Head gasket failure on high-mileage units",
+                "timing chain stretch"
+              ],
+              "cta": "Compare Nissan Altra 2.4L petrol engine prices"
+            }
+          ]
+        },
+        {
+          "title": "Nissan Altra Electric Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Altra Electric Engines",
+              "description": "The ultra-rare Altra EV used the EM18 electric motor producing 62kW, representing Nissan's early commercial electric vehicle effort for fleet applications in the late 1990s.",
+              "engineCodes": [
+                "EM18"
+              ],
+              "compatibleModels": [
+                "Altra EV",
+                "Altra EV Fleet"
+              ],
+              "productionYears": "N30, 1998-2002",
+              "commonFailurePoints": [
+                "Battery pack degradation",
+                "motor controller/inverter failure"
+              ],
+              "cta": "Enquire about Nissan Altra electric engine availability"
+            }
+          ]
+        }
+      ],
+      "closing": "Not sure which engine size your Nissan Altra needs- Enter your registration number above - we'll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Altra specialists.",
+      "headingLines": [
+        "Nissan Altra Engines by Size",
+        "Find the Right Displacement for Your Variant"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "engineCodesLabel": "Engine Code(s)",
+        "compatibleModelsLabel": "Compatible Models (UK)",
+        "productionYearsLabel": "Production Years",
+        "warningLabel": "Common Failure Points",
+        "warningTitle": "Watch for these known weak points",
+        "helperLabel": "Engine Size Advice",
+        "helperTitle": "Need help matching the exact engine size-",
+        "helperButtonText": "Find My Engine"
+      }
+    },
+    "fuelTypes": {
+      "tag": "Fuel Type",
+      "h2": "Nissan Altra Engines by Fuel Type",
+      "intro": "Choose your Nissan Altra engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early SR20DE to the rare EM18 electric motor.",
+      "items": [
+        {
+          "title": "Nissan Altra Petrol Engines",
+          "description": "Petrol engines dominate the Nissan Altra (R'nessa) replacement market, with SR20DE, SR20DET and KA24DE units covering all UK import variants from 1997-2001.",
+          "descriptor": "Petrol engines dominate the Nissan Altra (R'nessa) replacement market, with SR20DE, SR20DET and KA24DE units covering all UK import variants from 1997-2001.",
+          "familiesLabel": "Common Nissan Altra Petrol Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Petrol Models",
+          "notesLabel": "",
+          "families": [
+            "SR20DE - standard 2.0L unit (R'nessa 2.0 G), timing chain tensioner wear common",
+            "SR20DET - turbo performance variant (GT), turbo oil seal failures under boost",
+            "KA24DE - 2.4L 4WD engine (R'nessa X), head gasket failure at high mileage"
+          ],
+          "foundIn": [
+            "R'nessa N30 (1997-2001) - SR20DE, SR20DET, KA24DE"
+          ],
+          "knownFor": [
+            "SR20DE: Reliable if timing chain maintained; rattling on cold start is warning sign",
+            "SR20DET: Strong performance but turbo requires quality oil and regular checks",
+            "KA24DE: Robust torque but prone to head gasket failure in UK climate"
+          ],
+          "typicalModels": [
+            "R'nessa 2.0 G",
+            "R'nessa 2.0 GT Turbo",
+            "R'nessa 2.4 X 4WD"
+          ],
+          "importantNotes": [],
+          "cta": "Get quotes for Nissan Altra Petrol replacement engines"
+        },
+        {
+          "title": "Nissan Altra Electric Engines",
+          "description": "The EM18 electric motor powered the ultra-rare Altra EV fleet vehicle (1998-2002), with replacement requiring specialist EV knowledge due to extremely limited UK availability.",
+          "descriptor": "The EM18 electric motor powered the ultra-rare Altra EV fleet vehicle (1998-2002), with replacement requiring specialist EV knowledge due to extremely limited UK availability.",
+          "familiesLabel": "Nissan Altra Electric Engine Codes",
+          "foundInLabel": "Found In",
+          "knownForLabel": "",
+          "modelsLabel": "",
+          "notesLabel": "Important Notes",
+          "families": [
+            "EM18 - 62kW motor/controller assembly for Altra EV fleet variants",
+            "Single-speed reduction gear driven by permanent magnet synchronous motor",
+            "Lithium-ion battery pack (approx. 30-35 kWh) mounted under floor",
+            "Regenerative braking recovers energy to extend urban range"
+          ],
+          "foundIn": [
+            "Altra EV, Altra EV Fleet (1998-2002)"
+          ],
+          "knownFor": [],
+          "typicalModels": [],
+          "importantNotes": [
+            "Only ~200 Altra EV units produced globally; UK numbers extremely low",
+            "Replacement requires specialist with EM18 experience; standard garages cannot service",
+            "Battery health must be assessed alongside motor condition for accurate quoting"
+          ],
+          "cta": "Enquire about Nissan Altra Electric engine availability"
+        }
+      ],
+      "closing": "Not sure which fuel type your Nissan Altra has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Altra specialists.",
+      "headingLines": [
+        "Nissan Altra Engines by Fuel Type"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "familiesLabel": "Common Engine Families",
+        "foundInLabel": "Found In",
+        "knownForLabel": "Known For",
+        "modelsLabel": "Typical Models (UK)",
+        "notesLabel": "Important Notes",
+        "closingButtonText": "Find my engine",
+        "emptyStateTitle": "Fuel type guidance",
+        "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."
+      }
+    },
+    "engineYears": {
+      "tag": "Engine Years",
+      "h2": "Nissan Altra Engines by Year - What Was Fitted & When",
+      "intro": "This section covers all major engine changes across the Nissan Altra (R'nessa) production timeline, organised so owners can quickly identify their engine and compare rebuilt engine prices from UK specialists.",
+      "jumpLabel": "Jump to model year",
+      "years": [
+        {
+          "year": "1997 - 1998",
+          "preview": "Early N30 R'nessa Launch",
+          "description": "The R'nessa launched with the SR20DE 2.0L petrol engine, establishing the baseline powertrain for UK import variants.",
+          "keyChanges": [
+            "Introduction of N30 chassis with SR20DE 2.0L petrol engine",
+            "Front-wheel drive layout with automatic or manual transmission options",
+            "Early ECU mapping specific to Japanese domestic market specifications"
+          ],
+          "mainEngines": [
+            "SR20DE - 2.0L petrol (R'nessa 2.0 G / 2.0 GL)"
+          ],
+          "popularModels": [
+            "Nissan R'nessa 2.0 G",
+            "Nissan R'nessa 2.0 GL"
+          ],
+          "knownFor": [
+            "Reliable SR20DE block but early tensioner design prone to wear",
+            "JDM ECU may require adaptation for UK fuel and emissions",
+            "Good parts interchangeability with UK-market Primera SR20 units"
+          ],
+          "engineCodesCovered": [
+            "SR20DE"
+          ],
+          "cta": "Get quotes for 1997-1998 Nissan Altra replacement engines",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan R'nessa SR20DE engine replacement • SR20DE timing chain rattle fix • R'nessa 2.0 G engine cost UK",
+          "enquiries": [
+            "Nissan R'nessa SR20DE engine replacement",
+            "SR20DE timing chain rattle fix",
+            "R'nessa 2.0 G engine cost UK"
+          ]
+        },
+        {
+          "year": "1998 - 1999",
+          "preview": "Turbo & EV Introduction",
+          "description": "The SR20DET turbo engine debuted in the R'nessa GT, while the ultra-rare Altra EV introduced the EM18 electric motor for fleet applications.",
+          "keyChanges": [
+            "SR20DET turbo engine added for R'nessa GT performance variant",
+            "Altra EV launched with EM18 electric motor and lithium battery pack",
+            "Minor ECU revisions for turbo boost control and emissions"
+          ],
+          "mainEngines": [
+            "SR20DE - 2.0L petrol (R'nessa 2.0 G)",
+            "SR20DET - 2.0L turbo petrol (R'nessa GT)",
+            "EM18 - electric motor (Altra EV)"
+          ],
+          "popularModels": [
+            "Nissan R'nessa 2.0 GT Turbo",
+            "Nissan Altra EV"
+          ],
+          "knownFor": [
+            "SR20DET delivers strong performance but requires diligent oil maintenance",
+            "EM18 availability extremely limited; specialist sourcing essential",
+            "Turbo variants command premium pricing in replacement market"
+          ],
+          "engineCodesCovered": [
+            "SR20DE",
+            "SR20DET",
+            "EM18"
+          ],
+          "cta": "Get quotes for 1998-1999 Nissan Altra replacement engines",
+          "badges": [
+            {
+              "label": "Technology Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "R'nessa GT SR20DET turbo replacement • Altra EV EM18 motor availability • SR20DET blue smoke fix",
+          "enquiries": [
+            "R'nessa GT SR20DET turbo replacement",
+            "Altra EV EM18 motor availability",
+            "SR20DET blue smoke fix"
+          ]
+        },
+        {
+          "year": "1999 - 2001",
+          "preview": "4WD KA24DE & Facelift Updates",
+          "description": "The larger KA24DE 2.4L engine was introduced for 4WD R'nessa X variants, while facelift models received updated sensors and ECU mapping.",
+          "keyChanges": [
+            "KA24DE 2.4L engine added for R'nessa 2.4 X 4WD variants",
+            "Facelift updates to wiring looms and sensor connectors",
+            "Revised engine mounts for improved NVH in later production"
+          ],
+          "mainEngines": [
+            "SR20DE - 2.0L petrol (R'nessa 2.0 G, facelift)",
+            "SR20DET - 2.0L turbo petrol (R'nessa GT, facelift)",
+            "KA24DE - 2.4L petrol (R'nessa 2.4 X 4WD)"
+          ],
+          "popularModels": [
+            "Nissan R'nessa 2.4 X 4WD",
+            "Nissan R'nessa 2.0 G (facelift)",
+            "Nissan R'nessa 2.0 GT Turbo (facelift)"
+          ],
+          "knownFor": [
+            "KA24DE offers robust torque but head gasket failure common at high mileage",
+            "Facelift models have improved wiring but sensor compatibility must be verified",
+            "4WD variants require specific sump and mount configuration"
+          ],
+          "engineCodesCovered": [
+            "SR20DE",
+            "SR20DET",
+            "KA24DE"
+          ],
+          "cta": "Get quotes for 1999-2001 Nissan Altra replacement engines",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "R'nessa 2.4 X KA24DE head gasket • Facelift SR20DE wiring compatibility • 4WD sump for R'nessa engine",
+          "enquiries": [
+            "R'nessa 2.4 X KA24DE head gasket",
+            "Facelift SR20DE wiring compatibility",
+            "4WD sump for R'nessa engine"
+          ]
+        },
+        {
+          "year": "2002",
+          "preview": "Final Altra EV Production Run",
+          "description": "The final year of Altra EV production saw minimal changes, with EM18 electric motor units becoming increasingly scarce in the UK replacement market.",
+          "keyChanges": [
+            "Final production year for Altra EV with EM18 motor",
+            "No significant engineering changes; focus on fleet support",
+            "Increasing scarcity of replacement EM18 units in UK"
+          ],
+          "mainEngines": [
+            "EM18 - electric motor (Altra EV final units)"
+          ],
+          "popularModels": [
+            "Nissan Altra EV (final production)"
+          ],
+          "knownFor": [
+            "Extreme rarity makes EM18 replacement a specialist-only proposition",
+            "Battery degradation is primary concern over motor failure",
+            "Fleet operators should plan for long lead times on parts"
+          ],
+          "engineCodesCovered": [
+            "EM18"
+          ],
+          "cta": "Enquire about 2002 Nissan Altra EV engine availability",
+          "badges": [
+            {
+              "label": "Major Engine Changes",
+              "tone": "accent"
+            },
+            {
+              "label": "1 engine highlights",
+              "tone": "muted"
+            }
+          ],
+          "enquiries": []
+        }
+      ],
+      "closing": "Not sure which year your Nissan Altra was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Altra specialists.",
+      "headingLines": [
+        "Nissan Altra Engines by Year",
+        "What Was Fitted & When"
+      ],
+      "ui": {
+        "keyChangesLabel": "Key Changes",
+        "knownForLabel": "Known For",
+        "mainEnginesLabel": "Main Engines",
+        "popularModelsLabel": "Popular Models",
+        "engineCodesLabel": "Engine Codes Covered",
+        "enquiriesLabel": "Common Replacement Enquiries"
+      },
+      "summaryCta": {
+        "label": "Year Finder",
+        "title": "Not sure which year your Nissan Altra was built-",
+        "buttonText": "Find My Engine"
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "h2": "Nissan Altra Engine Replacement - Frequently Asked Questions",
+      "intro": "",
+      "items": [
+        {
+          "question": "Is the Nissan Altra the same as the R'nessa-",
+          "answer": "Yes, the Nissan Altra is the electric variant of the R'nessa (chassis N30). Most UK replacement enquiries target the petrol R'nessa variants using SR20DE, SR20DET or KA24DE engines.",
+          "keyPoints": [
+            "Altra EV used EM18 electric motor; R'nessa used petrol engines",
+            "Both share N30 chassis, body panels and many components",
+            "Search using both names to capture all UK stock listings"
+          ],
+          "cta": "Compare Nissan Altra and R'nessa engine prices today"
+        },
+        {
+          "question": "Will a Nissan Primera SR20DE fit my R'nessa-",
+          "answer": "Generally yes, the SR20DE from UK-market Primera shares the same block architecture, but wiring loom, mounts and ancillaries may require adaptation for R'nessa fitment.",
+          "keyPoints": [
+            "Core engine block and head are interchangeable between models",
+            "R'nessa-specific sump, mounts and wiring may need swapping",
+            "Always verify transmission bellhousing pattern matches your gearbox"
+          ],
+          "cta": "Get quotes for SR20DE engines compatible with Nissan R'nessa"
+        },
+        {
+          "question": "How much to replace Nissan R'nessa engine UK-",
+          "answer": "Rebuilt SR20DE engines typically cost £800-£1,800 supply-only; fitted prices add £400-£900 labour. SR20DET and KA24DE units command higher pricing due to complexity.",
+          "keyPoints": [
+            "Supply-only pricing excludes fitting, fluids and road test",
+            "Turbo SR20DET units cost £1,200-£2,500 due to turbocharger value",
+            "Always request itemised quotes showing warranty terms and inclusions"
+          ],
+          "cta": "Compare rebuilt Nissan R'nessa engine prices from UK specialists"
+        },
+        {
+          "question": "Does the Nissan Altra EV use a petrol engine-",
+          "answer": "No, the Altra EV exclusively used the EM18 electric motor. Petrol engines (SR20/KA24) were fitted only to R'nessa variants, not the Altra EV badge.",
+          "keyPoints": [
+            "Altra EV = electric only; R'nessa = petrol only",
+            "EM18 replacement requires EV specialist; very limited UK availability",
+            "Confirm your VIN before ordering to avoid incompatible engine purchase"
+          ],
+          "cta": "Enquire about EM18 electric motor availability for Nissan Altra EV"
+        },
+        {
+          "question": "Where to find a KA24DE engine in UK-",
+          "answer": "KA24DE engines are sourced through specialist Japanese import breakers and UK Nissan specialists. Availability is moderate but lead times of 2-4 weeks are common.",
+          "keyPoints": [
+            "Request compression test reports before committing to purchase",
+            "Verify 2WD vs 4WD sump configuration matches your R'nessa variant",
+            "Rebuilt units with upgraded head gasket offer best long-term value"
+          ],
+          "cta": "Find KA24DE engine suppliers for Nissan R'nessa 2.4 X"
+        },
+        {
+          "question": "What is the engine code for Nissan R'nessa GT-",
+          "answer": "The R'nessa GT Turbo uses the SR20DET engine code. Non-turbo GT variants (if specified) would use SR20DE, but UK imports are predominantly turbo.",
+          "keyPoints": [
+            "SR20DET = turbocharged; SR20DE = naturally aspirated",
+            "Check engine bay plaque or VIN decoder for definitive identification",
+            "Turbo variants require specific oil, cooling and exhaust considerations"
+          ],
+          "cta": "Get quotes for SR20DET Nissan R'nessa GT engine replacement"
+        },
+        {
+          "question": "Can I fit an SR20DET into a non-turbo R'nessa-",
+          "answer": "Yes, but it requires significant modification: turbo plumbing, intercooler, ECU, wiring loom and exhaust upgrades. Most owners find buying a GT donor more cost-effective.",
+          "keyPoints": [
+            "Engine mounts and transmission may bolt up directly",
+            "Fuel system, ECU and wiring require extensive adaptation",
+            "Professional tuning essential to avoid engine damage post-conversion"
+          ],
+          "cta": "Compare SR20DET swap packages for Nissan R'nessa conversion"
+        },
+        {
+          "question": "Do you supply the 4WD sump for R'nessa-",
+          "answer": "Yes, our network includes specialists who stock R'nessa-specific 4WD sumps for KA24DE and SR20DE engines. Always confirm drivetrain configuration when ordering.",
+          "keyPoints": [
+            "4WD sumps have different pickup location and mounting points",
+            "Using a 2WD sump on 4WD can cause oil starvation under cornering",
+            "Include chassis code (N30) and variant when requesting quotes"
+          ],
+          "cta": "Find Nissan R'nessa 4WD engine sump suppliers UK"
+        },
+        {
+          "question": "Is the Nissan R'nessa engine reliable-",
+          "answer": "SR20DE and KA24DE are fundamentally robust engines if maintained; common failures (timing chain, head gasket) are well-documented and addressable with rebuilt units.",
+          "keyPoints": [
+            "Regular oil changes critical for SR20 timing chain longevity",
+            "KA24DE benefits from upgraded multi-layer steel head gasket",
+            "Rebuilt engines with component upgrades offer best reliability"
+          ],
+          "cta": "Compare reliable rebuilt engines for Nissan R'nessa UK"
+        },
+        {
+          "question": "What warranty on Nissan R'nessa engines-",
+          "answer": "Engines supplied through EngineMarket carry a minimum 12-month unlimited mileage warranty. Always confirm exact terms, coverage exclusions and approved fitting requirements with your chosen supplier.",
+          "keyPoints": [
+            "Warranty typically covers parts and labour for manufacturing defects",
+            "Fitting by non-approved workshop may void warranty coverage",
+            "Keep all invoices and compression test reports for warranty claims"
+          ],
+          "cta": "Get Nissan R'nessa engine quotes with 12-month warranty included"
+        }
+      ],
+      "headingLines": [
+        "Nissan Altra Engine Replacement",
+        "Frequently Asked Questions"
+      ],
+      "defaultOpenIndex": 0,
+      "ui": {
+        "questionLabelPrefix": "Question",
+        "keyPointsLabel": "Key points",
+        "warningTitle": "Check fitment and engine condition before ordering"
+      }
+    },
+    "trustCta": {
+      "tag": "Why Choose Us",
+      "h2": "Why UK Nissan Altra Owners Trust EngineMarket",
+      "intro": "Join thousands of UK drivers who compare Nissan Altra engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.",
+      "points": [
+        {
+          "title": "Trusted Nissan Altra Engine Suppliers",
+          "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Altra owners."
+        },
+        {
+          "title": "Compare Nissan Altra Engine Replacement Companies",
+          "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."
+        },
+        {
+          "title": "UK Engine Replacement Services for Nissan Altra",
+          "description": "Covering every variant from budget SR20DE to rare EM18 electric, with supply-only or full supply & fit available nationwide."
+        }
+      ],
+      "finalText": "Find the best Nissan Altra engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.",
+      "buttonText": "Compare Nissan Altra Engine Prices Now →",
+      "secondaryAction": {
+        "text": "Call Our Experts",
+        "href": "tel:03330000044"
+      },
+      "imageAlt": "Nissan Altra vehicle",
+      "ui": {
+        "pointLabel": "Included",
+        "stripLabel": "Trusted UK Engine Marketplace",
+        "stripTitle": "Compare Nissan Altra engine prices with vetted UK specialists",
+        "trustBullets": [
+          "100% Free",
+          "No Obligation",
+          "Fast & secure process",
+          "UK-based support"
+        ],
+        "imageBadgeLabel": "Trusted supplier network",
+        "imageBadgeTitle": "Warranty-backed rebuilt & used options",
+        "imageBadgeText": "Every quote checked for fitment, quality and lead time."
+      }
+    }
+  }
+}

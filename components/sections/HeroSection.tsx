@@ -28,7 +28,11 @@ type HeroSectionProps = {
 
 function UkFlagIcon() {
   return (
-    <svg viewBox="0 0 22 14" className="h-[14px] w-[22px] rounded-[2px]" aria-hidden="true">
+    <svg
+      viewBox="0 0 22 14"
+      className="h-[14px] w-[22px] rounded-[2px]"
+      aria-hidden="true"
+    >
       <rect width="22" height="14" fill="#012169" />
       <path d="M0 0 22 14M22 0 0 14" stroke="#fff" strokeWidth="3.5" />
       <path d="M0 0 22 14M22 0 0 14" stroke="#C8102E" strokeWidth="2" />
@@ -40,20 +44,75 @@ function UkFlagIcon() {
 
 function LockIcon() {
   return (
-    <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 shrink-0" fill="none" aria-hidden="true">
-      <rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor" strokeWidth="2" />
-      <path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    <svg
+      viewBox="0 0 24 24"
+      className="h-3.5 w-3.5 shrink-0"
+      fill="none"
+      aria-hidden="true"
+    >
+      <rect
+        x="5"
+        y="10"
+        width="14"
+        height="10"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="2"
+      />
+      <path
+        d="M8 10V7a4 4 0 0 1 8 0v3"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
     </svg>
   );
 }
 
 function CarIconOne() {
   return (
-    <svg viewBox="0 0 60 26" className="h-[22px] w-[38px] md:h-[26px] md:w-[44px]" fill="none" aria-hidden="true">
-      <rect x="2" y="13" width="56" height="9" rx="2" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="8" y="6" width="38" height="10" rx="2" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="12" y="3" width="12" height="6" rx="1.5" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="26" y="3" width="16" height="6" rx="1.5" stroke="currentColor" strokeWidth="1.3" />
+    <svg
+      viewBox="0 0 60 26"
+      className="h-[22px] w-[38px] md:h-[26px] md:w-[44px]"
+      fill="none"
+      aria-hidden="true"
+    >
+      <rect
+        x="2"
+        y="13"
+        width="56"
+        height="9"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="8"
+        y="6"
+        width="38"
+        height="10"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="12"
+        y="3"
+        width="12"
+        height="6"
+        rx="1.5"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="26"
+        y="3"
+        width="16"
+        height="6"
+        rx="1.5"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
       <circle cx="14" cy="22" r="3.5" stroke="currentColor" strokeWidth="1.3" />
       <circle cx="46" cy="22" r="3.5" stroke="currentColor" strokeWidth="1.3" />
     </svg>
@@ -62,12 +121,53 @@ function CarIconOne() {
 
 function CarIconTwo() {
   return (
-    <svg viewBox="0 0 60 26" className="h-[22px] w-[38px] md:h-[26px] md:w-[44px]" fill="none" aria-hidden="true">
-      <rect x="2" y="13" width="56" height="9" rx="2" stroke="currentColor" strokeWidth="1.3" />
-      <path d="M7 13Q9 5 16 4h28q8 1 11 9" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="10" y="5" width="12" height="8" rx="1.5" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="24" y="5" width="14" height="8" rx="1.5" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="40" y="5" width="10" height="8" rx="1.5" stroke="currentColor" strokeWidth="1.3" />
+    <svg
+      viewBox="0 0 60 26"
+      className="h-[22px] w-[38px] md:h-[26px] md:w-[44px]"
+      fill="none"
+      aria-hidden="true"
+    >
+      <rect
+        x="2"
+        y="13"
+        width="56"
+        height="9"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <path
+        d="M7 13Q9 5 16 4h28q8 1 11 9"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="10"
+        y="5"
+        width="12"
+        height="8"
+        rx="1.5"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="24"
+        y="5"
+        width="14"
+        height="8"
+        rx="1.5"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="40"
+        y="5"
+        width="10"
+        height="8"
+        rx="1.5"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
       <circle cx="14" cy="22" r="3.5" stroke="currentColor" strokeWidth="1.3" />
       <circle cx="46" cy="22" r="3.5" stroke="currentColor" strokeWidth="1.3" />
     </svg>
@@ -76,21 +176,78 @@ function CarIconTwo() {
 
 function CarIconThree() {
   return (
-    <svg viewBox="0 0 60 26" className="h-[22px] w-[38px] md:h-[26px] md:w-[44px]" fill="none" aria-hidden="true">
-      <rect x="2" y="13" width="56" height="9" rx="2" stroke="currentColor" strokeWidth="1.3" />
-      <path d="M6 13Q10 4 18 3h24q10 1 14 10" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="10" y="4" width="13" height="9" rx="2" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="25" y="4" width="16" height="9" rx="2" stroke="currentColor" strokeWidth="1.3" />
-      <rect x="43" y="4" width="10" height="9" rx="2" stroke="currentColor" strokeWidth="1.3" />
-      <circle cx="14.5" cy="22" r="3.5" stroke="currentColor" strokeWidth="1.3" />
-      <circle cx="45.5" cy="22" r="3.5" stroke="currentColor" strokeWidth="1.3" />
+    <svg
+      viewBox="0 0 60 26"
+      className="h-[22px] w-[38px] md:h-[26px] md:w-[44px]"
+      fill="none"
+      aria-hidden="true"
+    >
+      <rect
+        x="2"
+        y="13"
+        width="56"
+        height="9"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <path
+        d="M6 13Q10 4 18 3h24q10 1 14 10"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="10"
+        y="4"
+        width="13"
+        height="9"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="25"
+        y="4"
+        width="16"
+        height="9"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <rect
+        x="43"
+        y="4"
+        width="10"
+        height="9"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <circle
+        cx="14.5"
+        cy="22"
+        r="3.5"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
+      <circle
+        cx="45.5"
+        cy="22"
+        r="3.5"
+        stroke="currentColor"
+        strokeWidth="1.3"
+      />
     </svg>
   );
 }
 
 function EngineWatermark() {
   return (
-    <svg viewBox="0 0 400 320" className="h-auto w-[90%] fill-[#0d1b2e] opacity-[0.04]" aria-hidden="true">
+    <svg
+      viewBox="0 0 400 320"
+      className="h-auto w-[90%] fill-[#0d1b2e] opacity-[0.04]"
+      aria-hidden="true"
+    >
       <rect x="60" y="100" width="280" height="160" rx="8" />
       <rect x="80" y="60" width="40" height="50" rx="4" />
       <rect x="130" y="60" width="40" height="50" rx="4" />
@@ -135,10 +292,22 @@ type BottomBarItem = {
 };
 
 const bottomBarItems: BottomBarItem[] = [
-  { src: "/icons/engine-market/light-green-instant-quote.png", text: "Instant engine replacement quote - 100% free, no obligation" },
-  { src: "/icons/engine-market/light-green-pound.png", text: "Engine replacement near me - UK-wide specialist network" },
-  { src: "/icons/engine-market/light-green-pound.png", text: "Compare reconditioned, rebuilt & used engine prices" },
-  { src: "/icons/engine-market/light-green-supply-fit.png", text: "Supply & fit available - parts and labour from vetted specialists" },
+  {
+    src: "/icons/engine-market/light-green-instant-quote.png",
+    text: "Instant engine replacement quote - 100% free, no obligation",
+  },
+  {
+    src: "/icons/engine-market/light-green-pound.png",
+    text: "Engine replacement near me - UK-wide specialist network",
+  },
+  {
+    src: "/icons/engine-market/light-green-pound.png",
+    text: "Compare reconditioned, rebuilt & used engine prices",
+  },
+  {
+    src: "/icons/engine-market/light-green-supply-fit.png",
+    text: "Supply & fit available - parts and labour from vetted specialists",
+  },
 ];
 
 type DecorativeIconConfig = {
@@ -150,7 +319,11 @@ type DecorativeIconConfig = {
 function getTrustBadgeIcon(label: string): DecorativeIconConfig {
   const normalized = label.toLowerCase();
 
-  if (normalized.includes("nationwide") || normalized.includes("delivery") || normalized.includes("uk-wide")) {
+  if (
+    normalized.includes("nationwide") ||
+    normalized.includes("delivery") ||
+    normalized.includes("uk-wide")
+  ) {
     return {
       src: "/icons/engine-market/white-nationwide-delivery.png",
       className: "h-[26px] w-[42px] object-contain md:h-[24px] md:w-[40px]",
@@ -177,12 +350,17 @@ function getTrustBadgeIcon(label: string): DecorativeIconConfig {
   };
 }
 
-function DecorativeIcon({
-  src,
-  className,
-  style,
-}: DecorativeIconConfig) {
-  return <img src={src} alt="" aria-hidden="true" className={className} style={style} loading="eager" />;
+function DecorativeIcon({ src, className, style }: DecorativeIconConfig) {
+  return (
+    <img
+      src={src}
+      alt=""
+      aria-hidden="true"
+      className={className}
+      style={style}
+      loading="eager"
+    />
+  );
 }
 
 function splitHeadline(title: string) {
@@ -219,7 +397,11 @@ function stripBrandFromModel(modelName: string, brandName: string) {
     .trim();
 }
 
-function secureNote(data: HeroSectionData, brandName: string, strictData = false) {
+function secureNote(
+  data: HeroSectionData,
+  brandName: string,
+  strictData = false,
+) {
   if (data.form.note.trim()) {
     return normalizeDisplayText(data.form.note);
   }
@@ -231,7 +413,11 @@ function secureNote(data: HeroSectionData, brandName: string, strictData = false
   return `Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK ${brandName} specialists.`;
 }
 
-function buttonText(data: HeroSectionData, brandName: string, strictData = false) {
+function buttonText(
+  data: HeroSectionData,
+  brandName: string,
+  strictData = false,
+) {
   if (data.form.buttonText.trim()) {
     return data.form.buttonText;
   }
@@ -334,7 +520,11 @@ function renderLinkedEngineCodes(codes: string, engineLinks?: EngineLinkMap) {
     }
 
     return (
-      <Link key={`${part}-${index}`} href={href} className="underline-offset-2 transition hover:text-[#15803d] hover:underline">
+      <Link
+        key={`${part}-${index}`}
+        href={href}
+        className="underline-offset-2 transition hover:text-[#15803d] hover:underline"
+      >
         {part}
       </Link>
     );
@@ -343,7 +533,11 @@ function renderLinkedEngineCodes(codes: string, engineLinks?: EngineLinkMap) {
 
 function buildDisclaimerLines(note: string) {
   const normalized = note.replace(/\s+/g, " ").trim();
-  const sentences = normalized.match(/[^.!?]+[.!?]?/g)?.map((sentence) => sentence.trim()).filter(Boolean) ?? [];
+  const sentences =
+    normalized
+      .match(/[^.!?]+[.!?]?/g)
+      ?.map((sentence) => sentence.trim())
+      .filter(Boolean) ?? [];
 
   return (sentences.length ? sentences : [normalized]).slice(0, 3);
 }
@@ -374,7 +568,9 @@ function splitInlineDisclaimerText(text: string, trailingWords = 3) {
 
 function resolveHeadingLines(data: HeroSectionData) {
   if (data.headingLines?.length) {
-    return data.headingLines.filter((line) => line.trim()).map((line) => normalizeDisplayText(line));
+    return data.headingLines
+      .filter((line) => line.trim())
+      .map((line) => normalizeDisplayText(line));
   }
 
   const heading = splitHeadline(data.h1);
@@ -385,7 +581,11 @@ function resolveHeadingLines(data: HeroSectionData) {
   return [data.h1];
 }
 
-function resolveHeroCards(data: HeroSectionData, modelCards: HeroModelCard[], fallbackImage: string) {
+function resolveHeroCards(
+  data: HeroSectionData,
+  modelCards: HeroModelCard[],
+  fallbackImage: string,
+) {
   const normalize = (value: string) =>
     value
       .toLowerCase()
@@ -416,9 +616,11 @@ function resolveHeroCards(data: HeroSectionData, modelCards: HeroModelCard[], fa
         subtitle: matchedModelCard?.subtitle ?? "",
         priceRange: card.price || matchedModelCard?.priceRange || "",
         cta: matchedModelCard?.cta ?? "",
-        image: card.image?.trim() || matchedModelCard?.image || fallbackImage || "",
+        image:
+          card.image?.trim() || matchedModelCard?.image || fallbackImage || "",
         lineOne: card.line1 ?? matchedModelCard?.lineOne ?? "",
-        heroLineTwo: card.detail ?? card.line2 ?? matchedModelCard?.heroLineTwo ?? "",
+        heroLineTwo:
+          card.detail ?? card.line2 ?? matchedModelCard?.heroLineTwo ?? "",
         engineCodes: matchedModelCard?.engineCodes,
         imageAlt: card.imageAlt ?? matchedModelCard?.imageAlt ?? card.title,
       };
@@ -447,10 +649,15 @@ export default function HeroSection({
   const registrationInput = data.registrationInput ?? {};
   const disclaimer = data.disclaimer;
   const hasDisclaimer = Boolean(disclaimer?.note?.trim());
-  const disclaimerLines = disclaimer?.note?.trim() ? buildDisclaimerLines(disclaimer.note) : [];
+  const disclaimerLines = disclaimer?.note?.trim()
+    ? buildDisclaimerLines(disclaimer.note)
+    : [];
   const subheadingParts = splitInlineDisclaimerText(data.subheading);
 
-  const bottomTickerLoop = useMemo(() => [...bottomBarItems, ...bottomBarItems], []);
+  const bottomTickerLoop = useMemo(
+    () => [...bottomBarItems, ...bottomBarItems],
+    [],
+  );
 
   function openQuoteCheckout(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -476,7 +683,8 @@ export default function HeroSection({
 
           <h1 className="max-w-none min-w-0 font-['Manrope'] font-extrabold tracking-[-0.035em] text-[#152b4a]">
             {headingLines.map((line, index) => {
-              const isAccent = headingLines.length > 1 && index === headingLines.length - 1;
+              const isAccent =
+                headingLines.length > 1 && index === headingLines.length - 1;
               return (
                 <span
                   key={`${line}-${index}`}
@@ -491,26 +699,26 @@ export default function HeroSection({
           </h1>
 
           <div className="mt-[9px] w-full md:mt-[14px] md:max-w-[58ch]">
-              <p className="min-w-0 text-[14px] leading-[1.6] text-[#64748b] md:text-[clamp(14px,1.1vw,17px)]">
-                {subheadingParts.leading ? `${subheadingParts.leading} ` : ""}
-                <span className="whitespace-nowrap">
-                  {subheadingParts.trailing}
-                  {hasDisclaimer && disclaimerMode === "icon" ? (
-                    <>
-                      {" "}
-                      <button
-                        type="button"
-                        onClick={() => setIsDisclaimerOpen((current) => !current)}
-                        aria-expanded={isDisclaimerOpen}
-                        aria-label="Toggle disclaimer"
-                        className="inline-flex h-5 w-5 translate-y-[-1px] items-center justify-center rounded-full border border-black align-middle text-[11px] font-bold leading-none text-black transition focus:outline-none focus:ring-2 focus:ring-[#2d7a3a] focus:ring-offset-2"
-                      >
-                        !
-                      </button>
-                    </>
-                  ) : null}
-                </span>
-              </p>
+            <p className="min-w-0 text-[14px] leading-[1.6] text-[#64748b] md:text-[clamp(14px,1.1vw,17px)]">
+              {subheadingParts.leading ? `${subheadingParts.leading} ` : ""}
+              <span className="whitespace-nowrap">
+                {subheadingParts.trailing}
+                {hasDisclaimer && disclaimerMode === "icon" ? (
+                  <>
+                    {" "}
+                    <button
+                      type="button"
+                      onClick={() => setIsDisclaimerOpen((current) => !current)}
+                      aria-expanded={isDisclaimerOpen}
+                      aria-label="Toggle disclaimer"
+                      className="inline-flex h-5 w-5 translate-y-[-1px] items-center justify-center rounded-full border border-black align-middle text-[11px] font-bold leading-none text-black transition focus:outline-none focus:ring-2 focus:ring-[#2d7a3a] focus:ring-offset-2"
+                    >
+                      !
+                    </button>
+                  </>
+                ) : null}
+              </span>
+            </p>
 
             {hasDisclaimer && disclaimerMode === "icon" && isDisclaimerOpen ? (
               <div className="mt-2 rounded-[12px] border border-[#dbe4ef] bg-white/85 px-3 py-2.5 text-[11.5px] leading-[1.55] text-[#64748b] shadow-[0_10px_26px_rgba(13,27,46,0.06)] backdrop-blur-sm md:px-4 md:py-3 md:text-[12.5px]">
@@ -539,7 +747,9 @@ export default function HeroSection({
                   <div className="flex min-h-7 min-w-7 items-center justify-center">
                     <DecorativeIcon {...badgeIcon} />
                   </div>
-                  <span className="min-w-0 leading-tight text-left">{badge}</span>
+                  <span className="min-w-0 leading-tight text-left">
+                    {badge}
+                  </span>
                 </div>
               );
             })}
@@ -550,8 +760,12 @@ export default function HeroSection({
               {displayModels.map((model, index) => {
                 const Icon = carIcons[index] ?? CarIconThree;
                 const shortTitle = stripBrandFromModel(model.h3, brandName);
-                const normalizedPrice = model.priceRange.replace(/^Starting\s+/i, "").replace(/^Available\s+/i, "");
-                const modelHref = brandSlug ? getModelHref(brandSlug, model) : null;
+                const normalizedPrice = model.priceRange
+                  .replace(/^Starting\s+/i, "")
+                  .replace(/^Available\s+/i, "");
+                const modelHref = brandSlug
+                  ? getModelHref(brandSlug, model)
+                  : null;
                 const commonCodesLine = buildCommonCodesLine(model);
                 const rebuiltUnitsLine = buildRebuiltUnitsLine(model);
                 const desktopDetailLine =
@@ -561,7 +775,8 @@ export default function HeroSection({
                       ? buildHeroLineTwo(model)
                       : "";
                 const commonCodesParts = splitCommonCodesText(commonCodesLine);
-                const desktopDetailCommonCodesParts = splitCommonCodesText(desktopDetailLine);
+                const desktopDetailCommonCodesParts =
+                  splitCommonCodesText(desktopDetailLine);
                 const lineOne = model.lineOne?.trim()
                   ? splitHighlightLineOne(model.lineOne)
                   : {
@@ -611,24 +826,29 @@ export default function HeroSection({
                             </span>
                           ) : null}
                         </div>
-                       {rebuiltUnitsLine ? (
-  <p className="text-[11px] leading-[1.45] text-[#64748b] md:mt-1 md:text-[12px]">
-    {rebuiltUnitsLine}
-  </p>
-) : null}
+                        {rebuiltUnitsLine ? (
+                          <p className="text-[11px] leading-[1.45] text-[#64748b] md:mt-1 md:text-[12px]">
+                            {rebuiltUnitsLine}
+                          </p>
+                        ) : null}
 
-{commonCodesLine ? (
-  <p className="text-[11px] leading-[1.45] text-[#64748b] md:text-[12px]">
-    {commonCodesParts ? (
-      <>
-        {commonCodesParts.prefix}
-        <span className="font-medium text-[#2563eb]">{renderLinkedEngineCodes(commonCodesParts.codes, engineLinks)}</span>
-      </>
-    ) : (
-      commonCodesLine
-    )}
-  </p>
-) : null}
+                        {commonCodesLine ? (
+                          <p className="text-[11px] leading-[1.45] text-[#64748b] md:text-[12px]">
+                            {commonCodesParts ? (
+                              <>
+                                {commonCodesParts.prefix}
+                                <span className="font-medium text-[#2563eb]">
+                                  {renderLinkedEngineCodes(
+                                    commonCodesParts.codes,
+                                    engineLinks,
+                                  )}
+                                </span>
+                              </>
+                            ) : (
+                              commonCodesLine
+                            )}
+                          </p>
+                        ) : null}
                       </div>
                     </div>
                   </div>
@@ -716,7 +936,10 @@ export default function HeroSection({
               htmlFor="reg-input"
               className="absolute h-px w-px overflow-hidden whitespace-nowrap [clip:rect(0,0,0,0)]"
             >
-              {strictData ? registrationInput.label : (registrationInput.label ?? "Enter your vehicle registration")}
+              {strictData
+                ? registrationInput.label
+                : (registrationInput.label ??
+                  "Enter your vehicle registration")}
             </label>
 
             <div className="flex h-[60px] w-full min-w-0 overflow-hidden rounded-[8px] border-[3px] border-[#1a1a1a] bg-[#ffdd00] md:h-[56px]">
@@ -738,10 +961,13 @@ export default function HeroSection({
                 autoComplete="off"
                 spellCheck={false}
                 value={registration}
-                onChange={(event) => setRegistration(event.currentTarget.value.toUpperCase())}
+                onChange={(event) =>
+                  setRegistration(event.currentTarget.value.toUpperCase())
+                }
                 className="h-full min-w-0 flex-1 bg-transparent px-2 pb-[1px] pt-0 text-center text-[28px] font-bold uppercase tracking-[0.06em] text-[#111] outline-none placeholder:text-[#111] placeholder:text-[24px] placeholder:font-bold placeholder:tracking-[0.04em] md:text-[24px] md:placeholder:text-[20px]"
                 style={{
-                  fontFamily: '"Charles Wright","Arial Black","Arial",sans-serif',
+                  fontFamily:
+                    '"Charles Wright","Arial Black","Arial",sans-serif',
                 }}
               />
             </div>
@@ -768,7 +994,10 @@ export default function HeroSection({
         {/* Desktop: scrolling ticker */}
         <div className="hidden h-14 items-center overflow-hidden lg:flex">
           <Container className="max-w-[1400px] px-10">
-            <div className="hero-ticker-track h-14" style={{ animationDuration: "32s" }}>
+            <div
+              className="hero-ticker-track h-14"
+              style={{ animationDuration: "32s" }}
+            >
               {bottomTickerLoop.map((item, index) => (
                 <span
                   key={`desktop-bottom-ticker-${index}`}
@@ -778,7 +1007,11 @@ export default function HeroSection({
                   <DecorativeIcon
                     src={item.src}
                     className={`flex-none object-contain ${item.cropRight ? "h-7 w-[42px] object-cover" : "h-7 w-7"}`}
-                    style={item.cropRight ? { objectPosition: "right center" } : undefined}
+                    style={
+                      item.cropRight
+                        ? { objectPosition: "right center" }
+                        : undefined
+                    }
                   />
                   <span>{item.text}</span>
                 </span>
@@ -789,7 +1022,10 @@ export default function HeroSection({
 
         {/* Mobile: scrolling ticker */}
         <div className="flex h-12 items-center overflow-hidden lg:hidden">
-          <div className="hero-ticker-track h-12" style={{ animationDuration: "45s" }}>
+          <div
+            className="hero-ticker-track h-12"
+            style={{ animationDuration: "45s" }}
+          >
             {bottomTickerLoop.map((item, index) => (
               <span
                 key={`bottom-ticker-${index}`}
@@ -799,7 +1035,11 @@ export default function HeroSection({
                 <DecorativeIcon
                   src={item.src}
                   className={`flex-none object-contain ${item.cropRight ? "h-6 w-9 object-cover" : "h-6 w-6"}`}
-                  style={item.cropRight ? { objectPosition: "right center" } : undefined}
+                  style={
+                    item.cropRight
+                      ? { objectPosition: "right center" }
+                      : undefined
+                  }
                 />
                 <span>{item.text}</span>
               </span>

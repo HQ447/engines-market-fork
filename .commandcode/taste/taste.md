@@ -1,0 +1,4 @@
+- Prefers quick, direct execution and signals urgency explicitly (e.g. repeating "fast" / "do it fast"). Confidence: 0.8
+- Prefers manual/direct edits to files over building automated or generated solutions for small/batch fixes. Confidence: 0.6
+- Canonical URLs should be absolute and rooted at the production domain (e.g. https://enginesmarket.co.uk/). Confidence: 0.6
+- Prefers simple, flat "list all" output over grouped/categorized presentation (e.g. for dropdowns). Confidence: 0.8

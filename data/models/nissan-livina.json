@@ -1,1 +1,1493 @@
-{"brand": {"name": "Nissan", "slug": "nissan", "tone": "premium"}, "model": {"name": "Nissan Livina", "slug": "livina", "legacySlug": "nissan-livina"}, "seo": {"title": "Nissan Livina Engine Replacement - Compare Prices UK", "description": "Nissan Livina engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £750. 12-month warranty & UK supply fit specialists.", "canonical": "/nissan/livina"}, "assets": {"mainImage": "/images/brands/nissan/models/nissan-livina-model-card.png", "smallImage": "/images/brands/nissan/models/nissan-livina-model-card.png", "heroBg": "/images/brands/nissan/models/nissan-livina-model-card.png", "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp", "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp", "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp", "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp", "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp", "ctaImage": "/images/brands/nissan/models/nissan-livina-model-card.png"}, "sections": {"hero": {"tag": "NISSAN ENGINE MARKETPLACE", "h1": "Nissan Livina Engine Replacement - Compare Prices & Save", "subheading": "Get quotes today from trusted UK Nissan Livina engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available nationwide.", "trustBadges": ["Supply & Fit Available", "12-Month Warranty", "Nationwide Delivery", "100+ Suppliers"], "ctaLinkText": "Get Free Nissan Livina Engine Quotes →", "supportingText": "Get tailored Nissan Livina engine quotes from vetted UK specialists.", "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network", "form": {"heading": "Find Your Nissan Livina Engine", "subtitle": "Enter your registration number to compare Nissan Livina engine options.", "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)", "buttonText": "Get Free Nissan Livina Engine Quotes →", "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Nissan Livina specialists."}, "imageAlt": "Nissan Livina engine replacement UK - compare reconditioned and rebuilt engine prices", "highlights": [{"title": "Livina Diesel Engines", "price": "from £850 to £2,100", "line1": "Livina Diesel Engines - from £850 to £2,100", "line2": "-> Rebuilt units from £850 · Common codes: K9K792, K9K796, K9K798", "detail": "-> Rebuilt units from £850 · Common codes: K9K792, K9K796, K9K798", "image": "", "imageAlt": "Nissan Livina diesel engine replacement - K9K792 K9K796 rebuilt reconditioned UK"}, {"title": "Livina Petrol Engines", "price": "from £750 to £1,950", "line1": "Livina Petrol Engines - from £750 to £1,950", "line2": "-> Rebuilt units from £750 · Common codes: HR15DE, HR16DE, HR16DET", "detail": "-> Rebuilt units from £750 · Common codes: HR15DE, HR16DE, HR16DET", "image": "", "imageAlt": "Nissan Livina petrol engine replacement - HR15DE HR16DE rebuilt reconditioned UK"}, {"title": "Livina Performance Engines", "price": "from £1,400 to £3,200", "line1": "Livina Performance Engines - from £1,400 to £3,200", "line2": "-> Rebuilt units from £1,400 · Common codes: HR16DET, HR16DE (Highway Star)", "detail": "-> Rebuilt units from £1,400 · Common codes: HR16DET, HR16DE (Highway Star)", "image": "", "imageAlt": "Nissan Livina HR16DET performance engine replacement - rebuilt reconditioned UK specialist"}], "headingLines": ["Nissan Livina Engine Replacement", "Compare Prices & Save"], "mobileBar": {"brandText": "ENGINEMARKET", "callLabel": "Call", "quoteLabel": "GET QUOTES"}, "registrationInput": {"label": "Enter your vehicle registration", "platePlaceholder": "AB12 CDE", "countryCode": "UK", "countryLabel": "United Kingdom"}}, "howItWorks": {"tag": "How It Works", "h2": "3 Simple Steps to Finding the Best Nissan Livina Replacement Engine", "cards": [{"number": 1, "icon": "registration", "front": {"h3": "Enter Your Nissan Livina Registration", "text": "Instantly verify your exact model, engine code and fuel type via DVLA - S to Highway Star."}, "back": {"heading": "Your Car, Precisely Identified", "text": "Engines Market uses the official DVLA database to pull accurate details about your Livina, not just model name.", "bullets": ["Your Precise Model - from S, SV, XV to Highway Star, Autech", "Your Engine Code - HR15DE, HR16DE, K9K and more", "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly", "No paperwork, no guesswork, 100% free."]}}], "tagline": "", "headingLines": ["3 Simple Steps", "to Finding the Best Nissan Livina Replacement Engine"], "ui": {"stepLabel": "Step", "desktopClosedLabel": "Click to expand", "desktopOpenLabel": "Click to view details", "mobileOpenLabel": "Tap to flip", "mobileCloseLabel": "Tap to flip back", "footerNote": "Most replacements completed within 3-5 days.", "mobileTrustItems": ["12-Month Warranty", "Supply & Fit Available", "Nationwide Delivery", "Trusted UK Suppliers"]}}, "liveMarketPrices": {"tag": "Live UK Engine Market Data", "h2": "What Are UK Drivers Paying for Nissan Livina Engine Replacement-", "h3": "The table below shows typical UK rebuilt engine costs across Nissan Livina variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.", "introBullets": [{"label": "Live market context", "text": "See realistic rebuilt-engine quote ranges across documented Nissan Livina variants."}, {"label": "Variant specific", "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."}, {"label": "Specialist pricing", "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."}, {"label": "Quote benchmark", "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."}], "cta": {"heading": "Benchmark your own Nissan Livina quote", "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Livina engine code.", "buttonText": "Compare My Nissan Livina Engine", "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."}, "badges": ["6 recent enquiries visible", "Typical rebuilt market ranges", "Engine-code matched rows", "UK specialist network"], "feed": {"isDynamic": false, "rowsCount": 6, "columns": ["Year", "Model", "Engine Code", "Fuel", "Avg. Quoted Price", "Reported Issue"], "timestampLabel": "Last Updated", "refreshLabel": "Refresh feed", "density": "premium", "visibleRows": 6, "entries": [{"Year": "2006-2009", "Model": "Nissan Livina (L10) 1.5L Petrol", "Engine Code": "HR15DE", "Fuel": "Petrol 1.5L", "Avg. Quoted Price": "£750-£1,450", "Reported Issue": "Timing chain tensioner wear"}, {"Year": "2006-2013", "Model": "Nissan Livina (L10) 1.6L Petrol", "Engine Code": "HR16DE", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£850-£1,650", "Reported Issue": "Oil pump chain stretch"}, {"Year": "2006-2013", "Model": "Nissan Livina (L10) 1.5L Diesel", "Engine Code": "K9K792", "Fuel": "Diesel 1.5L", "Avg. Quoted Price": "£850-£2,100", "Reported Issue": "Injector pump failure"}, {"Year": "2010-2013", "Model": "Nissan Livina (L10 Facelift) 1.6L Petrol", "Engine Code": "HR16DE", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£900-£1,750", "Reported Issue": "EGR cooler clogging"}, {"Year": "2008-2012", "Model": "Nissan Livina (L10) 1.5L Diesel Fleet", "Engine Code": "K9K796", "Fuel": "Diesel 1.5L", "Avg. Quoted Price": "£950-£2,200", "Reported Issue": "DPF regeneration failure"}, {"Year": "2010-2013", "Model": "Nissan Livina (L10) 1.6L Turbo Petrol", "Engine Code": "HR16DET", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£1,400-£3,200", "Reported Issue": "Turbo oil seal leak"}]}, "headingLines": ["What Are UK Drivers Paying for Nissan Livina Engine Replacement-"], "imageAlt": "Nissan Livina replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000", "filterTabs": [{"key": "all", "label": "All", "matchers": []}, {"key": "nissan-livina-s-engine", "label": "Nissan Livina S", "matchers": ["nissan livina s", "nissan livina s engine"]}, {"key": "nissan-livina-sv-engine", "label": "Nissan Livina SV", "matchers": ["nissan livina sv", "nissan livina sv engine"]}, {"key": "nissan-livina-xv-engine", "label": "Nissan Livina XV", "matchers": ["nissan livina xv", "nissan livina xv engine"]}, {"key": "nissan-livina-1-5-dci-engine", "label": "Nissan Livina 1.5 dCi", "matchers": ["nissan livina 1.5 dci", "nissan livina 1 5 dci engine"]}, {"key": "nissan-livina-1-5-dci-sv-engine", "label": "Nissan Livina 1.5 dCi SV", "matchers": ["nissan livina 1.5 dci sv", "nissan livina 1 5 dci sv engine"]}, {"key": "nissan-livina-highway-star-engine", "label": "Nissan Livina Highway Star", "matchers": ["nissan livina highway star", "nissan livina highway star engine"]}, {"key": "nissan-livina-autech-engine", "label": "Nissan Livina Autech", "matchers": ["nissan livina autech", "nissan livina autech engine"]}, {"key": "nissan-livina-1-6l-turbo-engine", "label": "Nissan Livina 1.6L Turbo", "matchers": ["nissan livina 1.6l turbo", "nissan livina 1 6l turbo engine"]}], "ui": {"showingSingleLabel": "entry", "showingPluralLabel": "entries", "acrossAllLabel": "across all models", "noEntriesLabel": "No entries match that model filter yet.", "updatedLabel": "Last updated:", "ctaLabel": "Live Quote Benchmark"}, "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"}, "reviews": {"tag": "Customer Reviews", "h2": "Trusted by Nissan Livina Owners Across the UK", "rating": {"value": 4.8, "count": 0, "summary": "", "basedOn": ""}, "reviews": [], "leaveReviewCta": {"text": "", "linkText": "Leave a review ->"}}, "variantCoverage": {"tag": "Models We Cover", "h2": "Nissan Livina Engine Replacement - All Variants Covered", "subheading": "From the economical S to the premium Highway Star and Autech trims, our network of UK Nissan Livina engine specialists lets you compare rebuilt, reconditioned and used engine prices, with typical price range for a rebuilt unit with 12-month warranty - supply & fit available nationwide.", "groups": [{"title": "Core Petrol Range", "cardSlugs": ["nissan-livina-s-engine", "nissan-livina-sv-engine", "nissan-livina-xv-engine"]}, {"title": "Core Diesel Range", "cardSlugs": ["nissan-livina-1-5-dci-engine", "nissan-livina-1-5-dci-sv-engine"]}, {"title": "Premium & Specialist Range", "cardSlugs": ["nissan-livina-highway-star-engine", "nissan-livina-autech-engine", "nissan-livina-1-6l-turbo-engine"]}], "cards": [{"h3": "Nissan Livina S Engine Replacement", "slug": "nissan-livina-s-engine", "subtitle": "HR15DE 1.5L Petrol ? 109hp ? 2006-2013", "priceRange": "£750-£1,450", "cta": "Compare S Engine Prices", "engineCodes": ["HR15DE"], "fuel": "Petrol", "power": "109hp", "years": "2006-2013", "image": ""}, {"h3": "Nissan Livina SV Engine Replacement", "slug": "nissan-livina-sv-engine", "subtitle": "HR15DE/HR16DE 1.5L-1.6L Petrol ? 109-112hp ? 2006-2013", "priceRange": "£800-£1,650", "cta": "Compare SV Engine Prices", "engineCodes": ["HR15DE", "HR16DE 1.5L-"], "fuel": "Petrol", "power": "109-112hp", "years": "2006-2013", "image": ""}, {"h3": "Nissan Livina XV Engine Replacement", "slug": "nissan-livina-xv-engine", "subtitle": "HR16DE 1.6L Petrol ? 112hp ? 2006-2013", "priceRange": "£850-£1,750", "cta": "Compare XV Engine Prices", "engineCodes": ["HR16DE"], "fuel": "Petrol", "power": "112hp", "years": "2006-2013", "image": ""}, {"h3": "Nissan Livina 1.5 dCi Engine Replacement", "slug": "nissan-livina-1-5-dci-engine", "subtitle": "K9K792 1.5L Diesel ? 106hp ? 2006-2013", "priceRange": "£850-£2,100", "cta": "Compare 1.5 dCi Engine Prices", "engineCodes": ["K9K792"], "fuel": "Diesel", "power": "106hp", "years": "2006-2013", "image": ""}, {"h3": "Nissan Livina 1.5 dCi SV Engine Replacement", "slug": "nissan-livina-1-5-dci-sv-engine", "subtitle": "K9K796 1.5L Diesel ? 106hp ? 2008-2012", "priceRange": "£950-£2,200", "cta": "Compare 1.5 dCi SV Engine Prices", "engineCodes": ["K9K796"], "fuel": "Diesel", "power": "106hp", "years": "2008-2012", "image": ""}, {"h3": "Nissan Livina Highway Star Engine Replacement", "slug": "nissan-livina-highway-star-engine", "subtitle": "HR16DE 1.6L Petrol ? 112hp ? 2010-2013", "priceRange": "£900-£1,950", "cta": "Compare Highway Star Engine Prices", "engineCodes": ["HR16DE"], "fuel": "Petrol", "power": "112hp", "years": "2010-2013", "image": ""}, {"h3": "Nissan Livina Autech Engine Replacement", "slug": "nissan-livina-autech-engine", "subtitle": "HR16DE 1.6L Petrol ? 112hp ? 2010-2013", "priceRange": "£950-£2,100", "cta": "Compare Autech Engine Prices", "engineCodes": ["HR16DE"], "fuel": "Petrol", "power": "112hp", "years": "2010-2013", "image": ""}, {"h3": "Nissan Livina 1.6L Turbo Engine Replacement", "slug": "nissan-livina-1-6l-turbo-engine", "subtitle": "HR16DET 1.6L Turbo Petrol · ~130hp · 2010-2013 · Rebuilt: £1,400-£3,200", "priceRange": "£1,400-£3,200", "cta": "Compare 1.6L Turbo Engine Prices", "engineCodes": ["HR16DET"], "fuel": "Petrol", "power": "130hp", "years": "2010-2013", "image": ""}], "directory": {"h3": "All Nissan Livina Variants - Engine Replacement Coverage", "intro": "A full alphabetical listing of every Nissan Livina trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.", "groups": [{"title": "Petrol Variants", "items": ["S", "SV", "XV", "Highway Star", "Autech", "Ultimate Edition"]}, {"title": "Diesel Variants", "items": ["1.5 dCi S", "1.5 dCi SV", "1.5 dCi XV", "1.5 dCi Highway Star"]}], "label": "Variant Directory"}, "closing": "Not sure which variant your Nissan Livina is- Enter your registration number above - we'll identify the exact sub-model, engine code and compatible replacement options instantly.", "engineGuide": {"tag": "Engine Codes", "h2": "Nissan Livina Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Livina across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "families": [{"name": "Petrol Engines", "entries": [{"code": "HR15DE", "title": "1.5L Petrol", "familyHeading": "HR Series Petrol Engines (2006-2013)", "history": "Entry-level petrol unit for early Livina models, widely used across ASEAN-spec imports to the UK market.", "fuel": "Petrol", "size": "1.5 Litre", "power": "109-112 hp", "years": "2006-2013", "compatibleVariants": ["S, SV, XV, 1.5L base trim"], "commonFailures": ["Timing chain tensioner wear (60k-90k miles)", "Oil consumption due to piston ring wear", "EGR valve clogging on high-mileage imports"], "avgRebuiltPrice": "£750 - £1,450", "cta": "Get quotes for HR15DE Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HR16DE", "title": "1.6L Petrol", "familyHeading": "HR Series Petrol Engines (2006-2013)", "history": "The dominant petrol engine for UK-imported Livina, offering improved refinement and fuel economy over the 1.5L unit.", "fuel": "Petrol", "size": "1.6 Litre", "power": "112-115 hp", "years": "2006-2013", "compatibleVariants": ["SV, XV, Highway Star, Autech, Ultimate Edition"], "commonFailures": ["Oil pump chain stretch causing low oil pressure", "EGR cooler clogging leading to MoT emissions failure", "Head gasket failure on overheated high-mileage units"], "avgRebuiltPrice": "£850 - £1,750", "cta": "Get quotes for HR16DE Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HR16DET", "title": "1.6L Turbo Petrol", "familyHeading": "HR Series Petrol Engines (2006-2013)", "history": "Performance-oriented variant fitted to select Highway Star and Autech trims, offering enhanced power for grey import enthusiasts.", "fuel": "Petrol (Turbo)", "size": "1.6 Litre", "power": "~130 hp", "years": "2010-2013", "compatibleVariants": ["Highway Star Turbo, Autech Sport"], "commonFailures": ["Turbocharger oil seal failure", "Intercooler piping degradation on tropical-spec imports", "Boost pressure sensor faults"], "avgRebuiltPrice": "£1,400 - £3,200", "cta": "Get quotes for HR16DET Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}, {"name": "Diesel Engines", "entries": [{"code": "K9K792", "title": "1.5L Diesel", "familyHeading": "K9K Diesel Engines (2006-2013)", "history": "Renault-sourced dCi diesel engine widely used in Livina for fleet and private import use, known for economy but requiring careful maintenance.", "fuel": "Diesel", "size": "1.5 Litre", "power": "106 hp", "years": "2006-2013", "compatibleVariants": ["1.5 dCi S, 1.5 dCi SV, 1.5 dCi XV"], "commonFailures": ["Injector pump calibration failure causing black smoke", "DPF clogging on short-journey UK usage", "Timing belt failure if not replaced at 60k miles"], "avgRebuiltPrice": "£850 - £2,100", "cta": "Get quotes for K9K792 Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}, {"code": "K9K796", "title": "1.5L Diesel (Euro 4)", "familyHeading": "K9K Diesel Engines (2006-2013)", "history": "Updated Euro 4-compliant variant of the K9K with revised EGR and injection mapping for later Livina imports.", "fuel": "Diesel", "size": "1.5 Litre", "power": "106 hp", "years": "2008-2013", "compatibleVariants": ["1.5 dCi SV, 1.5 dCi XV, 1.5 dCi Highway Star"], "commonFailures": ["EGR valve sticking causing rough idle", "Turbo actuator failure on high-mileage units", "Injector seal leaks leading to fuel dilution"], "avgRebuiltPrice": "£950 - £2,200", "cta": "Get quotes for K9K796 Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}]}], "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Livina engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."}, "headingLines": ["Nissan Livina Engine Replacement", "All Variants Covered"], "ui": {"fromPriceLabel": "from price", "specsLabel": "Specs", "rebuiltLabel": "Rebuilt", "yearsLabel": "Years", "yearsFallback": "Check exact year coverage by registration"}}, "engineCodes": {"tag": "Engine Codes", "h2": "Nissan Livina Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Livina across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "closingLine": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Livina engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.", "filters": ["Petrol Engines", "Diesel Engines"], "groups": [{"name": "Petrol Engines", "era": "Extracted from detailed petrol and performance engine families across Nissan Livina variants.", "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.", "engines": [{"code": "HR15DE", "title": "1.5L Petrol", "familyHeading": "HR Series Petrol Engines (2006-2013)", "fuel": "Petrol", "size": "1.5L", "power": "109-112 hp", "compatibleModels": "S, SV, XV, 1.5L base trim", "avgRebuiltPrice": "£750 - £1,450", "cta": "Get quotes for HR15DE Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HR16DE", "title": "1.6L Petrol", "familyHeading": "HR Series Petrol Engines (2006-2013)", "fuel": "Petrol", "size": "1.6L", "power": "112-115 hp", "compatibleModels": "SV, XV, Highway Star, Autech, Ultimate Edition", "avgRebuiltPrice": "£850 - £1,750", "cta": "Get quotes for HR16DE Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HR16DET", "title": "1.6L Turbo Petrol", "familyHeading": "HR Series Petrol Engines (2006-2013)", "fuel": "Petrol (Turbo)", "size": "1.6L", "power": "~130 hp", "compatibleModels": "Highway Star Turbo, Autech Sport", "avgRebuiltPrice": "£1,400 - £3,200", "cta": "Get quotes for HR16DET Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}, {"name": "Diesel Engines", "era": "Extracted from detailed diesel engine families across Nissan Livina variants.", "failureNote": "Main replacement triggers are timing chain wear, EGR / cooling faults and turbo-control issues.", "engines": [{"code": "K9K792", "title": "1.5L Diesel", "familyHeading": "K9K Diesel Engines (2006-2013)", "fuel": "Diesel", "size": "1.5L", "power": "106 hp", "compatibleModels": "1.5 dCi S, 1.5 dCi SV, 1.5 dCi XV", "avgRebuiltPrice": "£850 - £2,100", "cta": "Get quotes for K9K792 Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}, {"code": "K9K796", "title": "1.5L Diesel (Euro 4)", "familyHeading": "K9K Diesel Engines (2006-2013)", "fuel": "Diesel", "size": "1.5L", "power": "106 hp", "compatibleModels": "1.5 dCi SV, 1.5 dCi XV, 1.5 dCi Highway Star", "avgRebuiltPrice": "£950 - £2,200", "cta": "Get quotes for K9K796 Nissan Livina engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}]}], "headingLines": ["Nissan Livina Engine Codes", "Full Technical Specifications & Replacement Guide"], "closingAction": {"title": "Can't find your engine code-", "buttonText": "Enter Your Reg"}, "ui": {"summaryPriceLabel": "Avg. rebuilt price", "exampleImageLabel": "Example engine visual", "historyLabel": "Engine History", "variantsLabel": "Compatible Nissan Livina variants", "specsTitle": "Technical Specifications", "fuelLabel": "Fuel type", "sizeLabel": "Engine size", "powerLabel": "Power output", "yearsLabel": "Years fitted", "failuresTitle": "Common Failures", "supplyLabel": "Supply only"}}, "commonProblems": {"tag": "Common Problems", "h2": "Nissan Livina Engine Problems - What It Costs to Fix & When Replacement Makes Sense", "h3": "The Nissan Livina's HR15DE, HR16DE petrol and K9K diesel engines are generally robust but known for specific failure points on high-mileage grey imports. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty. Use this decision tool to compare repair vs replacement costs.", "problems": [{"group": "Nissan Livina HR15DE Timing Chain Failure", "h4": "Nissan Livina HR15DE Timing Chain Failure - Why Early Petrol Engines Fail", "affectedModels": "Nissan Livina S, SV, XV (2006-2013, HR15DE)", "typicalFailureMileage": "60,000-90,000 miles", "rootCause": "Factory timing chain tensioner design allows slack to develop, causing rattling noise and potential valve timing disruption on high-mileage imports.", "repairOptions": [{"tier": "Minor - Preventative Tensioner Replacement", "dealerPrice": "£450 - £750", "specialistPrice": "£320 - £550", "whatItInvolves": "Replace tensioner and guide rails, reset timing", "longevity": "Viable only if caught before chain stretch; 20k-40k mile extension"}, {"tier": "Intermediate - Full Timing Kit Replacement", "dealerPrice": "£850 - £1,350", "specialistPrice": "£600 - £950", "whatItInvolves": "Replace chain, tensioner, guides, seals; labour-intensive", "longevity": "Restores factory spec; suitable if block/head are sound"}, {"tier": "Full Replacement - Rebuilt HR15DE Engine", "dealerPrice": "£2,100 - £3,400", "specialistPrice": "£750 - £1,450 (supply) + £400-£700 fit", "whatItInvolves": "Supply & fit rebuilt unit with upgraded tensioner, bench-tested, 12-month warranty", "longevity": "Best value for high-mileage or damaged engines; eliminates repeat failure risk"}], "recommendation": "If your Livina HR15DE is under 70k miles and only showing early rattling, a preventative tensioner replacement offers good value. For engines over 85k miles or with confirmed chain skip, a rebuilt unit with upgraded components is more cost-effective long-term.", "cta": "Compare rebuilt HR15DE engine prices for your Nissan Livina"}, {"group": "Nissan Livina HR16DE Oil Pump Chain Wear", "h4": "Nissan Livina HR16DE Oil Pump Chain Wear - Critical Lubrication Failure", "affectedModels": "Nissan Livina SV, XV, Highway Star (2006-2013, HR16DE)", "typicalFailureMileage": "75,000-110,000 miles", "rootCause": "Oil pump drive chain stretches over time, reducing oil pressure and risking bearing damage; common on tropical-spec imports used in UK conditions.", "repairOptions": [{"tier": "Intermediate - Oil Pump & Chain Replacement", "dealerPrice": "£950 - £1,600", "specialistPrice": "£680 - £1,100", "whatItInvolves": "Remove sump, replace pump chain, tensioner, seals", "longevity": "Restores oil pressure; viable if no bearing damage detected"}, {"tier": "Full Replacement - Rebuilt HR16DE Engine", "dealerPrice": "£2,400 - £3,800", "specialistPrice": "£850 - £1,750 (supply) + £450-£750 fit", "whatItInvolves": "Supply & fit rebuilt unit with reinforced oil pump chain, upgraded bearings, bench-tested", "longevity": "Recommended if low oil pressure warning has appeared; prevents catastrophic failure"}], "recommendation": "Low oil pressure warnings on HR16DE engines should never be ignored. If diagnostics confirm pump chain wear, a rebuilt engine with the reinforced chain upgrade is the safest, most economical solution for UK-imported Livina.", "cta": "Get quotes for HR16DE Nissan Livina engine replacement with oil pump upgrade"}, {"group": "Nissan Livina K9K Injector Pump Failure", "h4": "Nissan Livina K9K Injector Pump Failure - Diesel Performance Loss", "affectedModels": "Nissan Livina 1.5 dCi variants (2006-2013, K9K792/K9K796)", "typicalFailureMileage": "80,000-120,000 miles", "rootCause": "High-pressure injector pump calibration drifts on high-mileage diesel imports, causing black smoke, power loss and failed MoT emissions tests.", "repairOptions": [{"tier": "Minor - Injector Pump Calibration/Rebuild", "dealerPrice": "£550 - £950", "specialistPrice": "£380 - £650", "whatItInvolves": "Remove pump, bench-test, recalibrate or replace internal components", "longevity": "Suitable if injectors and turbo are healthy; may require repeat service"}, {"tier": "Full Replacement - Rebuilt K9K Diesel Engine", "dealerPrice": "£2,600 - £4,100", "specialistPrice": "£850 - £2,200 (supply) + £450-£800 fit", "whatItInvolves": "Supply & fit rebuilt unit with calibrated pump, new injectors, emissions-compliant rebuild", "longevity": "Best for fleet operators or high-mileage imports; ensures MoT compliance and reliability"}], "recommendation": "For Livina diesel owners facing emissions failure or persistent black smoke, a rebuilt K9K engine with calibrated pump and new injectors offers better long-term value than repeated pump repairs, especially for UK MoT compliance.", "cta": "Compare rebuilt K9K diesel engine prices for your Nissan Livina"}, {"group": "Nissan Livina HR16DE EGR Cooler Clogging", "h4": "Nissan Livina HR16DE EGR Cooler Clogging - Emissions Compliance Issue", "affectedModels": "Nissan Livina XV, Highway Star (2010-2013, HR16DE Euro 4/5)", "typicalFailureMileage": "70,000-100,000 miles", "rootCause": "EGR cooler accumulates carbon deposits on imported petrol engines used in stop-start UK driving, triggering fault codes and MoT emissions failure.", "repairOptions": [{"tier": "Minor - EGR Cleaner/Blanking", "dealerPrice": "£320 - £550", "specialistPrice": "£220 - £380", "whatItInvolves": "Remove and ultrasonically clean EGR cooler; optional blanking plate (check MoT legality)", "longevity": "Temporary fix; may trigger check engine light; not MoT-compliant if blanked"}, {"tier": "Intermediate - EGR Cooler Replacement", "dealerPrice": "£680 - £1,100", "specialistPrice": "£480 - £750", "whatItInvolves": "Replace cooler assembly with OEM-spec unit; reset ECU adaptations", "longevity": "Restores emissions compliance; suitable if engine otherwise healthy"}, {"tier": "Full Replacement - Rebuilt HR16DE with EGR Delete Option", "dealerPrice": "£2,400 - £3,800", "specialistPrice": "£850 - £1,750 (supply) + £450-£750 fit", "whatItInvolves": "Supply & fit rebuilt unit; optional EGR delete kit (off-road use only); full emissions certification available", "longevity": "Recommended for high-mileage imports where repeated EGR issues are likely"}], "recommendation": "If your Livina HR16DE has triggered an EGR fault code and failed emissions, replacing the cooler is the compliant route. For high-mileage imports, a rebuilt engine with optional EGR modification (for off-road use) may offer better long-term reliability.", "cta": "Find HR16DE Nissan Livina engines with EGR compliance certification"}], "finalCta": {"h4": "Don't Let Engine Failure Write Off Your Nissan Livina", "paragraph": "From timing chain rattles to diesel injector failures, Nissan Livina engine problems are predictable and solvable. EngineMarket makes it simple to compare prices from trusted UK specialists who understand grey import MPVs. Every rebuilt engine includes upgraded components addressing the original failure point, bench testing, and a minimum 12-month unlimited mileage warranty. Get back on the road without the main dealer premium.", "buttonText": "Compare Nissan Livina Engine Replacement Prices Now →", "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket's UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Livina and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."}}, "engineTypes": {"tag": "Replacement Engine Options", "h2": "Nissan Livina Engine Types - Options, Costs & What to Expect", "intro": "Every Nissan Livina engine type is available through our UK network with typical price ranges based on variant, engine code and budget.", "types": [{"title": "Nissan Livina Reconditioned Engines (Recon)", "description": "Professionally cleaned, inspected and repaired Livina engines with worn parts replaced; ideal for budget-conscious grey import owners.", "frontDescription": "Professionally cleaned, inspected and repaired Livina engines with worn parts replaced; ideal for budget-conscious grey import owners.", "frontDisclaimer": "Condition varies; request inspection report before purchase.", "backDescription": "Reconditioned Livina engines undergo strip-down, cleaning and replacement of visibly worn components like seals, gaskets and belts.", "backBullets": ["Suitable for HR15DE/HR16DE/K9K codes on imports under 90k miles", "Faster turnaround than full rebuilds; typically 3-5 working days", "Includes basic compression test; request dyno report for confidence"], "priceRange": "£750 - £1,650 (supply only)", "cta": "Compare reconditioned Nissan Livina engine prices"}, {"title": "Nissan Livina Rebuilt Engines", "description": "Comprehensive rebuild with upgraded components addressing known Livina failure points; best balance of cost and reliability for UK imports.", "frontDescription": "Comprehensive rebuild with upgraded components addressing known Livina failure points; best balance of cost and reliability for UK imports.", "frontDisclaimer": "Prices vary by engine code and upgrade specification.", "backDescription": "Rebuilt Livina engines include new timing components, oil pump upgrades and emissions-compliant refurbishment for MoT peace of mind.", "backBullets": ["HR16DE units get reinforced oil pump chain per Nissan bulletin", "K9K diesel rebuilds include calibrated injector pump and new seals", "All units bench-tested with compression/leak-down report included"], "priceRange": "£850 - £1,950 (supply only)", "cta": "Get rebuilt Nissan Livina engine quotes"}, {"title": "Nissan Livina Used Engines", "description": "Low-mileage donor engines from verified grey import breakers; fastest, most affordable option for Livina owners on a tight budget.", "frontDescription": "Low-mileage donor engines from verified grey import breakers; fastest, most affordable option for Livina owners on a tight budget.", "frontDisclaimer": "Mileage and history vary; request compression test results.", "backDescription": "Used Livina engines sourced from ASEAN/Middle East imports offer genuine OEM parts at lowest cost, ideal for pre-purchase verification.", "backBullets": ["Request DVLA-compatible documentation for UK registration", "Verify engine code matches your chassis (HR15DE/HR16DE/K9K)", "Budget for ancillary replacement (mounts, belts) during installation"], "priceRange": "£450 - £1,200 (supply only)", "cta": "Check used Nissan Livina engine availability"}, {"title": "Nissan Livina Remanufactured Engines", "description": "Factory-spec zero-hour rebuilds with all components renewed or upgraded; premium choice for enthusiasts keeping high-spec Livina imports.", "frontDescription": "Factory-spec zero-hour rebuilds with all components renewed or upgraded; premium choice for enthusiasts keeping high-spec Livina imports.", "frontDisclaimer": "Lead time 7-14 days; premium pricing reflects comprehensive renewal.", "backDescription": "Remanufactured Livina engines are built to OEM tolerances with updated parts addressing original design weaknesses for long-term reliability.", "backBullets": ["HR16DET turbo units get balanced turbos and reinforced internals", "Full emissions certification available for ULEZ/MoT compliance", "Includes 24-month warranty option for maximum peace of mind"], "priceRange": "£1,400 - £3,200 (supply only)", "cta": "Compare remanufactured Nissan Livina engine costs"}, {"title": "Nissan Livina Refurbished Engines", "description": "Mid-tier option between reconditioned and rebuilt; targeted repairs addressing specific Livina failure points without full strip-down.", "frontDescription": "Mid-tier option between reconditioned and rebuilt; targeted repairs addressing specific Livina failure points without full strip-down.", "frontDisclaimer": "Scope varies by supplier; confirm included upgrades before ordering.", "backDescription": "Refurbished Livina engines focus on known weak points like timing tensioners or injector pumps, offering cost-effective reliability for grey imports.", "backBullets": ["Ideal for HR15DE timing chain or K9K injector pump issues", "Faster turnaround than full rebuilds; typically 2-4 working days", "Request itemised work list to verify included component upgrades"], "priceRange": "£650 - £1,450 (supply only)", "cta": "View refurbished Nissan Livina engine options"}, {"title": "Nissan Livina Supply & Fit Engines", "description": "Complete engine replacement service including specialist fitting, ECU adaptation and MoT documentation for grey import Livina owners.", "frontDescription": "Complete engine replacement service including specialist fitting, ECU adaptation and MoT documentation for grey import Livina owners.", "frontDisclaimer": "Labour cost varies by location and engine complexity.", "backDescription": "Supply & fit packages include certified import specialist labour, ECU pinout verification and DVLA-compliant paperwork for hassle-free replacement.", "backBullets": ["Specialists familiar with JDM/ASEAN-spec Livina wiring and mounts", "Includes post-installation diagnostics and MoT emissions pre-check", "Nationwide mobile fitting available for fleet or remote locations"], "priceRange": "£400 - £800 added to engine price", "cta": "Find Nissan Livina engine supply & fit deals"}], "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Livina within hours.", "headingLines": ["Nissan Livina Engine Types", "Options, Costs & What to Expect"], "ui": {"priceLabel": "Typical price range", "frontActionLabel": "What is it-", "backActionLabel": "Flip back"}, "closingCard": {"label": "Engine Replacement Help", "title": "Compare Nissan Livina engine prices with vetted UK suppliers", "buttonText": "Compare Nissan Livina Prices"}}, "engineSizes": {"tag": "Engine Sizes", "h2": "Nissan Livina Engines by Size - Find the Right Displacement for Your Variant", "intro": "Every displacement fitted to the Nissan Livina is listed below, with compatible engine codes, production years and common failure notes to help you identify the right replacement.", "groups": [{"title": "Nissan Livina Diesel Engine Sizes", "items": [{"title": "Nissan Livina 1.5L Diesel Engines", "description": "The 1.5L K9K diesel was the sole diesel option for UK-imported Livina models, offering strong economy for fleet and private use but requiring careful EGR and injector maintenance on high-mileage imports.", "engineCodes": ["K9K792", "K9K796", "K9K798"], "compatibleModels": ["1.5 dCi S", "SV", "XV", "Highway Star"], "productionYears": "L10, 2006-2013", "commonFailurePoints": ["Injector pump calibration drift", "EGR valve clogging", "timing belt neglect"], "cta": "Get quotes for Nissan Livina 1.5L diesel engines"}]}, {"title": "Nissan Livina Petrol Engine Sizes", "items": [{"title": "Nissan Livina 1.5L Petrol Engines", "description": "The entry-level HR15DE 1.5L petrol powered base S and early SV trims, offering adequate performance for urban use but known for timing chain tensioner wear on high-mileage grey imports.", "engineCodes": ["HR15DE"], "compatibleModels": ["S", "SV", "early XV"], "productionYears": "L10, 2006-2013", "commonFailurePoints": ["Timing chain tensioner wear", "oil consumption", "EGR clogging"], "cta": "Compare Nissan Livina 1.5L petrol engine prices"}, {"title": "Nissan Livina 1.6L Petrol Engines", "description": "The dominant HR16DE 1.6L petrol unit powered most UK-imported Livina variants, offering improved refinement and fuel economy but requiring attention to oil pump chain integrity on high-mileage examples.", "engineCodes": ["HR16DE", "HR16DET"], "compatibleModels": ["SV", "XV", "Highway Star", "Autech"], "productionYears": "L10/L10 Facelift, 2006-2013", "commonFailurePoints": ["Oil pump chain stretch", "EGR cooler clogging", "turbo seal leaks (turbo models)"], "cta": "Compare Nissan Livina 1.6L petrol engine prices"}]}], "closing": "Not sure which engine size your Nissan Livina needs- Enter your registration number above - we'll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Livina specialists.", "headingLines": ["Nissan Livina Engines by Size", "Find the Right Displacement for Your Variant"], "ui": {"swapLabel": "Swap panel", "engineCodesLabel": "Engine Code(s)", "compatibleModelsLabel": "Compatible Models (UK)", "productionYearsLabel": "Production Years", "warningLabel": "Common Failure Points", "warningTitle": "Watch for these known weak points", "helperLabel": "Engine Size Advice", "helperTitle": "Need help matching the exact engine size-", "helperButtonText": "Find My Engine"}}, "fuelTypes": {"tag": "Fuel Type", "h2": "Nissan Livina Engines by Fuel Type", "intro": "Choose your Nissan Livina engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early HR15DE petrol to the latest K9K diesel imports.", "items": [{"title": "Nissan Livina Diesel Engines", "description": "The K9K 1.5L dCi diesel powered most fleet-spec Livina imports to the UK, offering strong economy but requiring careful EGR and injector maintenance on high-mileage examples.", "descriptor": "The K9K 1.5L dCi diesel powered most fleet-spec Livina imports to the UK, offering strong economy but requiring careful EGR and injector maintenance on high-mileage examples.", "familiesLabel": "Common Nissan Livina Diesel Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Diesel Models", "notesLabel": "", "families": ["K9K792 - base 1.5 dCi (S/SV), injector pump calibration issues", "K9K796 - Euro 4 update (XV/Highway Star), EGR clogging on short journeys", "K9K798 - late-model refinement, DPF compatibility for UK MoT"], "foundIn": ["L10 Pre-Facelift (2006-2009) - K9K792", "L10 Facelift (2010-2013) - K9K796, K9K798"], "knownFor": ["Excellent motorway fuel economy (50+ mpg achievable)", "Injector pump failure causing black smoke and power loss", "DPF clogging on urban-use imports without regeneration cycles", "High replacement demand on fleet-spec 1.5 dCi SV variants"], "typicalModels": ["1.5 dCi S", "1.5 dCi SV", "1.5 dCi XV", "1.5 dCi Highway Star"], "importantNotes": [], "cta": "Get quotes for Nissan Livina Diesel replacement engines"}, {"title": "Nissan Livina Petrol Engines", "description": "HR15DE and HR16DE petrol engines dominate UK-imported Livina models, offering reliable daily driving but requiring attention to timing components and oil systems on high-mileage examples.", "descriptor": "HR15DE and HR16DE petrol engines dominate UK-imported Livina models, offering reliable daily driving but requiring attention to timing components and oil systems on high-mileage examples.", "familiesLabel": "Common Nissan Livina Petrol Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Petrol Models", "notesLabel": "", "families": ["HR15DE - 1.5L entry petrol (S/SV), timing chain tensioner wear", "HR16DE - 1.6L mainstream (XV/Highway Star), oil pump chain stretch", "HR16DET - 1.6L turbo (Autech), turbo seal and boost sensor issues"], "foundIn": ["L10 Pre-Facelift (2006-2009) - HR15DE, HR16DE", "L10 Facelift (2010-2013) - HR16DE, HR16DET"], "knownFor": ["Smooth, refined operation typical of Nissan HR-series engines", "HR15DE timing chain rattles between 60k-90k miles", "HR16DE oil pressure warnings from pump chain wear", "Turbo models require careful oil maintenance to prevent seal failure"], "typicalModels": ["1.5L S", "1.6L SV", "1.6L XV", "1.6L Highway Star", "1.6L Turbo Autech"], "importantNotes": [], "cta": "Compare Nissan Livina Petrol engine prices"}], "closing": "Not sure which fuel type your Nissan Livina has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Livina specialists.", "headingLines": ["Nissan Livina Engines by Fuel Type"], "ui": {"swapLabel": "Swap panel", "familiesLabel": "Common Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Models (UK)", "notesLabel": "Important Notes", "closingButtonText": "Find my engine", "emptyStateTitle": "Fuel type guidance", "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."}}, "engineYears": {"tag": "Engine Years", "h2": "Nissan Livina Engines by Year - What Was Fitted & When", "intro": "This timeline covers all major engine changes across the Nissan Livina's UK-import production span, organised so owners can quickly identify their engine and compare rebuilt prices from UK specialists.", "jumpLabel": "Jump to model year", "years": [{"year": "2006 - 2009", "preview": "L10 Launch: HR15DE & K9K Debut", "description": "The original Livina launch introduced the HR15DE petrol and K9K diesel engines that would dominate UK grey import replacements for a decade.", "keyChanges": ["First UK grey imports of ASEAN-spec Livina MPV arrive", "HR15DE 1.5L petrol and K9K 1.5L diesel offered across S/SV/XV trims", "Basic MoT-compliant emissions hardware for UK registration"], "mainEngines": ["HR15DE - 1.5L petrol (S / SV)", "K9K792 - 1.5L diesel (1.5 dCi S / SV / XV)"], "popularModels": ["Nissan Livina S", "Nissan Livina SV", "Nissan Livina 1.5 dCi SV"], "knownFor": ["Robust basic engineering suited to tropical climates", "Early HR15DE timing chain tensioner wear on high-mileage imports", "K9K injector pump calibration drift causing emissions issues", "Strong demand for replacement engines on fleet-spec diesel models"], "engineCodesCovered": ["HR15DE", "K9K792"], "cta": "Get quotes for 2006-2009 Nissan Livina replacement engines", "badges": [{"label": "Major Engine Changes", "tone": "accent"}, {"label": "2 engine highlights", "tone": "muted"}], "ticker": "Nissan Livina HR15DE timing chain replacement • Nissan Livina K9K injector pump rebuild • Livina 1.5 dCi engine supply and fit UK", "enquiries": ["Nissan Livina HR15DE timing chain replacement", "Nissan Livina K9K injector pump rebuild", "Livina 1.5 dCi engine supply and fit UK"]}, {"year": "2010 - 2013", "preview": "L10 Facelift: HR16DE Refinement & Turbo Option", "description": "The facelifted Livina introduced the refined HR16DE petrol and optional turbo variant, while updating diesel emissions hardware for stricter UK compliance.", "keyChanges": ["HR16DE 1.6L petrol replaces HR15DE as mainstream engine", "HR16DET turbo option added for Highway Star/Autech trims", "K9K updated to K9K796/K9K798 for Euro 4/5 emissions compliance"], "mainEngines": ["HR16DE - 1.6L petrol (SV / XV / Highway Star)", "HR16DET - 1.6L turbo petrol (Highway Star Turbo / Autech)", "K9K796/K9K798 - 1.5L diesel Euro 4/5 (1.5 dCi XV / Highway Star)"], "popularModels": ["Nissan Livina XV", "Nissan Livina Highway Star", "Nissan Livina Autech", "Nissan Livina 1.5 dCi Highway Star"], "knownFor": ["HR16DE offers improved refinement but oil pump chain wear emerges", "Turbo models require careful oil maintenance to prevent seal failure", "Updated K9K engines better suited to UK MoT emissions testing", "Peak replacement demand period for UK-imported Livina models"], "engineCodesCovered": ["HR16DE", "HR16DET", "K9K796", "K9K798"], "cta": "Get quotes for 2010-2013 Nissan Livina replacement engines", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "Nissan Livina HR16DE oil pump replacement • Livina HR16DET turbo rebuild • Nissan Livina K9K796 EGR repair", "enquiries": ["Nissan Livina HR16DE oil pump replacement", "Livina HR16DET turbo rebuild", "Nissan Livina K9K796 EGR repair"]}], "closing": "Not sure which year your Nissan Livina was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Livina specialists.", "headingLines": ["Nissan Livina Engines by Year", "What Was Fitted & When"], "ui": {"keyChangesLabel": "Key Changes", "knownForLabel": "Known For", "mainEnginesLabel": "Main Engines", "popularModelsLabel": "Popular Models", "engineCodesLabel": "Engine Codes Covered", "enquiriesLabel": "Common Replacement Enquiries"}, "summaryCta": {"label": "Year Finder", "title": "Not sure which year your Nissan Livina was built-", "buttonText": "Find My Engine"}}, "faq": {"tag": "FAQ", "h2": "Nissan Livina Engine Replacement - Frequently Asked Questions", "intro": "", "items": [{"question": "How much does a Nissan Livina engine replacement cost in the UK for grey imports-", "answer": "Typical rebuilt engine prices for UK-imported Nissan Livina range from £750 for HR15DE petrol to £2,200 for K9K diesel, supply-only. Supply & fit adds £400-£800 labour depending on location and engine complexity.", "keyPoints": ["HR15DE 1.5L petrol rebuilt: £750-£1,450 supply only", "HR16DE 1.6L petrol rebuilt: £850-£1,750 supply only", "K9K 1.5L diesel rebuilt: £850-£2,200 supply only", "Supply & fit labour typically adds £400-£800 nationwide"], "cta": "Compare Nissan Livina engine replacement prices from UK specialists"}, {"question": "What engine codes are compatible with my imported Nissan Livina in the UK-", "answer": "UK-imported Livina models use HR15DE (1.5L petrol), HR16DE/HR16DET (1.6L petrol), or K9K792/796/798 (1.5L diesel). Enter your registration above to verify your exact engine code via DVLA.", "keyPoints": ["HR15DE fitted to early S/SV petrol models (2006-2013)", "HR16DE dominant on XV/Highway Star petrol (2006-2013)", "K9K series powers all 1.5 dCi diesel variants", "Turbo HR16DET found on select Highway Star/Autech trims"], "cta": "Verify your Nissan Livina engine code instantly via registration"}, {"question": "How long does it take to replace a Nissan Livina engine in the UK for grey imports-", "answer": "Typical replacement time is 1-2 days for supply & fit at a specialist garage, plus 3-5 days lead time for rebuilt engine delivery. Emergency next-day dispatch available for urgent breakdowns.", "keyPoints": ["Rebuilt engine lead time: 3-5 working days typical", "Specialist fitting labour: 1-2 days depending on garage workload", "ECU adaptation and MoT pre-check add half-day", "Nationwide mobile fitting available for fleet operators"], "cta": "Find Nissan Livina engine supply & fit specialists near you"}, {"question": "Does a replacement Nissan Livina engine come with a warranty for UK grey imports-", "answer": "Yes - every rebuilt, reconditioned or remanufactured Livina engine supplied through EngineMarket includes a minimum 12-month unlimited mileage warranty from UK specialists, with 24-month upgrades available.", "keyPoints": ["Minimum 12-month unlimited mileage warranty standard", "Warranty covers parts and labour at any UK garage", "24-month upgrade available for premium rebuilds", "DVLA-compliant documentation included for UK registration"], "cta": "Compare Nissan Livina engine warranty terms from UK suppliers"}, {"question": "Can I fit a Nissan Livina engine myself or do I need an import specialist in the UK-", "answer": "While mechanically confident owners can attempt DIY fitting, grey import Livina models often require specialist knowledge for ECU adaptation, emissions compliance and DVLA documentation - we recommend certified import specialists.", "keyPoints": ["Basic mechanical skills sufficient for physical engine swap", "ECU pinout verification critical for JDM/ASEAN-spec wiring", "MoT emissions pre-check requires specialist diagnostic tools", "DVLA engine change notification support included with specialist fitting"], "cta": "Find certified Nissan Livina import fitting specialists UK-wide"}, {"question": "Will a replacement engine affect my imported Nissan Livina insurance in the UK-", "answer": "Yes - you must declare any engine replacement to your insurer. Most providers accept rebuilt engines with warranty documentation, but premiums may adjust based on engine specification and value.", "keyPoints": ["Declare engine change to insurer within policy terms", "Provide rebuilt engine warranty certificate as proof of quality", "Premiums may increase for turbo or performance-spec replacements", "Keep DVLA V5C updated with new engine number for compliance"], "cta": "Get quotes for Nissan Livina engine replacement with insurance documentation"}, {"question": "How do I know if my imported Nissan Livina needs a full engine replacement or just a repair in the UK-", "answer": "If diagnostics confirm catastrophic failure (low compression, bearing knock, seized components) or repair costs exceed 60% of a rebuilt engine price, replacement offers better long-term value for grey import Livina owners.", "keyPoints": ["Compression/leak-down test identifies internal damage severity", "Repair viable for isolated issues like tensioner or injector pump", "Replacement recommended for multiple failures or high-mileage blocks", "Rebuilt units include upgrades addressing original failure points"], "cta": "Compare repair vs replacement costs for your Nissan Livina engine"}, {"question": "Are used Nissan Livina engines reliable for UK grey imports-", "answer": "Used Livina engines from verified breakers can be reliable if mileage is under 80k miles and compression tests are provided, but rebuilt units with warranty offer better peace of mind for UK MoT compliance.", "keyPoints": ["Request compression test results before purchasing used unit", "Verify engine code matches your chassis via DVLA lookup", "Budget for ancillary replacement (mounts, belts, seals) during install", "Rebuilt engines include warranty and emissions certification"], "cta": "Check used Nissan Livina engine availability with compression reports"}, {"question": "What is the difference between reconditioned, rebuilt, and remanufactured Nissan Livina engines for UK imports-", "answer": "Reconditioned = cleaned with worn parts replaced; Rebuilt = comprehensive overhaul with failure-point upgrades; Remanufactured = factory-spec zero-hour rebuild with all components renewed.", "keyPoints": ["Reconditioned: budget option, 3-5 day turnaround, basic warranty", "Rebuilt: best value, upgraded components, 12-month warranty standard", "Remanufactured: premium choice, OEM tolerances, 24-month option", "All include bench testing; request dyno report for confidence"], "cta": "Compare Nissan Livina engine quality tiers and pricing UK"}, {"question": "How do I prepare my imported Nissan Livina for engine replacement in the UK-", "answer": "Before replacement, verify your engine code via registration, obtain quotes from multiple specialists, confirm DVLA documentation requirements, and arrange transport if using a non-local garage.", "keyPoints": ["Use registration lookup to confirm exact engine code and variant", "Get 3+ quotes to compare price, warranty and turnaround time", "Confirm supplier provides MoT emissions certification documentation", "Arrange vehicle transport if specialist garage is not local"], "cta": "Get free Nissan Livina engine quotes from vetted UK specialists"}], "headingLines": ["Nissan Livina Engine Replacement", "Frequently Asked Questions"], "defaultOpenIndex": 0, "ui": {"questionLabelPrefix": "Question", "keyPointsLabel": "Key points", "warningTitle": "Check fitment and engine condition before ordering"}}, "trustCta": {"tag": "Why Choose Us", "h2": "Why UK Nissan Livina Owners Trust EngineMarket", "intro": "Join thousands of UK drivers who compare Nissan Livina engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.", "points": [{"title": "Trusted Nissan Livina Engine Suppliers", "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Livina owners."}, {"title": "Compare Nissan Livina Engine Replacement Companies", "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."}, {"title": "UK Engine Replacement Services for Nissan Livina", "description": "Covering every variant from budget S to premium Highway Star, with supply-only or full supply & fit available nationwide."}], "finalText": "Find the best Nissan Livina engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.", "buttonText": "Compare Nissan Livina Engine Prices Now →", "secondaryAction": {"text": "Call Our Experts", "href": "tel:03330000044"}, "imageAlt": "Nissan Livina vehicle", "ui": {"pointLabel": "Included", "stripLabel": "Trusted UK Engine Marketplace", "stripTitle": "Compare Nissan Livina engine prices with vetted UK specialists", "trustBullets": ["100% Free", "No Obligation", "Fast & secure process", "UK-based support"], "imageBadgeLabel": "Trusted supplier network", "imageBadgeTitle": "Warranty-backed rebuilt & used options", "imageBadgeText": "Every quote checked for fitment, quality and lead time."}}}}
+{
+  "brand": {
+    "name": "Nissan",
+    "slug": "nissan",
+    "tone": "premium"
+  },
+  "model": {
+    "name": "Nissan Livina",
+    "slug": "livina",
+    "legacySlug": "nissan-livina"
+  },
+  "seo": {
+    "title": "Nissan Livina Engine Replacement - Compare Prices UK",
+    "description": "Nissan Livina engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £750. 12-month warranty & UK supply fit specialists.",
+    "canonical": "/nissan/livina"
+  },
+  "assets": {
+    "mainImage": "/images/brands/nissan/models/nissan-livina-model-card.png",
+    "smallImage": "/images/brands/nissan/models/nissan-livina-model-card.png",
+    "heroBg": "/images/brands/nissan/models/nissan-livina-model-card.png",
+    "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp",
+    "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp",
+    "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp",
+    "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp",
+    "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp",
+    "ctaImage": "/images/brands/nissan/models/nissan-livina-model-card.png"
+  },
+  "sections": {
+    "hero": {
+      "tag": "NISSAN ENGINE MARKETPLACE",
+      "h1": "Nissan Livina Engine Replacement - Compare Prices & Save",
+      "subheading": "Get quotes today from trusted UK Nissan Livina engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available nationwide.",
+      "trustBadges": [
+        "Supply & Fit Available",
+        "12-Month Warranty",
+        "Nationwide Delivery",
+        "100+ Suppliers"
+      ],
+      "ctaLinkText": "Get Free Nissan Livina Engine Quotes →",
+      "supportingText": "Get tailored Nissan Livina engine quotes from vetted UK specialists.",
+      "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network",
+      "form": {
+        "heading": "Find Your Nissan Livina Engine",
+        "subtitle": "Enter your registration number to compare Nissan Livina engine options.",
+        "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)",
+        "buttonText": "Get Free Nissan Livina Engine Quotes →",
+        "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Nissan Livina specialists."
+      },
+      "imageAlt": "Nissan Livina engine replacement UK - compare reconditioned and rebuilt engine prices",
+      "highlights": [
+        {
+          "title": "Livina Diesel Engines",
+          "price": "from £850 to £2,100",
+          "line1": "Livina Diesel Engines - from £850 to £2,100",
+          "line2": "-> Rebuilt units from £850 · Common codes: K9K792, K9K796, K9K798",
+          "detail": "-> Rebuilt units from £850 · Common codes: K9K792, K9K796, K9K798",
+          "image": "",
+          "imageAlt": "Nissan Livina diesel engine replacement - K9K792 K9K796 rebuilt reconditioned UK"
+        },
+        {
+          "title": "Livina Petrol Engines",
+          "price": "from £750 to £1,950",
+          "line1": "Livina Petrol Engines - from £750 to £1,950",
+          "line2": "-> Rebuilt units from £750 · Common codes: HR15DE, HR16DE, HR16DET",
+          "detail": "-> Rebuilt units from £750 · Common codes: HR15DE, HR16DE, HR16DET",
+          "image": "",
+          "imageAlt": "Nissan Livina petrol engine replacement - HR15DE HR16DE rebuilt reconditioned UK"
+        },
+        {
+          "title": "Livina Performance Engines",
+          "price": "from £1,400 to £3,200",
+          "line1": "Livina Performance Engines - from £1,400 to £3,200",
+          "line2": "-> Rebuilt units from £1,400 · Common codes: HR16DET, HR16DE (Highway Star)",
+          "detail": "-> Rebuilt units from £1,400 · Common codes: HR16DET, HR16DE (Highway Star)",
+          "image": "",
+          "imageAlt": "Nissan Livina HR16DET performance engine replacement - rebuilt reconditioned UK specialist"
+        }
+      ],
+      "headingLines": [
+        "Nissan Livina Engine Replacement",
+        "Compare Prices & Save"
+      ],
+      "mobileBar": {
+        "brandText": "ENGINEMARKET",
+        "callLabel": "Call",
+        "quoteLabel": "GET QUOTES"
+      },
+      "registrationInput": {
+        "label": "Enter your vehicle registration",
+        "platePlaceholder": "AB12 CDE",
+        "countryCode": "UK",
+        "countryLabel": "United Kingdom"
+      }
+    },
+    "howItWorks": {
+      "tag": "How It Works",
+      "h2": "3 Simple Steps to Finding the Best Nissan Livina Replacement Engine",
+      "cards": [
+        {
+          "number": 1,
+          "icon": "registration",
+          "front": {
+            "h3": "Enter Your Nissan Livina Registration",
+            "text": "Instantly verify your exact model, engine code and fuel type via DVLA - S to Highway Star."
+          },
+          "back": {
+            "heading": "Your Car, Precisely Identified",
+            "text": "Engines Market uses the official DVLA database to pull accurate details about your Livina, not just model name.",
+            "bullets": [
+              "Your Precise Model - from S, SV, XV to Highway Star, Autech",
+              "Your Engine Code - HR15DE, HR16DE, K9K and more",
+              "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly",
+              "No paperwork, no guesswork, 100% free."
+            ]
+          }
+        },
+        {
+          "number": 2,
+          "icon": "quote",
+          "front": {
+            "h3": "Get Quotes from Nissan Engine Specialists",
+            "text": "Same-day quotes from vetted UK suppliers - full breakdown, no obligation."
+          },
+          "back": {
+            "heading": "Quotes You Can Trust",
+            "text": "Your verified details are securely shared with up to 10 of our most relevant UK suppliers, matched to your variant and location.",
+            "bullets": [
+              "Vetted UK Suppliers - specialists who understand Nissan diesel and petrol engines",
+              "Same-Day Quotes - usually within hours, not days",
+              "Supply & Fit Service - or supply-only to your own garage",
+              "Full Breakdown - price, warranty length, delivery estimate and fitting cost all shown clearly",
+              "No hidden fees. No sales calls unless you approve."
+            ]
+          }
+        },
+        {
+          "number": 3,
+          "icon": "shield",
+          "front": {
+            "h3": "Choose the Best Deal & Save",
+            "text": "Compare supplier reviews, warranty and price - then pick the right one for you."
+          },
+          "back": {
+            "heading": "Your Choice, Your Control",
+            "text": "You decide which specialist to go with. We simply make the search fast, safe and transparent.",
+            "bullets": [
+              "Online Reviews - read real customer feedback",
+              "Warranty Length - minimum 12 months, often 24 months on rebuilt units",
+              "Terms of Service - including collection, fitting and aftercare",
+              "Technical Expertise - see each supplier's Nissan experience",
+              "You deal directly with your chosen provider. No pressure, no commitment until you're ready."
+            ]
+          }
+        }
+      ],
+      "tagline": "",
+      "headingLines": [
+        "3 Simple Steps",
+        "to Finding the Best Nissan Livina Replacement Engine"
+      ],
+      "ui": {
+        "stepLabel": "Step",
+        "desktopClosedLabel": "Click to expand",
+        "desktopOpenLabel": "Click to view details",
+        "mobileOpenLabel": "Tap to flip",
+        "mobileCloseLabel": "Tap to flip back",
+        "footerNote": "Most replacements completed within 3-5 days.",
+        "mobileTrustItems": [
+          "12-Month Warranty",
+          "Supply & Fit Available",
+          "Nationwide Delivery",
+          "Trusted UK Suppliers"
+        ]
+      }
+    },
+    "liveMarketPrices": {
+      "tag": "Live UK Engine Market Data",
+      "h2": "What Are UK Drivers Paying for Nissan Livina Engine Replacement-",
+      "h3": "The table below shows typical UK rebuilt engine costs across Nissan Livina variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.",
+      "introBullets": [
+        {
+          "label": "Live market context",
+          "text": "See realistic rebuilt-engine quote ranges across documented Nissan Livina variants."
+        },
+        {
+          "label": "Variant specific",
+          "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."
+        },
+        {
+          "label": "Specialist pricing",
+          "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."
+        },
+        {
+          "label": "Quote benchmark",
+          "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."
+        }
+      ],
+      "cta": {
+        "heading": "Benchmark your own Nissan Livina quote",
+        "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Livina engine code.",
+        "buttonText": "Compare My Nissan Livina Engine",
+        "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."
+      },
+      "badges": [
+        "6 recent enquiries visible",
+        "Typical rebuilt market ranges",
+        "Engine-code matched rows",
+        "UK specialist network"
+      ],
+      "feed": {
+        "isDynamic": false,
+        "rowsCount": 6,
+        "columns": [
+          "Year",
+          "Model",
+          "Engine Code",
+          "Fuel",
+          "Avg. Quoted Price",
+          "Reported Issue"
+        ],
+        "timestampLabel": "Last Updated",
+        "refreshLabel": "Refresh feed",
+        "density": "premium",
+        "visibleRows": 6,
+        "entries": [
+          {
+            "Year": "2006-2009",
+            "Model": "Nissan Livina (L10) 1.5L Petrol",
+            "Engine Code": "HR15DE",
+            "Fuel": "Petrol 1.5L",
+            "Avg. Quoted Price": "£750-£1,450",
+            "Reported Issue": "Timing chain tensioner wear"
+          },
+          {
+            "Year": "2006-2013",
+            "Model": "Nissan Livina (L10) 1.6L Petrol",
+            "Engine Code": "HR16DE",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£850-£1,650",
+            "Reported Issue": "Oil pump chain stretch"
+          },
+          {
+            "Year": "2006-2013",
+            "Model": "Nissan Livina (L10) 1.5L Diesel",
+            "Engine Code": "K9K792",
+            "Fuel": "Diesel 1.5L",
+            "Avg. Quoted Price": "£850-£2,100",
+            "Reported Issue": "Injector pump failure"
+          },
+          {
+            "Year": "2010-2013",
+            "Model": "Nissan Livina (L10 Facelift) 1.6L Petrol",
+            "Engine Code": "HR16DE",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£900-£1,750",
+            "Reported Issue": "EGR cooler clogging"
+          },
+          {
+            "Year": "2008-2012",
+            "Model": "Nissan Livina (L10) 1.5L Diesel Fleet",
+            "Engine Code": "K9K796",
+            "Fuel": "Diesel 1.5L",
+            "Avg. Quoted Price": "£950-£2,200",
+            "Reported Issue": "DPF regeneration failure"
+          },
+          {
+            "Year": "2010-2013",
+            "Model": "Nissan Livina (L10) 1.6L Turbo Petrol",
+            "Engine Code": "HR16DET",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£1,400-£3,200",
+            "Reported Issue": "Turbo oil seal leak"
+          }
+        ]
+      },
+      "headingLines": [
+        "What Are UK Drivers Paying for Nissan Livina Engine Replacement-"
+      ],
+      "imageAlt": "Nissan Livina replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000",
+      "filterTabs": [
+        {
+          "key": "all",
+          "label": "All",
+          "matchers": []
+        },
+        {
+          "key": "nissan-livina-s-engine",
+          "label": "Nissan Livina S",
+          "matchers": [
+            "nissan livina s",
+            "nissan livina s engine"
+          ]
+        },
+        {
+          "key": "nissan-livina-sv-engine",
+          "label": "Nissan Livina SV",
+          "matchers": [
+            "nissan livina sv",
+            "nissan livina sv engine"
+          ]
+        },
+        {
+          "key": "nissan-livina-xv-engine",
+          "label": "Nissan Livina XV",
+          "matchers": [
+            "nissan livina xv",
+            "nissan livina xv engine"
+          ]
+        },
+        {
+          "key": "nissan-livina-1-5-dci-engine",
+          "label": "Nissan Livina 1.5 dCi",
+          "matchers": [
+            "nissan livina 1.5 dci",
+            "nissan livina 1 5 dci engine"
+          ]
+        },
+        {
+          "key": "nissan-livina-1-5-dci-sv-engine",
+          "label": "Nissan Livina 1.5 dCi SV",
+          "matchers": [
+            "nissan livina 1.5 dci sv",
+            "nissan livina 1 5 dci sv engine"
+          ]
+        },
+        {
+          "key": "nissan-livina-highway-star-engine",
+          "label": "Nissan Livina Highway Star",
+          "matchers": [
+            "nissan livina highway star",
+            "nissan livina highway star engine"
+          ]
+        },
+        {
+          "key": "nissan-livina-autech-engine",
+          "label": "Nissan Livina Autech",
+          "matchers": [
+            "nissan livina autech",
+            "nissan livina autech engine"
+          ]
+        },
+        {
+          "key": "nissan-livina-1-6l-turbo-engine",
+          "label": "Nissan Livina 1.6L Turbo",
+          "matchers": [
+            "nissan livina 1.6l turbo",
+            "nissan livina 1 6l turbo engine"
+          ]
+        }
+      ],
+      "ui": {
+        "showingSingleLabel": "entry",
+        "showingPluralLabel": "entries",
+        "acrossAllLabel": "across all models",
+        "noEntriesLabel": "No entries match that model filter yet.",
+        "updatedLabel": "Last updated:",
+        "ctaLabel": "Live Quote Benchmark"
+      },
+      "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"
+    },
+    "reviews": {
+      "tag": "Customer Reviews",
+      "h2": "Trusted by Nissan Livina Owners Across the UK",
+      "rating": {
+        "value": 4.8,
+        "count": 0,
+        "summary": "",
+        "basedOn": ""
+      },
+      "reviews": [],
+      "leaveReviewCta": {
+        "text": "",
+        "linkText": "Leave a review ->"
+      }
+    },
+    "variantCoverage": {
+      "tag": "Models We Cover",
+      "h2": "Nissan Livina Engine Replacement - All Variants Covered",
+      "subheading": "From the economical S to the premium Highway Star and Autech trims, our network of UK Nissan Livina engine specialists lets you compare rebuilt, reconditioned and used engine prices, with typical price range for a rebuilt unit with 12-month warranty - supply & fit available nationwide.",
+      "groups": [
+        {
+          "title": "Core Petrol Range",
+          "cardSlugs": [
+            "nissan-livina-s-engine",
+            "nissan-livina-sv-engine",
+            "nissan-livina-xv-engine"
+          ]
+        },
+        {
+          "title": "Core Diesel Range",
+          "cardSlugs": [
+            "nissan-livina-1-5-dci-engine",
+            "nissan-livina-1-5-dci-sv-engine"
+          ]
+        },
+        {
+          "title": "Premium & Specialist Range",
+          "cardSlugs": [
+            "nissan-livina-highway-star-engine",
+            "nissan-livina-autech-engine",
+            "nissan-livina-1-6l-turbo-engine"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "h3": "Nissan Livina S Engine Replacement",
+          "slug": "nissan-livina-s-engine",
+          "subtitle": "HR15DE 1.5L Petrol ? 109hp ? 2006-2013",
+          "priceRange": "£750-£1,450",
+          "cta": "Compare S Engine Prices",
+          "engineCodes": [
+            "HR15DE"
+          ],
+          "fuel": "Petrol",
+          "power": "109hp",
+          "years": "2006-2013",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Livina SV Engine Replacement",
+          "slug": "nissan-livina-sv-engine",
+          "subtitle": "HR15DE/HR16DE 1.5L-1.6L Petrol ? 109-112hp ? 2006-2013",
+          "priceRange": "£800-£1,650",
+          "cta": "Compare SV Engine Prices",
+          "engineCodes": [
+            "HR15DE",
+            "HR16DE 1.5L-"
+          ],
+          "fuel": "Petrol",
+          "power": "109-112hp",
+          "years": "2006-2013",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Livina XV Engine Replacement",
+          "slug": "nissan-livina-xv-engine",
+          "subtitle": "HR16DE 1.6L Petrol ? 112hp ? 2006-2013",
+          "priceRange": "£850-£1,750",
+          "cta": "Compare XV Engine Prices",
+          "engineCodes": [
+            "HR16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "112hp",
+          "years": "2006-2013",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Livina 1.5 dCi Engine Replacement",
+          "slug": "nissan-livina-1-5-dci-engine",
+          "subtitle": "K9K792 1.5L Diesel ? 106hp ? 2006-2013",
+          "priceRange": "£850-£2,100",
+          "cta": "Compare 1.5 dCi Engine Prices",
+          "engineCodes": [
+            "K9K792"
+          ],
+          "fuel": "Diesel",
+          "power": "106hp",
+          "years": "2006-2013",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Livina 1.5 dCi SV Engine Replacement",
+          "slug": "nissan-livina-1-5-dci-sv-engine",
+          "subtitle": "K9K796 1.5L Diesel ? 106hp ? 2008-2012",
+          "priceRange": "£950-£2,200",
+          "cta": "Compare 1.5 dCi SV Engine Prices",
+          "engineCodes": [
+            "K9K796"
+          ],
+          "fuel": "Diesel",
+          "power": "106hp",
+          "years": "2008-2012",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Livina Highway Star Engine Replacement",
+          "slug": "nissan-livina-highway-star-engine",
+          "subtitle": "HR16DE 1.6L Petrol ? 112hp ? 2010-2013",
+          "priceRange": "£900-£1,950",
+          "cta": "Compare Highway Star Engine Prices",
+          "engineCodes": [
+            "HR16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "112hp",
+          "years": "2010-2013",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Livina Autech Engine Replacement",
+          "slug": "nissan-livina-autech-engine",
+          "subtitle": "HR16DE 1.6L Petrol ? 112hp ? 2010-2013",
+          "priceRange": "£950-£2,100",
+          "cta": "Compare Autech Engine Prices",
+          "engineCodes": [
+            "HR16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "112hp",
+          "years": "2010-2013",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Livina 1.6L Turbo Engine Replacement",
+          "slug": "nissan-livina-1-6l-turbo-engine",
+          "subtitle": "HR16DET 1.6L Turbo Petrol · ~130hp · 2010-2013 · Rebuilt: £1,400-£3,200",
+          "priceRange": "£1,400-£3,200",
+          "cta": "Compare 1.6L Turbo Engine Prices",
+          "engineCodes": [
+            "HR16DET"
+          ],
+          "fuel": "Petrol",
+          "power": "130hp",
+          "years": "2010-2013",
+          "image": ""
+        }
+      ],
+      "directory": {
+        "h3": "All Nissan Livina Variants - Engine Replacement Coverage",
+        "intro": "A full alphabetical listing of every Nissan Livina trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.",
+        "groups": [
+          {
+            "title": "Petrol Variants",
+            "items": [
+              "S",
+              "SV",
+              "XV",
+              "Highway Star",
+              "Autech",
+              "Ultimate Edition"
+            ]
+          },
+          {
+            "title": "Diesel Variants",
+            "items": [
+              "1.5 dCi S",
+              "1.5 dCi SV",
+              "1.5 dCi XV",
+              "1.5 dCi Highway Star"
+            ]
+          }
+        ],
+        "label": "Variant Directory"
+      },
+      "closing": "Not sure which variant your Nissan Livina is- Enter your registration number above - we'll identify the exact sub-model, engine code and compatible replacement options instantly.",
+      "engineGuide": {
+        "tag": "Engine Codes",
+        "h2": "Nissan Livina Engine Codes - Full Technical Specifications & Replacement Guide",
+        "h3": "Every engine code fitted to the Nissan Livina across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+        "families": [
+          {
+            "name": "Petrol Engines",
+            "entries": [
+              {
+                "code": "HR15DE",
+                "title": "1.5L Petrol",
+                "familyHeading": "HR Series Petrol Engines (2006-2013)",
+                "history": "Entry-level petrol unit for early Livina models, widely used across ASEAN-spec imports to the UK market.",
+                "fuel": "Petrol",
+                "size": "1.5 Litre",
+                "power": "109-112 hp",
+                "years": "2006-2013",
+                "compatibleVariants": [
+                  "S, SV, XV, 1.5L base trim"
+                ],
+                "commonFailures": [
+                  "Timing chain tensioner wear (60k-90k miles)",
+                  "Oil consumption due to piston ring wear",
+                  "EGR valve clogging on high-mileage imports"
+                ],
+                "avgRebuiltPrice": "£750 - £1,450",
+                "cta": "Get quotes for HR15DE Nissan Livina engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "HR16DE",
+                "title": "1.6L Petrol",
+                "familyHeading": "HR Series Petrol Engines (2006-2013)",
+                "history": "The dominant petrol engine for UK-imported Livina, offering improved refinement and fuel economy over the 1.5L unit.",
+                "fuel": "Petrol",
+                "size": "1.6 Litre",
+                "power": "112-115 hp",
+                "years": "2006-2013",
+                "compatibleVariants": [
+                  "SV, XV, Highway Star, Autech, Ultimate Edition"
+                ],
+                "commonFailures": [
+                  "Oil pump chain stretch causing low oil pressure",
+                  "EGR cooler clogging leading to MoT emissions failure",
+                  "Head gasket failure on overheated high-mileage units"
+                ],
+                "avgRebuiltPrice": "£850 - £1,750",
+                "cta": "Get quotes for HR16DE Nissan Livina engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "HR16DET",
+                "title": "1.6L Turbo Petrol",
+                "familyHeading": "HR Series Petrol Engines (2006-2013)",
+                "history": "Performance-oriented variant fitted to select Highway Star and Autech trims, offering enhanced power for grey import enthusiasts.",
+                "fuel": "Petrol (Turbo)",
+                "size": "1.6 Litre",
+                "power": "~130 hp",
+                "years": "2010-2013",
+                "compatibleVariants": [
+                  "Highway Star Turbo, Autech Sport"
+                ],
+                "commonFailures": [
+                  "Turbocharger oil seal failure",
+                  "Intercooler piping degradation on tropical-spec imports",
+                  "Boost pressure sensor faults"
+                ],
+                "avgRebuiltPrice": "£1,400 - £3,200",
+                "cta": "Get quotes for HR16DET Nissan Livina engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              }
+            ]
+          },
+          {
+            "name": "Diesel Engines",
+            "entries": [
+              {
+                "code": "K9K792",
+                "title": "1.5L Diesel",
+                "familyHeading": "K9K Diesel Engines (2006-2013)",
+                "history": "Renault-sourced dCi diesel engine widely used in Livina for fleet and private import use, known for economy but requiring careful maintenance.",
+                "fuel": "Diesel",
+                "size": "1.5 Litre",
+                "power": "106 hp",
+                "years": "2006-2013",
+                "compatibleVariants": [
+                  "1.5 dCi S, 1.5 dCi SV, 1.5 dCi XV"
+                ],
+                "commonFailures": [
+                  "Injector pump calibration failure causing black smoke",
+                  "DPF clogging on short-journey UK usage",
+                  "Timing belt failure if not replaced at 60k miles"
+                ],
+                "avgRebuiltPrice": "£850 - £2,100",
+                "cta": "Get quotes for K9K792 Nissan Livina engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+              },
+              {
+                "code": "K9K796",
+                "title": "1.5L Diesel (Euro 4)",
+                "familyHeading": "K9K Diesel Engines (2006-2013)",
+                "history": "Updated Euro 4-compliant variant of the K9K with revised EGR and injection mapping for later Livina imports.",
+                "fuel": "Diesel",
+                "size": "1.5 Litre",
+                "power": "106 hp",
+                "years": "2008-2013",
+                "compatibleVariants": [
+                  "1.5 dCi SV, 1.5 dCi XV, 1.5 dCi Highway Star"
+                ],
+                "commonFailures": [
+                  "EGR valve sticking causing rough idle",
+                  "Turbo actuator failure on high-mileage units",
+                  "Injector seal leaks leading to fuel dilution"
+                ],
+                "avgRebuiltPrice": "£950 - £2,200",
+                "cta": "Get quotes for K9K796 Nissan Livina engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+              }
+            ]
+          }
+        ],
+        "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Livina engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."
+      },
+      "headingLines": [
+        "Nissan Livina Engine Replacement",
+        "All Variants Covered"
+      ],
+      "ui": {
+        "fromPriceLabel": "from price",
+        "specsLabel": "Specs",
+        "rebuiltLabel": "Rebuilt",
+        "yearsLabel": "Years",
+        "yearsFallback": "Check exact year coverage by registration"
+      }
+    },
+    "engineCodes": {
+      "tag": "Engine Codes",
+      "h2": "Nissan Livina Engine Codes - Full Technical Specifications & Replacement Guide",
+      "h3": "Every engine code fitted to the Nissan Livina across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+      "closingLine": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Livina engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.",
+      "filters": [
+        "Petrol Engines",
+        "Diesel Engines"
+      ],
+      "groups": [
+        {
+          "name": "Petrol Engines",
+          "era": "Extracted from detailed petrol and performance engine families across Nissan Livina variants.",
+          "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.",
+          "engines": [
+            {
+              "code": "HR15DE",
+              "title": "1.5L Petrol",
+              "familyHeading": "HR Series Petrol Engines (2006-2013)",
+              "fuel": "Petrol",
+              "size": "1.5L",
+              "power": "109-112 hp",
+              "compatibleModels": "S, SV, XV, 1.5L base trim",
+              "avgRebuiltPrice": "£750 - £1,450",
+              "cta": "Get quotes for HR15DE Nissan Livina engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "HR16DE",
+              "title": "1.6L Petrol",
+              "familyHeading": "HR Series Petrol Engines (2006-2013)",
+              "fuel": "Petrol",
+              "size": "1.6L",
+              "power": "112-115 hp",
+              "compatibleModels": "SV, XV, Highway Star, Autech, Ultimate Edition",
+              "avgRebuiltPrice": "£850 - £1,750",
+              "cta": "Get quotes for HR16DE Nissan Livina engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "HR16DET",
+              "title": "1.6L Turbo Petrol",
+              "familyHeading": "HR Series Petrol Engines (2006-2013)",
+              "fuel": "Petrol (Turbo)",
+              "size": "1.6L",
+              "power": "~130 hp",
+              "compatibleModels": "Highway Star Turbo, Autech Sport",
+              "avgRebuiltPrice": "£1,400 - £3,200",
+              "cta": "Get quotes for HR16DET Nissan Livina engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            }
+          ]
+        },
+        {
+          "name": "Diesel Engines",
+          "era": "Extracted from detailed diesel engine families across Nissan Livina variants.",
+          "failureNote": "Main replacement triggers are timing chain wear, EGR / cooling faults and turbo-control issues.",
+          "engines": [
+            {
+              "code": "K9K792",
+              "title": "1.5L Diesel",
+              "familyHeading": "K9K Diesel Engines (2006-2013)",
+              "fuel": "Diesel",
+              "size": "1.5L",
+              "power": "106 hp",
+              "compatibleModels": "1.5 dCi S, 1.5 dCi SV, 1.5 dCi XV",
+              "avgRebuiltPrice": "£850 - £2,100",
+              "cta": "Get quotes for K9K792 Nissan Livina engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+            },
+            {
+              "code": "K9K796",
+              "title": "1.5L Diesel (Euro 4)",
+              "familyHeading": "K9K Diesel Engines (2006-2013)",
+              "fuel": "Diesel",
+              "size": "1.5L",
+              "power": "106 hp",
+              "compatibleModels": "1.5 dCi SV, 1.5 dCi XV, 1.5 dCi Highway Star",
+              "avgRebuiltPrice": "£950 - £2,200",
+              "cta": "Get quotes for K9K796 Nissan Livina engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+            }
+          ]
+        }
+      ],
+      "headingLines": [
+        "Nissan Livina Engine Codes",
+        "Full Technical Specifications & Replacement Guide"
+      ],
+      "closingAction": {
+        "title": "Can't find your engine code-",
+        "buttonText": "Enter Your Reg"
+      },
+      "ui": {
+        "summaryPriceLabel": "Avg. rebuilt price",
+        "exampleImageLabel": "Example engine visual",
+        "historyLabel": "Engine History",
+        "variantsLabel": "Compatible Nissan Livina variants",
+        "specsTitle": "Technical Specifications",
+        "fuelLabel": "Fuel type",
+        "sizeLabel": "Engine size",
+        "powerLabel": "Power output",
+        "yearsLabel": "Years fitted",
+        "failuresTitle": "Common Failures",
+        "supplyLabel": "Supply only"
+      }
+    },
+    "commonProblems": {
+      "tag": "Common Problems",
+      "h2": "Nissan Livina Engine Problems - What It Costs to Fix & When Replacement Makes Sense",
+      "h3": "The Nissan Livina's HR15DE, HR16DE petrol and K9K diesel engines are generally robust but known for specific failure points on high-mileage grey imports. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty. Use this decision tool to compare repair vs replacement costs.",
+      "problems": [
+        {
+          "group": "Nissan Livina HR15DE Timing Chain Failure",
+          "h4": "Nissan Livina HR15DE Timing Chain Failure - Why Early Petrol Engines Fail",
+          "affectedModels": "Nissan Livina S, SV, XV (2006-2013, HR15DE)",
+          "typicalFailureMileage": "60,000-90,000 miles",
+          "rootCause": "Factory timing chain tensioner design allows slack to develop, causing rattling noise and potential valve timing disruption on high-mileage imports.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Preventative Tensioner Replacement",
+              "dealerPrice": "£450 - £750",
+              "specialistPrice": "£320 - £550",
+              "whatItInvolves": "Replace tensioner and guide rails, reset timing",
+              "longevity": "Viable only if caught before chain stretch; 20k-40k mile extension"
+            },
+            {
+              "tier": "Intermediate - Full Timing Kit Replacement",
+              "dealerPrice": "£850 - £1,350",
+              "specialistPrice": "£600 - £950",
+              "whatItInvolves": "Replace chain, tensioner, guides, seals; labour-intensive",
+              "longevity": "Restores factory spec; suitable if block/head are sound"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt HR15DE Engine",
+              "dealerPrice": "£2,100 - £3,400",
+              "specialistPrice": "£750 - £1,450 (supply) + £400-£700 fit",
+              "whatItInvolves": "Supply & fit rebuilt unit with upgraded tensioner, bench-tested, 12-month warranty",
+              "longevity": "Best value for high-mileage or damaged engines; eliminates repeat failure risk"
+            }
+          ],
+          "recommendation": "If your Livina HR15DE is under 70k miles and only showing early rattling, a preventative tensioner replacement offers good value. For engines over 85k miles or with confirmed chain skip, a rebuilt unit with upgraded components is more cost-effective long-term.",
+          "cta": "Compare rebuilt HR15DE engine prices for your Nissan Livina"
+        },
+        {
+          "group": "Nissan Livina HR16DE Oil Pump Chain Wear",
+          "h4": "Nissan Livina HR16DE Oil Pump Chain Wear - Critical Lubrication Failure",
+          "affectedModels": "Nissan Livina SV, XV, Highway Star (2006-2013, HR16DE)",
+          "typicalFailureMileage": "75,000-110,000 miles",
+          "rootCause": "Oil pump drive chain stretches over time, reducing oil pressure and risking bearing damage; common on tropical-spec imports used in UK conditions.",
+          "repairOptions": [
+            {
+              "tier": "Intermediate - Oil Pump & Chain Replacement",
+              "dealerPrice": "£950 - £1,600",
+              "specialistPrice": "£680 - £1,100",
+              "whatItInvolves": "Remove sump, replace pump chain, tensioner, seals",
+              "longevity": "Restores oil pressure; viable if no bearing damage detected"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt HR16DE Engine",
+              "dealerPrice": "£2,400 - £3,800",
+              "specialistPrice": "£850 - £1,750 (supply) + £450-£750 fit",
+              "whatItInvolves": "Supply & fit rebuilt unit with reinforced oil pump chain, upgraded bearings, bench-tested",
+              "longevity": "Recommended if low oil pressure warning has appeared; prevents catastrophic failure"
+            }
+          ],
+          "recommendation": "Low oil pressure warnings on HR16DE engines should never be ignored. If diagnostics confirm pump chain wear, a rebuilt engine with the reinforced chain upgrade is the safest, most economical solution for UK-imported Livina.",
+          "cta": "Get quotes for HR16DE Nissan Livina engine replacement with oil pump upgrade"
+        },
+        {
+          "group": "Nissan Livina K9K Injector Pump Failure",
+          "h4": "Nissan Livina K9K Injector Pump Failure - Diesel Performance Loss",
+          "affectedModels": "Nissan Livina 1.5 dCi variants (2006-2013, K9K792/K9K796)",
+          "typicalFailureMileage": "80,000-120,000 miles",
+          "rootCause": "High-pressure injector pump calibration drifts on high-mileage diesel imports, causing black smoke, power loss and failed MoT emissions tests.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Injector Pump Calibration/Rebuild",
+              "dealerPrice": "£550 - £950",
+              "specialistPrice": "£380 - £650",
+              "whatItInvolves": "Remove pump, bench-test, recalibrate or replace internal components",
+              "longevity": "Suitable if injectors and turbo are healthy; may require repeat service"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt K9K Diesel Engine",
+              "dealerPrice": "£2,600 - £4,100",
+              "specialistPrice": "£850 - £2,200 (supply) + £450-£800 fit",
+              "whatItInvolves": "Supply & fit rebuilt unit with calibrated pump, new injectors, emissions-compliant rebuild",
+              "longevity": "Best for fleet operators or high-mileage imports; ensures MoT compliance and reliability"
+            }
+          ],
+          "recommendation": "For Livina diesel owners facing emissions failure or persistent black smoke, a rebuilt K9K engine with calibrated pump and new injectors offers better long-term value than repeated pump repairs, especially for UK MoT compliance.",
+          "cta": "Compare rebuilt K9K diesel engine prices for your Nissan Livina"
+        },
+        {
+          "group": "Nissan Livina HR16DE EGR Cooler Clogging",
+          "h4": "Nissan Livina HR16DE EGR Cooler Clogging - Emissions Compliance Issue",
+          "affectedModels": "Nissan Livina XV, Highway Star (2010-2013, HR16DE Euro 4/5)",
+          "typicalFailureMileage": "70,000-100,000 miles",
+          "rootCause": "EGR cooler accumulates carbon deposits on imported petrol engines used in stop-start UK driving, triggering fault codes and MoT emissions failure.",
+          "repairOptions": [
+            {
+              "tier": "Minor - EGR Cleaner/Blanking",
+              "dealerPrice": "£320 - £550",
+              "specialistPrice": "£220 - £380",
+              "whatItInvolves": "Remove and ultrasonically clean EGR cooler; optional blanking plate (check MoT legality)",
+              "longevity": "Temporary fix; may trigger check engine light; not MoT-compliant if blanked"
+            },
+            {
+              "tier": "Intermediate - EGR Cooler Replacement",
+              "dealerPrice": "£680 - £1,100",
+              "specialistPrice": "£480 - £750",
+              "whatItInvolves": "Replace cooler assembly with OEM-spec unit; reset ECU adaptations",
+              "longevity": "Restores emissions compliance; suitable if engine otherwise healthy"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt HR16DE with EGR Delete Option",
+              "dealerPrice": "£2,400 - £3,800",
+              "specialistPrice": "£850 - £1,750 (supply) + £450-£750 fit",
+              "whatItInvolves": "Supply & fit rebuilt unit; optional EGR delete kit (off-road use only); full emissions certification available",
+              "longevity": "Recommended for high-mileage imports where repeated EGR issues are likely"
+            }
+          ],
+          "recommendation": "If your Livina HR16DE has triggered an EGR fault code and failed emissions, replacing the cooler is the compliant route. For high-mileage imports, a rebuilt engine with optional EGR modification (for off-road use) may offer better long-term reliability.",
+          "cta": "Find HR16DE Nissan Livina engines with EGR compliance certification"
+        }
+      ],
+      "finalCta": {
+        "h4": "Don't Let Engine Failure Write Off Your Nissan Livina",
+        "paragraph": "From timing chain rattles to diesel injector failures, Nissan Livina engine problems are predictable and solvable. EngineMarket makes it simple to compare prices from trusted UK specialists who understand grey import MPVs. Every rebuilt engine includes upgraded components addressing the original failure point, bench testing, and a minimum 12-month unlimited mileage warranty. Get back on the road without the main dealer premium.",
+        "buttonText": "Compare Nissan Livina Engine Replacement Prices Now →",
+        "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket's UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Livina and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."
+      }
+    },
+    "engineTypes": {
+      "tag": "Replacement Engine Options",
+      "h2": "Nissan Livina Engine Types - Options, Costs & What to Expect",
+      "intro": "Every Nissan Livina engine type is available through our UK network with typical price ranges based on variant, engine code and budget.",
+      "types": [
+        {
+          "title": "Nissan Livina Reconditioned Engines (Recon)",
+          "description": "Professionally cleaned, inspected and repaired Livina engines with worn parts replaced; ideal for budget-conscious grey import owners.",
+          "frontDescription": "Professionally cleaned, inspected and repaired Livina engines with worn parts replaced; ideal for budget-conscious grey import owners.",
+          "frontDisclaimer": "Condition varies; request inspection report before purchase.",
+          "backDescription": "Reconditioned Livina engines undergo strip-down, cleaning and replacement of visibly worn components like seals, gaskets and belts.",
+          "backBullets": [
+            "Suitable for HR15DE/HR16DE/K9K codes on imports under 90k miles",
+            "Faster turnaround than full rebuilds; typically 3-5 working days",
+            "Includes basic compression test; request dyno report for confidence"
+          ],
+          "priceRange": "£750 - £1,650 (supply only)",
+          "cta": "Compare reconditioned Nissan Livina engine prices"
+        },
+        {
+          "title": "Nissan Livina Rebuilt Engines",
+          "description": "Comprehensive rebuild with upgraded components addressing known Livina failure points; best balance of cost and reliability for UK imports.",
+          "frontDescription": "Comprehensive rebuild with upgraded components addressing known Livina failure points; best balance of cost and reliability for UK imports.",
+          "frontDisclaimer": "Prices vary by engine code and upgrade specification.",
+          "backDescription": "Rebuilt Livina engines include new timing components, oil pump upgrades and emissions-compliant refurbishment for MoT peace of mind.",
+          "backBullets": [
+            "HR16DE units get reinforced oil pump chain per Nissan bulletin",
+            "K9K diesel rebuilds include calibrated injector pump and new seals",
+            "All units bench-tested with compression/leak-down report included"
+          ],
+          "priceRange": "£850 - £1,950 (supply only)",
+          "cta": "Get rebuilt Nissan Livina engine quotes"
+        },
+        {
+          "title": "Nissan Livina Used Engines",
+          "description": "Low-mileage donor engines from verified grey import breakers; fastest, most affordable option for Livina owners on a tight budget.",
+          "frontDescription": "Low-mileage donor engines from verified grey import breakers; fastest, most affordable option for Livina owners on a tight budget.",
+          "frontDisclaimer": "Mileage and history vary; request compression test results.",
+          "backDescription": "Used Livina engines sourced from ASEAN/Middle East imports offer genuine OEM parts at lowest cost, ideal for pre-purchase verification.",
+          "backBullets": [
+            "Request DVLA-compatible documentation for UK registration",
+            "Verify engine code matches your chassis (HR15DE/HR16DE/K9K)",
+            "Budget for ancillary replacement (mounts, belts) during installation"
+          ],
+          "priceRange": "£450 - £1,200 (supply only)",
+          "cta": "Check used Nissan Livina engine availability"
+        },
+        {
+          "title": "Nissan Livina Remanufactured Engines",
+          "description": "Factory-spec zero-hour rebuilds with all components renewed or upgraded; premium choice for enthusiasts keeping high-spec Livina imports.",
+          "frontDescription": "Factory-spec zero-hour rebuilds with all components renewed or upgraded; premium choice for enthusiasts keeping high-spec Livina imports.",
+          "frontDisclaimer": "Lead time 7-14 days; premium pricing reflects comprehensive renewal.",
+          "backDescription": "Remanufactured Livina engines are built to OEM tolerances with updated parts addressing original design weaknesses for long-term reliability.",
+          "backBullets": [
+            "HR16DET turbo units get balanced turbos and reinforced internals",
+            "Full emissions certification available for ULEZ/MoT compliance",
+            "Includes 24-month warranty option for maximum peace of mind"
+          ],
+          "priceRange": "£1,400 - £3,200 (supply only)",
+          "cta": "Compare remanufactured Nissan Livina engine costs"
+        },
+        {
+          "title": "Nissan Livina Refurbished Engines",
+          "description": "Mid-tier option between reconditioned and rebuilt; targeted repairs addressing specific Livina failure points without full strip-down.",
+          "frontDescription": "Mid-tier option between reconditioned and rebuilt; targeted repairs addressing specific Livina failure points without full strip-down.",
+          "frontDisclaimer": "Scope varies by supplier; confirm included upgrades before ordering.",
+          "backDescription": "Refurbished Livina engines focus on known weak points like timing tensioners or injector pumps, offering cost-effective reliability for grey imports.",
+          "backBullets": [
+            "Ideal for HR15DE timing chain or K9K injector pump issues",
+            "Faster turnaround than full rebuilds; typically 2-4 working days",
+            "Request itemised work list to verify included component upgrades"
+          ],
+          "priceRange": "£650 - £1,450 (supply only)",
+          "cta": "View refurbished Nissan Livina engine options"
+        },
+        {
+          "title": "Nissan Livina Supply & Fit Engines",
+          "description": "Complete engine replacement service including specialist fitting, ECU adaptation and MoT documentation for grey import Livina owners.",
+          "frontDescription": "Complete engine replacement service including specialist fitting, ECU adaptation and MoT documentation for grey import Livina owners.",
+          "frontDisclaimer": "Labour cost varies by location and engine complexity.",
+          "backDescription": "Supply & fit packages include certified import specialist labour, ECU pinout verification and DVLA-compliant paperwork for hassle-free replacement.",
+          "backBullets": [
+            "Specialists familiar with JDM/ASEAN-spec Livina wiring and mounts",
+            "Includes post-installation diagnostics and MoT emissions pre-check",
+            "Nationwide mobile fitting available for fleet or remote locations"
+          ],
+          "priceRange": "£400 - £800 added to engine price",
+          "cta": "Find Nissan Livina engine supply & fit deals"
+        }
+      ],
+      "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Livina within hours.",
+      "headingLines": [
+        "Nissan Livina Engine Types",
+        "Options, Costs & What to Expect"
+      ],
+      "ui": {
+        "priceLabel": "Typical price range",
+        "frontActionLabel": "What is it-",
+        "backActionLabel": "Flip back"
+      },
+      "closingCard": {
+        "label": "Engine Replacement Help",
+        "title": "Compare Nissan Livina engine prices with vetted UK suppliers",
+        "buttonText": "Compare Nissan Livina Prices"
+      }
+    },
+    "engineSizes": {
+      "tag": "Engine Sizes",
+      "h2": "Nissan Livina Engines by Size - Find the Right Displacement for Your Variant",
+      "intro": "Every displacement fitted to the Nissan Livina is listed below, with compatible engine codes, production years and common failure notes to help you identify the right replacement.",
+      "groups": [
+        {
+          "title": "Nissan Livina Diesel Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Livina 1.5L Diesel Engines",
+              "description": "The 1.5L K9K diesel was the sole diesel option for UK-imported Livina models, offering strong economy for fleet and private use but requiring careful EGR and injector maintenance on high-mileage imports.",
+              "engineCodes": [
+                "K9K792",
+                "K9K796",
+                "K9K798"
+              ],
+              "compatibleModels": [
+                "1.5 dCi S",
+                "SV",
+                "XV",
+                "Highway Star"
+              ],
+              "productionYears": "L10, 2006-2013",
+              "commonFailurePoints": [
+                "Injector pump calibration drift",
+                "EGR valve clogging",
+                "timing belt neglect"
+              ],
+              "cta": "Get quotes for Nissan Livina 1.5L diesel engines"
+            }
+          ]
+        },
+        {
+          "title": "Nissan Livina Petrol Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Livina 1.5L Petrol Engines",
+              "description": "The entry-level HR15DE 1.5L petrol powered base S and early SV trims, offering adequate performance for urban use but known for timing chain tensioner wear on high-mileage grey imports.",
+              "engineCodes": [
+                "HR15DE"
+              ],
+              "compatibleModels": [
+                "S",
+                "SV",
+                "early XV"
+              ],
+              "productionYears": "L10, 2006-2013",
+              "commonFailurePoints": [
+                "Timing chain tensioner wear",
+                "oil consumption",
+                "EGR clogging"
+              ],
+              "cta": "Compare Nissan Livina 1.5L petrol engine prices"
+            },
+            {
+              "title": "Nissan Livina 1.6L Petrol Engines",
+              "description": "The dominant HR16DE 1.6L petrol unit powered most UK-imported Livina variants, offering improved refinement and fuel economy but requiring attention to oil pump chain integrity on high-mileage examples.",
+              "engineCodes": [
+                "HR16DE",
+                "HR16DET"
+              ],
+              "compatibleModels": [
+                "SV",
+                "XV",
+                "Highway Star",
+                "Autech"
+              ],
+              "productionYears": "L10/L10 Facelift, 2006-2013",
+              "commonFailurePoints": [
+                "Oil pump chain stretch",
+                "EGR cooler clogging",
+                "turbo seal leaks (turbo models)"
+              ],
+              "cta": "Compare Nissan Livina 1.6L petrol engine prices"
+            }
+          ]
+        }
+      ],
+      "closing": "Not sure which engine size your Nissan Livina needs- Enter your registration number above - we'll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Livina specialists.",
+      "headingLines": [
+        "Nissan Livina Engines by Size",
+        "Find the Right Displacement for Your Variant"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "engineCodesLabel": "Engine Code(s)",
+        "compatibleModelsLabel": "Compatible Models (UK)",
+        "productionYearsLabel": "Production Years",
+        "warningLabel": "Common Failure Points",
+        "warningTitle": "Watch for these known weak points",
+        "helperLabel": "Engine Size Advice",
+        "helperTitle": "Need help matching the exact engine size-",
+        "helperButtonText": "Find My Engine"
+      }
+    },
+    "fuelTypes": {
+      "tag": "Fuel Type",
+      "h2": "Nissan Livina Engines by Fuel Type",
+      "intro": "Choose your Nissan Livina engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early HR15DE petrol to the latest K9K diesel imports.",
+      "items": [
+        {
+          "title": "Nissan Livina Diesel Engines",
+          "description": "The K9K 1.5L dCi diesel powered most fleet-spec Livina imports to the UK, offering strong economy but requiring careful EGR and injector maintenance on high-mileage examples.",
+          "descriptor": "The K9K 1.5L dCi diesel powered most fleet-spec Livina imports to the UK, offering strong economy but requiring careful EGR and injector maintenance on high-mileage examples.",
+          "familiesLabel": "Common Nissan Livina Diesel Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Diesel Models",
+          "notesLabel": "",
+          "families": [
+            "K9K792 - base 1.5 dCi (S/SV), injector pump calibration issues",
+            "K9K796 - Euro 4 update (XV/Highway Star), EGR clogging on short journeys",
+            "K9K798 - late-model refinement, DPF compatibility for UK MoT"
+          ],
+          "foundIn": [
+            "L10 Pre-Facelift (2006-2009) - K9K792",
+            "L10 Facelift (2010-2013) - K9K796, K9K798"
+          ],
+          "knownFor": [
+            "Excellent motorway fuel economy (50+ mpg achievable)",
+            "Injector pump failure causing black smoke and power loss",
+            "DPF clogging on urban-use imports without regeneration cycles",
+            "High replacement demand on fleet-spec 1.5 dCi SV variants"
+          ],
+          "typicalModels": [
+            "1.5 dCi S",
+            "1.5 dCi SV",
+            "1.5 dCi XV",
+            "1.5 dCi Highway Star"
+          ],
+          "importantNotes": [],
+          "cta": "Get quotes for Nissan Livina Diesel replacement engines"
+        },
+        {
+          "title": "Nissan Livina Petrol Engines",
+          "description": "HR15DE and HR16DE petrol engines dominate UK-imported Livina models, offering reliable daily driving but requiring attention to timing components and oil systems on high-mileage examples.",
+          "descriptor": "HR15DE and HR16DE petrol engines dominate UK-imported Livina models, offering reliable daily driving but requiring attention to timing components and oil systems on high-mileage examples.",
+          "familiesLabel": "Common Nissan Livina Petrol Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Petrol Models",
+          "notesLabel": "",
+          "families": [
+            "HR15DE - 1.5L entry petrol (S/SV), timing chain tensioner wear",
+            "HR16DE - 1.6L mainstream (XV/Highway Star), oil pump chain stretch",
+            "HR16DET - 1.6L turbo (Autech), turbo seal and boost sensor issues"
+          ],
+          "foundIn": [
+            "L10 Pre-Facelift (2006-2009) - HR15DE, HR16DE",
+            "L10 Facelift (2010-2013) - HR16DE, HR16DET"
+          ],
+          "knownFor": [
+            "Smooth, refined operation typical of Nissan HR-series engines",
+            "HR15DE timing chain rattles between 60k-90k miles",
+            "HR16DE oil pressure warnings from pump chain wear",
+            "Turbo models require careful oil maintenance to prevent seal failure"
+          ],
+          "typicalModels": [
+            "1.5L S",
+            "1.6L SV",
+            "1.6L XV",
+            "1.6L Highway Star",
+            "1.6L Turbo Autech"
+          ],
+          "importantNotes": [],
+          "cta": "Compare Nissan Livina Petrol engine prices"
+        }
+      ],
+      "closing": "Not sure which fuel type your Nissan Livina has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Livina specialists.",
+      "headingLines": [
+        "Nissan Livina Engines by Fuel Type"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "familiesLabel": "Common Engine Families",
+        "foundInLabel": "Found In",
+        "knownForLabel": "Known For",
+        "modelsLabel": "Typical Models (UK)",
+        "notesLabel": "Important Notes",
+        "closingButtonText": "Find my engine",
+        "emptyStateTitle": "Fuel type guidance",
+        "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."
+      }
+    },
+    "engineYears": {
+      "tag": "Engine Years",
+      "h2": "Nissan Livina Engines by Year - What Was Fitted & When",
+      "intro": "This timeline covers all major engine changes across the Nissan Livina's UK-import production span, organised so owners can quickly identify their engine and compare rebuilt prices from UK specialists.",
+      "jumpLabel": "Jump to model year",
+      "years": [
+        {
+          "year": "2006 - 2009",
+          "preview": "L10 Launch: HR15DE & K9K Debut",
+          "description": "The original Livina launch introduced the HR15DE petrol and K9K diesel engines that would dominate UK grey import replacements for a decade.",
+          "keyChanges": [
+            "First UK grey imports of ASEAN-spec Livina MPV arrive",
+            "HR15DE 1.5L petrol and K9K 1.5L diesel offered across S/SV/XV trims",
+            "Basic MoT-compliant emissions hardware for UK registration"
+          ],
+          "mainEngines": [
+            "HR15DE - 1.5L petrol (S / SV)",
+            "K9K792 - 1.5L diesel (1.5 dCi S / SV / XV)"
+          ],
+          "popularModels": [
+            "Nissan Livina S",
+            "Nissan Livina SV",
+            "Nissan Livina 1.5 dCi SV"
+          ],
+          "knownFor": [
+            "Robust basic engineering suited to tropical climates",
+            "Early HR15DE timing chain tensioner wear on high-mileage imports",
+            "K9K injector pump calibration drift causing emissions issues",
+            "Strong demand for replacement engines on fleet-spec diesel models"
+          ],
+          "engineCodesCovered": [
+            "HR15DE",
+            "K9K792"
+          ],
+          "cta": "Get quotes for 2006-2009 Nissan Livina replacement engines",
+          "badges": [
+            {
+              "label": "Major Engine Changes",
+              "tone": "accent"
+            },
+            {
+              "label": "2 engine highlights",
+              "tone": "muted"
+            }
+          ],
+          "ticker": "Nissan Livina HR15DE timing chain replacement • Nissan Livina K9K injector pump rebuild • Livina 1.5 dCi engine supply and fit UK",
+          "enquiries": [
+            "Nissan Livina HR15DE timing chain replacement",
+            "Nissan Livina K9K injector pump rebuild",
+            "Livina 1.5 dCi engine supply and fit UK"
+          ]
+        },
+        {
+          "year": "2010 - 2013",
+          "preview": "L10 Facelift: HR16DE Refinement & Turbo Option",
+          "description": "The facelifted Livina introduced the refined HR16DE petrol and optional turbo variant, while updating diesel emissions hardware for stricter UK compliance.",
+          "keyChanges": [
+            "HR16DE 1.6L petrol replaces HR15DE as mainstream engine",
+            "HR16DET turbo option added for Highway Star/Autech trims",
+            "K9K updated to K9K796/K9K798 for Euro 4/5 emissions compliance"
+          ],
+          "mainEngines": [
+            "HR16DE - 1.6L petrol (SV / XV / Highway Star)",
+            "HR16DET - 1.6L turbo petrol (Highway Star Turbo / Autech)",
+            "K9K796/K9K798 - 1.5L diesel Euro 4/5 (1.5 dCi XV / Highway Star)"
+          ],
+          "popularModels": [
+            "Nissan Livina XV",
+            "Nissan Livina Highway Star",
+            "Nissan Livina Autech",
+            "Nissan Livina 1.5 dCi Highway Star"
+          ],
+          "knownFor": [
+            "HR16DE offers improved refinement but oil pump chain wear emerges",
+            "Turbo models require careful oil maintenance to prevent seal failure",
+            "Updated K9K engines better suited to UK MoT emissions testing",
+            "Peak replacement demand period for UK-imported Livina models"
+          ],
+          "engineCodesCovered": [
+            "HR16DE",
+            "HR16DET",
+            "K9K796",
+            "K9K798"
+          ],
+          "cta": "Get quotes for 2010-2013 Nissan Livina replacement engines",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan Livina HR16DE oil pump replacement • Livina HR16DET turbo rebuild • Nissan Livina K9K796 EGR repair",
+          "enquiries": [
+            "Nissan Livina HR16DE oil pump replacement",
+            "Livina HR16DET turbo rebuild",
+            "Nissan Livina K9K796 EGR repair"
+          ]
+        }
+      ],
+      "closing": "Not sure which year your Nissan Livina was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Livina specialists.",
+      "headingLines": [
+        "Nissan Livina Engines by Year",
+        "What Was Fitted & When"
+      ],
+      "ui": {
+        "keyChangesLabel": "Key Changes",
+        "knownForLabel": "Known For",
+        "mainEnginesLabel": "Main Engines",
+        "popularModelsLabel": "Popular Models",
+        "engineCodesLabel": "Engine Codes Covered",
+        "enquiriesLabel": "Common Replacement Enquiries"
+      },
+      "summaryCta": {
+        "label": "Year Finder",
+        "title": "Not sure which year your Nissan Livina was built-",
+        "buttonText": "Find My Engine"
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "h2": "Nissan Livina Engine Replacement - Frequently Asked Questions",
+      "intro": "",
+      "items": [
+        {
+          "question": "How much does a Nissan Livina engine replacement cost in the UK for grey imports-",
+          "answer": "Typical rebuilt engine prices for UK-imported Nissan Livina range from £750 for HR15DE petrol to £2,200 for K9K diesel, supply-only. Supply & fit adds £400-£800 labour depending on location and engine complexity.",
+          "keyPoints": [
+            "HR15DE 1.5L petrol rebuilt: £750-£1,450 supply only",
+            "HR16DE 1.6L petrol rebuilt: £850-£1,750 supply only",
+            "K9K 1.5L diesel rebuilt: £850-£2,200 supply only",
+            "Supply & fit labour typically adds £400-£800 nationwide"
+          ],
+          "cta": "Compare Nissan Livina engine replacement prices from UK specialists"
+        },
+        {
+          "question": "What engine codes are compatible with my imported Nissan Livina in the UK-",
+          "answer": "UK-imported Livina models use HR15DE (1.5L petrol), HR16DE/HR16DET (1.6L petrol), or K9K792/796/798 (1.5L diesel). Enter your registration above to verify your exact engine code via DVLA.",
+          "keyPoints": [
+            "HR15DE fitted to early S/SV petrol models (2006-2013)",
+            "HR16DE dominant on XV/Highway Star petrol (2006-2013)",
+            "K9K series powers all 1.5 dCi diesel variants",
+            "Turbo HR16DET found on select Highway Star/Autech trims"
+          ],
+          "cta": "Verify your Nissan Livina engine code instantly via registration"
+        },
+        {
+          "question": "How long does it take to replace a Nissan Livina engine in the UK for grey imports-",
+          "answer": "Typical replacement time is 1-2 days for supply & fit at a specialist garage, plus 3-5 days lead time for rebuilt engine delivery. Emergency next-day dispatch available for urgent breakdowns.",
+          "keyPoints": [
+            "Rebuilt engine lead time: 3-5 working days typical",
+            "Specialist fitting labour: 1-2 days depending on garage workload",
+            "ECU adaptation and MoT pre-check add half-day",
+            "Nationwide mobile fitting available for fleet operators"
+          ],
+          "cta": "Find Nissan Livina engine supply & fit specialists near you"
+        },
+        {
+          "question": "Does a replacement Nissan Livina engine come with a warranty for UK grey imports-",
+          "answer": "Yes - every rebuilt, reconditioned or remanufactured Livina engine supplied through EngineMarket includes a minimum 12-month unlimited mileage warranty from UK specialists, with 24-month upgrades available.",
+          "keyPoints": [
+            "Minimum 12-month unlimited mileage warranty standard",
+            "Warranty covers parts and labour at any UK garage",
+            "24-month upgrade available for premium rebuilds",
+            "DVLA-compliant documentation included for UK registration"
+          ],
+          "cta": "Compare Nissan Livina engine warranty terms from UK suppliers"
+        },
+        {
+          "question": "Can I fit a Nissan Livina engine myself or do I need an import specialist in the UK-",
+          "answer": "While mechanically confident owners can attempt DIY fitting, grey import Livina models often require specialist knowledge for ECU adaptation, emissions compliance and DVLA documentation - we recommend certified import specialists.",
+          "keyPoints": [
+            "Basic mechanical skills sufficient for physical engine swap",
+            "ECU pinout verification critical for JDM/ASEAN-spec wiring",
+            "MoT emissions pre-check requires specialist diagnostic tools",
+            "DVLA engine change notification support included with specialist fitting"
+          ],
+          "cta": "Find certified Nissan Livina import fitting specialists UK-wide"
+        },
+        {
+          "question": "Will a replacement engine affect my imported Nissan Livina insurance in the UK-",
+          "answer": "Yes - you must declare any engine replacement to your insurer. Most providers accept rebuilt engines with warranty documentation, but premiums may adjust based on engine specification and value.",
+          "keyPoints": [
+            "Declare engine change to insurer within policy terms",
+            "Provide rebuilt engine warranty certificate as proof of quality",
+            "Premiums may increase for turbo or performance-spec replacements",
+            "Keep DVLA V5C updated with new engine number for compliance"
+          ],
+          "cta": "Get quotes for Nissan Livina engine replacement with insurance documentation"
+        },
+        {
+          "question": "How do I know if my imported Nissan Livina needs a full engine replacement or just a repair in the UK-",
+          "answer": "If diagnostics confirm catastrophic failure (low compression, bearing knock, seized components) or repair costs exceed 60% of a rebuilt engine price, replacement offers better long-term value for grey import Livina owners.",
+          "keyPoints": [
+            "Compression/leak-down test identifies internal damage severity",
+            "Repair viable for isolated issues like tensioner or injector pump",
+            "Replacement recommended for multiple failures or high-mileage blocks",
+            "Rebuilt units include upgrades addressing original failure points"
+          ],
+          "cta": "Compare repair vs replacement costs for your Nissan Livina engine"
+        },
+        {
+          "question": "Are used Nissan Livina engines reliable for UK grey imports-",
+          "answer": "Used Livina engines from verified breakers can be reliable if mileage is under 80k miles and compression tests are provided, but rebuilt units with warranty offer better peace of mind for UK MoT compliance.",
+          "keyPoints": [
+            "Request compression test results before purchasing used unit",
+            "Verify engine code matches your chassis via DVLA lookup",
+            "Budget for ancillary replacement (mounts, belts, seals) during install",
+            "Rebuilt engines include warranty and emissions certification"
+          ],
+          "cta": "Check used Nissan Livina engine availability with compression reports"
+        },
+        {
+          "question": "What is the difference between reconditioned, rebuilt, and remanufactured Nissan Livina engines for UK imports-",
+          "answer": "Reconditioned = cleaned with worn parts replaced; Rebuilt = comprehensive overhaul with failure-point upgrades; Remanufactured = factory-spec zero-hour rebuild with all components renewed.",
+          "keyPoints": [
+            "Reconditioned: budget option, 3-5 day turnaround, basic warranty",
+            "Rebuilt: best value, upgraded components, 12-month warranty standard",
+            "Remanufactured: premium choice, OEM tolerances, 24-month option",
+            "All include bench testing; request dyno report for confidence"
+          ],
+          "cta": "Compare Nissan Livina engine quality tiers and pricing UK"
+        },
+        {
+          "question": "How do I prepare my imported Nissan Livina for engine replacement in the UK-",
+          "answer": "Before replacement, verify your engine code via registration, obtain quotes from multiple specialists, confirm DVLA documentation requirements, and arrange transport if using a non-local garage.",
+          "keyPoints": [
+            "Use registration lookup to confirm exact engine code and variant",
+            "Get 3+ quotes to compare price, warranty and turnaround time",
+            "Confirm supplier provides MoT emissions certification documentation",
+            "Arrange vehicle transport if specialist garage is not local"
+          ],
+          "cta": "Get free Nissan Livina engine quotes from vetted UK specialists"
+        }
+      ],
+      "headingLines": [
+        "Nissan Livina Engine Replacement",
+        "Frequently Asked Questions"
+      ],
+      "defaultOpenIndex": 0,
+      "ui": {
+        "questionLabelPrefix": "Question",
+        "keyPointsLabel": "Key points",
+        "warningTitle": "Check fitment and engine condition before ordering"
+      }
+    },
+    "trustCta": {
+      "tag": "Why Choose Us",
+      "h2": "Why UK Nissan Livina Owners Trust EngineMarket",
+      "intro": "Join thousands of UK drivers who compare Nissan Livina engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.",
+      "points": [
+        {
+          "title": "Trusted Nissan Livina Engine Suppliers",
+          "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Livina owners."
+        },
+        {
+          "title": "Compare Nissan Livina Engine Replacement Companies",
+          "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."
+        },
+        {
+          "title": "UK Engine Replacement Services for Nissan Livina",
+          "description": "Covering every variant from budget S to premium Highway Star, with supply-only or full supply & fit available nationwide."
+        }
+      ],
+      "finalText": "Find the best Nissan Livina engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.",
+      "buttonText": "Compare Nissan Livina Engine Prices Now →",
+      "secondaryAction": {
+        "text": "Call Our Experts",
+        "href": "tel:03330000044"
+      },
+      "imageAlt": "Nissan Livina vehicle",
+      "ui": {
+        "pointLabel": "Included",
+        "stripLabel": "Trusted UK Engine Marketplace",
+        "stripTitle": "Compare Nissan Livina engine prices with vetted UK specialists",
+        "trustBullets": [
+          "100% Free",
+          "No Obligation",
+          "Fast & secure process",
+          "UK-based support"
+        ],
+        "imageBadgeLabel": "Trusted supplier network",
+        "imageBadgeTitle": "Warranty-backed rebuilt & used options",
+        "imageBadgeText": "Every quote checked for fitment, quality and lead time."
+      }
+    }
+  }
+}

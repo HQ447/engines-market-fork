@@ -1,11 +1,19 @@
 import "server-only";
 
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
 import { SITE_URL } from "@/lib/site";
 
 const DEFAULT_CRM_LEAD_ENDPOINT = "https://crm-api.enginesmarket.co.uk/api/v1/leads";
 const DEFAULT_SUPABASE_WEBHOOK_URL = "https://gfrnxvolaqbfalerfhsr.supabase.co/functions/v1/receive-lead";
-const LEAD_FORWARDING_EMAIL = "sales@enginefinders.co.uk";
+
+const RESEND_API_KEY =
+  process.env.RESEND_API_KEY || "RESEND_API_KEY";
+const RESEND_FROM_EMAIL =
+  process.env.RESEND_FROM_EMAIL || "Engines Market <sales@enginesmarket.co.uk>";
+const LEAD_RECIPIENT_EMAIL =
+  process.env.LEAD_EMAIL_RECIPIENT || process.env.SMTP_TO_EMAIL || "ef2crm@gmail.com";
+
+const resend = new Resend(RESEND_API_KEY);
 
 type RawQuote = Record<string, unknown>;
 
@@ -189,71 +197,69 @@ function buildBackendPayload(lead: QuoteLead) {
   };
 }
 
-function smtpIsConfigured() {
-  return Boolean(
-    process.env.SMTP_HOST &&
-      process.env.SMTP_PORT &&
-      process.env.SMTP_USER &&
-      process.env.SMTP_PASSWORD &&
-      process.env.SMTP_FROM_EMAIL,
-  );
-}
+async function sendEmail(lead: QuoteLead): Promise<boolean> {
+  try {
+    const rows = [
+      ["Name", lead.name],
+      ["Email", lead.email],
+      ["Phone", lead.number],
+      ["Postcode", lead.postcode],
+      ["Registration", lead.vehicleVrm],
+      ["Make", lead.vehicleBrand],
+      ["Model", lead.vehicleModel],
+      ["Year", lead.vehicleYear],
+      ["Fuel type", lead.fuelType],
+      ["Engine capacity", lead.engineCapacity],
+      ["Engine code", lead.engineCode],
+      ["Color", lead.color],
+      ["Wheelplan", lead.wheelplan],
+      ["Engine type", lead.engineType],
+      ["Fitting", lead.fitting],
+      ["Quote source", lead.sourceLabel],
+      ["Exact source page", lead.sourcePage || `${SITE_URL}/`],
+      ["Search mode", lead.searchMode],
+      ["Additional details", lead.description],
+    ]
+      .filter(([, value]) => Boolean(value))
+      .map(
+        ([label, value]) =>
+          `<tr><th style="padding:8px 12px;text-align:left;background:#f3f4f6;border:1px solid #e5e7eb;font-size:13px;">${escapeHtml(
+            String(label),
+          )}</th><td style="padding:8px 12px;border:1px solid #e5e7eb;font-size:13px;">${escapeHtml(
+            String(value),
+          )}</td></tr>`,
+      )
+      .join("");
 
-async function sendEmail(lead: QuoteLead) {
-  if (!smtpIsConfigured()) return false;
+    const emailHtml = `
+      <div style="font-family:Arial,sans-serif;padding:20px;color:#111;max-width:720px;margin:0 auto;">
+        <h1 style="font-size:22px;margin:0 0 16px;color:#002244;">New Quote Request${lead.vehicleVrm ? ` - ${lead.vehicleVrm}` : ""} - enginesmarket.co.uk</h1>
+        <table style="border-collapse:collapse;width:100%;max-width:720px;border:1px solid #e5e7eb;">
+          ${rows}
+        </table>
+        <p style="font-size:11px;color:#888;margin-top:20px;">Timestamp: ${new Date().toUTCString()}</p>
+      </div>
+    `;
 
-  const recipients = [
-    ...new Set(
-      [process.env.SMTP_TO_EMAIL, LEAD_FORWARDING_EMAIL].filter(
-        (recipient): recipient is string => Boolean(recipient),
-      ),
-    ),
-  ];
+    const { data, error } = await resend.emails.send({
+      from: RESEND_FROM_EMAIL,
+      to: [LEAD_RECIPIENT_EMAIL],
+      replyTo: lead.email,
+      subject: `New Quote Request${lead.vehicleVrm ? ` - ${lead.vehicleVrm}` : ""} - enginesmarket.co.uk`,
+      html: emailHtml,
+    });
 
-  const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: Number(process.env.SMTP_PORT),
-    secure: process.env.SMTP_SECURE === "true",
-    auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASSWORD },
-  });
+    if (error) {
+      console.error("[RESEND ERROR in quoteLead]:", error);
+      return false;
+    }
 
-  const rows = [
-    ["Name", lead.name],
-    ["Email", lead.email],
-    ["Phone", lead.number],
-    ["Postcode", lead.postcode],
-    ["Registration", lead.vehicleVrm],
-    ["Make", lead.vehicleBrand],
-    ["Model", lead.vehicleModel],
-    ["Year", lead.vehicleYear],
-    ["Fuel type", lead.fuelType],
-    ["Engine capacity", lead.engineCapacity],
-    ["Engine code", lead.engineCode],
-    ["Color", lead.color],
-    ["Wheelplan", lead.wheelplan],
-    ["Engine type", lead.engineType],
-    ["Fitting", lead.fitting],
-    ["Quote source", lead.sourceLabel],
-    ["Exact source page", lead.sourcePage || `${SITE_URL}/`],
-    ["Search mode", lead.searchMode],
-    ["Additional details", lead.description],
-  ]
-    .filter(([, value]) => Boolean(value))
-    .map(
-      ([label, value]) =>
-        `<tr><th style="padding:8px 12px;text-align:left;background:#f3f4f6;border:1px solid #e5e7eb">${escapeHtml(label)}</th><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(value)}</td></tr>`,
-    )
-    .join("");
-
-  await transporter.sendMail({
-    from: process.env.SMTP_FROM_EMAIL,
-    to: recipients,
-    replyTo: lead.email,
-    subject: `New Quote Request${lead.vehicleVrm ? ` - ${lead.vehicleVrm}` : ""} - enginesmarket.co.uk`,
-    html: `<div style="font-family:Arial,sans-serif;padding:20px;color:#111"><h1 style="font-size:24px;margin:0 0 18px">New Quote Request</h1><table style="border-collapse:collapse;width:100%;max-width:720px">${rows}</table></div>`,
-  });
-
-  return true;
+    console.log("[LEAD DISPATCHED VIA RESEND]:", data);
+    return true;
+  } catch (err) {
+    console.error("[RESEND EXCEPTION in quoteLead]:", err);
+    return false;
+  }
 }
 
 async function postJson(url: string, payload: ReturnType<typeof buildBackendPayload>, headers: HeadersInit) {

@@ -122,6 +122,44 @@
               "No paperwork stress, no guesswork, 100% free."
             ]
           }
+        },
+        {
+          "number": 2,
+          "icon": "quote",
+          "front": {
+            "h3": "Get Quotes from Honda Engine Specialists",
+            "text": "Same-day quotes from vetted UK suppliers - full breakdown, no obligation."
+          },
+          "back": {
+            "heading": "Quotes You Can Trust",
+            "text": "Your verified details are securely shared with up to 10 of our most relevant UK suppliers, matched to your variant and location.",
+            "bullets": [
+              "Vetted UK Suppliers - specialists who understand Honda diesel and petrol engines",
+              "Same-Day Quotes - usually within hours, not days",
+              "Supply & Fit Service - or supply-only to your own garage",
+              "Full Breakdown - price, warranty length, delivery estimate and fitting cost all shown clearly",
+              "No hidden fees. No sales calls unless you approve."
+            ]
+          }
+        },
+        {
+          "number": 3,
+          "icon": "shield",
+          "front": {
+            "h3": "Choose the Best Deal & Save",
+            "text": "Compare supplier reviews, warranty and price - then pick the right one for you."
+          },
+          "back": {
+            "heading": "Your Choice, Your Control",
+            "text": "You decide which specialist to go with. We simply make the search fast, safe and transparent.",
+            "bullets": [
+              "Online Reviews - read real customer feedback",
+              "Warranty Length - minimum 12 months, often 24 months on rebuilt units",
+              "Terms of Service - including collection, fitting and aftercare",
+              "Technical Expertise - see each supplier's Honda experience",
+              "You deal directly with your chosen provider. No pressure, no commitment until you're ready."
+            ]
+          }
         }
       ],
       "tagline": "",

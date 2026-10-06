@@ -2403,11 +2403,7 @@
               "title": "Volkswagen 1.2L Diesel Engines",
               "description": "The smallest Volkswagen diesel, this 3-cylinder TDI unit was used mainly in the Polo and small-platform models. It offered excellent economy but suffers from turbocharger wear and DPF clogging on short journeys",
               "cta": "Get quotes for Volkswagen 1.2L diesel engines",
-              "engineCodes": [
-                "CFWA",
-                "CFWB",
-                "CFWC"
-              ],
+              "engineCodes": ["CFWA", "CFWB", "CFWC"],
               "compatibleModels": [
                 "Polo (6R)",
                 "Ibiza (same platform)",
@@ -2424,14 +2420,8 @@
               "title": "Volkswagen 1.4L Diesel Engines",
               "description": "A 3-cylinder TDI used across small Volkswagens before the brand standardised on 1.6L units. Known for good fuel economy but limited power output",
               "cta": "Get quotes for Volkswagen 1.4L diesel engines",
-              "engineCodes": [
-                "BNM",
-                "BNV"
-              ],
-              "compatibleModels": [
-                "Polo (9N3)",
-                "Fox"
-              ],
+              "engineCodes": ["BNM", "BNV"],
+              "compatibleModels": ["Polo (9N3)", "Fox"],
               "productionYears": "2005 - 2009",
               "commonFailurePoints": [
                 "Glow plug failure",
@@ -2443,13 +2433,7 @@
               "title": "Volkswagen 1.6L Diesel Engines",
               "description": "A hugely popular 4-cylinder TDI found in nearly every medium Volkswagen model. Covers both the older PD (Pumpe-Düse) and later common rail EA189 family. Replacement demand remains very high",
               "cta": "Get quotes for Volkswagen 1.6L diesel engines",
-              "engineCodes": [
-                "BLS",
-                "BXF",
-                "CAYC",
-                "CAYB",
-                "CAAC"
-              ],
+              "engineCodes": ["BLS", "BXF", "CAYC", "CAYB", "CAAC"],
               "compatibleModels": [
                 "Golf Mk5/Mk6",
                 "Passat B6",
@@ -2468,14 +2452,7 @@
               "title": "Volkswagen 1.9L Diesel Engines",
               "description": "The legendary SDI and TDI PD unit. Renowned for longevity, but mounting emissions regulations and high mileage make replacement common on older classics like the Bora and Mk4 Golf",
               "cta": "Get quotes for Volkswagen 1.9L diesel engines",
-              "engineCodes": [
-                "ALH",
-                "AXR",
-                "ATD",
-                "ASZ",
-                "BLT",
-                "BSW"
-              ],
+              "engineCodes": ["ALH", "AXR", "ATD", "ASZ", "BLT", "BSW"],
               "compatibleModels": [
                 "Golf Mk4",
                 "Bora",
@@ -2530,13 +2507,7 @@
               "title": "Volkswagen 2.5L Diesel Engines",
               "description": "A 5-cylinder TDI used in the Transporter T5 and early Touareg. Known for torque and character but discontinued in favour of 2.0 BiTDI units. Replacement units are sought after by van owners",
               "cta": "Get quotes for Volkswagen 2.5L diesel engines",
-              "engineCodes": [
-                "AXD",
-                "BPC",
-                "BNZ",
-                "BPE",
-                "BJJ"
-              ],
+              "engineCodes": ["AXD", "BPC", "BNZ", "BPE", "BJJ"],
               "compatibleModels": [
                 "Transporter T5 (2003-2009)",
                 "Touareg (first generation",
@@ -2581,18 +2552,8 @@
               "title": "Volkswagen 1.0L Petrol Engines",
               "description": "The modern EA211 3-cylinder TSI found in the Up, Polo and small crossovers. Direct injection, turbocharged and efficient. Reliability is generally good; failures are often electrical",
               "cta": "Compare Volkswagen 1.0L petrol engine prices",
-              "engineCodes": [
-                "CHYA",
-                "CHZB",
-                "CHZH",
-                "DLAC",
-                "DLCB"
-              ],
-              "compatibleModels": [
-                "Up",
-                "Polo Mk6",
-                "T-Cross"
-              ],
+              "engineCodes": ["CHYA", "CHZB", "CHZH", "DLAC", "DLCB"],
+              "compatibleModels": ["Up", "Polo Mk6", "T-Cross"],
               "productionYears": "2011 - present",
               "commonFailurePoints": [
                 "Thermostat housing leaks",
@@ -2654,12 +2615,7 @@
               "title": "Volkswagen 1.5L Petrol Engines",
               "description": "The EA211 Evo TSI, designed to replace the 1.4 TSI. Features variable geometry turbo and cylinder deactivation. Early examples had vibration/judder issues",
               "cta": "Compare Volkswagen 1.5L petrol engine prices",
-              "engineCodes": [
-                "DADA",
-                "DACA",
-                "DPCA",
-                "DPCZ"
-              ],
+              "engineCodes": ["DADA", "DACA", "DPCA", "DPCZ"],
               "compatibleModels": [
                 "Golf Mk7.5/Mk8",
                 "T-Roc",
@@ -2677,17 +2633,8 @@
               "title": "Volkswagen 1.6L Petrol Engines",
               "description": "An older 8v and 16v unit found in the Golf Mk4 and Bora era. Simple to work on, but high-mileage units suffer oil consumption. Replaced by 1.4/1.5 TSI in newer models",
               "cta": "Compare Volkswagen 1.6L petrol engine prices",
-              "engineCodes": [
-                "AEH",
-                "AKL",
-                "BCB",
-                "BTS"
-              ],
-              "compatibleModels": [
-                "Golf Mk4",
-                "Bora",
-                "New Beetle"
-              ],
+              "engineCodes": ["AEH", "AKL", "BCB", "BTS"],
+              "compatibleModels": ["Golf Mk4", "Bora", "New Beetle"],
               "productionYears": "1998 - 2005",
               "commonFailurePoints": [
                 "Coil pack failure (individual units)",
@@ -2756,10 +2703,7 @@
               "title": "Volkswagen 2.5L Petrol Engines",
               "description": "A 5-cylinder unit (Volvo-sourced design) used briefly in the US-market Jetta and Beetle. Very rare in the UK but present on imported models",
               "cta": "Compare Volkswagen 2.5L petrol engine prices",
-              "engineCodes": [
-                "BGP",
-                "BGQ"
-              ],
+              "engineCodes": ["BGP", "BGQ"],
               "compatibleModels": [
                 "Jetta (UK imports only)",
                 "New Beetle (rare import)"
@@ -2815,13 +2759,7 @@
               "title": "Volkswagen Electric Motors (BEV)",
               "description": "The MEB platform permanent-magnet synchronous motor used on ID models. Failures are rare, but controllers and bearings can fail. Motor code(s) APP 310 (APP310) - ID.3, ID.4, ID.5; APP 550 (ID.7)",
               "cta": "Enquire about Volkswagen electric motor repair",
-              "compatibleModels": [
-                "ID.3",
-                "ID.4",
-                "ID.5",
-                "ID. Buzz",
-                "ID.7"
-              ],
+              "compatibleModels": ["ID.3", "ID.4", "ID.5", "ID. Buzz", "ID.7"],
               "productionYears": "2019 - present"
             }
           ]

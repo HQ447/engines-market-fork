@@ -4,8 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import { FiChevronDown } from "react-icons/fi";
-import { headerNavigation } from "@/lib/navigation";
+import { DesktopNavMenus, MobileNavMenus } from "@/components/layout/NavMenus";
 
 const CALL_NUMBER_DISPLAY = "020 3488 4649";
 const CALL_NUMBER_TEL = "tel:+442034884649";
@@ -27,17 +26,15 @@ function PhoneIcon() {
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
 
   function closeMobileMenu() {
     setMobileOpen(false);
-    setMobileExpanded(null);
   }
 
   return (
     <header className="sticky top-0 z-100 bg-[#061a33] text-white shadow-md max-[1023px]:shadow-none">
-      <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-[78px] lg:px-8 max-[1023px]:border-b-0">
-        <Link href="/" className="flex items-center" onClick={closeMobileMenu}>
+      <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:h-[78px] lg:px-8 max-[1023px]:border-b-0">
+        <Link href="/" className="flex shrink-0 items-center" onClick={closeMobileMenu}>
           <Image
             src="/branding/engine-market-logo-header-tight.png"
             alt="Engines Market"
@@ -48,30 +45,7 @@ export default function Navbar() {
           />
         </Link>
 
-        <nav className="hidden items-center gap-1 text-sm font-semibold lg:flex" aria-label="Primary navigation">
-          {headerNavigation.map((item) => (
-            <div key={item.label} className="group relative">
-              <Link href={item.href} className="flex h-full items-center gap-1 px-3 transition hover:text-[#86efac]">
-                {item.label}
-                {item.links ? <FiChevronDown className="h-4 w-4 transition group-hover:rotate-180" aria-hidden="true" /> : null}
-              </Link>
-
-              {item.links ? (
-                <div className="invisible absolute left-0 top-full w-72 translate-y-2 rounded-b-lg border border-slate-200 bg-white p-2 text-[#122033] opacity-0 shadow-xl transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                  {item.links.map((link) => (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      className="block rounded-md px-3 py-2.5 text-sm font-semibold hover:bg-slate-100 hover:text-green-700"
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
-                </div>
-              ) : null}
-            </div>
-          ))}
-        </nav>
+        <DesktopNavMenus />
 
         <div className="hidden items-center gap-3 lg:flex">
           <a href={CALL_NUMBER_TEL} className="text-sm font-bold">
@@ -89,7 +63,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        <div className="flex items-center gap-1.5 self-center lg:hidden">
+        <div className="ml-auto flex items-center gap-1.5 self-center lg:hidden">
           <a
             href={CALL_NUMBER_TEL}
             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white sm:h-11 sm:w-11"
@@ -109,14 +83,10 @@ export default function Navbar() {
           <button
             type="button"
             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 sm:h-11 sm:w-11"
-            aria-label="Open navigation menu"
+            aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={mobileOpen}
-            onClick={() => {
-              setMobileOpen((current) => !current);
-              if (mobileOpen) {
-                setMobileExpanded(null);
-              }
-            }}
+            aria-controls="mobile-nav"
+            onClick={() => setMobileOpen((current) => !current)}
           >
             {mobileOpen ? (
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" aria-hidden="true">
@@ -132,53 +102,11 @@ export default function Navbar() {
       </div>
 
       {mobileOpen ? (
-        <div className="bg-[#0b2241] px-4 py-4 lg:hidden">
-          <nav className="flex flex-col gap-2" aria-label="Mobile site navigation">
-            {headerNavigation.map((item) => {
-              const expanded = mobileExpanded === item.label;
-
-              return (
-                <div key={item.label} className="overflow-hidden rounded-[12px] border border-white/10 bg-white/5">
-                  {item.links ? (
-                    <button
-                      type="button"
-                      className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold text-white"
-                      aria-expanded={expanded}
-                      onClick={() => setMobileExpanded(expanded ? null : item.label)}
-                    >
-                      <span>{item.label}</span>
-                      <FiChevronDown className={`h-4 w-4 transition ${expanded ? "rotate-180" : ""}`} aria-hidden="true" />
-                    </button>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      className="block px-4 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-                      onClick={closeMobileMenu}
-                    >
-                      {item.label}
-                    </Link>
-                  )}
-
-                  {item.links && expanded ? (
-                    <div className="border-t border-white/10 px-4 py-3">
-                      <div className="grid gap-2">
-                        {item.links.map((link) => (
-                          <Link
-                            key={link.href}
-                            href={link.href}
-                            className="text-sm text-slate-300 transition hover:text-white"
-                            onClick={closeMobileMenu}
-                          >
-                            {link.label}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  ) : null}
-                </div>
-              );
-            })}
-          </nav>
+        <div
+          id="mobile-nav"
+          className="max-h-[calc(100dvh-4.5rem)] overflow-y-auto overscroll-contain bg-[#0b2241] px-4 py-4 lg:hidden"
+        >
+          <MobileNavMenus onNavigate={closeMobileMenu} />
         </div>
       ) : null}
     </header>

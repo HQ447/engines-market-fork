@@ -1,1 +1,1771 @@
-{"brand": {"name": "Nissan", "slug": "nissan", "tone": "premium"}, "model": {"name": "Nissan Aprio", "slug": "aprio", "legacySlug": "nissan-aprio"}, "seo": {"title": "Nissan Aprio Engine Replacement - Compare Prices UK", "description": "Nissan Aprio engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £750. 12-month warranty & UK supply fit specialists.", "canonical": "/nissan/aprio"}, "assets": {"mainImage": "/images/brands/nissan/models/nissan-pino-model-card.png", "smallImage": "/images/brands/nissan/models/nissan-pino-model-card.png", "heroBg": "/images/brands/nissan/models/nissan-pino-model-card.png", "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp", "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp", "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp", "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp", "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp", "ctaImage": "/images/brands/nissan/models/nissan-pino-model-card.png"}, "sections": {"hero": {"tag": "NISSAN ENGINE MARKETPLACE", "h1": "Nissan Aprio Engine Replacement - Compare Prices & Save", "subheading": "Get quotes today from trusted UK Nissan Aprio engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available nationwide.", "trustBadges": ["Supply & Fit Available", "12-Month Warranty", "Nationwide Delivery", "100+ Suppliers"], "ctaLinkText": "Get Free Nissan Aprio Engine Quotes →", "supportingText": "Get tailored Nissan Aprio engine quotes from vetted UK specialists.", "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network", "form": {"heading": "Find Your Nissan Aprio Engine", "subtitle": "Enter your registration number to compare Nissan Aprio engine options.", "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)", "buttonText": "Get Free Nissan Aprio Engine Quotes →", "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Nissan Aprio specialists."}, "imageAlt": "Nissan Aprio engine replacement UK - compare reconditioned and rebuilt engine prices", "highlights": [{"title": "Aprio Diesel Engines", "price": "from £850 to £2,400", "line1": "Aprio Diesel Engines - from £850 to £2,400", "line2": "-> Rebuilt units from £850 · Common codes: K9K 700, K9K 800, K4M 700", "detail": "-> Rebuilt units from £850 · Common codes: K9K 700, K9K 800, K4M 700", "image": "", "imageAlt": "Nissan Aprio diesel engine replacement - K9K K4M rebuilt reconditioned UK"}, {"title": "Aprio Petrol Engines", "price": "from £750 to £2,100", "line1": "Aprio Petrol Engines - from £750 to £2,100", "line2": "-> Rebuilt units from £750 · Common codes: K4M 700, HR16DE, QG16DE", "detail": "-> Rebuilt units from £750 · Common codes: K4M 700, HR16DE, QG16DE", "image": "", "imageAlt": "Nissan Aprio petrol engine replacement - K4M HR16DE rebuilt reconditioned UK"}, {"title": "Aprio VVT Engines", "price": "from £950 to £2,600", "line1": "Aprio VVT Engines - from £950 to £2,600", "line2": "-> Rebuilt units from £950 · Common codes: SR13DE, SR15DE, GA15DE", "detail": "-> Rebuilt units from £950 · Common codes: SR13DE, SR15DE, GA15DE", "image": "", "imageAlt": "Nissan Aprio VVT engine replacement - SR13DE SR15DE rebuilt reconditioned UK specialist"}], "headingLines": ["Nissan Aprio Engine Replacement", "Compare Prices & Save"], "mobileBar": {"brandText": "ENGINEMARKET", "callLabel": "Call", "quoteLabel": "GET QUOTES"}, "registrationInput": {"label": "Enter your vehicle registration", "platePlaceholder": "AB12 CDE", "countryCode": "UK", "countryLabel": "United Kingdom"}}, "howItWorks": {"tag": "How It Works", "h2": "3 Simple Steps to Finding the Best Nissan Aprio Replacement Engine", "cards": [{"number": 1, "icon": "registration", "front": {"h3": "Enter Your Nissan Aprio Registration", "text": "Instantly verify your exact model, engine code and fuel type via DVLA - Base to Premium."}, "back": {"heading": "Your Car, Precisely Identified", "text": "Engines Market uses the official DVLA database to pull accurate details about your Aprio, not just model name.", "bullets": ["Your Precise Model - from Base, Custom, Emotion, Convenience to Premium", "Your Engine Code - K4M, HR16DE, K9K and more", "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly", "No paperwork, no guesswork, 100% free."]}}], "tagline": "", "headingLines": ["3 Simple Steps", "to Finding the Best Nissan Aprio Replacement Engine"], "ui": {"stepLabel": "Step", "desktopClosedLabel": "Click to expand", "desktopOpenLabel": "Click to view details", "mobileOpenLabel": "Tap to flip", "mobileCloseLabel": "Tap to flip back", "footerNote": "Most replacements completed within 3-5 days.", "mobileTrustItems": ["12-Month Warranty", "Supply & Fit Available", "Nationwide Delivery", "Trusted UK Suppliers"]}}, "liveMarketPrices": {"tag": "Live UK Engine Market Data", "h2": "What Are UK Drivers Paying for Nissan Aprio Engine Replacement-", "h3": "The table below shows typical UK rebuilt engine costs across Nissan Aprio variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.", "introBullets": [{"label": "Live market context", "text": "See realistic rebuilt-engine quote ranges across documented Nissan Aprio variants."}, {"label": "Variant specific", "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."}, {"label": "Specialist pricing", "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."}, {"label": "Quote benchmark", "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."}], "cta": {"heading": "Benchmark your own Nissan Aprio quote", "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Aprio engine code.", "buttonText": "Compare My Nissan Aprio Engine", "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."}, "badges": ["6 recent enquiries visible", "Typical rebuilt market ranges", "Engine-code matched rows", "UK specialist network"], "feed": {"isDynamic": false, "rowsCount": 6, "columns": ["Year", "Model", "Engine Code", "Fuel", "Avg. Quoted Price", "Reported Issue"], "timestampLabel": "Last Updated", "refreshLabel": "Refresh feed", "density": "premium", "visibleRows": 6, "entries": [{"Year": "2007-2010", "Model": "Nissan Aprio (2007-2010) Base 1.6", "Engine Code": "K4M 700", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£750-£1,600", "Reported Issue": "Timing chain stretch"}, {"Year": "2007-2010", "Model": "Nissan Aprio (2007-2010) Custom 1.6", "Engine Code": "HR16DE", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£750-£1,600", "Reported Issue": "Oil consumption"}, {"Year": "2008-2010", "Model": "Nissan Aprio (2007-2010) Emotion 1.6", "Engine Code": "K4M 800", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£800-£1,750", "Reported Issue": "Head gasket failure"}, {"Year": "2008-2010", "Model": "Nissan Aprio (2008-2010) Premium 1.5 dCi", "Engine Code": "K9K 700", "Fuel": "Diesel 1.5L", "Avg. Quoted Price": "£850-£2,400", "Reported Issue": "EGR cooler clogging"}, {"Year": "2007-2009", "Model": "Nissan Aprio (2007-2009) Convenience 1.3", "Engine Code": "SR13DE", "Fuel": "Petrol 1.3L", "Avg. Quoted Price": "£700-£1,450", "Reported Issue": "VVT actuator wear"}, {"Year": "2009-2010", "Model": "Nissan Aprio (2009-2010) Base 1.5", "Engine Code": "GA15DE", "Fuel": "Petrol 1.5L", "Avg. Quoted Price": "£750-£1,550", "Reported Issue": "Oil pump failure"}]}, "headingLines": ["What Are UK Drivers Paying for Nissan Aprio Engine Replacement-"], "imageAlt": "Nissan Aprio replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000", "filterTabs": [{"key": "all", "label": "All", "matchers": []}, {"key": "nissan-aprio-base-engine", "label": "Nissan Aprio Base", "matchers": ["nissan aprio base", "nissan aprio base engine"]}, {"key": "nissan-aprio-custom-engine", "label": "Nissan Aprio Custom", "matchers": ["nissan aprio custom", "nissan aprio custom engine"]}, {"key": "nissan-aprio-emotion-engine", "label": "Nissan Aprio Emotion", "matchers": ["nissan aprio emotion", "nissan aprio emotion engine"]}, {"key": "nissan-aprio-convenience-engine", "label": "Nissan Aprio Convenience", "matchers": ["nissan aprio convenience", "nissan aprio convenience engine"]}, {"key": "nissan-aprio-premium-engine", "label": "Nissan Aprio Premium", "matchers": ["nissan aprio premium", "nissan aprio premium engine"]}, {"key": "nissan-aprio-base-1-5l-engine", "label": "Nissan Aprio Base 1.5L", "matchers": ["nissan aprio base 1.5l", "nissan aprio base 1 5l engine"]}, {"key": "nissan-aprio-custom-vvt-engine", "label": "Nissan Aprio Custom VVT", "matchers": ["nissan aprio custom vvt", "nissan aprio custom vvt engine"]}, {"key": "nissan-aprio-early-model-engine", "label": "Nissan Aprio Early Model", "matchers": ["nissan aprio early model", "nissan aprio early model engine"]}, {"key": "nissan-aprio-imported-2011-engine", "label": "Nissan Aprio Imported 2011+", "matchers": ["nissan aprio imported 2011+", "nissan aprio imported 2011 engine"]}, {"key": "nissan-aprio-low-mileage-engine", "label": "Nissan Aprio Low Mileage", "matchers": ["nissan aprio low mileage", "nissan aprio low mileage engine"]}, {"key": "nissan-aprio-vvt-tech-engine", "label": "Nissan Aprio VVT-Tech", "matchers": ["nissan aprio vvt-tech", "nissan aprio vvt tech engine"]}, {"key": "nissan-aprio-saloon-body-engine", "label": "Nissan Aprio Saloon Body", "matchers": ["nissan aprio saloon body", "nissan aprio saloon body engine"]}], "ui": {"showingSingleLabel": "entry", "showingPluralLabel": "entries", "acrossAllLabel": "across all models", "noEntriesLabel": "No entries match that model filter yet.", "updatedLabel": "Last updated:", "ctaLabel": "Live Quote Benchmark"}, "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"}, "reviews": {"tag": "Customer Reviews", "h2": "Trusted by Nissan Aprio Owners Across the UK", "rating": {"value": 4.8, "count": 0, "summary": "", "basedOn": ""}, "reviews": [], "leaveReviewCta": {"text": "", "linkText": "Leave a review ->"}}, "variantCoverage": {"tag": "Models We Cover", "h2": "Nissan Aprio Engine Replacement - All Variants Covered", "subheading": "From the economical Base to the high-spec Premium, compare rebuilt, reconditioned and used Nissan Aprio engine prices through our network of UK Nissan Aprio engine specialists - typical price range for a rebuilt unit with 12-month warranty, supply & fit available nationwide.", "groups": [{"title": "Core Petrol Range", "cardSlugs": ["nissan-aprio-base-engine", "nissan-aprio-custom-engine", "nissan-aprio-emotion-engine", "nissan-aprio-convenience-engine"]}, {"title": "Diesel & Premium Range", "cardSlugs": ["nissan-aprio-premium-engine", "nissan-aprio-base-1-5l-engine", "nissan-aprio-custom-vvt-engine", "nissan-aprio-early-model-engine"]}, {"title": "Specialist & Import Variants", "cardSlugs": ["nissan-aprio-imported-2011-engine", "nissan-aprio-low-mileage-engine", "nissan-aprio-vvt-tech-engine", "nissan-aprio-saloon-body-engine"]}], "cards": [{"h3": "Nissan Aprio Base Engine Replacement", "slug": "nissan-aprio-base-engine", "subtitle": "K4M 700 1.6L Petrol ? 105hp ? 2007-2010", "priceRange": "£750-£1,600", "cta": "Compare Base Engine Prices", "engineCodes": ["K4M 700"], "fuel": "Petrol", "power": "105hp", "years": "2007-2010", "image": ""}, {"h3": "Nissan Aprio Custom Engine Replacement", "slug": "nissan-aprio-custom-engine", "subtitle": "HR16DE 1.6L Petrol ? 107hp ? 2007-2010", "priceRange": "£750-£1,600", "cta": "Compare Custom Engine Prices", "engineCodes": ["HR16DE"], "fuel": "Petrol", "power": "107hp", "years": "2007-2010", "image": ""}, {"h3": "Nissan Aprio Emotion Engine Replacement", "slug": "nissan-aprio-emotion-engine", "subtitle": "K4M 800 1.6L Petrol ? 105hp ? 2008-2010", "priceRange": "£800-£1,750", "cta": "Compare Emotion Engine Prices", "engineCodes": ["K4M 800"], "fuel": "Petrol", "power": "105hp", "years": "2008-2010", "image": ""}, {"h3": "Nissan Aprio Convenience Engine Replacement", "slug": "nissan-aprio-convenience-engine", "subtitle": "SR13DE 1.3L Petrol ? 75hp ? 2007-2009", "priceRange": "£700-£1,450", "cta": "Compare Convenience Engine Prices", "engineCodes": ["SR13DE"], "fuel": "Petrol", "power": "75hp", "years": "2007-2009", "image": ""}, {"h3": "Nissan Aprio Premium Engine Replacement", "slug": "nissan-aprio-premium-engine", "subtitle": "K9K 700 1.5L Diesel ? 85hp ? 2008-2010", "priceRange": "£850-£2,400", "cta": "Compare Premium Engine Prices", "engineCodes": ["K9K 700"], "fuel": "Diesel", "power": "85hp", "years": "2008-2010", "image": ""}, {"h3": "Nissan Aprio Base 1.5L Engine Replacement", "slug": "nissan-aprio-base-1-5l-engine", "subtitle": "GA15DE 1.5L Petrol ? 98hp ? 2009-2010", "priceRange": "£750-£1,550", "cta": "Compare Base 1.5L Engine Prices", "engineCodes": ["GA15DE"], "fuel": "Petrol", "power": "98hp", "years": "2009-2010", "image": ""}, {"h3": "Nissan Aprio Custom VVT Engine Replacement", "slug": "nissan-aprio-custom-vvt-engine", "subtitle": "SR15DE 1.5L Petrol ? 105hp ? 2008-2010", "priceRange": "£850-£1,850", "cta": "Compare Custom VVT Engine Prices", "engineCodes": ["SR15DE"], "fuel": "Petrol", "power": "105hp", "years": "2008-2010", "image": ""}, {"h3": "Nissan Aprio Early Model Engine Replacement", "slug": "nissan-aprio-early-model-engine", "subtitle": "QG16DE 1.6L Petrol ? 110hp ? 2007-2008", "priceRange": "£700-£1,500", "cta": "Compare Early Model Engine Prices", "engineCodes": ["QG16DE"], "fuel": "Petrol", "power": "110hp", "years": "2007-2008", "image": ""}, {"h3": "Nissan Aprio Imported 2011+ Engine Replacement", "slug": "nissan-aprio-imported-2011-engine", "subtitle": "HR16DE 1.6L Petrol ? 107hp ? 2011-2014", "priceRange": "£900-£2,100", "cta": "Compare Imported Engine Prices", "engineCodes": ["HR16DE"], "fuel": "Petrol", "power": "107hp", "years": "2011-2014", "image": ""}, {"h3": "Nissan Aprio Low Mileage Engine Replacement", "slug": "nissan-aprio-low-mileage-engine", "subtitle": "K4M 1.6L Petrol ? 105hp ? Verified <80k miles", "priceRange": "£850-£1,750", "cta": "Compare Low Mileage Engine Prices", "engineCodes": ["K4M"], "fuel": "Petrol", "power": "105hp", "years": "", "image": ""}, {"h3": "Nissan Aprio VVT-Tech Engine Replacement", "slug": "nissan-aprio-vvt-tech-engine", "subtitle": "SR13DE VVT 1.3L Petrol ? 75hp ? 2007-2009", "priceRange": "£750-£1,550", "cta": "Compare VVT-Tech Engine Prices", "engineCodes": ["SR13DE VVT"], "fuel": "Petrol", "power": "75hp", "years": "2007-2009", "image": ""}, {"h3": "Nissan Aprio Saloon Body Engine Replacement", "slug": "nissan-aprio-saloon-body-engine", "subtitle": "K4M/HR16DE 1.6L Petrol ? 105-107hp ? 2007-2010", "priceRange": "£750-£1,700", "cta": "Compare Saloon Engine Prices", "engineCodes": ["K4M", "HR16DE"], "fuel": "Petrol", "power": "105-107hp", "years": "2007-2010", "image": ""}], "directory": {"h3": "All Nissan Aprio Variants - Engine Replacement Coverage", "intro": "A full alphabetical listing of every Nissan Aprio trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.", "groups": [{"title": "Petrol Variants", "items": ["Base 1.3L", "Base 1.5L", "Base 1.6L", "Convenience 1.3L", "Convenience 1.6L", "Custom 1.5L", "Custom 1.6L", "Custom VVT 1.5L", "Emotion 1.6L", "Premium 1.6L", "Imported 2011+ 1.6L", "Low Mileage Verified 1.6L", "Saloon Body 1.6L", "VVT-Tech 1.3L"]}, {"title": "Diesel Variants", "items": ["Premium 1.5 dCi", "Custom 1.5 dCi", "Base 1.5 dCi"]}], "label": "Variant Directory"}, "closing": "Not sure which variant your Nissan Aprio is- Enter your registration number above - we'll identify the exact sub-model, engine code and compatible replacement options instantly.", "engineGuide": {"tag": "Engine Codes", "h2": "Nissan Aprio Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Aprio across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "families": [{"name": "Petrol Engines", "entries": [{"code": "K4M 700", "title": "1.6L Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "history": "Renault-sourced 1.6L unit powering most Aprio variants; widely used but prone to timing component wear at higher mileages.", "fuel": "Petrol", "size": "1.6 Litre", "power": "105-107 hp", "years": "2007-2010", "compatibleVariants": ["Base, Custom, Emotion, Premium, Convenience"], "commonFailures": ["Timing chain tensioner wear (60k-90k miles)", "Head gasket failure on overheated units", "Oil consumption on high-mileage examples"], "avgRebuiltPrice": "£750 - £1,600", "cta": "Get quotes for K4M 700 Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HR16DE", "title": "1.6L Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "history": "Nissan's own 1.6L petrol engine; improved oil control over K4M but still susceptible to consumption issues in Aprio fitment.", "fuel": "Petrol", "size": "1.6 Litre", "power": "107-110 hp", "years": "2007-2014", "compatibleVariants": ["Custom, Base, Imported 2011+ models"], "commonFailures": ["Piston ring wear causing oil burn (70k+ miles)", "Fuel rail cracking on early production units", "VVT solenoid clogging in urban-use vehicles"], "avgRebuiltPrice": "£750 - £1,700", "cta": "Get quotes for HR16DE Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "SR13DE", "title": "1.3L Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "history": "Smaller-displacement VVT petrol option for entry-level Aprio trims; less common but sought after for fuel economy.", "fuel": "Petrol", "size": "1.3 Litre", "power": "75-82 hp", "years": "2007-2009", "compatibleVariants": ["Convenience, Base early models"], "commonFailures": ["VVT actuator rattle on cold start", "Timing chain guide wear (50k-80k miles)", "Oil pump pressure loss on neglected units"], "avgRebuiltPrice": "£700 - £1,450", "cta": "Get quotes for SR13DE Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "SR15DE / GA15DE", "title": "1.5L Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "history": "Mid-range 1.5L petrol engines bridging economy and performance; GA15DE found in later Base/Custom variants.", "fuel": "Petrol", "size": "1.5 Litre", "power": "98-105 hp", "years": "2008-2010", "compatibleVariants": ["Base 1.5L, Custom 1.5L, Convenience 1.5L"], "commonFailures": ["Oil pump wear leading to low pressure warnings", "Valve stem seal deterioration (oil burn)", "EGR valve clogging on urban-driven examples"], "avgRebuiltPrice": "£750 - £1,550", "cta": "Get quotes for SR15DE GA15DE Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "QG16DE", "title": "1.6L Early Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "history": "Early-production 1.6L unit found in first-year Aprio models; robust but requires careful maintenance to avoid head gasket issues.", "fuel": "Petrol", "size": "1.6 Litre", "power": "110 hp", "years": "2007-2008", "compatibleVariants": ["Base early, Custom early"], "commonFailures": ["Head gasket failure on overheated units", "Timing belt tensioner wear (replace at 60k miles)", "Water pump leakage causing coolant loss"], "avgRebuiltPrice": "£700 - £1,500", "cta": "Get quotes for QG16DE Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}, {"name": "Diesel Engines", "entries": [{"code": "K9K 700", "title": "1.5L Diesel", "familyHeading": "K9K dCi Diesel (2008-2010)", "history": "Renault-sourced 1.5L dCi diesel; economical and torquey but demands strict servicing to avoid EGR and timing component failures.", "fuel": "Diesel", "size": "1.5 Litre", "power": "85 hp", "years": "2008-2010", "compatibleVariants": ["Premium, Custom dCi, Base dCi"], "commonFailures": ["EGR cooler clogging causing power loss (40k-70k miles)", "Timing belt failure if not replaced at 60k miles", "Crank sensor intermittent faults causing no-start"], "avgRebuiltPrice": "£850 - £2,400", "cta": "Get quotes for K9K 700 Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}]}], "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Aprio engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."}, "headingLines": ["Nissan Aprio Engine Replacement", "All Variants Covered"], "ui": {"fromPriceLabel": "from price", "specsLabel": "Specs", "rebuiltLabel": "Rebuilt", "yearsLabel": "Years", "yearsFallback": "Check exact year coverage by registration"}}, "engineCodes": {"tag": "Engine Codes", "h2": "Nissan Aprio Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Aprio across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "closingLine": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Aprio engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.", "filters": ["Petrol Engines", "Diesel Engines"], "groups": [{"name": "Petrol Engines", "era": "Extracted from detailed petrol and performance engine families across Nissan Aprio variants.", "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.", "engines": [{"code": "K4M 700", "title": "1.6L Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "fuel": "Petrol", "size": "1.6L", "power": "105-107 hp", "compatibleModels": "Base, Custom, Emotion, Premium, Convenience", "avgRebuiltPrice": "£750 - £1,600", "cta": "Get quotes for K4M 700 Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HR16DE", "title": "1.6L Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "fuel": "Petrol", "size": "1.6L", "power": "107-110 hp", "compatibleModels": "Custom, Base, Imported 2011+ models", "avgRebuiltPrice": "£750 - £1,700", "cta": "Get quotes for HR16DE Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "SR13DE", "title": "1.3L Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "fuel": "Petrol", "size": "1.3L", "power": "75-82 hp", "compatibleModels": "Convenience, Base early models", "avgRebuiltPrice": "£700 - £1,450", "cta": "Get quotes for SR13DE Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "SR15DE / GA15DE", "title": "1.5L Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "fuel": "Petrol", "size": "1.5L", "power": "98-105 hp", "compatibleModels": "Base 1.5L, Custom 1.5L, Convenience 1.5L", "avgRebuiltPrice": "£750 - £1,550", "cta": "Get quotes for SR15DE GA15DE Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "QG16DE", "title": "1.6L Early Petrol", "familyHeading": "K-Series & HR-Series Petrol (2007-2014)", "fuel": "Petrol", "size": "1.6L", "power": "110 hp", "compatibleModels": "Base early, Custom early", "avgRebuiltPrice": "£700 - £1,500", "cta": "Get quotes for QG16DE Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}, {"name": "Diesel Engines", "era": "Extracted from detailed diesel engine families across Nissan Aprio variants.", "failureNote": "Main replacement triggers are timing chain wear, EGR / cooling faults and turbo-control issues.", "engines": [{"code": "K9K 700", "title": "1.5L Diesel", "familyHeading": "K9K dCi Diesel (2008-2010)", "fuel": "Diesel", "size": "1.5L", "power": "85 hp", "compatibleModels": "Premium, Custom dCi, Base dCi", "avgRebuiltPrice": "£850 - £2,400", "cta": "Get quotes for K9K 700 Nissan Aprio engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}]}], "headingLines": ["Nissan Aprio Engine Codes", "Full Technical Specifications & Replacement Guide"], "closingAction": {"title": "Can't find your engine code-", "buttonText": "Enter Your Reg"}, "ui": {"summaryPriceLabel": "Avg. rebuilt price", "exampleImageLabel": "Example engine visual", "historyLabel": "Engine History", "variantsLabel": "Compatible Nissan Aprio variants", "specsTitle": "Technical Specifications", "fuelLabel": "Fuel type", "sizeLabel": "Engine size", "powerLabel": "Power output", "yearsLabel": "Years fitted", "failuresTitle": "Common Failures", "supplyLabel": "Supply only"}}, "commonProblems": {"tag": "Common Problems", "h2": "Nissan Aprio Engine Problems - What It Costs to Fix & When Replacement Makes Sense", "h3": "The Nissan Aprio's K4M, HR16DE and K9K engines are generally robust but known for timing component wear, oil consumption and EGR issues at higher mileages. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty. Use the cost comparisons below to decide whether repair or replacement offers better value for your Aprio.", "problems": [{"group": "Timing Chain Stretch", "h4": "Timing Chain Stretch - Why K4M/HR16DE Engines Fail Prematurely", "affectedModels": "Nissan Aprio Base, Custom, Emotion (2007-2010, K4M 700 & HR16DE)", "typicalFailureMileage": "60,000-90,000 miles", "rootCause": "Factory tensioner design allows chain slack under load; combined with infrequent oil changes, this accelerates guide wear and chain stretch.", "repairOptions": [{"tier": "Minor - Preventative Chain Kit Replacement", "dealerPrice": "£800 - £1,400", "specialistPrice": "£500 - £900", "whatItInvolves": "Replace timing chain, tensioner, guides and seals before catastrophic failure", "longevity": "Adds 40k-60k miles if oil changes maintained; only viable before rattling starts"}, {"tier": "Intermediate - Top-End Repair with Chain", "dealerPrice": "£1,200 - £2,200", "specialistPrice": "£750 - £1,400", "whatItInvolves": "Remove cylinder head, replace chain kit, inspect valves, renew gaskets", "longevity": "Suitable if block is sound; may not address underlying oil consumption issues"}, {"tier": "Full Replacement - Rebuilt / Reconditioned Engine", "dealerPrice": "£2,100 - £3,800", "specialistPrice": "£750 - £1,700", "whatItInvolves": "Supply & fit of rebuilt unit with upgraded tensioner, bench-tested, 12-month warranty", "longevity": "Most reliable long-term solution; eliminates risk of repeat failure on original block"}], "recommendation": "On an Aprio valued at £2,500-£4,500, a preventative chain kit replacement at 50k miles offers excellent value. If rattling is already present or the engine has overheated, replacement with a rebuilt unit including upgraded components is the safer, more economical choice long-term.", "cta": "Compare rebuilt K4M HR16DE engine prices for your Nissan Aprio"}, {"group": "Oil Consumption Problem", "h4": "Oil Consumption Problem - HR16DE & K4M Piston Ring Wear", "affectedModels": "Nissan Aprio Custom, Base, Imported (2007-2014, HR16DE & K4M 800)", "typicalFailureMileage": "70,000-110,000 miles", "rootCause": "Piston ring design combined with extended oil-change intervals leads to ring sticking, increased blow-by and measurable oil burn between services.", "repairOptions": [{"tier": "Minor - Decarbonisation & Oil Flush", "dealerPrice": "£300 - £600", "specialistPrice": "£180 - £400", "whatItInvolves": "Chemical decarbonisation, high-detergent oil flush, new spark plugs", "longevity": "May temporarily reduce consumption; not a permanent fix for worn rings"}, {"tier": "Intermediate - Piston Ring Replacement", "dealerPrice": "£1,400 - £2,600", "specialistPrice": "£900 - £1,800", "whatItInvolves": "Remove engine, strip block, replace rings and bearings, reassemble", "longevity": "Viable if cylinder bores are within tolerance; labour-intensive with no warranty on original block"}, {"tier": "Full Replacement - Rebuilt Engine with Upgraded Rings", "dealerPrice": "£2,200 - £4,000", "specialistPrice": "£750 - £1,700", "whatItInvolves": "Supply & fit of rebuilt unit with revised piston rings, bench-tested, 12-month warranty", "longevity": "Best value for high-mileage Aprios; eliminates consumption issue with warranty protection"}], "recommendation": "If your Aprio is burning more than 1L per 1,000 miles and has over 80k miles, ring replacement on the original block is rarely cost-effective. A rebuilt engine with upgraded rings offers better reliability, warranty coverage and often lower total cost when labour is factored in.", "cta": "Get quotes for HR16DE oil consumption fix Nissan Aprio"}, {"group": "Head Gasket Failure", "h4": "Head Gasket Failure - K4M Overheating & Coolant Loss", "affectedModels": "Nissan Aprio Emotion, Premium, Base (2007-2010, K4M 700/800)", "typicalFailureMileage": "80,000-120,000 miles", "rootCause": "Coolant system neglect (old thermostat, failing water pump) leads to overheating; aluminium head warps, gasket fails, coolant mixes with oil.", "repairOptions": [{"tier": "Minor - Gasket Replacement Only", "dealerPrice": "£900 - £1,600", "specialistPrice": "£550 - £1,100", "whatItInvolves": "Remove head, machine surface, fit new gasket, renew coolant", "longevity": "Only suitable if head is not warped and block is undamaged; risk of repeat failure"}, {"tier": "Intermediate - Head Recondition + Gasket", "dealerPrice": "£1,300 - £2,400", "specialistPrice": "£800 - £1,600", "whatItInvolves": "Remove head, professional machining, valve inspection, new gasket and seals", "longevity": "Better longevity if block is sound; still carries risk on high-mileage engines"}, {"tier": "Full Replacement - Rebuilt Engine with Updated Gasket", "dealerPrice": "£2,000 - £3,900", "specialistPrice": "£750 - £1,700", "whatItInvolves": "Supply & fit of rebuilt unit with multi-layer steel gasket, bench-tested, 12-month warranty", "longevity": "Most reliable solution; eliminates risk of warped head or cracked block on original unit"}], "recommendation": "Head gasket failure on a K4M Aprio is often a symptom of broader cooling system neglect. Unless the vehicle is low-mileage and well-documented, replacement with a rebuilt engine including updated gasket technology offers better peace of mind and warranty protection.", "cta": "Compare K4M head gasket replacement costs Nissan Aprio"}, {"group": "EGR Cooler Clogging", "h4": "EGR Cooler Clogging - K9K dCi Diesel Power Loss", "affectedModels": "Nissan Aprio Premium, Custom dCi (2008-2010, K9K 700)", "typicalFailureMileage": "40,000-70,000 miles", "rootCause": "Short-trip urban driving causes soot buildup in EGR cooler; restricted exhaust flow triggers limp mode, increased fuel consumption and potential turbo damage.", "repairOptions": [{"tier": "Minor - EGR Clean & Reset", "dealerPrice": "£250 - £500", "specialistPrice": "£150 - £350", "whatItInvolves": "Remove EGR valve/cooler, ultrasonic clean, reset ECU adaptation", "longevity": "Temporary fix; clogging often returns within 10k miles if driving pattern unchanged"}, {"tier": "Intermediate - EGR Delete (Off-Road Use Only)", "dealerPrice": "£400 - £800", "specialistPrice": "£250 - £550", "whatItInvolves": "Blank EGR valve, remap ECU to ignore faults", "longevity": "Not MoT-compliant for road use; may cause emissions test failure and insurance issues"}, {"tier": "Full Replacement - Rebuilt Engine with EGR Refurb", "dealerPrice": "£2,400 - £4,500", "specialistPrice": "£850 - £2,400", "whatItInvolves": "Supply & fit of rebuilt K9K unit with refurbished EGR system, bench-tested, 12-month warranty", "longevity": "Best solution for road-legal Aprios; ensures MoT compliance and long-term reliability"}], "recommendation": "For road-legal Aprios, EGR cleaning offers only short-term relief. If power loss recurs or the engine has exceeded 60k miles, a rebuilt K9K engine with refurbished emissions components provides better value, compliance and warranty protection.", "cta": "Get quotes for K9K dCi EGR repair Nissan Aprio"}, {"group": "VVT Actuator Failure", "h4": "VVT Actuator Failure - SR13DE/SR15DE Cold-Start Rattle", "affectedModels": "Nissan Aprio Convenience, Custom VVT (2007-2009, SR13DE/SR15DE)", "typicalFailureMileage": "50,000-85,000 miles", "rootCause": "Oil starvation to VVT solenoid due to sludge buildup or infrequent oil changes; actuator sticks, causing timing errors, rattling noise and reduced performance.", "repairOptions": [{"tier": "Minor - VVT Solenoid Replacement", "dealerPrice": "£400 - £750", "specialistPrice": "£250 - £500", "whatItInvolves": "Replace VVT solenoid, flush oil system, reset ECU", "longevity": "Effective if actuator itself is undamaged; may not resolve if internal wear exists"}, {"tier": "Intermediate - Actuator + Solenoid Renewal", "dealerPrice": "£800 - £1,500", "specialistPrice": "£500 - £950", "whatItInvolves": "Replace VVT actuator and solenoid, renew timing components", "longevity": "Suitable if engine is otherwise healthy; labour-intensive on Aprio platform"}, {"tier": "Full Replacement - Rebuilt Engine with Updated VVT", "dealerPrice": "£1,900 - £3,600", "specialistPrice": "£700 - £1,550", "whatItInvolves": "Supply & fit of rebuilt unit with revised VVT components, bench-tested, 12-month warranty", "longevity": "Most reliable for high-mileage or neglected units; eliminates risk of repeat VVT failure"}], "recommendation": "On Aprios under 70k miles with full service history, solenoid replacement often resolves VVT rattle. For higher-mileage or poorly maintained examples, a rebuilt engine with updated VVT components offers better long-term value and warranty coverage.", "cta": "Compare SR13DE VVT repair costs Nissan Aprio"}], "finalCta": {"h4": "Don't Let Engine Failure Write Off Your Nissan Aprio", "paragraph": "The problems above show that while Aprio engines are fundamentally sound, neglect or age can lead to costly failures. EngineMarket makes it simple to compare prices from trusted UK Nissan Aprio specialists who supply rebuilt, reconditioned and used engines with upgraded components addressing the original failure point. Every unit includes a minimum 12-month unlimited mileage warranty and nationwide delivery options. Compare quotes today and get your Aprio back on the road without the main dealer premium.", "buttonText": "Compare Nissan Aprio Engine Replacement Prices Now →", "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket's UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Aprio and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."}}, "engineTypes": {"tag": "Replacement Engine Options", "h2": "Nissan Aprio Engine Types - Options, Costs & What to Expect", "intro": "Every engine type for the Nissan Aprio is available through our UK network with typical price ranges based on variant, engine code and budget.", "types": [{"title": "Nissan Aprio Reconditioned Engines (Recon)", "description": "Professionally cleaned, inspected and rebuilt with new gaskets, seals and worn parts replaced to restore like-new performance.", "frontDescription": "Professionally cleaned, inspected and rebuilt with new gaskets, seals and worn parts replaced to restore like-new performance.", "frontDisclaimer": "Prices vary by engine code, mileage and supplier location.", "backDescription": "Reconditioned Aprio engines undergo strip-down, cleaning, measurement and replacement of worn components. Ideal for Aprios with solid blocks but tired internals.", "backBullets": ["Includes new gaskets, seals, timing components", "Bench-tested before dispatch with compression report", "12-month warranty standard across UK supplier network"], "priceRange": "£750 - £1,700 (supply only)", "cta": "Compare reconditioned Nissan Aprio engine prices"}, {"title": "Nissan Aprio Rebuilt Engines", "description": "Comprehensive rebuild with upgraded parts addressing known failure points like timing tensioners and piston rings for improved longevity.", "frontDescription": "Comprehensive rebuild with upgraded parts addressing known failure points like timing tensioners and piston rings for improved longevity.", "frontDisclaimer": "Upgrades vary by supplier; confirm specification before ordering.", "backDescription": "Rebuilt Aprio engines feature upgraded components targeting common failures. Best choice for high-mileage or problem-prone units needing long-term reliability.", "backBullets": ["Upgraded timing tensioners, revised piston rings where applicable", "Full machining of block and head to factory tolerances", "12-month unlimited mileage warranty with UK specialist support"], "priceRange": "£800 - £1,850 (supply only)", "cta": "Get rebuilt Nissan Aprio engine quotes"}, {"title": "Nissan Aprio Used Engines", "description": "Low-mileage donor engines from written-off or scrapped Aprios; cost-effective solution when budget is the primary concern.", "frontDescription": "Low-mileage donor engines from written-off or scrapped Aprios; cost-effective solution when budget is the primary concern.", "frontDisclaimer": "Mileage and condition vary; request compression test report before purchase.", "backDescription": "Used Aprio engines offer the lowest upfront cost but carry higher uncertainty. Always verify mileage, request a compression test and confirm warranty terms.", "backBullets": ["Source from UK breakers with verified mileage where possible", "Request pre-dispatch compression and leak-down test reports", "Minimum 3-month warranty typical; upgrade options may be available"], "priceRange": "£450 - £1,200 (supply only)", "cta": "Check used Nissan Aprio engine availability"}, {"title": "Nissan Aprio Remanufactured Engines", "description": "Factory-spec remanufacturing with all components renewed or replaced to original tolerances; closest to brand-new engine quality.", "frontDescription": "Factory-spec remanufacturing with all components renewed or replaced to original tolerances; closest to brand-new engine quality.", "frontDisclaimer": "Lead times may be longer; confirm availability for your engine code.", "backDescription": "Remanufactured Aprio engines are rebuilt to original factory specifications with all critical components renewed. Ideal for enthusiasts or high-value imports.", "backBullets": ["All bearings, seals, gaskets and wear items replaced new", "Block and head machined to OEM tolerances with certification", "12-24 month warranty options; bench-tested with full documentation"], "priceRange": "£1,200 - £2,600 (supply only)", "cta": "Compare remanufactured Nissan Aprio engine costs"}, {"title": "Nissan Aprio Refurbished Engines", "description": "Targeted refurbishment addressing specific known issues like oil consumption or timing wear without full strip-down.", "frontDescription": "Targeted refurbishment addressing specific known issues like oil consumption or timing wear without full strip-down.", "frontDisclaimer": "Scope varies by supplier; confirm which components are renewed before ordering.", "backDescription": "Refurbished Aprio engines focus on fixing the specific failure you're experiencing, offering a middle-ground between used and fully rebuilt options.", "backBullets": ["Addresses your specific issue: rings, timing, EGR or VVT as needed", "Less invasive than full rebuild; faster turnaround typically", "6-12 month warranty depending on work scope and supplier"], "priceRange": "£650 - £1,450 (supply only)", "cta": "View refurbished Nissan Aprio engine options"}, {"title": "Nissan Aprio Supply & Fit Engines", "description": "Complete engine replacement service including delivery, fitting, fluids and post-installation checks at a vetted UK garage near you.", "frontDescription": "Complete engine replacement service including delivery, fitting, fluids and post-installation checks at a vetted UK garage near you.", "frontDisclaimer": "Labour costs vary by region and garage; get itemised quotes before booking.", "backDescription": "Supply & fit for Aprio engines removes DIY complexity. Our network garages handle removal, installation, ECU adaptation and post-fit testing.", "backBullets": ["Includes engine delivery, fitting, fluids and initial run-in", "Garage handles ECU adaptation, immobiliser sync and road test", "Single-point warranty coverage for parts and labour where offered"], "priceRange": "£400 - £850 added to engine price", "cta": "Find Nissan Aprio engine supply & fit deals"}], "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Aprio within hours.", "headingLines": ["Nissan Aprio Engine Types", "Options, Costs & What to Expect"], "ui": {"priceLabel": "Typical price range", "frontActionLabel": "What is it-", "backActionLabel": "Flip back"}, "closingCard": {"label": "Engine Replacement Help", "title": "Compare Nissan Aprio engine prices with vetted UK suppliers", "buttonText": "Compare Nissan Aprio Prices"}}, "engineSizes": {"tag": "Engine Sizes", "h2": "Nissan Aprio Engines by Size - Find the Right Displacement for Your Variant", "intro": "Every displacement fitted to the Nissan Aprio is listed below with compatible engine codes, production years and common failure notes to help you identify the right replacement.", "groups": [{"title": "Nissan Aprio Petrol Engine Sizes", "items": [{"title": "Nissan Aprio 1.3L Petrol Engines", "description": "The 1.3L SR13DE petrol engine powered entry-level Aprio Convenience and early Base variants from 2007-2009. This compact VVT unit prioritised fuel economy and urban drivability, though its smaller displacement means it works harder under load, contributing to timing component wear on high-mileage examples.", "engineCodes": ["SR13DE", "SR13DE VVT"], "compatibleModels": ["Convenience (2007-2009)", "Base early"], "productionYears": "2007-2008", "commonFailurePoints": ["VVT actuator rattle on cold start", "timing chain guide wear at 50k-80k miles"], "cta": "Compare Nissan Aprio 1.3L petrol engine prices"}, {"title": "Nissan Aprio 1.5L Petrol Engines", "description": "The 1.5L GA15DE and SR15DE petrol engines offered a balance of economy and performance for mid-spec Aprio trims from 2008-2010. These units feature VVT technology for improved response but require strict oil-change intervals to prevent sludge-related VVT solenoid issues.", "engineCodes": ["GA15DE", "SR15DE", "SR15DE VVT"], "compatibleModels": ["Base 1.5L (2009-2010)", "Custom 1.5L"], "productionYears": "2008-2010", "commonFailurePoints": ["Oil pump wear causing low-pressure warnings", "valve stem seal deterioration"], "cta": "Compare Nissan Aprio 1.5L petrol engine prices"}, {"title": "Nissan Aprio 1.6L Petrol Engines", "description": "The 1.6L K4M and HR16DE petrol engines are the most common Aprio powerplants, fitted across Base, Custom, Emotion and Premium trims from 2007-2014. Robust when maintained, but timing chain tensioner design and piston ring specifications mean oil quality and change intervals are critical to longevity.", "engineCodes": ["K4M 700", "K4M 800", "HR16DE", "QG16DE"], "compatibleModels": ["Base", "Custom", "Emotion", "Premium", "Imported 2011+"], "productionYears": "2007-2014", "commonFailurePoints": ["Timing chain stretch at 60k-90k miles", "oil consumption on high-mileage HR16DE units"], "cta": "Compare Nissan Aprio 1.6L petrol engine prices"}]}, {"title": "Nissan Aprio Diesel Engine Sizes", "items": [{"title": "Nissan Aprio 1.5L Diesel Engines", "description": "The 1.5L K9K dCi diesel engine powered Premium and select Custom/Base variants from 2008-2010. Offering strong torque and excellent fuel economy, this Renault-sourced unit demands strict adherence to timing belt intervals and regular EGR system cleaning to avoid power loss and MoT emissions failures.", "engineCodes": ["K9K 700", "K9K 800"], "compatibleModels": ["Premium dCi (2008-2010)", "Custom dCi", "Base dCi"], "productionYears": "", "commonFailurePoints": ["EGR cooler clogging at 40k-70k miles", "timing belt failure if not replaced at 60k miles"], "cta": "Get quotes for Nissan Aprio 1.5L diesel engines"}]}], "closing": "Not sure which engine size your Nissan Aprio needs- Enter your registration number above - we'll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Aprio specialists.", "headingLines": ["Nissan Aprio Engines by Size", "Find the Right Displacement for Your Variant"], "ui": {"swapLabel": "Swap panel", "engineCodesLabel": "Engine Code(s)", "compatibleModelsLabel": "Compatible Models (UK)", "productionYearsLabel": "Production Years", "warningLabel": "Common Failure Points", "warningTitle": "Watch for these known weak points", "helperLabel": "Engine Size Advice", "helperTitle": "Need help matching the exact engine size-", "helperButtonText": "Find My Engine"}}, "fuelTypes": {"tag": "Fuel Type", "h2": "Nissan Aprio Engines by Fuel Type", "intro": "Choose your Nissan Aprio engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early 1.3L petrol to the economical 1.5L dCi diesel.", "items": [{"title": "Nissan Aprio Petrol Engines", "description": "Petrol engines dominate the Aprio range, with 1.3L, 1.5L and 1.6L units covering all trims from Base to Premium across 2007-2014 production.", "descriptor": "Petrol engines dominate the Aprio range, with 1.3L, 1.5L and 1.6L units covering all trims from Base to Premium across 2007-2014 production.", "familiesLabel": "Common Nissan Aprio Petrol Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Petrol Models", "notesLabel": "", "families": ["K4M 700/800 - most common 1.6L unit (Base/Custom/Emotion), timing chain tensioner wear", "HR16DE - Nissan's own 1.6L, improved oil control but piston ring consumption issues", "SR13DE/SR15DE - smaller VVT petrols (Convenience), VVT actuator rattle on cold start", "QG16DE - early-production 1.6L, head gasket sensitivity if overheated"], "foundIn": ["Base, Custom, Emotion, Convenience, Premium trims (2007-2014) - K4M, HR16DE dominant", "Early Base/Custom (2007-2008) - QG16DE, SR13DE"], "knownFor": ["Strong parts availability via Renault/Nissan networks", "Timing component wear if oil changes neglected beyond 10k miles", "Oil consumption on high-mileage HR16DE units (70k+ miles)", "Good fuel economy when maintained; VVT variants responsive in urban use"], "typicalModels": ["Base 1.6L", "Custom 1.6L", "Emotion 1.6L", "Convenience 1.3L", "Premium 1.6L"], "importantNotes": [], "cta": "Compare Nissan Aprio Petrol engine prices"}, {"title": "Nissan Aprio Diesel Engines", "description": "The 1.5L K9K dCi diesel powered Premium and select trims from 2008-2010, offering strong torque and economy but requiring strict servicing to avoid emissions-related failures.", "descriptor": "The 1.5L K9K dCi diesel powered Premium and select trims from 2008-2010, offering strong torque and economy but requiring strict servicing to avoid emissions-related failures.", "familiesLabel": "Common Nissan Aprio Diesel Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Diesel Models", "notesLabel": "", "families": ["K9K 700 - 1.5L dCi (Premium/Custom dCi), EGR cooler clogging at 40k-70k miles", "K9K 800 - revised variant with improved EGR calibration, still requires belt changes at 60k miles"], "foundIn": ["Premium dCi (2008-2010) - primary diesel application", "Custom dCi, Base dCi (limited availability) - same K9K family"], "knownFor": ["Excellent fuel economy (50-60 MPG achievable with careful driving)", "EGR system clogging on short-trip urban use causing power loss", "Timing belt must be replaced at 60k miles or 5 years to avoid catastrophic failure", "Strong low-end torque ideal for loaded driving but demands quality diesel fuel"], "typicalModels": ["Premium 1.5 dCi", "Custom 1.5 dCi", "Base 1.5 dCi (imported examples)"], "importantNotes": [], "cta": "Get quotes for Nissan Aprio Diesel replacement engines"}], "closing": "Not sure which fuel type your Nissan Aprio has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Aprio specialists.", "headingLines": ["Nissan Aprio Engines by Fuel Type"], "ui": {"swapLabel": "Swap panel", "familiesLabel": "Common Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Models (UK)", "notesLabel": "Important Notes", "closingButtonText": "Find my engine", "emptyStateTitle": "Fuel type guidance", "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."}}, "engineYears": {"tag": "Engine Years", "h2": "Nissan Aprio Engines by Year - What Was Fitted & When", "intro": "This section covers all major engine changes across the Nissan Aprio's 2007-2014 UK availability, organised so owners can quickly identify their engine and compare rebuilt prices from UK specialists.", "jumpLabel": "Jump to model year", "years": [{"year": "2007", "preview": "Launch Year: QG16DE & SR13DE Debut", "description": "The Aprio launched in the UK as a grey import with two petrol options: the 1.6L QG16DE for Base/Custom and the 1.3L SR13DE for Convenience trim.", "keyChanges": ["First UK availability of Nissan Aprio saloon via grey import channels", "QG16DE 1.6L petrol fitted to Base and Custom trims", "SR13DE 1.3L VVT petrol introduced for entry-level Convenience variant", "All units right-hand drive converted for UK market compliance"], "mainEngines": ["QG16DE - 1.6L petrol (Base / Custom early)", "SR13DE - 1.3L petrol VVT (Convenience)"], "popularModels": ["Nissan Aprio Base", "Nissan Aprio Custom", "Nissan Aprio Convenience"], "knownFor": ["QG16DE robust but sensitive to overheating; head gasket a known weak point", "SR13DE economical but VVT actuator rattle reported on cold starts after 50k miles", "Early imports required careful verification of conversion quality and MoT compliance"], "engineCodesCovered": ["QG16DE", "SR13DE"], "cta": "Get quotes for 2007 Nissan Aprio replacement engines", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "Nissan Aprio 2007 engine replacement • QG16DE head gasket cost • SR13DE VVT actuator fix", "enquiries": ["Nissan Aprio 2007 engine replacement", "QG16DE head gasket cost", "SR13DE VVT actuator fix"]}, {"year": "2008-2009", "preview": "K4M & HR16DE Become Standard", "description": "Renault-sourced K4M and Nissan's HR16DE replaced earlier engines as the dominant 1.6L units, while the K9K dCi diesel debuted in Premium trim.", "keyChanges": ["K4M 700 1.6L petrol introduced across Base, Custom and Emotion trims", "HR16DE 1.6L petrol fitted to later Custom and imported examples", "K9K 700 1.5L dCi diesel launched exclusively in Premium trim", "Minor interior updates and improved sound insulation on 2009 models"], "mainEngines": ["K4M 700 - 1.6L petrol (Base / Custom / Emotion)", "HR16DE - 1.6L petrol (Custom late / imported)", "K9K 700 - 1.5L diesel (Premium)", "SR15DE - 1.5L petrol VVT (Custom 1.5L option)"], "popularModels": ["Nissan Aprio Base 1.6L", "Nissan Aprio Custom 1.6L", "Nissan Aprio Emotion", "Nissan Aprio Premium dCi"], "knownFor": ["K4M timing chain tensioner wear emerges as common issue at 60k-90k miles", "HR16DE shows improved oil control but piston ring consumption on high-mileage units", "K9K dCi delivers strong economy but EGR clogging on urban-driven examples", "2009 models benefit from minor cooling system improvements over 2008"], "engineCodesCovered": ["K4M 700", "HR16DE", "K9K 700", "SR15DE"], "cta": "Compare Nissan Aprio 2008-2009 engine prices", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "Aprio K4M timing chain cost • HR16DE oil consumption fix • K9K EGR cleaner replacement", "enquiries": ["Aprio K4M timing chain cost", "HR16DE oil consumption fix", "K9K EGR cleaner replacement"]}, {"year": "2010", "preview": "Final Main Production Year: K4M 800 Refinement", "description": "The last full year of mainstream Aprio production saw the K4M 800 revision with minor updates to address earlier oil consumption concerns.", "keyChanges": ["K4M 800 revision introduced with updated piston rings and oil control", "HR16DE continued alongside K4M for Custom and imported examples", "K9K dCi remained exclusive to Premium trim with no major changes", "Production wound down in Brazil as focus shifted to newer platforms"], "mainEngines": ["K4M 800 - 1.6L petrol revised (Base / Custom / Emotion late)", "HR16DE - 1.6L petrol (Custom / imported)", "K9K 700 - 1.5L diesel (Premium)"], "popularModels": ["Nissan Aprio Base 2010", "Nissan Aprio Custom 2010", "Nissan Aprio Premium dCi 2010"], "knownFor": ["K4M 800 shows modest improvement in oil consumption over 700 variant", "HR16DE remains reliable with strict oil changes; VVT solenoid clogging on neglected units", "K9K dCi timing belt critical at 60k miles; failure causes catastrophic engine damage", "2010 models often represent best value for used Aprio purchases today"], "engineCodesCovered": ["K4M 800", "HR16DE", "K9K 700"], "cta": "Get quotes for 2010 Nissan Aprio replacement engines", "badges": [{"label": "Major Engine Changes", "tone": "accent"}, {"label": "3 engine highlights", "tone": "muted"}], "ticker": "Aprio 2010 engine replacement • K4M 800 vs 700 difference • K9K timing belt interval", "enquiries": ["Aprio 2010 engine replacement", "K4M 800 vs 700 difference", "K9K timing belt interval"]}, {"year": "2011-2014", "preview": "Limited Imports: HR16DE Dominates", "description": "Post-2010 Aprios reached the UK only via limited grey imports, predominantly featuring the HR16DE 1.6L petrol with minor calibration updates.", "keyChanges": ["HR16DE became the dominant engine for late-imported Aprio examples", "Minor ECU calibration updates for emissions compliance on 2012+ imports", "No diesel variants officially imported post-2010; petrol-only availability", "Parts availability remains good via Renault/Nissan networks despite low UK volumes"], "mainEngines": ["HR16DE - 1.6L petrol (all imported trims)", "K4M 800 - 1.6L petrol (limited late imports)"], "popularModels": ["Nissan Aprio Imported Custom 1.6L", "Nissan Aprio Imported Base 1.6L"], "knownFor": ["HR16DE in late imports benefits from minor oil-control refinements", "Timing chain still requires attention at 70k+ miles if oil changes neglected", "Imported examples require careful verification of service history and conversion quality", "Lower UK registration numbers mean fewer donor engines but good parts cross-compatibility"], "engineCodesCovered": ["HR16DE", "K4M 800"], "cta": "Enquire about 2011-2014 Nissan Aprio imported engine availability", "badges": [{"label": "Technology Change", "tone": "accent"}], "enquiries": []}], "closing": "Not sure which year your Nissan Aprio was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Aprio specialists.", "headingLines": ["Nissan Aprio Engines by Year", "What Was Fitted & When"], "ui": {"keyChangesLabel": "Key Changes", "knownForLabel": "Known For", "mainEnginesLabel": "Main Engines", "popularModelsLabel": "Popular Models", "engineCodesLabel": "Engine Codes Covered", "enquiriesLabel": "Common Replacement Enquiries"}, "summaryCta": {"label": "Year Finder", "title": "Not sure which year your Nissan Aprio was built-", "buttonText": "Find My Engine"}}, "faq": {"tag": "FAQ", "h2": "Nissan Aprio Engine Replacement - Frequently Asked Questions", "intro": "", "items": [{"question": "How much does a Nissan Aprio engine replacement cost in the UK-", "answer": "A rebuilt Nissan Aprio engine typically costs £750-£1,700 supply-only, with supply & fit adding £400-£850 labour. Used engines start around £450 but carry higher risk; remanufactured units reach £2,600 for factory-spec quality.", "keyPoints": ["Rebuilt K4M/HR16DE petrol: £750-£1,700 supply-only", "Rebuilt K9K diesel: £850-£2,400 due to emissions components", "Supply & fit labour adds £400-£850 depending on garage location", "Used engines cheaper upfront but request compression test before buying"], "cta": "Compare rebuilt Nissan Aprio engine prices UK"}, {"question": "What engine codes are compatible with my Nissan Aprio-", "answer": "Common Aprio engine codes include K4M 700/800, HR16DE (1.6L petrol), K9K 700 (1.5L diesel), and SR13DE/SR15DE (1.3L/1.5L VVT petrol). Enter your registration to verify exact compatibility.", "keyPoints": ["K4M and HR16DE dominate 1.6L petrol applications across most trims", "K9K 700 is the sole diesel option, fitted to Premium dCi models", "SR13DE/SR15DE power smaller-displacement Convenience and early Base variants", "DVLA lookup via registration confirms exact engine code for your vehicle"], "cta": "Verify your Nissan Aprio engine code instantly"}, {"question": "How long does it take to replace a Nissan Aprio engine-", "answer": "A professional supply & fit engine replacement typically takes 1-2 days labour, plus 1-3 days for engine delivery depending on stock availability and your location within the UK.", "keyPoints": ["Removal and refit labour: 8-14 hours depending on garage experience", "ECU adaptation and road test add 1-2 hours post-installation", "Engine delivery: 1-3 days for in-stock rebuilt units from UK suppliers", "Allow 3-5 working days total from order to collection for planning purposes"], "cta": "Get a timeline estimate for your Nissan Aprio engine replacement"}, {"question": "Does a replacement Nissan Aprio engine come with a warranty-", "answer": "Yes - every rebuilt, reconditioned or remanufactured engine supplied through EngineMarket includes a minimum 12-month unlimited mileage warranty from UK specialists. Used engines typically carry 3-6 months.", "keyPoints": ["12-month unlimited mileage warranty standard on rebuilt/recon units", "Warranty covers mechanical failure of supplied components, not labour for refit", "Used engines: 3-6 months typical; request written terms before purchase", "Keep all service records post-installation to maintain warranty validity"], "cta": "Compare warranty terms for Nissan Aprio engine suppliers"}, {"question": "Can I fit a Nissan Aprio engine myself or do I need a specialist-", "answer": "While mechanically confident DIYers can undertake an Aprio engine swap, professional fitting is recommended due to ECU adaptation, immobiliser sync and MoT emissions compliance requirements.", "keyPoints": ["Aprio engine removal/refit requires specialist tools and lifting equipment", "ECU adaptation and immobiliser sync often need dealer-level diagnostic equipment", "MoT emissions testing post-replacement requires certified garage documentation", "Supply-only engines available for DIY; supply & fit bundles simplify the process"], "cta": "Find Nissan Aprio engine supply & fit specialists near you"}, {"question": "Will a replacement engine affect my Nissan Aprio insurance-", "answer": "You must declare an engine replacement to your insurer, but a like-for-like rebuilt unit typically has minimal impact on premiums if the engine code and specifications match the original.", "keyPoints": ["Declare the replacement to your insurer to avoid policy invalidation", "Like-for-like rebuilt engines (same code, same specs) rarely increase premiums", "Keep documentation of the replacement engine and warranty for claims purposes", "Modified engines (different displacement, performance upgrades) may affect cover"], "cta": "Get quotes for compliant Nissan Aprio engine replacement"}, {"question": "How do I know if my Nissan Aprio needs a full engine replacement or just a repair-", "answer": "If the engine has suffered catastrophic failure (seized, thrown rod, major overheating damage) or has over 100k miles with multiple issues, replacement is usually more economical than repair.", "keyPoints": ["Minor issues (sensor failure, small leaks) often warrant repair over replacement", "Major failures (timing chain snap, head gasket with warped head) favour replacement", "High-mileage engines (>100k) with multiple wear issues: replacement offers better value", "Get a professional diagnostic assessment before deciding on repair vs replace"], "cta": "Get a specialist assessment for your Nissan Aprio engine"}, {"question": "Are used Nissan Aprio engines reliable-", "answer": "Used Aprio engines can be reliable if sourced from low-mileage, well-maintained donors with verified service history and a pre-dispatch compression test report.", "keyPoints": ["Request compression and leak-down test reports before purchasing any used engine", "Verify mileage via service records or MOT history where possible", "Prefer UK-sourced donors for easier verification and lower transport risk", "Ensure the supplier offers at least a 3-month warranty on used units"], "cta": "Check verified used Nissan Aprio engine availability"}, {"question": "What is the difference between reconditioned, rebuilt, and remanufactured Nissan Aprio engines-", "answer": "Reconditioned engines have worn parts replaced; rebuilt engines include upgrades addressing known failure points; remanufactured units are restored to factory specifications with all critical components renewed.", "keyPoints": ["Reconditioned: cleaned, inspected, worn parts replaced; good value option", "Rebuilt: includes upgrades for known issues (tensioners, rings); best balance of cost/reliability", "Remanufactured: factory-spec rebuild with certification; premium option for enthusiasts", "All three types available through EngineMarket with 12-month warranty standard"], "cta": "Compare reconditioned vs rebuilt Nissan Aprio engine options"}, {"question": "How do I prepare my Nissan Aprio for engine replacement-", "answer": "Before engine replacement, drain fluids, disconnect the battery, and remove personal items from the vehicle. Provide your supplier with the VIN and engine code for compatibility verification.", "keyPoints": ["Drain engine oil and coolant to reduce weight and spill risk during removal", "Disconnect battery and remove valuables/personal items from the vehicle", "Provide VIN and current engine code to your supplier for exact compatibility check", "Arrange alternative transport as the vehicle will be off-road for 1-3 days typically"], "cta": "Start your Nissan Aprio engine replacement quote today"}], "headingLines": ["Nissan Aprio Engine Replacement", "Frequently Asked Questions"], "defaultOpenIndex": 0, "ui": {"questionLabelPrefix": "Question", "keyPointsLabel": "Key points", "warningTitle": "Check fitment and engine condition before ordering"}}, "trustCta": {"tag": "Why Choose Us", "h2": "Why UK Nissan Aprio Owners Trust EngineMarket", "intro": "Join thousands of UK drivers who compare Nissan Aprio engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.", "points": [{"title": "Trusted Nissan Aprio Engine Suppliers", "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Aprio owners."}, {"title": "Compare Nissan Aprio Engine Replacement Companies", "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."}, {"title": "UK Engine Replacement Services for Nissan Aprio", "description": "Covering every variant from budget Base to Premium dCi, with supply-only or full supply & fit available nationwide."}], "finalText": "Find the best Nissan Aprio engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.", "buttonText": "Compare Nissan Aprio Engine Prices Now →", "secondaryAction": {"text": "Call Our Experts", "href": "tel:03330000044"}, "imageAlt": "Nissan Aprio vehicle", "ui": {"pointLabel": "Included", "stripLabel": "Trusted UK Engine Marketplace", "stripTitle": "Compare Nissan Aprio engine prices with vetted UK specialists", "trustBullets": ["100% Free", "No Obligation", "Fast & secure process", "UK-based support"], "imageBadgeLabel": "Trusted supplier network", "imageBadgeTitle": "Warranty-backed rebuilt & used options", "imageBadgeText": "Every quote checked for fitment, quality and lead time."}}}}
+{
+  "brand": {
+    "name": "Nissan",
+    "slug": "nissan",
+    "tone": "premium"
+  },
+  "model": {
+    "name": "Nissan Aprio",
+    "slug": "aprio",
+    "legacySlug": "nissan-aprio"
+  },
+  "seo": {
+    "title": "Nissan Aprio Engine Replacement - Compare Prices UK",
+    "description": "Nissan Aprio engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £750. 12-month warranty & UK supply fit specialists.",
+    "canonical": "/nissan/aprio"
+  },
+  "assets": {
+    "mainImage": "/images/brands/nissan/models/nissan-pino-model-card.png",
+    "smallImage": "/images/brands/nissan/models/nissan-pino-model-card.png",
+    "heroBg": "/images/brands/nissan/models/nissan-pino-model-card.png",
+    "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp",
+    "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp",
+    "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp",
+    "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp",
+    "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp",
+    "ctaImage": "/images/brands/nissan/models/nissan-pino-model-card.png"
+  },
+  "sections": {
+    "hero": {
+      "tag": "NISSAN ENGINE MARKETPLACE",
+      "h1": "Nissan Aprio Engine Replacement - Compare Prices & Save",
+      "subheading": "Get quotes today from trusted UK Nissan Aprio engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available nationwide.",
+      "trustBadges": [
+        "Supply & Fit Available",
+        "12-Month Warranty",
+        "Nationwide Delivery",
+        "100+ Suppliers"
+      ],
+      "ctaLinkText": "Get Free Nissan Aprio Engine Quotes →",
+      "supportingText": "Get tailored Nissan Aprio engine quotes from vetted UK specialists.",
+      "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network",
+      "form": {
+        "heading": "Find Your Nissan Aprio Engine",
+        "subtitle": "Enter your registration number to compare Nissan Aprio engine options.",
+        "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)",
+        "buttonText": "Get Free Nissan Aprio Engine Quotes →",
+        "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Nissan Aprio specialists."
+      },
+      "imageAlt": "Nissan Aprio engine replacement UK - compare reconditioned and rebuilt engine prices",
+      "highlights": [
+        {
+          "title": "Aprio Diesel Engines",
+          "price": "from £850 to £2,400",
+          "line1": "Aprio Diesel Engines - from £850 to £2,400",
+          "line2": "-> Rebuilt units from £850 · Common codes: K9K 700, K9K 800, K4M 700",
+          "detail": "-> Rebuilt units from £850 · Common codes: K9K 700, K9K 800, K4M 700",
+          "image": "",
+          "imageAlt": "Nissan Aprio diesel engine replacement - K9K K4M rebuilt reconditioned UK"
+        },
+        {
+          "title": "Aprio Petrol Engines",
+          "price": "from £750 to £2,100",
+          "line1": "Aprio Petrol Engines - from £750 to £2,100",
+          "line2": "-> Rebuilt units from £750 · Common codes: K4M 700, HR16DE, QG16DE",
+          "detail": "-> Rebuilt units from £750 · Common codes: K4M 700, HR16DE, QG16DE",
+          "image": "",
+          "imageAlt": "Nissan Aprio petrol engine replacement - K4M HR16DE rebuilt reconditioned UK"
+        },
+        {
+          "title": "Aprio VVT Engines",
+          "price": "from £950 to £2,600",
+          "line1": "Aprio VVT Engines - from £950 to £2,600",
+          "line2": "-> Rebuilt units from £950 · Common codes: SR13DE, SR15DE, GA15DE",
+          "detail": "-> Rebuilt units from £950 · Common codes: SR13DE, SR15DE, GA15DE",
+          "image": "",
+          "imageAlt": "Nissan Aprio VVT engine replacement - SR13DE SR15DE rebuilt reconditioned UK specialist"
+        }
+      ],
+      "headingLines": [
+        "Nissan Aprio Engine Replacement",
+        "Compare Prices & Save"
+      ],
+      "mobileBar": {
+        "brandText": "ENGINEMARKET",
+        "callLabel": "Call",
+        "quoteLabel": "GET QUOTES"
+      },
+      "registrationInput": {
+        "label": "Enter your vehicle registration",
+        "platePlaceholder": "AB12 CDE",
+        "countryCode": "UK",
+        "countryLabel": "United Kingdom"
+      }
+    },
+    "howItWorks": {
+      "tag": "How It Works",
+      "h2": "3 Simple Steps to Finding the Best Nissan Aprio Replacement Engine",
+      "cards": [
+        {
+          "number": 1,
+          "icon": "registration",
+          "front": {
+            "h3": "Enter Your Nissan Aprio Registration",
+            "text": "Instantly verify your exact model, engine code and fuel type via DVLA - Base to Premium."
+          },
+          "back": {
+            "heading": "Your Car, Precisely Identified",
+            "text": "Engines Market uses the official DVLA database to pull accurate details about your Aprio, not just model name.",
+            "bullets": [
+              "Your Precise Model - from Base, Custom, Emotion, Convenience to Premium",
+              "Your Engine Code - K4M, HR16DE, K9K and more",
+              "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly",
+              "No paperwork, no guesswork, 100% free."
+            ]
+          }
+        },
+        {
+          "number": 2,
+          "icon": "quote",
+          "front": {
+            "h3": "Get Quotes from Nissan Engine Specialists",
+            "text": "Same-day quotes from vetted UK suppliers - full breakdown, no obligation."
+          },
+          "back": {
+            "heading": "Quotes You Can Trust",
+            "text": "Your verified details are securely shared with up to 10 of our most relevant UK suppliers, matched to your variant and location.",
+            "bullets": [
+              "Vetted UK Suppliers - specialists who understand Nissan diesel and petrol engines",
+              "Same-Day Quotes - usually within hours, not days",
+              "Supply & Fit Service - or supply-only to your own garage",
+              "Full Breakdown - price, warranty length, delivery estimate and fitting cost all shown clearly",
+              "No hidden fees. No sales calls unless you approve."
+            ]
+          }
+        },
+        {
+          "number": 3,
+          "icon": "shield",
+          "front": {
+            "h3": "Choose the Best Deal & Save",
+            "text": "Compare supplier reviews, warranty and price - then pick the right one for you."
+          },
+          "back": {
+            "heading": "Your Choice, Your Control",
+            "text": "You decide which specialist to go with. We simply make the search fast, safe and transparent.",
+            "bullets": [
+              "Online Reviews - read real customer feedback",
+              "Warranty Length - minimum 12 months, often 24 months on rebuilt units",
+              "Terms of Service - including collection, fitting and aftercare",
+              "Technical Expertise - see each supplier's Nissan experience",
+              "You deal directly with your chosen provider. No pressure, no commitment until you're ready."
+            ]
+          }
+        }
+      ],
+      "tagline": "",
+      "headingLines": [
+        "3 Simple Steps",
+        "to Finding the Best Nissan Aprio Replacement Engine"
+      ],
+      "ui": {
+        "stepLabel": "Step",
+        "desktopClosedLabel": "Click to expand",
+        "desktopOpenLabel": "Click to view details",
+        "mobileOpenLabel": "Tap to flip",
+        "mobileCloseLabel": "Tap to flip back",
+        "footerNote": "Most replacements completed within 3-5 days.",
+        "mobileTrustItems": [
+          "12-Month Warranty",
+          "Supply & Fit Available",
+          "Nationwide Delivery",
+          "Trusted UK Suppliers"
+        ]
+      }
+    },
+    "liveMarketPrices": {
+      "tag": "Live UK Engine Market Data",
+      "h2": "What Are UK Drivers Paying for Nissan Aprio Engine Replacement-",
+      "h3": "The table below shows typical UK rebuilt engine costs across Nissan Aprio variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.",
+      "introBullets": [
+        {
+          "label": "Live market context",
+          "text": "See realistic rebuilt-engine quote ranges across documented Nissan Aprio variants."
+        },
+        {
+          "label": "Variant specific",
+          "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."
+        },
+        {
+          "label": "Specialist pricing",
+          "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."
+        },
+        {
+          "label": "Quote benchmark",
+          "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."
+        }
+      ],
+      "cta": {
+        "heading": "Benchmark your own Nissan Aprio quote",
+        "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Aprio engine code.",
+        "buttonText": "Compare My Nissan Aprio Engine",
+        "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."
+      },
+      "badges": [
+        "6 recent enquiries visible",
+        "Typical rebuilt market ranges",
+        "Engine-code matched rows",
+        "UK specialist network"
+      ],
+      "feed": {
+        "isDynamic": false,
+        "rowsCount": 6,
+        "columns": [
+          "Year",
+          "Model",
+          "Engine Code",
+          "Fuel",
+          "Avg. Quoted Price",
+          "Reported Issue"
+        ],
+        "timestampLabel": "Last Updated",
+        "refreshLabel": "Refresh feed",
+        "density": "premium",
+        "visibleRows": 6,
+        "entries": [
+          {
+            "Year": "2007-2010",
+            "Model": "Nissan Aprio (2007-2010) Base 1.6",
+            "Engine Code": "K4M 700",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£750-£1,600",
+            "Reported Issue": "Timing chain stretch"
+          },
+          {
+            "Year": "2007-2010",
+            "Model": "Nissan Aprio (2007-2010) Custom 1.6",
+            "Engine Code": "HR16DE",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£750-£1,600",
+            "Reported Issue": "Oil consumption"
+          },
+          {
+            "Year": "2008-2010",
+            "Model": "Nissan Aprio (2007-2010) Emotion 1.6",
+            "Engine Code": "K4M 800",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£800-£1,750",
+            "Reported Issue": "Head gasket failure"
+          },
+          {
+            "Year": "2008-2010",
+            "Model": "Nissan Aprio (2008-2010) Premium 1.5 dCi",
+            "Engine Code": "K9K 700",
+            "Fuel": "Diesel 1.5L",
+            "Avg. Quoted Price": "£850-£2,400",
+            "Reported Issue": "EGR cooler clogging"
+          },
+          {
+            "Year": "2007-2009",
+            "Model": "Nissan Aprio (2007-2009) Convenience 1.3",
+            "Engine Code": "SR13DE",
+            "Fuel": "Petrol 1.3L",
+            "Avg. Quoted Price": "£700-£1,450",
+            "Reported Issue": "VVT actuator wear"
+          },
+          {
+            "Year": "2009-2010",
+            "Model": "Nissan Aprio (2009-2010) Base 1.5",
+            "Engine Code": "GA15DE",
+            "Fuel": "Petrol 1.5L",
+            "Avg. Quoted Price": "£750-£1,550",
+            "Reported Issue": "Oil pump failure"
+          }
+        ]
+      },
+      "headingLines": [
+        "What Are UK Drivers Paying for Nissan Aprio Engine Replacement-"
+      ],
+      "imageAlt": "Nissan Aprio replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000",
+      "filterTabs": [
+        {
+          "key": "all",
+          "label": "All",
+          "matchers": []
+        },
+        {
+          "key": "nissan-aprio-base-engine",
+          "label": "Nissan Aprio Base",
+          "matchers": [
+            "nissan aprio base",
+            "nissan aprio base engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-custom-engine",
+          "label": "Nissan Aprio Custom",
+          "matchers": [
+            "nissan aprio custom",
+            "nissan aprio custom engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-emotion-engine",
+          "label": "Nissan Aprio Emotion",
+          "matchers": [
+            "nissan aprio emotion",
+            "nissan aprio emotion engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-convenience-engine",
+          "label": "Nissan Aprio Convenience",
+          "matchers": [
+            "nissan aprio convenience",
+            "nissan aprio convenience engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-premium-engine",
+          "label": "Nissan Aprio Premium",
+          "matchers": [
+            "nissan aprio premium",
+            "nissan aprio premium engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-base-1-5l-engine",
+          "label": "Nissan Aprio Base 1.5L",
+          "matchers": [
+            "nissan aprio base 1.5l",
+            "nissan aprio base 1 5l engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-custom-vvt-engine",
+          "label": "Nissan Aprio Custom VVT",
+          "matchers": [
+            "nissan aprio custom vvt",
+            "nissan aprio custom vvt engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-early-model-engine",
+          "label": "Nissan Aprio Early Model",
+          "matchers": [
+            "nissan aprio early model",
+            "nissan aprio early model engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-imported-2011-engine",
+          "label": "Nissan Aprio Imported 2011+",
+          "matchers": [
+            "nissan aprio imported 2011+",
+            "nissan aprio imported 2011 engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-low-mileage-engine",
+          "label": "Nissan Aprio Low Mileage",
+          "matchers": [
+            "nissan aprio low mileage",
+            "nissan aprio low mileage engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-vvt-tech-engine",
+          "label": "Nissan Aprio VVT-Tech",
+          "matchers": [
+            "nissan aprio vvt-tech",
+            "nissan aprio vvt tech engine"
+          ]
+        },
+        {
+          "key": "nissan-aprio-saloon-body-engine",
+          "label": "Nissan Aprio Saloon Body",
+          "matchers": [
+            "nissan aprio saloon body",
+            "nissan aprio saloon body engine"
+          ]
+        }
+      ],
+      "ui": {
+        "showingSingleLabel": "entry",
+        "showingPluralLabel": "entries",
+        "acrossAllLabel": "across all models",
+        "noEntriesLabel": "No entries match that model filter yet.",
+        "updatedLabel": "Last updated:",
+        "ctaLabel": "Live Quote Benchmark"
+      },
+      "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"
+    },
+    "reviews": {
+      "tag": "Customer Reviews",
+      "h2": "Trusted by Nissan Aprio Owners Across the UK",
+      "rating": {
+        "value": 4.8,
+        "count": 0,
+        "summary": "",
+        "basedOn": ""
+      },
+      "reviews": [],
+      "leaveReviewCta": {
+        "text": "",
+        "linkText": "Leave a review ->"
+      }
+    },
+    "variantCoverage": {
+      "tag": "Models We Cover",
+      "h2": "Nissan Aprio Engine Replacement - All Variants Covered",
+      "subheading": "From the economical Base to the high-spec Premium, compare rebuilt, reconditioned and used Nissan Aprio engine prices through our network of UK Nissan Aprio engine specialists - typical price range for a rebuilt unit with 12-month warranty, supply & fit available nationwide.",
+      "groups": [
+        {
+          "title": "Core Petrol Range",
+          "cardSlugs": [
+            "nissan-aprio-base-engine",
+            "nissan-aprio-custom-engine",
+            "nissan-aprio-emotion-engine",
+            "nissan-aprio-convenience-engine"
+          ]
+        },
+        {
+          "title": "Diesel & Premium Range",
+          "cardSlugs": [
+            "nissan-aprio-premium-engine",
+            "nissan-aprio-base-1-5l-engine",
+            "nissan-aprio-custom-vvt-engine",
+            "nissan-aprio-early-model-engine"
+          ]
+        },
+        {
+          "title": "Specialist & Import Variants",
+          "cardSlugs": [
+            "nissan-aprio-imported-2011-engine",
+            "nissan-aprio-low-mileage-engine",
+            "nissan-aprio-vvt-tech-engine",
+            "nissan-aprio-saloon-body-engine"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "h3": "Nissan Aprio Base Engine Replacement",
+          "slug": "nissan-aprio-base-engine",
+          "subtitle": "K4M 700 1.6L Petrol ? 105hp ? 2007-2010",
+          "priceRange": "£750-£1,600",
+          "cta": "Compare Base Engine Prices",
+          "engineCodes": [
+            "K4M 700"
+          ],
+          "fuel": "Petrol",
+          "power": "105hp",
+          "years": "2007-2010",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Custom Engine Replacement",
+          "slug": "nissan-aprio-custom-engine",
+          "subtitle": "HR16DE 1.6L Petrol ? 107hp ? 2007-2010",
+          "priceRange": "£750-£1,600",
+          "cta": "Compare Custom Engine Prices",
+          "engineCodes": [
+            "HR16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "107hp",
+          "years": "2007-2010",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Emotion Engine Replacement",
+          "slug": "nissan-aprio-emotion-engine",
+          "subtitle": "K4M 800 1.6L Petrol ? 105hp ? 2008-2010",
+          "priceRange": "£800-£1,750",
+          "cta": "Compare Emotion Engine Prices",
+          "engineCodes": [
+            "K4M 800"
+          ],
+          "fuel": "Petrol",
+          "power": "105hp",
+          "years": "2008-2010",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Convenience Engine Replacement",
+          "slug": "nissan-aprio-convenience-engine",
+          "subtitle": "SR13DE 1.3L Petrol ? 75hp ? 2007-2009",
+          "priceRange": "£700-£1,450",
+          "cta": "Compare Convenience Engine Prices",
+          "engineCodes": [
+            "SR13DE"
+          ],
+          "fuel": "Petrol",
+          "power": "75hp",
+          "years": "2007-2009",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Premium Engine Replacement",
+          "slug": "nissan-aprio-premium-engine",
+          "subtitle": "K9K 700 1.5L Diesel ? 85hp ? 2008-2010",
+          "priceRange": "£850-£2,400",
+          "cta": "Compare Premium Engine Prices",
+          "engineCodes": [
+            "K9K 700"
+          ],
+          "fuel": "Diesel",
+          "power": "85hp",
+          "years": "2008-2010",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Base 1.5L Engine Replacement",
+          "slug": "nissan-aprio-base-1-5l-engine",
+          "subtitle": "GA15DE 1.5L Petrol ? 98hp ? 2009-2010",
+          "priceRange": "£750-£1,550",
+          "cta": "Compare Base 1.5L Engine Prices",
+          "engineCodes": [
+            "GA15DE"
+          ],
+          "fuel": "Petrol",
+          "power": "98hp",
+          "years": "2009-2010",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Custom VVT Engine Replacement",
+          "slug": "nissan-aprio-custom-vvt-engine",
+          "subtitle": "SR15DE 1.5L Petrol ? 105hp ? 2008-2010",
+          "priceRange": "£850-£1,850",
+          "cta": "Compare Custom VVT Engine Prices",
+          "engineCodes": [
+            "SR15DE"
+          ],
+          "fuel": "Petrol",
+          "power": "105hp",
+          "years": "2008-2010",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Early Model Engine Replacement",
+          "slug": "nissan-aprio-early-model-engine",
+          "subtitle": "QG16DE 1.6L Petrol ? 110hp ? 2007-2008",
+          "priceRange": "£700-£1,500",
+          "cta": "Compare Early Model Engine Prices",
+          "engineCodes": [
+            "QG16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "110hp",
+          "years": "2007-2008",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Imported 2011+ Engine Replacement",
+          "slug": "nissan-aprio-imported-2011-engine",
+          "subtitle": "HR16DE 1.6L Petrol ? 107hp ? 2011-2014",
+          "priceRange": "£900-£2,100",
+          "cta": "Compare Imported Engine Prices",
+          "engineCodes": [
+            "HR16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "107hp",
+          "years": "2011-2014",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Low Mileage Engine Replacement",
+          "slug": "nissan-aprio-low-mileage-engine",
+          "subtitle": "K4M 1.6L Petrol ? 105hp ? Verified <80k miles",
+          "priceRange": "£850-£1,750",
+          "cta": "Compare Low Mileage Engine Prices",
+          "engineCodes": [
+            "K4M"
+          ],
+          "fuel": "Petrol",
+          "power": "105hp",
+          "years": "",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio VVT-Tech Engine Replacement",
+          "slug": "nissan-aprio-vvt-tech-engine",
+          "subtitle": "SR13DE VVT 1.3L Petrol ? 75hp ? 2007-2009",
+          "priceRange": "£750-£1,550",
+          "cta": "Compare VVT-Tech Engine Prices",
+          "engineCodes": [
+            "SR13DE VVT"
+          ],
+          "fuel": "Petrol",
+          "power": "75hp",
+          "years": "2007-2009",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Aprio Saloon Body Engine Replacement",
+          "slug": "nissan-aprio-saloon-body-engine",
+          "subtitle": "K4M/HR16DE 1.6L Petrol ? 105-107hp ? 2007-2010",
+          "priceRange": "£750-£1,700",
+          "cta": "Compare Saloon Engine Prices",
+          "engineCodes": [
+            "K4M",
+            "HR16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "105-107hp",
+          "years": "2007-2010",
+          "image": ""
+        }
+      ],
+      "directory": {
+        "h3": "All Nissan Aprio Variants - Engine Replacement Coverage",
+        "intro": "A full alphabetical listing of every Nissan Aprio trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.",
+        "groups": [
+          {
+            "title": "Petrol Variants",
+            "items": [
+              "Base 1.3L",
+              "Base 1.5L",
+              "Base 1.6L",
+              "Convenience 1.3L",
+              "Convenience 1.6L",
+              "Custom 1.5L",
+              "Custom 1.6L",
+              "Custom VVT 1.5L",
+              "Emotion 1.6L",
+              "Premium 1.6L",
+              "Imported 2011+ 1.6L",
+              "Low Mileage Verified 1.6L",
+              "Saloon Body 1.6L",
+              "VVT-Tech 1.3L"
+            ]
+          },
+          {
+            "title": "Diesel Variants",
+            "items": [
+              "Premium 1.5 dCi",
+              "Custom 1.5 dCi",
+              "Base 1.5 dCi"
+            ]
+          }
+        ],
+        "label": "Variant Directory"
+      },
+      "closing": "Not sure which variant your Nissan Aprio is- Enter your registration number above - we'll identify the exact sub-model, engine code and compatible replacement options instantly.",
+      "engineGuide": {
+        "tag": "Engine Codes",
+        "h2": "Nissan Aprio Engine Codes - Full Technical Specifications & Replacement Guide",
+        "h3": "Every engine code fitted to the Nissan Aprio across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+        "families": [
+          {
+            "name": "Petrol Engines",
+            "entries": [
+              {
+                "code": "K4M 700",
+                "title": "1.6L Petrol",
+                "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+                "history": "Renault-sourced 1.6L unit powering most Aprio variants; widely used but prone to timing component wear at higher mileages.",
+                "fuel": "Petrol",
+                "size": "1.6 Litre",
+                "power": "105-107 hp",
+                "years": "2007-2010",
+                "compatibleVariants": [
+                  "Base, Custom, Emotion, Premium, Convenience"
+                ],
+                "commonFailures": [
+                  "Timing chain tensioner wear (60k-90k miles)",
+                  "Head gasket failure on overheated units",
+                  "Oil consumption on high-mileage examples"
+                ],
+                "avgRebuiltPrice": "£750 - £1,600",
+                "cta": "Get quotes for K4M 700 Nissan Aprio engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "HR16DE",
+                "title": "1.6L Petrol",
+                "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+                "history": "Nissan's own 1.6L petrol engine; improved oil control over K4M but still susceptible to consumption issues in Aprio fitment.",
+                "fuel": "Petrol",
+                "size": "1.6 Litre",
+                "power": "107-110 hp",
+                "years": "2007-2014",
+                "compatibleVariants": [
+                  "Custom, Base, Imported 2011+ models"
+                ],
+                "commonFailures": [
+                  "Piston ring wear causing oil burn (70k+ miles)",
+                  "Fuel rail cracking on early production units",
+                  "VVT solenoid clogging in urban-use vehicles"
+                ],
+                "avgRebuiltPrice": "£750 - £1,700",
+                "cta": "Get quotes for HR16DE Nissan Aprio engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "SR13DE",
+                "title": "1.3L Petrol",
+                "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+                "history": "Smaller-displacement VVT petrol option for entry-level Aprio trims; less common but sought after for fuel economy.",
+                "fuel": "Petrol",
+                "size": "1.3 Litre",
+                "power": "75-82 hp",
+                "years": "2007-2009",
+                "compatibleVariants": [
+                  "Convenience, Base early models"
+                ],
+                "commonFailures": [
+                  "VVT actuator rattle on cold start",
+                  "Timing chain guide wear (50k-80k miles)",
+                  "Oil pump pressure loss on neglected units"
+                ],
+                "avgRebuiltPrice": "£700 - £1,450",
+                "cta": "Get quotes for SR13DE Nissan Aprio engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "SR15DE / GA15DE",
+                "title": "1.5L Petrol",
+                "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+                "history": "Mid-range 1.5L petrol engines bridging economy and performance; GA15DE found in later Base/Custom variants.",
+                "fuel": "Petrol",
+                "size": "1.5 Litre",
+                "power": "98-105 hp",
+                "years": "2008-2010",
+                "compatibleVariants": [
+                  "Base 1.5L, Custom 1.5L, Convenience 1.5L"
+                ],
+                "commonFailures": [
+                  "Oil pump wear leading to low pressure warnings",
+                  "Valve stem seal deterioration (oil burn)",
+                  "EGR valve clogging on urban-driven examples"
+                ],
+                "avgRebuiltPrice": "£750 - £1,550",
+                "cta": "Get quotes for SR15DE GA15DE Nissan Aprio engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "QG16DE",
+                "title": "1.6L Early Petrol",
+                "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+                "history": "Early-production 1.6L unit found in first-year Aprio models; robust but requires careful maintenance to avoid head gasket issues.",
+                "fuel": "Petrol",
+                "size": "1.6 Litre",
+                "power": "110 hp",
+                "years": "2007-2008",
+                "compatibleVariants": [
+                  "Base early, Custom early"
+                ],
+                "commonFailures": [
+                  "Head gasket failure on overheated units",
+                  "Timing belt tensioner wear (replace at 60k miles)",
+                  "Water pump leakage causing coolant loss"
+                ],
+                "avgRebuiltPrice": "£700 - £1,500",
+                "cta": "Get quotes for QG16DE Nissan Aprio engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              }
+            ]
+          },
+          {
+            "name": "Diesel Engines",
+            "entries": [
+              {
+                "code": "K9K 700",
+                "title": "1.5L Diesel",
+                "familyHeading": "K9K dCi Diesel (2008-2010)",
+                "history": "Renault-sourced 1.5L dCi diesel; economical and torquey but demands strict servicing to avoid EGR and timing component failures.",
+                "fuel": "Diesel",
+                "size": "1.5 Litre",
+                "power": "85 hp",
+                "years": "2008-2010",
+                "compatibleVariants": [
+                  "Premium, Custom dCi, Base dCi"
+                ],
+                "commonFailures": [
+                  "EGR cooler clogging causing power loss (40k-70k miles)",
+                  "Timing belt failure if not replaced at 60k miles",
+                  "Crank sensor intermittent faults causing no-start"
+                ],
+                "avgRebuiltPrice": "£850 - £2,400",
+                "cta": "Get quotes for K9K 700 Nissan Aprio engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+              }
+            ]
+          }
+        ],
+        "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Aprio engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."
+      },
+      "headingLines": [
+        "Nissan Aprio Engine Replacement",
+        "All Variants Covered"
+      ],
+      "ui": {
+        "fromPriceLabel": "from price",
+        "specsLabel": "Specs",
+        "rebuiltLabel": "Rebuilt",
+        "yearsLabel": "Years",
+        "yearsFallback": "Check exact year coverage by registration"
+      }
+    },
+    "engineCodes": {
+      "tag": "Engine Codes",
+      "h2": "Nissan Aprio Engine Codes - Full Technical Specifications & Replacement Guide",
+      "h3": "Every engine code fitted to the Nissan Aprio across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+      "closingLine": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Aprio engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.",
+      "filters": [
+        "Petrol Engines",
+        "Diesel Engines"
+      ],
+      "groups": [
+        {
+          "name": "Petrol Engines",
+          "era": "Extracted from detailed petrol and performance engine families across Nissan Aprio variants.",
+          "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.",
+          "engines": [
+            {
+              "code": "K4M 700",
+              "title": "1.6L Petrol",
+              "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+              "fuel": "Petrol",
+              "size": "1.6L",
+              "power": "105-107 hp",
+              "compatibleModels": "Base, Custom, Emotion, Premium, Convenience",
+              "avgRebuiltPrice": "£750 - £1,600",
+              "cta": "Get quotes for K4M 700 Nissan Aprio engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "HR16DE",
+              "title": "1.6L Petrol",
+              "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+              "fuel": "Petrol",
+              "size": "1.6L",
+              "power": "107-110 hp",
+              "compatibleModels": "Custom, Base, Imported 2011+ models",
+              "avgRebuiltPrice": "£750 - £1,700",
+              "cta": "Get quotes for HR16DE Nissan Aprio engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "SR13DE",
+              "title": "1.3L Petrol",
+              "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+              "fuel": "Petrol",
+              "size": "1.3L",
+              "power": "75-82 hp",
+              "compatibleModels": "Convenience, Base early models",
+              "avgRebuiltPrice": "£700 - £1,450",
+              "cta": "Get quotes for SR13DE Nissan Aprio engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "SR15DE / GA15DE",
+              "title": "1.5L Petrol",
+              "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+              "fuel": "Petrol",
+              "size": "1.5L",
+              "power": "98-105 hp",
+              "compatibleModels": "Base 1.5L, Custom 1.5L, Convenience 1.5L",
+              "avgRebuiltPrice": "£750 - £1,550",
+              "cta": "Get quotes for SR15DE GA15DE Nissan Aprio engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "QG16DE",
+              "title": "1.6L Early Petrol",
+              "familyHeading": "K-Series & HR-Series Petrol (2007-2014)",
+              "fuel": "Petrol",
+              "size": "1.6L",
+              "power": "110 hp",
+              "compatibleModels": "Base early, Custom early",
+              "avgRebuiltPrice": "£700 - £1,500",
+              "cta": "Get quotes for QG16DE Nissan Aprio engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            }
+          ]
+        },
+        {
+          "name": "Diesel Engines",
+          "era": "Extracted from detailed diesel engine families across Nissan Aprio variants.",
+          "failureNote": "Main replacement triggers are timing chain wear, EGR / cooling faults and turbo-control issues.",
+          "engines": [
+            {
+              "code": "K9K 700",
+              "title": "1.5L Diesel",
+              "familyHeading": "K9K dCi Diesel (2008-2010)",
+              "fuel": "Diesel",
+              "size": "1.5L",
+              "power": "85 hp",
+              "compatibleModels": "Premium, Custom dCi, Base dCi",
+              "avgRebuiltPrice": "£850 - £2,400",
+              "cta": "Get quotes for K9K 700 Nissan Aprio engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+            }
+          ]
+        }
+      ],
+      "headingLines": [
+        "Nissan Aprio Engine Codes",
+        "Full Technical Specifications & Replacement Guide"
+      ],
+      "closingAction": {
+        "title": "Can't find your engine code-",
+        "buttonText": "Enter Your Reg"
+      },
+      "ui": {
+        "summaryPriceLabel": "Avg. rebuilt price",
+        "exampleImageLabel": "Example engine visual",
+        "historyLabel": "Engine History",
+        "variantsLabel": "Compatible Nissan Aprio variants",
+        "specsTitle": "Technical Specifications",
+        "fuelLabel": "Fuel type",
+        "sizeLabel": "Engine size",
+        "powerLabel": "Power output",
+        "yearsLabel": "Years fitted",
+        "failuresTitle": "Common Failures",
+        "supplyLabel": "Supply only"
+      }
+    },
+    "commonProblems": {
+      "tag": "Common Problems",
+      "h2": "Nissan Aprio Engine Problems - What It Costs to Fix & When Replacement Makes Sense",
+      "h3": "The Nissan Aprio's K4M, HR16DE and K9K engines are generally robust but known for timing component wear, oil consumption and EGR issues at higher mileages. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty. Use the cost comparisons below to decide whether repair or replacement offers better value for your Aprio.",
+      "problems": [
+        {
+          "group": "Timing Chain Stretch",
+          "h4": "Timing Chain Stretch - Why K4M/HR16DE Engines Fail Prematurely",
+          "affectedModels": "Nissan Aprio Base, Custom, Emotion (2007-2010, K4M 700 & HR16DE)",
+          "typicalFailureMileage": "60,000-90,000 miles",
+          "rootCause": "Factory tensioner design allows chain slack under load; combined with infrequent oil changes, this accelerates guide wear and chain stretch.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Preventative Chain Kit Replacement",
+              "dealerPrice": "£800 - £1,400",
+              "specialistPrice": "£500 - £900",
+              "whatItInvolves": "Replace timing chain, tensioner, guides and seals before catastrophic failure",
+              "longevity": "Adds 40k-60k miles if oil changes maintained; only viable before rattling starts"
+            },
+            {
+              "tier": "Intermediate - Top-End Repair with Chain",
+              "dealerPrice": "£1,200 - £2,200",
+              "specialistPrice": "£750 - £1,400",
+              "whatItInvolves": "Remove cylinder head, replace chain kit, inspect valves, renew gaskets",
+              "longevity": "Suitable if block is sound; may not address underlying oil consumption issues"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt / Reconditioned Engine",
+              "dealerPrice": "£2,100 - £3,800",
+              "specialistPrice": "£750 - £1,700",
+              "whatItInvolves": "Supply & fit of rebuilt unit with upgraded tensioner, bench-tested, 12-month warranty",
+              "longevity": "Most reliable long-term solution; eliminates risk of repeat failure on original block"
+            }
+          ],
+          "recommendation": "On an Aprio valued at £2,500-£4,500, a preventative chain kit replacement at 50k miles offers excellent value. If rattling is already present or the engine has overheated, replacement with a rebuilt unit including upgraded components is the safer, more economical choice long-term.",
+          "cta": "Compare rebuilt K4M HR16DE engine prices for your Nissan Aprio"
+        },
+        {
+          "group": "Oil Consumption Problem",
+          "h4": "Oil Consumption Problem - HR16DE & K4M Piston Ring Wear",
+          "affectedModels": "Nissan Aprio Custom, Base, Imported (2007-2014, HR16DE & K4M 800)",
+          "typicalFailureMileage": "70,000-110,000 miles",
+          "rootCause": "Piston ring design combined with extended oil-change intervals leads to ring sticking, increased blow-by and measurable oil burn between services.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Decarbonisation & Oil Flush",
+              "dealerPrice": "£300 - £600",
+              "specialistPrice": "£180 - £400",
+              "whatItInvolves": "Chemical decarbonisation, high-detergent oil flush, new spark plugs",
+              "longevity": "May temporarily reduce consumption; not a permanent fix for worn rings"
+            },
+            {
+              "tier": "Intermediate - Piston Ring Replacement",
+              "dealerPrice": "£1,400 - £2,600",
+              "specialistPrice": "£900 - £1,800",
+              "whatItInvolves": "Remove engine, strip block, replace rings and bearings, reassemble",
+              "longevity": "Viable if cylinder bores are within tolerance; labour-intensive with no warranty on original block"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt Engine with Upgraded Rings",
+              "dealerPrice": "£2,200 - £4,000",
+              "specialistPrice": "£750 - £1,700",
+              "whatItInvolves": "Supply & fit of rebuilt unit with revised piston rings, bench-tested, 12-month warranty",
+              "longevity": "Best value for high-mileage Aprios; eliminates consumption issue with warranty protection"
+            }
+          ],
+          "recommendation": "If your Aprio is burning more than 1L per 1,000 miles and has over 80k miles, ring replacement on the original block is rarely cost-effective. A rebuilt engine with upgraded rings offers better reliability, warranty coverage and often lower total cost when labour is factored in.",
+          "cta": "Get quotes for HR16DE oil consumption fix Nissan Aprio"
+        },
+        {
+          "group": "Head Gasket Failure",
+          "h4": "Head Gasket Failure - K4M Overheating & Coolant Loss",
+          "affectedModels": "Nissan Aprio Emotion, Premium, Base (2007-2010, K4M 700/800)",
+          "typicalFailureMileage": "80,000-120,000 miles",
+          "rootCause": "Coolant system neglect (old thermostat, failing water pump) leads to overheating; aluminium head warps, gasket fails, coolant mixes with oil.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Gasket Replacement Only",
+              "dealerPrice": "£900 - £1,600",
+              "specialistPrice": "£550 - £1,100",
+              "whatItInvolves": "Remove head, machine surface, fit new gasket, renew coolant",
+              "longevity": "Only suitable if head is not warped and block is undamaged; risk of repeat failure"
+            },
+            {
+              "tier": "Intermediate - Head Recondition + Gasket",
+              "dealerPrice": "£1,300 - £2,400",
+              "specialistPrice": "£800 - £1,600",
+              "whatItInvolves": "Remove head, professional machining, valve inspection, new gasket and seals",
+              "longevity": "Better longevity if block is sound; still carries risk on high-mileage engines"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt Engine with Updated Gasket",
+              "dealerPrice": "£2,000 - £3,900",
+              "specialistPrice": "£750 - £1,700",
+              "whatItInvolves": "Supply & fit of rebuilt unit with multi-layer steel gasket, bench-tested, 12-month warranty",
+              "longevity": "Most reliable solution; eliminates risk of warped head or cracked block on original unit"
+            }
+          ],
+          "recommendation": "Head gasket failure on a K4M Aprio is often a symptom of broader cooling system neglect. Unless the vehicle is low-mileage and well-documented, replacement with a rebuilt engine including updated gasket technology offers better peace of mind and warranty protection.",
+          "cta": "Compare K4M head gasket replacement costs Nissan Aprio"
+        },
+        {
+          "group": "EGR Cooler Clogging",
+          "h4": "EGR Cooler Clogging - K9K dCi Diesel Power Loss",
+          "affectedModels": "Nissan Aprio Premium, Custom dCi (2008-2010, K9K 700)",
+          "typicalFailureMileage": "40,000-70,000 miles",
+          "rootCause": "Short-trip urban driving causes soot buildup in EGR cooler; restricted exhaust flow triggers limp mode, increased fuel consumption and potential turbo damage.",
+          "repairOptions": [
+            {
+              "tier": "Minor - EGR Clean & Reset",
+              "dealerPrice": "£250 - £500",
+              "specialistPrice": "£150 - £350",
+              "whatItInvolves": "Remove EGR valve/cooler, ultrasonic clean, reset ECU adaptation",
+              "longevity": "Temporary fix; clogging often returns within 10k miles if driving pattern unchanged"
+            },
+            {
+              "tier": "Intermediate - EGR Delete (Off-Road Use Only)",
+              "dealerPrice": "£400 - £800",
+              "specialistPrice": "£250 - £550",
+              "whatItInvolves": "Blank EGR valve, remap ECU to ignore faults",
+              "longevity": "Not MoT-compliant for road use; may cause emissions test failure and insurance issues"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt Engine with EGR Refurb",
+              "dealerPrice": "£2,400 - £4,500",
+              "specialistPrice": "£850 - £2,400",
+              "whatItInvolves": "Supply & fit of rebuilt K9K unit with refurbished EGR system, bench-tested, 12-month warranty",
+              "longevity": "Best solution for road-legal Aprios; ensures MoT compliance and long-term reliability"
+            }
+          ],
+          "recommendation": "For road-legal Aprios, EGR cleaning offers only short-term relief. If power loss recurs or the engine has exceeded 60k miles, a rebuilt K9K engine with refurbished emissions components provides better value, compliance and warranty protection.",
+          "cta": "Get quotes for K9K dCi EGR repair Nissan Aprio"
+        },
+        {
+          "group": "VVT Actuator Failure",
+          "h4": "VVT Actuator Failure - SR13DE/SR15DE Cold-Start Rattle",
+          "affectedModels": "Nissan Aprio Convenience, Custom VVT (2007-2009, SR13DE/SR15DE)",
+          "typicalFailureMileage": "50,000-85,000 miles",
+          "rootCause": "Oil starvation to VVT solenoid due to sludge buildup or infrequent oil changes; actuator sticks, causing timing errors, rattling noise and reduced performance.",
+          "repairOptions": [
+            {
+              "tier": "Minor - VVT Solenoid Replacement",
+              "dealerPrice": "£400 - £750",
+              "specialistPrice": "£250 - £500",
+              "whatItInvolves": "Replace VVT solenoid, flush oil system, reset ECU",
+              "longevity": "Effective if actuator itself is undamaged; may not resolve if internal wear exists"
+            },
+            {
+              "tier": "Intermediate - Actuator + Solenoid Renewal",
+              "dealerPrice": "£800 - £1,500",
+              "specialistPrice": "£500 - £950",
+              "whatItInvolves": "Replace VVT actuator and solenoid, renew timing components",
+              "longevity": "Suitable if engine is otherwise healthy; labour-intensive on Aprio platform"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt Engine with Updated VVT",
+              "dealerPrice": "£1,900 - £3,600",
+              "specialistPrice": "£700 - £1,550",
+              "whatItInvolves": "Supply & fit of rebuilt unit with revised VVT components, bench-tested, 12-month warranty",
+              "longevity": "Most reliable for high-mileage or neglected units; eliminates risk of repeat VVT failure"
+            }
+          ],
+          "recommendation": "On Aprios under 70k miles with full service history, solenoid replacement often resolves VVT rattle. For higher-mileage or poorly maintained examples, a rebuilt engine with updated VVT components offers better long-term value and warranty coverage.",
+          "cta": "Compare SR13DE VVT repair costs Nissan Aprio"
+        }
+      ],
+      "finalCta": {
+        "h4": "Don't Let Engine Failure Write Off Your Nissan Aprio",
+        "paragraph": "The problems above show that while Aprio engines are fundamentally sound, neglect or age can lead to costly failures. EngineMarket makes it simple to compare prices from trusted UK Nissan Aprio specialists who supply rebuilt, reconditioned and used engines with upgraded components addressing the original failure point. Every unit includes a minimum 12-month unlimited mileage warranty and nationwide delivery options. Compare quotes today and get your Aprio back on the road without the main dealer premium.",
+        "buttonText": "Compare Nissan Aprio Engine Replacement Prices Now →",
+        "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket's UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Aprio and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."
+      }
+    },
+    "engineTypes": {
+      "tag": "Replacement Engine Options",
+      "h2": "Nissan Aprio Engine Types - Options, Costs & What to Expect",
+      "intro": "Every engine type for the Nissan Aprio is available through our UK network with typical price ranges based on variant, engine code and budget.",
+      "types": [
+        {
+          "title": "Nissan Aprio Reconditioned Engines (Recon)",
+          "description": "Professionally cleaned, inspected and rebuilt with new gaskets, seals and worn parts replaced to restore like-new performance.",
+          "frontDescription": "Professionally cleaned, inspected and rebuilt with new gaskets, seals and worn parts replaced to restore like-new performance.",
+          "frontDisclaimer": "Prices vary by engine code, mileage and supplier location.",
+          "backDescription": "Reconditioned Aprio engines undergo strip-down, cleaning, measurement and replacement of worn components. Ideal for Aprios with solid blocks but tired internals.",
+          "backBullets": [
+            "Includes new gaskets, seals, timing components",
+            "Bench-tested before dispatch with compression report",
+            "12-month warranty standard across UK supplier network"
+          ],
+          "priceRange": "£750 - £1,700 (supply only)",
+          "cta": "Compare reconditioned Nissan Aprio engine prices"
+        },
+        {
+          "title": "Nissan Aprio Rebuilt Engines",
+          "description": "Comprehensive rebuild with upgraded parts addressing known failure points like timing tensioners and piston rings for improved longevity.",
+          "frontDescription": "Comprehensive rebuild with upgraded parts addressing known failure points like timing tensioners and piston rings for improved longevity.",
+          "frontDisclaimer": "Upgrades vary by supplier; confirm specification before ordering.",
+          "backDescription": "Rebuilt Aprio engines feature upgraded components targeting common failures. Best choice for high-mileage or problem-prone units needing long-term reliability.",
+          "backBullets": [
+            "Upgraded timing tensioners, revised piston rings where applicable",
+            "Full machining of block and head to factory tolerances",
+            "12-month unlimited mileage warranty with UK specialist support"
+          ],
+          "priceRange": "£800 - £1,850 (supply only)",
+          "cta": "Get rebuilt Nissan Aprio engine quotes"
+        },
+        {
+          "title": "Nissan Aprio Used Engines",
+          "description": "Low-mileage donor engines from written-off or scrapped Aprios; cost-effective solution when budget is the primary concern.",
+          "frontDescription": "Low-mileage donor engines from written-off or scrapped Aprios; cost-effective solution when budget is the primary concern.",
+          "frontDisclaimer": "Mileage and condition vary; request compression test report before purchase.",
+          "backDescription": "Used Aprio engines offer the lowest upfront cost but carry higher uncertainty. Always verify mileage, request a compression test and confirm warranty terms.",
+          "backBullets": [
+            "Source from UK breakers with verified mileage where possible",
+            "Request pre-dispatch compression and leak-down test reports",
+            "Minimum 3-month warranty typical; upgrade options may be available"
+          ],
+          "priceRange": "£450 - £1,200 (supply only)",
+          "cta": "Check used Nissan Aprio engine availability"
+        },
+        {
+          "title": "Nissan Aprio Remanufactured Engines",
+          "description": "Factory-spec remanufacturing with all components renewed or replaced to original tolerances; closest to brand-new engine quality.",
+          "frontDescription": "Factory-spec remanufacturing with all components renewed or replaced to original tolerances; closest to brand-new engine quality.",
+          "frontDisclaimer": "Lead times may be longer; confirm availability for your engine code.",
+          "backDescription": "Remanufactured Aprio engines are rebuilt to original factory specifications with all critical components renewed. Ideal for enthusiasts or high-value imports.",
+          "backBullets": [
+            "All bearings, seals, gaskets and wear items replaced new",
+            "Block and head machined to OEM tolerances with certification",
+            "12-24 month warranty options; bench-tested with full documentation"
+          ],
+          "priceRange": "£1,200 - £2,600 (supply only)",
+          "cta": "Compare remanufactured Nissan Aprio engine costs"
+        },
+        {
+          "title": "Nissan Aprio Refurbished Engines",
+          "description": "Targeted refurbishment addressing specific known issues like oil consumption or timing wear without full strip-down.",
+          "frontDescription": "Targeted refurbishment addressing specific known issues like oil consumption or timing wear without full strip-down.",
+          "frontDisclaimer": "Scope varies by supplier; confirm which components are renewed before ordering.",
+          "backDescription": "Refurbished Aprio engines focus on fixing the specific failure you're experiencing, offering a middle-ground between used and fully rebuilt options.",
+          "backBullets": [
+            "Addresses your specific issue: rings, timing, EGR or VVT as needed",
+            "Less invasive than full rebuild; faster turnaround typically",
+            "6-12 month warranty depending on work scope and supplier"
+          ],
+          "priceRange": "£650 - £1,450 (supply only)",
+          "cta": "View refurbished Nissan Aprio engine options"
+        },
+        {
+          "title": "Nissan Aprio Supply & Fit Engines",
+          "description": "Complete engine replacement service including delivery, fitting, fluids and post-installation checks at a vetted UK garage near you.",
+          "frontDescription": "Complete engine replacement service including delivery, fitting, fluids and post-installation checks at a vetted UK garage near you.",
+          "frontDisclaimer": "Labour costs vary by region and garage; get itemised quotes before booking.",
+          "backDescription": "Supply & fit for Aprio engines removes DIY complexity. Our network garages handle removal, installation, ECU adaptation and post-fit testing.",
+          "backBullets": [
+            "Includes engine delivery, fitting, fluids and initial run-in",
+            "Garage handles ECU adaptation, immobiliser sync and road test",
+            "Single-point warranty coverage for parts and labour where offered"
+          ],
+          "priceRange": "£400 - £850 added to engine price",
+          "cta": "Find Nissan Aprio engine supply & fit deals"
+        }
+      ],
+      "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Aprio within hours.",
+      "headingLines": [
+        "Nissan Aprio Engine Types",
+        "Options, Costs & What to Expect"
+      ],
+      "ui": {
+        "priceLabel": "Typical price range",
+        "frontActionLabel": "What is it-",
+        "backActionLabel": "Flip back"
+      },
+      "closingCard": {
+        "label": "Engine Replacement Help",
+        "title": "Compare Nissan Aprio engine prices with vetted UK suppliers",
+        "buttonText": "Compare Nissan Aprio Prices"
+      }
+    },
+    "engineSizes": {
+      "tag": "Engine Sizes",
+      "h2": "Nissan Aprio Engines by Size - Find the Right Displacement for Your Variant",
+      "intro": "Every displacement fitted to the Nissan Aprio is listed below with compatible engine codes, production years and common failure notes to help you identify the right replacement.",
+      "groups": [
+        {
+          "title": "Nissan Aprio Petrol Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Aprio 1.3L Petrol Engines",
+              "description": "The 1.3L SR13DE petrol engine powered entry-level Aprio Convenience and early Base variants from 2007-2009. This compact VVT unit prioritised fuel economy and urban drivability, though its smaller displacement means it works harder under load, contributing to timing component wear on high-mileage examples.",
+              "engineCodes": [
+                "SR13DE",
+                "SR13DE VVT"
+              ],
+              "compatibleModels": [
+                "Convenience (2007-2009)",
+                "Base early"
+              ],
+              "productionYears": "2007-2008",
+              "commonFailurePoints": [
+                "VVT actuator rattle on cold start",
+                "timing chain guide wear at 50k-80k miles"
+              ],
+              "cta": "Compare Nissan Aprio 1.3L petrol engine prices"
+            },
+            {
+              "title": "Nissan Aprio 1.5L Petrol Engines",
+              "description": "The 1.5L GA15DE and SR15DE petrol engines offered a balance of economy and performance for mid-spec Aprio trims from 2008-2010. These units feature VVT technology for improved response but require strict oil-change intervals to prevent sludge-related VVT solenoid issues.",
+              "engineCodes": [
+                "GA15DE",
+                "SR15DE",
+                "SR15DE VVT"
+              ],
+              "compatibleModels": [
+                "Base 1.5L (2009-2010)",
+                "Custom 1.5L"
+              ],
+              "productionYears": "2008-2010",
+              "commonFailurePoints": [
+                "Oil pump wear causing low-pressure warnings",
+                "valve stem seal deterioration"
+              ],
+              "cta": "Compare Nissan Aprio 1.5L petrol engine prices"
+            },
+            {
+              "title": "Nissan Aprio 1.6L Petrol Engines",
+              "description": "The 1.6L K4M and HR16DE petrol engines are the most common Aprio powerplants, fitted across Base, Custom, Emotion and Premium trims from 2007-2014. Robust when maintained, but timing chain tensioner design and piston ring specifications mean oil quality and change intervals are critical to longevity.",
+              "engineCodes": [
+                "K4M 700",
+                "K4M 800",
+                "HR16DE",
+                "QG16DE"
+              ],
+              "compatibleModels": [
+                "Base",
+                "Custom",
+                "Emotion",
+                "Premium",
+                "Imported 2011+"
+              ],
+              "productionYears": "2007-2014",
+              "commonFailurePoints": [
+                "Timing chain stretch at 60k-90k miles",
+                "oil consumption on high-mileage HR16DE units"
+              ],
+              "cta": "Compare Nissan Aprio 1.6L petrol engine prices"
+            }
+          ]
+        },
+        {
+          "title": "Nissan Aprio Diesel Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Aprio 1.5L Diesel Engines",
+              "description": "The 1.5L K9K dCi diesel engine powered Premium and select Custom/Base variants from 2008-2010. Offering strong torque and excellent fuel economy, this Renault-sourced unit demands strict adherence to timing belt intervals and regular EGR system cleaning to avoid power loss and MoT emissions failures.",
+              "engineCodes": [
+                "K9K 700",
+                "K9K 800"
+              ],
+              "compatibleModels": [
+                "Premium dCi (2008-2010)",
+                "Custom dCi",
+                "Base dCi"
+              ],
+              "productionYears": "",
+              "commonFailurePoints": [
+                "EGR cooler clogging at 40k-70k miles",
+                "timing belt failure if not replaced at 60k miles"
+              ],
+              "cta": "Get quotes for Nissan Aprio 1.5L diesel engines"
+            }
+          ]
+        }
+      ],
+      "closing": "Not sure which engine size your Nissan Aprio needs- Enter your registration number above - we'll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Aprio specialists.",
+      "headingLines": [
+        "Nissan Aprio Engines by Size",
+        "Find the Right Displacement for Your Variant"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "engineCodesLabel": "Engine Code(s)",
+        "compatibleModelsLabel": "Compatible Models (UK)",
+        "productionYearsLabel": "Production Years",
+        "warningLabel": "Common Failure Points",
+        "warningTitle": "Watch for these known weak points",
+        "helperLabel": "Engine Size Advice",
+        "helperTitle": "Need help matching the exact engine size-",
+        "helperButtonText": "Find My Engine"
+      }
+    },
+    "fuelTypes": {
+      "tag": "Fuel Type",
+      "h2": "Nissan Aprio Engines by Fuel Type",
+      "intro": "Choose your Nissan Aprio engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early 1.3L petrol to the economical 1.5L dCi diesel.",
+      "items": [
+        {
+          "title": "Nissan Aprio Petrol Engines",
+          "description": "Petrol engines dominate the Aprio range, with 1.3L, 1.5L and 1.6L units covering all trims from Base to Premium across 2007-2014 production.",
+          "descriptor": "Petrol engines dominate the Aprio range, with 1.3L, 1.5L and 1.6L units covering all trims from Base to Premium across 2007-2014 production.",
+          "familiesLabel": "Common Nissan Aprio Petrol Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Petrol Models",
+          "notesLabel": "",
+          "families": [
+            "K4M 700/800 - most common 1.6L unit (Base/Custom/Emotion), timing chain tensioner wear",
+            "HR16DE - Nissan's own 1.6L, improved oil control but piston ring consumption issues",
+            "SR13DE/SR15DE - smaller VVT petrols (Convenience), VVT actuator rattle on cold start",
+            "QG16DE - early-production 1.6L, head gasket sensitivity if overheated"
+          ],
+          "foundIn": [
+            "Base, Custom, Emotion, Convenience, Premium trims (2007-2014) - K4M, HR16DE dominant",
+            "Early Base/Custom (2007-2008) - QG16DE, SR13DE"
+          ],
+          "knownFor": [
+            "Strong parts availability via Renault/Nissan networks",
+            "Timing component wear if oil changes neglected beyond 10k miles",
+            "Oil consumption on high-mileage HR16DE units (70k+ miles)",
+            "Good fuel economy when maintained; VVT variants responsive in urban use"
+          ],
+          "typicalModels": [
+            "Base 1.6L",
+            "Custom 1.6L",
+            "Emotion 1.6L",
+            "Convenience 1.3L",
+            "Premium 1.6L"
+          ],
+          "importantNotes": [],
+          "cta": "Compare Nissan Aprio Petrol engine prices"
+        },
+        {
+          "title": "Nissan Aprio Diesel Engines",
+          "description": "The 1.5L K9K dCi diesel powered Premium and select trims from 2008-2010, offering strong torque and economy but requiring strict servicing to avoid emissions-related failures.",
+          "descriptor": "The 1.5L K9K dCi diesel powered Premium and select trims from 2008-2010, offering strong torque and economy but requiring strict servicing to avoid emissions-related failures.",
+          "familiesLabel": "Common Nissan Aprio Diesel Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Diesel Models",
+          "notesLabel": "",
+          "families": [
+            "K9K 700 - 1.5L dCi (Premium/Custom dCi), EGR cooler clogging at 40k-70k miles",
+            "K9K 800 - revised variant with improved EGR calibration, still requires belt changes at 60k miles"
+          ],
+          "foundIn": [
+            "Premium dCi (2008-2010) - primary diesel application",
+            "Custom dCi, Base dCi (limited availability) - same K9K family"
+          ],
+          "knownFor": [
+            "Excellent fuel economy (50-60 MPG achievable with careful driving)",
+            "EGR system clogging on short-trip urban use causing power loss",
+            "Timing belt must be replaced at 60k miles or 5 years to avoid catastrophic failure",
+            "Strong low-end torque ideal for loaded driving but demands quality diesel fuel"
+          ],
+          "typicalModels": [
+            "Premium 1.5 dCi",
+            "Custom 1.5 dCi",
+            "Base 1.5 dCi (imported examples)"
+          ],
+          "importantNotes": [],
+          "cta": "Get quotes for Nissan Aprio Diesel replacement engines"
+        }
+      ],
+      "closing": "Not sure which fuel type your Nissan Aprio has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Aprio specialists.",
+      "headingLines": [
+        "Nissan Aprio Engines by Fuel Type"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "familiesLabel": "Common Engine Families",
+        "foundInLabel": "Found In",
+        "knownForLabel": "Known For",
+        "modelsLabel": "Typical Models (UK)",
+        "notesLabel": "Important Notes",
+        "closingButtonText": "Find my engine",
+        "emptyStateTitle": "Fuel type guidance",
+        "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."
+      }
+    },
+    "engineYears": {
+      "tag": "Engine Years",
+      "h2": "Nissan Aprio Engines by Year - What Was Fitted & When",
+      "intro": "This section covers all major engine changes across the Nissan Aprio's 2007-2014 UK availability, organised so owners can quickly identify their engine and compare rebuilt prices from UK specialists.",
+      "jumpLabel": "Jump to model year",
+      "years": [
+        {
+          "year": "2007",
+          "preview": "Launch Year: QG16DE & SR13DE Debut",
+          "description": "The Aprio launched in the UK as a grey import with two petrol options: the 1.6L QG16DE for Base/Custom and the 1.3L SR13DE for Convenience trim.",
+          "keyChanges": [
+            "First UK availability of Nissan Aprio saloon via grey import channels",
+            "QG16DE 1.6L petrol fitted to Base and Custom trims",
+            "SR13DE 1.3L VVT petrol introduced for entry-level Convenience variant",
+            "All units right-hand drive converted for UK market compliance"
+          ],
+          "mainEngines": [
+            "QG16DE - 1.6L petrol (Base / Custom early)",
+            "SR13DE - 1.3L petrol VVT (Convenience)"
+          ],
+          "popularModels": [
+            "Nissan Aprio Base",
+            "Nissan Aprio Custom",
+            "Nissan Aprio Convenience"
+          ],
+          "knownFor": [
+            "QG16DE robust but sensitive to overheating; head gasket a known weak point",
+            "SR13DE economical but VVT actuator rattle reported on cold starts after 50k miles",
+            "Early imports required careful verification of conversion quality and MoT compliance"
+          ],
+          "engineCodesCovered": [
+            "QG16DE",
+            "SR13DE"
+          ],
+          "cta": "Get quotes for 2007 Nissan Aprio replacement engines",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan Aprio 2007 engine replacement • QG16DE head gasket cost • SR13DE VVT actuator fix",
+          "enquiries": [
+            "Nissan Aprio 2007 engine replacement",
+            "QG16DE head gasket cost",
+            "SR13DE VVT actuator fix"
+          ]
+        },
+        {
+          "year": "2008-2009",
+          "preview": "K4M & HR16DE Become Standard",
+          "description": "Renault-sourced K4M and Nissan's HR16DE replaced earlier engines as the dominant 1.6L units, while the K9K dCi diesel debuted in Premium trim.",
+          "keyChanges": [
+            "K4M 700 1.6L petrol introduced across Base, Custom and Emotion trims",
+            "HR16DE 1.6L petrol fitted to later Custom and imported examples",
+            "K9K 700 1.5L dCi diesel launched exclusively in Premium trim",
+            "Minor interior updates and improved sound insulation on 2009 models"
+          ],
+          "mainEngines": [
+            "K4M 700 - 1.6L petrol (Base / Custom / Emotion)",
+            "HR16DE - 1.6L petrol (Custom late / imported)",
+            "K9K 700 - 1.5L diesel (Premium)",
+            "SR15DE - 1.5L petrol VVT (Custom 1.5L option)"
+          ],
+          "popularModels": [
+            "Nissan Aprio Base 1.6L",
+            "Nissan Aprio Custom 1.6L",
+            "Nissan Aprio Emotion",
+            "Nissan Aprio Premium dCi"
+          ],
+          "knownFor": [
+            "K4M timing chain tensioner wear emerges as common issue at 60k-90k miles",
+            "HR16DE shows improved oil control but piston ring consumption on high-mileage units",
+            "K9K dCi delivers strong economy but EGR clogging on urban-driven examples",
+            "2009 models benefit from minor cooling system improvements over 2008"
+          ],
+          "engineCodesCovered": [
+            "K4M 700",
+            "HR16DE",
+            "K9K 700",
+            "SR15DE"
+          ],
+          "cta": "Compare Nissan Aprio 2008-2009 engine prices",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Aprio K4M timing chain cost • HR16DE oil consumption fix • K9K EGR cleaner replacement",
+          "enquiries": [
+            "Aprio K4M timing chain cost",
+            "HR16DE oil consumption fix",
+            "K9K EGR cleaner replacement"
+          ]
+        },
+        {
+          "year": "2010",
+          "preview": "Final Main Production Year: K4M 800 Refinement",
+          "description": "The last full year of mainstream Aprio production saw the K4M 800 revision with minor updates to address earlier oil consumption concerns.",
+          "keyChanges": [
+            "K4M 800 revision introduced with updated piston rings and oil control",
+            "HR16DE continued alongside K4M for Custom and imported examples",
+            "K9K dCi remained exclusive to Premium trim with no major changes",
+            "Production wound down in Brazil as focus shifted to newer platforms"
+          ],
+          "mainEngines": [
+            "K4M 800 - 1.6L petrol revised (Base / Custom / Emotion late)",
+            "HR16DE - 1.6L petrol (Custom / imported)",
+            "K9K 700 - 1.5L diesel (Premium)"
+          ],
+          "popularModels": [
+            "Nissan Aprio Base 2010",
+            "Nissan Aprio Custom 2010",
+            "Nissan Aprio Premium dCi 2010"
+          ],
+          "knownFor": [
+            "K4M 800 shows modest improvement in oil consumption over 700 variant",
+            "HR16DE remains reliable with strict oil changes; VVT solenoid clogging on neglected units",
+            "K9K dCi timing belt critical at 60k miles; failure causes catastrophic engine damage",
+            "2010 models often represent best value for used Aprio purchases today"
+          ],
+          "engineCodesCovered": [
+            "K4M 800",
+            "HR16DE",
+            "K9K 700"
+          ],
+          "cta": "Get quotes for 2010 Nissan Aprio replacement engines",
+          "badges": [
+            {
+              "label": "Major Engine Changes",
+              "tone": "accent"
+            },
+            {
+              "label": "3 engine highlights",
+              "tone": "muted"
+            }
+          ],
+          "ticker": "Aprio 2010 engine replacement • K4M 800 vs 700 difference • K9K timing belt interval",
+          "enquiries": [
+            "Aprio 2010 engine replacement",
+            "K4M 800 vs 700 difference",
+            "K9K timing belt interval"
+          ]
+        },
+        {
+          "year": "2011-2014",
+          "preview": "Limited Imports: HR16DE Dominates",
+          "description": "Post-2010 Aprios reached the UK only via limited grey imports, predominantly featuring the HR16DE 1.6L petrol with minor calibration updates.",
+          "keyChanges": [
+            "HR16DE became the dominant engine for late-imported Aprio examples",
+            "Minor ECU calibration updates for emissions compliance on 2012+ imports",
+            "No diesel variants officially imported post-2010; petrol-only availability",
+            "Parts availability remains good via Renault/Nissan networks despite low UK volumes"
+          ],
+          "mainEngines": [
+            "HR16DE - 1.6L petrol (all imported trims)",
+            "K4M 800 - 1.6L petrol (limited late imports)"
+          ],
+          "popularModels": [
+            "Nissan Aprio Imported Custom 1.6L",
+            "Nissan Aprio Imported Base 1.6L"
+          ],
+          "knownFor": [
+            "HR16DE in late imports benefits from minor oil-control refinements",
+            "Timing chain still requires attention at 70k+ miles if oil changes neglected",
+            "Imported examples require careful verification of service history and conversion quality",
+            "Lower UK registration numbers mean fewer donor engines but good parts cross-compatibility"
+          ],
+          "engineCodesCovered": [
+            "HR16DE",
+            "K4M 800"
+          ],
+          "cta": "Enquire about 2011-2014 Nissan Aprio imported engine availability",
+          "badges": [
+            {
+              "label": "Technology Change",
+              "tone": "accent"
+            }
+          ],
+          "enquiries": []
+        }
+      ],
+      "closing": "Not sure which year your Nissan Aprio was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Aprio specialists.",
+      "headingLines": [
+        "Nissan Aprio Engines by Year",
+        "What Was Fitted & When"
+      ],
+      "ui": {
+        "keyChangesLabel": "Key Changes",
+        "knownForLabel": "Known For",
+        "mainEnginesLabel": "Main Engines",
+        "popularModelsLabel": "Popular Models",
+        "engineCodesLabel": "Engine Codes Covered",
+        "enquiriesLabel": "Common Replacement Enquiries"
+      },
+      "summaryCta": {
+        "label": "Year Finder",
+        "title": "Not sure which year your Nissan Aprio was built-",
+        "buttonText": "Find My Engine"
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "h2": "Nissan Aprio Engine Replacement - Frequently Asked Questions",
+      "intro": "",
+      "items": [
+        {
+          "question": "How much does a Nissan Aprio engine replacement cost in the UK-",
+          "answer": "A rebuilt Nissan Aprio engine typically costs £750-£1,700 supply-only, with supply & fit adding £400-£850 labour. Used engines start around £450 but carry higher risk; remanufactured units reach £2,600 for factory-spec quality.",
+          "keyPoints": [
+            "Rebuilt K4M/HR16DE petrol: £750-£1,700 supply-only",
+            "Rebuilt K9K diesel: £850-£2,400 due to emissions components",
+            "Supply & fit labour adds £400-£850 depending on garage location",
+            "Used engines cheaper upfront but request compression test before buying"
+          ],
+          "cta": "Compare rebuilt Nissan Aprio engine prices UK"
+        },
+        {
+          "question": "What engine codes are compatible with my Nissan Aprio-",
+          "answer": "Common Aprio engine codes include K4M 700/800, HR16DE (1.6L petrol), K9K 700 (1.5L diesel), and SR13DE/SR15DE (1.3L/1.5L VVT petrol). Enter your registration to verify exact compatibility.",
+          "keyPoints": [
+            "K4M and HR16DE dominate 1.6L petrol applications across most trims",
+            "K9K 700 is the sole diesel option, fitted to Premium dCi models",
+            "SR13DE/SR15DE power smaller-displacement Convenience and early Base variants",
+            "DVLA lookup via registration confirms exact engine code for your vehicle"
+          ],
+          "cta": "Verify your Nissan Aprio engine code instantly"
+        },
+        {
+          "question": "How long does it take to replace a Nissan Aprio engine-",
+          "answer": "A professional supply & fit engine replacement typically takes 1-2 days labour, plus 1-3 days for engine delivery depending on stock availability and your location within the UK.",
+          "keyPoints": [
+            "Removal and refit labour: 8-14 hours depending on garage experience",
+            "ECU adaptation and road test add 1-2 hours post-installation",
+            "Engine delivery: 1-3 days for in-stock rebuilt units from UK suppliers",
+            "Allow 3-5 working days total from order to collection for planning purposes"
+          ],
+          "cta": "Get a timeline estimate for your Nissan Aprio engine replacement"
+        },
+        {
+          "question": "Does a replacement Nissan Aprio engine come with a warranty-",
+          "answer": "Yes - every rebuilt, reconditioned or remanufactured engine supplied through EngineMarket includes a minimum 12-month unlimited mileage warranty from UK specialists. Used engines typically carry 3-6 months.",
+          "keyPoints": [
+            "12-month unlimited mileage warranty standard on rebuilt/recon units",
+            "Warranty covers mechanical failure of supplied components, not labour for refit",
+            "Used engines: 3-6 months typical; request written terms before purchase",
+            "Keep all service records post-installation to maintain warranty validity"
+          ],
+          "cta": "Compare warranty terms for Nissan Aprio engine suppliers"
+        },
+        {
+          "question": "Can I fit a Nissan Aprio engine myself or do I need a specialist-",
+          "answer": "While mechanically confident DIYers can undertake an Aprio engine swap, professional fitting is recommended due to ECU adaptation, immobiliser sync and MoT emissions compliance requirements.",
+          "keyPoints": [
+            "Aprio engine removal/refit requires specialist tools and lifting equipment",
+            "ECU adaptation and immobiliser sync often need dealer-level diagnostic equipment",
+            "MoT emissions testing post-replacement requires certified garage documentation",
+            "Supply-only engines available for DIY; supply & fit bundles simplify the process"
+          ],
+          "cta": "Find Nissan Aprio engine supply & fit specialists near you"
+        },
+        {
+          "question": "Will a replacement engine affect my Nissan Aprio insurance-",
+          "answer": "You must declare an engine replacement to your insurer, but a like-for-like rebuilt unit typically has minimal impact on premiums if the engine code and specifications match the original.",
+          "keyPoints": [
+            "Declare the replacement to your insurer to avoid policy invalidation",
+            "Like-for-like rebuilt engines (same code, same specs) rarely increase premiums",
+            "Keep documentation of the replacement engine and warranty for claims purposes",
+            "Modified engines (different displacement, performance upgrades) may affect cover"
+          ],
+          "cta": "Get quotes for compliant Nissan Aprio engine replacement"
+        },
+        {
+          "question": "How do I know if my Nissan Aprio needs a full engine replacement or just a repair-",
+          "answer": "If the engine has suffered catastrophic failure (seized, thrown rod, major overheating damage) or has over 100k miles with multiple issues, replacement is usually more economical than repair.",
+          "keyPoints": [
+            "Minor issues (sensor failure, small leaks) often warrant repair over replacement",
+            "Major failures (timing chain snap, head gasket with warped head) favour replacement",
+            "High-mileage engines (>100k) with multiple wear issues: replacement offers better value",
+            "Get a professional diagnostic assessment before deciding on repair vs replace"
+          ],
+          "cta": "Get a specialist assessment for your Nissan Aprio engine"
+        },
+        {
+          "question": "Are used Nissan Aprio engines reliable-",
+          "answer": "Used Aprio engines can be reliable if sourced from low-mileage, well-maintained donors with verified service history and a pre-dispatch compression test report.",
+          "keyPoints": [
+            "Request compression and leak-down test reports before purchasing any used engine",
+            "Verify mileage via service records or MOT history where possible",
+            "Prefer UK-sourced donors for easier verification and lower transport risk",
+            "Ensure the supplier offers at least a 3-month warranty on used units"
+          ],
+          "cta": "Check verified used Nissan Aprio engine availability"
+        },
+        {
+          "question": "What is the difference between reconditioned, rebuilt, and remanufactured Nissan Aprio engines-",
+          "answer": "Reconditioned engines have worn parts replaced; rebuilt engines include upgrades addressing known failure points; remanufactured units are restored to factory specifications with all critical components renewed.",
+          "keyPoints": [
+            "Reconditioned: cleaned, inspected, worn parts replaced; good value option",
+            "Rebuilt: includes upgrades for known issues (tensioners, rings); best balance of cost/reliability",
+            "Remanufactured: factory-spec rebuild with certification; premium option for enthusiasts",
+            "All three types available through EngineMarket with 12-month warranty standard"
+          ],
+          "cta": "Compare reconditioned vs rebuilt Nissan Aprio engine options"
+        },
+        {
+          "question": "How do I prepare my Nissan Aprio for engine replacement-",
+          "answer": "Before engine replacement, drain fluids, disconnect the battery, and remove personal items from the vehicle. Provide your supplier with the VIN and engine code for compatibility verification.",
+          "keyPoints": [
+            "Drain engine oil and coolant to reduce weight and spill risk during removal",
+            "Disconnect battery and remove valuables/personal items from the vehicle",
+            "Provide VIN and current engine code to your supplier for exact compatibility check",
+            "Arrange alternative transport as the vehicle will be off-road for 1-3 days typically"
+          ],
+          "cta": "Start your Nissan Aprio engine replacement quote today"
+        }
+      ],
+      "headingLines": [
+        "Nissan Aprio Engine Replacement",
+        "Frequently Asked Questions"
+      ],
+      "defaultOpenIndex": 0,
+      "ui": {
+        "questionLabelPrefix": "Question",
+        "keyPointsLabel": "Key points",
+        "warningTitle": "Check fitment and engine condition before ordering"
+      }
+    },
+    "trustCta": {
+      "tag": "Why Choose Us",
+      "h2": "Why UK Nissan Aprio Owners Trust EngineMarket",
+      "intro": "Join thousands of UK drivers who compare Nissan Aprio engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.",
+      "points": [
+        {
+          "title": "Trusted Nissan Aprio Engine Suppliers",
+          "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Aprio owners."
+        },
+        {
+          "title": "Compare Nissan Aprio Engine Replacement Companies",
+          "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."
+        },
+        {
+          "title": "UK Engine Replacement Services for Nissan Aprio",
+          "description": "Covering every variant from budget Base to Premium dCi, with supply-only or full supply & fit available nationwide."
+        }
+      ],
+      "finalText": "Find the best Nissan Aprio engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.",
+      "buttonText": "Compare Nissan Aprio Engine Prices Now →",
+      "secondaryAction": {
+        "text": "Call Our Experts",
+        "href": "tel:03330000044"
+      },
+      "imageAlt": "Nissan Aprio vehicle",
+      "ui": {
+        "pointLabel": "Included",
+        "stripLabel": "Trusted UK Engine Marketplace",
+        "stripTitle": "Compare Nissan Aprio engine prices with vetted UK specialists",
+        "trustBullets": [
+          "100% Free",
+          "No Obligation",
+          "Fast & secure process",
+          "UK-based support"
+        ],
+        "imageBadgeLabel": "Trusted supplier network",
+        "imageBadgeTitle": "Warranty-backed rebuilt & used options",
+        "imageBadgeText": "Every quote checked for fitment, quality and lead time."
+      }
+    }
+  }
+}

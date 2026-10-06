@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+
+
+/* =========================================================
+   Blog Post Typography & Semantic Styling (Montserrat Theme)
+   ========================================================= */
+.cms-content {
+  font-family: "Montserrat", sans-serif !important;
+  color: #374151;
+  line-height: 1.75;
+}
+
+.cms-article-title,
+.cms-content h1 {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 2.5rem !important;
+  line-height: 1.2 !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+.cms-content h2 {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 34px !important;
+  line-height: 1.25 !important;
+  font-weight: 500 !important;
+  border-left: 5px solid #1E3A8A !important;
+  padding-left: 14px !important;
+  margin-top: 2.25rem !important;
+  margin-bottom: 1rem !important;
+  color: #0f172a !important;
+}
+
+.cms-content h3 {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 26px !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  margin-top: 1.75rem !important;
+  margin-bottom: 0.75rem !important;
+  color: #1e293b !important;
+}
+
+.cms-content p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: #374151;
+}
+
+.cms-content strong,
+.cms-content b {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.cms-content a {
+  color: #1E3A8A;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cms-content a:hover {
+  color: #2563EB;
+}
+
+/* =========================================================
+   Responsive Table Styling (Matching Mockup)
+   ========================================================= */
+.cms-table-overflow {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  border: 1px solid #E2E8F0;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.cms-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13.5px;
+}
+
+.cms-table th {
+  background-color: #DDE3EA !important;
+  color: #0F172A !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+  padding: 12px 18px !important;
+  border-bottom: 1px solid #CBD5E1 !important;
+  border-right: 1px solid #E2E8F0 !important;
+  letter-spacing: -0.01em;
+}
+
+.cms-table th:last-child {
+  border-right: none !important;
+}
+
+.cms-table td {
+  padding: 11px 18px !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+  border-right: 1px solid #F1F5F9 !important;
+  color: #334155 !important;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+.cms-table td:last-child {
+  border-right: none !important;
+}
+
+.cms-table tr:nth-child(even) td {
+  background-color: #F8FAFC !important;
+}
+
+.cms-table tr:hover td {
+  background-color: #F1F5F9 !important;
+}

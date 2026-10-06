@@ -1,0 +1,598 @@
+{
+  "groups": [
+    {
+      "title": "Prices",
+      "links": [
+        {
+          "label": "Crankshaft Repair Cost",
+          "href": "/prices/crankshaft-repair-cost"
+        },
+        {
+          "label": "DPF Replacement Cost",
+          "href": "/prices/dpf-replacement-cost"
+        },
+        {
+          "label": "Engine Fitting Cost",
+          "href": "/prices/engine-fitting-cost"
+        },
+        {
+          "label": "Engine Replacement Cost",
+          "href": "/prices/engine-replacement-cost"
+        },
+        {
+          "label": "Garage Labour Rates",
+          "href": "/prices/garage-labour-rates"
+        },
+        {
+          "label": "Gearbox Replacement Cost",
+          "href": "/prices/gearbox-replacement-cost"
+        },
+        {
+          "label": "Head Gasket Repair Cost",
+          "href": "/prices/head-gasket-repair-cost"
+        },
+        {
+          "label": "Injector Replacement Cost",
+          "href": "/prices/injector-replacement-cost"
+        },
+        {
+          "label": "Rebuilt Engine Cost",
+          "href": "/prices/rebuilt-engine-cost"
+        },
+        {
+          "label": "Reconditioned Engine Cost",
+          "href": "/prices/reconditioned-engine-cost"
+        },
+        {
+          "label": "Remanufactured Engine Cost",
+          "href": "/prices/remanfactured-engine-cost"
+        },
+        {
+          "label": "Timing Chain Replacement Cost",
+          "href": "/prices/timing-chain-replacement-cost"
+        },
+        {
+          "label": "Turbo Replacement Cost",
+          "href": "/prices/turbo-replacement-cost"
+        },
+        {
+          "label": "Used Engine Cost",
+          "href": "/prices/used-engine-cost"
+        },
+        {
+          "label": "Vehicle Recovery Cost",
+          "href": "/prices/vehicle-recovery-cost"
+        }
+      ],
+      "viewAll": {
+        "label": "All Price Guides",
+        "href": "/prices"
+      }
+    },
+    {
+      "title": "Case Studies",
+      "links": [
+        {
+          "label": "Audi A4 Timing Chain Failure",
+          "href": "/case-studies/audi-a4-timing-chain-failure"
+        },
+        {
+          "label": "Audi A6 Oil Consumption",
+          "href": "/case-studies/audi-a6-oil-consumption"
+        },
+        {
+          "label": "BMW 320d Engine Replacement",
+          "href": "/case-studies/bmw-320d-engine-replacement"
+        },
+        {
+          "label": "BMW N47 Timing Chain Failure",
+          "href": "/case-studies/bmw-n47-timing-chain-failure"
+        },
+        {
+          "label": "BMW N57 Engine Replacement",
+          "href": "/case-studies/bmw-n57-engine-replacement"
+        },
+        {
+          "label": "Ford Ranger Engine Replacement",
+          "href": "/case-studies/ford-ranger-engine-replacement"
+        },
+        {
+          "label": "Ford Transit Engine Failure",
+          "href": "/case-studies/ford-transit-engine-failure"
+        },
+        {
+          "label": "Jaguar Ingenium Timing Chain",
+          "href": "/case-studies/jaguar-ingenium-timing-chain"
+        },
+        {
+          "label": "Jaguar XF Engine Replacement",
+          "href": "/case-studies/jaguar-xf-engine-replacement"
+        },
+        {
+          "label": "Land Rover Discovery Crank Failure",
+          "href": "/case-studies/land-rover-discovery-crank-failure"
+        },
+        {
+          "label": "Mercedes OM651 Timing Chain",
+          "href": "/case-studies/mercedes-om651-timing-chain"
+        },
+        {
+          "label": "Mercedes Sprinter Engine Replacement",
+          "href": "/case-studies/mercedes-sprinter-engine-replacement"
+        },
+        {
+          "label": "Nissan Navara Engine Failure",
+          "href": "/case-studies/nissan-navara-engine-failure"
+        },
+        {
+          "label": "Peugeot Boxer Engine Replacement",
+          "href": "/case-studies/peugeot-boxer-engine-replacement"
+        },
+        {
+          "label": "Range Rover Evoque Timing Chain",
+          "href": "/case-studies/range-rover-evoque-timing-chain"
+        },
+        {
+          "label": "Range Rover SDV6 Crankshaft Failure",
+          "href": "/case-studies/range-rover-sdv6-crankshaft-failure"
+        },
+        {
+          "label": "Toyota Hilux Engine Replacement",
+          "href": "/case-studies/toyota-hilux-engine-replacement"
+        },
+        {
+          "label": "Vauxhall Vivaro Engine Failure",
+          "href": "/case-studies/vauxhall-vivaro-engine-failure"
+        },
+        {
+          "label": "VW Amarok Engine Replacement",
+          "href": "/case-studies/vw-amarok-engine-replacement"
+        },
+        {
+          "label": "VW Transporter Engine Rebuild",
+          "href": "/case-studies/vw-transporter-engine-rebuild"
+        }
+      ],
+      "viewAll": {
+        "label": "All Case Studies",
+        "href": "/case-studies"
+      }
+    },
+    {
+      "title": "Failures",
+      "links": [
+        {
+          "label": "Camshaft Failure",
+          "href": "/failures/camshaft-failure"
+        },
+        {
+          "label": "Coolant Contamination",
+          "href": "/failures/coolant-contamination"
+        },
+        {
+          "label": "Crankshaft Failure",
+          "href": "/failures/crankshaft-failure"
+        },
+        {
+          "label": "Cylinder Bore Damage",
+          "href": "/failures/cylinder-bore-damage"
+        },
+        {
+          "label": "DPF Failure",
+          "href": "/failures/dpf-failure"
+        },
+        {
+          "label": "EGR Failure",
+          "href": "/failures/egr-failure"
+        },
+        {
+          "label": "Engine Knock",
+          "href": "/failures/engine-knock"
+        },
+        {
+          "label": "Engine Management Light",
+          "href": "/failures/engine-management-light"
+        },
+        {
+          "label": "Engine Seizure",
+          "href": "/failures/engine-seizure"
+        },
+        {
+          "label": "Engine Vibration",
+          "href": "/failures/engine-vibration"
+        },
+        {
+          "label": "Excessive Oil Consumption",
+          "href": "/failures/excessive-oil-consumption"
+        },
+        {
+          "label": "Excessive Smoke",
+          "href": "/failures/excessive-smoke"
+        },
+        {
+          "label": "Fuel Pump Failure",
+          "href": "/failures/fuel-pump-failure"
+        },
+        {
+          "label": "Head Gasket Failure",
+          "href": "/failures/head-gasket-failure"
+        },
+        {
+          "label": "Injector Failure",
+          "href": "/failures/injector-failure"
+        },
+        {
+          "label": "Low Compression",
+          "href": "/failures/low-compression"
+        },
+        {
+          "label": "Misfiring Engine",
+          "href": "/failures/misfiring-engine"
+        },
+        {
+          "label": "Oil Pump Failure",
+          "href": "/failures/oil-pump-failure"
+        },
+        {
+          "label": "Overheating Engine",
+          "href": "/failures/overheating-engine"
+        },
+        {
+          "label": "Piston Failure",
+          "href": "/failures/piston-failure"
+        },
+        {
+          "label": "Rod Bearing Failure",
+          "href": "/failures/rod-bearing-failure"
+        },
+        {
+          "label": "Timing Belt Failure",
+          "href": "/failures/timing-belt-failure"
+        },
+        {
+          "label": "Timing Chain Failure",
+          "href": "/failures/timing-chain-failure"
+        },
+        {
+          "label": "Turbo Failure",
+          "href": "/failures/turbo-failure"
+        },
+        {
+          "label": "Water Pump Failure",
+          "href": "/failures/water-pump-failure"
+        }
+      ],
+      "viewAll": {
+        "label": "All Failures",
+        "href": "/failures"
+      }
+    },
+    {
+      "title": "Symptoms",
+      "links": [
+        {
+          "label": "Black Smoke",
+          "href": "/symptoms/black-smoke"
+        },
+        {
+          "label": "Blue Smoke",
+          "href": "/symptoms/blue-smoke"
+        },
+        {
+          "label": "Check Engine Light",
+          "href": "/symptoms/check-engine-light"
+        },
+        {
+          "label": "Coolant Loss",
+          "href": "/symptoms/coolant-loss"
+        },
+        {
+          "label": "Coolant Warning Light",
+          "href": "/symptoms/coolant-warning-light"
+        },
+        {
+          "label": "DPF Warning Light",
+          "href": "/symptoms/dpf-warning-light"
+        },
+        {
+          "label": "Engine Knocking Noise",
+          "href": "/symptoms/engine-knocking-noise"
+        },
+        {
+          "label": "Engine Overheating",
+          "href": "/symptoms/engine-overheating"
+        },
+        {
+          "label": "Engine Rattling Noise",
+          "href": "/symptoms/engine-rattling-noise"
+        },
+        {
+          "label": "Engine Stalling",
+          "href": "/symptoms/engine-stalling"
+        },
+        {
+          "label": "Engine Ticking Noise",
+          "href": "/symptoms/engine-ticking-noise"
+        },
+        {
+          "label": "Engine Won't Start",
+          "href": "/symptoms/engine-wont-start"
+        },
+        {
+          "label": "Excessive Oil Consumption",
+          "href": "/symptoms/excessive-oil-consumption"
+        },
+        {
+          "label": "Exhaust Leak Sound",
+          "href": "/symptoms/exhaust-leak-sound"
+        },
+        {
+          "label": "Limp Mode",
+          "href": "/symptoms/limp-mode"
+        },
+        {
+          "label": "Loss Of Power",
+          "href": "/symptoms/loss-of-power"
+        },
+        {
+          "label": "Metal Shavings In Oil",
+          "href": "/symptoms/metal-shavings-in-oil"
+        },
+        {
+          "label": "Oil Warning Light",
+          "href": "/symptoms/oil-warning-light"
+        },
+        {
+          "label": "Rough Idle",
+          "href": "/symptoms/rough-idle"
+        },
+        {
+          "label": "White Smoke",
+          "href": "/symptoms/white-smoke"
+        }
+      ],
+      "viewAll": {
+        "label": "All Symptoms",
+        "href": "/symptoms"
+      }
+    },
+    {
+      "title": "Compare",
+      "links": [
+        {
+          "label": "Diesel Vs Petrol Running Cost",
+          "href": "/compare/diesel-vs-petrol-running-cost"
+        },
+        {
+          "label": "Local Garage Vs Specialist",
+          "href": "/compare/local-garage-vs-specialist"
+        },
+        {
+          "label": "Main Dealer Vs Independent Specialist",
+          "href": "/compare/main-dealer-vs-independent-specialist"
+        },
+        {
+          "label": "New Vs Reconditioned Engine",
+          "href": "/compare/new-vs-reconditioned-engine"
+        },
+        {
+          "label": "Rebuild Vs Replacement",
+          "href": "/compare/rebuild-vs-replacement"
+        },
+        {
+          "label": "Reconditioned Vs Rebuilt Engine",
+          "href": "/compare/reconditioned-vs-rebuilt-engine"
+        },
+        {
+          "label": "Reconditioned Vs Remanufactured Engine",
+          "href": "/compare/reconditioned-vs-remanufactured-engine"
+        },
+        {
+          "label": "Repair Vs Reconditioned Engine",
+          "href": "/compare/repair-vs-reconditioned-engine"
+        },
+        {
+          "label": "Repair Vs Replacement",
+          "href": "/compare/repair-vs-replacement"
+        },
+        {
+          "label": "Repairing Vs Scrapping",
+          "href": "/compare/repairing-vs-scrapping"
+        },
+        {
+          "label": "Supply Only Vs Supply Fit",
+          "href": "/compare/supply-only-vs-supply-fit"
+        },
+        {
+          "label": "Used Vs Rebuilt Engine",
+          "href": "/compare/used-vs-rebuilt-engine"
+        },
+        {
+          "label": "Used Vs Reconditioned Engine",
+          "href": "/compare/used-vs-reconditioned-engine"
+        }
+      ],
+      "viewAll": {
+        "label": "All Comparisons",
+        "href": "/compare"
+      }
+    },
+    {
+      "title": "Insights",
+      "links": [
+        {
+          "label": "Average Engine Replacement Times",
+          "href": "/insights/average-engine-replacement-times"
+        },
+        {
+          "label": "Engine Warranty Statistics UK",
+          "href": "/insights/engine-warranty-statistics-uk"
+        },
+        {
+          "label": "Most Common Engine Failures UK",
+          "href": "/insights/most-common-engine-failures-uk"
+        },
+        {
+          "label": "Most Expensive Engine Repairs UK",
+          "href": "/insights/most-expensive-engine-repairs-uk"
+        },
+        {
+          "label": "Most Reliable Diesel Engines",
+          "href": "/insights/most-reliable-diesel-engines"
+        },
+        {
+          "label": "Most Reliable Petrol Engines",
+          "href": "/insights/most-reliable-petrol-engines"
+        },
+        {
+          "label": "Most Replaced Engines UK",
+          "href": "/insights/most-replaced-engines-uk"
+        },
+        {
+          "label": "UK Engine Market Report 2026",
+          "href": "/insights/uk-engine-market-report-2026"
+        },
+        {
+          "label": "UK Engine Price Index",
+          "href": "/insights/uk-engine-price-index"
+        },
+        {
+          "label": "UK Engine Replacement Statistics",
+          "href": "/insights/uk-engine-replacement-statistics"
+        }
+      ],
+      "viewAll": {
+        "label": "All Insights",
+        "href": "/insights"
+      }
+    },
+    {
+      "title": "Guides",
+      "links": [
+        {
+          "label": "Engine Warranty Guide",
+          "href": "/about/engine-warranty-guide"
+        },
+        {
+          "label": "Warranty Claims Guide",
+          "href": "/about/warranty-claims-guide"
+        },
+        {
+          "label": "How Engines Market Works",
+          "href": "/about/how-engines-market-works"
+        },
+        {
+          "label": "Supplier Standards",
+          "href": "/about/supplier-standards"
+        },
+        {
+          "label": "Engine Fitting Cost",
+          "href": "/prices/engine-fitting-cost"
+        },
+        {
+          "label": "Garage Labour Rates",
+          "href": "/prices/garage-labour-rates"
+        },
+        {
+          "label": "All Resources",
+          "href": "/resources"
+        }
+      ],
+      "viewAll": {
+        "label": "All Resources",
+        "href": "/resources"
+      }
+    },
+    {
+      "title": "Knowledge",
+      "links": [
+        {
+          "label": "Engine Failures",
+          "href": "/failures"
+        },
+        {
+          "label": "Car Symptoms",
+          "href": "/symptoms"
+        },
+        {
+          "label": "Compare Options",
+          "href": "/compare"
+        },
+        {
+          "label": "Case Studies",
+          "href": "/case-studies"
+        },
+        {
+          "label": "Guides & Tools",
+          "href": "/guides"
+        },
+        {
+          "label": "All Resources",
+          "href": "/resources"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "label": "How It Works",
+          "href": "/about/how-engines-market-works"
+        },
+        {
+          "label": "Supplier Standards",
+          "href": "/about/supplier-standards"
+        },
+        {
+          "label": "Reviews",
+          "href": "/reviews"
+        },
+        {
+          "label": "Contact",
+          "href": "/about/contact"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog"
+        },
+        {
+          "label": "Locations",
+          "href": "/locations"
+        }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/legal/privacy-policy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "/legal/terms-and-conditions"
+        },
+        {
+          "label": "Cookie Policy",
+          "href": "/legal/cookie-policy"
+        },
+        {
+          "label": "Complaints Procedure",
+          "href": "/legal/complaints-procedure"
+        },
+        {
+          "label": "Data Handling Policy",
+          "href": "/legal/data-handlng-policy"
+        }
+      ],
+      "viewAll": {
+        "label": "Legal Hub",
+        "href": "/legal"
+      }
+    }
+  ]
+}

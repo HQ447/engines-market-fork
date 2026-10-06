@@ -7,9 +7,11 @@ const wwwHost = canonicalHost.startsWith("www.")
   ? canonicalHost
   : `www.${canonicalHost}`;
 
+/** Allow all crawlers on all URLs. Served at /robots.txt */
 const buildRobotsTxt = () =>
   `User-agent: *
 Allow: /
+
 Sitemap: ${canonicalOrigin}/sitemap.xml
 `;
 
