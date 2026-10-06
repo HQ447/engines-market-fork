@@ -9,6 +9,7 @@ type Props = {
   data: ReviewsSectionData;
   useDataHeading?: boolean;
   documentMode?: boolean;
+  newDesignMode?: boolean;
 };
 
 const REVIEW_SOURCES = ["google", "facebook", "trustpilot", "google", "facebook", "trustpilot"] as const;
@@ -104,7 +105,7 @@ function splitHeading(title: string) {
   };
 }
 
-export default function ReviewsSection({ data, useDataHeading = false, documentMode = false }: Props) {
+export default function ReviewsSection({ data, useDataHeading = false, documentMode = false, newDesignMode = false }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const reviewCount = data.reviews.length;
   const heading = splitHeading(data.h2);
@@ -129,17 +130,17 @@ export default function ReviewsSection({ data, useDataHeading = false, documentM
   }
 
   return (
-    <Section className="bg-white">
-      <Container className={documentMode ? "max-w-[1400px] px-0 sm:px-0 lg:px-0" : ""}>
+    <Section className={newDesignMode ? "bg-white py-9 sm:py-10 lg:py-12" : "bg-white"}>
+      <Container className={documentMode ? `max-w-7xl ${newDesignMode ? "!px-4 sm:!px-6 lg:!px-8" : "px-0 sm:px-0 lg:px-0"}` : ""}>
         <div className={`mx-auto max-w-[1400px] ${documentMode ? "" : "px-2"}`}>
           <div>
-            <p className="section-pill">
+            <p className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-[#1289d5]/40 bg-[#06244d]/95 px-3.5 py-1.5 text-[14px] font-bold uppercase text-[white] shadow-[0_0_20px_rgba(26,145,232,0.25)] sm:mb-5 sm:text-[13px]">
               {/* <TagIcon /> */}
               {data.tag}
             </p>
 
             <div className="mt-3 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-              <h2 className="max-w-[1020px]">
+              <h2 className={`max-w-[1020px] ${newDesignMode ? "!text-[34px] font-extrabold leading-[1.04] tracking-[-0.04em] lg:!text-[40px]" : ""}`}>
                 {useDataHeading ? (
                   headingLines.map((line, index) => (
                     <span key={`${line}-${index}`} className={`block ${headingLines.length > 1 && index === headingLines.length - 1 ? "text-[#15803d]" : ""}`}>

@@ -1,1 +1,1438 @@
-{"brand": {"name": "Nissan", "slug": "nissan", "tone": "premium"}, "model": {"name": "Nissan Kicks", "slug": "kicks", "legacySlug": "nissan-kicks"}, "seo": {"title": "Nissan Kicks Engine Replacement - Compare Prices UK", "description": "Nissan Kicks engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £850. 12-month warranty & UK supply fit specialists.", "canonical": "/nissan/kicks"}, "assets": {"mainImage": "/images/brands/nissan/models/nissan-kicks-model-card.png", "smallImage": "/images/brands/nissan/models/nissan-kicks-model-card.png", "heroBg": "/images/brands/nissan/models/nissan-kicks-model-card.png", "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp", "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp", "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp", "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp", "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp", "ctaImage": "/images/brands/nissan/models/nissan-kicks-model-card.png"}, "sections": {"hero": {"tag": "Nissan ENGINE MARKETPLACE", "h1": "Nissan Kicks Engine Replacement - Compare Prices & Save", "subheading": "Get quotes today from trusted UK Nissan Kicks engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available.", "trustBadges": ["Supply & Fit Available", "12-Month Warranty", "Nationwide Delivery", "100+ Suppliers"], "ctaLinkText": "Get Free Nissan Kicks Engine Quotes →", "supportingText": "Get tailored Nissan Kicks engine quotes from vetted UK specialists.", "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network", "form": {"heading": "Find Your Nissan Kicks Engine", "subtitle": "Enter your registration number to compare Nissan Kicks engine options.", "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)", "buttonText": "Get Free Nissan Kicks Engine Quotes →", "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Nissan Kicks specialists."}, "imageAlt": "Nissan Kicks engine replacement UK - compare reconditioned and rebuilt engine prices", "highlights": [{"title": "Kicks HR16DE Petrol Engines", "price": "from £850 to £2,100", "line1": "Kicks HR16DE Petrol Engines - from £850 to £2,100", "line2": "-> Rebuilt units from £850 · Common codes: HR16DE, HR16DEE, HRA2", "detail": "-> Rebuilt units from £850 · Common codes: HR16DE, HR16DEE, HRA2", "image": "", "imageAlt": "Nissan Kicks HR16DE petrol engine replacement - HR16DE HRA2 rebuilt reconditioned UK"}, {"title": "Kicks e-POWER Hybrid Engines", "price": "from £1,200 to £3,100", "line1": "Kicks e-POWER Hybrid Engines - from £1,200 to £3,100", "line2": "-> Rebuilt units from £1,200 · Common codes: HR12DE, EM57", "detail": "-> Rebuilt units from £1,200 · Common codes: HR12DE, EM57", "image": "", "imageAlt": "Nissan Kicks e-POWER hybrid engine replacement - HR12DE EM57 rebuilt reconditioned UK specialist"}], "headingLines": ["Nissan Kicks Engine Replacement", "Compare Prices & Save"], "mobileBar": {"brandText": "ENGINEMARKET", "callLabel": "Call", "quoteLabel": "GET QUOTES"}, "registrationInput": {"label": "Enter your vehicle registration", "platePlaceholder": "AB12 CDE", "countryCode": "UK", "countryLabel": "United Kingdom"}}, "howItWorks": {"tag": "How It Works", "h2": "3 Simple Steps to Finding the Best Nissan Kicks Replacement Engine", "cards": [{"number": 1, "icon": "registration", "front": {"h3": "Enter Your Nissan Kicks Registration", "text": "Instantly verify your exact model, engine code and fuel type via DVLA - S trim to e-POWER AWD."}, "back": {"heading": "Your Car, Precisely Identified", "text": "Engines Market uses the official DVLA database to pull accurate details about your Kicks, not just model name.", "bullets": ["Your Precise Model - from S, SV, XV, SL to e-POWER Hybrid, e-POWER AWD", "Your Engine Code - HR16DE, HRA2, HR12DE, K9K and more", "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly", "No paperwork, no guesswork, 100% free."]}}], "tagline": "", "headingLines": ["3 Simple Steps", "to Finding the Best Nissan Kicks Replacement Engine"], "ui": {"stepLabel": "Step", "desktopClosedLabel": "Click to expand", "desktopOpenLabel": "Click to view details", "mobileOpenLabel": "Tap to flip", "mobileCloseLabel": "Tap to flip back", "footerNote": "Most replacements completed within 3-5 days.", "mobileTrustItems": ["12-Month Warranty", "Supply & Fit Available", "Nationwide Delivery", "Trusted UK Suppliers"]}}, "liveMarketPrices": {"tag": "Live UK Engine Market Data", "h2": "What Are UK Drivers Paying for Nissan Kicks Engine Replacement-", "h3": "The table below shows typical UK rebuilt engine costs across Nissan Kicks variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.", "introBullets": [{"label": "Live market context", "text": "See realistic rebuilt-engine quote ranges across documented Nissan Kicks variants."}, {"label": "Variant specific", "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."}, {"label": "Specialist pricing", "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."}, {"label": "Quote benchmark", "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."}], "cta": {"heading": "Benchmark your own Nissan Kicks quote", "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Kicks engine code.", "buttonText": "Compare My Nissan Kicks Engine", "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."}, "badges": ["6 recent enquiries visible", "Typical rebuilt market ranges", "Engine-code matched rows", "UK specialist network"], "feed": {"isDynamic": false, "rowsCount": 6, "columns": ["Year", "Model", "Engine Code", "Fuel", "Avg. Quoted Price", "Reported Issue"], "timestampLabel": "Last Updated", "refreshLabel": "Refresh feed", "density": "premium", "visibleRows": 6, "entries": [{"Year": "2016-2019", "Model": "Nissan Kicks (Gen 1) 1.6 HR16DE", "Engine Code": "HR16DE", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£850-£1,900", "Reported Issue": "Timing chain stretch"}, {"Year": "2017-2019", "Model": "Nissan Kicks (Gen 1) 1.2 HR12DE", "Engine Code": "HR12DE", "Fuel": "Petrol 1.2L", "Avg. Quoted Price": "£750-£1,700", "Reported Issue": "Oil consumption issues"}, {"Year": "2018-2019", "Model": "Nissan Kicks (Gen 1) 1.5 K9K dCi", "Engine Code": "K9K", "Fuel": "Diesel 1.5L", "Avg. Quoted Price": "£900-£2,100", "Reported Issue": "Injector pump failure"}, {"Year": "2019-2023", "Model": "Nissan Kicks (Gen 2) 1.3 HRA2 DIG-T", "Engine Code": "HRA2", "Fuel": "Petrol 1.3L", "Avg. Quoted Price": "£950-£2,400", "Reported Issue": "Turbo actuator fault"}, {"Year": "2020-2023", "Model": "Nissan Kicks (Gen 2) e-POWER HR12DE", "Engine Code": "HR12DE", "Fuel": "Hybrid 1.2L", "Avg. Quoted Price": "£1,200-£2,900", "Reported Issue": "Generator motor wear"}, {"Year": "2021-2023", "Model": "Nissan Kicks (Gen 2) 1.0 HR10DE", "Engine Code": "HR10DE", "Fuel": "Petrol 1.0L", "Avg. Quoted Price": "£800-£1,800", "Reported Issue": "Water pump seal leak"}]}, "headingLines": ["What Are UK Drivers Paying for Nissan Kicks Engine Replacement-"], "imageAlt": "Nissan Kicks replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000", "filterTabs": [{"key": "all", "label": "All", "matchers": []}, {"key": "nissan-kicks-s-engine", "label": "Nissan Kicks S", "matchers": ["nissan kicks s", "nissan kicks s engine"]}, {"key": "nissan-kicks-sv-engine", "label": "Nissan Kicks SV", "matchers": ["nissan kicks sv", "nissan kicks sv engine"]}, {"key": "nissan-kicks-xv-engine", "label": "Nissan Kicks XV", "matchers": ["nissan kicks xv", "nissan kicks xv engine"]}, {"key": "nissan-kicks-sl-engine", "label": "Nissan Kicks SL", "matchers": ["nissan kicks sl", "nissan kicks sl engine"]}, {"key": "nissan-kicks-e-power-engine", "label": "Nissan Kicks e-POWER", "matchers": ["nissan kicks e-power", "nissan kicks e power engine"]}, {"key": "nissan-kicks-e-power-awd-engine", "label": "Nissan Kicks e-POWER AWD", "matchers": ["nissan kicks e-power awd", "nissan kicks e power awd engine"]}], "ui": {"showingSingleLabel": "entry", "showingPluralLabel": "entries", "acrossAllLabel": "across all models", "noEntriesLabel": "No entries match that model filter yet.", "updatedLabel": "Last updated:", "ctaLabel": "Live Quote Benchmark"}, "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"}, "reviews": {"tag": "Customer Reviews", "h2": "Trusted by Nissan Kicks Owners Across the UK", "rating": {"value": 4.8, "count": 0, "summary": "", "basedOn": ""}, "reviews": [], "leaveReviewCta": {"text": "", "linkText": "Leave a review ->"}}, "variantCoverage": {"tag": "Models We Cover", "h2": "Nissan Kicks Engine Replacement - All Variants Covered", "subheading": "From the entry-level S to the high-spec SL and e-POWER AWD, compare rebuilt, reconditioned and used engine prices through our network of UK Nissan Kicks engine specialists. Typical rebuilt prices range £750-£3,100 with a 12-month warranty - supply & fit available nationwide.", "groups": [{"title": "Core Petrol Range", "cardSlugs": ["nissan-kicks-s-engine", "nissan-kicks-sv-engine", "nissan-kicks-xv-engine"]}, {"title": "Premium & Specialist Range", "cardSlugs": ["nissan-kicks-sl-engine", "nissan-kicks-e-power-engine", "nissan-kicks-e-power-awd-engine"]}], "cards": [{"h3": "Nissan Kicks S Engine Replacement", "slug": "nissan-kicks-s-engine", "subtitle": "HR12DE 1.2L Petrol ? 83hp ? 2017-2023", "priceRange": "£750-£1,700", "cta": "Compare S Engine Prices", "engineCodes": ["HR12DE"], "fuel": "Petrol", "power": "83hp", "years": "2017-2023", "image": ""}, {"h3": "Nissan Kicks SV Engine Replacement", "slug": "nissan-kicks-sv-engine", "subtitle": "HR16DE 1.6L Petrol ? 122hp ? 2016-2021", "priceRange": "£850-£2,100", "cta": "Compare SV Engine Prices", "engineCodes": ["HR16DE"], "fuel": "Petrol", "power": "122hp", "years": "2016-2021", "image": ""}, {"h3": "Nissan Kicks XV Engine Replacement", "slug": "nissan-kicks-xv-engine", "subtitle": "HRA2 1.3L Turbo Petrol · 158hp · 2019-2023 · Rebuilt: £1,100-£2,600", "priceRange": "£1,100-£2,600", "cta": "Compare XV Engine Prices", "engineCodes": ["HRA2"], "fuel": "Petrol", "power": "158hp", "years": "2019-2023", "image": ""}, {"h3": "Nissan Kicks SL Engine Replacement", "slug": "nissan-kicks-sl-engine", "subtitle": "HRA2 1.3L Turbo Petrol · 158hp · 2019-2023 · Rebuilt: £1,150-£2,700", "priceRange": "£1,150-£2,700", "cta": "Compare SL Engine Prices", "engineCodes": ["HRA2"], "fuel": "Petrol", "power": "158hp", "years": "2019-2023", "image": ""}, {"h3": "Nissan Kicks e-POWER Engine Replacement", "slug": "nissan-kicks-e-power-engine", "subtitle": "HR12DE 1.2L Generator ? 127hp (system) ? 2020-2023", "priceRange": "£1,400-£3,100", "cta": "Compare e-POWER Engine Prices", "engineCodes": ["HR12DE 1.2L"], "fuel": "", "power": "127hp", "years": "2020-2023", "image": ""}, {"h3": "Nissan Kicks e-POWER AWD Engine Replacement", "slug": "nissan-kicks-e-power-awd-engine", "subtitle": "HR12DE/EM57 1.2L Series Hybrid · 127hp (system) · 2021-2023 · Rebuilt: £1,500-£3,200", "priceRange": "£1,500-£3,200", "cta": "Compare e-POWER AWD Engine Prices", "engineCodes": ["HR12DE", "EM57"], "fuel": "Hybrid", "power": "127hp", "years": "2021-2023", "image": ""}], "directory": {"h3": "All Nissan Kicks Variants - Engine Replacement Coverage", "intro": "A full alphabetical listing of every Nissan Kicks trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.", "groups": [{"title": "Petrol Variants", "items": ["S", "SV", "XV", "SL", "Platinum", "Acenta", "N-Connecta", "Hybrid / e-POWER Variants", "e-POWER Hybrid", "e-POWER AWD", "e-POWER Tekna"]}], "label": "Variant Directory"}, "closing": "Not sure which variant your Nissan Kicks is- Enter your registration number above - we’ll identify the exact sub-model, engine code and compatible replacement options instantly.", "engineGuide": {"tag": "Engine Codes", "h2": "Nissan Kicks Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Kicks across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "families": [{"name": "Petrol Engines", "entries": [{"code": "HR12DE", "title": "1.2L Petrol", "familyHeading": "HR Series (2016-Present)", "history": "Entry-level unit introduced for fuel efficiency; widely used in base S trims across early generations.", "fuel": "Petrol", "size": "1.2 Litre", "power": "83-98 hp", "years": "2016-2023", "compatibleVariants": ["S, S SV, Acenta, SV"], "commonFailures": ["Oil consumption above 60k miles due to piston ring wear", "Water pump bearing failure at high mileage", "Intake carbon buildup on direct injection variants"], "avgRebuiltPrice": "£750 - £1,600", "cta": "Get quotes for HR12DE Nissan Kicks engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HR16DE", "title": "1.6L Petrol", "familyHeading": "HR Series (2016-Present)", "history": "The volume seller and most searched replacement engine; robust naturally aspirated design with widespread parts availability.", "fuel": "Petrol", "size": "1.6 Litre", "power": "114-126 hp", "years": "2016-2023", "compatibleVariants": ["SV, XV, SL, Platinum, N-Connecta"], "commonFailures": ["Timing chain tensioner wear and stretch (60k-90k miles)", "Head gasket failure under sustained overheating", "Ignition coil and spark plug wire degradation"], "avgRebuiltPrice": "£850 - £2,100", "cta": "Get quotes for HR16DE Nissan Kicks engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HRA2", "title": "1.3L Turbo Petrol", "familyHeading": "HR Series (2016-Present)", "history": "Modern turbocharged replacement developed with Renault; delivers strong performance and improved efficiency for later generations.", "fuel": "Petrol", "size": "1.3 Litre", "power": "140-158 hp", "years": "2019-2023", "compatibleVariants": ["XV, SL, Tekna, Platinum, N-Connecta Turbo"], "commonFailures": ["Turbocharger actuator and wastegate sticking", "High-pressure fuel pump wear on early production runs", "Carbon accumulation on intake valves"], "avgRebuiltPrice": "£950 - £2,400", "cta": "Get quotes for HRA2 Nissan Kicks engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}, {"name": "Hybrid / Electrified Engines", "entries": [{"code": "HR12DE", "title": "1.2L Generator Motor", "familyHeading": "e-POWER Series Hybrid (2020-Present)", "history": "Serves exclusively as a range-extender generator for the e-POWER system; operates at optimal RPM without direct wheel drive.", "fuel": "Hybrid (Generator)", "size": "1.2 Litre", "power": "82 hp (generator) / 127 hp (system)", "years": "2020-2023", "compatibleVariants": ["e-POWER, e-POWER Tekna, e-POWER AWD"], "commonFailures": ["Generator motor brush wear causing output fluctuation", "Inverter cooling pump failure", "Hybrid battery communication fault triggering limp mode"], "avgRebuiltPrice": "£1,200 - £2,900", "cta": "Get quotes for HR12DE e-POWER Nissan Kicks engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}], "closing": "Can’t find your engine code- Enter your registration number above - we’ll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Kicks engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."}, "headingLines": ["Nissan Kicks Engine Replacement", "All Variants Covered"], "ui": {"fromPriceLabel": "from price", "specsLabel": "Specs", "rebuiltLabel": "Rebuilt", "yearsLabel": "Years", "yearsFallback": "Check exact year coverage by registration"}}, "engineCodes": {"tag": "Engine Codes", "h2": "Nissan Kicks Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Kicks across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "closingLine": "Can’t find your engine code- Enter your registration number above - we’ll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Kicks engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.", "filters": ["Petrol Engines", "Hybrid / Electrified Engines"], "groups": [{"name": "Petrol Engines", "era": "Extracted from detailed petrol and performance engine families across Nissan Kicks variants.", "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.", "engines": [{"code": "HR12DE", "title": "1.2L Petrol", "familyHeading": "HR Series (2016-Present)", "fuel": "Petrol", "size": "1.2L", "power": "83-98 hp", "compatibleModels": "S, S SV, Acenta, SV", "avgRebuiltPrice": "£750 - £1,600", "cta": "Get quotes for HR12DE Nissan Kicks engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HR16DE", "title": "1.6L Petrol", "familyHeading": "HR Series (2016-Present)", "fuel": "Petrol", "size": "1.6L", "power": "114-126 hp", "compatibleModels": "SV, XV, SL, Platinum, N-Connecta", "avgRebuiltPrice": "£850 - £2,100", "cta": "Get quotes for HR16DE Nissan Kicks engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "HRA2", "title": "1.3L Turbo Petrol", "familyHeading": "HR Series (2016-Present)", "fuel": "Petrol", "size": "1.3L", "power": "140-158 hp", "compatibleModels": "XV, SL, Tekna, Platinum, N-Connecta Turbo", "avgRebuiltPrice": "£950 - £2,400", "cta": "Get quotes for HRA2 Nissan Kicks engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}, {"name": "Hybrid / Electrified Engines", "era": "Extracted from electrified powertrains and hybrid engine families used in Nissan Kicks variants.", "failureNote": "Main replacement demand comes from cooling, battery-support and high-voltage control faults.", "engines": [{"code": "HR12DE", "title": "1.2L Generator Motor", "familyHeading": "e-POWER Series Hybrid (2020-Present)", "fuel": "Hybrid (Generator)", "size": "1.2L", "power": "82 hp (generator) / 127 hp (system)", "compatibleModels": "e-POWER, e-POWER Tekna, e-POWER AWD", "avgRebuiltPrice": "£1,200 - £2,900", "cta": "Get quotes for HR12DE e-POWER Nissan Kicks engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}], "headingLines": ["Nissan Kicks Engine Codes", "Full Technical Specifications & Replacement Guide"], "closingAction": {"title": "Can't find your engine code-", "buttonText": "Enter Your Reg"}, "ui": {"summaryPriceLabel": "Avg. rebuilt price", "exampleImageLabel": "Example engine visual", "historyLabel": "Engine History", "variantsLabel": "Compatible Nissan Kicks variants", "specsTitle": "Technical Specifications", "fuelLabel": "Fuel type", "sizeLabel": "Engine size", "powerLabel": "Power output", "yearsLabel": "Years fitted", "failuresTitle": "Common Failures", "supplyLabel": "Supply only"}}, "commonProblems": {"tag": "Common Problems", "h2": "Nissan Kicks Engine Problems - What It Costs to Fix & When Replacement Makes Sense", "h3": "The Nissan Kicks relies on three main engine families: the 1.6L HR16DE, the 1.3L HRA2 turbo, and the 1.2L e-POWER generator. While generally reliable, specific failure points often push owners toward full replacement. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty.", "problems": [{"group": "Nissan Kicks HR16DE Timing Chain Failure", "h4": "Nissan Kicks HR16DE Timing Chain Failure - Why 1.6L Engines Stretch Prematurely", "affectedModels": "Nissan Kicks SV, XV, SL (2016-2021, HR16DE)", "typicalFailureMileage": "65,000 - 95,000 miles", "rootCause": "Hydraulic tensioner oil pressure loss causes the primary chain to stretch, leading to rattle, misfires, and potential valve timing jumps.", "repairOptions": [{"tier": "Minor - Chain & Tensioner Swap", "dealerPrice": "£1,100 - £1,600", "specialistPrice": "£650 - £950", "whatItInvolves": "Replace chain, guides, and updated tensioner", "longevity": "Viable if caught before rattle turns into valve contact"}, {"tier": "Full Replacement - Rebuilt HR16DE", "dealerPrice": "£2,800 - £3,500", "specialistPrice": "£1,200 - £1,900", "whatItInvolves": "Supply & fit rebuilt unit with reinforced timing components", "longevity": "Best long-term solution; eliminates repeated chain stress"}], "recommendation": "If you hear a metallic rattle on cold starts, act immediately. A minor chain swap saves money early, but once timing marks slip, a rebuilt HR16DE is safer and more cost-effective than risking cylinder head damage.", "cta": "Compare rebuilt HR16DE engine prices for your Nissan Kicks"}, {"group": "Nissan Kicks HRA2 Turbo Actuator Failure", "h4": "Nissan Kicks HRA2 Turbo Actuator Failure - Why 1.3L Boost Drops", "affectedModels": "Nissan Kicks XV, SL, Tekna (2019-2023, HRA2)", "typicalFailureMileage": "50,000 - 80,000 miles", "rootCause": "Carbon buildup and heat cycling jam the turbo wastegate actuator, causing boost loss, limp mode, and reduced power on demand.", "repairOptions": [{"tier": "Intermediate - Actuator & Cleaning", "dealerPrice": "£850 - £1,200", "specialistPrice": "£500 - £750", "whatItInvolves": "Remove, ultrasonic clean, and replace actuator motor", "longevity": "Restores boost if turbine and compressor wheels are undamaged"}, {"tier": "Full Replacement - Rebuilt HRA2", "dealerPrice": "£3,200 - £3,900", "specialistPrice": "£1,300 - £2,100", "whatItInvolves": "Supply & fit rebuilt HRA2 with updated turbo and EGR", "longevity": "Recommended if turbo wheel play or compressor damage is confirmed"}], "recommendation": "Diagnose with live boost data before committing. Clean-and-replace works for minor sticking, but persistent limp mode usually signals internal turbo wear where a full rebuild guarantees longevity.", "cta": "Find a reconditioned HRA2 turbo engine for your Nissan Kicks"}, {"group": "Nissan Kicks HR12DE Oil Consumption", "h4": "Nissan Kicks HR12DE Oil Consumption - Why 1.2L Engines Burn Oil", "affectedModels": "Nissan Kicks S, SV, Acenta (2016-2023, HR12DE)", "typicalFailureMileage": "70,000 - 100,000 miles", "rootCause": "Early piston ring design allows oil to bypass into the combustion chamber, leading to blue smoke, fouled plugs, and potential catalytic converter damage.", "repairOptions": [{"tier": "Full Replacement - Rebuilt HR12DE", "dealerPrice": "£2,400 - £3,100", "specialistPrice": "£1,050 - £1,800", "whatItInvolves": "Supply & fit unit with upgraded oil control rings", "longevity": "The only reliable fix for chronic consumption; eliminates repeated top-ups"}], "recommendation": "Once consumption exceeds 1L per 1,000 miles, ring replacement isn't economically viable on this compact block. A rebuilt HR12DE with modernised internals delivers factory spec efficiency without constant oil checks.", "cta": "Get quotes for HR12DE engine replacement for your Nissan Kicks"}, {"group": "Nissan Kicks e-POWER Generator Wear", "h4": "Nissan Kicks e-POWER Generator Wear - Why Hybrid Range Extenders Fail", "affectedModels": "Nissan Kicks e-POWER, e-POWER AWD (2020-2023, HR12DE Generator)", "typicalFailureMileage": "60,000 - 90,000 miles", "rootCause": "Continuous high-RPM operation for battery charging causes brush wear and inverter thermal stress, triggering fault codes and system shutdown.", "repairOptions": [{"tier": "Full Replacement - Rebuilt Generator", "dealerPrice": "£3,500 - £4,500", "specialistPrice": "£1,600 - £2,600", "whatItInvolves": "Supply & fit rebuilt HR12DE generator with upgraded inverter", "longevity": "Essential for hybrid integrity; prevents cascading battery damage"}], "recommendation": "Do not ignore e-POWER warning lights. The generator cannot be economically repaired in situ. A specialist rebuilt unit with hybrid calibration guarantees seamless series-hybrid operation.", "cta": "Compare e-POWER replacement engine prices for your Nissan Kicks"}], "finalCta": {"h4": "Don't Let Engine Failure Write Off Your Nissan Kicks", "paragraph": "Engine problems on the Kicks follow clear patterns. Timing chains, turbo actuators, oil rings, and hybrid generators all degrade predictably. EngineMarket makes it simple to compare prices from trusted UK Nissan Kicks specialists who supply rebuilt engines with upgraded components, full bench testing, and a 12-month warranty. Avoid main dealer premiums, get verified quotes within hours, and secure nationwide delivery or certified supply & fit options.", "buttonText": "Compare Nissan Kicks Engine Replacement Prices Now →", "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket’s UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Kicks and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."}}, "engineTypes": {"tag": "Replacement Engine Options", "h2": "Nissan Kicks Engine Types - Options, Costs & What to Expect", "intro": "Every Nissan Kicks engine type is available through the UK network with typical price ranges based on variant, engine code and budget.", "types": [{"title": "Nissan Kicks Reconditioned Engines (Recon)", "description": "Fully dismantled and inspected units with worn components replaced to factory specifications using quality parts.", "frontDescription": "Fully dismantled and inspected units with worn components replaced to factory specifications using quality parts.", "frontDisclaimer": "Condition varies by supplier; always request build sheet and warranty terms.", "backDescription": "Reconditioned units undergo comprehensive teardown, cylinder honing, and fresh gasket installation. Ideal for HR16DE and HRA2 codes where timing components and oil pumps are routinely upgraded. All units tested before dispatch.", "backBullets": ["Comprehensive teardown and precision measurement", "Replaced bearings, gaskets, seals and oil pump", "Supplied with 12-month unlimited mileage warranty"], "priceRange": "£950 - £2,400 (supply only)", "cta": "Compare reconditioned Nissan Kicks engine prices"}, {"title": "Nissan Kicks Rebuilt Engines", "description": "Core engines stripped, cleaned, and rebuilt with new internal components addressing known failure points.", "frontDescription": "Core engines stripped, cleaned, and rebuilt with new internal components addressing known failure points.", "frontDisclaimer": "Rebuild specifications vary; confirm which failure components are upgraded before purchase.", "backDescription": "Rebuilt engines focus on targeted component replacement rather than full restoration. Specialists upgrade timing chains, turbo actuators, and piston rings based on Nissan Kicks service bulletins. Cost-effective and reliable for daily use.", "backBullets": ["Targeted replacement of known weak components", "Upgraded parts per manufacturer technical bulletins", "Bench tested for compression and oil pressure"], "priceRange": "£1,050 - £2,700 (supply only)", "cta": "Get rebuilt Nissan Kicks engine quotes"}, {"title": "Nissan Kicks Used Engines", "description": "Low-mileage donor units pulled from crashed or written-off vehicles, inspected for basic functionality.", "frontDescription": "Low-mileage donor units pulled from crashed or written-off vehicles, inspected for basic functionality.", "frontDisclaimer": "Condition depends entirely on donor history; verify compression and service records before fitting.", "backDescription": "Used engines offer the fastest turnaround and lowest upfront cost for budget-conscious owners. Best suited for early HR12DE and HR16DE units with verified mileage. Always request a compression test report prior to dispatch.", "backBullets": ["Sourced from verified UK grey import and salvage donors", "Visual inspection and compression test provided", "Short-term supplier warranty typically available"], "priceRange": "£750 - £1,800 (supply only)", "cta": "Check used Nissan Kicks engine availability"}, {"title": "Nissan Kicks Remanufactured Engines", "description": "Zero-hour engines rebuilt to original factory tolerances using CNC machining and OEM-spec components.", "frontDescription": "Zero-hour engines rebuilt to original factory tolerances using CNC machining and OEM-spec components.", "frontDisclaimer": "Premium pricing reflects machining tolerances and new-block equivalent quality standards.", "backDescription": "Remanufactured units represent the highest tier available for the Kicks platform. Cylinder blocks are line-bored, crankshafts are reground, and every component meets new-engine specifications. Ideal for e-POWER and high-mileage HRA2 applications.", "backBullets": ["CNC-machined block and crankshaft to factory tolerances", "All internal components replaced with new OEM-spec parts", "Longest lifespan expectancy with extended warranty options"], "priceRange": "£1,400 - £3,100 (supply only)", "cta": "Compare remanufactured Nissan Kicks engine costs"}, {"title": "Nissan Kicks Refurbished Engines", "description": "Running cores with minor repairs, cleaned externally, and functionally tested for immediate fitment.", "frontDescription": "Running cores with minor repairs, cleaned externally, and functionally tested for immediate fitment.", "frontDisclaimer": "Minimal internal work performed; verify compression and leak-down results before installation.", "backDescription": "Refurbished engines sit between used and reconditioned tiers. The core remains intact but receives cleaning, sensor checks, and minor seal replacements. Suitable for low-budget repairs where the donor engine history is well documented.", "backBullets": ["External cleaning and functional diagnostic check", "Minor seal and gasket replacements performed", "Quick dispatch turnaround for time-sensitive repairs"], "priceRange": "£850 - £1,950 (supply only)", "cta": "View refurbished Nissan Kicks engine options"}, {"title": "Nissan Kicks Supply & Fit Engines", "description": "Complete package including verified replacement engine, certified labour, and post-installation diagnostics.", "frontDescription": "Complete package including verified replacement engine, certified labour, and post-installation diagnostics.", "frontDisclaimer": "Labour costs vary by region and vehicle condition; confirm workshop accreditation before booking.", "backDescription": "Supply & fit removes the complexity of coordinating separate engine delivery and garage booking. Certified import specialists handle ECU adaptation, coolant bleeding, and MoT-compliant documentation for a seamless, road-ready result.", "backBullets": ["Vetted specialist garages nationwide available", "Includes ECU adaptation and post-fit diagnostics", "Single-point warranty coverage for labour and parts"], "priceRange": "£450 - £850 added to engine price", "cta": "Find Nissan Kicks engine supply & fit deals"}], "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Kicks within hours.", "headingLines": ["Nissan Kicks Engine Types", "Options, Costs & What to Expect"], "ui": {"priceLabel": "Typical price range", "frontActionLabel": "What is it-", "backActionLabel": "Flip back"}, "closingCard": {"label": "Engine Replacement Help", "title": "Compare Nissan Kicks engine prices with vetted UK suppliers", "buttonText": "Compare Nissan Kicks Prices"}}, "engineSizes": {"tag": "Engine Sizes", "h2": "Nissan Kicks Engines by Size - Find the Right Displacement for Your Variant", "intro": "Every engine displacement fitted to the Nissan Kicks is listed below, with compatible codes, production years and common failure notes to help you identify the correct replacement.", "groups": [{"title": "Nissan Kicks Petrol Engine Sizes", "items": [{"title": "Nissan Kicks 1.0L Petrol Engines", "description": "The 1.0-litre unit was introduced for later European and Japanese market Kicks models, prioritising urban efficiency and lower emissions tax brackets. It appears in newer base trims and delivers adequate city driving performance without sacrificing fuel economy.", "engineCodes": ["HR10DE"], "compatibleModels": ["S", "Acenta"], "productionYears": "2021-2023", "commonFailurePoints": ["Water pump bearing wear", "intake manifold gasket leaks"], "cta": "Compare Nissan Kicks 1.0L petrol engine prices"}, {"title": "Nissan Kicks 1.2L Petrol Engines", "description": "This compact naturally aspirated engine serves as the entry-level workhorse across early UK imports and grey market variants. It favours low-end torque delivery for city commuting and remains one of the most requested replacement sizes due to its high registration volume.", "engineCodes": ["HR12DE"], "compatibleModels": ["S", "SV", "Acenta"], "productionYears": "2016-2023", "commonFailurePoints": ["Piston ring oil consumption", "timing chain guide wear"], "cta": "Compare Nissan Kicks 1.2L petrol engine prices"}, {"title": "Nissan Kicks 1.6L Petrol Engines", "description": "The 1.6-litre HR16DE is the dominant displacement in the Kicks lineup, balancing reliable naturally aspirated performance with widespread aftermarket support. It powers most mid-to-high trim imports and remains the most searched engine size for replacement.", "engineCodes": ["HR16DE"], "compatibleModels": ["SV", "XV", "SL", "Platinum", "N-Connecta"], "productionYears": "2016-2023", "commonFailurePoints": ["Timing chain stretch above 70k miles", "ignition coil degradation"], "cta": "Compare Nissan Kicks 1.6L petrol engine prices"}, {"title": "Nissan Kicks 1.3L Petrol Engines", "description": "Developed jointly with Renault, this modern turbocharged unit replaces older displacements in facelifted generations. It delivers strong mid-range power for motorway overtaking while maintaining competitive emissions figures for UK registration.", "engineCodes": ["HRA2"], "compatibleModels": ["XV", "SL", "Tekna", "Platinum"], "productionYears": "2019-2023", "commonFailurePoints": ["Turbo actuator sticking", "high-pressure fuel pump wear"], "cta": "Compare Nissan Kicks 1.3L petrol engine prices"}]}, {"title": "Nissan Kicks Hybrid / MHEV Engine Sizes", "items": [{"title": "Nissan Kicks 1.2L Hybrid Engines", "description": "The e-POWER system uses a dedicated 1.2-litre petrol generator that never drives the wheels directly. Instead, it charges the high-voltage battery pack, allowing the electric motor to provide smooth, instant torque across all driving conditions.", "engineCodes": ["HR12DE (Generator)", "EM57 (Traction Motor)"], "compatibleModels": ["e-POWER", "e-POWER Tekna", "e-POWER AWD"], "productionYears": "2020-2023", "commonFailurePoints": ["Generator brush wear", "inverter cooling pump failure"], "cta": "Enquire about Nissan Kicks 1.2L hybrid engine availability"}]}], "closing": "Not sure which engine size your Nissan Kicks needs- Enter your registration number above - we’ll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Kicks specialists.", "headingLines": ["Nissan Kicks Engines by Size", "Find the Right Displacement for Your Variant"], "ui": {"swapLabel": "Swap panel", "engineCodesLabel": "Engine Code(s)", "compatibleModelsLabel": "Compatible Models (UK)", "productionYearsLabel": "Production Years", "warningLabel": "Common Failure Points", "warningTitle": "Watch for these known weak points", "helperLabel": "Engine Size Advice", "helperTitle": "Need help matching the exact engine size-", "helperButtonText": "Find My Engine"}}, "fuelTypes": {"tag": "Fuel Type", "h2": "Nissan Kicks Engines by Fuel Type", "intro": "Choose your Nissan Kicks engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early naturally aspirated petrol to the latest e-POWER series hybrid.", "items": [{"title": "Nissan Kicks Petrol Engines", "description": "Petrol dominates the Kicks lineup, offering a balance of low running costs, widespread parts availability, and proven reliability across multiple generations of UK grey imports.", "descriptor": "Petrol dominates the Kicks lineup, offering a balance of low running costs, widespread parts availability, and proven reliability across multiple generations of UK grey imports.", "familiesLabel": "Common Nissan Kicks Petrol Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Petrol Models", "notesLabel": "", "families": ["HR16DE - volume 1.6L unit, timing chain stretch risk above 70k", "HRA2 - modern 1.3L turbo, actuator and boost control focus", "HR12DE - entry 1.2L naturally aspirated, oil consumption noted", "HR10DE - newer 1.0L three-cylinder, water pump attention needed"], "foundIn": ["Generation 1 (2016-2019) - HR12DE, HR16DE", "Generation 2 LCI (2020-2023) - HR10DE, HRA2"], "knownFor": ["Low initial purchase cost and high parts availability", "HR16DE timing tensioner upgrades available per bulletin", "Turbo variants show strong performance but require oil discipline", "Generally robust block architecture with straightforward diagnostics"], "typicalModels": ["Nissan Kicks S", "Nissan Kicks SV", "Nissan Kicks XV", "Nissan Kicks SL", "Nissan Kicks N-Connecta"], "importantNotes": [], "cta": "Compare Nissan Kicks Petrol engine prices"}, {"title": "Nissan Kicks Hybrid / Electrified Engines", "description": "The e-POWER series hybrid operates as an electric vehicle with an onboard petrol generator, delivering silent city driving and zero clutch wear.", "descriptor": "The e-POWER series hybrid operates as an electric vehicle with an onboard petrol generator, delivering silent city driving and zero clutch wear.", "familiesLabel": "Nissan Kicks e-POWER Engine Codes", "foundInLabel": "Found In", "knownForLabel": "", "modelsLabel": "", "notesLabel": "Important Notes", "families": ["HR12DE - 1.2L dedicated range-extender generator", "EM57 - AC synchronous traction motor", "Petrol engine runs exclusively at optimal RPM to charge battery", "Electric motor drives wheels directly for instant torque response", "No traditional transmission, belt, or clutch components required"], "foundIn": ["Nissan Kicks e-POWER (2020-2023)", "Nissan Kicks e-POWER AWD (2021-2023)"], "knownFor": [], "typicalModels": [], "importantNotes": ["Generator replacement requires hybrid system diagnostic sync", "Battery health must be verified during generator installation", "Specialist calibration tools required for fault code clearance"], "cta": "Enquire about Nissan Kicks e-POWER engine availability"}], "closing": "Not sure which fuel type your Nissan Kicks has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Kicks specialists.", "headingLines": ["Nissan Kicks Engines by Fuel Type"], "ui": {"swapLabel": "Swap panel", "familiesLabel": "Common Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Models (UK)", "notesLabel": "Important Notes", "closingButtonText": "Find my engine", "emptyStateTitle": "Fuel type guidance", "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."}}, "engineYears": {"tag": "Engine Years", "h2": "Nissan Kicks Engines by Year - What Was Fitted & When", "intro": "This timeline tracks every major engine introduction and platform shift for the Nissan Kicks, helping owners quickly identify their unit and compare rebuilt engine prices from UK specialists.", "jumpLabel": "Jump to model year", "years": [{"year": "2016 - 2018", "preview": "Generation 1 Launch", "description": "The Kicks debuts as a compact crossover import, establishing the HR12DE and HR16DE as the core petrol lineup for early adopters.", "keyChanges": ["First generation platform introduced for Asian and Middle Eastern markets", "HR12DE 1.2L launched as base petrol unit", "HR16DE 1.6L positioned as mid-range performance option", "Manual and CVT transmissions offered across trims"], "mainEngines": ["HR12DE - 1.2L petrol (S, Acenta)", "HR16DE - 1.6L petrol (SV, XV)"], "popularModels": ["Nissan Kicks S", "Nissan Kicks SV", "Nissan Kicks XV"], "knownFor": ["Lightweight platform ideal for urban commuting", "Early HR16DE tensioner design requires monitoring", "CVT transmission pairs smoothly with both displacements", "Strong parts availability across UK import networks"], "engineCodesCovered": ["HR12DE", "HR16DE"], "cta": "Get quotes for 2016-2018 Nissan Kicks replacement engines", "badges": [{"label": "Major Platform Change", "tone": "accent"}], "ticker": "Nissan Kicks 2016 engine replacement • HR16DE timing chain fix • CVT transmission fluid check", "enquiries": ["Nissan Kicks 2016 engine replacement", "HR16DE timing chain fix", "CVT transmission fluid check"]}, {"year": "2019 - 2020", "preview": "Facelift & Turbo Introduction", "description": "Nissan introduces the HRA2 turbo petrol, significantly boosting performance and efficiency while phasing out older naturally aspirated high-output units.", "keyChanges": ["HRA2 1.3L DIG-T turbo engine replaces older 1.6L output variants", "Updated front fascia and interior technology package", "Improved CVT programming for better fuel economy", "Euro 6d compliance achieved across petrol range"], "mainEngines": ["HR12DE - 1.2L petrol (S, Acenta)", "HR16DE - 1.6L petrol (SV, mid-spec)", "HRA2 - 1.3L turbo petrol (XV, SL, Tekna)"], "popularModels": ["Nissan Kicks XV Turbo", "Nissan Kicks SL", "Nissan Kicks Tekna"], "knownFor": ["Noticeable power improvement over previous generation", "HRA2 turbo actuator requires early diagnostic attention", "Enhanced cabin insulation and NVH reduction", "Higher insurance groups due to performance uplift"], "engineCodesCovered": ["HR12DE", "HR16DE", "HRA2"], "cta": "Compare 2019-2020 Nissan Kicks engine prices", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "Nissan Kicks 2019 engine code • HRA2 turbo actuator replacement • Facelift model compatibility check", "enquiries": ["Nissan Kicks 2019 engine code", "HRA2 turbo actuator replacement", "Facelift model compatibility check"]}, {"year": "2021 - 2023", "preview": "e-POWER & AWD Expansion", "description": "The series hybrid e-POWER system launches alongside a new electronic AWD option, marking the most significant technological shift in Kicks history.", "keyChanges": ["e-POWER series hybrid introduced with dedicated generator", "e-POWER AWD variant adds rear electric motor", "Updated infotainment and driver assistance packages", "Minor chassis reinforcement for hybrid battery mounting"], "mainEngines": ["HR10DE - 1.0L petrol (entry trims)", "HRA2 - 1.3L turbo petrol (mid-spec)", "HR12DE/EM57 - 1.2L generator + traction motor (e-POWER)"], "popularModels": ["Nissan Kicks e-POWER", "Nissan Kicks e-POWER AWD", "Nissan Kicks SL Hybrid"], "knownFor": ["Silent electric-only city driving with instant torque", "Generator operates independently of wheel speed", "Hybrid battery cooling system requires specialist maintenance", "Premium pricing reflects advanced powertrain architecture"], "engineCodesCovered": ["HR10DE", "HRA2", "HR12DE", "EM57"], "cta": "Enquire about 2021-2023 Nissan Kicks hybrid engine availability", "badges": [{"label": "Technology Change", "tone": "accent"}], "ticker": "Nissan Kicks 2021 e-POWER fault • Hybrid generator replacement • AWD electric motor diagnostics", "enquiries": ["Nissan Kicks 2021 e-POWER fault", "Hybrid generator replacement", "AWD electric motor diagnostics"]}], "closing": "Not sure which year your Nissan Kicks was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Kicks specialists.", "headingLines": ["Nissan Kicks Engines by Year", "What Was Fitted & When"], "ui": {"keyChangesLabel": "Key Changes", "knownForLabel": "Known For", "mainEnginesLabel": "Main Engines", "popularModelsLabel": "Popular Models", "engineCodesLabel": "Engine Codes Covered", "enquiriesLabel": "Common Replacement Enquiries"}, "summaryCta": {"label": "Year Finder", "title": "Not sure which year your Nissan Kicks was built-", "buttonText": "Find My Engine"}}, "faq": {"tag": "FAQ", "h2": "Nissan Kicks Engine Replacement - Frequently Asked Questions", "intro": "", "items": [{"question": "How much does a Nissan Kicks engine replacement cost in the UK for grey imports-", "answer": "Replacement costs typically range between £850 and £2,900 depending on engine code, condition type, and whether you choose supply-only or supply & fit. The dominant HR16DE and HRA2 units sit in the middle of this bracket.", "keyPoints": ["HR16DE 1.6L rebuilt units average £850-£2,100", "HRA2 1.3L turbo rebuilt units average £950-£2,400", "e-POWER generator replacements start around £1,200", "Supply & fit typically adds £450-£850 to engine cost"], "cta": "Get a tailored Nissan Kicks engine replacement quote today"}, {"question": "What engine codes are compatible with my imported Nissan Kicks in the UK-", "answer": "The most common codes are HR16DE (1.6L petrol), HRA2 (1.3L turbo petrol), HR12DE (1.2L petrol/generator), and K9K (1.5L dCi). Exact compatibility depends on your chassis generation and trim level.", "keyPoints": ["HR16DE powers most 2016-2021 mid-spec imports", "HRA2 replaced high-output units in 2019+ facelifts", "HR12DE serves base trims and e-POWER generation", "DVLA registration check guarantees precise code match"], "cta": "Verify your Nissan Kicks engine code instantly via registration"}, {"question": "How long does it take to replace a Nissan Kicks engine in the UK for grey imports-", "answer": "Standard supply & fit installations take 3 to 5 working days once the engine is sourced. Specialist import garages require additional time for ECU adaptation and MoT compliance documentation.", "keyPoints": ["Engine sourcing typically takes 1-2 working days", "Physical installation requires 2 full garage days", "ECU calibration and hybrid sync add 4-6 hours", "Next-day dispatch available on in-network stock"], "cta": "Find Nissan Kicks engine supply & fit turnaround times"}, {"question": "Does a replacement Nissan Kicks engine come with a warranty for UK grey imports-", "answer": "Yes, every engine supplied through our network includes a minimum 12-month unlimited mileage warranty covering internal components and manufacturing defects.", "keyPoints": ["Standard network warranty is 12 months unlimited mileage", "Some specialists offer 24-month coverage upgrades", "Labour warranty varies by installing garage", "Bench test reports and compression data provided upfront"], "cta": "Compare Nissan Kicks engine warranty terms and coverage"}, {"question": "Can I fit a Nissan Kicks engine myself or do I need an import specialist in the UK-", "answer": "While mechanically possible for experienced DIY mechanics, e-POWER and turbo variants require specialist diagnostic tools for ECU adaptation and hybrid system sync.", "keyPoints": ["HR16DE fits standard mechanical skill levels", "HRA2 requires turbo boost and ECU programming", "e-POWER needs high-voltage safety certification", "Specialist fitting ensures MoT emissions compliance"], "cta": "Locate certified Nissan Kicks engine fitting specialists near you"}, {"question": "Will a replacement engine affect my imported Nissan Kicks insurance in the UK-", "answer": "Replacing an engine with an identical code does not typically increase premiums, but you must notify your insurer and update DVLA records to maintain valid coverage.", "keyPoints": ["Like-for-like code replacement rarely impacts premiums", "Performance upgrades or different codes require declaration", "DVLA engine code update costs £10-£15 standard", "Undeclared changes can void comprehensive policies"], "cta": "Check how Nissan Kicks engine replacement impacts insurance"}, {"question": "How do I know if my imported Nissan Kicks needs a full engine replacement or just a repair in the UK-", "answer": "If failure involves internal block damage, seized bearings, or snapped timing chains jumping teeth, replacement is safer and more economical than major repair.", "keyPoints": ["Timing chain replacement viable before valve damage", "Turbo rebuild cost-effective if block compression is good", "Oil consumption requires piston/ring replacement only", "Hybrid generator failure demands full unit swap"], "cta": "Compare repair vs replacement costs for your Nissan Kicks"}, {"question": "Are used Nissan Kicks engines reliable for UK grey imports-", "answer": "Used engines are reliable if sourced from verified donors with documented service history and recent compression test results, but carry higher risk than rebuilt units.", "keyPoints": ["Always request compression and leak-down reports", "Verify mileage against MOT history where possible", "Grey import provenance must be clearly documented", "Shorter warranty periods typical for used stock"], "cta": "Check used Nissan Kicks engine availability and verification"}, {"question": "What is the difference between reconditioned, rebuilt, and remanufactured Nissan Kicks engines for UK imports-", "answer": "Reconditioned units undergo inspection with selective part replacement, rebuilt units focus on targeted failure point upgrades, and remanufactured units are zero-hour factory-spec rebuilds.", "keyPoints": ["Recon balances cost with selective component replacement", "Rebuilt addresses known bulletins with upgraded parts", "Reman achieves zero-hour tolerances via CNC machining", "All tiers include minimum 12-month network warranty"], "cta": "Compare reconditioned vs rebuilt Nissan Kicks engine options"}, {"question": "How do I prepare my imported Nissan Kicks for engine replacement in the UK-", "answer": "Gather all import documentation, clear personal belongings, and ensure DVLA records match your chassis before scheduling specialist diagnostics and replacement.", "keyPoints": ["Compile NOVA approval and original import paperwork", "Drain fluids and remove underbody protection panels", "Confirm exact engine code via DVLA or VIN plate", "Arrange drop-off at MoT-approved specialist garage"], "cta": "Start your Nissan Kicks engine replacement preparation today"}], "headingLines": ["Nissan Kicks Engine Replacement", "Frequently Asked Questions"], "defaultOpenIndex": 0, "ui": {"questionLabelPrefix": "Question", "keyPointsLabel": "Key points", "warningTitle": "Check fitment and engine condition before ordering"}}, "trustCta": {"tag": "Why Choose Us", "h2": "Why UK Nissan Kicks Owners Trust EngineMarket", "intro": "Join thousands of UK drivers who compare Nissan Kicks engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.", "points": [{"title": "Trusted Nissan Kicks Engine Suppliers", "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Kicks owners."}, {"title": "Compare Nissan Kicks Engine Replacement Companies", "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."}, {"title": "UK Engine Replacement Services for Nissan Kicks", "description": "Covering every variant from entry S to e-POWER AWD, with supply-only or full supply & fit available nationwide."}], "finalText": "Find the best Nissan Kicks engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.", "buttonText": "Compare Nissan Kicks Engine Prices Now →", "secondaryAction": {"text": "Call Our Experts", "href": "tel:03330000044"}, "imageAlt": "Nissan Kicks vehicle", "ui": {"pointLabel": "Included", "stripLabel": "Trusted UK Engine Marketplace", "stripTitle": "Compare Nissan Kicks engine prices with vetted UK specialists", "trustBullets": ["100% Free", "No Obligation", "Fast & secure process", "UK-based support"], "imageBadgeLabel": "Trusted supplier network", "imageBadgeTitle": "Warranty-backed rebuilt & used options", "imageBadgeText": "Every quote checked for fitment, quality and lead time."}}}}
+{
+  "brand": {
+    "name": "Nissan",
+    "slug": "nissan",
+    "tone": "premium"
+  },
+  "model": {
+    "name": "Nissan Kicks",
+    "slug": "kicks",
+    "legacySlug": "nissan-kicks"
+  },
+  "seo": {
+    "title": "Nissan Kicks Engine Replacement - Compare Prices UK",
+    "description": "Nissan Kicks engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £850. 12-month warranty & UK supply fit specialists.",
+    "canonical": "/nissan/kicks"
+  },
+  "assets": {
+    "mainImage": "/images/brands/nissan/models/nissan-kicks-model-card.png",
+    "smallImage": "/images/brands/nissan/models/nissan-kicks-model-card.png",
+    "heroBg": "/images/brands/nissan/models/nissan-kicks-model-card.png",
+    "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp",
+    "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp",
+    "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp",
+    "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp",
+    "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp",
+    "ctaImage": "/images/brands/nissan/models/nissan-kicks-model-card.png"
+  },
+  "sections": {
+    "hero": {
+      "tag": "Nissan ENGINE MARKETPLACE",
+      "h1": "Nissan Kicks Engine Replacement - Compare Prices & Save",
+      "subheading": "Get quotes today from trusted UK Nissan Kicks engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available.",
+      "trustBadges": [
+        "Supply & Fit Available",
+        "12-Month Warranty",
+        "Nationwide Delivery",
+        "100+ Suppliers"
+      ],
+      "ctaLinkText": "Get Free Nissan Kicks Engine Quotes →",
+      "supportingText": "Get tailored Nissan Kicks engine quotes from vetted UK specialists.",
+      "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network",
+      "form": {
+        "heading": "Find Your Nissan Kicks Engine",
+        "subtitle": "Enter your registration number to compare Nissan Kicks engine options.",
+        "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)",
+        "buttonText": "Get Free Nissan Kicks Engine Quotes →",
+        "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Nissan Kicks specialists."
+      },
+      "imageAlt": "Nissan Kicks engine replacement UK - compare reconditioned and rebuilt engine prices",
+      "highlights": [
+        {
+          "title": "Kicks HR16DE Petrol Engines",
+          "price": "from £850 to £2,100",
+          "line1": "Kicks HR16DE Petrol Engines - from £850 to £2,100",
+          "line2": "-> Rebuilt units from £850 · Common codes: HR16DE, HR16DEE, HRA2",
+          "detail": "-> Rebuilt units from £850 · Common codes: HR16DE, HR16DEE, HRA2",
+          "image": "",
+          "imageAlt": "Nissan Kicks HR16DE petrol engine replacement - HR16DE HRA2 rebuilt reconditioned UK"
+        },
+        {
+          "title": "Kicks e-POWER Hybrid Engines",
+          "price": "from £1,200 to £3,100",
+          "line1": "Kicks e-POWER Hybrid Engines - from £1,200 to £3,100",
+          "line2": "-> Rebuilt units from £1,200 · Common codes: HR12DE, EM57",
+          "detail": "-> Rebuilt units from £1,200 · Common codes: HR12DE, EM57",
+          "image": "",
+          "imageAlt": "Nissan Kicks e-POWER hybrid engine replacement - HR12DE EM57 rebuilt reconditioned UK specialist"
+        }
+      ],
+      "headingLines": [
+        "Nissan Kicks Engine Replacement",
+        "Compare Prices & Save"
+      ],
+      "mobileBar": {
+        "brandText": "ENGINEMARKET",
+        "callLabel": "Call",
+        "quoteLabel": "GET QUOTES"
+      },
+      "registrationInput": {
+        "label": "Enter your vehicle registration",
+        "platePlaceholder": "AB12 CDE",
+        "countryCode": "UK",
+        "countryLabel": "United Kingdom"
+      }
+    },
+    "howItWorks": {
+      "tag": "How It Works",
+      "h2": "3 Simple Steps to Finding the Best Nissan Kicks Replacement Engine",
+      "cards": [
+        {
+          "number": 1,
+          "icon": "registration",
+          "front": {
+            "h3": "Enter Your Nissan Kicks Registration",
+            "text": "Instantly verify your exact model, engine code and fuel type via DVLA - S trim to e-POWER AWD."
+          },
+          "back": {
+            "heading": "Your Car, Precisely Identified",
+            "text": "Engines Market uses the official DVLA database to pull accurate details about your Kicks, not just model name.",
+            "bullets": [
+              "Your Precise Model - from S, SV, XV, SL to e-POWER Hybrid, e-POWER AWD",
+              "Your Engine Code - HR16DE, HRA2, HR12DE, K9K and more",
+              "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly",
+              "No paperwork, no guesswork, 100% free."
+            ]
+          }
+        },
+        {
+          "number": 2,
+          "icon": "quote",
+          "front": {
+            "h3": "Get Quotes from Nissan Engine Specialists",
+            "text": "Same-day quotes from vetted UK suppliers - full breakdown, no obligation."
+          },
+          "back": {
+            "heading": "Quotes You Can Trust",
+            "text": "Your verified details are securely shared with up to 10 of our most relevant UK suppliers, matched to your variant and location.",
+            "bullets": [
+              "Vetted UK Suppliers - specialists who understand Nissan diesel and petrol engines",
+              "Same-Day Quotes - usually within hours, not days",
+              "Supply & Fit Service - or supply-only to your own garage",
+              "Full Breakdown - price, warranty length, delivery estimate and fitting cost all shown clearly",
+              "No hidden fees. No sales calls unless you approve."
+            ]
+          }
+        },
+        {
+          "number": 3,
+          "icon": "shield",
+          "front": {
+            "h3": "Choose the Best Deal & Save",
+            "text": "Compare supplier reviews, warranty and price - then pick the right one for you."
+          },
+          "back": {
+            "heading": "Your Choice, Your Control",
+            "text": "You decide which specialist to go with. We simply make the search fast, safe and transparent.",
+            "bullets": [
+              "Online Reviews - read real customer feedback",
+              "Warranty Length - minimum 12 months, often 24 months on rebuilt units",
+              "Terms of Service - including collection, fitting and aftercare",
+              "Technical Expertise - see each supplier's Nissan experience",
+              "You deal directly with your chosen provider. No pressure, no commitment until you're ready."
+            ]
+          }
+        }
+      ],
+      "tagline": "",
+      "headingLines": [
+        "3 Simple Steps",
+        "to Finding the Best Nissan Kicks Replacement Engine"
+      ],
+      "ui": {
+        "stepLabel": "Step",
+        "desktopClosedLabel": "Click to expand",
+        "desktopOpenLabel": "Click to view details",
+        "mobileOpenLabel": "Tap to flip",
+        "mobileCloseLabel": "Tap to flip back",
+        "footerNote": "Most replacements completed within 3-5 days.",
+        "mobileTrustItems": [
+          "12-Month Warranty",
+          "Supply & Fit Available",
+          "Nationwide Delivery",
+          "Trusted UK Suppliers"
+        ]
+      }
+    },
+    "liveMarketPrices": {
+      "tag": "Live UK Engine Market Data",
+      "h2": "What Are UK Drivers Paying for Nissan Kicks Engine Replacement-",
+      "h3": "The table below shows typical UK rebuilt engine costs across Nissan Kicks variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.",
+      "introBullets": [
+        {
+          "label": "Live market context",
+          "text": "See realistic rebuilt-engine quote ranges across documented Nissan Kicks variants."
+        },
+        {
+          "label": "Variant specific",
+          "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."
+        },
+        {
+          "label": "Specialist pricing",
+          "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."
+        },
+        {
+          "label": "Quote benchmark",
+          "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."
+        }
+      ],
+      "cta": {
+        "heading": "Benchmark your own Nissan Kicks quote",
+        "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Kicks engine code.",
+        "buttonText": "Compare My Nissan Kicks Engine",
+        "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."
+      },
+      "badges": [
+        "6 recent enquiries visible",
+        "Typical rebuilt market ranges",
+        "Engine-code matched rows",
+        "UK specialist network"
+      ],
+      "feed": {
+        "isDynamic": false,
+        "rowsCount": 6,
+        "columns": [
+          "Year",
+          "Model",
+          "Engine Code",
+          "Fuel",
+          "Avg. Quoted Price",
+          "Reported Issue"
+        ],
+        "timestampLabel": "Last Updated",
+        "refreshLabel": "Refresh feed",
+        "density": "premium",
+        "visibleRows": 6,
+        "entries": [
+          {
+            "Year": "2016-2019",
+            "Model": "Nissan Kicks (Gen 1) 1.6 HR16DE",
+            "Engine Code": "HR16DE",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£850-£1,900",
+            "Reported Issue": "Timing chain stretch"
+          },
+          {
+            "Year": "2017-2019",
+            "Model": "Nissan Kicks (Gen 1) 1.2 HR12DE",
+            "Engine Code": "HR12DE",
+            "Fuel": "Petrol 1.2L",
+            "Avg. Quoted Price": "£750-£1,700",
+            "Reported Issue": "Oil consumption issues"
+          },
+          {
+            "Year": "2018-2019",
+            "Model": "Nissan Kicks (Gen 1) 1.5 K9K dCi",
+            "Engine Code": "K9K",
+            "Fuel": "Diesel 1.5L",
+            "Avg. Quoted Price": "£900-£2,100",
+            "Reported Issue": "Injector pump failure"
+          },
+          {
+            "Year": "2019-2023",
+            "Model": "Nissan Kicks (Gen 2) 1.3 HRA2 DIG-T",
+            "Engine Code": "HRA2",
+            "Fuel": "Petrol 1.3L",
+            "Avg. Quoted Price": "£950-£2,400",
+            "Reported Issue": "Turbo actuator fault"
+          },
+          {
+            "Year": "2020-2023",
+            "Model": "Nissan Kicks (Gen 2) e-POWER HR12DE",
+            "Engine Code": "HR12DE",
+            "Fuel": "Hybrid 1.2L",
+            "Avg. Quoted Price": "£1,200-£2,900",
+            "Reported Issue": "Generator motor wear"
+          },
+          {
+            "Year": "2021-2023",
+            "Model": "Nissan Kicks (Gen 2) 1.0 HR10DE",
+            "Engine Code": "HR10DE",
+            "Fuel": "Petrol 1.0L",
+            "Avg. Quoted Price": "£800-£1,800",
+            "Reported Issue": "Water pump seal leak"
+          }
+        ]
+      },
+      "headingLines": [
+        "What Are UK Drivers Paying for Nissan Kicks Engine Replacement-"
+      ],
+      "imageAlt": "Nissan Kicks replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000",
+      "filterTabs": [
+        {
+          "key": "all",
+          "label": "All",
+          "matchers": []
+        },
+        {
+          "key": "nissan-kicks-s-engine",
+          "label": "Nissan Kicks S",
+          "matchers": [
+            "nissan kicks s",
+            "nissan kicks s engine"
+          ]
+        },
+        {
+          "key": "nissan-kicks-sv-engine",
+          "label": "Nissan Kicks SV",
+          "matchers": [
+            "nissan kicks sv",
+            "nissan kicks sv engine"
+          ]
+        },
+        {
+          "key": "nissan-kicks-xv-engine",
+          "label": "Nissan Kicks XV",
+          "matchers": [
+            "nissan kicks xv",
+            "nissan kicks xv engine"
+          ]
+        },
+        {
+          "key": "nissan-kicks-sl-engine",
+          "label": "Nissan Kicks SL",
+          "matchers": [
+            "nissan kicks sl",
+            "nissan kicks sl engine"
+          ]
+        },
+        {
+          "key": "nissan-kicks-e-power-engine",
+          "label": "Nissan Kicks e-POWER",
+          "matchers": [
+            "nissan kicks e-power",
+            "nissan kicks e power engine"
+          ]
+        },
+        {
+          "key": "nissan-kicks-e-power-awd-engine",
+          "label": "Nissan Kicks e-POWER AWD",
+          "matchers": [
+            "nissan kicks e-power awd",
+            "nissan kicks e power awd engine"
+          ]
+        }
+      ],
+      "ui": {
+        "showingSingleLabel": "entry",
+        "showingPluralLabel": "entries",
+        "acrossAllLabel": "across all models",
+        "noEntriesLabel": "No entries match that model filter yet.",
+        "updatedLabel": "Last updated:",
+        "ctaLabel": "Live Quote Benchmark"
+      },
+      "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"
+    },
+    "reviews": {
+      "tag": "Customer Reviews",
+      "h2": "Trusted by Nissan Kicks Owners Across the UK",
+      "rating": {
+        "value": 4.8,
+        "count": 0,
+        "summary": "",
+        "basedOn": ""
+      },
+      "reviews": [],
+      "leaveReviewCta": {
+        "text": "",
+        "linkText": "Leave a review ->"
+      }
+    },
+    "variantCoverage": {
+      "tag": "Models We Cover",
+      "h2": "Nissan Kicks Engine Replacement - All Variants Covered",
+      "subheading": "From the entry-level S to the high-spec SL and e-POWER AWD, compare rebuilt, reconditioned and used engine prices through our network of UK Nissan Kicks engine specialists. Typical rebuilt prices range £750-£3,100 with a 12-month warranty - supply & fit available nationwide.",
+      "groups": [
+        {
+          "title": "Core Petrol Range",
+          "cardSlugs": [
+            "nissan-kicks-s-engine",
+            "nissan-kicks-sv-engine",
+            "nissan-kicks-xv-engine"
+          ]
+        },
+        {
+          "title": "Premium & Specialist Range",
+          "cardSlugs": [
+            "nissan-kicks-sl-engine",
+            "nissan-kicks-e-power-engine",
+            "nissan-kicks-e-power-awd-engine"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "h3": "Nissan Kicks S Engine Replacement",
+          "slug": "nissan-kicks-s-engine",
+          "subtitle": "HR12DE 1.2L Petrol ? 83hp ? 2017-2023",
+          "priceRange": "£750-£1,700",
+          "cta": "Compare S Engine Prices",
+          "engineCodes": [
+            "HR12DE"
+          ],
+          "fuel": "Petrol",
+          "power": "83hp",
+          "years": "2017-2023",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Kicks SV Engine Replacement",
+          "slug": "nissan-kicks-sv-engine",
+          "subtitle": "HR16DE 1.6L Petrol ? 122hp ? 2016-2021",
+          "priceRange": "£850-£2,100",
+          "cta": "Compare SV Engine Prices",
+          "engineCodes": [
+            "HR16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "122hp",
+          "years": "2016-2021",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Kicks XV Engine Replacement",
+          "slug": "nissan-kicks-xv-engine",
+          "subtitle": "HRA2 1.3L Turbo Petrol · 158hp · 2019-2023 · Rebuilt: £1,100-£2,600",
+          "priceRange": "£1,100-£2,600",
+          "cta": "Compare XV Engine Prices",
+          "engineCodes": [
+            "HRA2"
+          ],
+          "fuel": "Petrol",
+          "power": "158hp",
+          "years": "2019-2023",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Kicks SL Engine Replacement",
+          "slug": "nissan-kicks-sl-engine",
+          "subtitle": "HRA2 1.3L Turbo Petrol · 158hp · 2019-2023 · Rebuilt: £1,150-£2,700",
+          "priceRange": "£1,150-£2,700",
+          "cta": "Compare SL Engine Prices",
+          "engineCodes": [
+            "HRA2"
+          ],
+          "fuel": "Petrol",
+          "power": "158hp",
+          "years": "2019-2023",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Kicks e-POWER Engine Replacement",
+          "slug": "nissan-kicks-e-power-engine",
+          "subtitle": "HR12DE 1.2L Generator ? 127hp (system) ? 2020-2023",
+          "priceRange": "£1,400-£3,100",
+          "cta": "Compare e-POWER Engine Prices",
+          "engineCodes": [
+            "HR12DE 1.2L"
+          ],
+          "fuel": "",
+          "power": "127hp",
+          "years": "2020-2023",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Kicks e-POWER AWD Engine Replacement",
+          "slug": "nissan-kicks-e-power-awd-engine",
+          "subtitle": "HR12DE/EM57 1.2L Series Hybrid · 127hp (system) · 2021-2023 · Rebuilt: £1,500-£3,200",
+          "priceRange": "£1,500-£3,200",
+          "cta": "Compare e-POWER AWD Engine Prices",
+          "engineCodes": [
+            "HR12DE",
+            "EM57"
+          ],
+          "fuel": "Hybrid",
+          "power": "127hp",
+          "years": "2021-2023",
+          "image": ""
+        }
+      ],
+      "directory": {
+        "h3": "All Nissan Kicks Variants - Engine Replacement Coverage",
+        "intro": "A full alphabetical listing of every Nissan Kicks trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.",
+        "groups": [
+          {
+            "title": "Petrol Variants",
+            "items": [
+              "S",
+              "SV",
+              "XV",
+              "SL",
+              "Platinum",
+              "Acenta",
+              "N-Connecta",
+              "Hybrid / e-POWER Variants",
+              "e-POWER Hybrid",
+              "e-POWER AWD",
+              "e-POWER Tekna"
+            ]
+          }
+        ],
+        "label": "Variant Directory"
+      },
+      "closing": "Not sure which variant your Nissan Kicks is- Enter your registration number above - we’ll identify the exact sub-model, engine code and compatible replacement options instantly.",
+      "engineGuide": {
+        "tag": "Engine Codes",
+        "h2": "Nissan Kicks Engine Codes - Full Technical Specifications & Replacement Guide",
+        "h3": "Every engine code fitted to the Nissan Kicks across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+        "families": [
+          {
+            "name": "Petrol Engines",
+            "entries": [
+              {
+                "code": "HR12DE",
+                "title": "1.2L Petrol",
+                "familyHeading": "HR Series (2016-Present)",
+                "history": "Entry-level unit introduced for fuel efficiency; widely used in base S trims across early generations.",
+                "fuel": "Petrol",
+                "size": "1.2 Litre",
+                "power": "83-98 hp",
+                "years": "2016-2023",
+                "compatibleVariants": [
+                  "S, S SV, Acenta, SV"
+                ],
+                "commonFailures": [
+                  "Oil consumption above 60k miles due to piston ring wear",
+                  "Water pump bearing failure at high mileage",
+                  "Intake carbon buildup on direct injection variants"
+                ],
+                "avgRebuiltPrice": "£750 - £1,600",
+                "cta": "Get quotes for HR12DE Nissan Kicks engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "HR16DE",
+                "title": "1.6L Petrol",
+                "familyHeading": "HR Series (2016-Present)",
+                "history": "The volume seller and most searched replacement engine; robust naturally aspirated design with widespread parts availability.",
+                "fuel": "Petrol",
+                "size": "1.6 Litre",
+                "power": "114-126 hp",
+                "years": "2016-2023",
+                "compatibleVariants": [
+                  "SV, XV, SL, Platinum, N-Connecta"
+                ],
+                "commonFailures": [
+                  "Timing chain tensioner wear and stretch (60k-90k miles)",
+                  "Head gasket failure under sustained overheating",
+                  "Ignition coil and spark plug wire degradation"
+                ],
+                "avgRebuiltPrice": "£850 - £2,100",
+                "cta": "Get quotes for HR16DE Nissan Kicks engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "HRA2",
+                "title": "1.3L Turbo Petrol",
+                "familyHeading": "HR Series (2016-Present)",
+                "history": "Modern turbocharged replacement developed with Renault; delivers strong performance and improved efficiency for later generations.",
+                "fuel": "Petrol",
+                "size": "1.3 Litre",
+                "power": "140-158 hp",
+                "years": "2019-2023",
+                "compatibleVariants": [
+                  "XV, SL, Tekna, Platinum, N-Connecta Turbo"
+                ],
+                "commonFailures": [
+                  "Turbocharger actuator and wastegate sticking",
+                  "High-pressure fuel pump wear on early production runs",
+                  "Carbon accumulation on intake valves"
+                ],
+                "avgRebuiltPrice": "£950 - £2,400",
+                "cta": "Get quotes for HRA2 Nissan Kicks engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              }
+            ]
+          },
+          {
+            "name": "Hybrid / Electrified Engines",
+            "entries": [
+              {
+                "code": "HR12DE",
+                "title": "1.2L Generator Motor",
+                "familyHeading": "e-POWER Series Hybrid (2020-Present)",
+                "history": "Serves exclusively as a range-extender generator for the e-POWER system; operates at optimal RPM without direct wheel drive.",
+                "fuel": "Hybrid (Generator)",
+                "size": "1.2 Litre",
+                "power": "82 hp (generator) / 127 hp (system)",
+                "years": "2020-2023",
+                "compatibleVariants": [
+                  "e-POWER, e-POWER Tekna, e-POWER AWD"
+                ],
+                "commonFailures": [
+                  "Generator motor brush wear causing output fluctuation",
+                  "Inverter cooling pump failure",
+                  "Hybrid battery communication fault triggering limp mode"
+                ],
+                "avgRebuiltPrice": "£1,200 - £2,900",
+                "cta": "Get quotes for HR12DE e-POWER Nissan Kicks engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              }
+            ]
+          }
+        ],
+        "closing": "Can’t find your engine code- Enter your registration number above - we’ll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Kicks engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."
+      },
+      "headingLines": [
+        "Nissan Kicks Engine Replacement",
+        "All Variants Covered"
+      ],
+      "ui": {
+        "fromPriceLabel": "from price",
+        "specsLabel": "Specs",
+        "rebuiltLabel": "Rebuilt",
+        "yearsLabel": "Years",
+        "yearsFallback": "Check exact year coverage by registration"
+      }
+    },
+    "engineCodes": {
+      "tag": "Engine Codes",
+      "h2": "Nissan Kicks Engine Codes - Full Technical Specifications & Replacement Guide",
+      "h3": "Every engine code fitted to the Nissan Kicks across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+      "closingLine": "Can’t find your engine code- Enter your registration number above - we’ll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Kicks engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.",
+      "filters": [
+        "Petrol Engines",
+        "Hybrid / Electrified Engines"
+      ],
+      "groups": [
+        {
+          "name": "Petrol Engines",
+          "era": "Extracted from detailed petrol and performance engine families across Nissan Kicks variants.",
+          "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.",
+          "engines": [
+            {
+              "code": "HR12DE",
+              "title": "1.2L Petrol",
+              "familyHeading": "HR Series (2016-Present)",
+              "fuel": "Petrol",
+              "size": "1.2L",
+              "power": "83-98 hp",
+              "compatibleModels": "S, S SV, Acenta, SV",
+              "avgRebuiltPrice": "£750 - £1,600",
+              "cta": "Get quotes for HR12DE Nissan Kicks engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "HR16DE",
+              "title": "1.6L Petrol",
+              "familyHeading": "HR Series (2016-Present)",
+              "fuel": "Petrol",
+              "size": "1.6L",
+              "power": "114-126 hp",
+              "compatibleModels": "SV, XV, SL, Platinum, N-Connecta",
+              "avgRebuiltPrice": "£850 - £2,100",
+              "cta": "Get quotes for HR16DE Nissan Kicks engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "HRA2",
+              "title": "1.3L Turbo Petrol",
+              "familyHeading": "HR Series (2016-Present)",
+              "fuel": "Petrol",
+              "size": "1.3L",
+              "power": "140-158 hp",
+              "compatibleModels": "XV, SL, Tekna, Platinum, N-Connecta Turbo",
+              "avgRebuiltPrice": "£950 - £2,400",
+              "cta": "Get quotes for HRA2 Nissan Kicks engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            }
+          ]
+        },
+        {
+          "name": "Hybrid / Electrified Engines",
+          "era": "Extracted from electrified powertrains and hybrid engine families used in Nissan Kicks variants.",
+          "failureNote": "Main replacement demand comes from cooling, battery-support and high-voltage control faults.",
+          "engines": [
+            {
+              "code": "HR12DE",
+              "title": "1.2L Generator Motor",
+              "familyHeading": "e-POWER Series Hybrid (2020-Present)",
+              "fuel": "Hybrid (Generator)",
+              "size": "1.2L",
+              "power": "82 hp (generator) / 127 hp (system)",
+              "compatibleModels": "e-POWER, e-POWER Tekna, e-POWER AWD",
+              "avgRebuiltPrice": "£1,200 - £2,900",
+              "cta": "Get quotes for HR12DE e-POWER Nissan Kicks engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            }
+          ]
+        }
+      ],
+      "headingLines": [
+        "Nissan Kicks Engine Codes",
+        "Full Technical Specifications & Replacement Guide"
+      ],
+      "closingAction": {
+        "title": "Can't find your engine code-",
+        "buttonText": "Enter Your Reg"
+      },
+      "ui": {
+        "summaryPriceLabel": "Avg. rebuilt price",
+        "exampleImageLabel": "Example engine visual",
+        "historyLabel": "Engine History",
+        "variantsLabel": "Compatible Nissan Kicks variants",
+        "specsTitle": "Technical Specifications",
+        "fuelLabel": "Fuel type",
+        "sizeLabel": "Engine size",
+        "powerLabel": "Power output",
+        "yearsLabel": "Years fitted",
+        "failuresTitle": "Common Failures",
+        "supplyLabel": "Supply only"
+      }
+    },
+    "commonProblems": {
+      "tag": "Common Problems",
+      "h2": "Nissan Kicks Engine Problems - What It Costs to Fix & When Replacement Makes Sense",
+      "h3": "The Nissan Kicks relies on three main engine families: the 1.6L HR16DE, the 1.3L HRA2 turbo, and the 1.2L e-POWER generator. While generally reliable, specific failure points often push owners toward full replacement. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty.",
+      "problems": [
+        {
+          "group": "Nissan Kicks HR16DE Timing Chain Failure",
+          "h4": "Nissan Kicks HR16DE Timing Chain Failure - Why 1.6L Engines Stretch Prematurely",
+          "affectedModels": "Nissan Kicks SV, XV, SL (2016-2021, HR16DE)",
+          "typicalFailureMileage": "65,000 - 95,000 miles",
+          "rootCause": "Hydraulic tensioner oil pressure loss causes the primary chain to stretch, leading to rattle, misfires, and potential valve timing jumps.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Chain & Tensioner Swap",
+              "dealerPrice": "£1,100 - £1,600",
+              "specialistPrice": "£650 - £950",
+              "whatItInvolves": "Replace chain, guides, and updated tensioner",
+              "longevity": "Viable if caught before rattle turns into valve contact"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt HR16DE",
+              "dealerPrice": "£2,800 - £3,500",
+              "specialistPrice": "£1,200 - £1,900",
+              "whatItInvolves": "Supply & fit rebuilt unit with reinforced timing components",
+              "longevity": "Best long-term solution; eliminates repeated chain stress"
+            }
+          ],
+          "recommendation": "If you hear a metallic rattle on cold starts, act immediately. A minor chain swap saves money early, but once timing marks slip, a rebuilt HR16DE is safer and more cost-effective than risking cylinder head damage.",
+          "cta": "Compare rebuilt HR16DE engine prices for your Nissan Kicks"
+        },
+        {
+          "group": "Nissan Kicks HRA2 Turbo Actuator Failure",
+          "h4": "Nissan Kicks HRA2 Turbo Actuator Failure - Why 1.3L Boost Drops",
+          "affectedModels": "Nissan Kicks XV, SL, Tekna (2019-2023, HRA2)",
+          "typicalFailureMileage": "50,000 - 80,000 miles",
+          "rootCause": "Carbon buildup and heat cycling jam the turbo wastegate actuator, causing boost loss, limp mode, and reduced power on demand.",
+          "repairOptions": [
+            {
+              "tier": "Intermediate - Actuator & Cleaning",
+              "dealerPrice": "£850 - £1,200",
+              "specialistPrice": "£500 - £750",
+              "whatItInvolves": "Remove, ultrasonic clean, and replace actuator motor",
+              "longevity": "Restores boost if turbine and compressor wheels are undamaged"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt HRA2",
+              "dealerPrice": "£3,200 - £3,900",
+              "specialistPrice": "£1,300 - £2,100",
+              "whatItInvolves": "Supply & fit rebuilt HRA2 with updated turbo and EGR",
+              "longevity": "Recommended if turbo wheel play or compressor damage is confirmed"
+            }
+          ],
+          "recommendation": "Diagnose with live boost data before committing. Clean-and-replace works for minor sticking, but persistent limp mode usually signals internal turbo wear where a full rebuild guarantees longevity.",
+          "cta": "Find a reconditioned HRA2 turbo engine for your Nissan Kicks"
+        },
+        {
+          "group": "Nissan Kicks HR12DE Oil Consumption",
+          "h4": "Nissan Kicks HR12DE Oil Consumption - Why 1.2L Engines Burn Oil",
+          "affectedModels": "Nissan Kicks S, SV, Acenta (2016-2023, HR12DE)",
+          "typicalFailureMileage": "70,000 - 100,000 miles",
+          "rootCause": "Early piston ring design allows oil to bypass into the combustion chamber, leading to blue smoke, fouled plugs, and potential catalytic converter damage.",
+          "repairOptions": [
+            {
+              "tier": "Full Replacement - Rebuilt HR12DE",
+              "dealerPrice": "£2,400 - £3,100",
+              "specialistPrice": "£1,050 - £1,800",
+              "whatItInvolves": "Supply & fit unit with upgraded oil control rings",
+              "longevity": "The only reliable fix for chronic consumption; eliminates repeated top-ups"
+            }
+          ],
+          "recommendation": "Once consumption exceeds 1L per 1,000 miles, ring replacement isn't economically viable on this compact block. A rebuilt HR12DE with modernised internals delivers factory spec efficiency without constant oil checks.",
+          "cta": "Get quotes for HR12DE engine replacement for your Nissan Kicks"
+        },
+        {
+          "group": "Nissan Kicks e-POWER Generator Wear",
+          "h4": "Nissan Kicks e-POWER Generator Wear - Why Hybrid Range Extenders Fail",
+          "affectedModels": "Nissan Kicks e-POWER, e-POWER AWD (2020-2023, HR12DE Generator)",
+          "typicalFailureMileage": "60,000 - 90,000 miles",
+          "rootCause": "Continuous high-RPM operation for battery charging causes brush wear and inverter thermal stress, triggering fault codes and system shutdown.",
+          "repairOptions": [
+            {
+              "tier": "Full Replacement - Rebuilt Generator",
+              "dealerPrice": "£3,500 - £4,500",
+              "specialistPrice": "£1,600 - £2,600",
+              "whatItInvolves": "Supply & fit rebuilt HR12DE generator with upgraded inverter",
+              "longevity": "Essential for hybrid integrity; prevents cascading battery damage"
+            }
+          ],
+          "recommendation": "Do not ignore e-POWER warning lights. The generator cannot be economically repaired in situ. A specialist rebuilt unit with hybrid calibration guarantees seamless series-hybrid operation.",
+          "cta": "Compare e-POWER replacement engine prices for your Nissan Kicks"
+        }
+      ],
+      "finalCta": {
+        "h4": "Don't Let Engine Failure Write Off Your Nissan Kicks",
+        "paragraph": "Engine problems on the Kicks follow clear patterns. Timing chains, turbo actuators, oil rings, and hybrid generators all degrade predictably. EngineMarket makes it simple to compare prices from trusted UK Nissan Kicks specialists who supply rebuilt engines with upgraded components, full bench testing, and a 12-month warranty. Avoid main dealer premiums, get verified quotes within hours, and secure nationwide delivery or certified supply & fit options.",
+        "buttonText": "Compare Nissan Kicks Engine Replacement Prices Now →",
+        "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket’s UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Kicks and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."
+      }
+    },
+    "engineTypes": {
+      "tag": "Replacement Engine Options",
+      "h2": "Nissan Kicks Engine Types - Options, Costs & What to Expect",
+      "intro": "Every Nissan Kicks engine type is available through the UK network with typical price ranges based on variant, engine code and budget.",
+      "types": [
+        {
+          "title": "Nissan Kicks Reconditioned Engines (Recon)",
+          "description": "Fully dismantled and inspected units with worn components replaced to factory specifications using quality parts.",
+          "frontDescription": "Fully dismantled and inspected units with worn components replaced to factory specifications using quality parts.",
+          "frontDisclaimer": "Condition varies by supplier; always request build sheet and warranty terms.",
+          "backDescription": "Reconditioned units undergo comprehensive teardown, cylinder honing, and fresh gasket installation. Ideal for HR16DE and HRA2 codes where timing components and oil pumps are routinely upgraded. All units tested before dispatch.",
+          "backBullets": [
+            "Comprehensive teardown and precision measurement",
+            "Replaced bearings, gaskets, seals and oil pump",
+            "Supplied with 12-month unlimited mileage warranty"
+          ],
+          "priceRange": "£950 - £2,400 (supply only)",
+          "cta": "Compare reconditioned Nissan Kicks engine prices"
+        },
+        {
+          "title": "Nissan Kicks Rebuilt Engines",
+          "description": "Core engines stripped, cleaned, and rebuilt with new internal components addressing known failure points.",
+          "frontDescription": "Core engines stripped, cleaned, and rebuilt with new internal components addressing known failure points.",
+          "frontDisclaimer": "Rebuild specifications vary; confirm which failure components are upgraded before purchase.",
+          "backDescription": "Rebuilt engines focus on targeted component replacement rather than full restoration. Specialists upgrade timing chains, turbo actuators, and piston rings based on Nissan Kicks service bulletins. Cost-effective and reliable for daily use.",
+          "backBullets": [
+            "Targeted replacement of known weak components",
+            "Upgraded parts per manufacturer technical bulletins",
+            "Bench tested for compression and oil pressure"
+          ],
+          "priceRange": "£1,050 - £2,700 (supply only)",
+          "cta": "Get rebuilt Nissan Kicks engine quotes"
+        },
+        {
+          "title": "Nissan Kicks Used Engines",
+          "description": "Low-mileage donor units pulled from crashed or written-off vehicles, inspected for basic functionality.",
+          "frontDescription": "Low-mileage donor units pulled from crashed or written-off vehicles, inspected for basic functionality.",
+          "frontDisclaimer": "Condition depends entirely on donor history; verify compression and service records before fitting.",
+          "backDescription": "Used engines offer the fastest turnaround and lowest upfront cost for budget-conscious owners. Best suited for early HR12DE and HR16DE units with verified mileage. Always request a compression test report prior to dispatch.",
+          "backBullets": [
+            "Sourced from verified UK grey import and salvage donors",
+            "Visual inspection and compression test provided",
+            "Short-term supplier warranty typically available"
+          ],
+          "priceRange": "£750 - £1,800 (supply only)",
+          "cta": "Check used Nissan Kicks engine availability"
+        },
+        {
+          "title": "Nissan Kicks Remanufactured Engines",
+          "description": "Zero-hour engines rebuilt to original factory tolerances using CNC machining and OEM-spec components.",
+          "frontDescription": "Zero-hour engines rebuilt to original factory tolerances using CNC machining and OEM-spec components.",
+          "frontDisclaimer": "Premium pricing reflects machining tolerances and new-block equivalent quality standards.",
+          "backDescription": "Remanufactured units represent the highest tier available for the Kicks platform. Cylinder blocks are line-bored, crankshafts are reground, and every component meets new-engine specifications. Ideal for e-POWER and high-mileage HRA2 applications.",
+          "backBullets": [
+            "CNC-machined block and crankshaft to factory tolerances",
+            "All internal components replaced with new OEM-spec parts",
+            "Longest lifespan expectancy with extended warranty options"
+          ],
+          "priceRange": "£1,400 - £3,100 (supply only)",
+          "cta": "Compare remanufactured Nissan Kicks engine costs"
+        },
+        {
+          "title": "Nissan Kicks Refurbished Engines",
+          "description": "Running cores with minor repairs, cleaned externally, and functionally tested for immediate fitment.",
+          "frontDescription": "Running cores with minor repairs, cleaned externally, and functionally tested for immediate fitment.",
+          "frontDisclaimer": "Minimal internal work performed; verify compression and leak-down results before installation.",
+          "backDescription": "Refurbished engines sit between used and reconditioned tiers. The core remains intact but receives cleaning, sensor checks, and minor seal replacements. Suitable for low-budget repairs where the donor engine history is well documented.",
+          "backBullets": [
+            "External cleaning and functional diagnostic check",
+            "Minor seal and gasket replacements performed",
+            "Quick dispatch turnaround for time-sensitive repairs"
+          ],
+          "priceRange": "£850 - £1,950 (supply only)",
+          "cta": "View refurbished Nissan Kicks engine options"
+        },
+        {
+          "title": "Nissan Kicks Supply & Fit Engines",
+          "description": "Complete package including verified replacement engine, certified labour, and post-installation diagnostics.",
+          "frontDescription": "Complete package including verified replacement engine, certified labour, and post-installation diagnostics.",
+          "frontDisclaimer": "Labour costs vary by region and vehicle condition; confirm workshop accreditation before booking.",
+          "backDescription": "Supply & fit removes the complexity of coordinating separate engine delivery and garage booking. Certified import specialists handle ECU adaptation, coolant bleeding, and MoT-compliant documentation for a seamless, road-ready result.",
+          "backBullets": [
+            "Vetted specialist garages nationwide available",
+            "Includes ECU adaptation and post-fit diagnostics",
+            "Single-point warranty coverage for labour and parts"
+          ],
+          "priceRange": "£450 - £850 added to engine price",
+          "cta": "Find Nissan Kicks engine supply & fit deals"
+        }
+      ],
+      "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Kicks within hours.",
+      "headingLines": [
+        "Nissan Kicks Engine Types",
+        "Options, Costs & What to Expect"
+      ],
+      "ui": {
+        "priceLabel": "Typical price range",
+        "frontActionLabel": "What is it-",
+        "backActionLabel": "Flip back"
+      },
+      "closingCard": {
+        "label": "Engine Replacement Help",
+        "title": "Compare Nissan Kicks engine prices with vetted UK suppliers",
+        "buttonText": "Compare Nissan Kicks Prices"
+      }
+    },
+    "engineSizes": {
+      "tag": "Engine Sizes",
+      "h2": "Nissan Kicks Engines by Size - Find the Right Displacement for Your Variant",
+      "intro": "Every engine displacement fitted to the Nissan Kicks is listed below, with compatible codes, production years and common failure notes to help you identify the correct replacement.",
+      "groups": [
+        {
+          "title": "Nissan Kicks Petrol Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Kicks 1.0L Petrol Engines",
+              "description": "The 1.0-litre unit was introduced for later European and Japanese market Kicks models, prioritising urban efficiency and lower emissions tax brackets. It appears in newer base trims and delivers adequate city driving performance without sacrificing fuel economy.",
+              "engineCodes": [
+                "HR10DE"
+              ],
+              "compatibleModels": [
+                "S",
+                "Acenta"
+              ],
+              "productionYears": "2021-2023",
+              "commonFailurePoints": [
+                "Water pump bearing wear",
+                "intake manifold gasket leaks"
+              ],
+              "cta": "Compare Nissan Kicks 1.0L petrol engine prices"
+            },
+            {
+              "title": "Nissan Kicks 1.2L Petrol Engines",
+              "description": "This compact naturally aspirated engine serves as the entry-level workhorse across early UK imports and grey market variants. It favours low-end torque delivery for city commuting and remains one of the most requested replacement sizes due to its high registration volume.",
+              "engineCodes": [
+                "HR12DE"
+              ],
+              "compatibleModels": [
+                "S",
+                "SV",
+                "Acenta"
+              ],
+              "productionYears": "2016-2023",
+              "commonFailurePoints": [
+                "Piston ring oil consumption",
+                "timing chain guide wear"
+              ],
+              "cta": "Compare Nissan Kicks 1.2L petrol engine prices"
+            },
+            {
+              "title": "Nissan Kicks 1.6L Petrol Engines",
+              "description": "The 1.6-litre HR16DE is the dominant displacement in the Kicks lineup, balancing reliable naturally aspirated performance with widespread aftermarket support. It powers most mid-to-high trim imports and remains the most searched engine size for replacement.",
+              "engineCodes": [
+                "HR16DE"
+              ],
+              "compatibleModels": [
+                "SV",
+                "XV",
+                "SL",
+                "Platinum",
+                "N-Connecta"
+              ],
+              "productionYears": "2016-2023",
+              "commonFailurePoints": [
+                "Timing chain stretch above 70k miles",
+                "ignition coil degradation"
+              ],
+              "cta": "Compare Nissan Kicks 1.6L petrol engine prices"
+            },
+            {
+              "title": "Nissan Kicks 1.3L Petrol Engines",
+              "description": "Developed jointly with Renault, this modern turbocharged unit replaces older displacements in facelifted generations. It delivers strong mid-range power for motorway overtaking while maintaining competitive emissions figures for UK registration.",
+              "engineCodes": [
+                "HRA2"
+              ],
+              "compatibleModels": [
+                "XV",
+                "SL",
+                "Tekna",
+                "Platinum"
+              ],
+              "productionYears": "2019-2023",
+              "commonFailurePoints": [
+                "Turbo actuator sticking",
+                "high-pressure fuel pump wear"
+              ],
+              "cta": "Compare Nissan Kicks 1.3L petrol engine prices"
+            }
+          ]
+        },
+        {
+          "title": "Nissan Kicks Hybrid / MHEV Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Kicks 1.2L Hybrid Engines",
+              "description": "The e-POWER system uses a dedicated 1.2-litre petrol generator that never drives the wheels directly. Instead, it charges the high-voltage battery pack, allowing the electric motor to provide smooth, instant torque across all driving conditions.",
+              "engineCodes": [
+                "HR12DE (Generator)",
+                "EM57 (Traction Motor)"
+              ],
+              "compatibleModels": [
+                "e-POWER",
+                "e-POWER Tekna",
+                "e-POWER AWD"
+              ],
+              "productionYears": "2020-2023",
+              "commonFailurePoints": [
+                "Generator brush wear",
+                "inverter cooling pump failure"
+              ],
+              "cta": "Enquire about Nissan Kicks 1.2L hybrid engine availability"
+            }
+          ]
+        }
+      ],
+      "closing": "Not sure which engine size your Nissan Kicks needs- Enter your registration number above - we’ll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Kicks specialists.",
+      "headingLines": [
+        "Nissan Kicks Engines by Size",
+        "Find the Right Displacement for Your Variant"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "engineCodesLabel": "Engine Code(s)",
+        "compatibleModelsLabel": "Compatible Models (UK)",
+        "productionYearsLabel": "Production Years",
+        "warningLabel": "Common Failure Points",
+        "warningTitle": "Watch for these known weak points",
+        "helperLabel": "Engine Size Advice",
+        "helperTitle": "Need help matching the exact engine size-",
+        "helperButtonText": "Find My Engine"
+      }
+    },
+    "fuelTypes": {
+      "tag": "Fuel Type",
+      "h2": "Nissan Kicks Engines by Fuel Type",
+      "intro": "Choose your Nissan Kicks engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early naturally aspirated petrol to the latest e-POWER series hybrid.",
+      "items": [
+        {
+          "title": "Nissan Kicks Petrol Engines",
+          "description": "Petrol dominates the Kicks lineup, offering a balance of low running costs, widespread parts availability, and proven reliability across multiple generations of UK grey imports.",
+          "descriptor": "Petrol dominates the Kicks lineup, offering a balance of low running costs, widespread parts availability, and proven reliability across multiple generations of UK grey imports.",
+          "familiesLabel": "Common Nissan Kicks Petrol Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Petrol Models",
+          "notesLabel": "",
+          "families": [
+            "HR16DE - volume 1.6L unit, timing chain stretch risk above 70k",
+            "HRA2 - modern 1.3L turbo, actuator and boost control focus",
+            "HR12DE - entry 1.2L naturally aspirated, oil consumption noted",
+            "HR10DE - newer 1.0L three-cylinder, water pump attention needed"
+          ],
+          "foundIn": [
+            "Generation 1 (2016-2019) - HR12DE, HR16DE",
+            "Generation 2 LCI (2020-2023) - HR10DE, HRA2"
+          ],
+          "knownFor": [
+            "Low initial purchase cost and high parts availability",
+            "HR16DE timing tensioner upgrades available per bulletin",
+            "Turbo variants show strong performance but require oil discipline",
+            "Generally robust block architecture with straightforward diagnostics"
+          ],
+          "typicalModels": [
+            "Nissan Kicks S",
+            "Nissan Kicks SV",
+            "Nissan Kicks XV",
+            "Nissan Kicks SL",
+            "Nissan Kicks N-Connecta"
+          ],
+          "importantNotes": [],
+          "cta": "Compare Nissan Kicks Petrol engine prices"
+        },
+        {
+          "title": "Nissan Kicks Hybrid / Electrified Engines",
+          "description": "The e-POWER series hybrid operates as an electric vehicle with an onboard petrol generator, delivering silent city driving and zero clutch wear.",
+          "descriptor": "The e-POWER series hybrid operates as an electric vehicle with an onboard petrol generator, delivering silent city driving and zero clutch wear.",
+          "familiesLabel": "Nissan Kicks e-POWER Engine Codes",
+          "foundInLabel": "Found In",
+          "knownForLabel": "",
+          "modelsLabel": "",
+          "notesLabel": "Important Notes",
+          "families": [
+            "HR12DE - 1.2L dedicated range-extender generator",
+            "EM57 - AC synchronous traction motor",
+            "Petrol engine runs exclusively at optimal RPM to charge battery",
+            "Electric motor drives wheels directly for instant torque response",
+            "No traditional transmission, belt, or clutch components required"
+          ],
+          "foundIn": [
+            "Nissan Kicks e-POWER (2020-2023)",
+            "Nissan Kicks e-POWER AWD (2021-2023)"
+          ],
+          "knownFor": [],
+          "typicalModels": [],
+          "importantNotes": [
+            "Generator replacement requires hybrid system diagnostic sync",
+            "Battery health must be verified during generator installation",
+            "Specialist calibration tools required for fault code clearance"
+          ],
+          "cta": "Enquire about Nissan Kicks e-POWER engine availability"
+        }
+      ],
+      "closing": "Not sure which fuel type your Nissan Kicks has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Kicks specialists.",
+      "headingLines": [
+        "Nissan Kicks Engines by Fuel Type"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "familiesLabel": "Common Engine Families",
+        "foundInLabel": "Found In",
+        "knownForLabel": "Known For",
+        "modelsLabel": "Typical Models (UK)",
+        "notesLabel": "Important Notes",
+        "closingButtonText": "Find my engine",
+        "emptyStateTitle": "Fuel type guidance",
+        "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."
+      }
+    },
+    "engineYears": {
+      "tag": "Engine Years",
+      "h2": "Nissan Kicks Engines by Year - What Was Fitted & When",
+      "intro": "This timeline tracks every major engine introduction and platform shift for the Nissan Kicks, helping owners quickly identify their unit and compare rebuilt engine prices from UK specialists.",
+      "jumpLabel": "Jump to model year",
+      "years": [
+        {
+          "year": "2016 - 2018",
+          "preview": "Generation 1 Launch",
+          "description": "The Kicks debuts as a compact crossover import, establishing the HR12DE and HR16DE as the core petrol lineup for early adopters.",
+          "keyChanges": [
+            "First generation platform introduced for Asian and Middle Eastern markets",
+            "HR12DE 1.2L launched as base petrol unit",
+            "HR16DE 1.6L positioned as mid-range performance option",
+            "Manual and CVT transmissions offered across trims"
+          ],
+          "mainEngines": [
+            "HR12DE - 1.2L petrol (S, Acenta)",
+            "HR16DE - 1.6L petrol (SV, XV)"
+          ],
+          "popularModels": [
+            "Nissan Kicks S",
+            "Nissan Kicks SV",
+            "Nissan Kicks XV"
+          ],
+          "knownFor": [
+            "Lightweight platform ideal for urban commuting",
+            "Early HR16DE tensioner design requires monitoring",
+            "CVT transmission pairs smoothly with both displacements",
+            "Strong parts availability across UK import networks"
+          ],
+          "engineCodesCovered": [
+            "HR12DE",
+            "HR16DE"
+          ],
+          "cta": "Get quotes for 2016-2018 Nissan Kicks replacement engines",
+          "badges": [
+            {
+              "label": "Major Platform Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan Kicks 2016 engine replacement • HR16DE timing chain fix • CVT transmission fluid check",
+          "enquiries": [
+            "Nissan Kicks 2016 engine replacement",
+            "HR16DE timing chain fix",
+            "CVT transmission fluid check"
+          ]
+        },
+        {
+          "year": "2019 - 2020",
+          "preview": "Facelift & Turbo Introduction",
+          "description": "Nissan introduces the HRA2 turbo petrol, significantly boosting performance and efficiency while phasing out older naturally aspirated high-output units.",
+          "keyChanges": [
+            "HRA2 1.3L DIG-T turbo engine replaces older 1.6L output variants",
+            "Updated front fascia and interior technology package",
+            "Improved CVT programming for better fuel economy",
+            "Euro 6d compliance achieved across petrol range"
+          ],
+          "mainEngines": [
+            "HR12DE - 1.2L petrol (S, Acenta)",
+            "HR16DE - 1.6L petrol (SV, mid-spec)",
+            "HRA2 - 1.3L turbo petrol (XV, SL, Tekna)"
+          ],
+          "popularModels": [
+            "Nissan Kicks XV Turbo",
+            "Nissan Kicks SL",
+            "Nissan Kicks Tekna"
+          ],
+          "knownFor": [
+            "Noticeable power improvement over previous generation",
+            "HRA2 turbo actuator requires early diagnostic attention",
+            "Enhanced cabin insulation and NVH reduction",
+            "Higher insurance groups due to performance uplift"
+          ],
+          "engineCodesCovered": [
+            "HR12DE",
+            "HR16DE",
+            "HRA2"
+          ],
+          "cta": "Compare 2019-2020 Nissan Kicks engine prices",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan Kicks 2019 engine code • HRA2 turbo actuator replacement • Facelift model compatibility check",
+          "enquiries": [
+            "Nissan Kicks 2019 engine code",
+            "HRA2 turbo actuator replacement",
+            "Facelift model compatibility check"
+          ]
+        },
+        {
+          "year": "2021 - 2023",
+          "preview": "e-POWER & AWD Expansion",
+          "description": "The series hybrid e-POWER system launches alongside a new electronic AWD option, marking the most significant technological shift in Kicks history.",
+          "keyChanges": [
+            "e-POWER series hybrid introduced with dedicated generator",
+            "e-POWER AWD variant adds rear electric motor",
+            "Updated infotainment and driver assistance packages",
+            "Minor chassis reinforcement for hybrid battery mounting"
+          ],
+          "mainEngines": [
+            "HR10DE - 1.0L petrol (entry trims)",
+            "HRA2 - 1.3L turbo petrol (mid-spec)",
+            "HR12DE/EM57 - 1.2L generator + traction motor (e-POWER)"
+          ],
+          "popularModels": [
+            "Nissan Kicks e-POWER",
+            "Nissan Kicks e-POWER AWD",
+            "Nissan Kicks SL Hybrid"
+          ],
+          "knownFor": [
+            "Silent electric-only city driving with instant torque",
+            "Generator operates independently of wheel speed",
+            "Hybrid battery cooling system requires specialist maintenance",
+            "Premium pricing reflects advanced powertrain architecture"
+          ],
+          "engineCodesCovered": [
+            "HR10DE",
+            "HRA2",
+            "HR12DE",
+            "EM57"
+          ],
+          "cta": "Enquire about 2021-2023 Nissan Kicks hybrid engine availability",
+          "badges": [
+            {
+              "label": "Technology Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan Kicks 2021 e-POWER fault • Hybrid generator replacement • AWD electric motor diagnostics",
+          "enquiries": [
+            "Nissan Kicks 2021 e-POWER fault",
+            "Hybrid generator replacement",
+            "AWD electric motor diagnostics"
+          ]
+        }
+      ],
+      "closing": "Not sure which year your Nissan Kicks was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Kicks specialists.",
+      "headingLines": [
+        "Nissan Kicks Engines by Year",
+        "What Was Fitted & When"
+      ],
+      "ui": {
+        "keyChangesLabel": "Key Changes",
+        "knownForLabel": "Known For",
+        "mainEnginesLabel": "Main Engines",
+        "popularModelsLabel": "Popular Models",
+        "engineCodesLabel": "Engine Codes Covered",
+        "enquiriesLabel": "Common Replacement Enquiries"
+      },
+      "summaryCta": {
+        "label": "Year Finder",
+        "title": "Not sure which year your Nissan Kicks was built-",
+        "buttonText": "Find My Engine"
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "h2": "Nissan Kicks Engine Replacement - Frequently Asked Questions",
+      "intro": "",
+      "items": [
+        {
+          "question": "How much does a Nissan Kicks engine replacement cost in the UK for grey imports-",
+          "answer": "Replacement costs typically range between £850 and £2,900 depending on engine code, condition type, and whether you choose supply-only or supply & fit. The dominant HR16DE and HRA2 units sit in the middle of this bracket.",
+          "keyPoints": [
+            "HR16DE 1.6L rebuilt units average £850-£2,100",
+            "HRA2 1.3L turbo rebuilt units average £950-£2,400",
+            "e-POWER generator replacements start around £1,200",
+            "Supply & fit typically adds £450-£850 to engine cost"
+          ],
+          "cta": "Get a tailored Nissan Kicks engine replacement quote today"
+        },
+        {
+          "question": "What engine codes are compatible with my imported Nissan Kicks in the UK-",
+          "answer": "The most common codes are HR16DE (1.6L petrol), HRA2 (1.3L turbo petrol), HR12DE (1.2L petrol/generator), and K9K (1.5L dCi). Exact compatibility depends on your chassis generation and trim level.",
+          "keyPoints": [
+            "HR16DE powers most 2016-2021 mid-spec imports",
+            "HRA2 replaced high-output units in 2019+ facelifts",
+            "HR12DE serves base trims and e-POWER generation",
+            "DVLA registration check guarantees precise code match"
+          ],
+          "cta": "Verify your Nissan Kicks engine code instantly via registration"
+        },
+        {
+          "question": "How long does it take to replace a Nissan Kicks engine in the UK for grey imports-",
+          "answer": "Standard supply & fit installations take 3 to 5 working days once the engine is sourced. Specialist import garages require additional time for ECU adaptation and MoT compliance documentation.",
+          "keyPoints": [
+            "Engine sourcing typically takes 1-2 working days",
+            "Physical installation requires 2 full garage days",
+            "ECU calibration and hybrid sync add 4-6 hours",
+            "Next-day dispatch available on in-network stock"
+          ],
+          "cta": "Find Nissan Kicks engine supply & fit turnaround times"
+        },
+        {
+          "question": "Does a replacement Nissan Kicks engine come with a warranty for UK grey imports-",
+          "answer": "Yes, every engine supplied through our network includes a minimum 12-month unlimited mileage warranty covering internal components and manufacturing defects.",
+          "keyPoints": [
+            "Standard network warranty is 12 months unlimited mileage",
+            "Some specialists offer 24-month coverage upgrades",
+            "Labour warranty varies by installing garage",
+            "Bench test reports and compression data provided upfront"
+          ],
+          "cta": "Compare Nissan Kicks engine warranty terms and coverage"
+        },
+        {
+          "question": "Can I fit a Nissan Kicks engine myself or do I need an import specialist in the UK-",
+          "answer": "While mechanically possible for experienced DIY mechanics, e-POWER and turbo variants require specialist diagnostic tools for ECU adaptation and hybrid system sync.",
+          "keyPoints": [
+            "HR16DE fits standard mechanical skill levels",
+            "HRA2 requires turbo boost and ECU programming",
+            "e-POWER needs high-voltage safety certification",
+            "Specialist fitting ensures MoT emissions compliance"
+          ],
+          "cta": "Locate certified Nissan Kicks engine fitting specialists near you"
+        },
+        {
+          "question": "Will a replacement engine affect my imported Nissan Kicks insurance in the UK-",
+          "answer": "Replacing an engine with an identical code does not typically increase premiums, but you must notify your insurer and update DVLA records to maintain valid coverage.",
+          "keyPoints": [
+            "Like-for-like code replacement rarely impacts premiums",
+            "Performance upgrades or different codes require declaration",
+            "DVLA engine code update costs £10-£15 standard",
+            "Undeclared changes can void comprehensive policies"
+          ],
+          "cta": "Check how Nissan Kicks engine replacement impacts insurance"
+        },
+        {
+          "question": "How do I know if my imported Nissan Kicks needs a full engine replacement or just a repair in the UK-",
+          "answer": "If failure involves internal block damage, seized bearings, or snapped timing chains jumping teeth, replacement is safer and more economical than major repair.",
+          "keyPoints": [
+            "Timing chain replacement viable before valve damage",
+            "Turbo rebuild cost-effective if block compression is good",
+            "Oil consumption requires piston/ring replacement only",
+            "Hybrid generator failure demands full unit swap"
+          ],
+          "cta": "Compare repair vs replacement costs for your Nissan Kicks"
+        },
+        {
+          "question": "Are used Nissan Kicks engines reliable for UK grey imports-",
+          "answer": "Used engines are reliable if sourced from verified donors with documented service history and recent compression test results, but carry higher risk than rebuilt units.",
+          "keyPoints": [
+            "Always request compression and leak-down reports",
+            "Verify mileage against MOT history where possible",
+            "Grey import provenance must be clearly documented",
+            "Shorter warranty periods typical for used stock"
+          ],
+          "cta": "Check used Nissan Kicks engine availability and verification"
+        },
+        {
+          "question": "What is the difference between reconditioned, rebuilt, and remanufactured Nissan Kicks engines for UK imports-",
+          "answer": "Reconditioned units undergo inspection with selective part replacement, rebuilt units focus on targeted failure point upgrades, and remanufactured units are zero-hour factory-spec rebuilds.",
+          "keyPoints": [
+            "Recon balances cost with selective component replacement",
+            "Rebuilt addresses known bulletins with upgraded parts",
+            "Reman achieves zero-hour tolerances via CNC machining",
+            "All tiers include minimum 12-month network warranty"
+          ],
+          "cta": "Compare reconditioned vs rebuilt Nissan Kicks engine options"
+        },
+        {
+          "question": "How do I prepare my imported Nissan Kicks for engine replacement in the UK-",
+          "answer": "Gather all import documentation, clear personal belongings, and ensure DVLA records match your chassis before scheduling specialist diagnostics and replacement.",
+          "keyPoints": [
+            "Compile NOVA approval and original import paperwork",
+            "Drain fluids and remove underbody protection panels",
+            "Confirm exact engine code via DVLA or VIN plate",
+            "Arrange drop-off at MoT-approved specialist garage"
+          ],
+          "cta": "Start your Nissan Kicks engine replacement preparation today"
+        }
+      ],
+      "headingLines": [
+        "Nissan Kicks Engine Replacement",
+        "Frequently Asked Questions"
+      ],
+      "defaultOpenIndex": 0,
+      "ui": {
+        "questionLabelPrefix": "Question",
+        "keyPointsLabel": "Key points",
+        "warningTitle": "Check fitment and engine condition before ordering"
+      }
+    },
+    "trustCta": {
+      "tag": "Why Choose Us",
+      "h2": "Why UK Nissan Kicks Owners Trust EngineMarket",
+      "intro": "Join thousands of UK drivers who compare Nissan Kicks engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.",
+      "points": [
+        {
+          "title": "Trusted Nissan Kicks Engine Suppliers",
+          "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Kicks owners."
+        },
+        {
+          "title": "Compare Nissan Kicks Engine Replacement Companies",
+          "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."
+        },
+        {
+          "title": "UK Engine Replacement Services for Nissan Kicks",
+          "description": "Covering every variant from entry S to e-POWER AWD, with supply-only or full supply & fit available nationwide."
+        }
+      ],
+      "finalText": "Find the best Nissan Kicks engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.",
+      "buttonText": "Compare Nissan Kicks Engine Prices Now →",
+      "secondaryAction": {
+        "text": "Call Our Experts",
+        "href": "tel:03330000044"
+      },
+      "imageAlt": "Nissan Kicks vehicle",
+      "ui": {
+        "pointLabel": "Included",
+        "stripLabel": "Trusted UK Engine Marketplace",
+        "stripTitle": "Compare Nissan Kicks engine prices with vetted UK specialists",
+        "trustBullets": [
+          "100% Free",
+          "No Obligation",
+          "Fast & secure process",
+          "UK-based support"
+        ],
+        "imageBadgeLabel": "Trusted supplier network",
+        "imageBadgeTitle": "Warranty-backed rebuilt & used options",
+        "imageBadgeText": "Every quote checked for fitment, quality and lead time."
+      }
+    }
+  }
+}

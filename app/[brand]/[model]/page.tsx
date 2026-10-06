@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
 import AutoInternalLinks from "@/components/internal-links/AutoInternalLinks";
-import DocumentEnginePage from "@/components/pages/DocumentEnginePage";
 import DocumentModelPage from "@/components/pages/DocumentModelPage";
-import { getEnginePageData, getEnginePageStaticParams } from "@/lib/enginePageData";
+import NewDocModelPage from "@/components/pages/NewDocModelPage";
+import NewDocEnginePage from "@/components/pages/NewDocEnginePage";
+import {
+  getEnginePageData,
+  getEnginePageStaticParams,
+} from "@/lib/enginePageData";
 import { getInternalLinkPlan } from "@/lib/internalLinkIndex";
-import { getModelPageData, getModelPageStaticParams } from "@/lib/modelPageData";
+import {
+  getModelPageData,
+  getModelPageStaticParams,
+} from "@/lib/modelPageData";
 import { SITE_URL } from "@/lib/site";
 import { notFound, permanentRedirect } from "next/navigation";
 
@@ -34,6 +41,10 @@ export async function generateMetadata({
     return {
       title: enginePageData.seo.title,
       description: enginePageData.seo.description,
+      robots: {
+        index: true,
+        follow: true,
+      },
       alternates: {
         canonical: enginePageData.seo.canonical,
       },
@@ -50,6 +61,10 @@ export async function generateMetadata({
   return {
     title: pageData.seo.title,
     description: pageData.seo.description,
+    robots: {
+      index: true,
+      follow: true,
+    },
     alternates: {
       canonical: pageData.seo.canonical,
     },
@@ -62,8 +77,13 @@ export default async function ModelPage({ params }: ModelPageProps) {
   const enginePageData = await getEnginePageData(brand, model);
 
   if (enginePageData) {
-    if (brand !== enginePageData.brand.slug || model !== enginePageData.engine.slug) {
-      permanentRedirect(`/${enginePageData.brand.slug}/${enginePageData.engine.slug}`);
+    if (
+      brand !== enginePageData.brand.slug ||
+      model !== enginePageData.engine.slug
+    ) {
+      permanentRedirect(
+        `/${enginePageData.brand.slug}/${enginePageData.engine.slug}`,
+      );
     }
 
     const internalLinkPlan = await getInternalLinkPlan({
@@ -81,7 +101,15 @@ export default async function ModelPage({ params }: ModelPageProps) {
           maxLinksPerPage={internalLinkPlan.maxLinksPerPage}
           maxLinksPerTarget={internalLinkPlan.defaultMaxLinksPerTarget}
         />
-        <DocumentEnginePage data={enginePageData} />
+        {enginePageData.structuredData ? (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(enginePageData.structuredData),
+            }}
+          />
+        ) : null}
+        <NewDocEnginePage data={enginePageData} />
       </>
     );
   }
@@ -111,7 +139,7 @@ export default async function ModelPage({ params }: ModelPageProps) {
         maxLinksPerPage={internalLinkPlan.maxLinksPerPage}
         maxLinksPerTarget={internalLinkPlan.defaultMaxLinksPerTarget}
       />
-      <DocumentModelPage data={pageData} />
+      <NewDocModelPage data={pageData} />
     </>
   );
 }

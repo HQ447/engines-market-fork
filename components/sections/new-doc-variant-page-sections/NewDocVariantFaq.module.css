@@ -1,0 +1,338 @@
+.section {
+  position: relative;
+  overflow: hidden;
+  padding: 23px 0px;
+  background:
+    radial-gradient(
+      circle at 83% 4%,
+      rgba(75, 161, 218, 0.14),
+      transparent 26%
+    ),
+    linear-gradient(180deg, #f8fcff, #edf6fc);
+}
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(330px, 0.65fr);
+  gap: 22px;
+  align-items: center;
+  min-height: 220px;
+}
+.introCopy {
+  position: relative;
+  z-index: 2;
+}
+.introCopy h2 span {
+  display: block;
+}
+.description {
+  max-width: 750px;
+  margin: 12px 0 0;
+  color: #315579;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.55;
+}
+.introVisual {
+  position: relative;
+  min-height: 210px;
+}
+.introVisual::before {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  width: 95%;
+  height: 62px;
+  border-radius: 50%;
+  background: rgba(49, 133, 190, 0.18);
+  filter: blur(22px);
+  content: "";
+}
+.introVisual img {
+  position: absolute;
+  right: 1%;
+  bottom: -28px;
+  width: min(95%, 620px);
+  height: auto;
+  filter: drop-shadow(0 19px 22px rgba(14, 51, 80, 0.24));
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+  align-items: start;
+}
+.card {
+  overflow: hidden;
+  border: 1px solid #d8e7f2;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 12px 27px rgba(20, 62, 98, 0.08);
+}
+.question {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 42px minmax(0, 1fr) 30px;
+  gap: 12px;
+  align-items: center;
+  padding: 16px;
+  border: 0;
+  background: transparent;
+  color: #0b3158;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 750;
+  line-height: 1.25;
+  text-align: left;
+}
+.number {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 50%;
+  background: #082f55;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+}
+.toggle {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e7f1f7;
+  color: #174c74;
+}
+.toggle svg {
+  width: 16px;
+  height: 16px;
+}
+.answerWrap {
+  display: grid;
+  visibility: hidden;
+  grid-template-rows: 0fr;
+  transition:
+    grid-template-rows 0.28s ease,
+    visibility 0s linear 0.28s;
+}
+.open .answerWrap {
+  visibility: visible;
+  grid-template-rows: 1fr;
+  transition-delay: 0s;
+}
+.answerOverflow {
+  min-height: 0;
+  overflow: hidden;
+}
+.answer {
+  padding: 0 16px 16px;
+  border-top: 1px solid transparent;
+}
+.open .answer {
+  border-top-color: #e1edf5;
+  padding-top: 14px;
+}
+.answerText {
+  margin: 0;
+  color: #294d6d;
+  font-size: 15px;
+  line-height: 1.55;
+  width: 100%;
+}
+
+.answerIcon svg {
+  width: 32px;
+  height: 32px;
+}
+.answerLead p {
+  margin: 0;
+  color: #294d6d;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.55;
+}
+.detailStrip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-top: 14px;
+  border: 1px solid #deebf3;
+  border-radius: 8px;
+  background: #deebf3;
+}
+.detailStrip.twoColumns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.detailStrip div {
+  padding: 11px 13px;
+  background: linear-gradient(135deg, #f2f9fd, #edf7f4);
+}
+.detailStrip strong,
+.detailStrip b,
+.detailStrip span {
+  display: block;
+}
+.detailStrip strong {
+  color: #173f63;
+  font-size: 14px;
+  font-weight: 750;
+}
+.detailStrip b {
+  margin-top: 4px;
+  color: #008d50;
+  font-size: 16px;
+  font-weight: 800;
+}
+.detailStrip span {
+  margin-top: 3px;
+  color: #4b6982;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+.bullets {
+  display: grid;
+  gap: 7px;
+  margin: 14px 0 0;
+  padding: 11px 13px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f0f8fc, #edf7f4);
+  list-style: none;
+}
+.bullets li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: #294e6d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.38;
+}
+.bullets svg {
+  flex: 0 0 auto;
+  width: 17px;
+  height: 17px;
+  margin-top: 1px;
+  padding: 2px;
+  border-radius: 50%;
+  background: #d7f3e4;
+  color: #008c4f;
+}
+.cardCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 13px;
+  color: #087852;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.35;
+  text-decoration: none;
+}
+.cardCta svg {
+  flex: 0 0 auto;
+}
+@media (max-width: 820px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 0.5fr);
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .introVisual img {
+    right: -8%;
+    width: 112%;
+  }
+}
+@media (max-width: 620px) {
+  .section {
+    padding: 30px 0 32px;
+  }
+
+  .description,
+  .answerLead p,
+  .detailStrip strong,
+  .detailStrip b,
+  .detailStrip span,
+  .bullets li,
+  .cardCta {
+    font-size: 14px;
+  }
+
+  /* 1. Make the intro container the relative anchor */
+  .intro {
+    position: relative;
+    grid-template-columns: 1fr;
+    gap: 0;
+    min-height: auto;
+  }
+
+  .introCopy {
+    position: relative;
+    z-index: 2; /* Keeps heading and paragraph sharp on top */
+  }
+
+  /* 2. Position the car image absolutely behind the text */
+  .introVisual {
+    position: absolute;
+    inset: 0;
+    min-height: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .introVisual::before {
+    display: none; /* Removes the bottom shadow circle */
+  }
+
+  .introVisual img {
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    width: min(80%, 300px);
+    height: auto;
+    opacity: 0.22; /* Soft opacity so the text remains completely readable */
+    filter: none;
+  }
+  .grid {
+    margin-top: 14px;
+    gap: 12px;
+  }
+  .question {
+    grid-template-columns: 36px minmax(0, 1fr) 28px;
+    gap: 9px;
+    padding: 14px 12px;
+    font-size: 14px;
+  }
+  .number {
+    width: 31px;
+    height: 31px;
+    font-size: 13px;
+  }
+  .answer {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .answerText {
+    margin: 0;
+    color: #294d6d;
+    font-size: 14px;
+    line-height: 1.55;
+    width: 100%;
+  }
+  .answerIcon {
+    width: 44px;
+    height: 44px;
+  }
+  .answerIcon svg {
+    width: 25px;
+    height: 25px;
+  }
+  .detailStrip,
+  .detailStrip.twoColumns {
+    grid-template-columns: 1fr;
+  }
+}

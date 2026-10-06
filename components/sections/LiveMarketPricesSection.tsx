@@ -14,6 +14,7 @@ type Props = {
   displayMode?: "brand" | "document";
   initialTimestamp?: string;
   mobileHeadingOverride?: string;
+  newDesignMode?: boolean;
 };
 
 type FeedRow = LiveMarketPriceEntry & {
@@ -235,6 +236,7 @@ export default function LiveMarketPricesSection({
   displayMode = "brand",
   initialTimestamp,
   mobileHeadingOverride,
+  newDesignMode = false,
 }: Props) {
   const [clock, setClock] = useState(() => new Date(initialTimestamp ?? "2025-01-01T12:00:00.000Z"));
   const [activeTab, setActiveTab] = useState("all");
@@ -420,21 +422,26 @@ export default function LiveMarketPricesSection({
   const feedScrollClass = isDocumentMode
     ? "max-h-[440px] overflow-y-auto [scrollbar-width:thin] [scrollbar-color:rgba(103,199,255,0.4)_transparent] [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#67c7ff]/50 [&::-webkit-scrollbar-thumb]:hover:bg-[#67c7ff]/75 lg:max-h-[740px] lg:flex-1"
     : "max-h-[440px] overflow-y-auto lg:max-h-none lg:flex-1";
+  const documentContainerClass = newDesignMode
+    ? "max-w-7xl !px-4 sm:!px-6 lg:!px-8"
+    : "max-w-[1400px] px-0 sm:px-0 lg:px-0";
+  const headingClass = newDesignMode
+    ? "max-w-[760px] font-['Manrope'] !text-[34px] font-extrabold leading-[1.04] tracking-[-0.04em] text-[#0d1b2e] lg:!text-[40px] lg:leading-[1.04]"
+    : "max-w-[700px] font-['Manrope'] text-[26px] font-extrabold leading-[1.18] tracking-[-0.4px] text-[#0d1b2e] md:text-[30px] md:tracking-[-0.7px] lg:text-[43px] lg:leading-[1.06] lg:tracking-[-1px]";
 
   return (
-    <Section className="bg-[#f8f9fa]">
-      <Container className={isDocumentMode ? "max-w-[1400px] px-0 sm:px-0 lg:px-0" : "!max-w-[1240px]"}>
-        <div className="section-pill mb-[14px]">
-          <span className="h-[7px] w-[7px] animate-pulse rounded-full bg-[#15803d]" />
+    <Section className={newDesignMode ? "bg-[#f2f8fe] py-9 sm:py-10 lg:py-12" : "bg-[#f8f9fa]"}>
+      <Container className={isDocumentMode ? documentContainerClass : "!max-w-[1240px]"}>
+        <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-[#1289d5]/40 bg-[#06244d]/95 px-3.5 py-1.5 text-[14px] font-bold uppercase text-[white] shadow-[0_0_20px_rgba(26,145,232,0.25)] sm:mb-5 sm:text-[13px]">
           <span>{data.tag}</span>
         </div>
 
         {mobileHeadingOverride ? (
           <>
-            <h2 className="max-w-[700px] font-['Manrope'] text-[26px] font-extrabold leading-[1.18] tracking-[-0.4px] text-[#0d1b2e] sm:hidden">
+            <h2 className={`${headingClass} sm:hidden`}>
               {renderHeadingWithAccent(mobileHeadingOverride)}
             </h2>
-            <h2 className="hidden max-w-[700px] font-['Manrope'] text-[26px] font-extrabold leading-[1.18] tracking-[-0.4px] text-[#0d1b2e] sm:block md:text-[30px] md:tracking-[-0.7px] lg:text-[43px] lg:leading-[1.06] lg:tracking-[-1px]">
+            <h2 className={`hidden ${headingClass} sm:block`}>
               {headingLines.map((line, index) => {
                 const isAccent = headingLines.length > 1 && index === headingLines.length - 1;
                 return (
@@ -446,7 +453,7 @@ export default function LiveMarketPricesSection({
             </h2>
           </>
         ) : (
-          <h2 className="max-w-[700px] font-['Manrope'] text-[26px] font-extrabold leading-[1.18] tracking-[-0.4px] text-[#0d1b2e] md:text-[30px] md:tracking-[-0.7px] lg:text-[43px] lg:leading-[1.06] lg:tracking-[-1px]">
+          <h2 className={headingClass}>
             {headingLines.map((line, index) => {
               const isAccent = headingLines.length > 1 && index === headingLines.length - 1;
               return (

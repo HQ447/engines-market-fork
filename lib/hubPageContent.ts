@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import type { Metadata } from "next";
+import { normalizeCanonical, SITE_URL } from "@/lib/site";
 
 type HubPageContent = {
   title: string;
@@ -191,5 +192,8 @@ export function getHubPageMetadata(slug: string): Metadata {
   return {
     title: page.title,
     description: page.description,
+    alternates: {
+      canonical: normalizeCanonical(`${SITE_URL}/${slug}`),
+    },
   };
 }

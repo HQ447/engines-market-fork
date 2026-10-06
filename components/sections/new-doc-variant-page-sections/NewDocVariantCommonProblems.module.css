@@ -1,0 +1,641 @@
+.section {
+  padding: 0;
+  background: linear-gradient(180deg, #f7fcff, #edf7fd);
+}
+
+.header {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 24px;
+  background: #f7fcff;
+}
+
+.header::before {
+  position: absolute;
+  top: -25px;
+  bottom: -25px;
+  right: 0;
+  width: 70%;
+  background: var(--problem-bg) right center / contain no-repeat;
+  content: "";
+  opacity: 0.82;
+  -webkit-mask-image: radial-gradient(
+    ellipse 90% 75% at 92% 50%,
+    black 35%,
+    rgba(0, 0, 0, 0.7) 65%,
+    transparent 96%
+  );
+  mask-image: radial-gradient(
+    ellipse 90% 75% at 92% 50%,
+    black 35%,
+    rgba(0, 0, 0, 0.7) 65%,
+    transparent 96%
+  );
+}
+
+.header::after {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      180deg,
+      #f7fcff 0%,
+      transparent 22%,
+      transparent 78%,
+      #f7fcff 100%
+    ),
+    linear-gradient(
+      90deg,
+      #f7fcff 0%,
+      #f7fcff 42%,
+      rgba(247, 252, 255, 0.58) 68%,
+      rgba(247, 252, 255, 0.12) 100%
+    );
+  content: "";
+  pointer-events: none;
+}
+
+.headerInner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.56fr);
+  align-items: center;
+}
+
+.eyebrow {
+  margin-bottom: 10px;
+}
+
+.headerTitle {
+  max-width: 790px;
+}
+
+.headerDescription {
+  max-width: 770px;
+}
+
+.vehicleVisual {
+  position: relative;
+  min-height: 260px;
+}
+
+.valueCheck {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 43px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  margin-top: -22px;
+  padding: 15px 17px;
+  border: 1px solid rgba(73, 162, 225, 0.34);
+  border-radius: 12px;
+  background: linear-gradient(
+    130deg,
+    rgba(228, 246, 255, 0.88),
+    rgba(246, 252, 255, 0.82)
+  );
+  box-shadow:
+    0 11px 23px rgba(35, 90, 129, 0.12),
+    inset 0 1px rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(12px);
+}
+
+.valueCheck > svg {
+  width: 31px;
+  height: 31px;
+  padding: 5px;
+  border-radius: 9px;
+  background: #097fbe;
+  color: #e9fbff;
+}
+
+.valueCheck strong {
+  display: block;
+  color: #0e416d;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.valueCheck p {
+  margin: 4px 0 0;
+  color: #365e82;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 19px;
+}
+
+.controls p {
+  margin: 0;
+  color: #244e75;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.controls div {
+  display: flex;
+  gap: 8px;
+}
+
+.controls button {
+  display: grid;
+  width: 37px;
+  height: 37px;
+  place-items: center;
+  border: 1px solid #b9dff5;
+  border-radius: 8px;
+  background: #fff;
+  color: #116399;
+  cursor: pointer;
+}
+
+.controls button:disabled {
+  cursor: not-allowed;
+  opacity: 0.38;
+}
+
+.controls svg {
+  width: 18px;
+  height: 18px;
+}
+
+.viewport {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.track {
+  display: flex;
+  gap: 14px;
+  align-items: stretch;
+  transition: transform 0.35s ease;
+}
+
+.failureCard {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 calc((100% - 28px) / 3);
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid #d8e7f3;
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 14px 26px rgba(26, 72, 111, 0.09);
+}
+
+.cardHeading {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.problemIcon {
+  display: grid;
+  width: 39px;
+  height: 39px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid #9fe2ff;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #e7faff, #b9eaff);
+  font-size: 1.33rem;
+  line-height: 1;
+  box-shadow: 0 5px 11px rgba(23, 145, 205, 0.15);
+}
+
+.cardHeading h3 {
+  margin: 0;
+  color: #082d52;
+  font-size: 1.2rem;
+  font-weight: 750;
+  line-height: 1.13;
+}
+
+.facts {
+  display: grid;
+  gap: 7px;
+  margin: 12px 0 0;
+}
+
+.facts div {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 8px;
+}
+
+.facts dt {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  color: #0f3f6b;
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.28;
+}
+
+.facts dt svg {
+  width: 14px;
+  height: 14px;
+  color: #1288c9;
+}
+
+.facts dd {
+  margin: 0;
+  color: #294c6b;
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.rootCause {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 7px;
+  align-items: start;
+  margin-top: 12px;
+}
+
+.rootCause > svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  color: #188bc8;
+}
+
+.expandableCopy {
+  min-width: 0;
+  color: #203f5b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42;
+}
+
+.expandableCopy strong {
+  display: block;
+  margin-bottom: 3px;
+  color: #103d66;
+  font-weight: 750;
+}
+
+.textContainer {
+  position: relative;
+}
+
+.clickableText {
+  cursor: pointer;
+}
+
+/* Corner chevron on line 3 (No dots) */
+.cornerToggle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2px 0 16px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.95) 45%,
+    #ffffff 100%
+  );
+  color: #087fbe;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.cornerToggle svg,
+.inlineToggle svg {
+  width: 15px;
+  height: 15px;
+}
+
+/* Sits on the same line at the end of text when expanded */
+.inlineToggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  color: #087fbe;
+  vertical-align: middle;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.repairTable {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.repairTable > p {
+  margin: 0 0 6px;
+  color: #133e66;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+.repairTable table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid #dceaf5;
+  border-radius: 7px;
+  font-size: 0.76rem;
+  table-layout: fixed;
+}
+
+.repairTable th {
+  padding: 7px 5px;
+  background: #edf6fc;
+  color: #1a456c;
+  font-weight: 750;
+  line-height: 1.15;
+  text-align: left;
+}
+
+.repairTable td {
+  padding: 7px 5px;
+  border-top: 1px solid #e1edf6;
+  color: #274965;
+  font-weight: 400;
+  line-height: 1.25;
+  vertical-align: top;
+}
+
+.repairTable th:first-child,
+.repairTable td:first-child {
+  width: 47%;
+}
+
+.repairTable th:not(:first-child),
+.repairTable td:not(:first-child) {
+  width: 26.5%;
+}
+
+.repairTable td:last-child {
+  color: #00894d;
+  font-weight: 750;
+}
+
+/* 1. margin-top: auto pushes recommendation flush to the bottom across all cards */
+.recommendation {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-top: auto;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border: 1px solid #b9ddf4;
+  border-radius: 8px;
+  background: #f2faff;
+}
+
+.recommendation svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  color: #148cd0;
+}
+
+/* 2. Allows recommendation text to clamp and calculate width correctly in flexbox */
+.recommendation .expandableCopy {
+  flex: 1;
+  min-width: 0;
+}
+
+.recommendation .cornerToggle {
+  background: linear-gradient(
+    90deg,
+    rgba(242, 250, 255, 0) 0%,
+    rgba(242, 250, 255, 0.95) 45%,
+    #f2faff 100%
+  );
+}
+
+/* 3. Docks directly beneath the recommendation box */
+.failureCard > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 40px;
+  margin-top: 0;
+  padding: 8px;
+  border: 1px solid #1db271;
+  border-radius: 7px;
+  color: #00894d;
+  font-size: 0.84rem;
+  font-weight: 750;
+  line-height: 1.18;
+  text-align: center;
+  text-decoration: none;
+}
+
+.failureCard > a svg {
+  width: 15px;
+  height: 15px;
+}
+
+.closingCta {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-top: 26px;
+  padding: 26px 0;
+  background: #04182c;
+  color: #fff;
+}
+
+.closingCta::before {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: var(--problem-bg) center 58% / cover no-repeat;
+  content: "";
+  opacity: 0.22;
+  filter: saturate(0.75) contrast(1.08);
+}
+
+.closingCta::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 18, 34, 0.97) 0%,
+    rgba(3, 25, 46, 0.92) 58%,
+    rgba(3, 28, 51, 0.72) 100%
+  );
+  content: "";
+}
+
+.closingCtaInner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(290px, 0.43fr);
+  gap: 28px;
+  align-items: center;
+}
+
+.closingCta h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.closingCta p {
+  max-width: 820px;
+  margin: 10px 0 0;
+  color: #d8e8f6;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+.closingCta a {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  background: linear-gradient(110deg, #008b4c, #08b965);
+  box-shadow: 0 12px 24px rgba(0, 144, 78, 0.22);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+}
+
+.closingCta a svg {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 980px) {
+  .headerInner {
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 0.5fr);
+  }
+  .failureCard {
+    flex-basis: calc((100% - 14px) / 2);
+  }
+}
+
+@media (max-width: 660px) {
+  .section {
+    padding-bottom: 0;
+  }
+  .header::before {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0.7;
+    background-position: center right;
+    background-size: contain;
+    -webkit-mask-image: radial-gradient(
+      ellipse 95% 75% at center right,
+      black 40%,
+      transparent 100%
+    );
+    mask-image: radial-gradient(
+      ellipse 95% 75% at center right,
+      black 40%,
+      transparent 100%
+    );
+  }
+  .header::after {
+    background:
+      linear-gradient(
+        180deg,
+        #f7fcff 0%,
+        transparent 15%,
+        transparent 85%,
+        #f7fcff 100%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(247, 252, 255, 0.85) 0%,
+        rgba(247, 252, 255, 0.6) 100%
+      );
+  }
+  .headerInner {
+    grid-template-columns: 1fr;
+  }
+  .vehicleVisual {
+    display: none;
+  }
+  .header {
+    padding: 26px 0 18px;
+  }
+  .valueCheck {
+    grid-template-columns: 34px minmax(0, 1fr);
+    margin-top: -4px;
+    padding: 13px;
+  }
+  .valueCheck > svg {
+    width: 29px;
+    height: 29px;
+  }
+  .valueCheck strong,
+  .valueCheck p {
+    font-size: 14px;
+  }
+  .controls p {
+    font-size: 14px;
+  }
+  .failureCard {
+    flex-basis: 100%;
+    min-height: auto;
+    padding: 14px;
+  }
+  .facts dt,
+  .facts dd {
+    font-size: 14px;
+  }
+  .expandableCopy {
+    font-size: 14px;
+  }
+  .repairTable table {
+    font-size: 13px;
+  }
+  .closingCta {
+    margin-top: 22px;
+    padding: 24px 0;
+  }
+  .closingCtaInner {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .closingCta h3 {
+    font-size: 22px;
+  }
+  .closingCta p,
+  .closingCta a {
+    font-size: 14px;
+  }
+  .closingCta a {
+    width: 100%;
+  }
+  .repairTable {
+    margin-bottom: 5px;
+  }
+}

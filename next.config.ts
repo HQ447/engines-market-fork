@@ -1,13 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Large brand/model/engine SSG set — default 60s page timeout kills late pages (e.g. /seat/*).
+  staticPageGenerationTimeout: 180,
+  experimental: {
+    // Fewer concurrent pages per worker reduces thrashing on large JSON-heavy routes.
+    staticGenerationMaxConcurrency: 2,
+    staticGenerationRetryCount: 3,
+  },
   images: {
     unoptimized: true,
   },
   async headers() {
     return [
       {
-        source: "/",
+        source: "/:path*",
         headers: [
           {
             key: "X-Robots-Tag",
@@ -20,6 +27,14 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return {
       beforeFiles: [
+        {
+          source: "/static-nav.css-v=:version",
+          destination: "/static-nav.css",
+        },
+        {
+          source: "/static-nav.js-v=:version",
+          destination: "/static-nav.js",
+        },
         {
           source: "/about",
           destination: "/about/about-us.html",

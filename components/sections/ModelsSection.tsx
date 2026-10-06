@@ -299,7 +299,7 @@ export default function ModelsSection({ data, brandSlug, documentMode = false }:
                       src={model.image || `/images/brands/${brandSlug}/models/${brandSlug}-${model.slug}-small.webp`}
                       alt={model.h3}
                       fill
-                      className="scale-[1.04] object-cover object-center"
+                      className="object-contain object-center p-[3px]"
                       sizes="(max-width: 767px) 50vw, 25vw"
                     />
                   </div>
@@ -363,7 +363,7 @@ export default function ModelsSection({ data, brandSlug, documentMode = false }:
 >
   {/* CLICKABLE IMAGE */}
   <Link href={modelHref} className="block w-full">
-    <div className="relative h-[105px] w-full overflow-hidden">
+    <div className="relative h-[118px] w-full overflow-hidden bg-[linear-gradient(180deg,#f8fbff_0%,#eef3f9_100%)]">
       <Image
         src={
           model.image ||
@@ -371,7 +371,7 @@ export default function ModelsSection({ data, brandSlug, documentMode = false }:
         }
         alt={model.h3}
         fill
-        className="object-contain scale-[1.25]"
+        className="object-contain object-center p-[6px]"
         sizes="20vw"
       />
     </div>

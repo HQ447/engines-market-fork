@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "title": "Engine Replacement Options",
+      "links": [
+        { "label": "Replacement Engines", "href": "/services/replacement-engines" },
+        { "label": "Used Engines", "href": "/services/used-engines" },
+        { "label": "Reconditioned Engines", "href": "/services/reconditioned-engines" },
+        { "label": "Rebuilt Engines", "href": "/services/rebuilt-engines" },
+        { "label": "Remanufactured Engines", "href": "/services/remanufactured-engines" }
+      ],
+      "viewAll": { "label": "All Services", "href": "/services" }
+    },
+    {
+      "title": "Engine Services",
+      "links": [
+        { "label": "Supply And Fit", "href": "/services/supply-and-fit" },
+        { "label": "Engine Fitting", "href": "/services/engine-fitting" },
+        { "label": "Engine Repair", "href": "/services/engine-repair" },
+        { "label": "Engine Diagnostic", "href": "/services/engine-diagnostic" },
+        { "label": "Engine Inspection", "href": "/services/engine-inspection" },
+        { "label": "Engine Inspection Service", "href": "/services/engine-inspection-service" },
+        { "label": "Vehicle Recovery", "href": "/services/vehicle-recovery" }
+      ]
+    },
+    {
+      "title": "Gearbox Services",
+      "links": [
+        { "label": "Gearbox Replacement", "href": "/services/gearbox-replacement" },
+        { "label": "Automatic Gearbox Replacement", "href": "/services/gearbox-replacement/automatic" },
+        { "label": "Manual Gearbox Replacement", "href": "/services/gearbox-replacement/manual" }
+      ]
+    }
+  ]
+}

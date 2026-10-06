@@ -12,6 +12,7 @@ type Props = {
   flush?: boolean;
   variantLayout?: boolean;
   compactSpacing?: boolean;
+  newDesignMode?: boolean;
 };
 
 function ArrowIcon() {
@@ -148,6 +149,7 @@ export default function HowItWorksSection({
   flush = false,
   variantLayout = false,
   compactSpacing = false,
+  newDesignMode = false,
 }: Props) {
   const [activeStep, setActiveStep] = useState<number | null>(null);
   const headingLines = data.headingLines?.length ? data.headingLines : splitHeading(data.h2);
@@ -180,12 +182,12 @@ export default function HowItWorksSection({
   return (
     <Section
       id={sectionId}
-      className={`relative overflow-hidden bg-[#f7f8fb] ${
+      className={`relative overflow-hidden ${newDesignMode ? "bg-white" : "bg-[#f7f8fb]"} ${
         flush
           ? "!px-0 !py-[2px]"
           : compactSpacing
             ? "px-2 pb-5 pt-3 sm:pb-6 sm:pt-5 lg:pb-7 lg:pt-6"
-            : "px-2 pb-7 pt-4 sm:py-8 lg:py-10"
+            : newDesignMode ? "px-2 py-9 sm:py-10 lg:py-12" : "px-2 pb-7 pt-4 sm:py-8 lg:py-10"
       }`}
     >
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -204,21 +206,21 @@ export default function HowItWorksSection({
         className={
           flush
             ? "relative max-w-[1400px] !px-0 sm:!px-0 lg:!px-0"
-            : `relative max-w-[1400px] ${variantLayout ? "px-4 sm:px-5 lg:px-6" : ""}`
+            : `relative max-w-7xl ${newDesignMode ? "!px-4 sm:!px-6 lg:!px-8" : variantLayout ? "px-4 sm:px-5 lg:px-6" : ""}`
         }
       >
         <div className="mx-auto lg:mx-0">
-          <div className="section-pill mb-[14px]">
+          <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-[#1289d5]/40 bg-[#06244d]/95 px-3.5 py-1.5 text-[14px] font-bold uppercase text-[white] shadow-[0_0_20px_rgba(26,145,232,0.25)] sm:mb-5 sm:text-[13px]">
             <span>{normalizeCopy(data.tag)}</span>
           </div>
 
-          <h2 className="max-w-[850px] font-['Manrope'] text-[27px] font-extrabold leading-[1.12] tracking-[-0.5px] text-[#0d1b2e] lg:text-[44px] lg:leading-[1.03] lg:tracking-[-1px]">
+          <h2 className={`max-w-[850px] font-['Manrope'] font-extrabold text-[#0d1b2e] ${newDesignMode ? "!text-[34px] leading-[1.04] tracking-[-0.04em] lg:!text-[40px] lg:leading-[1.04] lg:tracking-[-0.04em]" : "text-[27px] leading-[1.12] tracking-[-0.5px] lg:text-[44px] lg:leading-[1.03] lg:tracking-[-1px]"}`}>
             {headingLines.map((line, index) => {
               const isAccent = headingLines.length > 1 && index === headingLines.length - 1;
               return (
                 <span
                   key={`${line}-${index}`}
-                  className={`block ${isAccent ? "lg:text-[#15803d]" : ""} ${index > 0 ? "mt-1 text-[21px] leading-[1.15] lg:text-[34px]" : ""}`}
+                  className={`block ${isAccent ? "lg:text-[#15803d]" : ""} ${index > 0 ? newDesignMode ? "mt-1 text-[34px] leading-[1.04] lg:text-[40px]" : "mt-1 text-[21px] leading-[1.15] lg:text-[34px]" : ""}`}
                 >
                   <span className="lg:hidden">{renderMobileHeadingLine(line, index, isAccent)}</span>
                   <span className="hidden lg:inline">{renderMobileHeadingLine(line, index, isAccent)}</span>
