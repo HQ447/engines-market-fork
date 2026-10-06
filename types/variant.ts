@@ -169,6 +169,16 @@ export type VariantPageData = {
     heroBg: string;
     howItWorksBg: string;
     ctaImage?: string;
+    newDocImages?: {
+      heroBackground?: string;
+      vehicle?: string;
+      brandLogo?: string;
+      commonProblemsVehicle?: string;
+      usedEngine?: string;
+      reconditionedEngine?: string;
+      rebuiltEngine?: string;
+      heroEngine?: string;
+    };
   };
   structuredData?: Record<string, unknown>;
   sections: {

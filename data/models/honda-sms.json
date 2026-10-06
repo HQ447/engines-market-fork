@@ -1,1 +1,1330 @@
-{"brand": {"name": "Honda", "slug": "honda", "tone": "premium"}, "model": {"name": "Honda SMS", "slug": "sms", "legacySlug": "SMS"}, "seo": {"title": "Honda SMS Engine Replacement - Compare Prices UK", "description": "Honda SMS engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £2,500. 12-month warranty & UK supply fit specialists.", "canonical": "/honda/sms"}, "assets": {"mainImage": "/images/brands/honda/models/honda-smx-model-card.png", "smallImage": "/images/brands/honda/models/honda-smx-model-card.png", "heroBg": "/images/brands/honda/models/honda-smx-model-card.png", "howItWorksBg": "/images/brands/honda/brand/honda-how-it-works-bg.webp", "engineCodesBg": "/images/brands/honda/brand/honda-engine-codes-bg.webp", "engineTypesBg": "/images/brands/honda/brand/honda-engine-types-bg.webp", "engineSizesBg": "/images/brands/honda/brand/honda-engine-sizes-bg.webp", "fuelTypesBg": "/images/brands/honda/brand/honda-fuel-types-bg.webp", "ctaImage": "/images/brands/honda/models/honda-smx-model-card.png"}, "sections": {"hero": {"tag": "HONDA SMS ENGINE MARKETPLACE", "h1": "Honda SMS Engine Replacement - Compare Prices & Save", "subheading": "Get quotes today from trusted UK Honda SMS engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available.", "trustBadges": ["Supply & Fit Available", "12-Month Warranty", "Nationwide Delivery", "100+ Suppliers"], "ctaLinkText": "Get Free Honda SMS Engine Quotes →", "supportingText": "Get tailored Honda SMS engine quotes from vetted UK specialists.", "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network", "form": {"heading": "Find Your Honda SMS Engine", "subtitle": "Enter your registration number to compare Honda SMS engine options.", "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)", "buttonText": "Get Free Honda SMS Engine Quotes →", "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Honda SMS specialists."}, "imageAlt": "Honda SMS engine replacement UK - compare reconditioned and rebuilt engine prices", "highlights": [{"title": "SMS 2.0L F20C Engines", "price": "from £2,500 to £4,200", "line1": "SMS 2.0L F20C Engines - from £2,500 to £4,200", "line2": "-> Rebuilt units from £2,500 · Common codes: F20C, F20C1, F20C6", "detail": "-> Rebuilt units from £2,500 · Common codes: F20C, F20C1, F20C6", "image": "", "imageAlt": "Honda SMS F20C engine replacement - F20C F20C1 rebuilt reconditioned UK"}, {"title": "SMS 2.2L F22C Engines", "price": "from £2,800 to £4,800", "line1": "SMS 2.2L F22C Engines - from £2,800 to £4,800", "line2": "-> Rebuilt units from £2,800 · Common codes: F22C1, F22C2", "detail": "-> Rebuilt units from £2,800 · Common codes: F22C1, F22C2", "image": "", "imageAlt": "Honda SMS F22C engine replacement - F22C1 F22C2 rebuilt reconditioned UK"}, {"title": "SMS AP1 High-Rev F20C Engines", "price": "from £3,200 to £5,000", "line1": "SMS AP1 High-Rev F20C Engines - from £3,200 to £5,000", "line2": "-> Rebuilt units from £3,200 · Common codes: F20C, F20C6 (AP1 1999-2003)", "detail": "-> Rebuilt units from £3,200 · Common codes: F20C, F20C6 (AP1 1999-2003)", "image": "", "imageAlt": "Honda SMS AP1 F20C engine replacement - high-rev F20C rebuilt reconditioned UK specialist"}], "headingLines": ["Honda SMS Engine Replacement", "Compare Prices & Save"], "mobileBar": {"brandText": "ENGINEMARKET", "callLabel": "Call", "quoteLabel": "GET QUOTES"}, "registrationInput": {"label": "Enter your vehicle registration", "platePlaceholder": "AB12 CDE", "countryCode": "UK", "countryLabel": "United Kingdom"}}, "howItWorks": {"tag": "How It Works", "h2": "3 Simple Steps to Finding the Best Honda SMS Replacement Engine", "cards": [{"number": 1, "icon": "registration", "front": {"h3": "Enter Your Honda SMS Registration", "text": "Instantly verify your exact model, engine code and fuel type via DVLA - Base to Final Edition."}, "back": {"heading": "Your Car, Precisely Identified", "text": "Engines Market uses the official DVLA database to pull accurate details about your SMS, not just model name.", "bullets": ["Your Precise Model - from Base, Type S, GT Edition to Final Edition", "Your Engine Code - F20C, F22C1, F20C6 and more", "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly", "No paperwork, no guesswork, 100% free."]}}], "tagline": "", "headingLines": ["3 Simple Steps", "to Finding the Best Honda SMS Replacement Engine"], "ui": {"stepLabel": "Step", "desktopClosedLabel": "Click to expand", "desktopOpenLabel": "Click to view details", "mobileOpenLabel": "Tap to flip", "mobileCloseLabel": "Tap to flip back", "footerNote": "Most replacements completed within 3-5 days.", "mobileTrustItems": ["12-Month Warranty", "Supply & Fit Available", "Nationwide Delivery", "Trusted UK Suppliers"]}}, "liveMarketPrices": {"tag": "Live UK Engine Market Data", "h2": "What Are UK Drivers Paying for Honda SMS Engine Replacement-", "h3": "The table below shows typical UK rebuilt engine costs across Honda SMS variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.", "introBullets": [{"label": "Live market context", "text": "See realistic rebuilt-engine quote ranges across documented Honda SMS variants."}, {"label": "Variant specific", "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."}, {"label": "Specialist pricing", "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."}, {"label": "Quote benchmark", "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."}], "cta": {"heading": "Benchmark your own Honda SMS quote", "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Honda SMS engine code.", "buttonText": "Compare My Honda SMS Engine", "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."}, "badges": ["6 recent enquiries visible", "Typical rebuilt market ranges", "Engine-code matched rows", "UK specialist network"], "feed": {"isDynamic": false, "rowsCount": 6, "columns": ["Year", "Model", "Engine Code", "Fuel", "Avg. Quoted Price", "Reported Issue"], "timestampLabel": "Last Updated", "refreshLabel": "Refresh feed", "density": "premium", "visibleRows": 6, "entries": [{"Year": "1999-2003", "Model": "Honda SMS (AP1) 2.0L F20C", "Engine Code": "F20C", "Fuel": "Petrol 2.0L", "Avg. Quoted Price": "£2,500-£4,200", "Reported Issue": "Timing chain tensioner wear"}, {"Year": "2000-2003", "Model": "Honda SMS (AP1) 2.0L F20C Type S", "Engine Code": "F20C1", "Fuel": "Petrol 2.0L", "Avg. Quoted Price": "£2,600-£4,300", "Reported Issue": "Oil starvation banjo bolt"}, {"Year": "2002-2003", "Model": "Honda SMS (AP1) 2.0L F20C GT Edition", "Engine Code": "F20C6", "Fuel": "Petrol 2.0L", "Avg. Quoted Price": "£2,700-£4,500", "Reported Issue": "Valve guide wear high-mileage"}, {"Year": "2004-2009", "Model": "Honda SMS (AP2) 2.2L F22C", "Engine Code": "F22C1", "Fuel": "Petrol 2.2L", "Avg. Quoted Price": "£2,800-£4,800", "Reported Issue": "VTEC solenoid failure"}, {"Year": "2005-2009", "Model": "Honda SMS (AP2) 2.2L F22C Type S", "Engine Code": "F22C1", "Fuel": "Petrol 2.2L", "Avg. Quoted Price": "£2,900-£4,900", "Reported Issue": "Oil pump pickup screen clog"}, {"Year": "2008-2009", "Model": "Honda SMS (AP2) 2.2L F22C Final Edition", "Engine Code": "F22C2", "Fuel": "Petrol 2.2L", "Avg. Quoted Price": "£3,200-£5,000", "Reported Issue": "Timing chain guide wear"}]}, "headingLines": ["What Are UK Drivers Paying for Honda SMS Engine Replacement-"], "imageAlt": "Honda SMS replacement engines UK - reconditioned engines for Civic FK, CR-V RW, CR-V RE and Accord CU models with L15B 1.5 VTEC Turbo engine prices from £1,800-£3,200, N22B 2.2 i-DTEC from £1,500-£2,800 and K20Z4 2.0 i-VTEC from £1,500-£3,000", "filterTabs": [{"key": "all", "label": "All", "matchers": []}, {"key": "honda-sms-base-engine", "label": "Honda SMS Base", "matchers": ["honda sms base", "honda sms base engine"]}, {"key": "honda-sms-type-s-engine", "label": "Honda SMS Type S", "matchers": ["honda sms type s", "honda sms type s engine"]}, {"key": "honda-sms-gt-edition-engine", "label": "Honda SMS GT Edition", "matchers": ["honda sms gt edition", "honda sms gt edition engine"]}, {"key": "honda-sms-ap2-base-engine", "label": "Honda SMS AP2 Base", "matchers": ["honda sms ap2 base", "honda sms ap2 base engine"]}, {"key": "honda-sms-ap2-type-s-engine", "label": "Honda SMS AP2 Type S", "matchers": ["honda sms ap2 type s", "honda sms ap2 type s engine"]}, {"key": "honda-sms-final-edition-engine", "label": "Honda SMS Final Edition", "matchers": ["honda sms final edition", "honda sms final edition engine"]}], "ui": {"showingSingleLabel": "entry", "showingPluralLabel": "entries", "acrossAllLabel": "across all models", "noEntriesLabel": "No entries match that model filter yet.", "updatedLabel": "Last updated:", "ctaLabel": "Live Quote Benchmark"}, "imageSrc": "/images/brand-wcu/Honda-engines-replacement-UK.webp"}, "reviews": {"tag": "Customer Reviews", "h2": "Trusted by Honda SMS Owners Across the UK", "rating": {"value": 4.8, "count": 0, "summary": "", "basedOn": ""}, "reviews": [], "leaveReviewCta": {"text": "", "linkText": "Leave a review ->"}}, "variantCoverage": {"tag": "Models We Cover", "h2": "Honda SMS Engine Replacement - All Variants Covered", "subheading": "From the economical Base to the high-performance Final Edition, compare rebuilt, reconditioned and used engine prices from our network of UK Honda SMS engine specialists - typical price range for a rebuilt unit with 12-month warranty, supply & fit available nationwide.", "groups": [], "cards": [{"h3": "Honda SMS Base Engine Replacement", "slug": "honda-sms-base-engine", "subtitle": "F20C 2.0L Petrol ? 240hp ? 1999-2003", "priceRange": "£2,500-£4,200", "cta": "Compare Base Engine Prices", "engineCodes": ["F20C"], "fuel": "Petrol", "power": "240hp", "years": "1999-2003", "image": ""}, {"h3": "Honda SMS Type S Engine Replacement", "slug": "honda-sms-type-s-engine", "subtitle": "F20C1 2.0L Petrol ? 240hp ? 2000-2003", "priceRange": "£2,600-£4,300", "cta": "Compare Type S Engine Prices", "engineCodes": ["F20C1"], "fuel": "Petrol", "power": "240hp", "years": "2000-2003", "image": ""}, {"h3": "Honda SMS GT Edition Engine Replacement", "slug": "honda-sms-gt-edition-engine", "subtitle": "F20C6 2.0L Petrol ? 240hp ? 2002-2003", "priceRange": "£2,700-£4,500", "cta": "Compare GT Edition Engine Prices", "engineCodes": ["F20C6"], "fuel": "Petrol", "power": "240hp", "years": "2002-2003", "image": ""}, {"h3": "Honda SMS AP2 Base Engine Replacement", "slug": "honda-sms-ap2-base-engine", "subtitle": "F22C1 2.2L Petrol ? 240hp ? 2004-2007", "priceRange": "£2,800-£4,800", "cta": "Compare AP2 Base Engine Prices", "engineCodes": ["F22C1"], "fuel": "Petrol", "power": "240hp", "years": "2004-2007", "image": ""}, {"h3": "Honda SMS AP2 Type S Engine Replacement", "slug": "honda-sms-ap2-type-s-engine", "subtitle": "F22C1 2.2L Petrol ? 240hp ? 2005-2009", "priceRange": "£2,900-£4,900", "cta": "Compare AP2 Type S Engine Prices", "engineCodes": ["F22C1"], "fuel": "Petrol", "power": "240hp", "years": "2005-2009", "image": ""}, {"h3": "Honda SMS Final Edition Engine Replacement", "slug": "honda-sms-final-edition-engine", "subtitle": "F22C2 2.2L Petrol ? 240hp ? 2008-2009", "priceRange": "£3,200-£5,000", "cta": "Compare Final Edition Engine Prices", "engineCodes": ["F22C2"], "fuel": "Petrol", "power": "240hp", "years": "2008-2009", "image": ""}], "directory": {"h3": "All Honda SMS Variants - Engine Replacement Coverage", "intro": "A full alphabetical listing of every Honda SMS trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.", "groups": [{"title": "Petrol Variants", "items": ["Base", "Club Racer", "Final Edition", "GT Edition", "Type S"]}], "label": "Variant Directory"}, "closing": "Not sure which variant your Honda SMS is- Enter your registration number above - we'll identify the exact sub-model, engine code and compatible replacement options instantly.", "engineGuide": {"tag": "Engine Codes", "h2": "Honda SMS Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Honda SMS across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "families": [{"name": "Petrol Engines", "entries": [{"code": "F20C", "title": "2.0L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "history": "The F20C defined the AP1 SMS with its 9,000rpm redline and VTEC crossover at 6,000rpm.", "fuel": "Petrol", "size": "2.0 Litre", "power": "237-240 hp", "years": "1999-2003", "compatibleVariants": ["Base, Type S, GT Edition"], "commonFailures": ["Timing chain tensioner wear (60k-90k miles)", "Oil starvation from banjo bolt screen clog", "Valve guide wear on high-mileage units"], "avgRebuiltPrice": "£2,500 - £4,200", "cta": "Get quotes for F20C Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "F20C1", "title": "2.0L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "history": "Revised F20C with minor internal updates for improved reliability in later AP1 models.", "fuel": "Petrol", "size": "2.0 Litre", "power": "237-240 hp", "years": "2000-2003", "compatibleVariants": ["Type S, GT Edition"], "commonFailures": ["Timing chain tensioner wear (60k-90k miles)", "VTEC solenoid clogging", "Oil pump pickup screen restriction"], "avgRebuiltPrice": "£2,600 - £4,300", "cta": "Get quotes for F20C1 Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "F20C6", "title": "2.0L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "history": "Final AP1 F20C variant with refined internals, fitted to limited-run GT Edition models.", "fuel": "Petrol", "size": "2.0 Litre", "power": "240 hp", "years": "2002-2003", "compatibleVariants": ["GT Edition"], "commonFailures": ["Valve guide wear (80k+ miles)", "Timing chain guide deterioration", "Oil consumption on high-rev use"], "avgRebuiltPrice": "£2,700 - £4,500", "cta": "Get quotes for F20C6 Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "F22C1", "title": "2.2L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "history": "The AP2's F22C increased displacement for broader torque while retaining the SMS's high-rev character.", "fuel": "Petrol", "size": "2.2 Litre", "power": "237-240 hp", "years": "2004-2009", "compatibleVariants": ["Base, Type S"], "commonFailures": ["VTEC solenoid failure (70k-100k miles)", "Oil pump pickup screen clog", "Timing chain guide wear"], "avgRebuiltPrice": "£2,800 - £4,800", "cta": "Get quotes for F22C1 Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "F22C2", "title": "2.2L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "history": "Final evolution F22C fitted to the limited-run Final Edition SMS with refined components.", "fuel": "Petrol", "size": "2.2 Litre", "power": "240 hp", "years": "2008-2009", "compatibleVariants": ["Final Edition"], "commonFailures": ["Timing chain guide wear (80k+ miles)", "VTEC system oil pressure sensitivity", "Valve stem seal wear on high-mileage units"], "avgRebuiltPrice": "£3,200 - £5,000", "cta": "Get quotes for F22C2 Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}], "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Honda SMS specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."}, "headingLines": ["Honda SMS Engine Replacement", "All Variants Covered"], "ui": {"fromPriceLabel": "from price", "specsLabel": "Specs", "rebuiltLabel": "Rebuilt", "yearsLabel": "Years", "yearsFallback": "Check exact year coverage by registration"}}, "engineCodes": {"tag": "Engine Codes", "h2": "Honda SMS Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Honda SMS across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "closingLine": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Honda SMS specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.", "filters": ["Petrol Engines"], "groups": [{"name": "Petrol Engines", "era": "Extracted from detailed petrol and performance engine families across Honda SMS variants.", "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.", "engines": [{"code": "F20C", "title": "2.0L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "fuel": "Petrol", "size": "2.0L", "power": "237-240 hp", "compatibleModels": "Base, Type S, GT Edition", "avgRebuiltPrice": "£2,500 - £4,200", "cta": "Get quotes for F20C Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "F20C1", "title": "2.0L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "fuel": "Petrol", "size": "2.0L", "power": "237-240 hp", "compatibleModels": "Type S, GT Edition", "avgRebuiltPrice": "£2,600 - £4,300", "cta": "Get quotes for F20C1 Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "F20C6", "title": "2.0L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "fuel": "Petrol", "size": "2.0L", "power": "240 hp", "compatibleModels": "GT Edition", "avgRebuiltPrice": "£2,700 - £4,500", "cta": "Get quotes for F20C6 Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "F22C1", "title": "2.2L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "fuel": "Petrol", "size": "2.2L", "power": "237-240 hp", "compatibleModels": "Base, Type S", "avgRebuiltPrice": "£2,800 - £4,800", "cta": "Get quotes for F22C1 Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "F22C2", "title": "2.2L Petrol", "familyHeading": "F-Series High-Rev Engines (1999-2009)", "fuel": "Petrol", "size": "2.2L", "power": "240 hp", "compatibleModels": "Final Edition", "avgRebuiltPrice": "£3,200 - £5,000", "cta": "Get quotes for F22C2 Honda SMS engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}], "headingLines": ["Honda SMS Engine Codes", "Full Technical Specifications & Replacement Guide"], "closingAction": {"title": "Can't find your engine code-", "buttonText": "Enter Your Reg"}, "ui": {"summaryPriceLabel": "Avg. rebuilt price", "exampleImageLabel": "Example engine visual", "historyLabel": "Engine History", "variantsLabel": "Compatible Honda SMS variants", "specsTitle": "Technical Specifications", "fuelLabel": "Fuel type", "sizeLabel": "Engine size", "powerLabel": "Power output", "yearsLabel": "Years fitted", "failuresTitle": "Common Failures", "supplyLabel": "Supply only"}}, "commonProblems": {"tag": "Common Problems", "h2": "Honda SMS Engine Problems - What It Costs to Fix & When Replacement Makes Sense", "h3": "The Honda SMS's F20C and F22C engines are renowned for reliability, but timing chain tensioners, oil starvation risks and VTEC system issues dominate replacement enquiries. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty.", "problems": [{"group": "Timing Chain Tensioner Failure", "h4": "Timing Chain Tensioner Failure - Why AP1 SMS Engines Rattle on Startup", "affectedModels": "Honda SMS Base, Type S, GT Edition (1999-2003, F20C & F20C1)", "typicalFailureMileage": "60,000-90,000 miles", "rootCause": "Hydraulic tensioner loses pressure over time, allowing chain slack and guide wear.", "repairOptions": [{"tier": "Minor - Preventative Tensioner Replacement", "dealerPrice": "£800 - £1,400", "specialistPrice": "£500 - £900", "whatItInvolves": "Replace tensioner, guides, inspect chain", "longevity": "Viable if caught before guide damage; 40k-60k mile extension"}, {"tier": "Intermediate - Chain & Guide Replacement", "dealerPrice": "£1,800 - £3,200", "specialistPrice": "£1,200 - £2,100", "whatItInvolves": "Full timing set replacement, oil pump inspection", "longevity": "Addresses wear but not underlying oiling issues; 50k-80k miles"}, {"tier": "Full Replacement - Rebuilt F20C Engine", "dealerPrice": "£2,500 - £4,200", "specialistPrice": "£2,500 - £4,200", "whatItInvolves": "Supply & fit rebuilt unit with upgraded tensioner, bench tested, 12-month warranty", "longevity": "Best value for engines with guide damage or high mileage; like-new reliability"}], "recommendation": "If your SMS has under 70k miles and only exhibits cold-start rattle, a preventative tensioner replacement from a specialist offers excellent value. For engines over 80k miles or with confirmed guide damage, a rebuilt F20C with upgraded components is the more reliable long-term solution.", "cta": "Compare rebuilt F20C engine prices for your Honda SMS"}, {"group": "Oil Starvation Risk", "h4": "Oil Starvation Risk - AP1 Banjo Bolt Screen Clogging", "affectedModels": "Honda SMS Base, Type S (1999-2003, F20C)", "typicalFailureMileage": "70,000-110,000 miles", "rootCause": "Oil pump pickup banjo bolt screen clogs with debris, restricting flow to VTEC and timing components.", "repairOptions": [{"tier": "Minor - Banjo Bolt Screen Clean", "dealerPrice": "£300 - £600", "specialistPrice": "£180 - £400", "whatItInvolves": "Remove, clean screen, replace crush washer, oil change", "longevity": "Preventative only; does not reverse existing damage"}, {"tier": "Full Replacement - Rebuilt F20C with Upgraded Oiling", "dealerPrice": "£2,500 - £4,200", "specialistPrice": "£2,500 - £4,200", "whatItInvolves": "Rebuilt engine with modified oiling passages, upgraded pump, warranty", "longevity": "Addresses root cause; recommended for high-rev or track-use SMSs"}], "recommendation": "There is no reliable intermediate fix for confirmed oil starvation damage. If your SMS shows VTEC engagement issues or timing noise after 80k miles, budget for a rebuilt F20C with upgraded oiling components - it's more cost-effective than repeated repairs.", "cta": "Get quotes for F20C engine with upgraded oiling system"}, {"group": "VTEC Solenoid Failure", "h4": "VTEC Solenoid Failure - AP2 SMS Power Loss", "affectedModels": "Honda SMS Base, Type S, Final Edition (2004-2009, F22C1 & F22C2)", "typicalFailureMileage": "70,000-100,000 miles", "rootCause": "VTEC solenoid screen clogs or coil fails, preventing high-lift cam engagement.", "repairOptions": [{"tier": "Minor - Solenoid Clean/Replace", "dealerPrice": "£400 - £750", "specialistPrice": "£250 - £500", "whatItInvolves": "Clean screen or replace solenoid assembly, reset ECU", "longevity": "Effective if caught early; 30k-50k mile solution"}, {"tier": "Full Replacement - Rebuilt F22C with VTEC Upgrade", "dealerPrice": "£2,800 - £4,800", "specialistPrice": "£2,800 - £4,800", "whatItInvolves": "Rebuilt engine with upgraded VTEC components, pressure-tested, warranty", "longevity": "Best for engines with repeated VTEC faults or high mileage"}], "recommendation": "A single VTEC fault on an AP2 SMS is often resolved with solenoid cleaning. However, repeated failures indicate deeper oiling issues - at that point, a rebuilt F22C with upgraded VTEC components offers better long-term value.", "cta": "Compare F22C engine prices with VTEC system upgrade"}, {"group": "Valve Guide Wear", "h4": "Valve Guide Wear - High-Mileage SMS Oil Consumption", "affectedModels": "Honda SMS GT Edition, Final Edition (2002-2009, F20C6 & F22C2)", "typicalFailureMileage": "90,000-130,000 miles", "rootCause": "Valve guides wear from high-rev operation, causing oil consumption and reduced compression.", "repairOptions": [{"tier": "Intermediate - Valve Guide Replacement", "dealerPrice": "£1,500 - £2,800", "specialistPrice": "£900 - £1,900", "whatItInvolves": "Remove head, replace guides, reseat valves, machine work", "longevity": "Viable if block and pistons are sound; 40k-60k mile extension"}, {"tier": "Full Replacement - Rebuilt F20C/F22C", "dealerPrice": "£2,700 - £5,000", "specialistPrice": "£2,700 - £5,000", "whatItInvolves": "Complete rebuilt engine with upgraded guides, pistons, warranty", "longevity": "Recommended for engines over 100k miles or with compression loss"}], "recommendation": "Valve guide work is labour-intensive and only worthwhile if the rest of the engine is in excellent condition. For most high-mileage SMSs, a rebuilt engine with upgraded components is the more reliable and cost-effective solution.", "cta": "Get quotes for rebuilt Honda SMS engine with upgraded valve guides"}], "finalCta": {"h4": "Don't Let Engine Failure Write Off Your Honda SMS", "paragraph": "The SMS's high-rev F20C and F22C engines are engineering marvels, but known failure points can lead to costly repairs. EngineMarket makes it simple to compare prices from trusted UK Honda SMS specialists who supply rebuilt engines with upgraded components addressing these specific issues. Every unit includes a minimum 12-month unlimited mileage warranty and nationwide delivery. Compare prices today and keep your SMS on the road without the main dealer premium.", "buttonText": "Compare Honda SMS Engine Replacement Prices Now →", "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket's UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Honda SMS and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."}}, "engineTypes": {"tag": "Replacement Engine Options", "h2": "Honda SMS Engine Types - Options, Costs & What to Expect", "intro": "Every Honda SMS engine type is available through our UK network with typical price ranges based on variant, engine code and budget.", "types": [{"title": "Honda SMS Reconditioned Engines (Recon)", "description": "Professionally cleaned, inspected and resealed F20C/F22C units with worn parts replaced.", "frontDescription": "Professionally cleaned, inspected and resealed F20C/F22C units with worn parts replaced.", "frontDisclaimer": "Mileage-dependent; warranty varies by supplier.", "backDescription": "Reconditioned SMS engines are cleaned, inspected and have worn components replaced. Ideal for lower-mileage failures.", "backBullets": ["Includes new gaskets, seals and basic wear items", "F20C/F22C codes verified via DVLA match", "12-month warranty standard across our network"], "priceRange": "£2,500 - £4,200 (supply only)", "cta": "Compare reconditioned Honda SMS engine prices"}, {"title": "Honda SMS Rebuilt Engines", "description": "Fully disassembled F20C/F22C engines with machined components and upgraded internals where needed.", "frontDescription": "Fully disassembled F20C/F22C engines with machined components and upgraded internals where needed.", "frontDisclaimer": "Price reflects specification and upgrades selected.", "backDescription": "Rebuilt SMS engines receive full machining, new bearings, pistons or valves as required. Best for high-mileage or failed units.", "backBullets": ["Upgraded timing components address known AP1/AP2 issues", "Bench-tested before dispatch with compression report", "12-month unlimited mileage warranty included"], "priceRange": "£2,800 - £4,800 (supply only)", "cta": "Get rebuilt Honda SMS engine quotes"}, {"title": "Honda SMS Used Engines", "description": "Low-mileage donor F20C/F22C engines removed from written-off or parted SMSs, tested before sale.", "frontDescription": "Low-mileage donor F20C/F22C engines removed from written-off or parted SMSs, tested before sale.", "frontDisclaimer": "Mileage and condition vary; inspection recommended.", "backDescription": "Used SMS engines offer budget replacement when sourced from reputable breakers with compression and leak-down verification.", "backBullets": ["DVLA-verified donor vehicle history available", "F20C/F22C codes matched to your registration", "3-6 month warranty typical across supplier network"], "priceRange": "£1,800 - £3,200 (supply only)", "cta": "Check used Honda SMS engine availability"}, {"title": "Honda SMS Remanufactured Engines", "description": "Factory-spec F20C/F22C rebuilds to original tolerances using OEM or equivalent components throughout.", "frontDescription": "Factory-spec F20C/F22C rebuilds to original tolerances using OEM or equivalent components throughout.", "frontDisclaimer": "Premium option; lead time varies by specification.", "backDescription": "Remanufactured SMS engines are rebuilt to factory specifications with OEM-grade components. Ideal for concours or long-term ownership.", "backBullets": ["All components machined or replaced to Honda tolerances", "Dyno-tested before dispatch with performance report", "12-24 month warranty available from specialist suppliers"], "priceRange": "£3,200 - £5,000 (supply only)", "cta": "Compare remanufactured Honda SMS engine costs"}, {"title": "Honda SMS Refurbished Engines", "description": "Partial rebuilds addressing specific failures like timing components or VTEC systems on otherwise sound F20C/F22C units.", "frontDescription": "Partial rebuilds addressing specific failures like timing components or VTEC systems on otherwise sound F20C/F22C units.", "frontDisclaimer": "Scope varies; confirm included components with supplier.", "backDescription": "Refurbished SMS engines target known failure points while retaining sound core components. Cost-effective for isolated issues.", "backBullets": ["Timing set, VTEC solenoid or oil pump upgrades available", "Compression-tested and leak-down verified pre-dispatch", "6-12 month warranty typical depending on work scope"], "priceRange": "£2,200 - £3,800 (supply only)", "cta": "View refurbished Honda SMS engine options"}, {"title": "Honda SMS Supply & Fit Engines", "description": "Complete engine replacement service including removal, fitment, fluids and initial run-in by UK Honda SMS specialists.", "frontDescription": "Complete engine replacement service including removal, fitment, fluids and initial run-in by UK Honda SMS specialists.", "frontDisclaimer": "Labour cost varies by location and vehicle condition.", "backDescription": "Supply & fit services handle the entire Honda SMS engine replacement process, from removal to post-installation testing and ECU adaptation.", "backBullets": ["Includes ECU reset, VTEC adaptation and road test", "Specialist knowledge of AP1/AP2 mounting and wiring", "Nationwide network with mobile fitting options available"], "priceRange": "£800 - £1,500 added to engine price", "cta": "Find Honda SMS engine supply & fit deals"}], "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Honda SMS within hours.", "headingLines": ["Honda SMS Engine Types", "Options, Costs & What to Expect"], "ui": {"priceLabel": "Typical price range", "frontActionLabel": "What is it-", "backActionLabel": "Flip back"}, "closingCard": {"label": "Engine Replacement Help", "title": "Compare Honda SMS engine prices with vetted UK suppliers", "buttonText": "Compare Honda SMS Prices"}}, "engineSizes": {"tag": "Engine Sizes", "h2": "Honda SMS Engines by Size - Find the Right Displacement for Your Variant", "intro": "Every displacement fitted to the Honda SMS is listed below with compatible engine codes, production years and common failure notes to help you identify the correct replacement.", "groups": [{"title": "Honda SMS Petrol Engine Sizes", "items": [{"title": "Honda SMS 2.0L Petrol Engines", "description": "The 2.0L F20C powered the AP1 SMS (1999-2003), renowned for its 9,000rpm redline and VTEC crossover at 6,000rpm. This high-revving unit defined the SMS's character and remains highly sought after for replacement and restoration projects.", "engineCodes": ["F20C", "F20C1", "F20C6"], "compatibleModels": ["Base (1999-2003)", "Type S (2000-2003)", "GT Edition"], "productionYears": "2002-2003", "commonFailurePoints": ["Timing chain tensioner wear", "oil starvation from banjo bolt screen clog", "valve guide wear on high-mileage units"], "cta": "Get quotes for Honda SMS 2.0L petrol engines"}, {"title": "Honda SMS 2.2L Petrol Engines", "description": "The 2.2L F22C arrived with the AP2 facelift (2004-2009), increasing displacement for broader mid-range torque while retaining the SMS's high-rev DNA. Slightly more forgiving on oiling demands but shares VTEC system sensitivities.", "engineCodes": ["F22C1", "F22C2"], "compatibleModels": ["Base (2004-2007)", "Type S (2005-2009)", "Final Edition"], "productionYears": "2008-2009", "commonFailurePoints": ["VTEC solenoid failure", "oil pump pickup screen clog", "timing chain guide wear"], "cta": "Compare Honda SMS 2.2L petrol engine prices"}]}], "closing": "Not sure which engine size your Honda SMS needs- Enter your registration number above - we'll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Honda SMS specialists.", "headingLines": ["Honda SMS Engines by Size", "Find the Right Displacement for Your Variant"], "ui": {"swapLabel": "Swap panel", "engineCodesLabel": "Engine Code(s)", "compatibleModelsLabel": "Compatible Models (UK)", "productionYearsLabel": "Production Years", "warningLabel": "Common Failure Points", "warningTitle": "Watch for these known weak points", "helperLabel": "Engine Size Advice", "helperTitle": "Need help matching the exact engine size-", "helperButtonText": "Find My Engine"}}, "fuelTypes": {"tag": "Honda SMS Engines Fuel Type", "h2": "Honda SMS Engines by Fuel Type", "intro": "Choose your Honda SMS engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early AP1 F20C to the final AP2 F22C units.", "items": [{"title": "Honda SMS Petrol Engines", "description": "All Honda SMS models were petrol-only, featuring high-revving naturally aspirated F20C (2.0L) and F22C (2.2L) engines with VTEC.", "descriptor": "All Honda SMS models were petrol-only, featuring high-revving naturally aspirated F20C (2.0L) and F22C (2.2L) engines with VTEC.", "familiesLabel": "Common Honda SMS Petrol Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Petrol Models", "notesLabel": "", "families": ["F20C - AP1 2.0L (1999-2003), 9,000rpm redline, timing chain tensioner sensitivity", "F22C1 - AP2 2.2L (2004-2009), broader torque curve, VTEC solenoid considerations", "F22C2 - Final Edition 2.2L (2008-2009), refined internals, limited availability"], "foundIn": ["AP1 Generation (1999-2003) - F20C, F20C1, F20C6", "AP2 Generation (2004-2009) - F22C1, F22C2"], "knownFor": ["Exceptional high-rev character and VTEC engagement", "Timing chain tensioner wear on AP1 units (60k-90k miles)", "Oil starvation risk from banjo bolt screen clogging", "Strong aftermarket support and specialist rebuild knowledge"], "typicalModels": ["Base", "Type S", "GT Edition", "Final Edition"], "importantNotes": [], "cta": "Compare Honda SMS Petrol engine prices"}], "closing": "Not sure which fuel type your Honda SMS has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Honda SMS specialists.", "headingLines": ["Honda SMS Engines by Fuel Type"], "ui": {"swapLabel": "Swap panel", "familiesLabel": "Common Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Models (UK)", "notesLabel": "Important Notes", "closingButtonText": "Find my engine", "emptyStateTitle": "Fuel type guidance", "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."}}, "engineYears": {"tag": "Engine Years", "h2": "Honda SMS Engines by Year - What Was Fitted & When", "intro": "This section covers all major engine changes across the Honda SMS's production timeline (1999-2009), organised so owners can quickly identify their engine and compare rebuilt engine prices from UK specialists.", "jumpLabel": "Jump to model year", "years": [{"year": "1999 - 2003", "preview": "AP1 Launch: F20C High-Rev Debut", "description": "The AP1 SMS launched with the groundbreaking F20C 2.0L engine, setting new standards for naturally aspirated performance.", "keyChanges": ["Honda SMS production begins with AP1 chassis", "F20C 2.0L engine debuts with 9,000rpm redline and VTEC crossover at 6,000rpm", "Base and Type S variants introduced in UK market", "GT Edition limited run added for 2002-2003"], "mainEngines": ["F20C - 2.0L petrol (Base / Type S)", "F20C1 - 2.0L petrol (Type S, revised internals)", "F20C6 - 2.0L petrol (GT Edition, final AP1 spec)"], "popularModels": ["Honda SMS Base", "Honda SMS Type S", "Honda SMS GT Edition"], "knownFor": ["World's highest-revving production engine at launch", "Timing chain tensioner wear emerges as common AP1 issue", "Oil starvation risk from banjo bolt screen clogging", "Strong enthusiast following and aftermarket support"], "engineCodesCovered": ["F20C", "F20C1", "F20C6"], "cta": "Get quotes for 1999-2003 Honda SMS replacement engines", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "Honda SMS F20C timing chain replacement • AP1 oil starvation fix • SMS engine rebuild cost UK", "enquiries": ["Honda SMS F20C timing chain replacement", "AP1 oil starvation fix", "SMS engine rebuild cost UK"]}, {"year": "2004 - 2009", "preview": "AP2 Facelift: F22C Displacement Increase", "description": "The AP2 update introduced the larger 2.2L F22C engine for broader torque while retaining the SMS's high-rev character.", "keyChanges": ["AP2 chassis update with revised styling and interior", "F22C 2.2L engine replaces F20C, redline reduced to 8,200rpm", "Final Edition variant launched for 2008-2009 production end", "Minor reliability refinements to oiling and VTEC systems"], "mainEngines": ["F22C1 - 2.2L petrol (Base / Type S)", "F22C2 - 2.2L petrol (Final Edition, refined spec)"], "popularModels": ["Honda SMS AP2 Base", "Honda SMS AP2 Type S", "Honda SMS Final Edition"], "knownFor": ["Broader torque curve improves daily drivability", "VTEC solenoid failures more common than AP1 timing issues", "Oil pump pickup screen clogging remains a consideration", "Final Edition models command premium in replacement market"], "engineCodesCovered": ["F22C1", "F22C2"], "cta": "Compare Honda SMS 2004-2009 engine prices", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "Honda SMS F22C VTEC solenoid • AP2 engine replacement cost • SMS Final Edition engine availability", "enquiries": ["Honda SMS F22C VTEC solenoid", "AP2 engine replacement cost", "SMS Final Edition engine availability"]}], "closing": "Not sure which year your Honda SMS was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Honda SMS specialists.", "headingLines": ["Honda SMS Engines by Year", "What Was Fitted & When"], "ui": {"keyChangesLabel": "Key Changes", "knownForLabel": "Known For", "mainEnginesLabel": "Main Engines", "popularModelsLabel": "Popular Models", "engineCodesLabel": "Engine Codes Covered", "enquiriesLabel": "Common Replacement Enquiries"}, "summaryCta": {"label": "Year Finder", "title": "Not sure which year your Honda SMS was built-", "buttonText": "Find My Engine"}}, "faq": {"tag": "FAQ", "h2": "Honda SMS Engine Replacement - Frequently Asked Questions", "intro": "", "items": [{"question": "Is the Honda SMS F20C engine reliable-", "answer": "The F20C is fundamentally robust but has known failure points. With proper maintenance, many exceed 150k miles. Timing chain tensioners and oiling system care are critical for longevity.", "keyPoints": ["F20C engines often reach 150k+ miles with proper maintenance", "Timing chain tensioner replacement recommended at 60k-80k miles", "Regular oil changes with correct viscosity prevent starvation issues", "VTEC system requires clean oil to function reliably"], "cta": "Compare rebuilt F20C engine prices for your Honda SMS"}, {"question": "What causes Honda SMS oil starvation problems-", "answer": "Oil starvation in AP1 SMSs typically stems from the oil pump pickup banjo bolt screen clogging with debris, restricting flow to critical components like VTEC and timing chains.", "keyPoints": ["Banjo bolt screen clogs with carbon and metal particles over time", "Restricted oil flow affects VTEC engagement and chain tensioners", "Symptoms include VTEC not engaging or timing rattle on startup", "Prevention: frequent oil changes, quality filters, screen inspection"], "cta": "Get quotes for F20C engine with upgraded oiling system"}, {"question": "How much does a Honda SMS engine replacement cost in the UK-", "answer": "Rebuilt Honda SMS engines typically cost £2,500-£5,000 supply-only, depending on engine code, variant and specification. Supply & fit adds £800-£1,500 labour.", "keyPoints": ["F20C rebuilt units: £2,500-£4,200 typical range", "F22C rebuilt units: £2,800-£5,000 typical range", "Final Edition and low-mileage units command premium pricing", "Supply & fit labour adds £800-£1,500 depending on location"], "cta": "Compare Honda SMS engine replacement prices from UK specialists"}, {"question": "Should I repair or replace a failed Honda SMS engine-", "answer": "For engines under 70k miles with isolated issues, repair may be viable. For high-mileage units or multiple failures, a rebuilt engine with upgraded components offers better long-term value.", "keyPoints": ["Minor repairs viable only if block and internals are sound", "Rebuilt engines include warranty and address known failure points", "Labour costs for complex repairs often approach rebuild pricing", "Consider vehicle value and intended use in decision-making"], "cta": "Get tailored quotes for your Honda SMS engine situation"}, {"question": "What is the difference between F20C and F22C Honda SMS engines-", "answer": "The F20C is a 2.0L unit with 9,000rpm redline for AP1 models; the F22C is 2.2L with 8,200rpm redline for AP2, offering broader torque with similar peak power.", "keyPoints": ["F20C: 1,997cc, 9,000rpm redline, AP1 models (1999-2003)", "F22C: 2,157cc, 8,200rpm redline, AP2 models (2004-2009)", "Both produce ~240hp but F22C has stronger mid-range torque", "F22C has slightly revised oiling and VTEC components"], "cta": "Compare F20C vs F22C engine prices for your Honda SMS"}, {"question": "Can I upgrade my Honda SMS engine for more power-", "answer": "Yes, common upgrades include supercharger kits, high-compression pistons, and camshaft changes. However, ensure the base engine is sound before investing in performance modifications.", "keyPoints": ["Supercharger kits add 100-150hp with proper supporting mods", "High-compression pistons and cams improve naturally aspirated output", "Upgraded oiling and cooling are essential for any power increase", "Rebuilt engines can be spec'd with performance components from the start"], "cta": "Enquire about performance-spec rebuilt Honda SMS engines"}, {"question": "How do I know which Honda SMS engine code I have-", "answer": "Your engine code is stamped on the block and can be verified instantly by entering your registration number. F20C variants powered AP1 models; F22C variants powered AP2 models.", "keyPoints": ["Engine code stamped on block near cylinder head", "DVLA lookup via registration confirms exact specification", "AP1 models (1999-2003) use F20C, F20C1 or F20C6", "AP2 models (2004-2009) use F22C1 or F22C2"], "cta": "Verify your Honda SMS engine code instantly via registration"}, {"question": "Are used Honda SMS engines a good option-", "answer": "Used engines can offer budget replacement if sourced from reputable breakers with compression and leak-down verification. Always request donor vehicle history and warranty terms.", "keyPoints": ["Used F20C/F22C engines typically £1,800-£3,200 supply-only", "Request compression test results and leak-down verification", "Confirm donor vehicle mileage and service history", "3-6 month warranty typical; longer warranties indicate confidence"], "cta": "Check used Honda SMS engine availability with verification"}, {"question": "What warranty comes with rebuilt Honda SMS engines-", "answer": "Engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK specialists. Terms vary by supplier - always confirm exact coverage before purchase.", "keyPoints": ["Minimum 12-month unlimited mileage warranty standard", "Some suppliers offer 24-month options at premium pricing", "Warranty covers parts and labour for manufacturing defects", "Proper installation and break-in procedures required for validity"], "cta": "Compare warranty terms for Honda SMS rebuilt engines"}, {"question": "How quickly can I get a Honda SMS replacement engine-", "answer": "Most rebuilt Honda SMS engines are available within 3-7 working days from UK specialists. Supply & fit services can complete installation within 1-2 days of engine receipt.", "keyPoints": ["Rebuilt engines typically ready in 3-7 working days", "Used engines may be available immediately from stock", "Supply & fit installation usually completed in 1-2 days", "Nationwide delivery available from most UK specialists"], "cta": "Get urgent quotes for Honda SMS engine replacement"}], "headingLines": ["Honda SMS Engine Replacement", "Frequently Asked Questions"], "defaultOpenIndex": 0, "ui": {"questionLabelPrefix": "Question", "keyPointsLabel": "Key points", "warningTitle": "Check fitment and engine condition before ordering"}}, "trustCta": {"tag": "Why Choose Us", "h2": "Why UK Honda SMS Owners Trust EngineMarket", "intro": "Join thousands of UK drivers who compare Honda SMS engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.", "points": [{"title": "Trusted Honda SMS Engine Suppliers", "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Honda SMS owners."}, {"title": "Compare Honda SMS Engine Replacement Companies", "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."}, {"title": "UK Engine Replacement Services for Honda SMS", "description": "Covering Base to Final Edition variants, with supply-only or full supply & fit available nationwide."}], "finalText": "Find the best Honda SMS engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.", "buttonText": "Compare Honda SMS Engine Prices Now →", "secondaryAction": {"text": "Call Our Experts", "href": "tel:03330000044"}, "imageAlt": "Honda SMS vehicle", "ui": {"pointLabel": "Included", "stripLabel": "Trusted UK Engine Marketplace", "stripTitle": "Compare Honda SMS engine prices with vetted UK specialists", "trustBullets": ["100% Free", "No Obligation", "Fast & secure process", "UK-based support"], "imageBadgeLabel": "Trusted supplier network", "imageBadgeTitle": "Warranty-backed rebuilt & used options", "imageBadgeText": "Every quote checked for fitment, quality and lead time."}}}}
+{
+  "brand": {
+    "name": "Honda",
+    "slug": "honda",
+    "tone": "premium"
+  },
+  "model": {
+    "name": "Honda SMS",
+    "slug": "sms",
+    "legacySlug": "SMS"
+  },
+  "seo": {
+    "title": "Honda SMS Engine Replacement - Compare Prices UK",
+    "description": "Honda SMS engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £2,500. 12-month warranty & UK supply fit specialists.",
+    "canonical": "/honda/sms"
+  },
+  "assets": {
+    "mainImage": "/images/brands/honda/models/honda-smx-model-card.png",
+    "smallImage": "/images/brands/honda/models/honda-smx-model-card.png",
+    "heroBg": "/images/brands/honda/models/honda-smx-model-card.png",
+    "howItWorksBg": "/images/brands/honda/brand/honda-how-it-works-bg.webp",
+    "engineCodesBg": "/images/brands/honda/brand/honda-engine-codes-bg.webp",
+    "engineTypesBg": "/images/brands/honda/brand/honda-engine-types-bg.webp",
+    "engineSizesBg": "/images/brands/honda/brand/honda-engine-sizes-bg.webp",
+    "fuelTypesBg": "/images/brands/honda/brand/honda-fuel-types-bg.webp",
+    "ctaImage": "/images/brands/honda/models/honda-smx-model-card.png"
+  },
+  "sections": {
+    "hero": {
+      "tag": "HONDA SMS ENGINE MARKETPLACE",
+      "h1": "Honda SMS Engine Replacement - Compare Prices & Save",
+      "subheading": "Get quotes today from trusted UK Honda SMS engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available.",
+      "trustBadges": [
+        "Supply & Fit Available",
+        "12-Month Warranty",
+        "Nationwide Delivery",
+        "100+ Suppliers"
+      ],
+      "ctaLinkText": "Get Free Honda SMS Engine Quotes →",
+      "supportingText": "Get tailored Honda SMS engine quotes from vetted UK specialists.",
+      "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network",
+      "form": {
+        "heading": "Find Your Honda SMS Engine",
+        "subtitle": "Enter your registration number to compare Honda SMS engine options.",
+        "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)",
+        "buttonText": "Get Free Honda SMS Engine Quotes →",
+        "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Honda SMS specialists."
+      },
+      "imageAlt": "Honda SMS engine replacement UK - compare reconditioned and rebuilt engine prices",
+      "highlights": [
+        {
+          "title": "SMS 2.0L F20C Engines",
+          "price": "from £2,500 to £4,200",
+          "line1": "SMS 2.0L F20C Engines - from £2,500 to £4,200",
+          "line2": "-> Rebuilt units from £2,500 · Common codes: F20C, F20C1, F20C6",
+          "detail": "-> Rebuilt units from £2,500 · Common codes: F20C, F20C1, F20C6",
+          "image": "",
+          "imageAlt": "Honda SMS F20C engine replacement - F20C F20C1 rebuilt reconditioned UK"
+        },
+        {
+          "title": "SMS 2.2L F22C Engines",
+          "price": "from £2,800 to £4,800",
+          "line1": "SMS 2.2L F22C Engines - from £2,800 to £4,800",
+          "line2": "-> Rebuilt units from £2,800 · Common codes: F22C1, F22C2",
+          "detail": "-> Rebuilt units from £2,800 · Common codes: F22C1, F22C2",
+          "image": "",
+          "imageAlt": "Honda SMS F22C engine replacement - F22C1 F22C2 rebuilt reconditioned UK"
+        },
+        {
+          "title": "SMS AP1 High-Rev F20C Engines",
+          "price": "from £3,200 to £5,000",
+          "line1": "SMS AP1 High-Rev F20C Engines - from £3,200 to £5,000",
+          "line2": "-> Rebuilt units from £3,200 · Common codes: F20C, F20C6 (AP1 1999-2003)",
+          "detail": "-> Rebuilt units from £3,200 · Common codes: F20C, F20C6 (AP1 1999-2003)",
+          "image": "",
+          "imageAlt": "Honda SMS AP1 F20C engine replacement - high-rev F20C rebuilt reconditioned UK specialist"
+        }
+      ],
+      "headingLines": [
+        "Honda SMS Engine Replacement",
+        "Compare Prices & Save"
+      ],
+      "mobileBar": {
+        "brandText": "ENGINEMARKET",
+        "callLabel": "Call",
+        "quoteLabel": "GET QUOTES"
+      },
+      "registrationInput": {
+        "label": "Enter your vehicle registration",
+        "platePlaceholder": "AB12 CDE",
+        "countryCode": "UK",
+        "countryLabel": "United Kingdom"
+      }
+    },
+    "howItWorks": {
+      "tag": "How It Works",
+      "h2": "3 Simple Steps to Finding the Best Honda SMS Replacement Engine",
+      "cards": [
+        {
+          "number": 1,
+          "icon": "registration",
+          "front": {
+            "h3": "Enter Your Honda SMS Registration",
+            "text": "Instantly verify your exact model, engine code and fuel type via DVLA - Base to Final Edition."
+          },
+          "back": {
+            "heading": "Your Car, Precisely Identified",
+            "text": "Engines Market uses the official DVLA database to pull accurate details about your SMS, not just model name.",
+            "bullets": [
+              "Your Precise Model - from Base, Type S, GT Edition to Final Edition",
+              "Your Engine Code - F20C, F22C1, F20C6 and more",
+              "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly",
+              "No paperwork, no guesswork, 100% free."
+            ]
+          }
+        },
+        {
+          "number": 2,
+          "icon": "quote",
+          "front": {
+            "h3": "Get Quotes from Honda Engine Specialists",
+            "text": "Same-day quotes from vetted UK suppliers - full breakdown, no obligation."
+          },
+          "back": {
+            "heading": "Quotes You Can Trust",
+            "text": "Your verified details are securely shared with up to 10 of our most relevant UK suppliers, matched to your variant and location.",
+            "bullets": [
+              "Vetted UK Suppliers - specialists who understand Honda diesel and petrol engines",
+              "Same-Day Quotes - usually within hours, not days",
+              "Supply & Fit Service - or supply-only to your own garage",
+              "Full Breakdown - price, warranty length, delivery estimate and fitting cost all shown clearly",
+              "No hidden fees. No sales calls unless you approve."
+            ]
+          }
+        },
+        {
+          "number": 3,
+          "icon": "shield",
+          "front": {
+            "h3": "Choose the Best Deal & Save",
+            "text": "Compare supplier reviews, warranty and price - then pick the right one for you."
+          },
+          "back": {
+            "heading": "Your Choice, Your Control",
+            "text": "You decide which specialist to go with. We simply make the search fast, safe and transparent.",
+            "bullets": [
+              "Online Reviews - read real customer feedback",
+              "Warranty Length - minimum 12 months, often 24 months on rebuilt units",
+              "Terms of Service - including collection, fitting and aftercare",
+              "Technical Expertise - see each supplier's Honda experience",
+              "You deal directly with your chosen provider. No pressure, no commitment until you're ready."
+            ]
+          }
+        }
+      ],
+      "tagline": "",
+      "headingLines": [
+        "3 Simple Steps",
+        "to Finding the Best Honda SMS Replacement Engine"
+      ],
+      "ui": {
+        "stepLabel": "Step",
+        "desktopClosedLabel": "Click to expand",
+        "desktopOpenLabel": "Click to view details",
+        "mobileOpenLabel": "Tap to flip",
+        "mobileCloseLabel": "Tap to flip back",
+        "footerNote": "Most replacements completed within 3-5 days.",
+        "mobileTrustItems": [
+          "12-Month Warranty",
+          "Supply & Fit Available",
+          "Nationwide Delivery",
+          "Trusted UK Suppliers"
+        ]
+      }
+    },
+    "liveMarketPrices": {
+      "tag": "Live UK Engine Market Data",
+      "h2": "What Are UK Drivers Paying for Honda SMS Engine Replacement-",
+      "h3": "The table below shows typical UK rebuilt engine costs across Honda SMS variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.",
+      "introBullets": [
+        {
+          "label": "Live market context",
+          "text": "See realistic rebuilt-engine quote ranges across documented Honda SMS variants."
+        },
+        {
+          "label": "Variant specific",
+          "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."
+        },
+        {
+          "label": "Specialist pricing",
+          "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."
+        },
+        {
+          "label": "Quote benchmark",
+          "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."
+        }
+      ],
+      "cta": {
+        "heading": "Benchmark your own Honda SMS quote",
+        "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Honda SMS engine code.",
+        "buttonText": "Compare My Honda SMS Engine",
+        "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."
+      },
+      "badges": [
+        "6 recent enquiries visible",
+        "Typical rebuilt market ranges",
+        "Engine-code matched rows",
+        "UK specialist network"
+      ],
+      "feed": {
+        "isDynamic": false,
+        "rowsCount": 6,
+        "columns": [
+          "Year",
+          "Model",
+          "Engine Code",
+          "Fuel",
+          "Avg. Quoted Price",
+          "Reported Issue"
+        ],
+        "timestampLabel": "Last Updated",
+        "refreshLabel": "Refresh feed",
+        "density": "premium",
+        "visibleRows": 6,
+        "entries": [
+          {
+            "Year": "1999-2003",
+            "Model": "Honda SMS (AP1) 2.0L F20C",
+            "Engine Code": "F20C",
+            "Fuel": "Petrol 2.0L",
+            "Avg. Quoted Price": "£2,500-£4,200",
+            "Reported Issue": "Timing chain tensioner wear"
+          },
+          {
+            "Year": "2000-2003",
+            "Model": "Honda SMS (AP1) 2.0L F20C Type S",
+            "Engine Code": "F20C1",
+            "Fuel": "Petrol 2.0L",
+            "Avg. Quoted Price": "£2,600-£4,300",
+            "Reported Issue": "Oil starvation banjo bolt"
+          },
+          {
+            "Year": "2002-2003",
+            "Model": "Honda SMS (AP1) 2.0L F20C GT Edition",
+            "Engine Code": "F20C6",
+            "Fuel": "Petrol 2.0L",
+            "Avg. Quoted Price": "£2,700-£4,500",
+            "Reported Issue": "Valve guide wear high-mileage"
+          },
+          {
+            "Year": "2004-2009",
+            "Model": "Honda SMS (AP2) 2.2L F22C",
+            "Engine Code": "F22C1",
+            "Fuel": "Petrol 2.2L",
+            "Avg. Quoted Price": "£2,800-£4,800",
+            "Reported Issue": "VTEC solenoid failure"
+          },
+          {
+            "Year": "2005-2009",
+            "Model": "Honda SMS (AP2) 2.2L F22C Type S",
+            "Engine Code": "F22C1",
+            "Fuel": "Petrol 2.2L",
+            "Avg. Quoted Price": "£2,900-£4,900",
+            "Reported Issue": "Oil pump pickup screen clog"
+          },
+          {
+            "Year": "2008-2009",
+            "Model": "Honda SMS (AP2) 2.2L F22C Final Edition",
+            "Engine Code": "F22C2",
+            "Fuel": "Petrol 2.2L",
+            "Avg. Quoted Price": "£3,200-£5,000",
+            "Reported Issue": "Timing chain guide wear"
+          }
+        ]
+      },
+      "headingLines": [
+        "What Are UK Drivers Paying for Honda SMS Engine Replacement-"
+      ],
+      "imageAlt": "Honda SMS replacement engines UK - reconditioned engines for Civic FK, CR-V RW, CR-V RE and Accord CU models with L15B 1.5 VTEC Turbo engine prices from £1,800-£3,200, N22B 2.2 i-DTEC from £1,500-£2,800 and K20Z4 2.0 i-VTEC from £1,500-£3,000",
+      "filterTabs": [
+        {
+          "key": "all",
+          "label": "All",
+          "matchers": []
+        },
+        {
+          "key": "honda-sms-base-engine",
+          "label": "Honda SMS Base",
+          "matchers": [
+            "honda sms base",
+            "honda sms base engine"
+          ]
+        },
+        {
+          "key": "honda-sms-type-s-engine",
+          "label": "Honda SMS Type S",
+          "matchers": [
+            "honda sms type s",
+            "honda sms type s engine"
+          ]
+        },
+        {
+          "key": "honda-sms-gt-edition-engine",
+          "label": "Honda SMS GT Edition",
+          "matchers": [
+            "honda sms gt edition",
+            "honda sms gt edition engine"
+          ]
+        },
+        {
+          "key": "honda-sms-ap2-base-engine",
+          "label": "Honda SMS AP2 Base",
+          "matchers": [
+            "honda sms ap2 base",
+            "honda sms ap2 base engine"
+          ]
+        },
+        {
+          "key": "honda-sms-ap2-type-s-engine",
+          "label": "Honda SMS AP2 Type S",
+          "matchers": [
+            "honda sms ap2 type s",
+            "honda sms ap2 type s engine"
+          ]
+        },
+        {
+          "key": "honda-sms-final-edition-engine",
+          "label": "Honda SMS Final Edition",
+          "matchers": [
+            "honda sms final edition",
+            "honda sms final edition engine"
+          ]
+        }
+      ],
+      "ui": {
+        "showingSingleLabel": "entry",
+        "showingPluralLabel": "entries",
+        "acrossAllLabel": "across all models",
+        "noEntriesLabel": "No entries match that model filter yet.",
+        "updatedLabel": "Last updated:",
+        "ctaLabel": "Live Quote Benchmark"
+      },
+      "imageSrc": "/images/brand-wcu/Honda-engines-replacement-UK.webp"
+    },
+    "reviews": {
+      "tag": "Customer Reviews",
+      "h2": "Trusted by Honda SMS Owners Across the UK",
+      "rating": {
+        "value": 4.8,
+        "count": 0,
+        "summary": "",
+        "basedOn": ""
+      },
+      "reviews": [],
+      "leaveReviewCta": {
+        "text": "",
+        "linkText": "Leave a review ->"
+      }
+    },
+    "variantCoverage": {
+      "tag": "Models We Cover",
+      "h2": "Honda SMS Engine Replacement - All Variants Covered",
+      "subheading": "From the economical Base to the high-performance Final Edition, compare rebuilt, reconditioned and used engine prices from our network of UK Honda SMS engine specialists - typical price range for a rebuilt unit with 12-month warranty, supply & fit available nationwide.",
+      "groups": [],
+      "cards": [
+        {
+          "h3": "Honda SMS Base Engine Replacement",
+          "slug": "honda-sms-base-engine",
+          "subtitle": "F20C 2.0L Petrol ? 240hp ? 1999-2003",
+          "priceRange": "£2,500-£4,200",
+          "cta": "Compare Base Engine Prices",
+          "engineCodes": [
+            "F20C"
+          ],
+          "fuel": "Petrol",
+          "power": "240hp",
+          "years": "1999-2003",
+          "image": ""
+        },
+        {
+          "h3": "Honda SMS Type S Engine Replacement",
+          "slug": "honda-sms-type-s-engine",
+          "subtitle": "F20C1 2.0L Petrol ? 240hp ? 2000-2003",
+          "priceRange": "£2,600-£4,300",
+          "cta": "Compare Type S Engine Prices",
+          "engineCodes": [
+            "F20C1"
+          ],
+          "fuel": "Petrol",
+          "power": "240hp",
+          "years": "2000-2003",
+          "image": ""
+        },
+        {
+          "h3": "Honda SMS GT Edition Engine Replacement",
+          "slug": "honda-sms-gt-edition-engine",
+          "subtitle": "F20C6 2.0L Petrol ? 240hp ? 2002-2003",
+          "priceRange": "£2,700-£4,500",
+          "cta": "Compare GT Edition Engine Prices",
+          "engineCodes": [
+            "F20C6"
+          ],
+          "fuel": "Petrol",
+          "power": "240hp",
+          "years": "2002-2003",
+          "image": ""
+        },
+        {
+          "h3": "Honda SMS AP2 Base Engine Replacement",
+          "slug": "honda-sms-ap2-base-engine",
+          "subtitle": "F22C1 2.2L Petrol ? 240hp ? 2004-2007",
+          "priceRange": "£2,800-£4,800",
+          "cta": "Compare AP2 Base Engine Prices",
+          "engineCodes": [
+            "F22C1"
+          ],
+          "fuel": "Petrol",
+          "power": "240hp",
+          "years": "2004-2007",
+          "image": ""
+        },
+        {
+          "h3": "Honda SMS AP2 Type S Engine Replacement",
+          "slug": "honda-sms-ap2-type-s-engine",
+          "subtitle": "F22C1 2.2L Petrol ? 240hp ? 2005-2009",
+          "priceRange": "£2,900-£4,900",
+          "cta": "Compare AP2 Type S Engine Prices",
+          "engineCodes": [
+            "F22C1"
+          ],
+          "fuel": "Petrol",
+          "power": "240hp",
+          "years": "2005-2009",
+          "image": ""
+        },
+        {
+          "h3": "Honda SMS Final Edition Engine Replacement",
+          "slug": "honda-sms-final-edition-engine",
+          "subtitle": "F22C2 2.2L Petrol ? 240hp ? 2008-2009",
+          "priceRange": "£3,200-£5,000",
+          "cta": "Compare Final Edition Engine Prices",
+          "engineCodes": [
+            "F22C2"
+          ],
+          "fuel": "Petrol",
+          "power": "240hp",
+          "years": "2008-2009",
+          "image": ""
+        }
+      ],
+      "directory": {
+        "h3": "All Honda SMS Variants - Engine Replacement Coverage",
+        "intro": "A full alphabetical listing of every Honda SMS trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.",
+        "groups": [
+          {
+            "title": "Petrol Variants",
+            "items": [
+              "Base",
+              "Club Racer",
+              "Final Edition",
+              "GT Edition",
+              "Type S"
+            ]
+          }
+        ],
+        "label": "Variant Directory"
+      },
+      "closing": "Not sure which variant your Honda SMS is- Enter your registration number above - we'll identify the exact sub-model, engine code and compatible replacement options instantly.",
+      "engineGuide": {
+        "tag": "Engine Codes",
+        "h2": "Honda SMS Engine Codes - Full Technical Specifications & Replacement Guide",
+        "h3": "Every engine code fitted to the Honda SMS across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+        "families": [
+          {
+            "name": "Petrol Engines",
+            "entries": [
+              {
+                "code": "F20C",
+                "title": "2.0L Petrol",
+                "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+                "history": "The F20C defined the AP1 SMS with its 9,000rpm redline and VTEC crossover at 6,000rpm.",
+                "fuel": "Petrol",
+                "size": "2.0 Litre",
+                "power": "237-240 hp",
+                "years": "1999-2003",
+                "compatibleVariants": [
+                  "Base, Type S, GT Edition"
+                ],
+                "commonFailures": [
+                  "Timing chain tensioner wear (60k-90k miles)",
+                  "Oil starvation from banjo bolt screen clog",
+                  "Valve guide wear on high-mileage units"
+                ],
+                "avgRebuiltPrice": "£2,500 - £4,200",
+                "cta": "Get quotes for F20C Honda SMS engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "F20C1",
+                "title": "2.0L Petrol",
+                "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+                "history": "Revised F20C with minor internal updates for improved reliability in later AP1 models.",
+                "fuel": "Petrol",
+                "size": "2.0 Litre",
+                "power": "237-240 hp",
+                "years": "2000-2003",
+                "compatibleVariants": [
+                  "Type S, GT Edition"
+                ],
+                "commonFailures": [
+                  "Timing chain tensioner wear (60k-90k miles)",
+                  "VTEC solenoid clogging",
+                  "Oil pump pickup screen restriction"
+                ],
+                "avgRebuiltPrice": "£2,600 - £4,300",
+                "cta": "Get quotes for F20C1 Honda SMS engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "F20C6",
+                "title": "2.0L Petrol",
+                "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+                "history": "Final AP1 F20C variant with refined internals, fitted to limited-run GT Edition models.",
+                "fuel": "Petrol",
+                "size": "2.0 Litre",
+                "power": "240 hp",
+                "years": "2002-2003",
+                "compatibleVariants": [
+                  "GT Edition"
+                ],
+                "commonFailures": [
+                  "Valve guide wear (80k+ miles)",
+                  "Timing chain guide deterioration",
+                  "Oil consumption on high-rev use"
+                ],
+                "avgRebuiltPrice": "£2,700 - £4,500",
+                "cta": "Get quotes for F20C6 Honda SMS engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "F22C1",
+                "title": "2.2L Petrol",
+                "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+                "history": "The AP2's F22C increased displacement for broader torque while retaining the SMS's high-rev character.",
+                "fuel": "Petrol",
+                "size": "2.2 Litre",
+                "power": "237-240 hp",
+                "years": "2004-2009",
+                "compatibleVariants": [
+                  "Base, Type S"
+                ],
+                "commonFailures": [
+                  "VTEC solenoid failure (70k-100k miles)",
+                  "Oil pump pickup screen clog",
+                  "Timing chain guide wear"
+                ],
+                "avgRebuiltPrice": "£2,800 - £4,800",
+                "cta": "Get quotes for F22C1 Honda SMS engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "F22C2",
+                "title": "2.2L Petrol",
+                "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+                "history": "Final evolution F22C fitted to the limited-run Final Edition SMS with refined components.",
+                "fuel": "Petrol",
+                "size": "2.2 Litre",
+                "power": "240 hp",
+                "years": "2008-2009",
+                "compatibleVariants": [
+                  "Final Edition"
+                ],
+                "commonFailures": [
+                  "Timing chain guide wear (80k+ miles)",
+                  "VTEC system oil pressure sensitivity",
+                  "Valve stem seal wear on high-mileage units"
+                ],
+                "avgRebuiltPrice": "£3,200 - £5,000",
+                "cta": "Get quotes for F22C2 Honda SMS engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              }
+            ]
+          }
+        ],
+        "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Honda SMS specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."
+      },
+      "headingLines": [
+        "Honda SMS Engine Replacement",
+        "All Variants Covered"
+      ],
+      "ui": {
+        "fromPriceLabel": "from price",
+        "specsLabel": "Specs",
+        "rebuiltLabel": "Rebuilt",
+        "yearsLabel": "Years",
+        "yearsFallback": "Check exact year coverage by registration"
+      }
+    },
+    "engineCodes": {
+      "tag": "Engine Codes",
+      "h2": "Honda SMS Engine Codes - Full Technical Specifications & Replacement Guide",
+      "h3": "Every engine code fitted to the Honda SMS across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+      "closingLine": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Honda SMS specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.",
+      "filters": [
+        "Petrol Engines"
+      ],
+      "groups": [
+        {
+          "name": "Petrol Engines",
+          "era": "Extracted from detailed petrol and performance engine families across Honda SMS variants.",
+          "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.",
+          "engines": [
+            {
+              "code": "F20C",
+              "title": "2.0L Petrol",
+              "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+              "fuel": "Petrol",
+              "size": "2.0L",
+              "power": "237-240 hp",
+              "compatibleModels": "Base, Type S, GT Edition",
+              "avgRebuiltPrice": "£2,500 - £4,200",
+              "cta": "Get quotes for F20C Honda SMS engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "F20C1",
+              "title": "2.0L Petrol",
+              "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+              "fuel": "Petrol",
+              "size": "2.0L",
+              "power": "237-240 hp",
+              "compatibleModels": "Type S, GT Edition",
+              "avgRebuiltPrice": "£2,600 - £4,300",
+              "cta": "Get quotes for F20C1 Honda SMS engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "F20C6",
+              "title": "2.0L Petrol",
+              "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+              "fuel": "Petrol",
+              "size": "2.0L",
+              "power": "240 hp",
+              "compatibleModels": "GT Edition",
+              "avgRebuiltPrice": "£2,700 - £4,500",
+              "cta": "Get quotes for F20C6 Honda SMS engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "F22C1",
+              "title": "2.2L Petrol",
+              "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+              "fuel": "Petrol",
+              "size": "2.2L",
+              "power": "237-240 hp",
+              "compatibleModels": "Base, Type S",
+              "avgRebuiltPrice": "£2,800 - £4,800",
+              "cta": "Get quotes for F22C1 Honda SMS engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "F22C2",
+              "title": "2.2L Petrol",
+              "familyHeading": "F-Series High-Rev Engines (1999-2009)",
+              "fuel": "Petrol",
+              "size": "2.2L",
+              "power": "240 hp",
+              "compatibleModels": "Final Edition",
+              "avgRebuiltPrice": "£3,200 - £5,000",
+              "cta": "Get quotes for F22C2 Honda SMS engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            }
+          ]
+        }
+      ],
+      "headingLines": [
+        "Honda SMS Engine Codes",
+        "Full Technical Specifications & Replacement Guide"
+      ],
+      "closingAction": {
+        "title": "Can't find your engine code-",
+        "buttonText": "Enter Your Reg"
+      },
+      "ui": {
+        "summaryPriceLabel": "Avg. rebuilt price",
+        "exampleImageLabel": "Example engine visual",
+        "historyLabel": "Engine History",
+        "variantsLabel": "Compatible Honda SMS variants",
+        "specsTitle": "Technical Specifications",
+        "fuelLabel": "Fuel type",
+        "sizeLabel": "Engine size",
+        "powerLabel": "Power output",
+        "yearsLabel": "Years fitted",
+        "failuresTitle": "Common Failures",
+        "supplyLabel": "Supply only"
+      }
+    },
+    "commonProblems": {
+      "tag": "Common Problems",
+      "h2": "Honda SMS Engine Problems - What It Costs to Fix & When Replacement Makes Sense",
+      "h3": "The Honda SMS's F20C and F22C engines are renowned for reliability, but timing chain tensioners, oil starvation risks and VTEC system issues dominate replacement enquiries. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address the original failure point - plus a minimum 12-month unlimited mileage warranty.",
+      "problems": [
+        {
+          "group": "Timing Chain Tensioner Failure",
+          "h4": "Timing Chain Tensioner Failure - Why AP1 SMS Engines Rattle on Startup",
+          "affectedModels": "Honda SMS Base, Type S, GT Edition (1999-2003, F20C & F20C1)",
+          "typicalFailureMileage": "60,000-90,000 miles",
+          "rootCause": "Hydraulic tensioner loses pressure over time, allowing chain slack and guide wear.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Preventative Tensioner Replacement",
+              "dealerPrice": "£800 - £1,400",
+              "specialistPrice": "£500 - £900",
+              "whatItInvolves": "Replace tensioner, guides, inspect chain",
+              "longevity": "Viable if caught before guide damage; 40k-60k mile extension"
+            },
+            {
+              "tier": "Intermediate - Chain & Guide Replacement",
+              "dealerPrice": "£1,800 - £3,200",
+              "specialistPrice": "£1,200 - £2,100",
+              "whatItInvolves": "Full timing set replacement, oil pump inspection",
+              "longevity": "Addresses wear but not underlying oiling issues; 50k-80k miles"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt F20C Engine",
+              "dealerPrice": "£2,500 - £4,200",
+              "specialistPrice": "£2,500 - £4,200",
+              "whatItInvolves": "Supply & fit rebuilt unit with upgraded tensioner, bench tested, 12-month warranty",
+              "longevity": "Best value for engines with guide damage or high mileage; like-new reliability"
+            }
+          ],
+          "recommendation": "If your SMS has under 70k miles and only exhibits cold-start rattle, a preventative tensioner replacement from a specialist offers excellent value. For engines over 80k miles or with confirmed guide damage, a rebuilt F20C with upgraded components is the more reliable long-term solution.",
+          "cta": "Compare rebuilt F20C engine prices for your Honda SMS"
+        },
+        {
+          "group": "Oil Starvation Risk",
+          "h4": "Oil Starvation Risk - AP1 Banjo Bolt Screen Clogging",
+          "affectedModels": "Honda SMS Base, Type S (1999-2003, F20C)",
+          "typicalFailureMileage": "70,000-110,000 miles",
+          "rootCause": "Oil pump pickup banjo bolt screen clogs with debris, restricting flow to VTEC and timing components.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Banjo Bolt Screen Clean",
+              "dealerPrice": "£300 - £600",
+              "specialistPrice": "£180 - £400",
+              "whatItInvolves": "Remove, clean screen, replace crush washer, oil change",
+              "longevity": "Preventative only; does not reverse existing damage"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt F20C with Upgraded Oiling",
+              "dealerPrice": "£2,500 - £4,200",
+              "specialistPrice": "£2,500 - £4,200",
+              "whatItInvolves": "Rebuilt engine with modified oiling passages, upgraded pump, warranty",
+              "longevity": "Addresses root cause; recommended for high-rev or track-use SMSs"
+            }
+          ],
+          "recommendation": "There is no reliable intermediate fix for confirmed oil starvation damage. If your SMS shows VTEC engagement issues or timing noise after 80k miles, budget for a rebuilt F20C with upgraded oiling components - it's more cost-effective than repeated repairs.",
+          "cta": "Get quotes for F20C engine with upgraded oiling system"
+        },
+        {
+          "group": "VTEC Solenoid Failure",
+          "h4": "VTEC Solenoid Failure - AP2 SMS Power Loss",
+          "affectedModels": "Honda SMS Base, Type S, Final Edition (2004-2009, F22C1 & F22C2)",
+          "typicalFailureMileage": "70,000-100,000 miles",
+          "rootCause": "VTEC solenoid screen clogs or coil fails, preventing high-lift cam engagement.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Solenoid Clean/Replace",
+              "dealerPrice": "£400 - £750",
+              "specialistPrice": "£250 - £500",
+              "whatItInvolves": "Clean screen or replace solenoid assembly, reset ECU",
+              "longevity": "Effective if caught early; 30k-50k mile solution"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt F22C with VTEC Upgrade",
+              "dealerPrice": "£2,800 - £4,800",
+              "specialistPrice": "£2,800 - £4,800",
+              "whatItInvolves": "Rebuilt engine with upgraded VTEC components, pressure-tested, warranty",
+              "longevity": "Best for engines with repeated VTEC faults or high mileage"
+            }
+          ],
+          "recommendation": "A single VTEC fault on an AP2 SMS is often resolved with solenoid cleaning. However, repeated failures indicate deeper oiling issues - at that point, a rebuilt F22C with upgraded VTEC components offers better long-term value.",
+          "cta": "Compare F22C engine prices with VTEC system upgrade"
+        },
+        {
+          "group": "Valve Guide Wear",
+          "h4": "Valve Guide Wear - High-Mileage SMS Oil Consumption",
+          "affectedModels": "Honda SMS GT Edition, Final Edition (2002-2009, F20C6 & F22C2)",
+          "typicalFailureMileage": "90,000-130,000 miles",
+          "rootCause": "Valve guides wear from high-rev operation, causing oil consumption and reduced compression.",
+          "repairOptions": [
+            {
+              "tier": "Intermediate - Valve Guide Replacement",
+              "dealerPrice": "£1,500 - £2,800",
+              "specialistPrice": "£900 - £1,900",
+              "whatItInvolves": "Remove head, replace guides, reseat valves, machine work",
+              "longevity": "Viable if block and pistons are sound; 40k-60k mile extension"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt F20C/F22C",
+              "dealerPrice": "£2,700 - £5,000",
+              "specialistPrice": "£2,700 - £5,000",
+              "whatItInvolves": "Complete rebuilt engine with upgraded guides, pistons, warranty",
+              "longevity": "Recommended for engines over 100k miles or with compression loss"
+            }
+          ],
+          "recommendation": "Valve guide work is labour-intensive and only worthwhile if the rest of the engine is in excellent condition. For most high-mileage SMSs, a rebuilt engine with upgraded components is the more reliable and cost-effective solution.",
+          "cta": "Get quotes for rebuilt Honda SMS engine with upgraded valve guides"
+        }
+      ],
+      "finalCta": {
+        "h4": "Don't Let Engine Failure Write Off Your Honda SMS",
+        "paragraph": "The SMS's high-rev F20C and F22C engines are engineering marvels, but known failure points can lead to costly repairs. EngineMarket makes it simple to compare prices from trusted UK Honda SMS specialists who supply rebuilt engines with upgraded components addressing these specific issues. Every unit includes a minimum 12-month unlimited mileage warranty and nationwide delivery. Compare prices today and keep your SMS on the road without the main dealer premium.",
+        "buttonText": "Compare Honda SMS Engine Replacement Prices Now →",
+        "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket's UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Honda SMS and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."
+      }
+    },
+    "engineTypes": {
+      "tag": "Replacement Engine Options",
+      "h2": "Honda SMS Engine Types - Options, Costs & What to Expect",
+      "intro": "Every Honda SMS engine type is available through our UK network with typical price ranges based on variant, engine code and budget.",
+      "types": [
+        {
+          "title": "Honda SMS Reconditioned Engines (Recon)",
+          "description": "Professionally cleaned, inspected and resealed F20C/F22C units with worn parts replaced.",
+          "frontDescription": "Professionally cleaned, inspected and resealed F20C/F22C units with worn parts replaced.",
+          "frontDisclaimer": "Mileage-dependent; warranty varies by supplier.",
+          "backDescription": "Reconditioned SMS engines are cleaned, inspected and have worn components replaced. Ideal for lower-mileage failures.",
+          "backBullets": [
+            "Includes new gaskets, seals and basic wear items",
+            "F20C/F22C codes verified via DVLA match",
+            "12-month warranty standard across our network"
+          ],
+          "priceRange": "£2,500 - £4,200 (supply only)",
+          "cta": "Compare reconditioned Honda SMS engine prices"
+        },
+        {
+          "title": "Honda SMS Rebuilt Engines",
+          "description": "Fully disassembled F20C/F22C engines with machined components and upgraded internals where needed.",
+          "frontDescription": "Fully disassembled F20C/F22C engines with machined components and upgraded internals where needed.",
+          "frontDisclaimer": "Price reflects specification and upgrades selected.",
+          "backDescription": "Rebuilt SMS engines receive full machining, new bearings, pistons or valves as required. Best for high-mileage or failed units.",
+          "backBullets": [
+            "Upgraded timing components address known AP1/AP2 issues",
+            "Bench-tested before dispatch with compression report",
+            "12-month unlimited mileage warranty included"
+          ],
+          "priceRange": "£2,800 - £4,800 (supply only)",
+          "cta": "Get rebuilt Honda SMS engine quotes"
+        },
+        {
+          "title": "Honda SMS Used Engines",
+          "description": "Low-mileage donor F20C/F22C engines removed from written-off or parted SMSs, tested before sale.",
+          "frontDescription": "Low-mileage donor F20C/F22C engines removed from written-off or parted SMSs, tested before sale.",
+          "frontDisclaimer": "Mileage and condition vary; inspection recommended.",
+          "backDescription": "Used SMS engines offer budget replacement when sourced from reputable breakers with compression and leak-down verification.",
+          "backBullets": [
+            "DVLA-verified donor vehicle history available",
+            "F20C/F22C codes matched to your registration",
+            "3-6 month warranty typical across supplier network"
+          ],
+          "priceRange": "£1,800 - £3,200 (supply only)",
+          "cta": "Check used Honda SMS engine availability"
+        },
+        {
+          "title": "Honda SMS Remanufactured Engines",
+          "description": "Factory-spec F20C/F22C rebuilds to original tolerances using OEM or equivalent components throughout.",
+          "frontDescription": "Factory-spec F20C/F22C rebuilds to original tolerances using OEM or equivalent components throughout.",
+          "frontDisclaimer": "Premium option; lead time varies by specification.",
+          "backDescription": "Remanufactured SMS engines are rebuilt to factory specifications with OEM-grade components. Ideal for concours or long-term ownership.",
+          "backBullets": [
+            "All components machined or replaced to Honda tolerances",
+            "Dyno-tested before dispatch with performance report",
+            "12-24 month warranty available from specialist suppliers"
+          ],
+          "priceRange": "£3,200 - £5,000 (supply only)",
+          "cta": "Compare remanufactured Honda SMS engine costs"
+        },
+        {
+          "title": "Honda SMS Refurbished Engines",
+          "description": "Partial rebuilds addressing specific failures like timing components or VTEC systems on otherwise sound F20C/F22C units.",
+          "frontDescription": "Partial rebuilds addressing specific failures like timing components or VTEC systems on otherwise sound F20C/F22C units.",
+          "frontDisclaimer": "Scope varies; confirm included components with supplier.",
+          "backDescription": "Refurbished SMS engines target known failure points while retaining sound core components. Cost-effective for isolated issues.",
+          "backBullets": [
+            "Timing set, VTEC solenoid or oil pump upgrades available",
+            "Compression-tested and leak-down verified pre-dispatch",
+            "6-12 month warranty typical depending on work scope"
+          ],
+          "priceRange": "£2,200 - £3,800 (supply only)",
+          "cta": "View refurbished Honda SMS engine options"
+        },
+        {
+          "title": "Honda SMS Supply & Fit Engines",
+          "description": "Complete engine replacement service including removal, fitment, fluids and initial run-in by UK Honda SMS specialists.",
+          "frontDescription": "Complete engine replacement service including removal, fitment, fluids and initial run-in by UK Honda SMS specialists.",
+          "frontDisclaimer": "Labour cost varies by location and vehicle condition.",
+          "backDescription": "Supply & fit services handle the entire Honda SMS engine replacement process, from removal to post-installation testing and ECU adaptation.",
+          "backBullets": [
+            "Includes ECU reset, VTEC adaptation and road test",
+            "Specialist knowledge of AP1/AP2 mounting and wiring",
+            "Nationwide network with mobile fitting options available"
+          ],
+          "priceRange": "£800 - £1,500 added to engine price",
+          "cta": "Find Honda SMS engine supply & fit deals"
+        }
+      ],
+      "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Honda SMS within hours.",
+      "headingLines": [
+        "Honda SMS Engine Types",
+        "Options, Costs & What to Expect"
+      ],
+      "ui": {
+        "priceLabel": "Typical price range",
+        "frontActionLabel": "What is it-",
+        "backActionLabel": "Flip back"
+      },
+      "closingCard": {
+        "label": "Engine Replacement Help",
+        "title": "Compare Honda SMS engine prices with vetted UK suppliers",
+        "buttonText": "Compare Honda SMS Prices"
+      }
+    },
+    "engineSizes": {
+      "tag": "Engine Sizes",
+      "h2": "Honda SMS Engines by Size - Find the Right Displacement for Your Variant",
+      "intro": "Every displacement fitted to the Honda SMS is listed below with compatible engine codes, production years and common failure notes to help you identify the correct replacement.",
+      "groups": [
+        {
+          "title": "Honda SMS Petrol Engine Sizes",
+          "items": [
+            {
+              "title": "Honda SMS 2.0L Petrol Engines",
+              "description": "The 2.0L F20C powered the AP1 SMS (1999-2003), renowned for its 9,000rpm redline and VTEC crossover at 6,000rpm. This high-revving unit defined the SMS's character and remains highly sought after for replacement and restoration projects.",
+              "engineCodes": [
+                "F20C",
+                "F20C1",
+                "F20C6"
+              ],
+              "compatibleModels": [
+                "Base (1999-2003)",
+                "Type S (2000-2003)",
+                "GT Edition"
+              ],
+              "productionYears": "2002-2003",
+              "commonFailurePoints": [
+                "Timing chain tensioner wear",
+                "oil starvation from banjo bolt screen clog",
+                "valve guide wear on high-mileage units"
+              ],
+              "cta": "Get quotes for Honda SMS 2.0L petrol engines"
+            },
+            {
+              "title": "Honda SMS 2.2L Petrol Engines",
+              "description": "The 2.2L F22C arrived with the AP2 facelift (2004-2009), increasing displacement for broader mid-range torque while retaining the SMS's high-rev DNA. Slightly more forgiving on oiling demands but shares VTEC system sensitivities.",
+              "engineCodes": [
+                "F22C1",
+                "F22C2"
+              ],
+              "compatibleModels": [
+                "Base (2004-2007)",
+                "Type S (2005-2009)",
+                "Final Edition"
+              ],
+              "productionYears": "2008-2009",
+              "commonFailurePoints": [
+                "VTEC solenoid failure",
+                "oil pump pickup screen clog",
+                "timing chain guide wear"
+              ],
+              "cta": "Compare Honda SMS 2.2L petrol engine prices"
+            }
+          ]
+        }
+      ],
+      "closing": "Not sure which engine size your Honda SMS needs- Enter your registration number above - we'll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Honda SMS specialists.",
+      "headingLines": [
+        "Honda SMS Engines by Size",
+        "Find the Right Displacement for Your Variant"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "engineCodesLabel": "Engine Code(s)",
+        "compatibleModelsLabel": "Compatible Models (UK)",
+        "productionYearsLabel": "Production Years",
+        "warningLabel": "Common Failure Points",
+        "warningTitle": "Watch for these known weak points",
+        "helperLabel": "Engine Size Advice",
+        "helperTitle": "Need help matching the exact engine size-",
+        "helperButtonText": "Find My Engine"
+      }
+    },
+    "fuelTypes": {
+      "tag": "Honda SMS Engines Fuel Type",
+      "h2": "Honda SMS Engines by Fuel Type",
+      "intro": "Choose your Honda SMS engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early AP1 F20C to the final AP2 F22C units.",
+      "items": [
+        {
+          "title": "Honda SMS Petrol Engines",
+          "description": "All Honda SMS models were petrol-only, featuring high-revving naturally aspirated F20C (2.0L) and F22C (2.2L) engines with VTEC.",
+          "descriptor": "All Honda SMS models were petrol-only, featuring high-revving naturally aspirated F20C (2.0L) and F22C (2.2L) engines with VTEC.",
+          "familiesLabel": "Common Honda SMS Petrol Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Petrol Models",
+          "notesLabel": "",
+          "families": [
+            "F20C - AP1 2.0L (1999-2003), 9,000rpm redline, timing chain tensioner sensitivity",
+            "F22C1 - AP2 2.2L (2004-2009), broader torque curve, VTEC solenoid considerations",
+            "F22C2 - Final Edition 2.2L (2008-2009), refined internals, limited availability"
+          ],
+          "foundIn": [
+            "AP1 Generation (1999-2003) - F20C, F20C1, F20C6",
+            "AP2 Generation (2004-2009) - F22C1, F22C2"
+          ],
+          "knownFor": [
+            "Exceptional high-rev character and VTEC engagement",
+            "Timing chain tensioner wear on AP1 units (60k-90k miles)",
+            "Oil starvation risk from banjo bolt screen clogging",
+            "Strong aftermarket support and specialist rebuild knowledge"
+          ],
+          "typicalModels": [
+            "Base",
+            "Type S",
+            "GT Edition",
+            "Final Edition"
+          ],
+          "importantNotes": [],
+          "cta": "Compare Honda SMS Petrol engine prices"
+        }
+      ],
+      "closing": "Not sure which fuel type your Honda SMS has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Honda SMS specialists.",
+      "headingLines": [
+        "Honda SMS Engines by Fuel Type"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "familiesLabel": "Common Engine Families",
+        "foundInLabel": "Found In",
+        "knownForLabel": "Known For",
+        "modelsLabel": "Typical Models (UK)",
+        "notesLabel": "Important Notes",
+        "closingButtonText": "Find my engine",
+        "emptyStateTitle": "Fuel type guidance",
+        "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."
+      }
+    },
+    "engineYears": {
+      "tag": "Engine Years",
+      "h2": "Honda SMS Engines by Year - What Was Fitted & When",
+      "intro": "This section covers all major engine changes across the Honda SMS's production timeline (1999-2009), organised so owners can quickly identify their engine and compare rebuilt engine prices from UK specialists.",
+      "jumpLabel": "Jump to model year",
+      "years": [
+        {
+          "year": "1999 - 2003",
+          "preview": "AP1 Launch: F20C High-Rev Debut",
+          "description": "The AP1 SMS launched with the groundbreaking F20C 2.0L engine, setting new standards for naturally aspirated performance.",
+          "keyChanges": [
+            "Honda SMS production begins with AP1 chassis",
+            "F20C 2.0L engine debuts with 9,000rpm redline and VTEC crossover at 6,000rpm",
+            "Base and Type S variants introduced in UK market",
+            "GT Edition limited run added for 2002-2003"
+          ],
+          "mainEngines": [
+            "F20C - 2.0L petrol (Base / Type S)",
+            "F20C1 - 2.0L petrol (Type S, revised internals)",
+            "F20C6 - 2.0L petrol (GT Edition, final AP1 spec)"
+          ],
+          "popularModels": [
+            "Honda SMS Base",
+            "Honda SMS Type S",
+            "Honda SMS GT Edition"
+          ],
+          "knownFor": [
+            "World's highest-revving production engine at launch",
+            "Timing chain tensioner wear emerges as common AP1 issue",
+            "Oil starvation risk from banjo bolt screen clogging",
+            "Strong enthusiast following and aftermarket support"
+          ],
+          "engineCodesCovered": [
+            "F20C",
+            "F20C1",
+            "F20C6"
+          ],
+          "cta": "Get quotes for 1999-2003 Honda SMS replacement engines",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Honda SMS F20C timing chain replacement • AP1 oil starvation fix • SMS engine rebuild cost UK",
+          "enquiries": [
+            "Honda SMS F20C timing chain replacement",
+            "AP1 oil starvation fix",
+            "SMS engine rebuild cost UK"
+          ]
+        },
+        {
+          "year": "2004 - 2009",
+          "preview": "AP2 Facelift: F22C Displacement Increase",
+          "description": "The AP2 update introduced the larger 2.2L F22C engine for broader torque while retaining the SMS's high-rev character.",
+          "keyChanges": [
+            "AP2 chassis update with revised styling and interior",
+            "F22C 2.2L engine replaces F20C, redline reduced to 8,200rpm",
+            "Final Edition variant launched for 2008-2009 production end",
+            "Minor reliability refinements to oiling and VTEC systems"
+          ],
+          "mainEngines": [
+            "F22C1 - 2.2L petrol (Base / Type S)",
+            "F22C2 - 2.2L petrol (Final Edition, refined spec)"
+          ],
+          "popularModels": [
+            "Honda SMS AP2 Base",
+            "Honda SMS AP2 Type S",
+            "Honda SMS Final Edition"
+          ],
+          "knownFor": [
+            "Broader torque curve improves daily drivability",
+            "VTEC solenoid failures more common than AP1 timing issues",
+            "Oil pump pickup screen clogging remains a consideration",
+            "Final Edition models command premium in replacement market"
+          ],
+          "engineCodesCovered": [
+            "F22C1",
+            "F22C2"
+          ],
+          "cta": "Compare Honda SMS 2004-2009 engine prices",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Honda SMS F22C VTEC solenoid • AP2 engine replacement cost • SMS Final Edition engine availability",
+          "enquiries": [
+            "Honda SMS F22C VTEC solenoid",
+            "AP2 engine replacement cost",
+            "SMS Final Edition engine availability"
+          ]
+        }
+      ],
+      "closing": "Not sure which year your Honda SMS was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Honda SMS specialists.",
+      "headingLines": [
+        "Honda SMS Engines by Year",
+        "What Was Fitted & When"
+      ],
+      "ui": {
+        "keyChangesLabel": "Key Changes",
+        "knownForLabel": "Known For",
+        "mainEnginesLabel": "Main Engines",
+        "popularModelsLabel": "Popular Models",
+        "engineCodesLabel": "Engine Codes Covered",
+        "enquiriesLabel": "Common Replacement Enquiries"
+      },
+      "summaryCta": {
+        "label": "Year Finder",
+        "title": "Not sure which year your Honda SMS was built-",
+        "buttonText": "Find My Engine"
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "h2": "Honda SMS Engine Replacement - Frequently Asked Questions",
+      "intro": "",
+      "items": [
+        {
+          "question": "Is the Honda SMS F20C engine reliable-",
+          "answer": "The F20C is fundamentally robust but has known failure points. With proper maintenance, many exceed 150k miles. Timing chain tensioners and oiling system care are critical for longevity.",
+          "keyPoints": [
+            "F20C engines often reach 150k+ miles with proper maintenance",
+            "Timing chain tensioner replacement recommended at 60k-80k miles",
+            "Regular oil changes with correct viscosity prevent starvation issues",
+            "VTEC system requires clean oil to function reliably"
+          ],
+          "cta": "Compare rebuilt F20C engine prices for your Honda SMS"
+        },
+        {
+          "question": "What causes Honda SMS oil starvation problems-",
+          "answer": "Oil starvation in AP1 SMSs typically stems from the oil pump pickup banjo bolt screen clogging with debris, restricting flow to critical components like VTEC and timing chains.",
+          "keyPoints": [
+            "Banjo bolt screen clogs with carbon and metal particles over time",
+            "Restricted oil flow affects VTEC engagement and chain tensioners",
+            "Symptoms include VTEC not engaging or timing rattle on startup",
+            "Prevention: frequent oil changes, quality filters, screen inspection"
+          ],
+          "cta": "Get quotes for F20C engine with upgraded oiling system"
+        },
+        {
+          "question": "How much does a Honda SMS engine replacement cost in the UK-",
+          "answer": "Rebuilt Honda SMS engines typically cost £2,500-£5,000 supply-only, depending on engine code, variant and specification. Supply & fit adds £800-£1,500 labour.",
+          "keyPoints": [
+            "F20C rebuilt units: £2,500-£4,200 typical range",
+            "F22C rebuilt units: £2,800-£5,000 typical range",
+            "Final Edition and low-mileage units command premium pricing",
+            "Supply & fit labour adds £800-£1,500 depending on location"
+          ],
+          "cta": "Compare Honda SMS engine replacement prices from UK specialists"
+        },
+        {
+          "question": "Should I repair or replace a failed Honda SMS engine-",
+          "answer": "For engines under 70k miles with isolated issues, repair may be viable. For high-mileage units or multiple failures, a rebuilt engine with upgraded components offers better long-term value.",
+          "keyPoints": [
+            "Minor repairs viable only if block and internals are sound",
+            "Rebuilt engines include warranty and address known failure points",
+            "Labour costs for complex repairs often approach rebuild pricing",
+            "Consider vehicle value and intended use in decision-making"
+          ],
+          "cta": "Get tailored quotes for your Honda SMS engine situation"
+        },
+        {
+          "question": "What is the difference between F20C and F22C Honda SMS engines-",
+          "answer": "The F20C is a 2.0L unit with 9,000rpm redline for AP1 models; the F22C is 2.2L with 8,200rpm redline for AP2, offering broader torque with similar peak power.",
+          "keyPoints": [
+            "F20C: 1,997cc, 9,000rpm redline, AP1 models (1999-2003)",
+            "F22C: 2,157cc, 8,200rpm redline, AP2 models (2004-2009)",
+            "Both produce ~240hp but F22C has stronger mid-range torque",
+            "F22C has slightly revised oiling and VTEC components"
+          ],
+          "cta": "Compare F20C vs F22C engine prices for your Honda SMS"
+        },
+        {
+          "question": "Can I upgrade my Honda SMS engine for more power-",
+          "answer": "Yes, common upgrades include supercharger kits, high-compression pistons, and camshaft changes. However, ensure the base engine is sound before investing in performance modifications.",
+          "keyPoints": [
+            "Supercharger kits add 100-150hp with proper supporting mods",
+            "High-compression pistons and cams improve naturally aspirated output",
+            "Upgraded oiling and cooling are essential for any power increase",
+            "Rebuilt engines can be spec'd with performance components from the start"
+          ],
+          "cta": "Enquire about performance-spec rebuilt Honda SMS engines"
+        },
+        {
+          "question": "How do I know which Honda SMS engine code I have-",
+          "answer": "Your engine code is stamped on the block and can be verified instantly by entering your registration number. F20C variants powered AP1 models; F22C variants powered AP2 models.",
+          "keyPoints": [
+            "Engine code stamped on block near cylinder head",
+            "DVLA lookup via registration confirms exact specification",
+            "AP1 models (1999-2003) use F20C, F20C1 or F20C6",
+            "AP2 models (2004-2009) use F22C1 or F22C2"
+          ],
+          "cta": "Verify your Honda SMS engine code instantly via registration"
+        },
+        {
+          "question": "Are used Honda SMS engines a good option-",
+          "answer": "Used engines can offer budget replacement if sourced from reputable breakers with compression and leak-down verification. Always request donor vehicle history and warranty terms.",
+          "keyPoints": [
+            "Used F20C/F22C engines typically £1,800-£3,200 supply-only",
+            "Request compression test results and leak-down verification",
+            "Confirm donor vehicle mileage and service history",
+            "3-6 month warranty typical; longer warranties indicate confidence"
+          ],
+          "cta": "Check used Honda SMS engine availability with verification"
+        },
+        {
+          "question": "What warranty comes with rebuilt Honda SMS engines-",
+          "answer": "Engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK specialists. Terms vary by supplier - always confirm exact coverage before purchase.",
+          "keyPoints": [
+            "Minimum 12-month unlimited mileage warranty standard",
+            "Some suppliers offer 24-month options at premium pricing",
+            "Warranty covers parts and labour for manufacturing defects",
+            "Proper installation and break-in procedures required for validity"
+          ],
+          "cta": "Compare warranty terms for Honda SMS rebuilt engines"
+        },
+        {
+          "question": "How quickly can I get a Honda SMS replacement engine-",
+          "answer": "Most rebuilt Honda SMS engines are available within 3-7 working days from UK specialists. Supply & fit services can complete installation within 1-2 days of engine receipt.",
+          "keyPoints": [
+            "Rebuilt engines typically ready in 3-7 working days",
+            "Used engines may be available immediately from stock",
+            "Supply & fit installation usually completed in 1-2 days",
+            "Nationwide delivery available from most UK specialists"
+          ],
+          "cta": "Get urgent quotes for Honda SMS engine replacement"
+        }
+      ],
+      "headingLines": [
+        "Honda SMS Engine Replacement",
+        "Frequently Asked Questions"
+      ],
+      "defaultOpenIndex": 0,
+      "ui": {
+        "questionLabelPrefix": "Question",
+        "keyPointsLabel": "Key points",
+        "warningTitle": "Check fitment and engine condition before ordering"
+      }
+    },
+    "trustCta": {
+      "tag": "Why Choose Us",
+      "h2": "Why UK Honda SMS Owners Trust EngineMarket",
+      "intro": "Join thousands of UK drivers who compare Honda SMS engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.",
+      "points": [
+        {
+          "title": "Trusted Honda SMS Engine Suppliers",
+          "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Honda SMS owners."
+        },
+        {
+          "title": "Compare Honda SMS Engine Replacement Companies",
+          "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."
+        },
+        {
+          "title": "UK Engine Replacement Services for Honda SMS",
+          "description": "Covering Base to Final Edition variants, with supply-only or full supply & fit available nationwide."
+        }
+      ],
+      "finalText": "Find the best Honda SMS engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.",
+      "buttonText": "Compare Honda SMS Engine Prices Now →",
+      "secondaryAction": {
+        "text": "Call Our Experts",
+        "href": "tel:03330000044"
+      },
+      "imageAlt": "Honda SMS vehicle",
+      "ui": {
+        "pointLabel": "Included",
+        "stripLabel": "Trusted UK Engine Marketplace",
+        "stripTitle": "Compare Honda SMS engine prices with vetted UK specialists",
+        "trustBullets": [
+          "100% Free",
+          "No Obligation",
+          "Fast & secure process",
+          "UK-based support"
+        ],
+        "imageBadgeLabel": "Trusted supplier network",
+        "imageBadgeTitle": "Warranty-backed rebuilt & used options",
+        "imageBadgeText": "Every quote checked for fitment, quality and lead time."
+      }
+    }
+  }
+}

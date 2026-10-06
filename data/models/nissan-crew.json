@@ -1,1 +1,1666 @@
-{"brand": {"name": "Nissan", "slug": "nissan", "tone": "premium"}, "model": {"name": "Nissan Crew", "slug": "crew", "legacySlug": "nissan-crew"}, "seo": {"title": "Nissan Crew Engine Replacement - Compare Prices UK", "description": "Nissan Crew engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £900. 12-month warranty & UK supply fit specialists.", "canonical": "/nissan/crew"}, "assets": {"mainImage": "/images/brands/nissan/models/nissan-crew-model-card.png", "smallImage": "/images/brands/nissan/models/nissan-crew-model-card.png", "heroBg": "/images/brands/nissan/models/nissan-crew-model-card.png", "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp", "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp", "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp", "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp", "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp", "ctaImage": "/images/brands/nissan/models/nissan-crew-model-card.png"}, "sections": {"hero": {"tag": "NISSAN CREW ENGINE MARKETPLACE", "h1": "Nissan Crew Engine Replacement - Compare Prices & Save", "subheading": "Get quotes today from trusted UK Nissan Crew engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available nationwide.", "trustBadges": ["Supply & Fit Available", "12-Month Warranty", "Nationwide Delivery", "100+ Suppliers"], "ctaLinkText": "Get Free Nissan Crew Engine Quotes →", "supportingText": "Get tailored Nissan Crew engine quotes from vetted UK specialists.", "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network", "form": {"heading": "Find Your Nissan Crew Engine", "subtitle": "Enter your registration number to compare Nissan Crew engine options.", "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)", "buttonText": "Get Free Nissan Crew Engine Quotes →", "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Nissan Crew specialists."}, "imageAlt": "Nissan Crew engine replacement UK - compare reconditioned and rebuilt engine prices", "highlights": [{"title": "Crew Diesel Engines", "price": "from £1,200 to £2,800", "line1": "Crew Diesel Engines - from £1,200 to £2,800", "line2": "-> Rebuilt units from £1,200 · Common codes: CD20, CD20T, YD22DDTi", "detail": "-> Rebuilt units from £1,200 · Common codes: CD20, CD20T, YD22DDTi", "image": "", "imageAlt": "Nissan Crew diesel engine replacement - CD20 YD22DDTi rebuilt reconditioned UK"}, {"title": "Crew Petrol Engines", "price": "from £1,100 to £2,400", "line1": "Crew Petrol Engines - from £1,100 to £2,400", "line2": "-> Rebuilt units from £1,100 · Common codes: CG13DE, CG16DE, QG18DE", "detail": "-> Rebuilt units from £1,100 · Common codes: CG13DE, CG16DE, QG18DE", "image": "", "imageAlt": "Nissan Crew petrol engine replacement - CG16DE QG18DE rebuilt reconditioned UK"}, {"title": "Crew Commercial Duty Engines", "price": "from £1,400 to £2,600", "line1": "Crew Commercial Duty Engines - from £1,400 to £2,600", "line2": "-> Rebuilt units from £1,400 · Common codes: CD17, CG13DE, CD20", "detail": "-> Rebuilt units from £1,400 · Common codes: CD17, CG13DE, CD20", "image": "", "imageAlt": "Nissan Crew commercial engine replacement - CD17 CG13DE rebuilt reconditioned UK"}], "headingLines": ["Nissan Crew Engine Replacement", "Compare Prices & Save"], "mobileBar": {"brandText": "ENGINEMARKET", "callLabel": "Call", "quoteLabel": "GET QUOTES"}, "registrationInput": {"label": "Enter your vehicle registration", "platePlaceholder": "AB12 CDE", "countryCode": "UK", "countryLabel": "United Kingdom"}}, "howItWorks": {"tag": "How It Works", "h2": "3 Simple Steps to Finding the Best Nissan Crew Replacement Engine", "cards": [{"number": 1, "icon": "registration", "front": {"h3": "Enter Your Nissan Crew Registration", "text": "Instantly verify your exact model, engine code and fuel type via DVLA - DX to GX Taxi Spec."}, "back": {"heading": "Your Car, Precisely Identified", "text": "Engines Market uses the official DVLA database to pull accurate details about your Crew , not just model name.", "bullets": ["Your Precise Model - from DX, LX, GX, Taxi Spec to Wagon variants", "Your Engine Code - CG16DE, CD20, YD22DDTi, QG18DE and more", "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly", "No paperwork, no guesswork, 100% free."]}}], "tagline": "", "headingLines": ["3 Simple Steps", "to Finding the Best Nissan Crew Replacement Engine"], "ui": {"stepLabel": "Step", "desktopClosedLabel": "Click to expand", "desktopOpenLabel": "Click to view details", "mobileOpenLabel": "Tap to flip", "mobileCloseLabel": "Tap to flip back", "footerNote": "Most replacements completed within 3-5 days.", "mobileTrustItems": ["12-Month Warranty", "Supply & Fit Available", "Nationwide Delivery", "Trusted UK Suppliers"]}}, "liveMarketPrices": {"tag": "Live UK Engine Market Data", "h2": "What Are UK Drivers Paying for Nissan Crew Engine Replacement-", "h3": "The table below shows typical UK rebuilt engine costs across Nissan Crew variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.", "introBullets": [{"label": "Live market context", "text": "See realistic rebuilt-engine quote ranges across documented Nissan Crew variants."}, {"label": "Variant specific", "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."}, {"label": "Specialist pricing", "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."}, {"label": "Quote benchmark", "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."}], "cta": {"heading": "Benchmark your own Nissan Crew quote", "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Crew engine code.", "buttonText": "Compare My Nissan Crew Engine", "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."}, "badges": ["7 recent enquiries visible", "Typical rebuilt market ranges", "Engine-code matched rows", "UK specialist network"], "feed": {"isDynamic": false, "rowsCount": 7, "columns": ["Year", "Model", "Engine Code", "Fuel", "Avg. Quoted Price", "Reported Issue"], "timestampLabel": "Last Updated", "refreshLabel": "Refresh feed", "density": "premium", "visibleRows": 7, "entries": [{"Year": "1993-2000", "Model": "Nissan Crew (1993-2000) DX 1.6 Petrol", "Engine Code": "CG16DE", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£950-£1,800", "Reported Issue": "Timing chain rattle"}, {"Year": "1993-2000", "Model": "Nissan Crew (1993-2000) GX 2.0 Diesel", "Engine Code": "CD20", "Fuel": "Diesel 2.0L", "Avg. Quoted Price": "£1,100-£2,100", "Reported Issue": "Injector pump failure"}, {"Year": "2000-2009", "Model": "Nissan Crew (2000-2009) LX 1.6 Petrol", "Engine Code": "CG16DE", "Fuel": "Petrol 1.6L", "Avg. Quoted Price": "£1,000-£1,900", "Reported Issue": "VVT solenoid fault"}, {"Year": "2000-2005", "Model": "Nissan Crew (2000-2009) Taxi Spec 2.0D", "Engine Code": "CD20T", "Fuel": "Diesel 2.0L", "Avg. Quoted Price": "£1,300-£2,400", "Reported Issue": "EGR valve clogging"}, {"Year": "2003-2009", "Model": "Nissan Crew (2003-2009) Fleet 2.2 Diesel", "Engine Code": "YD22DDTi", "Fuel": "Diesel 2.2L", "Avg. Quoted Price": "£1,400-£2,600", "Reported Issue": "Turbo seal wear"}, {"Year": "1995-2000", "Model": "Nissan Crew (1995-2000) Wagon 1.3L", "Engine Code": "CG13DE", "Fuel": "Petrol 1.3L", "Avg. Quoted Price": "£900-£1,600", "Reported Issue": "Oil sludge buildup"}, {"Year": "1997-2003", "Model": "Nissan Crew (1997-2003) Base 1.7 Diesel", "Engine Code": "CD17", "Fuel": "Diesel 1.7L", "Avg. Quoted Price": "£1,200-£2,200", "Reported Issue": "Cold start relay fault"}]}, "headingLines": ["What Are UK Drivers Paying for Nissan Crew Engine Replacement-"], "imageAlt": "Nissan Crew replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000", "filterTabs": [{"key": "all", "label": "All", "matchers": []}, {"key": "nissan-crew-dx-1-6l-diesel-engine", "label": "Nissan Crew DX 1.6L Diesel", "matchers": ["nissan crew dx 1.6l diesel", "nissan crew dx 1 6l diesel engine"]}, {"key": "nissan-crew-lx-2-0l-diesel-engine", "label": "Nissan Crew LX 2.0L Diesel", "matchers": ["nissan crew lx 2.0l diesel", "nissan crew lx 2 0l diesel engine"]}, {"key": "nissan-crew-gx-2-2l-diesel-engine", "label": "Nissan Crew GX 2.2L Diesel", "matchers": ["nissan crew gx 2.2l diesel", "nissan crew gx 2 2l diesel engine"]}, {"key": "nissan-crew-dx-1-6l-petrol-engine", "label": "Nissan Crew DX 1.6L Petrol", "matchers": ["nissan crew dx 1.6l petrol", "nissan crew dx 1 6l petrol engine"]}, {"key": "nissan-crew-lx-1-6l-petrol-engine", "label": "Nissan Crew LX 1.6L Petrol", "matchers": ["nissan crew lx 1.6l petrol", "nissan crew lx 1 6l petrol engine"]}, {"key": "nissan-crew-wagon-1-8l-petrol-engine", "label": "Nissan Crew Wagon 1.8L Petrol", "matchers": ["nissan crew wagon 1.8l petrol", "nissan crew wagon 1 8l petrol engine"]}, {"key": "nissan-crew-taxi-spec-2-0d-turbo-engine", "label": "Nissan Crew Taxi Spec 2.0D Turbo", "matchers": ["nissan crew taxi spec 2.0d turbo", "nissan crew taxi spec 2 0d turbo engine"]}, {"key": "nissan-crew-fleet-2-2l-common-rail-engine", "label": "Nissan Crew Fleet 2.2L Common Rail", "matchers": ["nissan crew fleet 2.2l common rail", "nissan crew fleet 2 2l common rail engine"]}], "ui": {"showingSingleLabel": "entry", "showingPluralLabel": "entries", "acrossAllLabel": "across all models", "noEntriesLabel": "No entries match that model filter yet.", "updatedLabel": "Last updated:", "ctaLabel": "Live Quote Benchmark"}, "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"}, "reviews": {"tag": "Customer Reviews", "h2": "Trusted by Nissan Crew Owners Across the UK", "rating": {"value": 4.8, "count": 0, "summary": "", "basedOn": ""}, "reviews": [], "leaveReviewCta": {"text": "", "linkText": "Leave a review ->"}}, "variantCoverage": {"tag": "Models We Cover", "h2": "Nissan Crew Engine Replacement - All Variants Covered", "subheading": "From economical DX fleet cabs to premium GX taxi specifications, our network of UK Nissan Crew engine specialists helps you compare rebuilt, reconditioned and used engine prices. Typical price range for a rebuilt unit with 12-month warranty - supply & fit available nationwide.", "groups": [{"title": "Core Diesel Range", "cardSlugs": ["nissan-crew-dx-1-6l-diesel-engine", "nissan-crew-lx-2-0l-diesel-engine", "nissan-crew-gx-2-2l-diesel-engine"]}, {"title": "Core Petrol Range", "cardSlugs": ["nissan-crew-dx-1-6l-petrol-engine", "nissan-crew-lx-1-6l-petrol-engine", "nissan-crew-wagon-1-8l-petrol-engine"]}, {"title": "Commercial & Fleet Variants", "cardSlugs": ["nissan-crew-taxi-spec-2-0d-turbo-engine", "nissan-crew-fleet-2-2l-common-rail-engine"]}], "cards": [{"h3": "Nissan Crew DX 1.6L Diesel Engine Replacement", "slug": "nissan-crew-dx-1-6l-diesel-engine", "subtitle": "CD17 1.7L Diesel ? 78hp ? 1993-2000", "priceRange": "£900-£1,600", "cta": "Compare DX 1.6L Diesel Engine Prices", "engineCodes": ["CD17"], "fuel": "Diesel", "power": "78hp", "years": "1993-2000", "image": ""}, {"h3": "Nissan Crew LX 2.0L Diesel Engine Replacement", "slug": "nissan-crew-lx-2-0l-diesel-engine", "subtitle": "CD20 2.0L Diesel ? 82hp ? 2000-2005", "priceRange": "£1,100-£1,900", "cta": "Compare LX 2.0L Diesel Engine Prices", "engineCodes": ["CD20"], "fuel": "Diesel", "power": "82hp", "years": "2000-2005", "image": ""}, {"h3": "Nissan Crew GX 2.2L Diesel Engine Replacement", "slug": "nissan-crew-gx-2-2l-diesel-engine", "subtitle": "YD22DDTi 2.2L Diesel · 102hp · 2003-2009 · Rebuilt: £1,400-£2,600", "priceRange": "£1,400-£2,600", "cta": "Compare GX 2.2L Diesel Engine Prices", "engineCodes": ["YD22DDTi"], "fuel": "Diesel", "power": "102hp", "years": "2003-2009", "image": ""}, {"h3": "Nissan Crew DX 1.6L Petrol Engine Replacement", "slug": "nissan-crew-dx-1-6l-petrol-engine", "subtitle": "CG16DE 1.6L Petrol ? 105hp ? 1993-2000", "priceRange": "£950-£1,800", "cta": "Compare DX 1.6L Petrol Engine Prices", "engineCodes": ["CG16DE"], "fuel": "Petrol", "power": "105hp", "years": "1993-2000", "image": ""}, {"h3": "Nissan Crew LX 1.6L Petrol Engine Replacement", "slug": "nissan-crew-lx-1-6l-petrol-engine", "subtitle": "CG16DE 1.6L Petrol ? 105hp ? 2000-2005", "priceRange": "£1,000-£1,900", "cta": "Compare LX 1.6L Petrol Engine Prices", "engineCodes": ["CG16DE"], "fuel": "Petrol", "power": "105hp", "years": "2000-2005", "image": ""}, {"h3": "Nissan Crew Wagon 1.8L Petrol Engine Replacement", "slug": "nissan-crew-wagon-1-8l-petrol-engine", "subtitle": "QG18DE 1.8L Petrol ? 120hp ? 2005-2009", "priceRange": "£1,150-£2,100", "cta": "Compare Wagon 1.8L Petrol Engine Prices", "engineCodes": ["QG18DE"], "fuel": "Petrol", "power": "120hp", "years": "2005-2009", "image": ""}, {"h3": "Nissan Crew Taxi Spec 2.0D Turbo Engine Replacement", "slug": "nissan-crew-taxi-spec-2-0d-turbo-engine", "subtitle": "CD20T 2.0L Diesel ? 105hp ? 1997-2005", "priceRange": "£1,300-£2,400", "cta": "Compare Taxi Spec 2.0D Engine Prices", "engineCodes": ["CD20T"], "fuel": "Diesel", "power": "105hp", "years": "1997-2005", "image": ""}, {"h3": "Nissan Crew Fleet 2.2L Common Rail Engine Replacement", "slug": "nissan-crew-fleet-2-2l-common-rail-engine", "subtitle": "YD22DDTi 2.2L Diesel · 102hp · 2003-2009 · Rebuilt: £1,400-£2,600", "priceRange": "£1,400-£2,600", "cta": "Compare Fleet 2.2L Common Rail Engine Prices", "engineCodes": ["YD22DDTi"], "fuel": "Diesel", "power": "102hp", "years": "2003-2009", "image": ""}], "directory": {"h3": "All Nissan Crew Variants - Engine Replacement Coverage", "intro": "A full alphabetical listing of every Nissan Crew trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.", "groups": [{"title": "Diesel Variants", "items": ["DX Base Cab", "DX Heavy Duty Idle", "GX Fleet Spec", "LX Commercial Touring", "Taxi Meter Spec", "Taxi Spec Intercooled", "Vanette Cargo Spec"]}, {"title": "Petrol Variants", "items": ["DX Standard", "DX Wagon", "LX Mid Spec", "LX Wagon", "Taxi Spec Petrol", "Wagon Executive"]}, {"title": "Performance Variants", "items": ["None available for this model."]}], "label": "Variant Directory"}, "closing": "Not sure which variant your Nissan Crew is- Enter your registration number above - we’ll identify the exact sub-model, engine code and compatible replacement options instantly.", "engineGuide": {"tag": "Engine Codes", "h2": "Nissan Crew Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Crew across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "families": [{"name": "Diesel Engines", "entries": [{"code": "CD17", "title": "1.7L Diesel", "familyHeading": "CD Series (1993-2005)", "history": "Indirect-injection diesel designed for heavy commercial duty and UK taxi use, prioritising low-end torque over outright power.", "fuel": "Diesel", "size": "1.7 Litre", "power": "68-78 hp", "years": "1993-2000", "compatibleVariants": ["DX, LX, Fleet Spec"], "commonFailures": ["Glow plug relay failure at cold starts (40k-60k miles)", "Indirect injection pump wear leading to hard starting", "Exhaust manifold cracking from sustained idle heat"], "avgRebuiltPrice": "£1,200 - £2,000", "cta": "Get quotes for CD17 Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}, {"code": "CD20", "title": "2.0L Diesel", "familyHeading": "CD Series (1993-2005)", "history": "The backbone of Crew taxi fleets, widely imported for its proven durability and straightforward mechanical injection layout.", "fuel": "Diesel", "size": "2.0 Litre", "power": "75-82 hp", "years": "1993-2005", "compatibleVariants": ["DX, LX, GX, Taxi Spec Base"], "commonFailures": ["Mechanical injection pump failure causing rough idle (50k-80k miles)", "Turbo oil seal leakage on turbo variants", "Coolant leak from head gasket under heavy commercial load"], "avgRebuiltPrice": "£1,300 - £2,300", "cta": "Get quotes for CD20 Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}, {"code": "YD22DDTi", "title": "2.2L Common Rail Diesel", "familyHeading": "YD Series (2003-2009)", "history": "Late-model common rail upgrade delivering improved Euro 3 compliance and higher torque for heavy-duty taxi operations.", "fuel": "Diesel", "size": "2.2 Litre", "power": "90-102 hp", "years": "2003-2009", "compatibleVariants": ["GX, Fleet Spec, Taxi Spec Late Model"], "commonFailures": ["EGR valve clogging leading to power loss (60k-90k miles)", "Common rail injector tip wear causing misfires", "Turbo actuator sticking from sustained soot buildup"], "avgRebuiltPrice": "£1,500 - £2,800", "cta": "Get quotes for YD22DDTi Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}]}, {"name": "Petrol Engines", "entries": [{"code": "CG13DE", "title": "1.3L Petrol", "familyHeading": "CG Series (1993-2005)", "history": "Entry-level economical unit for light commercial use, featuring a compact DOHC layout suited for urban taxi routing.", "fuel": "Petrol", "size": "1.3 Litre", "power": "80-90 hp", "years": "1993-2000", "compatibleVariants": ["DX Base, DX Wagon"], "commonFailures": ["Timing chain tensioner wear causing startup rattle (40k-60k miles)", "Valve cover gasket oil leaks from sustained idle heat", "Catalytic converter degradation on short-journey taxis"], "avgRebuiltPrice": "£900 - £1,700", "cta": "Get quotes for CG13DE Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "CG16DE", "title": "1.6L Petrol", "familyHeading": "CG Series (1993-2005)", "history": "The most common grey import Crew engine, balancing reliability, fuel economy, and straightforward servicing for commercial fleets.", "fuel": "Petrol", "size": "1.6 Litre", "power": "95-105 hp", "years": "1993-2005", "compatibleVariants": ["DX, LX, Taxi Spec Petrol, Wagon Executive"], "commonFailures": ["Timing chain stretch and guide failure (50k-80k miles)", "VVT solenoid blockage triggering check engine light (60k-90k miles)", "Ignition coil pack degradation under high-idle operation"], "avgRebuiltPrice": "£1,100 - £2,000", "cta": "Get quotes for CG16DE Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "QG18DE", "title": "1.8L Petrol", "familyHeading": "QG Series (2001-2009)", "history": "VVT-equipped late-model unit introduced to improve emissions and smooth out high-revving performance in updated Crew variants.", "fuel": "Petrol", "size": "1.8 Litre", "power": "110-120 hp", "years": "2001-2009", "compatibleVariants": ["LX, Wagon, Late Model Taxi"], "commonFailures": ["VVT actuator timing fault at high mileage (70k-100k miles)", "Fuel injector carbon buildup reducing MPG", "Oil consumption increase from worn piston rings (80k+ miles)"], "avgRebuiltPrice": "£1,200 - £2,200", "cta": "Get quotes for QG18DE Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}], "closing": "Can’t find your engine code- Enter your registration number above - we’ll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Crew engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."}, "headingLines": ["Nissan Crew Engine Replacement", "All Variants Covered"], "ui": {"fromPriceLabel": "from price", "specsLabel": "Specs", "rebuiltLabel": "Rebuilt", "yearsLabel": "Years", "yearsFallback": "Check exact year coverage by registration"}}, "engineCodes": {"tag": "Engine Codes", "h2": "Nissan Crew Engine Codes - Full Technical Specifications & Replacement Guide", "h3": "Every engine code fitted to the Nissan Crew across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.", "closingLine": "Can’t find your engine code- Enter your registration number above - we’ll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Crew engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.", "filters": ["Diesel Engines", "Petrol Engines"], "groups": [{"name": "Diesel Engines", "era": "Extracted from detailed diesel engine families across Nissan Crew variants.", "failureNote": "Main replacement triggers are timing chain wear, EGR / cooling faults and turbo-control issues.", "engines": [{"code": "CD17", "title": "1.7L Diesel", "familyHeading": "CD Series (1993-2005)", "fuel": "Diesel", "size": "1.7L", "power": "68-78 hp", "compatibleModels": "DX, LX, Fleet Spec", "avgRebuiltPrice": "£1,200 - £2,000", "cta": "Get quotes for CD17 Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}, {"code": "CD20", "title": "2.0L Diesel", "familyHeading": "CD Series (1993-2005)", "fuel": "Diesel", "size": "2.0L", "power": "75-82 hp", "compatibleModels": "DX, LX, GX, Taxi Spec Base", "avgRebuiltPrice": "£1,300 - £2,300", "cta": "Get quotes for CD20 Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}, {"code": "YD22DDTi", "title": "2.2L Common Rail Diesel", "familyHeading": "YD Series (2003-2009)", "fuel": "Diesel", "size": "2.2L", "power": "90-102 hp", "compatibleModels": "GX, Fleet Spec, Taxi Spec Late Model", "avgRebuiltPrice": "£1,500 - £2,800", "cta": "Get quotes for YD22DDTi Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"}]}, {"name": "Petrol Engines", "era": "Extracted from detailed petrol and performance engine families across Nissan Crew variants.", "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.", "engines": [{"code": "CG13DE", "title": "1.3L Petrol", "familyHeading": "CG Series (1993-2005)", "fuel": "Petrol", "size": "1.3L", "power": "80-90 hp", "compatibleModels": "DX Base, DX Wagon", "avgRebuiltPrice": "£900 - £1,700", "cta": "Get quotes for CG13DE Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "CG16DE", "title": "1.6L Petrol", "familyHeading": "CG Series (1993-2005)", "fuel": "Petrol", "size": "1.6L", "power": "95-105 hp", "compatibleModels": "DX, LX, Taxi Spec Petrol, Wagon Executive", "avgRebuiltPrice": "£1,100 - £2,000", "cta": "Get quotes for CG16DE Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}, {"code": "QG18DE", "title": "1.8L Petrol", "familyHeading": "QG Series (2001-2009)", "fuel": "Petrol", "size": "1.8L", "power": "110-120 hp", "compatibleModels": "LX, Wagon, Late Model Taxi", "avgRebuiltPrice": "£1,200 - £2,200", "cta": "Get quotes for QG18DE Nissan Crew engine replacement", "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"}]}], "headingLines": ["Nissan Crew Engine Codes", "Full Technical Specifications & Replacement Guide"], "closingAction": {"title": "Can't find your engine code-", "buttonText": "Enter Your Reg"}, "ui": {"summaryPriceLabel": "Avg. rebuilt price", "exampleImageLabel": "Example engine visual", "historyLabel": "Engine History", "variantsLabel": "Compatible Nissan Crew variants", "specsTitle": "Technical Specifications", "fuelLabel": "Fuel type", "sizeLabel": "Engine size", "powerLabel": "Power output", "yearsLabel": "Years fitted", "failuresTitle": "Common Failures", "supplyLabel": "Supply only"}}, "commonProblems": {"tag": "Common Problems", "h2": "Nissan Crew Engine Problems - What It Costs to Fix & When Replacement Makes Sense", "h3": "The Nissan Crew’s commercial taxi duty cycle places sustained idle and high-mileage stress on its CG and CD engine families. Timing chain wear on petrol units and mechanical injection failures on diesel variants dominate UK replacement enquiries. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address these original failure points - plus a minimum 12-month unlimited mileage warranty.", "problems": [{"group": "Nissan Crew Timing Chain Failure", "h4": "Nissan Crew Timing Chain Failure - Why CG-Series Engines Fail Prematurely", "affectedModels": "Nissan Crew DX, LX, Wagon (1993-2005, CG13DE & CG16DE)", "typicalFailureMileage": "50,000 - 80,000 miles", "rootCause": "Sustained idle operation in taxi duty accelerates timing chain tensioner wear and guide plastic degradation, leading to slack and premature rattle.", "repairOptions": [{"tier": "Minor - Preventative Chain Kit", "dealerPrice": "£800 - £1,200", "specialistPrice": "£600 - £900", "whatItInvolves": "Tensioner, guides, and chain replacement", "longevity": "Extends life by 30k-50k miles if caught early"}, {"tier": "Full Replacement - Rebuilt Engine", "dealerPrice": "£2,200 - £3,400", "specialistPrice": "£1,600 - £2,400", "whatItInvolves": "Supply & fit with upgraded tensioner, dyno-tested", "longevity": "Permanent solution with 12-month unlimited warranty"}], "recommendation": "If you hear a cold-start rattle that fades after 5 seconds, replace the chain kit immediately before it snaps. Once the chain skips a tooth on a CG engine, valve damage is likely and full replacement becomes more cost-effective than a repair on a commercial taxi.", "cta": "Compare rebuilt CG16DE engine prices for your Nissan Crew"}, {"group": "Nissan Crew Injector Pump Failure", "h4": "Nissan Crew Injector Pump Failure - Why CD20 Diesel Engines Struggle", "affectedModels": "Nissan Crew DX, LX, GX (1993-2005, CD20 & CD20T)", "typicalFailureMileage": "60,000 - 100,000 miles", "rootCause": "Mechanical rotary injection pump seals degrade under high-idle heat and contaminated fuel, causing poor atomisation and hard cold starts.", "repairOptions": [{"tier": "Intermediate - Pump Rebuild", "dealerPrice": "£900 - £1,400", "specialistPrice": "£650 - £1,000", "whatItInvolves": "Seal replacement, calibration, and flow testing", "longevity": "Viable if block and injectors are healthy"}, {"tier": "Full Replacement - Rebuilt Engine", "dealerPrice": "£2,400 - £3,800", "specialistPrice": "£1,700 - £2,500", "whatItInvolves": "Full CD20 swap with new pump and turbo check", "longevity": "Best value for high-mileage taxi fleets"}], "recommendation": "On a Crew worth £2,500-£4,500 as a working taxi, investing in a full rebuilt CD20 is safer than piecemeal pump repairs. A calibrated pump rebuild works well only if compression is strong and the injectors aren't already leaking.", "cta": "Get quotes for CD20 Nissan Crew diesel replacement"}, {"group": "Nissan Crew EGR Clogging", "h4": "Nissan Crew EGR Clogging - Why YD22DDTi Engines Lose Power", "affectedModels": "Nissan Crew GX, Fleet Spec (2003-2009, YD22DDTi)", "typicalFailureMileage": "70,000 - 110,000 miles", "rootCause": "Exhaust gas recirculation passages accumulate soot during prolonged urban taxi idling, restricting airflow and triggering limp mode.", "repairOptions": [{"tier": "Minor - EGR Clean & Map Update", "dealerPrice": "£350 - £600", "specialistPrice": "£250 - £450", "whatItInvolves": "Carbon removal, valve testing, ECU reset", "longevity": "Temporary fix; clogs return without route changes"}, {"tier": "Full Replacement - Rebuilt Engine", "dealerPrice": "£2,800 - £4,200", "specialistPrice": "£1,900 - £2,800", "whatItInvolves": "YD22DDTi supply & fit with updated EGR hardware", "longevity": "Permanent resolution for fleet operators"}], "recommendation": "Cleaning works as a short-term measure, but commercial taxis will see the issue recur within 15k-20k miles. If fault codes P0401 or P1320 persist after cleaning, a rebuilt YD22DDTi with revised emission hardware is the most reliable long-term investment.", "cta": "Compare YD22DDTi Nissan Crew engine prices"}, {"group": "Nissan Crew Turbo Failure", "h4": "Nissan Crew Turbo Failure - Why CD20T Engines Lose Boost", "affectedModels": "Nissan Crew Taxi Spec Turbo (1997-2005, CD20T)", "typicalFailureMileage": "80,000 - 120,000 miles", "rootCause": "Oil feed line coking from sustained idle cycles starves the turbo bearings, leading to seal failure and blue exhaust smoke under acceleration.", "repairOptions": [{"tier": "Intermediate - Turbo Replacement", "dealerPrice": "£1,100 - £1,700", "specialistPrice": "£800 - £1,300", "whatItInvolves": "Turbo swap, oil line flush, intercooler check", "longevity": "Reliable if oil feed and block are intact"}, {"tier": "Full Replacement - Rebuilt Engine", "dealerPrice": "£2,600 - £3,900", "specialistPrice": "£1,800 - £2,700", "whatItInvolves": "CD20T swap with updated oil cooler and seals", "longevity": "Recommended for taxis exceeding 100k miles"}], "recommendation": "Never ignore blue smoke at idle on a CD20T. Once bearing wear reaches a critical point, metal shavings enter the block and destroy the engine. Replacing the turbo early prevents catastrophic failure, but full engine replacement offers better fleet downtime protection.", "cta": "Get quotes for CD20T Nissan Crew turbo replacement"}], "finalCta": {"h4": "Don't Let Engine Failure Write Off Your Nissan Crew", "paragraph": "Commercial taxi and fleet operators cannot afford extended workshop downtime when common Crew engine faults escalate. EngineMarket connects you directly with vetted UK specialists who stock grey-import tested rebuilds, upgraded internal components, and certified supply & fit options. Every replacement unit includes a minimum 12-month unlimited mileage warranty, nationwide delivery, and transparent pricing that undercuts main dealer quotes.", "buttonText": "Compare Nissan Crew Engine Replacement Prices Now →", "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket’s UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Crew and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."}}, "engineTypes": {"tag": "Replacement Engine Options", "h2": "Nissan Crew Engine Types - Options, Costs & What To Expect", "intro": "Every engine type is available through our UK network with typical price ranges based on your Crew variant, engine code and commercial budget.", "types": [{"title": "Nissan Crew Reconditioned Engines (Recon)", "description": "Thoroughly inspected units with worn components replaced to restore factory performance and reliability for grey import taxis.", "frontDescription": "Thoroughly inspected units with worn components replaced to restore factory performance and reliability for grey import taxis.", "frontDisclaimer": "Ideal for fleet operators seeking verified low-mileage commercial replacements.", "backDescription": "Reconditioned engines undergo full strip, cleaning, and measurement against manufacturer tolerances. Only damaged or worn parts are replaced. Perfect for CG16DE and CD20 Crew models requiring reliable idle-duty operation without full rebuild costs.", "backBullets": ["Pressure tested oil and coolant systems", "New gaskets, seals and timing components fitted", "12-month unlimited mileage warranty included"], "priceRange": "£1,300 - £2,400 (supply only)", "cta": "Compare reconditioned Nissan Crew engine prices"}, {"title": "Nissan Crew Rebuilt Engines", "description": "Complete engine overhaul using upgraded components to address known timing chain and injection pump weaknesses.", "frontDescription": "Complete engine overhaul using upgraded components to address known timing chain and injection pump weaknesses.", "frontDisclaimer": "Best value for high-mileage commercial taxis facing recurring mechanical issues.", "backDescription": "Rebuilt units feature complete teardown, block honing, crank regrinding, and upgraded tensioners or pump seals. Bench-tested before dispatch. Specifically optimised for sustained taxi idle cycles and grey import UK compliance requirements.", "backBullets": ["Crankshaft and bearings machined to spec", "Upgraded timing kit and oil pump installed", "Dyno-tested and warranty-registered on delivery"], "priceRange": "£1,600 - £2,800 (supply only)", "cta": "Get rebuilt Nissan Crew engine quotes"}, {"title": "Nissan Crew Used Engines", "description": "Sourced from verified Japanese commercial auctions with documented idle hours and compression reports for fleet buyers.", "frontDescription": "Sourced from verified Japanese commercial auctions with documented idle hours and compression reports for fleet buyers.", "frontDisclaimer": "Budget-friendly option for working taxis requiring immediate turnaround.", "backDescription": "Used Crew engines are pulled from decommissioned Japanese taxis, tested for compression and leak-down, then shipped to the UK. Ideal for owners seeking a quick, cost-effective swap when the donor vehicle has low recorded operating hours.", "backBullets": ["Compression and leak-down reports provided", "Low idle-hour commercial fleet stock available", "Next-day delivery from verified UK importers"], "priceRange": "£800 - £1,600 (supply only)", "cta": "Check used Nissan Crew engine availability"}, {"title": "Nissan Crew Remanufactured Engines", "description": "Factory-spec restoration with all components machined or replaced to exceed original manufacturer tolerances.", "frontDescription": "Factory-spec restoration with all components machined or replaced to exceed original manufacturer tolerances.", "frontDisclaimer": "Premium solution for long-term fleet retention and ULEZ compliance assurance.", "backDescription": "Remanufactured Crew units are fully disassembled, cleaned, and rebuilt using CNC-machined parts and OEM-spec sensors. Every unit meets exact factory blueprints. Recommended for commercial operators requiring zero downtime risk over 100k+ miles.", "backBullets": ["All components machined to original specs", "New ECU, wiring and sensor harness included", "Extended commercial fleet warranty available"], "priceRange": "£2,000 - £3,500 (supply only)", "cta": "Compare remanufactured Nissan Crew engine costs"}, {"title": "Nissan Crew Refurbished Engines", "description": "Targeted component refresh focusing on common failure points like injectors, turbos and EGR valves.", "frontDescription": "Targeted component refresh focusing on common failure points like injectors, turbos and EGR valves.", "frontDisclaimer": "Quick turnaround fix for specific symptom-driven commercial repairs.", "backDescription": "Refurbished engines address specific failure patterns without full disassembly. Ideal for CD20T turbo rebuilds or YD22DDTi EGR valve refreshes. Includes replacement of high-wear commercial duty components and pressure testing.", "backBullets": ["Focuses on documented failure hotspots", "Fast turnaround for urgent commercial repairs", "Partial warranty covering replaced systems"], "priceRange": "£1,100 - £2,100 (supply only)", "cta": "View refurbished Nissan Crew engine options"}, {"title": "Nissan Crew Supply & Fit Engines", "description": "End-to-end commercial installation by UK-certified import specialists with taxi-spec mounting calibration.", "frontDescription": "End-to-end commercial installation by UK-certified import specialists with taxi-spec mounting calibration.", "frontDisclaimer": "Includes full labour, fluids, ECU coding and road test for grey import compliance.", "backDescription": "Supply & fit removes installation friction for fleet managers without access to grey import mechanics. Specialists handle mount alignment, wiring harness adaptation, and MOT emissions verification. Covers all major UK commercial hubs.", "backBullets": ["Certified import & commercial fitting network", "Includes ECU coding and emissions testing", "Nationwide booking with weekend options"], "priceRange": "£600 - £900 added to engine price", "cta": "Find Nissan Crew engine supply & fit deals"}], "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Crew within hours.", "headingLines": ["Nissan Crew Engine Types", "Options, Costs & What To Expect"], "ui": {"priceLabel": "Typical price range", "frontActionLabel": "What is it-", "backActionLabel": "Flip back"}, "closingCard": {"label": "Engine Replacement Help", "title": "Compare Nissan Crew engine prices with vetted UK suppliers", "buttonText": "Compare Nissan Crew Prices"}}, "engineSizes": {"tag": "Engine Sizes", "h2": "Nissan Crew Engines by Size - Find the Right Displacement for Your Variant", "intro": "Every displacement fitted to the Nissan Crew is listed below, with compatible engine codes, production years and common failure notes for quick replacement matching.", "groups": [{"title": "Nissan Crew Diesel Engine Sizes", "items": [{"title": "Nissan Crew 1.7L Diesel Engines", "description": "The 1.7L indirect injection diesel powered early Crew variants from launch, prioritising low-end torque and mechanical simplicity for commercial taxi duty cycles. Built to withstand sustained urban idling with straightforward servicing and high parts availability across the UK grey import network.", "engineCodes": ["CD17"], "compatibleModels": ["DX Base Cab", "LX Commercial"], "productionYears": "1993-2000", "commonFailurePoints": ["Glow plug relay failure", "injection pump wear", "head gasket stress under heavy load"], "cta": "Get quotes for Nissan Crew 1.7L diesel engines"}, {"title": "Nissan Crew 2.0L Diesel Engines", "description": "The 2.0L mechanical diesel became the backbone of UK grey import Crew fleets, offering proven durability, straightforward rotary injection systems, and strong towing capability for commercial operations. Widely favoured for its mechanical simplicity and affordable rebuild costs.", "engineCodes": ["CD20", "CD20T"], "compatibleModels": ["DX", "LX", "GX", "Taxi Spec"], "productionYears": "1993-2005", "commonFailurePoints": ["Rotary injection pump seal degradation", "turbo oil feed coking", "coolant leaks from sustained idle heat"], "cta": "Get quotes for Nissan Crew 2.0L diesel engines"}, {"title": "Nissan Crew 2.2L Diesel Engines", "description": "Introduced in 2003, the 2.2L common rail unit replaced the older CD-series in late-model fleets, delivering improved Euro 3 emissions compliance and higher torque for heavy commercial taxi duty cycles. Features electronic fuel management and revised cooling architecture.", "engineCodes": ["YD22DDTi"], "compatibleModels": ["GX Fleet Spec", "Late Model Taxi"], "productionYears": "2003-2009", "commonFailurePoints": ["EGR valve carbon clogging", "common rail injector tip wear", "turbo actuator sticking"], "cta": "Get quotes for Nissan Crew 2.2L diesel engines"}]}, {"title": "Nissan Crew Petrol Engine Sizes", "items": [{"title": "Nissan Crew 1.3L Petrol Engines", "description": "The entry-level 1.3L DOHC petrol unit was fitted to base-spec Crew cabs and wagons, offering economical urban running and compact dimensions for light commercial routing. Straightforward maintenance and low UK replacement costs make it a budget-friendly grey import choice.", "engineCodes": ["CG13DE"], "compatibleModels": ["DX Base", "DX Wagon"], "productionYears": "1993-2000", "commonFailurePoints": ["Timing chain tensioner wear", "valve cover oil leaks", "catalytic converter degradation"], "cta": "Compare Nissan Crew 1.3L petrol engine prices"}, {"title": "Nissan Crew 1.6L Petrol Engines", "description": "The most common Crew petrol engine in the UK, the 1.6L balances fuel economy with reliable high-idle performance. Equipped with a single overhead cam in early models and twin cam in later units, it remains the go-to replacement for urban taxi operators.", "engineCodes": ["CG16DE"], "compatibleModels": ["DX", "LX", "Wagon", "Taxi Spec"], "productionYears": "1993-2005", "commonFailurePoints": ["Timing chain stretch", "VVT solenoid blockage", "ignition coil degradation"], "cta": "Compare Nissan Crew 1.6L petrol engine prices"}, {"title": "Nissan Crew 1.8L Petrol Engines", "description": "The late-model 1.8L introduced VVT technology to improve mid-range torque and emissions compliance in updated Crew variants. Smoother operation and better highway efficiency make it a preferred swap for commercial operators prioritising driver comfort on longer routes.", "engineCodes": ["QG18DE"], "compatibleModels": ["LX", "Wagon Executive", "Late Model Taxi"], "productionYears": "2001-2009", "commonFailurePoints": ["VVT actuator timing faults", "fuel injector carbon buildup", "oil consumption from ring wear"], "cta": "Compare Nissan Crew 1.8L petrol engine prices"}]}], "closing": "Not sure which engine size your Nissan Crew needs- Enter your registration number above - we’ll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Crew specialists.", "headingLines": ["Nissan Crew Engines by Size", "Find the Right Displacement for Your Variant"], "ui": {"swapLabel": "Swap panel", "engineCodesLabel": "Engine Code(s)", "compatibleModelsLabel": "Compatible Models (UK)", "productionYearsLabel": "Production Years", "warningLabel": "Common Failure Points", "warningTitle": "Watch for these known weak points", "helperLabel": "Engine Size Advice", "helperTitle": "Need help matching the exact engine size-", "helperButtonText": "Find My Engine"}}, "fuelTypes": {"tag": "Fuel Type", "h2": "Nissan Crew Engines by Fuel Type", "intro": "Choose your Nissan Crew engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early DX commercial cabs to late-model GX taxi specifications.", "items": [{"title": "Nissan Crew Diesel Engines", "description": "Diesel variants dominate UK Crew replacement enquiries due to their heavy-duty idle capability, commercial fleet durability, and straightforward mechanical layouts across three generations.", "descriptor": "Diesel variants dominate UK Crew replacement enquiries due to their heavy-duty idle capability, commercial fleet durability, and straightforward mechanical layouts across three generations.", "familiesLabel": "Common Nissan Crew Diesel Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Diesel Models", "notesLabel": "", "families": ["CD17 - Early indirect injection, prone to glow plug relay wear", "CD20 - Rotary pump backbone, turbo variants suffer oil feed coking", "YD22DDTi - Common rail upgrade, EGR and injector sensitivity noted"], "foundIn": ["First Generation (1993-2000) - CD17, CD20", "Second Generation Facelift (2000-2005) - CD20, CD20T", "Late Model Commercial (2003-2009) - YD22DDTi"], "knownFor": ["Strong low-end torque for heavy taxi meter duty cycles", "Mechanical injection simplicity on early CD20 units", "EGR clogging and limp mode on late YD22DDTi fleets", "High UK replacement demand on commercial import specs"], "typicalModels": ["DX Base Diesel", "LX Commercial Diesel", "GX Fleet Spec", "Taxi Spec Intercooled", "Wagon Cargo Spec"], "importantNotes": [], "cta": "Get quotes for Nissan Crew Diesel replacement engines"}, {"title": "Nissan Crew Petrol Engines", "description": "Petrol Crew engines offer smoother high-revving operation, easier ULEZ compliance on early models, and lower rebuild costs for urban taxi routing with minimal sustained load.", "descriptor": "Petrol Crew engines offer smoother high-revving operation, easier ULEZ compliance on early models, and lower rebuild costs for urban taxi routing with minimal sustained load.", "familiesLabel": "Common Nissan Crew Petrol Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Petrol Models", "notesLabel": "", "families": ["CG13DE - Compact entry unit, timing tensioner wear documented", "CG16DE - Highest volume replacement, VVT solenoid issues common", "QG18DE - Late model refinement, carbon injector buildup noted"], "foundIn": ["Launch Generation (1993-2000) - CG13DE, CG16DE", "Mid-Generation Update (2000-2005) - CG16DE", "Final Production Run (2001-2009) - QG18DE"], "knownFor": ["Quieter cabin operation ideal for passenger taxis", "Lower commercial running costs on urban short-journey routes", "Timing chain stretch risk on sustained idle operation", "Strong parts availability across UK grey import specialists"], "typicalModels": ["DX Standard Petrol", "LX Mid Spec Petrol", "Wagon Executive", "Taxi Spec Petrol", "Base Cab Petrol"], "importantNotes": [], "cta": "Compare Nissan Crew Petrol engine prices"}], "closing": "Not sure which fuel type your Nissan Crew has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Crew specialists.", "headingLines": ["Nissan Crew Engines by Fuel Type"], "ui": {"swapLabel": "Swap panel", "familiesLabel": "Common Engine Families", "foundInLabel": "Found In", "knownForLabel": "Known For", "modelsLabel": "Typical Models (UK)", "notesLabel": "Important Notes", "closingButtonText": "Find my engine", "emptyStateTitle": "Fuel type guidance", "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."}}, "engineYears": {"tag": "Engine Years", "h2": "Nissan Crew Engines by Year - What Was Fitted & When", "intro": "The Nissan Crew production timeline spans 1993 to 2009, with this section mapping major engine changes so owners can quickly identify their unit and compare rebuilt prices from UK specialists.", "jumpLabel": "Jump to model year", "years": [{"year": "1993 - 1996", "preview": "Launch Generation Commercial Cabs", "description": "The Crew launched as a purpose-built Japanese commercial taxi and fleet vehicle, introducing compact dimensions and straightforward mechanical engines.", "keyChanges": ["Purpose-designed taxi platform with heavy-duty suspension mounts", "Introduction of CG13DE petrol and CD17 diesel base units", "DX and LX trim levels established for commercial routing", "Early emission systems tuned for Japanese urban duty cycles"], "mainEngines": ["CG13DE - 1.3 petrol (DX Base)", "CG16DE - 1.6 petrol (LX Commercial)", "CD17 - 1.7 diesel (DX Fleet Spec)"], "popularModels": ["Nissan Crew DX Base", "Nissan Crew LX Commercial", "Nissan Crew Wagon Cargo"], "knownFor": ["Robust ladder-frame chassis adapted for urban taxi duty", "Mechanical simplicity reduces workshop diagnostic complexity", "Early models require cooling system upgrades for UK sustained idle", "High parts interchangeability with Sunny and AD Van platforms"], "engineCodesCovered": ["CG13DE", "CG16DE", "CD17"], "cta": "Get quotes for 1993 Nissan Crew replacement engines", "badges": [{"label": "Major Platform Change", "tone": "accent"}], "ticker": "Nissan Crew 1993 engine replacement • CG13DE timing chain cost • CD17 injection pump failure", "enquiries": ["Nissan Crew 1993 engine replacement", "CG13DE timing chain cost", "CD17 injection pump failure"]}, {"year": "1997 - 2000", "preview": "Turbo Diesel Introduction", "description": "The addition of the CD20T turbo diesel significantly boosted commercial towing capacity, while late CG16DE updates improved idle reliability.", "keyChanges": ["CD20 and CD20T rotary injection systems adopted", "Turbo intercooler option introduced for GX fleet spec", "Revised engine mounts to handle increased commercial torque", "Late-model emissions recalibration for urban compliance"], "mainEngines": ["CG16DE - 1.6 petrol (DX/LX)", "CD20 - 2.0 diesel (GX Base)", "CD20T - 2.0 turbo diesel (Taxi Spec)"], "popularModels": ["Nissan Crew GX Fleet", "Nissan Crew Taxi Spec Turbo", "Nissan Crew DX Petrol"], "knownFor": ["CD20T turbo oil feed coking under prolonged idle duty", "Improved low-speed torque for passenger taxi loads", "Timing chain guides begin showing wear on early CG16DE units", "Strong UK grey import volume establishes aftermarket support"], "engineCodesCovered": ["CG16DE", "CD20", "CD20T"], "cta": "Compare 1997 Nissan Crew diesel engine prices", "badges": [{"label": "Major Engine Change", "tone": "accent"}], "ticker": "Nissan Crew 1997 turbo failure • CD20 injection pump cost • CG16DE rattle fix", "enquiries": ["Nissan Crew 1997 turbo failure", "CD20 injection pump cost", "CG16DE rattle fix"]}, {"year": "2001 - 2004", "preview": "VVT Petrol & Common Rail Diesel Arrival", "description": "Emissions regulations forced a platform update, introducing VVT petrol technology and the first common rail diesel for commercial fleet compliance.", "keyChanges": ["QG18DE VVT petrol engine replaces older single-cam units", "YD22DDTi common rail system introduced for late models", "Revised ECU mapping for sustained taxi idle operation", "Updated exhaust flanges and downpipe routing"], "mainEngines": ["CG16DE - 1.6 petrol (facelift variants)", "QG18DE - 1.8 petrol (late model LX)", "YD22DDTi - 2.2 common rail diesel (GX Fleet)"], "popularModels": ["Nissan Crew LX VVT", "Nissan Crew Wagon Executive", "Nissan Crew GX Common Rail"], "knownFor": ["YD22DDTi EGR sensitivity on short-journey urban routing", "QG18DE smoother high-revving improves passenger comfort", "Common rail injectors require higher fuel quality tolerance", "Wiring harness upgrades accommodate updated sensor arrays"], "engineCodesCovered": ["CG16DE", "QG18DE", "YD22DDTi"], "cta": "Enquire about 2001 Nissan Crew engine availability", "badges": [{"label": "Technology Change", "tone": "accent"}], "ticker": "Nissan Crew 2003 EGR fault • YD22DDTi power loss • QG18DE VVT solenoid", "enquiries": ["Nissan Crew 2003 EGR fault", "YD22DDTi power loss", "QG18DE VVT solenoid"]}, {"year": "2005 - 2009", "preview": "Final Production & Euro 3 Compliance", "description": "The final Crew generation focused heavily on Euro 3 emissions compliance, refined cooling architecture, and documented service history for commercial export.", "keyChanges": ["Final cooling system revisions to prevent sustained idle overheating", "Standardised OBD2 diagnostics across all fuel types", "Late-model turbo bearing materials upgraded on CD20T", "Production concludes in 2009 with documented low-mileage exports"], "mainEngines": ["CG16DE - 1.6 petrol (final spec)", "QG18DE - 1.8 petrol (executive trim)", "YD22DDTi - 2.2 diesel (fleet compliance)"], "popularModels": ["Nissan Crew Late Model Taxi", "Nissan Crew GX Fleet Euro 3", "Nissan Crew Wagon Export Spec"], "knownFor": ["Lower UK replacement demand due to limited late import volume", "Improved head gasket durability on sustained commercial load", "ECU coding complexity requires specialist grey import knowledge", "Premium pricing on documented idle-hour verified stock"], "engineCodesCovered": ["CG16DE", "QG18DE", "YD22DDTi"], "cta": "Get quotes for 2005 Nissan Crew final spec engines", "badges": [{"label": "Technology Change", "tone": "accent"}], "enquiries": []}], "closing": "Not sure which year your Nissan Crew was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Crew specialists.", "headingLines": ["Nissan Crew Engines by Year", "What Was Fitted & When"], "ui": {"keyChangesLabel": "Key Changes", "knownForLabel": "Known For", "mainEnginesLabel": "Main Engines", "popularModelsLabel": "Popular Models", "engineCodesLabel": "Engine Codes Covered", "enquiriesLabel": "Common Replacement Enquiries"}, "summaryCta": {"label": "Year Finder", "title": "Not sure which year your Nissan Crew was built-", "buttonText": "Find My Engine"}}, "faq": {"tag": "FAQ", "h2": "Nissan Crew Engine Replacement - Frequently Asked Questions", "intro": "", "items": [{"question": "How much does a Nissan Crew engine replacement cost UK taxi-", "answer": "A Nissan Crew engine replacement typically costs between £900 and £2,800 for supply-only rebuilt units, depending on engine code and commercial duty specifications. Supply & fit packages average £1,500 to £3,500 including labour, ECU coding, and emissions verification. Grey import specialists offer the most competitive rates for fleet operators.", "keyPoints": ["CD20 and YD22DDTi diesel units sit at the higher price range", "Petrol CG16DE replacements are generally £100-£300 cheaper", "Commercial supply & fit adds £600-£900 for certified installation", "Prices exclude ancillary parts like mounts or custom wiring"], "cta": "Compare rebuilt Nissan Crew engine prices today"}, {"question": "How do I find my Nissan Crew engine code taxi-", "answer": "Your Nissan Crew engine code is stamped on the block near the oil filter housing or transmission bellhousing, and matches the compliance plate under the bonnet. Cross-reference with your DVLA registration check or chassis VIN to confirm CG, CD, QG or YD series codes before ordering.", "keyPoints": ["Located on driver-side block face or cylinder head casting", "DVLA registration lookup provides exact factory code instantly", "CG16DE, CD20, YD22DDTi are the most common UK codes", "Never rely on model badge alone for commercial swap compatibility"], "cta": "Verify your Nissan Crew engine code instantly"}, {"question": "Will a Nissan Crew engine fit my variant taxi-", "answer": "Yes, but only if the replacement matches your variant’s mounting points, transmission bellhousing pattern, and ECU calibration. Grey import specialists verify CG-series petrol and CD-series diesel compatibility before dispatch to prevent costly commercial fitting errors.", "keyPoints": ["DX/LX mounts differ from GX heavy-duty commercial brackets", "Automatic and manual bellhousings require exact code matching", "ECU coding must align with taxi meter and emission systems", "Professional fitment verification prevents mid-installation delays"], "cta": "Check Nissan Crew engine compatibility for your variant"}, {"question": "What’s the difference between rebuilt and used Nissan Crew engines-", "answer": "Rebuilt engines are stripped, measured, and fitted with new internal components to address known failure points, while used engines are pulled from decommissioned Japanese taxis and sold as-tested. Rebuilt units include upgraded tensioners, seals, and a 12-month warranty for commercial fleets.", "keyPoints": ["Rebuilt engines feature machined blocks and new timing components", "Used engines rely on original compression and idle-hour logs", "Rebuilt costs £400-£800 more but eliminate premature failures", "Used options suit budget operators needing immediate turnaround"], "cta": "View rebuilt vs used Nissan Crew engine options"}, {"question": "How long does Nissan Crew engine delivery take UK commercial-", "answer": "Standard rebuilt engine delivery takes 3-5 working days across the UK, with next-day dispatch available for urgent fleet breakdowns from specialist import stockists. Supply & fit bookings require an additional 1-2 days for local commercial mechanic scheduling.", "keyPoints": ["Next-day shipping available for stocked CD20 and CG16DE units", "Rural commercial locations may add 24-48 hours transit time", "Weekend fitting slots available for urgent taxi downtime", "Delivery tracking provided for all grey import stock movements"], "cta": "Check Nissan Crew engine delivery times now"}, {"question": "Does Nissan Crew engine replacement include warranty UK taxi-", "answer": "Yes, every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty, valid for UK-registered grey import commercial and taxi vehicles. Coverage includes parts and labour for manufacturing defects, excluding wear items and improper installation.", "keyPoints": ["Warranty activates on delivery and requires registration within 14 days", "Covers commercial duty cycles and sustained idle operation", "Labour claims require certified specialist installation records", "Extended fleet warranty available for multi-vehicle operators"], "cta": "Confirm Nissan Crew engine warranty terms today"}, {"question": "Can I supply and fit a Nissan Crew engine myself UK commercial-", "answer": "DIY fitting is technically possible but strongly discouraged due to grey import wiring adaptation, ECU coding requirements, and commercial vehicle compliance inspections. Incorrect installation voids warranties and risks MOT failure on emission systems.", "keyPoints": ["Requires specialised grey import diagnostic tools and coding software", "Engine mount alignment differs from standard UK passenger vehicles", "Emissions certification needed for commercial taxi licensing", "Professional fitting ensures warranty validity and road legality"], "cta": "Find certified Nissan Crew engine fitting specialists"}, {"question": "What if my Nissan Crew engine fails after replacement UK taxi-", "answer": "If your replacement engine fails within the warranty period, contact your supplying specialist immediately for diagnostic assessment and parts coverage. EngineMarket facilitates direct communication with vetted UK garages to process warranty claims and minimise fleet downtime.", "keyPoints": ["Report symptoms and fault codes within 24 hours of occurrence", "Keep all service invoices and oil specification records", "Warranty covers internal mechanical defects, not external damage", "Replacement or repair arranged through original supplier network"], "cta": "Claim Nissan Crew engine warranty support today"}, {"question": "Is a Nissan Crew engine replacement ULEZ compliant UK commercial-", "answer": "Early CG16DE petrol and CD20 diesel variants generally meet Euro 2 and Euro 3 standards respectively, making them ULEZ compliant for London commercial taxis. Always verify exact engine codes and emissions certificates before urban routing to avoid congestion charges.", "keyPoints": ["Petrol engines pre-2005 typically meet Euro 2 requirements", "Diesel YD22DDTi units comply with Euro 3 urban standards", "Compliance badges included on verified replacement stock", "TfL emissions checker requires exact engine code verification"], "cta": "Verify Nissan Crew ULEZ compliance instantly"}, {"question": "How do I compare Nissan Crew engine quotes UK taxi-", "answer": "Enter your registration number on EngineMarket to receive instant, side-by-side quotes from vetted UK specialists for rebuilt, reconditioned, and used Nissan Crew engines. Filter by supply-only or full fitment, warranty length, and commercial turnaround time to find the best value.", "keyPoints": ["Comparison tool pulls live pricing from 100+ verified suppliers", "Filters allow sorting by engine code, condition, and delivery speed", "Transparent pricing includes all commercial fitting add-ons", "No obligation quotes provided within 2 hours for fleet operators"], "cta": "Compare Nissan Crew engine quotes from UK specialists"}], "headingLines": ["Nissan Crew Engine Replacement", "Frequently Asked Questions"], "defaultOpenIndex": 0, "ui": {"questionLabelPrefix": "Question", "keyPointsLabel": "Key points", "warningTitle": "Check fitment and engine condition before ordering"}}, "trustCta": {"tag": "Why Choose Us", "h2": "Why UK Nissan Crew Owners Trust EngineMarket", "intro": "Join thousands of UK drivers who compare Nissan Crew engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.", "points": [{"title": "Trusted Nissan Crew Engine Suppliers", "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Crew owners."}, {"title": "Compare Nissan Crew Engine Replacement Companies", "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."}, {"title": "UK Engine Replacement Services for Nissan Crew", "description": "Covering every variant from base DX to GX fleet spec, with supply-only or full supply & fit available nationwide."}], "finalText": "Find the best Nissan Crew engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.", "buttonText": "Compare Nissan Crew Engine Prices Now →", "secondaryAction": {"text": "Call Our Experts", "href": "tel:03330000044"}, "imageAlt": "Nissan Crew vehicle", "ui": {"pointLabel": "Included", "stripLabel": "Trusted UK Engine Marketplace", "stripTitle": "Compare Nissan Crew engine prices with vetted UK specialists", "trustBullets": ["100% Free", "No Obligation", "Fast & secure process", "UK-based support"], "imageBadgeLabel": "Trusted supplier network", "imageBadgeTitle": "Warranty-backed rebuilt & used options", "imageBadgeText": "Every quote checked for fitment, quality and lead time."}}}}
+{
+  "brand": {
+    "name": "Nissan",
+    "slug": "nissan",
+    "tone": "premium"
+  },
+  "model": {
+    "name": "Nissan Crew",
+    "slug": "crew",
+    "legacySlug": "nissan-crew"
+  },
+  "seo": {
+    "title": "Nissan Crew Engine Replacement - Compare Prices UK",
+    "description": "Nissan Crew engine replacement cost guide. Compare rebuilt, reconditioned & used engine prices from £900. 12-month warranty & UK supply fit specialists.",
+    "canonical": "/nissan/crew"
+  },
+  "assets": {
+    "mainImage": "/images/brands/nissan/models/nissan-crew-model-card.png",
+    "smallImage": "/images/brands/nissan/models/nissan-crew-model-card.png",
+    "heroBg": "/images/brands/nissan/models/nissan-crew-model-card.png",
+    "howItWorksBg": "/images/brands/nissan/brand/nissan-how-it-works-bg.webp",
+    "engineCodesBg": "/images/brands/nissan/brand/nissan-engine-codes-bg.webp",
+    "engineTypesBg": "/images/brands/nissan/brand/nissan-engine-types-bg.webp",
+    "engineSizesBg": "/images/brands/nissan/brand/nissan-engine-sizes-bg.webp",
+    "fuelTypesBg": "/images/brands/nissan/brand/nissan-fuel-types-bg.webp",
+    "ctaImage": "/images/brands/nissan/models/nissan-crew-model-card.png"
+  },
+  "sections": {
+    "hero": {
+      "tag": "NISSAN CREW ENGINE MARKETPLACE",
+      "h1": "Nissan Crew Engine Replacement - Compare Prices & Save",
+      "subheading": "Get quotes today from trusted UK Nissan Crew engine specialists. Compare prices on reconditioned, rebuilt and used engines - supply & fit available nationwide.",
+      "trustBadges": [
+        "Supply & Fit Available",
+        "12-Month Warranty",
+        "Nationwide Delivery",
+        "100+ Suppliers"
+      ],
+      "ctaLinkText": "Get Free Nissan Crew Engine Quotes →",
+      "supportingText": "Get tailored Nissan Crew engine quotes from vetted UK specialists.",
+      "ticker": "● Instant Quotes · No Obligation · 100% Free · Reconditioned · Rebuilt · Used · Supply & Fit Available · UK-Wide Network",
+      "form": {
+        "heading": "Find Your Nissan Crew Engine",
+        "subtitle": "Enter your registration number to compare Nissan Crew engine options.",
+        "inputPlaceholder": "Enter Reg (e.g. AB12 CDE)",
+        "buttonText": "Get Free Nissan Crew Engine Quotes →",
+        "note": "🔒 Secure enquiry - no spam, no pressure. Genuine quotes only from vetted UK Nissan Crew specialists."
+      },
+      "imageAlt": "Nissan Crew engine replacement UK - compare reconditioned and rebuilt engine prices",
+      "highlights": [
+        {
+          "title": "Crew Diesel Engines",
+          "price": "from £1,200 to £2,800",
+          "line1": "Crew Diesel Engines - from £1,200 to £2,800",
+          "line2": "-> Rebuilt units from £1,200 · Common codes: CD20, CD20T, YD22DDTi",
+          "detail": "-> Rebuilt units from £1,200 · Common codes: CD20, CD20T, YD22DDTi",
+          "image": "",
+          "imageAlt": "Nissan Crew diesel engine replacement - CD20 YD22DDTi rebuilt reconditioned UK"
+        },
+        {
+          "title": "Crew Petrol Engines",
+          "price": "from £1,100 to £2,400",
+          "line1": "Crew Petrol Engines - from £1,100 to £2,400",
+          "line2": "-> Rebuilt units from £1,100 · Common codes: CG13DE, CG16DE, QG18DE",
+          "detail": "-> Rebuilt units from £1,100 · Common codes: CG13DE, CG16DE, QG18DE",
+          "image": "",
+          "imageAlt": "Nissan Crew petrol engine replacement - CG16DE QG18DE rebuilt reconditioned UK"
+        },
+        {
+          "title": "Crew Commercial Duty Engines",
+          "price": "from £1,400 to £2,600",
+          "line1": "Crew Commercial Duty Engines - from £1,400 to £2,600",
+          "line2": "-> Rebuilt units from £1,400 · Common codes: CD17, CG13DE, CD20",
+          "detail": "-> Rebuilt units from £1,400 · Common codes: CD17, CG13DE, CD20",
+          "image": "",
+          "imageAlt": "Nissan Crew commercial engine replacement - CD17 CG13DE rebuilt reconditioned UK"
+        }
+      ],
+      "headingLines": [
+        "Nissan Crew Engine Replacement",
+        "Compare Prices & Save"
+      ],
+      "mobileBar": {
+        "brandText": "ENGINEMARKET",
+        "callLabel": "Call",
+        "quoteLabel": "GET QUOTES"
+      },
+      "registrationInput": {
+        "label": "Enter your vehicle registration",
+        "platePlaceholder": "AB12 CDE",
+        "countryCode": "UK",
+        "countryLabel": "United Kingdom"
+      }
+    },
+    "howItWorks": {
+      "tag": "How It Works",
+      "h2": "3 Simple Steps to Finding the Best Nissan Crew Replacement Engine",
+      "cards": [
+        {
+          "number": 1,
+          "icon": "registration",
+          "front": {
+            "h3": "Enter Your Nissan Crew Registration",
+            "text": "Instantly verify your exact model, engine code and fuel type via DVLA - DX to GX Taxi Spec."
+          },
+          "back": {
+            "heading": "Your Car, Precisely Identified",
+            "text": "Engines Market uses the official DVLA database to pull accurate details about your Crew , not just model name.",
+            "bullets": [
+              "Your Precise Model - from DX, LX, GX, Taxi Spec to Wagon variants",
+              "Your Engine Code - CG16DE, CD20, YD22DDTi, QG18DE and more",
+              "Vehicle Specs Check - fuel type, engine size, year, variant - all verified instantly",
+              "No paperwork, no guesswork, 100% free."
+            ]
+          }
+        },
+        {
+          "number": 2,
+          "icon": "quote",
+          "front": {
+            "h3": "Get Quotes from Nissan Engine Specialists",
+            "text": "Same-day quotes from vetted UK suppliers - full breakdown, no obligation."
+          },
+          "back": {
+            "heading": "Quotes You Can Trust",
+            "text": "Your verified details are securely shared with up to 10 of our most relevant UK suppliers, matched to your variant and location.",
+            "bullets": [
+              "Vetted UK Suppliers - specialists who understand Nissan diesel and petrol engines",
+              "Same-Day Quotes - usually within hours, not days",
+              "Supply & Fit Service - or supply-only to your own garage",
+              "Full Breakdown - price, warranty length, delivery estimate and fitting cost all shown clearly",
+              "No hidden fees. No sales calls unless you approve."
+            ]
+          }
+        },
+        {
+          "number": 3,
+          "icon": "shield",
+          "front": {
+            "h3": "Choose the Best Deal & Save",
+            "text": "Compare supplier reviews, warranty and price - then pick the right one for you."
+          },
+          "back": {
+            "heading": "Your Choice, Your Control",
+            "text": "You decide which specialist to go with. We simply make the search fast, safe and transparent.",
+            "bullets": [
+              "Online Reviews - read real customer feedback",
+              "Warranty Length - minimum 12 months, often 24 months on rebuilt units",
+              "Terms of Service - including collection, fitting and aftercare",
+              "Technical Expertise - see each supplier's Nissan experience",
+              "You deal directly with your chosen provider. No pressure, no commitment until you're ready."
+            ]
+          }
+        }
+      ],
+      "tagline": "",
+      "headingLines": [
+        "3 Simple Steps",
+        "to Finding the Best Nissan Crew Replacement Engine"
+      ],
+      "ui": {
+        "stepLabel": "Step",
+        "desktopClosedLabel": "Click to expand",
+        "desktopOpenLabel": "Click to view details",
+        "mobileOpenLabel": "Tap to flip",
+        "mobileCloseLabel": "Tap to flip back",
+        "footerNote": "Most replacements completed within 3-5 days.",
+        "mobileTrustItems": [
+          "12-Month Warranty",
+          "Supply & Fit Available",
+          "Nationwide Delivery",
+          "Trusted UK Suppliers"
+        ]
+      }
+    },
+    "liveMarketPrices": {
+      "tag": "Live UK Engine Market Data",
+      "h2": "What Are UK Drivers Paying for Nissan Crew Engine Replacement-",
+      "h3": "The table below shows typical UK rebuilt engine costs across Nissan Crew variants - compare failure causes, engine codes, fuel types, and price ranges to benchmark what UK drivers are paying.",
+      "introBullets": [
+        {
+          "label": "Live market context",
+          "text": "See realistic rebuilt-engine quote ranges across documented Nissan Crew variants."
+        },
+        {
+          "label": "Variant specific",
+          "text": "Each row highlights the exact variant, failure trigger, engine code and fuel type behind replacement demand."
+        },
+        {
+          "label": "Specialist pricing",
+          "text": "These figures reflect the independent UK engine supplier and rebuilder market rather than main dealer replacement costs."
+        },
+        {
+          "label": "Quote benchmark",
+          "text": "Use the feed to benchmark your own enquiry before comparing live quotes for your registration."
+        }
+      ],
+      "cta": {
+        "heading": "Benchmark your own Nissan Crew quote",
+        "text": "Use these recent enquiry ranges to understand the market, then compare tailored quotes for your exact Nissan Crew engine code.",
+        "buttonText": "Compare My Nissan Crew Engine",
+        "note": "Prices vary by engine code, variant, damage severity, mileage, supplier stock and whether you need supply-only or supply and fit."
+      },
+      "badges": [
+        "7 recent enquiries visible",
+        "Typical rebuilt market ranges",
+        "Engine-code matched rows",
+        "UK specialist network"
+      ],
+      "feed": {
+        "isDynamic": false,
+        "rowsCount": 7,
+        "columns": [
+          "Year",
+          "Model",
+          "Engine Code",
+          "Fuel",
+          "Avg. Quoted Price",
+          "Reported Issue"
+        ],
+        "timestampLabel": "Last Updated",
+        "refreshLabel": "Refresh feed",
+        "density": "premium",
+        "visibleRows": 7,
+        "entries": [
+          {
+            "Year": "1993-2000",
+            "Model": "Nissan Crew (1993-2000) DX 1.6 Petrol",
+            "Engine Code": "CG16DE",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£950-£1,800",
+            "Reported Issue": "Timing chain rattle"
+          },
+          {
+            "Year": "1993-2000",
+            "Model": "Nissan Crew (1993-2000) GX 2.0 Diesel",
+            "Engine Code": "CD20",
+            "Fuel": "Diesel 2.0L",
+            "Avg. Quoted Price": "£1,100-£2,100",
+            "Reported Issue": "Injector pump failure"
+          },
+          {
+            "Year": "2000-2009",
+            "Model": "Nissan Crew (2000-2009) LX 1.6 Petrol",
+            "Engine Code": "CG16DE",
+            "Fuel": "Petrol 1.6L",
+            "Avg. Quoted Price": "£1,000-£1,900",
+            "Reported Issue": "VVT solenoid fault"
+          },
+          {
+            "Year": "2000-2005",
+            "Model": "Nissan Crew (2000-2009) Taxi Spec 2.0D",
+            "Engine Code": "CD20T",
+            "Fuel": "Diesel 2.0L",
+            "Avg. Quoted Price": "£1,300-£2,400",
+            "Reported Issue": "EGR valve clogging"
+          },
+          {
+            "Year": "2003-2009",
+            "Model": "Nissan Crew (2003-2009) Fleet 2.2 Diesel",
+            "Engine Code": "YD22DDTi",
+            "Fuel": "Diesel 2.2L",
+            "Avg. Quoted Price": "£1,400-£2,600",
+            "Reported Issue": "Turbo seal wear"
+          },
+          {
+            "Year": "1995-2000",
+            "Model": "Nissan Crew (1995-2000) Wagon 1.3L",
+            "Engine Code": "CG13DE",
+            "Fuel": "Petrol 1.3L",
+            "Avg. Quoted Price": "£900-£1,600",
+            "Reported Issue": "Oil sludge buildup"
+          },
+          {
+            "Year": "1997-2003",
+            "Model": "Nissan Crew (1997-2003) Base 1.7 Diesel",
+            "Engine Code": "CD17",
+            "Fuel": "Diesel 1.7L",
+            "Avg. Quoted Price": "£1,200-£2,200",
+            "Reported Issue": "Cold start relay fault"
+          }
+        ]
+      },
+      "headingLines": [
+        "What Are UK Drivers Paying for Nissan Crew Engine Replacement-"
+      ],
+      "imageAlt": "Nissan Crew replacement engines UK - reconditioned engines for Qashqai J11, Qashqai J10, X-Trail T31 and Juke F15 models with M9R 2.0 dCi from £1,500-£2,800, HR16DE 1.6 from £900-£1,800 and MR20DE 2.0 from £1,000-£2,000",
+      "filterTabs": [
+        {
+          "key": "all",
+          "label": "All",
+          "matchers": []
+        },
+        {
+          "key": "nissan-crew-dx-1-6l-diesel-engine",
+          "label": "Nissan Crew DX 1.6L Diesel",
+          "matchers": [
+            "nissan crew dx 1.6l diesel",
+            "nissan crew dx 1 6l diesel engine"
+          ]
+        },
+        {
+          "key": "nissan-crew-lx-2-0l-diesel-engine",
+          "label": "Nissan Crew LX 2.0L Diesel",
+          "matchers": [
+            "nissan crew lx 2.0l diesel",
+            "nissan crew lx 2 0l diesel engine"
+          ]
+        },
+        {
+          "key": "nissan-crew-gx-2-2l-diesel-engine",
+          "label": "Nissan Crew GX 2.2L Diesel",
+          "matchers": [
+            "nissan crew gx 2.2l diesel",
+            "nissan crew gx 2 2l diesel engine"
+          ]
+        },
+        {
+          "key": "nissan-crew-dx-1-6l-petrol-engine",
+          "label": "Nissan Crew DX 1.6L Petrol",
+          "matchers": [
+            "nissan crew dx 1.6l petrol",
+            "nissan crew dx 1 6l petrol engine"
+          ]
+        },
+        {
+          "key": "nissan-crew-lx-1-6l-petrol-engine",
+          "label": "Nissan Crew LX 1.6L Petrol",
+          "matchers": [
+            "nissan crew lx 1.6l petrol",
+            "nissan crew lx 1 6l petrol engine"
+          ]
+        },
+        {
+          "key": "nissan-crew-wagon-1-8l-petrol-engine",
+          "label": "Nissan Crew Wagon 1.8L Petrol",
+          "matchers": [
+            "nissan crew wagon 1.8l petrol",
+            "nissan crew wagon 1 8l petrol engine"
+          ]
+        },
+        {
+          "key": "nissan-crew-taxi-spec-2-0d-turbo-engine",
+          "label": "Nissan Crew Taxi Spec 2.0D Turbo",
+          "matchers": [
+            "nissan crew taxi spec 2.0d turbo",
+            "nissan crew taxi spec 2 0d turbo engine"
+          ]
+        },
+        {
+          "key": "nissan-crew-fleet-2-2l-common-rail-engine",
+          "label": "Nissan Crew Fleet 2.2L Common Rail",
+          "matchers": [
+            "nissan crew fleet 2.2l common rail",
+            "nissan crew fleet 2 2l common rail engine"
+          ]
+        }
+      ],
+      "ui": {
+        "showingSingleLabel": "entry",
+        "showingPluralLabel": "entries",
+        "acrossAllLabel": "across all models",
+        "noEntriesLabel": "No entries match that model filter yet.",
+        "updatedLabel": "Last updated:",
+        "ctaLabel": "Live Quote Benchmark"
+      },
+      "imageSrc": "/images/brand-wcu/Nissan-engines-replacement-UK.webp"
+    },
+    "reviews": {
+      "tag": "Customer Reviews",
+      "h2": "Trusted by Nissan Crew Owners Across the UK",
+      "rating": {
+        "value": 4.8,
+        "count": 0,
+        "summary": "",
+        "basedOn": ""
+      },
+      "reviews": [],
+      "leaveReviewCta": {
+        "text": "",
+        "linkText": "Leave a review ->"
+      }
+    },
+    "variantCoverage": {
+      "tag": "Models We Cover",
+      "h2": "Nissan Crew Engine Replacement - All Variants Covered",
+      "subheading": "From economical DX fleet cabs to premium GX taxi specifications, our network of UK Nissan Crew engine specialists helps you compare rebuilt, reconditioned and used engine prices. Typical price range for a rebuilt unit with 12-month warranty - supply & fit available nationwide.",
+      "groups": [
+        {
+          "title": "Core Diesel Range",
+          "cardSlugs": [
+            "nissan-crew-dx-1-6l-diesel-engine",
+            "nissan-crew-lx-2-0l-diesel-engine",
+            "nissan-crew-gx-2-2l-diesel-engine"
+          ]
+        },
+        {
+          "title": "Core Petrol Range",
+          "cardSlugs": [
+            "nissan-crew-dx-1-6l-petrol-engine",
+            "nissan-crew-lx-1-6l-petrol-engine",
+            "nissan-crew-wagon-1-8l-petrol-engine"
+          ]
+        },
+        {
+          "title": "Commercial & Fleet Variants",
+          "cardSlugs": [
+            "nissan-crew-taxi-spec-2-0d-turbo-engine",
+            "nissan-crew-fleet-2-2l-common-rail-engine"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "h3": "Nissan Crew DX 1.6L Diesel Engine Replacement",
+          "slug": "nissan-crew-dx-1-6l-diesel-engine",
+          "subtitle": "CD17 1.7L Diesel ? 78hp ? 1993-2000",
+          "priceRange": "£900-£1,600",
+          "cta": "Compare DX 1.6L Diesel Engine Prices",
+          "engineCodes": [
+            "CD17"
+          ],
+          "fuel": "Diesel",
+          "power": "78hp",
+          "years": "1993-2000",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Crew LX 2.0L Diesel Engine Replacement",
+          "slug": "nissan-crew-lx-2-0l-diesel-engine",
+          "subtitle": "CD20 2.0L Diesel ? 82hp ? 2000-2005",
+          "priceRange": "£1,100-£1,900",
+          "cta": "Compare LX 2.0L Diesel Engine Prices",
+          "engineCodes": [
+            "CD20"
+          ],
+          "fuel": "Diesel",
+          "power": "82hp",
+          "years": "2000-2005",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Crew GX 2.2L Diesel Engine Replacement",
+          "slug": "nissan-crew-gx-2-2l-diesel-engine",
+          "subtitle": "YD22DDTi 2.2L Diesel · 102hp · 2003-2009 · Rebuilt: £1,400-£2,600",
+          "priceRange": "£1,400-£2,600",
+          "cta": "Compare GX 2.2L Diesel Engine Prices",
+          "engineCodes": [
+            "YD22DDTi"
+          ],
+          "fuel": "Diesel",
+          "power": "102hp",
+          "years": "2003-2009",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Crew DX 1.6L Petrol Engine Replacement",
+          "slug": "nissan-crew-dx-1-6l-petrol-engine",
+          "subtitle": "CG16DE 1.6L Petrol ? 105hp ? 1993-2000",
+          "priceRange": "£950-£1,800",
+          "cta": "Compare DX 1.6L Petrol Engine Prices",
+          "engineCodes": [
+            "CG16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "105hp",
+          "years": "1993-2000",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Crew LX 1.6L Petrol Engine Replacement",
+          "slug": "nissan-crew-lx-1-6l-petrol-engine",
+          "subtitle": "CG16DE 1.6L Petrol ? 105hp ? 2000-2005",
+          "priceRange": "£1,000-£1,900",
+          "cta": "Compare LX 1.6L Petrol Engine Prices",
+          "engineCodes": [
+            "CG16DE"
+          ],
+          "fuel": "Petrol",
+          "power": "105hp",
+          "years": "2000-2005",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Crew Wagon 1.8L Petrol Engine Replacement",
+          "slug": "nissan-crew-wagon-1-8l-petrol-engine",
+          "subtitle": "QG18DE 1.8L Petrol ? 120hp ? 2005-2009",
+          "priceRange": "£1,150-£2,100",
+          "cta": "Compare Wagon 1.8L Petrol Engine Prices",
+          "engineCodes": [
+            "QG18DE"
+          ],
+          "fuel": "Petrol",
+          "power": "120hp",
+          "years": "2005-2009",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Crew Taxi Spec 2.0D Turbo Engine Replacement",
+          "slug": "nissan-crew-taxi-spec-2-0d-turbo-engine",
+          "subtitle": "CD20T 2.0L Diesel ? 105hp ? 1997-2005",
+          "priceRange": "£1,300-£2,400",
+          "cta": "Compare Taxi Spec 2.0D Engine Prices",
+          "engineCodes": [
+            "CD20T"
+          ],
+          "fuel": "Diesel",
+          "power": "105hp",
+          "years": "1997-2005",
+          "image": ""
+        },
+        {
+          "h3": "Nissan Crew Fleet 2.2L Common Rail Engine Replacement",
+          "slug": "nissan-crew-fleet-2-2l-common-rail-engine",
+          "subtitle": "YD22DDTi 2.2L Diesel · 102hp · 2003-2009 · Rebuilt: £1,400-£2,600",
+          "priceRange": "£1,400-£2,600",
+          "cta": "Compare Fleet 2.2L Common Rail Engine Prices",
+          "engineCodes": [
+            "YD22DDTi"
+          ],
+          "fuel": "Diesel",
+          "power": "102hp",
+          "years": "2003-2009",
+          "image": ""
+        }
+      ],
+      "directory": {
+        "h3": "All Nissan Crew Variants - Engine Replacement Coverage",
+        "intro": "A full alphabetical listing of every Nissan Crew trim covered by our network. All entries link to a dedicated variant page, where prices are further broken down by engine code, model year, and condition type. Click a live link to compare quotes.",
+        "groups": [
+          {
+            "title": "Diesel Variants",
+            "items": [
+              "DX Base Cab",
+              "DX Heavy Duty Idle",
+              "GX Fleet Spec",
+              "LX Commercial Touring",
+              "Taxi Meter Spec",
+              "Taxi Spec Intercooled",
+              "Vanette Cargo Spec"
+            ]
+          },
+          {
+            "title": "Petrol Variants",
+            "items": [
+              "DX Standard",
+              "DX Wagon",
+              "LX Mid Spec",
+              "LX Wagon",
+              "Taxi Spec Petrol",
+              "Wagon Executive"
+            ]
+          },
+          {
+            "title": "Performance Variants",
+            "items": [
+              "None available for this model."
+            ]
+          }
+        ],
+        "label": "Variant Directory"
+      },
+      "closing": "Not sure which variant your Nissan Crew is- Enter your registration number above - we’ll identify the exact sub-model, engine code and compatible replacement options instantly.",
+      "engineGuide": {
+        "tag": "Engine Codes",
+        "h2": "Nissan Crew Engine Codes - Full Technical Specifications & Replacement Guide",
+        "h3": "Every engine code fitted to the Nissan Crew across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+        "families": [
+          {
+            "name": "Diesel Engines",
+            "entries": [
+              {
+                "code": "CD17",
+                "title": "1.7L Diesel",
+                "familyHeading": "CD Series (1993-2005)",
+                "history": "Indirect-injection diesel designed for heavy commercial duty and UK taxi use, prioritising low-end torque over outright power.",
+                "fuel": "Diesel",
+                "size": "1.7 Litre",
+                "power": "68-78 hp",
+                "years": "1993-2000",
+                "compatibleVariants": [
+                  "DX, LX, Fleet Spec"
+                ],
+                "commonFailures": [
+                  "Glow plug relay failure at cold starts (40k-60k miles)",
+                  "Indirect injection pump wear leading to hard starting",
+                  "Exhaust manifold cracking from sustained idle heat"
+                ],
+                "avgRebuiltPrice": "£1,200 - £2,000",
+                "cta": "Get quotes for CD17 Nissan Crew engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+              },
+              {
+                "code": "CD20",
+                "title": "2.0L Diesel",
+                "familyHeading": "CD Series (1993-2005)",
+                "history": "The backbone of Crew taxi fleets, widely imported for its proven durability and straightforward mechanical injection layout.",
+                "fuel": "Diesel",
+                "size": "2.0 Litre",
+                "power": "75-82 hp",
+                "years": "1993-2005",
+                "compatibleVariants": [
+                  "DX, LX, GX, Taxi Spec Base"
+                ],
+                "commonFailures": [
+                  "Mechanical injection pump failure causing rough idle (50k-80k miles)",
+                  "Turbo oil seal leakage on turbo variants",
+                  "Coolant leak from head gasket under heavy commercial load"
+                ],
+                "avgRebuiltPrice": "£1,300 - £2,300",
+                "cta": "Get quotes for CD20 Nissan Crew engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+              },
+              {
+                "code": "YD22DDTi",
+                "title": "2.2L Common Rail Diesel",
+                "familyHeading": "YD Series (2003-2009)",
+                "history": "Late-model common rail upgrade delivering improved Euro 3 compliance and higher torque for heavy-duty taxi operations.",
+                "fuel": "Diesel",
+                "size": "2.2 Litre",
+                "power": "90-102 hp",
+                "years": "2003-2009",
+                "compatibleVariants": [
+                  "GX, Fleet Spec, Taxi Spec Late Model"
+                ],
+                "commonFailures": [
+                  "EGR valve clogging leading to power loss (60k-90k miles)",
+                  "Common rail injector tip wear causing misfires",
+                  "Turbo actuator sticking from sustained soot buildup"
+                ],
+                "avgRebuiltPrice": "£1,500 - £2,800",
+                "cta": "Get quotes for YD22DDTi Nissan Crew engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+              }
+            ]
+          },
+          {
+            "name": "Petrol Engines",
+            "entries": [
+              {
+                "code": "CG13DE",
+                "title": "1.3L Petrol",
+                "familyHeading": "CG Series (1993-2005)",
+                "history": "Entry-level economical unit for light commercial use, featuring a compact DOHC layout suited for urban taxi routing.",
+                "fuel": "Petrol",
+                "size": "1.3 Litre",
+                "power": "80-90 hp",
+                "years": "1993-2000",
+                "compatibleVariants": [
+                  "DX Base, DX Wagon"
+                ],
+                "commonFailures": [
+                  "Timing chain tensioner wear causing startup rattle (40k-60k miles)",
+                  "Valve cover gasket oil leaks from sustained idle heat",
+                  "Catalytic converter degradation on short-journey taxis"
+                ],
+                "avgRebuiltPrice": "£900 - £1,700",
+                "cta": "Get quotes for CG13DE Nissan Crew engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "CG16DE",
+                "title": "1.6L Petrol",
+                "familyHeading": "CG Series (1993-2005)",
+                "history": "The most common grey import Crew engine, balancing reliability, fuel economy, and straightforward servicing for commercial fleets.",
+                "fuel": "Petrol",
+                "size": "1.6 Litre",
+                "power": "95-105 hp",
+                "years": "1993-2005",
+                "compatibleVariants": [
+                  "DX, LX, Taxi Spec Petrol, Wagon Executive"
+                ],
+                "commonFailures": [
+                  "Timing chain stretch and guide failure (50k-80k miles)",
+                  "VVT solenoid blockage triggering check engine light (60k-90k miles)",
+                  "Ignition coil pack degradation under high-idle operation"
+                ],
+                "avgRebuiltPrice": "£1,100 - £2,000",
+                "cta": "Get quotes for CG16DE Nissan Crew engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              },
+              {
+                "code": "QG18DE",
+                "title": "1.8L Petrol",
+                "familyHeading": "QG Series (2001-2009)",
+                "history": "VVT-equipped late-model unit introduced to improve emissions and smooth out high-revving performance in updated Crew variants.",
+                "fuel": "Petrol",
+                "size": "1.8 Litre",
+                "power": "110-120 hp",
+                "years": "2001-2009",
+                "compatibleVariants": [
+                  "LX, Wagon, Late Model Taxi"
+                ],
+                "commonFailures": [
+                  "VVT actuator timing fault at high mileage (70k-100k miles)",
+                  "Fuel injector carbon buildup reducing MPG",
+                  "Oil consumption increase from worn piston rings (80k+ miles)"
+                ],
+                "avgRebuiltPrice": "£1,200 - £2,200",
+                "cta": "Get quotes for QG18DE Nissan Crew engine replacement",
+                "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+              }
+            ]
+          }
+        ],
+        "closing": "Can’t find your engine code- Enter your registration number above - we’ll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Crew engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."
+      },
+      "headingLines": [
+        "Nissan Crew Engine Replacement",
+        "All Variants Covered"
+      ],
+      "ui": {
+        "fromPriceLabel": "from price",
+        "specsLabel": "Specs",
+        "rebuiltLabel": "Rebuilt",
+        "yearsLabel": "Years",
+        "yearsFallback": "Check exact year coverage by registration"
+      }
+    },
+    "engineCodes": {
+      "tag": "Engine Codes",
+      "h2": "Nissan Crew Engine Codes - Full Technical Specifications & Replacement Guide",
+      "h3": "Every engine code fitted to the Nissan Crew across all generations, with technical specs, compatible variants and trims, known failure points, and average rebuilt prices from UK specialists. Select any engine code to compare quotes.",
+      "closingLine": "Can’t find your engine code- Enter your registration number above - we’ll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Nissan Crew engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty.",
+      "filters": [
+        "Diesel Engines",
+        "Petrol Engines"
+      ],
+      "groups": [
+        {
+          "name": "Diesel Engines",
+          "era": "Extracted from detailed diesel engine families across Nissan Crew variants.",
+          "failureNote": "Main replacement triggers are timing chain wear, EGR / cooling faults and turbo-control issues.",
+          "engines": [
+            {
+              "code": "CD17",
+              "title": "1.7L Diesel",
+              "familyHeading": "CD Series (1993-2005)",
+              "fuel": "Diesel",
+              "size": "1.7L",
+              "power": "68-78 hp",
+              "compatibleModels": "DX, LX, Fleet Spec",
+              "avgRebuiltPrice": "£1,200 - £2,000",
+              "cta": "Get quotes for CD17 Nissan Crew engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+            },
+            {
+              "code": "CD20",
+              "title": "2.0L Diesel",
+              "familyHeading": "CD Series (1993-2005)",
+              "fuel": "Diesel",
+              "size": "2.0L",
+              "power": "75-82 hp",
+              "compatibleModels": "DX, LX, GX, Taxi Spec Base",
+              "avgRebuiltPrice": "£1,300 - £2,300",
+              "cta": "Get quotes for CD20 Nissan Crew engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+            },
+            {
+              "code": "YD22DDTi",
+              "title": "2.2L Common Rail Diesel",
+              "familyHeading": "YD Series (2003-2009)",
+              "fuel": "Diesel",
+              "size": "2.2L",
+              "power": "90-102 hp",
+              "compatibleModels": "GX, Fleet Spec, Taxi Spec Late Model",
+              "avgRebuiltPrice": "£1,500 - £2,800",
+              "cta": "Get quotes for YD22DDTi Nissan Crew engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-aj20d6-engine.webp"
+            }
+          ]
+        },
+        {
+          "name": "Petrol Engines",
+          "era": "Extracted from detailed petrol and performance engine families across Nissan Crew variants.",
+          "failureNote": "Main replacement demand comes from timing-chain, cooling-system and performance thermal-management faults.",
+          "engines": [
+            {
+              "code": "CG13DE",
+              "title": "1.3L Petrol",
+              "familyHeading": "CG Series (1993-2005)",
+              "fuel": "Petrol",
+              "size": "1.3L",
+              "power": "80-90 hp",
+              "compatibleModels": "DX Base, DX Wagon",
+              "avgRebuiltPrice": "£900 - £1,700",
+              "cta": "Get quotes for CG13DE Nissan Crew engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "CG16DE",
+              "title": "1.6L Petrol",
+              "familyHeading": "CG Series (1993-2005)",
+              "fuel": "Petrol",
+              "size": "1.6L",
+              "power": "95-105 hp",
+              "compatibleModels": "DX, LX, Taxi Spec Petrol, Wagon Executive",
+              "avgRebuiltPrice": "£1,100 - £2,000",
+              "cta": "Get quotes for CG16DE Nissan Crew engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            },
+            {
+              "code": "QG18DE",
+              "title": "1.8L Petrol",
+              "familyHeading": "QG Series (2001-2009)",
+              "fuel": "Petrol",
+              "size": "1.8L",
+              "power": "110-120 hp",
+              "compatibleModels": "LX, Wagon, Late Model Taxi",
+              "avgRebuiltPrice": "£1,200 - £2,200",
+              "cta": "Get quotes for QG18DE Nissan Crew engine replacement",
+              "image": "/images/brands/land-rover/engines/land-rover-508pn-engine.webp"
+            }
+          ]
+        }
+      ],
+      "headingLines": [
+        "Nissan Crew Engine Codes",
+        "Full Technical Specifications & Replacement Guide"
+      ],
+      "closingAction": {
+        "title": "Can't find your engine code-",
+        "buttonText": "Enter Your Reg"
+      },
+      "ui": {
+        "summaryPriceLabel": "Avg. rebuilt price",
+        "exampleImageLabel": "Example engine visual",
+        "historyLabel": "Engine History",
+        "variantsLabel": "Compatible Nissan Crew variants",
+        "specsTitle": "Technical Specifications",
+        "fuelLabel": "Fuel type",
+        "sizeLabel": "Engine size",
+        "powerLabel": "Power output",
+        "yearsLabel": "Years fitted",
+        "failuresTitle": "Common Failures",
+        "supplyLabel": "Supply only"
+      }
+    },
+    "commonProblems": {
+      "tag": "Common Problems",
+      "h2": "Nissan Crew Engine Problems - What It Costs to Fix & When Replacement Makes Sense",
+      "h3": "The Nissan Crew’s commercial taxi duty cycle places sustained idle and high-mileage stress on its CG and CD engine families. Timing chain wear on petrol units and mechanical injection failures on diesel variants dominate UK replacement enquiries. Every rebuilt engine supplied through EngineMarket includes upgraded internal components designed to address these original failure points - plus a minimum 12-month unlimited mileage warranty.",
+      "problems": [
+        {
+          "group": "Nissan Crew Timing Chain Failure",
+          "h4": "Nissan Crew Timing Chain Failure - Why CG-Series Engines Fail Prematurely",
+          "affectedModels": "Nissan Crew DX, LX, Wagon (1993-2005, CG13DE & CG16DE)",
+          "typicalFailureMileage": "50,000 - 80,000 miles",
+          "rootCause": "Sustained idle operation in taxi duty accelerates timing chain tensioner wear and guide plastic degradation, leading to slack and premature rattle.",
+          "repairOptions": [
+            {
+              "tier": "Minor - Preventative Chain Kit",
+              "dealerPrice": "£800 - £1,200",
+              "specialistPrice": "£600 - £900",
+              "whatItInvolves": "Tensioner, guides, and chain replacement",
+              "longevity": "Extends life by 30k-50k miles if caught early"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt Engine",
+              "dealerPrice": "£2,200 - £3,400",
+              "specialistPrice": "£1,600 - £2,400",
+              "whatItInvolves": "Supply & fit with upgraded tensioner, dyno-tested",
+              "longevity": "Permanent solution with 12-month unlimited warranty"
+            }
+          ],
+          "recommendation": "If you hear a cold-start rattle that fades after 5 seconds, replace the chain kit immediately before it snaps. Once the chain skips a tooth on a CG engine, valve damage is likely and full replacement becomes more cost-effective than a repair on a commercial taxi.",
+          "cta": "Compare rebuilt CG16DE engine prices for your Nissan Crew"
+        },
+        {
+          "group": "Nissan Crew Injector Pump Failure",
+          "h4": "Nissan Crew Injector Pump Failure - Why CD20 Diesel Engines Struggle",
+          "affectedModels": "Nissan Crew DX, LX, GX (1993-2005, CD20 & CD20T)",
+          "typicalFailureMileage": "60,000 - 100,000 miles",
+          "rootCause": "Mechanical rotary injection pump seals degrade under high-idle heat and contaminated fuel, causing poor atomisation and hard cold starts.",
+          "repairOptions": [
+            {
+              "tier": "Intermediate - Pump Rebuild",
+              "dealerPrice": "£900 - £1,400",
+              "specialistPrice": "£650 - £1,000",
+              "whatItInvolves": "Seal replacement, calibration, and flow testing",
+              "longevity": "Viable if block and injectors are healthy"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt Engine",
+              "dealerPrice": "£2,400 - £3,800",
+              "specialistPrice": "£1,700 - £2,500",
+              "whatItInvolves": "Full CD20 swap with new pump and turbo check",
+              "longevity": "Best value for high-mileage taxi fleets"
+            }
+          ],
+          "recommendation": "On a Crew worth £2,500-£4,500 as a working taxi, investing in a full rebuilt CD20 is safer than piecemeal pump repairs. A calibrated pump rebuild works well only if compression is strong and the injectors aren't already leaking.",
+          "cta": "Get quotes for CD20 Nissan Crew diesel replacement"
+        },
+        {
+          "group": "Nissan Crew EGR Clogging",
+          "h4": "Nissan Crew EGR Clogging - Why YD22DDTi Engines Lose Power",
+          "affectedModels": "Nissan Crew GX, Fleet Spec (2003-2009, YD22DDTi)",
+          "typicalFailureMileage": "70,000 - 110,000 miles",
+          "rootCause": "Exhaust gas recirculation passages accumulate soot during prolonged urban taxi idling, restricting airflow and triggering limp mode.",
+          "repairOptions": [
+            {
+              "tier": "Minor - EGR Clean & Map Update",
+              "dealerPrice": "£350 - £600",
+              "specialistPrice": "£250 - £450",
+              "whatItInvolves": "Carbon removal, valve testing, ECU reset",
+              "longevity": "Temporary fix; clogs return without route changes"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt Engine",
+              "dealerPrice": "£2,800 - £4,200",
+              "specialistPrice": "£1,900 - £2,800",
+              "whatItInvolves": "YD22DDTi supply & fit with updated EGR hardware",
+              "longevity": "Permanent resolution for fleet operators"
+            }
+          ],
+          "recommendation": "Cleaning works as a short-term measure, but commercial taxis will see the issue recur within 15k-20k miles. If fault codes P0401 or P1320 persist after cleaning, a rebuilt YD22DDTi with revised emission hardware is the most reliable long-term investment.",
+          "cta": "Compare YD22DDTi Nissan Crew engine prices"
+        },
+        {
+          "group": "Nissan Crew Turbo Failure",
+          "h4": "Nissan Crew Turbo Failure - Why CD20T Engines Lose Boost",
+          "affectedModels": "Nissan Crew Taxi Spec Turbo (1997-2005, CD20T)",
+          "typicalFailureMileage": "80,000 - 120,000 miles",
+          "rootCause": "Oil feed line coking from sustained idle cycles starves the turbo bearings, leading to seal failure and blue exhaust smoke under acceleration.",
+          "repairOptions": [
+            {
+              "tier": "Intermediate - Turbo Replacement",
+              "dealerPrice": "£1,100 - £1,700",
+              "specialistPrice": "£800 - £1,300",
+              "whatItInvolves": "Turbo swap, oil line flush, intercooler check",
+              "longevity": "Reliable if oil feed and block are intact"
+            },
+            {
+              "tier": "Full Replacement - Rebuilt Engine",
+              "dealerPrice": "£2,600 - £3,900",
+              "specialistPrice": "£1,800 - £2,700",
+              "whatItInvolves": "CD20T swap with updated oil cooler and seals",
+              "longevity": "Recommended for taxis exceeding 100k miles"
+            }
+          ],
+          "recommendation": "Never ignore blue smoke at idle on a CD20T. Once bearing wear reaches a critical point, metal shavings enter the block and destroy the engine. Replacing the turbo early prevents catastrophic failure, but full engine replacement offers better fleet downtime protection.",
+          "cta": "Get quotes for CD20T Nissan Crew turbo replacement"
+        }
+      ],
+      "finalCta": {
+        "h4": "Don't Let Engine Failure Write Off Your Nissan Crew",
+        "paragraph": "Commercial taxi and fleet operators cannot afford extended workshop downtime when common Crew engine faults escalate. EngineMarket connects you directly with vetted UK specialists who stock grey-import tested rebuilds, upgraded internal components, and certified supply & fit options. Every replacement unit includes a minimum 12-month unlimited mileage warranty, nationwide delivery, and transparent pricing that undercuts main dealer quotes.",
+        "buttonText": "Compare Nissan Crew Engine Replacement Prices Now →",
+        "disclaimer": "All prices are indicative UK market ranges based on historical quote data and repair requests from our network of engine specialists. Dealer pricing is estimated based on published main dealer labour rates and genuine OEM parts pricing. Specialist pricing reflects actual quote data from EngineMarket’s UK network. Actual costs vary depending on damage severity, vehicle condition, variant, and workshop location within the UK. Use our free comparison tool to get tailored quotes for your specific Nissan Crew and engine code. Every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty - always confirm exact terms with your chosen supplier."
+      }
+    },
+    "engineTypes": {
+      "tag": "Replacement Engine Options",
+      "h2": "Nissan Crew Engine Types - Options, Costs & What To Expect",
+      "intro": "Every engine type is available through our UK network with typical price ranges based on your Crew variant, engine code and commercial budget.",
+      "types": [
+        {
+          "title": "Nissan Crew Reconditioned Engines (Recon)",
+          "description": "Thoroughly inspected units with worn components replaced to restore factory performance and reliability for grey import taxis.",
+          "frontDescription": "Thoroughly inspected units with worn components replaced to restore factory performance and reliability for grey import taxis.",
+          "frontDisclaimer": "Ideal for fleet operators seeking verified low-mileage commercial replacements.",
+          "backDescription": "Reconditioned engines undergo full strip, cleaning, and measurement against manufacturer tolerances. Only damaged or worn parts are replaced. Perfect for CG16DE and CD20 Crew models requiring reliable idle-duty operation without full rebuild costs.",
+          "backBullets": [
+            "Pressure tested oil and coolant systems",
+            "New gaskets, seals and timing components fitted",
+            "12-month unlimited mileage warranty included"
+          ],
+          "priceRange": "£1,300 - £2,400 (supply only)",
+          "cta": "Compare reconditioned Nissan Crew engine prices"
+        },
+        {
+          "title": "Nissan Crew Rebuilt Engines",
+          "description": "Complete engine overhaul using upgraded components to address known timing chain and injection pump weaknesses.",
+          "frontDescription": "Complete engine overhaul using upgraded components to address known timing chain and injection pump weaknesses.",
+          "frontDisclaimer": "Best value for high-mileage commercial taxis facing recurring mechanical issues.",
+          "backDescription": "Rebuilt units feature complete teardown, block honing, crank regrinding, and upgraded tensioners or pump seals. Bench-tested before dispatch. Specifically optimised for sustained taxi idle cycles and grey import UK compliance requirements.",
+          "backBullets": [
+            "Crankshaft and bearings machined to spec",
+            "Upgraded timing kit and oil pump installed",
+            "Dyno-tested and warranty-registered on delivery"
+          ],
+          "priceRange": "£1,600 - £2,800 (supply only)",
+          "cta": "Get rebuilt Nissan Crew engine quotes"
+        },
+        {
+          "title": "Nissan Crew Used Engines",
+          "description": "Sourced from verified Japanese commercial auctions with documented idle hours and compression reports for fleet buyers.",
+          "frontDescription": "Sourced from verified Japanese commercial auctions with documented idle hours and compression reports for fleet buyers.",
+          "frontDisclaimer": "Budget-friendly option for working taxis requiring immediate turnaround.",
+          "backDescription": "Used Crew engines are pulled from decommissioned Japanese taxis, tested for compression and leak-down, then shipped to the UK. Ideal for owners seeking a quick, cost-effective swap when the donor vehicle has low recorded operating hours.",
+          "backBullets": [
+            "Compression and leak-down reports provided",
+            "Low idle-hour commercial fleet stock available",
+            "Next-day delivery from verified UK importers"
+          ],
+          "priceRange": "£800 - £1,600 (supply only)",
+          "cta": "Check used Nissan Crew engine availability"
+        },
+        {
+          "title": "Nissan Crew Remanufactured Engines",
+          "description": "Factory-spec restoration with all components machined or replaced to exceed original manufacturer tolerances.",
+          "frontDescription": "Factory-spec restoration with all components machined or replaced to exceed original manufacturer tolerances.",
+          "frontDisclaimer": "Premium solution for long-term fleet retention and ULEZ compliance assurance.",
+          "backDescription": "Remanufactured Crew units are fully disassembled, cleaned, and rebuilt using CNC-machined parts and OEM-spec sensors. Every unit meets exact factory blueprints. Recommended for commercial operators requiring zero downtime risk over 100k+ miles.",
+          "backBullets": [
+            "All components machined to original specs",
+            "New ECU, wiring and sensor harness included",
+            "Extended commercial fleet warranty available"
+          ],
+          "priceRange": "£2,000 - £3,500 (supply only)",
+          "cta": "Compare remanufactured Nissan Crew engine costs"
+        },
+        {
+          "title": "Nissan Crew Refurbished Engines",
+          "description": "Targeted component refresh focusing on common failure points like injectors, turbos and EGR valves.",
+          "frontDescription": "Targeted component refresh focusing on common failure points like injectors, turbos and EGR valves.",
+          "frontDisclaimer": "Quick turnaround fix for specific symptom-driven commercial repairs.",
+          "backDescription": "Refurbished engines address specific failure patterns without full disassembly. Ideal for CD20T turbo rebuilds or YD22DDTi EGR valve refreshes. Includes replacement of high-wear commercial duty components and pressure testing.",
+          "backBullets": [
+            "Focuses on documented failure hotspots",
+            "Fast turnaround for urgent commercial repairs",
+            "Partial warranty covering replaced systems"
+          ],
+          "priceRange": "£1,100 - £2,100 (supply only)",
+          "cta": "View refurbished Nissan Crew engine options"
+        },
+        {
+          "title": "Nissan Crew Supply & Fit Engines",
+          "description": "End-to-end commercial installation by UK-certified import specialists with taxi-spec mounting calibration.",
+          "frontDescription": "End-to-end commercial installation by UK-certified import specialists with taxi-spec mounting calibration.",
+          "frontDisclaimer": "Includes full labour, fluids, ECU coding and road test for grey import compliance.",
+          "backDescription": "Supply & fit removes installation friction for fleet managers without access to grey import mechanics. Specialists handle mount alignment, wiring harness adaptation, and MOT emissions verification. Covers all major UK commercial hubs.",
+          "backBullets": [
+            "Certified import & commercial fitting network",
+            "Includes ECU coding and emissions testing",
+            "Nationwide booking with weekend options"
+          ],
+          "priceRange": "£600 - £900 added to engine price",
+          "cta": "Find Nissan Crew engine supply & fit deals"
+        }
+      ],
+      "closing": "All engine types include a minimum 12-month unlimited mileage warranty when sourced through EngineMarket. Prices are typical UK market ranges based on historical quote data from our network and depend on exact engine code, variant, mileage and supplier. Use our free comparison tool above - enter your registration to get tailored quotes for your specific Nissan Crew within hours.",
+      "headingLines": [
+        "Nissan Crew Engine Types",
+        "Options, Costs & What To Expect"
+      ],
+      "ui": {
+        "priceLabel": "Typical price range",
+        "frontActionLabel": "What is it-",
+        "backActionLabel": "Flip back"
+      },
+      "closingCard": {
+        "label": "Engine Replacement Help",
+        "title": "Compare Nissan Crew engine prices with vetted UK suppliers",
+        "buttonText": "Compare Nissan Crew Prices"
+      }
+    },
+    "engineSizes": {
+      "tag": "Engine Sizes",
+      "h2": "Nissan Crew Engines by Size - Find the Right Displacement for Your Variant",
+      "intro": "Every displacement fitted to the Nissan Crew is listed below, with compatible engine codes, production years and common failure notes for quick replacement matching.",
+      "groups": [
+        {
+          "title": "Nissan Crew Diesel Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Crew 1.7L Diesel Engines",
+              "description": "The 1.7L indirect injection diesel powered early Crew variants from launch, prioritising low-end torque and mechanical simplicity for commercial taxi duty cycles. Built to withstand sustained urban idling with straightforward servicing and high parts availability across the UK grey import network.",
+              "engineCodes": [
+                "CD17"
+              ],
+              "compatibleModels": [
+                "DX Base Cab",
+                "LX Commercial"
+              ],
+              "productionYears": "1993-2000",
+              "commonFailurePoints": [
+                "Glow plug relay failure",
+                "injection pump wear",
+                "head gasket stress under heavy load"
+              ],
+              "cta": "Get quotes for Nissan Crew 1.7L diesel engines"
+            },
+            {
+              "title": "Nissan Crew 2.0L Diesel Engines",
+              "description": "The 2.0L mechanical diesel became the backbone of UK grey import Crew fleets, offering proven durability, straightforward rotary injection systems, and strong towing capability for commercial operations. Widely favoured for its mechanical simplicity and affordable rebuild costs.",
+              "engineCodes": [
+                "CD20",
+                "CD20T"
+              ],
+              "compatibleModels": [
+                "DX",
+                "LX",
+                "GX",
+                "Taxi Spec"
+              ],
+              "productionYears": "1993-2005",
+              "commonFailurePoints": [
+                "Rotary injection pump seal degradation",
+                "turbo oil feed coking",
+                "coolant leaks from sustained idle heat"
+              ],
+              "cta": "Get quotes for Nissan Crew 2.0L diesel engines"
+            },
+            {
+              "title": "Nissan Crew 2.2L Diesel Engines",
+              "description": "Introduced in 2003, the 2.2L common rail unit replaced the older CD-series in late-model fleets, delivering improved Euro 3 emissions compliance and higher torque for heavy commercial taxi duty cycles. Features electronic fuel management and revised cooling architecture.",
+              "engineCodes": [
+                "YD22DDTi"
+              ],
+              "compatibleModels": [
+                "GX Fleet Spec",
+                "Late Model Taxi"
+              ],
+              "productionYears": "2003-2009",
+              "commonFailurePoints": [
+                "EGR valve carbon clogging",
+                "common rail injector tip wear",
+                "turbo actuator sticking"
+              ],
+              "cta": "Get quotes for Nissan Crew 2.2L diesel engines"
+            }
+          ]
+        },
+        {
+          "title": "Nissan Crew Petrol Engine Sizes",
+          "items": [
+            {
+              "title": "Nissan Crew 1.3L Petrol Engines",
+              "description": "The entry-level 1.3L DOHC petrol unit was fitted to base-spec Crew cabs and wagons, offering economical urban running and compact dimensions for light commercial routing. Straightforward maintenance and low UK replacement costs make it a budget-friendly grey import choice.",
+              "engineCodes": [
+                "CG13DE"
+              ],
+              "compatibleModels": [
+                "DX Base",
+                "DX Wagon"
+              ],
+              "productionYears": "1993-2000",
+              "commonFailurePoints": [
+                "Timing chain tensioner wear",
+                "valve cover oil leaks",
+                "catalytic converter degradation"
+              ],
+              "cta": "Compare Nissan Crew 1.3L petrol engine prices"
+            },
+            {
+              "title": "Nissan Crew 1.6L Petrol Engines",
+              "description": "The most common Crew petrol engine in the UK, the 1.6L balances fuel economy with reliable high-idle performance. Equipped with a single overhead cam in early models and twin cam in later units, it remains the go-to replacement for urban taxi operators.",
+              "engineCodes": [
+                "CG16DE"
+              ],
+              "compatibleModels": [
+                "DX",
+                "LX",
+                "Wagon",
+                "Taxi Spec"
+              ],
+              "productionYears": "1993-2005",
+              "commonFailurePoints": [
+                "Timing chain stretch",
+                "VVT solenoid blockage",
+                "ignition coil degradation"
+              ],
+              "cta": "Compare Nissan Crew 1.6L petrol engine prices"
+            },
+            {
+              "title": "Nissan Crew 1.8L Petrol Engines",
+              "description": "The late-model 1.8L introduced VVT technology to improve mid-range torque and emissions compliance in updated Crew variants. Smoother operation and better highway efficiency make it a preferred swap for commercial operators prioritising driver comfort on longer routes.",
+              "engineCodes": [
+                "QG18DE"
+              ],
+              "compatibleModels": [
+                "LX",
+                "Wagon Executive",
+                "Late Model Taxi"
+              ],
+              "productionYears": "2001-2009",
+              "commonFailurePoints": [
+                "VVT actuator timing faults",
+                "fuel injector carbon buildup",
+                "oil consumption from ring wear"
+              ],
+              "cta": "Compare Nissan Crew 1.8L petrol engine prices"
+            }
+          ]
+        }
+      ],
+      "closing": "Not sure which engine size your Nissan Crew needs- Enter your registration number above - we’ll identify the exact displacement, engine code and compatible replacement options instantly. All engines supplied through EngineMarket include a minimum 12-month unlimited mileage warranty from UK Nissan Crew specialists.",
+      "headingLines": [
+        "Nissan Crew Engines by Size",
+        "Find the Right Displacement for Your Variant"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "engineCodesLabel": "Engine Code(s)",
+        "compatibleModelsLabel": "Compatible Models (UK)",
+        "productionYearsLabel": "Production Years",
+        "warningLabel": "Common Failure Points",
+        "warningTitle": "Watch for these known weak points",
+        "helperLabel": "Engine Size Advice",
+        "helperTitle": "Need help matching the exact engine size-",
+        "helperButtonText": "Find My Engine"
+      }
+    },
+    "fuelTypes": {
+      "tag": "Fuel Type",
+      "h2": "Nissan Crew Engines by Fuel Type",
+      "intro": "Choose your Nissan Crew engine by fuel type to compare realistic replacement prices, known issues, and compatible UK supply options - from early DX commercial cabs to late-model GX taxi specifications.",
+      "items": [
+        {
+          "title": "Nissan Crew Diesel Engines",
+          "description": "Diesel variants dominate UK Crew replacement enquiries due to their heavy-duty idle capability, commercial fleet durability, and straightforward mechanical layouts across three generations.",
+          "descriptor": "Diesel variants dominate UK Crew replacement enquiries due to their heavy-duty idle capability, commercial fleet durability, and straightforward mechanical layouts across three generations.",
+          "familiesLabel": "Common Nissan Crew Diesel Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Diesel Models",
+          "notesLabel": "",
+          "families": [
+            "CD17 - Early indirect injection, prone to glow plug relay wear",
+            "CD20 - Rotary pump backbone, turbo variants suffer oil feed coking",
+            "YD22DDTi - Common rail upgrade, EGR and injector sensitivity noted"
+          ],
+          "foundIn": [
+            "First Generation (1993-2000) - CD17, CD20",
+            "Second Generation Facelift (2000-2005) - CD20, CD20T",
+            "Late Model Commercial (2003-2009) - YD22DDTi"
+          ],
+          "knownFor": [
+            "Strong low-end torque for heavy taxi meter duty cycles",
+            "Mechanical injection simplicity on early CD20 units",
+            "EGR clogging and limp mode on late YD22DDTi fleets",
+            "High UK replacement demand on commercial import specs"
+          ],
+          "typicalModels": [
+            "DX Base Diesel",
+            "LX Commercial Diesel",
+            "GX Fleet Spec",
+            "Taxi Spec Intercooled",
+            "Wagon Cargo Spec"
+          ],
+          "importantNotes": [],
+          "cta": "Get quotes for Nissan Crew Diesel replacement engines"
+        },
+        {
+          "title": "Nissan Crew Petrol Engines",
+          "description": "Petrol Crew engines offer smoother high-revving operation, easier ULEZ compliance on early models, and lower rebuild costs for urban taxi routing with minimal sustained load.",
+          "descriptor": "Petrol Crew engines offer smoother high-revving operation, easier ULEZ compliance on early models, and lower rebuild costs for urban taxi routing with minimal sustained load.",
+          "familiesLabel": "Common Nissan Crew Petrol Engine Families",
+          "foundInLabel": "Found In",
+          "knownForLabel": "Known For",
+          "modelsLabel": "Typical Petrol Models",
+          "notesLabel": "",
+          "families": [
+            "CG13DE - Compact entry unit, timing tensioner wear documented",
+            "CG16DE - Highest volume replacement, VVT solenoid issues common",
+            "QG18DE - Late model refinement, carbon injector buildup noted"
+          ],
+          "foundIn": [
+            "Launch Generation (1993-2000) - CG13DE, CG16DE",
+            "Mid-Generation Update (2000-2005) - CG16DE",
+            "Final Production Run (2001-2009) - QG18DE"
+          ],
+          "knownFor": [
+            "Quieter cabin operation ideal for passenger taxis",
+            "Lower commercial running costs on urban short-journey routes",
+            "Timing chain stretch risk on sustained idle operation",
+            "Strong parts availability across UK grey import specialists"
+          ],
+          "typicalModels": [
+            "DX Standard Petrol",
+            "LX Mid Spec Petrol",
+            "Wagon Executive",
+            "Taxi Spec Petrol",
+            "Base Cab Petrol"
+          ],
+          "importantNotes": [],
+          "cta": "Compare Nissan Crew Petrol engine prices"
+        }
+      ],
+      "closing": "Not sure which fuel type your Nissan Crew has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Nissan Crew specialists.",
+      "headingLines": [
+        "Nissan Crew Engines by Fuel Type"
+      ],
+      "ui": {
+        "swapLabel": "Swap panel",
+        "familiesLabel": "Common Engine Families",
+        "foundInLabel": "Found In",
+        "knownForLabel": "Known For",
+        "modelsLabel": "Typical Models (UK)",
+        "notesLabel": "Important Notes",
+        "closingButtonText": "Find my engine",
+        "emptyStateTitle": "Fuel type guidance",
+        "emptyStateDescription": "Detailed fuel-type content is being standardised across all brand pages. You can still use the registration form above to identify the correct engine and matching replacement options."
+      }
+    },
+    "engineYears": {
+      "tag": "Engine Years",
+      "h2": "Nissan Crew Engines by Year - What Was Fitted & When",
+      "intro": "The Nissan Crew production timeline spans 1993 to 2009, with this section mapping major engine changes so owners can quickly identify their unit and compare rebuilt prices from UK specialists.",
+      "jumpLabel": "Jump to model year",
+      "years": [
+        {
+          "year": "1993 - 1996",
+          "preview": "Launch Generation Commercial Cabs",
+          "description": "The Crew launched as a purpose-built Japanese commercial taxi and fleet vehicle, introducing compact dimensions and straightforward mechanical engines.",
+          "keyChanges": [
+            "Purpose-designed taxi platform with heavy-duty suspension mounts",
+            "Introduction of CG13DE petrol and CD17 diesel base units",
+            "DX and LX trim levels established for commercial routing",
+            "Early emission systems tuned for Japanese urban duty cycles"
+          ],
+          "mainEngines": [
+            "CG13DE - 1.3 petrol (DX Base)",
+            "CG16DE - 1.6 petrol (LX Commercial)",
+            "CD17 - 1.7 diesel (DX Fleet Spec)"
+          ],
+          "popularModels": [
+            "Nissan Crew DX Base",
+            "Nissan Crew LX Commercial",
+            "Nissan Crew Wagon Cargo"
+          ],
+          "knownFor": [
+            "Robust ladder-frame chassis adapted for urban taxi duty",
+            "Mechanical simplicity reduces workshop diagnostic complexity",
+            "Early models require cooling system upgrades for UK sustained idle",
+            "High parts interchangeability with Sunny and AD Van platforms"
+          ],
+          "engineCodesCovered": [
+            "CG13DE",
+            "CG16DE",
+            "CD17"
+          ],
+          "cta": "Get quotes for 1993 Nissan Crew replacement engines",
+          "badges": [
+            {
+              "label": "Major Platform Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan Crew 1993 engine replacement • CG13DE timing chain cost • CD17 injection pump failure",
+          "enquiries": [
+            "Nissan Crew 1993 engine replacement",
+            "CG13DE timing chain cost",
+            "CD17 injection pump failure"
+          ]
+        },
+        {
+          "year": "1997 - 2000",
+          "preview": "Turbo Diesel Introduction",
+          "description": "The addition of the CD20T turbo diesel significantly boosted commercial towing capacity, while late CG16DE updates improved idle reliability.",
+          "keyChanges": [
+            "CD20 and CD20T rotary injection systems adopted",
+            "Turbo intercooler option introduced for GX fleet spec",
+            "Revised engine mounts to handle increased commercial torque",
+            "Late-model emissions recalibration for urban compliance"
+          ],
+          "mainEngines": [
+            "CG16DE - 1.6 petrol (DX/LX)",
+            "CD20 - 2.0 diesel (GX Base)",
+            "CD20T - 2.0 turbo diesel (Taxi Spec)"
+          ],
+          "popularModels": [
+            "Nissan Crew GX Fleet",
+            "Nissan Crew Taxi Spec Turbo",
+            "Nissan Crew DX Petrol"
+          ],
+          "knownFor": [
+            "CD20T turbo oil feed coking under prolonged idle duty",
+            "Improved low-speed torque for passenger taxi loads",
+            "Timing chain guides begin showing wear on early CG16DE units",
+            "Strong UK grey import volume establishes aftermarket support"
+          ],
+          "engineCodesCovered": [
+            "CG16DE",
+            "CD20",
+            "CD20T"
+          ],
+          "cta": "Compare 1997 Nissan Crew diesel engine prices",
+          "badges": [
+            {
+              "label": "Major Engine Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan Crew 1997 turbo failure • CD20 injection pump cost • CG16DE rattle fix",
+          "enquiries": [
+            "Nissan Crew 1997 turbo failure",
+            "CD20 injection pump cost",
+            "CG16DE rattle fix"
+          ]
+        },
+        {
+          "year": "2001 - 2004",
+          "preview": "VVT Petrol & Common Rail Diesel Arrival",
+          "description": "Emissions regulations forced a platform update, introducing VVT petrol technology and the first common rail diesel for commercial fleet compliance.",
+          "keyChanges": [
+            "QG18DE VVT petrol engine replaces older single-cam units",
+            "YD22DDTi common rail system introduced for late models",
+            "Revised ECU mapping for sustained taxi idle operation",
+            "Updated exhaust flanges and downpipe routing"
+          ],
+          "mainEngines": [
+            "CG16DE - 1.6 petrol (facelift variants)",
+            "QG18DE - 1.8 petrol (late model LX)",
+            "YD22DDTi - 2.2 common rail diesel (GX Fleet)"
+          ],
+          "popularModels": [
+            "Nissan Crew LX VVT",
+            "Nissan Crew Wagon Executive",
+            "Nissan Crew GX Common Rail"
+          ],
+          "knownFor": [
+            "YD22DDTi EGR sensitivity on short-journey urban routing",
+            "QG18DE smoother high-revving improves passenger comfort",
+            "Common rail injectors require higher fuel quality tolerance",
+            "Wiring harness upgrades accommodate updated sensor arrays"
+          ],
+          "engineCodesCovered": [
+            "CG16DE",
+            "QG18DE",
+            "YD22DDTi"
+          ],
+          "cta": "Enquire about 2001 Nissan Crew engine availability",
+          "badges": [
+            {
+              "label": "Technology Change",
+              "tone": "accent"
+            }
+          ],
+          "ticker": "Nissan Crew 2003 EGR fault • YD22DDTi power loss • QG18DE VVT solenoid",
+          "enquiries": [
+            "Nissan Crew 2003 EGR fault",
+            "YD22DDTi power loss",
+            "QG18DE VVT solenoid"
+          ]
+        },
+        {
+          "year": "2005 - 2009",
+          "preview": "Final Production & Euro 3 Compliance",
+          "description": "The final Crew generation focused heavily on Euro 3 emissions compliance, refined cooling architecture, and documented service history for commercial export.",
+          "keyChanges": [
+            "Final cooling system revisions to prevent sustained idle overheating",
+            "Standardised OBD2 diagnostics across all fuel types",
+            "Late-model turbo bearing materials upgraded on CD20T",
+            "Production concludes in 2009 with documented low-mileage exports"
+          ],
+          "mainEngines": [
+            "CG16DE - 1.6 petrol (final spec)",
+            "QG18DE - 1.8 petrol (executive trim)",
+            "YD22DDTi - 2.2 diesel (fleet compliance)"
+          ],
+          "popularModels": [
+            "Nissan Crew Late Model Taxi",
+            "Nissan Crew GX Fleet Euro 3",
+            "Nissan Crew Wagon Export Spec"
+          ],
+          "knownFor": [
+            "Lower UK replacement demand due to limited late import volume",
+            "Improved head gasket durability on sustained commercial load",
+            "ECU coding complexity requires specialist grey import knowledge",
+            "Premium pricing on documented idle-hour verified stock"
+          ],
+          "engineCodesCovered": [
+            "CG16DE",
+            "QG18DE",
+            "YD22DDTi"
+          ],
+          "cta": "Get quotes for 2005 Nissan Crew final spec engines",
+          "badges": [
+            {
+              "label": "Technology Change",
+              "tone": "accent"
+            }
+          ],
+          "enquiries": []
+        }
+      ],
+      "closing": "Not sure which year your Nissan Crew was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Nissan Crew specialists.",
+      "headingLines": [
+        "Nissan Crew Engines by Year",
+        "What Was Fitted & When"
+      ],
+      "ui": {
+        "keyChangesLabel": "Key Changes",
+        "knownForLabel": "Known For",
+        "mainEnginesLabel": "Main Engines",
+        "popularModelsLabel": "Popular Models",
+        "engineCodesLabel": "Engine Codes Covered",
+        "enquiriesLabel": "Common Replacement Enquiries"
+      },
+      "summaryCta": {
+        "label": "Year Finder",
+        "title": "Not sure which year your Nissan Crew was built-",
+        "buttonText": "Find My Engine"
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "h2": "Nissan Crew Engine Replacement - Frequently Asked Questions",
+      "intro": "",
+      "items": [
+        {
+          "question": "How much does a Nissan Crew engine replacement cost UK taxi-",
+          "answer": "A Nissan Crew engine replacement typically costs between £900 and £2,800 for supply-only rebuilt units, depending on engine code and commercial duty specifications. Supply & fit packages average £1,500 to £3,500 including labour, ECU coding, and emissions verification. Grey import specialists offer the most competitive rates for fleet operators.",
+          "keyPoints": [
+            "CD20 and YD22DDTi diesel units sit at the higher price range",
+            "Petrol CG16DE replacements are generally £100-£300 cheaper",
+            "Commercial supply & fit adds £600-£900 for certified installation",
+            "Prices exclude ancillary parts like mounts or custom wiring"
+          ],
+          "cta": "Compare rebuilt Nissan Crew engine prices today"
+        },
+        {
+          "question": "How do I find my Nissan Crew engine code taxi-",
+          "answer": "Your Nissan Crew engine code is stamped on the block near the oil filter housing or transmission bellhousing, and matches the compliance plate under the bonnet. Cross-reference with your DVLA registration check or chassis VIN to confirm CG, CD, QG or YD series codes before ordering.",
+          "keyPoints": [
+            "Located on driver-side block face or cylinder head casting",
+            "DVLA registration lookup provides exact factory code instantly",
+            "CG16DE, CD20, YD22DDTi are the most common UK codes",
+            "Never rely on model badge alone for commercial swap compatibility"
+          ],
+          "cta": "Verify your Nissan Crew engine code instantly"
+        },
+        {
+          "question": "Will a Nissan Crew engine fit my variant taxi-",
+          "answer": "Yes, but only if the replacement matches your variant’s mounting points, transmission bellhousing pattern, and ECU calibration. Grey import specialists verify CG-series petrol and CD-series diesel compatibility before dispatch to prevent costly commercial fitting errors.",
+          "keyPoints": [
+            "DX/LX mounts differ from GX heavy-duty commercial brackets",
+            "Automatic and manual bellhousings require exact code matching",
+            "ECU coding must align with taxi meter and emission systems",
+            "Professional fitment verification prevents mid-installation delays"
+          ],
+          "cta": "Check Nissan Crew engine compatibility for your variant"
+        },
+        {
+          "question": "What’s the difference between rebuilt and used Nissan Crew engines-",
+          "answer": "Rebuilt engines are stripped, measured, and fitted with new internal components to address known failure points, while used engines are pulled from decommissioned Japanese taxis and sold as-tested. Rebuilt units include upgraded tensioners, seals, and a 12-month warranty for commercial fleets.",
+          "keyPoints": [
+            "Rebuilt engines feature machined blocks and new timing components",
+            "Used engines rely on original compression and idle-hour logs",
+            "Rebuilt costs £400-£800 more but eliminate premature failures",
+            "Used options suit budget operators needing immediate turnaround"
+          ],
+          "cta": "View rebuilt vs used Nissan Crew engine options"
+        },
+        {
+          "question": "How long does Nissan Crew engine delivery take UK commercial-",
+          "answer": "Standard rebuilt engine delivery takes 3-5 working days across the UK, with next-day dispatch available for urgent fleet breakdowns from specialist import stockists. Supply & fit bookings require an additional 1-2 days for local commercial mechanic scheduling.",
+          "keyPoints": [
+            "Next-day shipping available for stocked CD20 and CG16DE units",
+            "Rural commercial locations may add 24-48 hours transit time",
+            "Weekend fitting slots available for urgent taxi downtime",
+            "Delivery tracking provided for all grey import stock movements"
+          ],
+          "cta": "Check Nissan Crew engine delivery times now"
+        },
+        {
+          "question": "Does Nissan Crew engine replacement include warranty UK taxi-",
+          "answer": "Yes, every engine supplied through EngineMarket carries a minimum 12-month unlimited mileage warranty, valid for UK-registered grey import commercial and taxi vehicles. Coverage includes parts and labour for manufacturing defects, excluding wear items and improper installation.",
+          "keyPoints": [
+            "Warranty activates on delivery and requires registration within 14 days",
+            "Covers commercial duty cycles and sustained idle operation",
+            "Labour claims require certified specialist installation records",
+            "Extended fleet warranty available for multi-vehicle operators"
+          ],
+          "cta": "Confirm Nissan Crew engine warranty terms today"
+        },
+        {
+          "question": "Can I supply and fit a Nissan Crew engine myself UK commercial-",
+          "answer": "DIY fitting is technically possible but strongly discouraged due to grey import wiring adaptation, ECU coding requirements, and commercial vehicle compliance inspections. Incorrect installation voids warranties and risks MOT failure on emission systems.",
+          "keyPoints": [
+            "Requires specialised grey import diagnostic tools and coding software",
+            "Engine mount alignment differs from standard UK passenger vehicles",
+            "Emissions certification needed for commercial taxi licensing",
+            "Professional fitting ensures warranty validity and road legality"
+          ],
+          "cta": "Find certified Nissan Crew engine fitting specialists"
+        },
+        {
+          "question": "What if my Nissan Crew engine fails after replacement UK taxi-",
+          "answer": "If your replacement engine fails within the warranty period, contact your supplying specialist immediately for diagnostic assessment and parts coverage. EngineMarket facilitates direct communication with vetted UK garages to process warranty claims and minimise fleet downtime.",
+          "keyPoints": [
+            "Report symptoms and fault codes within 24 hours of occurrence",
+            "Keep all service invoices and oil specification records",
+            "Warranty covers internal mechanical defects, not external damage",
+            "Replacement or repair arranged through original supplier network"
+          ],
+          "cta": "Claim Nissan Crew engine warranty support today"
+        },
+        {
+          "question": "Is a Nissan Crew engine replacement ULEZ compliant UK commercial-",
+          "answer": "Early CG16DE petrol and CD20 diesel variants generally meet Euro 2 and Euro 3 standards respectively, making them ULEZ compliant for London commercial taxis. Always verify exact engine codes and emissions certificates before urban routing to avoid congestion charges.",
+          "keyPoints": [
+            "Petrol engines pre-2005 typically meet Euro 2 requirements",
+            "Diesel YD22DDTi units comply with Euro 3 urban standards",
+            "Compliance badges included on verified replacement stock",
+            "TfL emissions checker requires exact engine code verification"
+          ],
+          "cta": "Verify Nissan Crew ULEZ compliance instantly"
+        },
+        {
+          "question": "How do I compare Nissan Crew engine quotes UK taxi-",
+          "answer": "Enter your registration number on EngineMarket to receive instant, side-by-side quotes from vetted UK specialists for rebuilt, reconditioned, and used Nissan Crew engines. Filter by supply-only or full fitment, warranty length, and commercial turnaround time to find the best value.",
+          "keyPoints": [
+            "Comparison tool pulls live pricing from 100+ verified suppliers",
+            "Filters allow sorting by engine code, condition, and delivery speed",
+            "Transparent pricing includes all commercial fitting add-ons",
+            "No obligation quotes provided within 2 hours for fleet operators"
+          ],
+          "cta": "Compare Nissan Crew engine quotes from UK specialists"
+        }
+      ],
+      "headingLines": [
+        "Nissan Crew Engine Replacement",
+        "Frequently Asked Questions"
+      ],
+      "defaultOpenIndex": 0,
+      "ui": {
+        "questionLabelPrefix": "Question",
+        "keyPointsLabel": "Key points",
+        "warningTitle": "Check fitment and engine condition before ordering"
+      }
+    },
+    "trustCta": {
+      "tag": "Why Choose Us",
+      "h2": "Why UK Nissan Crew Owners Trust EngineMarket",
+      "intro": "Join thousands of UK drivers who compare Nissan Crew engine prices through our network of trusted specialists - every rebuilt and reconditioned unit backed by a minimum 12-month unlimited mileage warranty and nationwide delivery.",
+      "points": [
+        {
+          "title": "Trusted Nissan Crew Engine Suppliers",
+          "description": "Every garage and engine rebuilder in our network is vetted, rated, and reviewed by real Nissan Crew owners."
+        },
+        {
+          "title": "Compare Nissan Crew Engine Replacement Companies",
+          "description": "See prices, warranty terms, and supply & fit options side-by-side before you commit."
+        },
+        {
+          "title": "UK Engine Replacement Services for Nissan Crew",
+          "description": "Covering every variant from base DX to GX fleet spec, with supply-only or full supply & fit available nationwide."
+        }
+      ],
+      "finalText": "Find the best Nissan Crew engine replacement UK drivers rely on. Compare prices from trusted specialists today and get back on the road with confidence.",
+      "buttonText": "Compare Nissan Crew Engine Prices Now →",
+      "secondaryAction": {
+        "text": "Call Our Experts",
+        "href": "tel:03330000044"
+      },
+      "imageAlt": "Nissan Crew vehicle",
+      "ui": {
+        "pointLabel": "Included",
+        "stripLabel": "Trusted UK Engine Marketplace",
+        "stripTitle": "Compare Nissan Crew engine prices with vetted UK specialists",
+        "trustBullets": [
+          "100% Free",
+          "No Obligation",
+          "Fast & secure process",
+          "UK-based support"
+        ],
+        "imageBadgeLabel": "Trusted supplier network",
+        "imageBadgeTitle": "Warranty-backed rebuilt & used options",
+        "imageBadgeText": "Every quote checked for fitment, quality and lead time."
+      }
+    }
+  }
+}

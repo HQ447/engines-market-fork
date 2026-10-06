@@ -1,5 +1,5 @@
 import { getBrandHref, getModelHref } from "@/lib/modelRoutes";
-import { SITE_URL } from "@/lib/site";
+import { normalizeCanonical, SITE_URL } from "@/lib/site";
 import { buildStaticReviewsSection } from "@/lib/staticReviews";
 import type { BrandPageData, ModelsSectionData } from "@/types/brand";
 import type { ModelPageData } from "@/types/model";
@@ -31,10 +31,10 @@ const ORGANIZATION_NODE = {
 
 function toAbsoluteUrl(url: string) {
   if (/^https?:\/\//i.test(url)) {
-    return url;
+    return normalizeCanonical(url);
   }
 
-  return `${SITE_URL}${url.startsWith("/") ? url : `/${url}`}`;
+  return normalizeCanonical(`${SITE_URL}${url.startsWith("/") ? url : `/${url}`}`);
 }
 
 function buildWebsiteNode() {

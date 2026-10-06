@@ -207,6 +207,16 @@ function shouldSkipNode(node: Text) {
   return Boolean(parent.closest(SKIP_SELECTOR));
 }
 
+function removeAutoLinksFromSkippedRegions(root: Element) {
+  root
+    .querySelectorAll<HTMLElement>(
+      "[data-no-auto-link] a[data-auto-internal-link]",
+    )
+    .forEach((anchor) => {
+      anchor.replaceWith(document.createTextNode(anchor.textContent ?? ""));
+    });
+}
+
 function buildLink(matchText: string, target: PreparedTarget) {
   const anchor = document.createElement("a");
   anchor.href = target.href;
@@ -230,6 +240,8 @@ export default function AutoInternalLinks({
     if (!root || !targets.length) {
       return;
     }
+
+    removeAutoLinksFromSkippedRegions(root);
 
     const preparedEntries = prepareTargets(targets);
     if (!preparedEntries.length) {

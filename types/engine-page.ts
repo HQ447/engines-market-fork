@@ -25,6 +25,16 @@ export type EnginePageHeroData = {
     src: string;
     alt: string;
   };
+  backgroundImage?: {
+    src: string;
+    alt?: string;
+  };
+  engineCutout?: {
+    src: string;
+    alt?: string;
+  };
+  brandMark?: string;
+  visualTagline?: string;
 };
 
 export type EngineSpecsSectionData = {
@@ -42,6 +52,7 @@ export type EngineCompatibilitySectionData = {
   intro: string;
   rows: Array<{
     model: string;
+    image?: string;
     generation: string;
     badges: string;
     years: string;
@@ -56,6 +67,7 @@ export type EngineCompatibilitySectionData = {
 export type EngineCostGuideSectionData = {
   tag: string;
   title: string;
+  image?: string;
   rows: Array<{
     condition: string;
     supplyOnly: string;
@@ -75,6 +87,7 @@ export type EngineFailuresSectionData = {
     onset: string;
     whatHappens: string;
     repairVsReplace: string;
+    image?: string;
   }>;
   goodYearsLine: string;
   cta: string;
@@ -84,6 +97,10 @@ export type EngineVariantsSectionData = {
   tag: string;
   title: string;
   intro: string;
+  cards?: Array<{
+    title: string;
+    body: string;
+  }>;
   relatives: Array<{
     code: string;
     href?: string;

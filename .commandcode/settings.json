@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(node -e \"const b=require('./data/nav/brands.json').find(x=>x.label==='BMW'); console.log('BMW models:'); console.log(b.models.map(m=>m.label+' -> '+m.href).join('\\n'));\")",
+      "Shell(del:*)",
+      "Shell(node _tmp_extract_engines.mjs)",
+      "Shell(node -e \"const e=require('./data/nav/engines.json'); const links=e.groups[0].links; console.log('groups:', e.groups.length, 'links:', links.length); console.log('first 5:'); console.log(links.slice(0,5).map(x=>x.label+' -> '+x.href).join('\\n')); console.log('last 5:'); console.log(links.slice(-5).map(x=>x.label+' -> '+x.href).join('\\n')); const dup=new Set(links.map(x=>x.href)); console.log('dupes:', links.length-dup.size);\")",
+      "Shell(node -e \"const l=require('./data/nav/engines.json').groups[0].links; const brands={}; for(const x of l){const b=x.href.split('/')[1]; brands[b]=(brands[b]||0)+1;} console.log(Object.entries(brands).sort((a,b)=>b[1]-a[1]).map(([b,n])=>b+': '+n).join('\\n'));\")"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

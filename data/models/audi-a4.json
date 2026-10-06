@@ -317,18 +317,12 @@
         {
           "key": "audi-a4-2-0-tdi-se-engine",
           "label": "Audi A4 2.0 TDI SE",
-          "matchers": [
-            "audi a4 2.0 tdi se",
-            "audi a4 2 0 tdi se engine"
-          ]
+          "matchers": ["audi a4 2.0 tdi se", "audi a4 2 0 tdi se engine"]
         },
         {
           "key": "audi-a4-2-0-tdi-sport-engine",
           "label": "Audi A4 2.0 TDI Sport",
-          "matchers": [
-            "audi a4 2.0 tdi sport",
-            "audi a4 2 0 tdi sport engine"
-          ]
+          "matchers": ["audi a4 2.0 tdi sport", "audi a4 2 0 tdi sport engine"]
         },
         {
           "key": "audi-a4-2-0-tdi-s-line-engine",
@@ -349,10 +343,7 @@
         {
           "key": "audi-a4-1-4-tfsi-se-engine",
           "label": "Audi A4 1.4 TFSI SE",
-          "matchers": [
-            "audi a4 1.4 tfsi se",
-            "audi a4 1 4 tfsi se engine"
-          ]
+          "matchers": ["audi a4 1.4 tfsi se", "audi a4 1 4 tfsi se engine"]
         },
         {
           "key": "audi-a4-2-0-tfsi-sport-engine",
@@ -519,10 +510,7 @@
           "subtitle": "CFFB/CAHA 2.0L Diesel · 170hp · 2008-2015",
           "priceRange": "£1,300-£3,000",
           "cta": "Compare 2.0 TDI Sport Engine Prices",
-          "engineCodes": [
-            "CFFB",
-            "CAHA"
-          ],
+          "engineCodes": ["CFFB", "CAHA"],
           "fuel": "Diesel",
           "power": "170hp",
           "years": "2008-2015",
@@ -606,10 +594,7 @@
           "subtitle": "CLAB/CCWA 3.0L Diesel · 245hp · 2008-2023",
           "priceRange": "£2,500-£5,200",
           "cta": "Compare 3.0 TDI quattro Sport Engine Prices",
-          "engineCodes": [
-            "CLAB",
-            "CCWA"
-          ],
+          "engineCodes": ["CLAB", "CCWA"],
           "fuel": "Diesel",
           "power": "245hp",
           "years": "2008-2023",
@@ -621,10 +606,7 @@
           "subtitle": "CFFB/CNHA 2.0L Diesel · 140-190hp · 2008-2023",
           "priceRange": "£1,300-£3,400",
           "cta": "Compare Avant 2.0 TDI Sport Engine Prices",
-          "engineCodes": [
-            "CFFB",
-            "CNHA"
-          ],
+          "engineCodes": ["CFFB", "CNHA"],
           "fuel": "Diesel",
           "power": "140-190hp",
           "years": "2008-2023",
@@ -636,10 +618,7 @@
           "subtitle": "CNHA/DEUA 2.0L Diesel · 150-190hp · 2009-2023",
           "priceRange": "£1,500-£3,600",
           "cta": "Compare Allroad 2.0 TDI Engine Prices",
-          "engineCodes": [
-            "CNHA",
-            "DEUA"
-          ],
+          "engineCodes": ["CNHA", "DEUA"],
           "fuel": "Diesel",
           "power": "150-190hp",
           "years": "2009-2023",
@@ -651,9 +630,7 @@
           "subtitle": "EA888 2.0L Plug-in Hybrid · 299hp combined · 2020-2023",
           "priceRange": "£2,800-£6,200",
           "cta": "Compare 45 TFSI e quattro S line Engine Prices",
-          "engineCodes": [
-            "EA888"
-          ],
+          "engineCodes": ["EA888"],
           "fuel": "Hybrid",
           "power": "299hpcombined",
           "years": "2020-2023",
@@ -1019,10 +996,7 @@
         ],
         "closing": "Can't find your engine code- Enter your registration number above - we'll instantly identify the exact unit, its technical specifications, and live replacement prices from UK Audi A4 engine specialists. Every rebuilt engine comes with a minimum 12-month unlimited mileage warranty."
       },
-      "headingLines": [
-        "Audi A4 Engine Replacement",
-        "All Variants Covered"
-      ],
+      "headingLines": ["Audi A4 Engine Replacement", "All Variants Covered"],
       "ui": {
         "fromPriceLabel": "from price",
         "specsLabel": "Specs",
@@ -1497,13 +1471,7 @@
             {
               "title": "Audi A4 2.0L Diesel Engines",
               "description": "The 2.0-litre common-rail TDI is the undisputed backbone of the Audi A4 diesel lineup, powering the vast majority of B8 and B9 generations sold across the UK. Renowned for strong low-end torque and refined highway cruising, this efficient unit was offered in multiple states of tune to balance fleet economy with premium performance expectations. Its widespread use in company cars and private saloons has created a robust aftermarket network for reliable replacement options.",
-              "engineCodes": [
-                "CAGA",
-                "CFFB",
-                "CAHA",
-                "CNHA",
-                "DEUA"
-              ],
+              "engineCodes": ["CAGA", "CFFB", "CAHA", "CNHA", "DEUA"],
               "compatibleModels": [
                 "B8 SE/Sport/S line/Avant (2008-2015)",
                 "B9 35 TDI/40 TDI/Ultra/S line"
@@ -1519,11 +1487,7 @@
             {
               "title": "Audi A4 3.0L Diesel Engines",
               "description": "Introduced as the premium flagship for B8 and carried into B9 generations, the 3.0-litre V6 TDI delivers effortless overtaking power and refined quattro traction. This larger displacement was typically reserved for higher trim levels and estate or Allroad body styles, pairing advanced piezo injectors with a robust cast-iron block. Owners seeking towing capability or long-distance motorway performance consistently specify this unit, making specialist replacement demand steady.",
-              "engineCodes": [
-                "CLAB",
-                "CCWA",
-                "CAPA"
-              ],
+              "engineCodes": ["CLAB", "CCWA", "CAPA"],
               "compatibleModels": [
                 "B8/B9 45 TDI quattro",
                 "S line",
@@ -1546,14 +1510,8 @@
             {
               "title": "Audi A4 1.4L Petrol Engines",
               "description": "Debuting in the B9 generation as an efficiency-focused entry point, the 1.4-litre TFSI turbo petrol replaced older larger naturally aspirated units to meet stricter Euro emissions standards. Featuring cylinder-on-demand technology and a compact aluminium architecture, it delivers adequate urban performance while maintaining lower insurance and road tax brackets for company car drivers. Its streamlined design makes it a cost-effective replacement choice for low-mileage fleet and private A4 variants.",
-              "engineCodes": [
-                "CZDA"
-              ],
-              "compatibleModels": [
-                "B9 35 TFSI",
-                "SE",
-                "Sport"
-              ],
+              "engineCodes": ["CZDA"],
+              "compatibleModels": ["B9 35 TFSI", "SE", "Sport"],
               "productionYears": "2016-2019",
               "commonFailurePoints": [
                 "Plastic thermostat housing cracking under heat cycles",
@@ -1565,12 +1523,7 @@
             {
               "title": "Audi A4 2.0L Petrol Engines",
               "description": "Spanning B8 and B9 generations, the 2.0-litre TFSI represents the core petrol option, evolving through EA888 generations to balance outright performance with modern emissions compliance. Known for rapid throttle response and strong mid-range power, it was widely fitted to Sport, S line and quattro trims, often paired with S tronic dual-clutch gearboxes. Replacement demand is driven by known EA888 generation vulnerabilities, prompting owners to seek upgraded rebuilt units with revised internal components.",
-              "engineCodes": [
-                "CAEB",
-                "CYRB",
-                "DKZA",
-                "CDNF"
-              ],
+              "engineCodes": ["CAEB", "CYRB", "DKZA", "CDNF"],
               "compatibleModels": [
                 "B8/B9 38 TFSI/40 TFSI/45 TFSI",
                 "Sport",
@@ -1753,9 +1706,7 @@
             "Petrol engine engages automatically for higher speeds or battery depletion",
             "Replacement requires high-voltage safety protocols and hybrid calibration verification"
           ],
-          "foundIn": [
-            "45 TFSI e S line/Vorsprung Saloon & Avant (2020-2023)"
-          ],
+          "foundIn": ["45 TFSI e S line/Vorsprung Saloon & Avant (2020-2023)"],
           "knownFor": [],
           "typicalModels": [],
           "importantNotes": [
@@ -1767,9 +1718,7 @@
         }
       ],
       "closing": "Not sure which fuel type your Audi A4 has- Enter your registration number above to instantly identify your engine code, fuel system and compatible replacement options - all backed by a minimum 12-month unlimited mileage warranty from UK Audi A4 specialists.",
-      "headingLines": [
-        "Audi A4 Engines by Fuel Type"
-      ],
+      "headingLines": ["Audi A4 Engines by Fuel Type"],
       "ui": {
         "swapLabel": "Swap panel",
         "familiesLabel": "Common Engine Families",
@@ -1997,10 +1946,7 @@
         }
       ],
       "closing": "Not sure which year your Audi A4 was built- Enter your registration number and we'll identify the exact engine, model year, and compatible replacement options instantly - all backed by a minimum 12-month warranty from UK Audi A4 specialists.",
-      "headingLines": [
-        "Audi A4 Engines by Year",
-        "What Was Fitted & When"
-      ],
+      "headingLines": ["Audi A4 Engines by Year", "What Was Fitted & When"],
       "ui": {
         "keyChangesLabel": "Key Changes",
         "knownForLabel": "Known For",

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import AutoInternalLinks from "@/components/internal-links/AutoInternalLinks";
-import DocumentVariantPage from "@/components/pages/DocumentVariantPage";
+import NewDocVariantPage from "@/components/pages/NewDocVariantPage";
 import { getInternalLinkPlan } from "@/lib/internalLinkIndex";
+import { mapVariantPageDataToNewDocData } from "@/lib/newDocVariantPageData";
 import { getVariantPageData, getVariantPageStaticParams } from "@/lib/variantPageData";
 import { SITE_URL } from "@/lib/site";
 import { notFound, permanentRedirect } from "next/navigation";
@@ -67,7 +68,13 @@ export default async function VariantPage({ params }: VariantPageProps) {
         maxLinksPerPage={internalLinkPlan.maxLinksPerPage}
         maxLinksPerTarget={internalLinkPlan.defaultMaxLinksPerTarget}
       />
-      <DocumentVariantPage data={pageData} />
+      {pageData.structuredData ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(pageData.structuredData) }}
+        />
+      ) : null}
+      <NewDocVariantPage data={mapVariantPageDataToNewDocData(pageData)} />
     </>
   );
 }
