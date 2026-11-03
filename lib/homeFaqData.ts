@@ -1029,7 +1029,7 @@ export const homeFaqItems: HomeFaqItem[] = homeFaqBrands.flatMap((brand) =>
         question: item.question,
         answer: item.answer,
         ctaText: item.ctaText ?? getCtaText(brand, cluster.id),
-        href: "#home-hero-reg-form",
+        href: "#quote-form",
       }));
     }
 
@@ -1043,7 +1043,7 @@ export const homeFaqItems: HomeFaqItem[] = homeFaqBrands.flatMap((brand) =>
         question: item.question,
         answer: makeFallbackAnswer(item.highlight, item.body),
         ctaText: getCtaText(brand, cluster.id),
-        href: "#home-hero-reg-form",
+        href: "#quote-form",
       };
     });
   }),

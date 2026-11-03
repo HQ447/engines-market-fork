@@ -376,7 +376,7 @@ function VerdictScreen({
       <div className="mt-5">
         <div className="flex flex-col gap-3 sm:flex-row">
           <a
-            href="#home-hero-reg-form"
+            href="#quote-form"
             data-quote-context={`Engine replacement calculator - ${failureLabel}`}
             data-quote-source="decision-hub-result-primary"
             className="inline-flex min-h-[52px] flex-1 items-center justify-center gap-2 rounded-[10px] bg-[#15803d] px-5 text-[15px] font-bold text-white shadow-[0_4px_16px_rgba(21,128,61,0.35)] transition hover:bg-[#166534]"
@@ -387,14 +387,14 @@ function VerdictScreen({
 
           {verdictState.verdict === "C" ? (
             <a
-              href="#home-hero-reg-form"
+              href="#quote-form"
               className="inline-flex min-h-[52px] items-center justify-center rounded-[10px] border border-white/10 bg-[#1a2744] px-5 text-[14px] font-semibold text-white transition hover:bg-[#0f1d33]"
             >
               View Car Value Guide
             </a>
           ) : verdictState.verdict === "D" ? (
             <a
-              href="#home-hero-reg-form"
+              href="#quote-form"
               className="inline-flex min-h-[52px] items-center justify-center rounded-[10px] border border-white/10 bg-[#1a2744] px-5 text-[14px] font-semibold text-white transition hover:bg-[#0f1d33]"
             >
               Honest Cost Comparison Guide

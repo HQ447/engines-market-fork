@@ -37,7 +37,7 @@ function querySeed(
     engineCode: searchParams.get("engineCode") || engineCode || "",
     remarks: searchParams.get("context") ? `Context: ${searchParams.get("context")}` : "",
     sourceLabel: "query-string",
-    searchMode: searchParams.get("reg") ? "registration" : "manual",
+    searchMode: searchParams.get("reg") || searchParams.get("registrationNumber") ? "registration" : "manual",
   };
 }
 
@@ -67,21 +67,32 @@ export default function QuoteCheckoutModal({ brandName, modelName, engineCode }:
       openQuote((event as CustomEvent<QuoteTriggerDetail>).detail || {});
     }
 
+    function findRegistrationInput(trigger: HTMLElement) {
+      const selector =
+        'input[aria-label*="registration" i], input[name="reg"], input[name="registration"], input[placeholder*="registration" i], input[placeholder*="reg" i]';
+
+      let scope: HTMLElement | null = trigger.parentElement;
+      let nearbyInput: HTMLInputElement | null = null;
+      for (let depth = 0; scope && depth < 8; depth += 1) {
+        const input = scope.querySelector<HTMLInputElement>(selector);
+        if (input?.value.trim()) return input;
+        nearbyInput ||= input;
+        scope = scope.parentElement;
+      }
+
+      const inputs = Array.from(document.querySelectorAll<HTMLInputElement>(selector));
+      return inputs.find((input) => input.value.trim()) || nearbyInput || inputs[0] || null;
+    }
+
     function onDocumentClick(event: MouseEvent) {
       const target = event.target as HTMLElement | null;
-      const trigger = target?.closest('a[href="#quote-form"], [data-quote-trigger="true"]') as HTMLElement | null;
+      const trigger = target?.closest(
+        'a[href="#quote-form"], a[href="#home-hero-reg-form"], [data-quote-trigger="true"]',
+      ) as HTMLElement | null;
       if (!trigger) return;
 
       event.preventDefault();
-      let scope: HTMLElement | null = trigger.parentElement;
-      let registrationInput: HTMLInputElement | null = null;
-      for (let depth = 0; scope && depth < 8; depth += 1) {
-        registrationInput = scope.querySelector(
-          'input[aria-label*="registration" i], input[name="reg"], input[name="registration"], input[placeholder*="registration" i], input[placeholder*="reg" i]',
-        );
-        if (registrationInput) break;
-        scope = scope.parentElement;
-      }
+      const registrationInput = findRegistrationInput(trigger);
 
       openQuote({
         regNumber: trigger.dataset.quoteReg || registrationInput?.value.trim(),
@@ -118,6 +129,7 @@ export default function QuoteCheckoutModal({ brandName, modelName, engineCode }:
     if (window.location.search.includes("quote=open")) {
       window.history.replaceState({}, "", window.location.pathname);
     }
+    window.dispatchEvent(new Event("engine-market:clear-registration"));
     setSeed(null);
   }
 

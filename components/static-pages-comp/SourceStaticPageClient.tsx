@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 
 type SourceScript = { src?: string; code?: string };
 
-export default function SourceStaticPageClient({ html, scripts, hasRegistrationHero, isSymptoms, family }: { html: string; scripts: SourceScript[]; hasRegistrationHero?: boolean; isSymptoms?: boolean; family?: string }) {
+export default function SourceStaticPageClient({ html, scripts, customHero, hasRegistrationHero, isSymptoms, family }: { html: string; scripts: SourceScript[]; customHero?: ReactNode; hasRegistrationHero?: boolean; isSymptoms?: boolean; family?: string }) {
   const scriptNodes = useRef<HTMLScriptElement[]>([]);
 
   useEffect(() => {
@@ -117,5 +117,7 @@ export default function SourceStaticPageClient({ html, scripts, hasRegistrationH
     };
   }, [scripts]);
 
-  return <div className={`source-preview-root${hasRegistrationHero ? " source-preview-has-registration" : ""}${isSymptoms ? " source-preview-symptoms" : ""}${family ? ` source-preview-family-${family}` : ""}`} dangerouslySetInnerHTML={{ __html: html }} />;
+  const className = `source-preview-root${hasRegistrationHero ? " source-preview-has-registration" : ""}${isSymptoms ? " source-preview-symptoms" : ""}${family ? ` source-preview-family-${family}` : ""}`;
+  if (!customHero) return <div className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+  return <div className={className}>{customHero}<div className="source-preview-html" dangerouslySetInnerHTML={{ __html: html }} /></div>;
 }

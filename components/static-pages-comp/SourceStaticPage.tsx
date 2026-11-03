@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import postcss from "postcss";
+import type { ReactNode } from "react";
 import type { StaticPageRecord } from "@/lib/staticPagePreview";
 import SourceStaticPageClient from "@/components/static-pages-comp/SourceStaticPageClient";
 import StaticPagePreview from "@/components/pages/StaticPagePreview";
@@ -527,9 +528,10 @@ function extractSource(source: string) {
   const scripts: SourceScript[] = [];
   body = body.replace(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi, (_match, attributes: string, code: string) => {
     const src = attributes.match(/\bsrc\s*=\s*["']([^"']+)["']/i)?.[1];
+    const type = attributes.match(/\btype\s*=\s*["']([^"']+)["']/i)?.[1];
     // The application layout already owns the navbar and footer behavior.
     if (src && !/static-nav\.js/i.test(src)) scripts.push({ src });
-    if (!src && code.trim()) scripts.push({ code });
+    if (!src && code.trim() && !/application\/ld\+json/i.test(type ?? "")) scripts.push({ code });
     return "";
   });
   body = body.replace(/\s*\[EM-QUOTE\]\s*/gi, " ");
@@ -550,7 +552,7 @@ function extractSource(source: string) {
   return { body, styles, externalStyles, scripts };
 }
 
-export default function SourceStaticPage({ page }: { page: StaticPageRecord }) {
+export default function SourceStaticPage({ page, customHero }: { page: StaticPageRecord; customHero?: ReactNode }) {
   const sourcePath = sourcePathFor(page);
   if (!sourcePath || !fs.existsSync(/* turbopackIgnore: true */ sourcePath)) {
     return <StaticPagePreview page={page} />;
@@ -561,11 +563,15 @@ export default function SourceStaticPage({ page }: { page: StaticPageRecord }) {
   const hasRegistrationHero = Boolean(heroMarkup) && (/<(?:form|input|button)\b[^>]*(?:registration|reg(?:istration)?)/i.test(heroMarkup) || /(?:Search by Registration|reg-input|registration-form)/i.test(heroMarkup));
   const isSymptoms = /(?:^|[\\/])symptoms(?:[\\/]|$)/i.test(page.source.originalFile) || /(?:^|[\\/])symptoms(?:[\\/]|$)/i.test(page.route);
   const family = page.route.match(/^\/(about|legal|symptoms|services|prices|compare|failures|insights|case-studies)(?:\/|$)/i)?.[1]?.toLowerCase();
+  const renderedBody = customHero && heroMarkup ? body.replace(heroMarkup, "") : body;
+  const renderedScripts = customHero
+    ? scripts.filter((script) => !/var\s+tabRegistration\s*=|registrationForm\.addEventListener/i.test(script.code ?? ""))
+    : scripts;
   return <>
     {page.structuredData.length ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(page.structuredData) }} /> : null}
     {externalStyles.map((href) => <link rel="stylesheet" href={href} key={href} />)}
     {styles.map((style, index) => <style data-source-preview-css key={index}>{style}</style>)}
     <style data-source-preview-overrides dangerouslySetInnerHTML={{ __html: sourcePreviewOverrides }} />
-    <SourceStaticPageClient html={body} scripts={scripts} hasRegistrationHero={hasRegistrationHero} isSymptoms={isSymptoms} family={family} />
+    <SourceStaticPageClient html={renderedBody} scripts={renderedScripts} customHero={customHero} hasRegistrationHero={customHero ? false : hasRegistrationHero} isSymptoms={isSymptoms} family={family} />
   </>;
 }

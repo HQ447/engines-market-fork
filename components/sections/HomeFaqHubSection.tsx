@@ -583,7 +583,7 @@ export default function HomeFaqHubSection() {
                                             {renderAnswer(faq.answer, deferredQuery)}
 
                                             <a
-                                                href="#home-hero-reg-form"
+                                                href="#quote-form"
                                                 data-quote-context={faq.question}
                                                 data-quote-source="home-faq-answer-cta"
                                                 className="mt-4 inline-block text-[14px] font-semibold text-[#15803d] transition hover:underline"
@@ -645,7 +645,7 @@ export default function HomeFaqHubSection() {
                             </div>
 
                             <a
-                                href="#home-hero-reg-form"
+                                href="#quote-form"
                                 data-quote-context="FAQ footer CTA"
                                 data-quote-source="home-faq-footer-cta"
                                 className="inline-flex min-h-[48px] w-full items-center justify-center gap-2 rounded-[10px] bg-[#0d1b2e] px-5 text-[14px] font-semibold text-white transition hover:bg-[#11284a] sm:w-auto sm:min-w-[250px]"

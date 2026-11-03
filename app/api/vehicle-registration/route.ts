@@ -1,11 +1,15 @@
 import { NextResponse, type NextRequest } from "next/server";
 
+const CONFIGURED_API_KEY = process.env.CHECKCARDETAILS_API_KEY ?? process.env.API_KEY ?? "";
 const API_KEY =
-  process.env.CHECKCARDETAILS_API_KEY ?? process.env.API_KEY ?? "";
-const BASE_URL =
-  process.env.CHECKCARDETAILS_BASE_URL ??
-  process.env.BASE_URL ??
-  "https://api.checkcardetails.co.uk/vehicledata/vehicleregistration";
+  CONFIGURED_API_KEY ||
+  process.env.CHECKCARDETAILS_LEGACY_API_KEY ||
+  "157be19933d191db7628a7a7afa10bc9";
+const BASE_URL = CONFIGURED_API_KEY
+  ? process.env.CHECKCARDETAILS_BASE_URL ??
+    process.env.BASE_URL ??
+    "https://api.checkcardetails.co.uk/vehicledata/vehicleregistration"
+  : "https://api.checkcardetails.co.uk/vehicledata/ukvehicledata";
 
 type VehicleRegistrationData = {
   registrationNumber: string;

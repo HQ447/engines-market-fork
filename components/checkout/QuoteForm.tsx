@@ -1,8 +1,19 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
-import { FaCar, FaGasPump, FaPalette, FaUser } from "react-icons/fa";
+import Link from "next/link";
+import { useCallback, useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
+import {
+  FaArrowRight,
+  FaCalendarAlt,
+  FaCar,
+  FaEnvelope,
+  FaGasPump,
+  FaLock,
+  FaMapMarkerAlt,
+  FaPhone,
+  FaUser,
+} from "react-icons/fa";
 
 export type QuoteFormSeed = {
   registrationNumber?: string;
@@ -24,7 +35,6 @@ export type QuoteFormSeed = {
 type Props = {
   initialData?: QuoteFormSeed;
   onClose?: () => void;
-  title?: string;
 };
 
 type VehicleRegistrationData = {
@@ -39,7 +49,7 @@ type VehicleRegistrationData = {
 };
 
 const fieldClass =
-  "h-14 w-full rounded-[7px] border border-slate-300 bg-white px-5 text-[16px] text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-[#168b4c] focus:ring-1 focus:ring-[#168b4c]";
+  "h-11 w-full rounded-[7px] border border-slate-300 bg-white px-4 text-[14px] text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-[#168b4c] focus:ring-1 focus:ring-[#168b4c]";
 
 function initialState(seed: QuoteFormSeed = {}) {
   return {
@@ -81,15 +91,32 @@ function formatCapacity(value: string) {
   return rawValue;
 }
 
-export default function QuoteForm({ initialData = {}, onClose, title = "Confirm Details To Show Price" }: Props) {
+async function readVehiclePayload<T>(response: Response): Promise<T> {
+  const text = await response.text();
+
+  try {
+    return JSON.parse(text) as T;
+  } catch {
+    throw new Error(
+      response.ok
+        ? "The vehicle lookup service returned an invalid response. Please try again."
+        : "The vehicle lookup service is temporarily unavailable. Please try again.",
+    );
+  }
+}
+
+export default function QuoteForm({ initialData = {}, onClose }: Props) {
   const [formData, setFormData] = useState(() => initialState(initialData));
   const [isVehicleLocked, setIsVehicleLocked] = useState(Boolean(initialData.make && initialData.model));
   const [vehicleLookupError, setVehicleLookupError] = useState("");
+  const [isVehicleLookupLoading, setIsVehicleLookupLoading] = useState(false);
   const [vehicleImage, setVehicleImage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
   const initialLookupStarted = useRef(false);
+  const initialRegistration = useRef(initialData.registrationNumber?.trim() || "");
+  const lastLookupRegistration = useRef("");
 
   useEffect(() => {
     if (!formData.make || !formData.model) return;
@@ -106,10 +133,51 @@ export default function QuoteForm({ initialData = {}, onClose, title = "Confirm 
     return () => controller.abort();
   }, [formData.make, formData.model, formData.year]);
 
+  const lookupRegistration = useCallback(async (registrationNumber: string) => {
+    const normalizedRegistration = registrationNumber.trim();
+    if (!normalizedRegistration) {
+      setVehicleLookupError("Please enter your vehicle registration.");
+      return;
+    }
+
+    setIsVehicleLookupLoading(true);
+    setVehicleLookupError("");
+    lastLookupRegistration.current = normalizedRegistration.replace(/[^A-Z0-9]/gi, "").toUpperCase();
+
+    try {
+      const response = await fetch(
+        `/api/vehicle-registration?registrationNumber=${encodeURIComponent(normalizedRegistration)}`,
+      );
+      const payload = await readVehiclePayload<{ vehicle?: VehicleRegistrationData; error?: string }>(response);
+      if (!response.ok || !payload.vehicle) {
+        throw new Error(payload.error || "We could not load the selected vehicle.");
+      }
+
+      setFormData((current) => ({
+        ...current,
+        registrationNumber: payload.vehicle?.registrationNumber || normalizedRegistration,
+        make: payload.vehicle?.make || "",
+        model: payload.vehicle?.model || "",
+        year: payload.vehicle?.year || "",
+        fuelType: payload.vehicle?.fuelType || "",
+        engineCapacity: payload.vehicle?.engineCapacity || "",
+        color: payload.vehicle?.color || "",
+        wheelplan: payload.vehicle?.wheelplan || "",
+      }));
+      setIsVehicleLocked(true);
+    } catch (error: unknown) {
+      setIsVehicleLocked(false);
+      setVehicleLookupError(error instanceof Error ? error.message : "Vehicle lookup failed.");
+    } finally {
+      setIsVehicleLookupLoading(false);
+    }
+  }, []);
+
   useEffect(() => {
     if (
       initialLookupStarted.current ||
-      !formData.registrationNumber.trim() ||
+      !initialRegistration.current ||
+      formData.registrationNumber.trim() !== initialRegistration.current ||
       formData.make.trim() ||
       formData.model.trim()
     ) {
@@ -117,43 +185,40 @@ export default function QuoteForm({ initialData = {}, onClose, title = "Confirm 
     }
 
     initialLookupStarted.current = true;
-    const controller = new AbortController();
+    void lookupRegistration(initialRegistration.current);
+  }, [formData.make, formData.model, formData.registrationNumber, lookupRegistration]);
 
-    fetch(`/api/vehicle-registration?registrationNumber=${encodeURIComponent(formData.registrationNumber)}`, {
-      signal: controller.signal,
-    })
-      .then(async (response) => {
-        const payload = (await response.json()) as { vehicle?: VehicleRegistrationData; error?: string };
-        if (!response.ok || !payload.vehicle) {
-          throw new Error(payload.error || "We could not load the selected vehicle.");
-        }
-        return payload.vehicle;
-      })
-      .then((vehicle) => {
-        setFormData((current) => ({
-          ...current,
-          registrationNumber: vehicle.registrationNumber || current.registrationNumber,
-          make: vehicle.make,
-          model: vehicle.model,
-          year: vehicle.year,
-          fuelType: vehicle.fuelType,
-          engineCapacity: vehicle.engineCapacity,
-          color: vehicle.color,
-          wheelplan: vehicle.wheelplan,
-        }));
-        setIsVehicleLocked(true);
-      })
-      .catch((error: unknown) => {
-        if (!(error instanceof DOMException && error.name === "AbortError")) {
-          setVehicleLookupError(error instanceof Error ? error.message : "Vehicle lookup failed.");
-        }
-      });
+  useEffect(() => {
+    if (formData.make.trim() || formData.model.trim()) return;
 
-    return () => controller.abort();
-  }, [formData.make, formData.model, formData.registrationNumber]);
+    const normalizedRegistration = formData.registrationNumber.replace(/[^A-Z0-9]/gi, "").toUpperCase();
+    if (normalizedRegistration.length < 7 || normalizedRegistration === lastLookupRegistration.current) return;
+
+    const timer = window.setTimeout(() => {
+      void lookupRegistration(formData.registrationNumber);
+    }, 350);
+
+    return () => window.clearTimeout(timer);
+  }, [formData.make, formData.model, formData.registrationNumber, lookupRegistration]);
 
   function updateField(name: string, value: string) {
     setSubmitError("");
+    if (name === "registrationNumber") {
+      setVehicleLookupError("");
+      setIsVehicleLocked(false);
+      setFormData((current) => ({
+        ...current,
+        registrationNumber: value.toUpperCase(),
+        make: "",
+        model: "",
+        year: "",
+        fuelType: "",
+        engineCapacity: "",
+        color: "",
+        wheelplan: "",
+      }));
+      return;
+    }
     setFormData((current) => ({ ...current, [name]: value }));
   }
 
@@ -172,7 +237,7 @@ export default function QuoteForm({ initialData = {}, onClose, title = "Confirm 
           source_label: initialData.sourceLabel || "checkout-page",
           source_page:
             initialData.sourcePage || (onClose ? window.location.href : document.referrer || window.location.href),
-          search_mode: initialData.searchMode || (formData.registrationNumber ? "registration" : "manual"),
+          search_mode: formData.registrationNumber ? "registration" : initialData.searchMode || "manual",
         }),
       });
       const result = (await response.json().catch(() => null)) as
@@ -208,88 +273,150 @@ export default function QuoteForm({ initialData = {}, onClose, title = "Confirm 
     );
   }
 
-  const vehicleTitle = [formData.make, formData.model, formData.variant, formData.year].filter(Boolean).join(" - ");
-  const hasSelectedVehicle = Boolean(vehicleTitle || formData.registrationNumber);
+  const vehicleName = [formData.make, formData.model, formData.variant].filter(Boolean).join(" ");
+  const hasVehicleDetails = Boolean(formData.make || formData.model || formData.year);
+  const hasSelectedVehicle = hasVehicleDetails;
   const vehicleDetails = [
+    { label: "Year", value: formData.year, icon: <FaCalendarAlt /> },
     { label: "Fuel Type", value: formData.fuelType, icon: <FaGasPump /> },
-    { label: "Colour", value: formData.color, icon: <FaPalette /> },
-    { label: "Engine Size", value: formatCapacity(formData.engineCapacity), icon: <FaCar /> },
+    { label: "Engine", value: formatCapacity(formData.engineCapacity), icon: <FaCar /> },
   ];
 
   return (
     <form
       onSubmit={handleSubmit}
-      className="relative w-full overflow-hidden rounded-[7px] bg-white shadow-[0_4px_22px_rgba(15,23,42,0.10)]"
+      className="relative w-full overflow-hidden rounded-[22px] border border-slate-200 bg-white shadow-[0_18px_55px_rgba(15,23,42,0.18)]"
     >
       {onClose ? (
         <button
           type="button"
           onClick={onClose}
-          className="absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-white/90 text-2xl text-slate-400 shadow-sm hover:bg-slate-100 hover:text-slate-700"
+          className="absolute right-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-2xl leading-none text-white transition hover:bg-white/20"
           aria-label="Close quote form"
         >
           ×
         </button>
       ) : null}
 
+      <header className="bg-[#061a33] px-5 py-6 pr-16 text-white sm:px-7 sm:py-7 sm:pr-20">
+        <h1 className="!m-0 !text-[28px] !leading-none font-black tracking-[-0.04em] sm:!text-[36px]">
+          <span className="text-white">Get My Vehicle</span>{" "}
+          <span className="text-[#168b4c]">Information</span>
+        </h1>
+        <p className="mt-3 !text-[13px] !leading-5 text-white sm:!text-[15px]">
+          Compare engine quotes from trusted Mercedes specialists - instantly.
+        </p>
+      </header>
+
       {hasSelectedVehicle ? (
-        <header className="grid items-center gap-5 border-b border-slate-200 px-5 py-6 sm:grid-cols-[minmax(210px,280px)_1fr] sm:px-7 sm:py-8">
+        <section className="grid items-center gap-5 border-b border-slate-200 px-5 py-6 sm:grid-cols-[minmax(190px,250px)_1fr] sm:px-7 sm:py-7">
           {vehicleImage ? (
             <Image
               src={vehicleImage}
-              alt={vehicleTitle || "Selected vehicle"}
+              alt={vehicleName || "Selected vehicle"}
               width={320}
               height={190}
-              className="mx-auto h-[130px] w-[210px] object-contain sm:h-[170px] sm:w-[280px]"
+              className="mx-auto h-[125px] w-[205px] object-contain sm:h-[145px] sm:w-[240px]"
             />
           ) : (
-            <div className="mx-auto flex h-[130px] w-[210px] items-center justify-center rounded-xl bg-slate-50 text-sm text-slate-400 sm:h-[170px] sm:w-[280px]">Selected vehicle</div>
+            <div className="mx-auto flex h-[125px] w-[205px] items-center justify-center rounded-xl bg-slate-50 text-sm text-slate-400 sm:h-[145px] sm:w-[240px]">Selected vehicle</div>
           )}
-          <div className="min-w-0 text-center sm:text-left">
-            {vehicleTitle ? <h1 className="!text-[22px] font-extrabold !leading-tight text-[#08295a] sm:!text-[30px]">{vehicleTitle}</h1> : null}
+          <div className="min-w-0">
             {formData.registrationNumber ? (
-              <div className="mt-4 inline-flex overflow-hidden rounded-md border border-[#c38a00] shadow-sm">
+              <div className="inline-flex overflow-hidden rounded-md border border-[#c38a00] shadow-sm">
                 <span className="flex w-9 flex-col items-center justify-center bg-[#0b3f88] py-1 text-[9px] font-bold leading-3 text-white"><span>GB</span><span>UK</span></span>
-                <span className="bg-[#ffcb18] px-4 py-1.5 text-[22px] font-black tracking-[0.08em] text-slate-950 sm:text-[28px]">{formData.registrationNumber}</span>
+                <span className="bg-[#ffcb18] px-4 py-1.5 text-[20px] font-black tracking-[0.08em] text-slate-950 sm:text-[26px]">{formData.registrationNumber}</span>
               </div>
             ) : null}
+            {vehicleName ? <h2 className="mt-2 !text-[20px] !leading-tight font-extrabold uppercase text-[#172033] sm:!text-[24px]">{vehicleName}</h2> : null}
+            <div className="mt-3 grid max-w-[480px] grid-cols-2 gap-x-5 gap-y-2 border-t border-slate-200 pt-3 text-[13px] text-slate-700 sm:grid-cols-3">
+              {vehicleDetails.map((detail) => (
+                <div className="flex min-w-0 items-center gap-2" key={detail.label}>
+                  <span className="shrink-0 text-[#168b4c]" aria-hidden="true">{detail.icon}</span>
+                  <span className="truncate"><span className="font-semibold">{detail.label}:</span> {detail.value || "—"}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </header>
+        </section>
       ) : null}
 
-      {!hasSelectedVehicle ? <div className="border-b border-slate-200 px-6 py-5 text-center"><h1 className="!text-[22px] font-extrabold !leading-tight text-[#08295a]">{title}</h1></div> : null}
-
-      <section>
-        <div className="border-b border-slate-200 px-5 py-5 sm:px-7 sm:py-6">
-          <h2 className="flex items-center gap-3 !text-[20px] font-extrabold !leading-tight text-[#08295a]"><FaCar className="text-[25px]" aria-hidden="true" />Vehicle Details</h2>
-          {vehicleLookupError ? <p className="mt-3 text-sm font-medium text-red-600">{vehicleLookupError}</p> : null}
-          <div className="mt-5 grid gap-3 sm:grid-cols-3">
-            {vehicleDetails.map((detail) => (
-              <VehicleDetailTile key={detail.label} {...detail} />
-            ))}
+      {!hasVehicleDetails ? (
+        <section>
+          <div className="border-b border-slate-200 px-5 py-5 sm:px-7 sm:py-6">
+            <div className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-5 sm:px-6">
+              <label className="block text-center text-[14px] font-semibold text-[#08295a]" htmlFor="quote-registration">
+                Enter your vehicle registration
+              </label>
+              <div className="mx-auto mt-3 w-full max-w-[390px]">
+                <div className="flex h-[52px] w-full overflow-hidden rounded-[6px] border-[3px] border-[#172033] bg-[#ffcc18] shadow-[0_4px_10px_rgba(15,23,42,0.12)]">
+                  <span className="flex w-[45px] shrink-0 flex-col items-center justify-center gap-0.5 border-r-[3px] border-[#172033] bg-[#003399] text-[9px] font-black leading-none text-white">
+                    <span className="text-[15px] leading-none">🇬🇧</span>
+                    <span>GB</span>
+                  </span>
+                  <input
+                    id="quote-registration"
+                    type="text"
+                    value={formData.registrationNumber}
+                    onChange={(event) => updateField("registrationNumber", event.currentTarget.value)}
+                    placeholder="REG HERE"
+                    maxLength={8}
+                    autoCapitalize="characters"
+                    autoComplete="off"
+                    spellCheck={false}
+                    className="min-w-0 flex-1 bg-transparent px-3 text-center text-[24px] font-black uppercase tracking-[0.08em] text-[#10151c] outline-none placeholder:text-[#10151c] placeholder:opacity-100 focus:ring-0"
+                    style={{ fontFamily: '"Arial Black", Arial, sans-serif' }}
+                  />
+                </div>
+                {isVehicleLookupLoading ? <p className="mt-2 text-center text-[12px] font-semibold text-[#168b4c]">Loading vehicle details…</p> : null}
+              </div>
+              <p className="mt-2 text-center text-[12px] text-slate-500">Vehicle details load automatically after you enter your registration.</p>
+            </div>
+            {vehicleLookupError ? <p className="mt-3 text-sm font-medium text-red-600">{vehicleLookupError}</p> : null}
           </div>
-          {formData.wheelplan ? <p className="mt-3 text-sm text-slate-600"><span className="font-bold text-[#08295a]">Wheelplan:</span> {formData.wheelplan}</p> : null}
-        </div>
-      </section>
+        </section>
+      ) : null}
 
       <section>
         <div className="px-5 py-6 sm:px-7 sm:py-7">
-          <h2 className="flex items-center gap-3 !text-[20px] font-extrabold !leading-tight text-[#08295a]"><FaUser className="text-[24px]" aria-hidden="true" />Required Details</h2>
-          <div className="mt-6 space-y-4">
-          <EditableField label="Full Name" name="fullName" value={formData.fullName} placeholder="Enter your full name" required onChange={updateField} />
-          <EditableField label="Phone Number" name="phone" value={formData.phone} placeholder="Enter your phone number" type="tel" required onChange={updateField} />
-          <EditableField label="Email Address" name="email" value={formData.email} placeholder="Enter your email address" type="email" required onChange={updateField} />
-          <EditableField label="Postcode (Optional)" name="postcode" value={formData.postcode} placeholder="Enter your postcode" onChange={updateField} />
+          <div className="flex items-center gap-3">
+            <h2 className="!m-0 !text-[21px] !leading-tight font-extrabold text-[#172033]">Enter Your <span className="text-[#168b4c]">Details</span></h2>
+            <span className="h-px flex-1 bg-[#d8c5ae]" aria-hidden="true" />
+          </div>
+          <div className="mt-5 grid gap-x-4 gap-y-4 sm:grid-cols-2">
+            <EditableField icon={<FaUser />} label="Name" name="fullName" value={formData.fullName} placeholder="John Smith" required onChange={updateField} />
+            <EditableField icon={<FaEnvelope />} label="Email" name="email" value={formData.email} placeholder="john@example.com" type="email" required onChange={updateField} />
+            <EditableField icon={<FaPhone />} label="Phone Number" name="phone" value={formData.phone} placeholder="07XXXXXXXXX" type="tel" required onChange={updateField} />
+            <EditableField icon={<FaMapMarkerAlt />} label="Post Code" name="postcode" value={formData.postcode} placeholder="W12 9AB" onChange={updateField} />
+            <label className="sm:col-span-2">
+              <span className="mb-2 block text-[14px] font-semibold text-[#172033]">Any Remarks <span className="font-normal text-slate-500">(Additional Information - Optional)</span></span>
+              <textarea
+                value={formData.remarks}
+                onChange={(event) => updateField("remarks", event.currentTarget.value)}
+                placeholder="Please enter any info you would like us to know."
+                rows={3}
+                className="min-h-[84px] w-full resize-y rounded-[7px] border border-slate-300 bg-white px-3.5 py-3 text-[14px] text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-[#168b4c] focus:ring-1 focus:ring-[#168b4c]"
+              />
+            </label>
+          </div>
 
           {submitError ? <p className="rounded border border-red-200 bg-red-50 px-3 py-2 text-[12px] text-red-700">{submitError}</p> : null}
+
+          <p className="mt-5 text-[11px] leading-5 text-slate-500">
+            By clicking &quot;Get Your Free Replacement Engine Quote&quot; you agree to our <Link className="underline hover:text-slate-800" href="/legal/terms-and-conditions">Terms &amp; Conditions</Link> and <Link className="underline hover:text-slate-800" href="/legal/privacy-policy">Privacy Policy</Link>.
+          </p>
 
           <button
             type="submit"
             disabled={isSubmitting || (!isVehicleLocked && !formData.engineCode)}
-            className="mt-2 flex h-[64px] w-full items-center justify-center gap-4 rounded-xl bg-[#04964d] text-[20px] font-extrabold text-white shadow-[0_10px_22px_rgba(4,150,77,0.24)] transition hover:bg-[#057f43] disabled:cursor-not-allowed disabled:opacity-60"
+            className="mt-4 flex min-h-[52px] w-full items-center justify-center gap-3 rounded-[8px] bg-[#168b4c] px-4 text-[16px] font-extrabold text-white shadow-[0_10px_22px_rgba(4,150,77,0.2)] transition hover:bg-[#0f743e] disabled:cursor-not-allowed disabled:opacity-60"
           >
-            {isSubmitting ? "Sending..." : <>Get Free Qoute <span className="text-[32px] leading-none">→</span></>}
+            {isSubmitting ? "Sending..." : <>Get Your Free Replacement Engine Quote <FaArrowRight aria-hidden="true" /></>}
           </button>
+
+          <div className="mt-4 flex items-center justify-center gap-2 text-center text-[11px] text-slate-500">
+            <FaLock className="shrink-0 text-slate-400" aria-hidden="true" />
+            <span>Your details are secure, no spam - genuine quote from UK vetted engine specialists only.</span>
           </div>
         </div>
       </section>
@@ -297,19 +424,8 @@ export default function QuoteForm({ initialData = {}, onClose, title = "Confirm 
   );
 }
 
-function VehicleDetailTile({ label, value, icon }: { label: string; value: string; icon: ReactNode }) {
-  return (
-    <div className="rounded-lg border border-slate-200 bg-[#f7fbff] px-4 py-4">
-      <p className="text-[15px] font-medium text-[#08295a]">{label}</p>
-      <div className="mt-3 flex min-w-0 items-center gap-3 text-[#08295a]">
-        <span className="shrink-0 text-[27px]" aria-hidden="true">{icon}</span>
-        <p className="truncate text-[18px] font-semibold">{value || "—"}</p>
-      </div>
-    </div>
-  );
-}
-
 function EditableField({
+  icon,
   label,
   name,
   value,
@@ -318,6 +434,7 @@ function EditableField({
   required = false,
   onChange,
 }: {
+  icon?: ReactNode;
   label: string;
   name: string;
   value: string;
@@ -328,17 +445,20 @@ function EditableField({
 }) {
   return (
     <label>
-      <span className="mb-2 block text-[16px] font-semibold text-[#08295a]">
+      <span className="mb-2 block text-[14px] font-semibold text-[#172033]">
         {label} {required ? <span className="text-red-500">*</span> : null}
       </span>
-      <input
-        type={type}
-        value={value}
-        onChange={(event) => onChange(name, event.currentTarget.value)}
-        placeholder={placeholder}
-        className={fieldClass}
-        required={required}
-      />
+      <span className="relative block">
+        {icon ? <span className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-[13px] text-slate-400" aria-hidden="true">{icon}</span> : null}
+        <input
+          type={type}
+          value={value}
+          onChange={(event) => onChange(name, event.currentTarget.value)}
+          placeholder={placeholder}
+          className={`${fieldClass}${icon ? " pl-10" : ""}`}
+          required={required}
+        />
+      </span>
     </label>
   );
 }

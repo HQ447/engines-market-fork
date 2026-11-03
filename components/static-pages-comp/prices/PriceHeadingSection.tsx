@@ -1,6 +1,7 @@
 import type { StaticBlock } from "@/lib/staticPagePreview";
 type HeadingBlock = Extract<StaticBlock, { type: "heading" }>;
 export default function PriceHeadingSection({ block }: { block: HeadingBlock }) {
-  return block.level === "h3" ? <h3 id={block.id || undefined} className="mt-9 flex items-start gap-3 text-xl font-extrabold leading-tight tracking-tight text-[#0a2952]"><span aria-hidden="true" className="mt-1.5 h-5 w-1 shrink-0 rounded-full bg-emerald-500" />{block.text}</h3> : <h4 id={block.id || undefined} className="mt-7 text-base font-extrabold leading-tight text-[#0a2952]">{block.text}</h4>;
+  const text = block.text.replace(/^[\s\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]+/u, "").trim();
+  return block.level === "h3" ? <h3 id={block.id || undefined} className="mt-5 text-[clamp(1.2rem,2.4vw,2rem)] font-black leading-[1.03] tracking-[-0.04em] text-[#071936]">{text}</h3> : <h4 id={block.id || undefined} className="mt-4 text-[clamp(1rem,1.8vw,1.35rem)] font-extrabold leading-tight text-[#0a2952]">{text}</h4>;
 }
 

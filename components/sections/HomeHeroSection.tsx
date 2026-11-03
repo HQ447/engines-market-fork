@@ -2244,6 +2244,15 @@ export default function HomeHeroSection({ data, engineLinks }: Props) {
     return () => window.clearInterval(intervalId);
   }, []);
 
+  useEffect(() => {
+    function clearRegistration() {
+      setRegistration("");
+    }
+
+    window.addEventListener("engine-market:clear-registration", clearRegistration);
+    return () => window.removeEventListener("engine-market:clear-registration", clearRegistration);
+  }, []);
+
   const engineTickerLoop = useMemo(() => [...tickerItems, ...tickerItems], []);
   const bottomTickerLoop = useMemo(
     () => [...bottomBarItems, ...bottomBarItems],
@@ -2270,10 +2279,21 @@ export default function HomeHeroSection({ data, engineLinks }: Props) {
     const response = await fetch(
       `/api/vehicle-registration?registrationNumber=${encodeURIComponent(regNumber)}`,
     );
-    const payload = (await response.json()) as {
+    const text = await response.text();
+    let payload: {
       vehicle?: VehicleRegistrationData;
       error?: string;
     };
+
+    try {
+      payload = JSON.parse(text) as typeof payload;
+    } catch {
+      throw new Error(
+        response.ok
+          ? "The vehicle lookup service returned an invalid response. Please try again."
+          : "The vehicle lookup service is temporarily unavailable. Please try again.",
+      );
+    }
 
     if (!response.ok || !payload.vehicle) {
       throw new Error(

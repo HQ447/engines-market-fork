@@ -1,11 +1,10 @@
 import type { ReactNode } from "react";
 import { getNormalizedPreviewContent } from "@/lib/staticPagePreview";
-import type { StaticBlock, StaticForm, StaticPageRecord } from "@/lib/staticPagePreview";
+import type { StaticBlock, StaticPageRecord } from "@/lib/staticPagePreview";
 import PriceHeadingSection from "@/components/static-pages-comp/prices/PriceHeadingSection";
 import PriceParagraphSection from "@/components/static-pages-comp/prices/PriceParagraphSection";
 import PriceListSection from "@/components/static-pages-comp/prices/PriceListSection";
 import PriceTableSection from "@/components/static-pages-comp/prices/PriceTableSection";
-import PriceFaqSection from "@/components/static-pages-comp/prices/PriceFaqSection";
 import PriceFormSection from "@/components/static-pages-comp/prices/PriceFormSection";
 import PriceLinksSection from "@/components/static-pages-comp/prices/PriceLinksSection";
 import PriceLabelSection from "@/components/static-pages-comp/prices/PriceLabelSection";
@@ -13,37 +12,106 @@ import PriceCardsSection from "@/components/static-pages-comp/prices/PriceCardsS
 import PriceStatSection from "@/components/static-pages-comp/prices/PriceStatSection";
 import PriceImageSection from "@/components/static-pages-comp/prices/PriceImageSection";
 import PriceQuoteSection from "@/components/static-pages-comp/prices/PriceQuoteSection";
+import {
+  PreviewFaqGrid,
+  PreviewMethodology,
+  PreviewSectionBadge,
+  PreviewSectionHeading,
+  type MethodologyItem,
+  type PreviewCardVariant,
+} from "@/components/static-pages-comp/shared/PreviewContentPrimitives";
+import styles from "./PricePageContent.module.css";
 
-function renderPriceContentBlock(block: StaticBlock, index: number): ReactNode {
+function isShortLabel(text: string) {
+  return text.length < 70 && text === text.toUpperCase() && /[A-Z]/.test(text);
+}
+
+function cardVariant(sectionId: string, block: Extract<StaticBlock, { type: "cards" }>): PreviewCardVariant {
+  if (sectionId === "which-one-is-right-for-your-car") return "condition";
+  if (sectionId === "what-24-650-quote-requests-tell-us") return "metric";
+  if (block.cards.length >= 4) return "compact";
+  return "standard";
+}
+
+function renderPriceContentBlock(block: StaticBlock, index: number, sectionId: string, sectionLinks: { href: string; text: string }[]): ReactNode {
   switch (block.type) {
     case "heading": return <PriceHeadingSection block={block} key={index} />;
-    case "paragraph": return <PriceParagraphSection block={block} key={index} />;
+    case "paragraph": return isShortLabel(block.text) ? null : <PriceParagraphSection block={block} key={index} />;
     case "list": return <PriceListSection block={block} key={index} />;
     case "table": return <PriceTableSection block={block} key={index} />;
-    case "faq": return <PriceFaqSection block={block} key={index} />;
     case "form": return <PriceFormSection form={block} key={index} />;
     case "links": return <PriceLinksSection block={block} key={index} />;
     case "label": return <PriceLabelSection block={block} key={index} />;
-    case "cards": return <PriceCardsSection block={block} key={index} />;
+    case "cards": return <PriceCardsSection block={block} links={sectionLinks} variant={cardVariant(sectionId, block)} key={index} />;
     case "stat": return <PriceStatSection block={block} key={index} />;
     case "image": return <PriceImageSection block={block} key={index} />;
     case "quote": return <PriceQuoteSection block={block} key={index} />;
+    case "faq": return null;
     default: return null;
   }
 }
 
-export default function PricePageContent({ page }: { page: StaticPageRecord }) {
-  const { hero, leadBlocks: rawLeadBlocks, sections, forms, tables, faqs } = getNormalizedPreviewContent(page);
-  const leadBlocks = rawLeadBlocks.filter((block) => block.type !== "form" && block.type !== "image" && !(block.type === "heading" && block.level === "h1") && !(block.type === "paragraph" && block.text === hero.description));
-  const contentForms = forms.slice(hero.blocks.filter((block) => block.type === "form").length);
-  const sectionsContainFaqs = sections.some((section) => section.blocks.some((block) => block.type === "faq"));
-  const renderedTableCount = [...leadBlocks, ...sections.flatMap((section) => section.blocks)].filter((block) => block.type === "table").length;
-  return <>
-    {contentForms.length ? <div className="mt-10 grid gap-5">{contentForms.map((form: StaticForm, index) => <PriceFormSection form={form} key={form.action + index} />)}</div> : null}
-    {leadBlocks.length ? <div className="mt-10 grid gap-5">{leadBlocks.map((block, index) => renderPriceContentBlock(block, index))}</div> : null}
-    {sections.map((section) => <section className="mt-8 rounded-xl border border-slate-200 bg-white p-5 shadow-[var(--shadow-card)] sm:p-7" id={section.id} key={section.id}><div className="mb-6 flex items-start gap-4"><span aria-hidden="true" className="mt-1 h-9 w-1 shrink-0 rounded-full bg-[#14803d]" /><h2 className="text-2xl font-black leading-tight tracking-tight text-[#0a2952] sm:text-3xl">{section.heading}</h2></div><div>{section.blocks.filter((block) => block.type !== "form").map((block, index) => renderPriceContentBlock(block, index))}{section.links.length ? <PriceLinksSection block={{ type: "links", links: section.links }} /> : null}</div></section>)}
-    {tables.slice(renderedTableCount).map((table, index) => <div className="mt-8" key={index}><PriceTableSection block={{ type: "table", ...table }} /></div>)}
-    {!sectionsContainFaqs && faqs.length ? <section className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-8"><p className="inline-flex rounded-full bg-amber-50 px-3 py-1 text-[11px] font-black uppercase tracking-[0.12em] text-amber-700">Questions and answers</p><h2 className="mt-4 text-2xl font-black tracking-tight text-[#0a2952]">Frequently asked questions</h2><div className="mt-5 divide-y divide-slate-200">{faqs.map((faq) => <details className="group py-4" key={faq.question}><summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-[#0a2952] marker:hidden [&::-webkit-details-marker]:hidden"><span>{faq.question}</span><span aria-hidden="true" className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-100 text-lg font-normal text-slate-500 transition group-open:rotate-45">+</span></summary><p className="max-w-4xl pr-10 pt-3 leading-7 text-slate-600">{faq.answer}</p></details>)}</div></section> : null}
-  </>;
+function sectionBadge(sectionId: string, index: number, sections: ReturnType<typeof getNormalizedPreviewContent>["sections"]) {
+  if (sectionId === "compare-all-options-side-by-side") return "Engine condition types · cost comparison";
+  const previousParagraphs = index > 0 ? sections[index - 1].blocks.filter((block): block is Extract<StaticBlock, { type: "paragraph" }> => block.type === "paragraph") : [];
+  const transitionLabel = [...previousParagraphs].reverse().find((block) => isShortLabel(block.text));
+  if (transitionLabel) return transitionLabel.text;
+  return "";
 }
 
+function sectionAccentWords(sectionId: string) {
+  if (sectionId === "compare-all-options-side-by-side") return 3;
+  if (sectionId === "which-one-is-right-for-your-car") return 2;
+  return 2;
+}
+
+function methodologyFromHero(blocks: StaticBlock[]) {
+  const paragraphs = blocks.filter((block): block is Extract<StaticBlock, { type: "paragraph" }> => block.type === "paragraph").map((block) => block.text.trim());
+  const marker = paragraphs.findIndex((text) => /^ABOUT THIS DATA/i.test(text));
+  if (marker < 0) return null;
+  const summary = paragraphs[marker + 1] ?? "";
+  const items: MethodologyItem[] = [];
+  let review = "";
+  for (let index = marker + 2; index < paragraphs.length; index += 1) {
+    const text = paragraphs[index];
+    if (/^Review cycle:/i.test(text)) { review = text; break; }
+    if (/^\[[^\]]+\]$/.test(text) && paragraphs[index + 1]) {
+      items.push({ label: text.replace(/^\[|\]$/g, ""), description: paragraphs[index + 1] });
+      index += 1;
+    }
+  }
+  return { summary, items, review };
+}
+
+export default function PricePageContent({ page }: { page: StaticPageRecord }) {
+  const { hero, sections, tables, faqs, forms } = getNormalizedPreviewContent(page);
+  const methodology = methodologyFromHero(hero.blocks);
+  const renderedTableCount = sections.flatMap((section) => section.blocks).filter((block) => block.type === "table").length;
+  const renderedFaqCount = sections.flatMap((section) => section.blocks).filter((block) => block.type === "faq").length;
+  const renderedFormCount = hero.blocks.filter((block) => block.type === "form").length + sections.flatMap((section) => section.blocks).filter((block) => block.type === "form").length;
+
+  return (
+    <div className={styles.content}>
+      {methodology ? <PreviewMethodology {...methodology} /> : null}
+
+      {sections.map((section, sectionIndex) => {
+        const sectionFaqs = section.blocks.filter((block): block is Extract<StaticBlock, { type: "faq" }> => block.type === "faq");
+        if (sectionFaqs.length) return <PreviewFaqGrid title={section.heading} faqs={sectionFaqs} key={section.id} />;
+        const badge = sectionBadge(section.id, sectionIndex, sections);
+        return (
+          <section className={`${styles.section} ${section.id === "which-one-is-right-for-your-car" ? styles.conditionSection : ""}`} id={section.id} key={section.id}>
+            {badge ? <PreviewSectionBadge icon={section.id.includes("which-one") ? "settings" : "layers"}>{badge}</PreviewSectionBadge> : null}
+            <PreviewSectionHeading title={section.heading} accentWords={sectionAccentWords(section.id)} />
+            {section.description ? <p className={styles.sectionDescription}>{section.description}</p> : null}
+            <div className={styles.sectionBlocks}>{section.blocks.map((block, index) => renderPriceContentBlock(block, index, section.id, section.links))}</div>
+            {section.links.length && !(section.id === "explore-more-engine-cost-information" && section.blocks.some((block) => block.type === "cards")) ? <PriceLinksSection block={{ type: "links", links: section.links }} /> : null}
+          </section>
+        );
+      })}
+
+      {tables.slice(renderedTableCount).map((table, index) => <section className={styles.section} key={`extra-table-${index}`}><PriceTableSection block={{ type: "table", ...table }} /></section>)}
+      {faqs.slice(renderedFaqCount).length ? <PreviewFaqGrid title="Frequently asked questions" faqs={faqs.slice(renderedFaqCount)} /> : null}
+      {forms.slice(renderedFormCount).map((form, index) => <section className={styles.section} key={`${form.action}-${index}`}><PriceFormSection form={form} /></section>)}
+    </div>
+  );
+}
