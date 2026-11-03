@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getBlogPosts } from "@/lib/cms";
+import { getBlogPosts, cleanExcerpt, resolvePostImage } from "@/lib/cms";
+import { blogConfig } from "@/lib/blog.config";
 import { EngineQuoteWidget } from "@/components/blog/engine-quote-widget";
 import { RelatedGuidesWidget } from "@/components/blog/related-guides-widget";
+import "./blog.css";
 
 export const metadata: Metadata = {
-  title: "Blog & Engine Guides | Engines Market",
-  description: "Expert automotive advice, engine diagnostic guides, failure solutions, and reconditioning insights from Engines Market.",
+  title: blogConfig.copy.metaTitle,
+  description: blogConfig.copy.metaDescription,
   alternates: {
-    canonical: "https://enginesmarket.co.uk/blog",
+    canonical: `${blogConfig.siteUrl}/blog`,
   },
 };
 
-export const revalidate = 3600; // ISR cache: 1 hour
+export const revalidate = 3600;
 
 interface BlogPageProps {
   searchParams: Promise<{ page?: string }>;
@@ -26,11 +28,27 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
   const { items: posts, total } = await getBlogPosts(currentPage, postsPerPage);
   const totalPages = Math.ceil(total / postsPerPage) || 1;
 
+  const { copy, theme } = blogConfig;
+
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-12 font-['Montserrat',sans-serif]">
+    <div
+      className="cms-blog-root mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-12"
+      style={
+        {
+          "--blog-primary": theme.primaryColor,
+          "--blog-primary-hover": theme.primaryHover,
+          "--blog-accent": theme.accentColor,
+          "--blog-accent-hover": theme.accentHover,
+          "--blog-font": theme.fontFamily,
+          fontFamily: theme.fontFamily,
+        } as React.CSSProperties
+      }
+    >
       {/* Breadcrumb Navigation */}
       <nav className="mb-4 text-xs text-slate-500">
-        <Link href="/" className="hover:underline hover:text-slate-900">Home</Link>
+        <Link href="/" className="hover:underline hover:text-slate-900">
+          Home
+        </Link>
         <span className="mx-2">/</span>
         <span className="text-slate-900 font-medium">Blog</span>
       </nav>
@@ -38,10 +56,11 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
       {/* Page Title Banner */}
       <header className="mb-8">
         <h1 className="text-3xl font-black tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">
-          Engines Market <span className="text-[#16A34A]">Blog</span>
+          {copy.blogTitlePrefix}{" "}
+          <span style={{ color: theme.accentColor }}>{copy.blogTitleAccent}</span>
         </h1>
         <p className="mt-2 text-sm text-slate-600 max-w-3xl">
-          Comprehensive engine reliability analysis, buyer guides, failure diagnosis, and expert replacement advice.
+          {copy.blogSubtitle}
         </p>
       </header>
 
@@ -51,22 +70,19 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
         <div className="lg:col-span-8 min-w-0">
           {posts.length === 0 ? (
             <div className="rounded-2xl border border-slate-200 bg-slate-50 p-12 text-center">
-              <p className="text-base font-bold text-slate-900">No articles published yet</p>
-              <p className="mt-1 text-xs text-slate-500">Articles published from the CMS will appear here instantly.</p>
+              <p className="text-base font-bold text-slate-900">{copy.emptyTitle}</p>
+              <p className="mt-1 text-xs text-slate-500">{copy.emptySubtitle}</p>
             </div>
           ) : (
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
               {posts.map((post) => {
-                const imageUrl =
-                  post.seoMetadata?.featuredImage?.url ||
-                  post.seoMetadata?.ogImage ||
-                  "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=600&q=80";
-
+                const imageUrl = resolvePostImage(post);
                 const formattedDate = new Date(post.publishedAt).toLocaleDateString("en-GB", {
                   day: "numeric",
                   month: "long",
                   year: "numeric",
                 });
+                const excerpt = cleanExcerpt(post.excerpt);
 
                 return (
                   <article
@@ -89,22 +105,23 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                     {/* Card Content */}
                     <div className="flex flex-1 flex-col justify-between p-4 sm:p-4.5">
                       <div>
-                        <h3 className="!text-base !font-extrabold leading-snug text-slate-900 line-clamp-3 group-hover:text-[#1E3A8A] transition">
+                        <h3 className="!text-base !font-extrabold leading-snug text-slate-900 line-clamp-3 transition group-hover:text-[var(--blog-primary)]">
                           <Link href={`/blog/${post.slug}`}>
                             {post.title}
                           </Link>
                         </h3>
                         <p className="mt-2 text-xs text-slate-600 line-clamp-4 leading-relaxed">
-                          {post.excerpt}
+                          {excerpt}
                         </p>
                       </div>
 
                       <div className="mt-4 pt-3 border-t border-slate-100 flex flex-col gap-2">
                         <Link
                           href={`/blog/${post.slug}`}
-                          className="inline-flex items-center gap-1 text-xs font-bold text-[#16A34A] hover:text-[#15803D] hover:underline"
+                          className="inline-flex items-center gap-1 text-xs font-bold hover:underline"
+                          style={{ color: theme.accentColor }}
                         >
-                          <span>Read More</span>
+                          <span>{copy.readMoreText}</span>
                           <span className="text-sm leading-none">»</span>
                         </Link>
                         <span className="text-[10px] text-slate-400 font-medium">
@@ -142,9 +159,10 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                     href={`/blog?page=${pageNum}`}
                     className={`rounded-lg px-3 py-1.5 transition ${
                       isActive
-                        ? "bg-[#1E3A8A] font-bold text-white shadow-xs"
+                        ? "font-bold text-white shadow-xs"
                         : "border border-slate-200 bg-white hover:bg-slate-50 text-slate-700"
                     }`}
+                    style={isActive ? { backgroundColor: theme.primaryColor } : undefined}
                   >
                     {pageNum}
                   </Link>
@@ -169,11 +187,8 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
 
         {/* Right Sticky Sidebar (4 Columns) */}
         <aside className="lg:col-span-4 space-y-6 lg:sticky lg:top-24 self-start">
-          {/* Quote & Reg Lookup Widget */}
-          <EngineQuoteWidget siteName="Engines Market" />
-
-          {/* Related Guides Widget */}
-          <RelatedGuidesWidget title="Recent Guides" limit={6} />
+          <EngineQuoteWidget siteName={blogConfig.siteName} />
+          <RelatedGuidesWidget title={copy.recentGuidesTitle} limit={6} />
         </aside>
       </div>
     </div>

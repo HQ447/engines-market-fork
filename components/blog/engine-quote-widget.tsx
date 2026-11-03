@@ -12,12 +12,13 @@ import {
   CheckCircle2,
   Car,
 } from "lucide-react";
+import { blogConfig } from "@/lib/blog.config";
 
 interface Props {
   siteName?: string;
 }
 
-export function EngineQuoteWidget({ siteName = "Engines Market" }: Props) {
+export function EngineQuoteWidget({ siteName = blogConfig.siteName }: Props) {
   const [reg, setReg] = React.useState("");
   const [isLookingUp, setIsLookingUp] = React.useState(false);
   const [lookupError, setLookupError] = React.useState("");
@@ -115,13 +116,22 @@ export function EngineQuoteWidget({ siteName = "Engines Market" }: Props) {
     }
   };
 
+  const { theme, copy } = blogConfig;
+
   if (isSubmitted) {
     return (
-      <div className="rounded-2xl bg-[#002244] p-6 text-white border border-[#003366] shadow-xl text-center space-y-4 font-['Montserrat',sans-serif]">
+      <div
+        className="rounded-2xl p-6 text-white shadow-xl text-center space-y-4"
+        style={{
+          backgroundColor: theme.widgetBg,
+          border: `1px solid ${theme.widgetBorder}`,
+          fontFamily: theme.fontFamily,
+        }}
+      >
         <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
           <CheckCircle2 className="h-8 w-8" />
         </div>
-        <h3 className="text-xl font-black text-white">Quote Request Received!</h3>
+        <h3 className="text-xl font-black text-white">{copy.widgetSuccessTitle}</h3>
         <p className="text-xs text-slate-200 leading-relaxed">
           Thank you, <b>{name}</b>. An engine specialist for your <b>{vehicleData?.Make} {vehicleData?.Model}</b> ({vehicleData?.VRM}) will contact you shortly with prices and warranty options.
         </p>
@@ -137,7 +147,8 @@ export function EngineQuoteWidget({ siteName = "Engines Market" }: Props) {
             setPostal("");
             setNote("");
           }}
-          className="mt-2 inline-flex items-center gap-1.5 rounded-lg bg-[#0055d4] px-4 py-2.5 text-xs font-bold text-white hover:bg-[#0047b8] transition"
+          className="mt-2 inline-flex items-center gap-1.5 rounded-lg px-4 py-2.5 text-xs font-bold text-white transition hover:opacity-90"
+          style={{ backgroundColor: theme.widgetButtonBg }}
         >
           Submit another inquiry
         </button>
@@ -148,14 +159,21 @@ export function EngineQuoteWidget({ siteName = "Engines Market" }: Props) {
   const isFormDisabled = !vehicleData || !vehicleData.Model;
 
   return (
-    <div className="rounded-2xl bg-[#002244] p-6 text-white shadow-xl space-y-4 font-['Montserrat',sans-serif]">
+    <div
+      className="rounded-2xl p-6 text-white shadow-xl space-y-4"
+      style={{
+        backgroundColor: theme.widgetBg,
+        border: `1px solid ${theme.widgetBorder}`,
+        fontFamily: theme.fontFamily,
+      }}
+    >
       {/* Title */}
       <div>
         <h3 className="text-2xl font-black tracking-tight text-white">
-          Need the Right Engine?
+          {copy.widgetTitle}
         </h3>
         <p className="mt-1.5 text-xs text-slate-200 leading-snug">
-          Enter your registration or request a callback from our engine specialists.
+          {copy.widgetSubtitle}
         </p>
       </div>
 
@@ -166,7 +184,10 @@ export function EngineQuoteWidget({ siteName = "Engines Market" }: Props) {
         </label>
 
         <div className="flex items-center rounded-lg bg-white overflow-hidden shadow-inner">
-          <div className="flex flex-col items-center justify-center bg-[#003399] px-2.5 py-2 text-white select-none leading-none gap-0.5 min-w-[36px]">
+          <div
+            className="flex flex-col items-center justify-center px-2.5 py-2 text-white select-none leading-none gap-0.5 min-w-[36px]"
+            style={{ backgroundColor: theme.ukBadgeBg }}
+          >
             <span className="text-xs leading-none">🇬🇧</span>
             <span className="font-black text-[9px] tracking-tight text-white">UK</span>
           </div>
@@ -185,7 +206,8 @@ export function EngineQuoteWidget({ siteName = "Engines Market" }: Props) {
           type="button"
           onClick={() => handleLookup()}
           disabled={isLookingUp || !reg.trim()}
-          className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#0055d4] py-3 text-sm font-bold text-white shadow-md transition hover:bg-[#0047b8] active:scale-[0.99] disabled:opacity-60"
+          className="flex w-full items-center justify-center gap-2 rounded-lg py-3 text-sm font-bold text-white shadow-md transition active:scale-[0.99] disabled:opacity-60"
+          style={{ backgroundColor: theme.widgetButtonBg }}
         >
           {isLookingUp ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
           <span>Find My Engine</span>
@@ -225,7 +247,10 @@ export function EngineQuoteWidget({ siteName = "Engines Market" }: Props) {
         <div className="absolute inset-0 flex items-center">
           <div className="w-full border-t border-white/20" />
         </div>
-        <span className="relative bg-[#002244] px-3 text-[11px] font-bold uppercase tracking-wider text-slate-200">
+        <span
+          className="relative px-3 text-[11px] font-bold uppercase tracking-wider text-slate-200"
+          style={{ backgroundColor: theme.widgetBg }}
+        >
           OR REQUEST A QUOTE
         </span>
       </div>
@@ -301,14 +326,11 @@ export function EngineQuoteWidget({ siteName = "Engines Market" }: Props) {
           type="submit"
           id="blogFormSubmitBTN"
           disabled={isFormDisabled || isSubmitting}
-          className={`flex w-full items-center justify-center gap-2 rounded-lg py-3 text-sm font-bold text-white transition ${
-            isFormDisabled
-              ? "bg-[#0055d4]/60 cursor-not-allowed opacity-75"
-              : "bg-[#0055d4] hover:bg-[#0047b8] shadow-lg active:scale-[0.99]"
-          }`}
+          className="flex w-full items-center justify-center gap-2 rounded-lg py-3 text-sm font-bold text-white transition disabled:cursor-not-allowed disabled:opacity-60 shadow-lg active:scale-[0.99]"
+          style={{ backgroundColor: theme.widgetButtonBg }}
         >
           {isSubmitting ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
-          <span>Request A Quote</span>
+          <span>{copy.widgetSubmitText}</span>
         </button>
 
         {isFormDisabled && (
