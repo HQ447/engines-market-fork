@@ -2,9 +2,10 @@ import "server-only";
 
 import { Resend } from "resend";
 import { SITE_URL } from "@/lib/site";
+import { normalizeSourcePage, renderUniversalLeadEmail } from "@/lib/universalLeadEmail";
 
 const DEFAULT_CRM_LEAD_ENDPOINT = "https://crm-api.enginesmarket.co.uk/api/v1/leads";
-const DEFAULT_SUPABASE_WEBHOOK_URL = "https://gfrnxvolaqbfalerfhsr.supabase.co/functions/v1/receive-lead";
+const DEFAULT_SUPABASE_WEBHOOK_URL = "https://invfhqaqjyvcttppnygs.supabase.co/functions/v1/receive-lead";
 
 const RESEND_API_KEY =
   process.env.RESEND_API_KEY || "RESEND_API_KEY";
@@ -64,48 +65,28 @@ function valueFrom(raw: RawQuote, ...keys: string[]) {
   return "";
 }
 
-function escapeHtml(value: string) {
-  return value
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/\"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
-
-function safeSourcePage(value: string) {
-  if (!value) return "";
-
-  try {
-    const url = new URL(value, SITE_URL);
-    if (url.protocol !== "http:" && url.protocol !== "https:") return "";
-    return url.toString();
-  } catch {
-    return "";
-  }
-}
-
-function normalizeQuote(raw: RawQuote): QuoteLead {
+function normalizeQuote(raw: RawQuote, trustedOrigin: string): QuoteLead {
   return {
     name: valueFrom(raw, "name", "fullName"),
     email: valueFrom(raw, "email"),
     number: valueFrom(raw, "number", "phone"),
-    postcode: valueFrom(raw, "postcode"),
-    vehicleModel: valueFrom(raw, "vehicle_model", "model"),
-    vehicleYear: valueFrom(raw, "vehicle_reg", "year"),
-    vehicleBrand: valueFrom(raw, "vehicle_brand", "make"),
+    postcode: valueFrom(raw, "postcode", "postal", "post_code"),
+    vehicleModel: valueFrom(raw, "vehicle_model", "vehicleModel", "model"),
+    vehicleYear: valueFrom(raw, "vehicle_year", "year", "vehicle_reg"),
+    vehicleBrand: valueFrom(raw, "vehicle_brand", "vehicleBrand", "make"),
     vehicleTitle: valueFrom(raw, "vehicle_title", "engineTitle"),
-    vehicleVrm: valueFrom(raw, "vehicle_vrm", "registrationNumber", "regNumber", "registration"),
+    vehicleVrm: valueFrom(raw, "vehicle_vrm", "vehicleVrm", "registrationNumber", "regNumber", "registration", "VRM"),
     vehicleSeries: valueFrom(raw, "vehicle_series", "series", "selectedContext"),
     engineCode: valueFrom(raw, "engine_code", "engineCode"),
-    engineCapacity: valueFrom(raw, "engine_capacity", "engin_capacity", "engineCapacity"),
-    fuelType: valueFrom(raw, "fuel_type", "fuelType"),
+    engineCapacity: valueFrom(raw, "engine_capacity", "engin_capacity", "engineCapacity", "vehicle_fuel_capacity"),
+    fuelType: valueFrom(raw, "fuel_type", "fuelType", "vehicle_fuel"),
     color: valueFrom(raw, "color", "colour"),
     wheelplan: valueFrom(raw, "wheelplan", "wheelPlan"),
-    description: valueFrom(raw, "description", "remarks", "notes", "problem"),
+    description: valueFrom(raw, "description", "remarks", "notes", "problem", "note"),
     sourceLabel: valueFrom(raw, "source_label", "sourceLabel", "source", "quoteSource") || "website-quote",
-    sourcePage: safeSourcePage(
+    sourcePage: normalizeSourcePage(
       valueFrom(raw, "source_page", "sourcePage", "page_url", "pageUrl", "referrer"),
+      trustedOrigin ? [trustedOrigin] : [],
     ),
     searchMode: valueFrom(raw, "search_mode", "searchMode"),
     partSupplied: valueFrom(raw, "part_supplied"),
@@ -118,6 +99,23 @@ function normalizeQuote(raw: RawQuote): QuoteLead {
     fitting: valueFrom(raw, "fitting"),
     engineType: valueFrom(raw, "engine_type", "engineType"),
   };
+}
+
+function getRequestOrigin(request: Request) {
+  const origin = request.headers.get("origin");
+  if (origin) {
+    try {
+      return new URL(origin).origin;
+    } catch {
+      // Fall back to the request host below.
+    }
+  }
+
+  const host = request.headers.get("x-forwarded-host")?.split(",")[0]?.trim() || request.headers.get("host");
+  if (!host) return "";
+
+  const protocol = request.headers.get("x-forwarded-proto")?.split(",")[0]?.trim() || "https";
+  return `${protocol}://${host}`;
 }
 
 async function readPayload(request: Request): Promise<RawQuote> {
@@ -199,54 +197,15 @@ function buildBackendPayload(lead: QuoteLead) {
 
 async function sendEmail(lead: QuoteLead): Promise<boolean> {
   try {
-    const rows = [
-      ["Name", lead.name],
-      ["Email", lead.email],
-      ["Phone", lead.number],
-      ["Postcode", lead.postcode],
-      ["Registration", lead.vehicleVrm],
-      ["Make", lead.vehicleBrand],
-      ["Model", lead.vehicleModel],
-      ["Year", lead.vehicleYear],
-      ["Fuel type", lead.fuelType],
-      ["Engine capacity", lead.engineCapacity],
-      ["Engine code", lead.engineCode],
-      ["Color", lead.color],
-      ["Wheelplan", lead.wheelplan],
-      ["Engine type", lead.engineType],
-      ["Fitting", lead.fitting],
-      ["Quote source", lead.sourceLabel],
-      ["Exact source page", lead.sourcePage || `${SITE_URL}/`],
-      ["Search mode", lead.searchMode],
-      ["Additional details", lead.description],
-    ]
-      .filter(([, value]) => Boolean(value))
-      .map(
-        ([label, value]) =>
-          `<tr><th style="padding:8px 12px;text-align:left;background:#f3f4f6;border:1px solid #e5e7eb;font-size:13px;">${escapeHtml(
-            String(label),
-          )}</th><td style="padding:8px 12px;border:1px solid #e5e7eb;font-size:13px;">${escapeHtml(
-            String(value),
-          )}</td></tr>`,
-      )
-      .join("");
-
-    const emailHtml = `
-      <div style="font-family:Arial,sans-serif;padding:20px;color:#111;max-width:720px;margin:0 auto;">
-        <h1 style="font-size:22px;margin:0 0 16px;color:#002244;">New Quote Request${lead.vehicleVrm ? ` - ${lead.vehicleVrm}` : ""} - enginesmarket.co.uk</h1>
-        <table style="border-collapse:collapse;width:100%;max-width:720px;border:1px solid #e5e7eb;">
-          ${rows}
-        </table>
-        <p style="font-size:11px;color:#888;margin-top:20px;">Timestamp: ${new Date().toUTCString()}</p>
-      </div>
-    `;
+    const email = renderUniversalLeadEmail(lead);
 
     const { data, error } = await resend.emails.send({
       from: RESEND_FROM_EMAIL,
       to: [LEAD_RECIPIENT_EMAIL],
       replyTo: lead.email,
-      subject: `New Quote Request${lead.vehicleVrm ? ` - ${lead.vehicleVrm}` : ""} - enginesmarket.co.uk`,
-      html: emailHtml,
+      subject: email.subject,
+      html: email.html,
+      text: email.text,
     });
 
     if (error) {
@@ -306,11 +265,18 @@ async function deliverLead(lead: QuoteLead): Promise<DeliveryResult> {
 
 export async function handleQuoteRequest(request: Request) {
   try {
-    const lead = normalizeQuote(await readPayload(request));
+    const lead = normalizeQuote(await readPayload(request), getRequestOrigin(request));
 
     if (!lead.name || !lead.email || !lead.number) {
       return Response.json(
         { success: false, message: "Name, email, and phone are required." },
+        { status: 400 },
+      );
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(lead.email)) {
+      return Response.json(
+        { success: false, message: "Please provide a valid email address." },
         { status: 400 },
       );
     }

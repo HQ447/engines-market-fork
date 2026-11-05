@@ -37,6 +37,7 @@ function querySeed(
     engineCode: searchParams.get("engineCode") || engineCode || "",
     remarks: searchParams.get("context") ? `Context: ${searchParams.get("context")}` : "",
     sourceLabel: "query-string",
+    sourcePage: searchParams.get("sourcePage") || "",
     searchMode: searchParams.get("reg") || searchParams.get("registrationNumber") ? "registration" : "manual",
   };
 }
@@ -71,17 +72,20 @@ export default function QuoteCheckoutModal({ brandName, modelName, engineCode }:
       const selector =
         'input[aria-label*="registration" i], input[name="reg"], input[name="registration"], input[placeholder*="registration" i], input[placeholder*="reg" i]';
 
-      let scope: HTMLElement | null = trigger.parentElement;
+      const localScopes = [trigger.closest<HTMLElement>("form"), trigger.parentElement, trigger.parentElement?.parentElement]
+        .filter((scope): scope is HTMLElement => Boolean(scope));
+
       let nearbyInput: HTMLInputElement | null = null;
-      for (let depth = 0; scope && depth < 8; depth += 1) {
+      for (const scope of localScopes) {
         const input = scope.querySelector<HTMLInputElement>(selector);
         if (input?.value.trim()) return input;
         nearbyInput ||= input;
-        scope = scope.parentElement;
       }
 
-      const inputs = Array.from(document.querySelectorAll<HTMLInputElement>(selector));
-      return inputs.find((input) => input.value.trim()) || nearbyInput || inputs[0] || null;
+      // A CTA without a registration field must not inherit the hero field (or any
+      // other field elsewhere on the page).  Only forward a value from the CTA's
+      // own local form/container.
+      return nearbyInput;
     }
 
     function onDocumentClick(event: MouseEvent) {

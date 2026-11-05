@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import type { StaticPageRecord } from "@/lib/staticPagePreview";
 import { getNormalizedPreviewContent } from "@/lib/staticPagePreview";
 import styles from "./RegistrationHero.module.css";
+import { capitalizeHeading } from "./text";
 
 type RegistrationHeroProps = {
   page: StaticPageRecord;
@@ -42,7 +43,7 @@ function splitHeroDescription(description: string) {
 
 export default function RegistrationHero({ page, quotePanel, platformImage = { src: "/preview-assets/holographic-platform-source-matched.png", alt: "Holographic engine platform" } }: RegistrationHeroProps) {
   const { hero } = getNormalizedPreviewContent(page);
-  const heading = splitHeroTitle(hero.title || page.seo.title);
+  const heading = splitHeroTitle(capitalizeHeading(hero.title || page.seo.title));
   const { priceLines, summary: priceSummary } = splitHeroDescription(hero.description ?? "");
 
   return (

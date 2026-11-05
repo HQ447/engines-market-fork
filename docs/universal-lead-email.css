@@ -1,0 +1,169 @@
+/*
+ * Universal lead email — reference stylesheet
+ *
+ * For Gmail, Outlook and Apple Mail compatibility, copy these rules into the
+ * HTML template as inline styles. Do not rely on this file being loaded by
+ * email clients.
+ */
+
+body {
+  margin: 0;
+  padding: 18px 8px;
+  background: #eaf0f7;
+  color: #101b2d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lead-email {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(17, 39, 70, 0.16);
+}
+
+.lead-email__header,
+.lead-email__footer,
+.lead-email__section-title {
+  background: #071d37;
+  color: #ffffff;
+}
+
+.lead-email__header {
+  padding: 20px 24px 18px;
+}
+
+.lead-email__logo {
+  display: block;
+  width: 190px;
+  max-width: 100%;
+  height: auto;
+}
+
+.lead-email__mail-icon {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #61c7fb;
+  border-radius: 8px;
+  background: #0b9fea;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.lead-email__heading {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.lead-email__subtitle {
+  padding-top: 3px;
+  color: #d6e8f7;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.lead-email__engine {
+  display: block;
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  background: transparent;
+}
+
+.lead-email__content {
+  padding: 18px 24px 8px;
+}
+
+.lead-email__card {
+  width: 100%;
+  margin: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid #93b0d1;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.lead-email__section-title {
+  padding: 10px 14px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.lead-email__label {
+  width: 39%;
+  padding: 9px 12px 9px 14px;
+  border-bottom: 1px solid #b9cce2;
+  background: #f4f8fd;
+  color: #101b2d;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.lead-email__value {
+  padding: 9px 14px;
+  border-bottom: 1px solid #b9cce2;
+  background: #ffffff;
+  color: #172238;
+  font-size: 14px;
+  line-height: 20px;
+  overflow-wrap: anywhere;
+}
+
+.lead-email__value a {
+  color: #075ccf;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.lead-email__registration {
+  display: inline-block;
+  min-width: 126px;
+  padding: 3px 12px;
+  border: 1px solid #bf9100;
+  border-radius: 4px;
+  background: #ffda18;
+  color: #111827;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.lead-email__footer {
+  padding: 18px 24px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.lead-email__reference {
+  color: #42c8fb;
+}
+
+@media only screen and (max-width: 520px) {
+  .lead-email__header,
+  .lead-email__content,
+  .lead-email__footer {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .lead-email__engine {
+    width: 110px;
+  }
+
+  .lead-email__label,
+  .lead-email__value {
+    display: block;
+    width: auto;
+  }
+}

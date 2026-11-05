@@ -98,6 +98,7 @@ export function EngineQuoteWidget({ siteName = blogConfig.siteName }: Props) {
           vehicle_year: vehicleData.YearOfManufacture,
           vehicle_fuel: vehicleData.FuelType,
           vehicle_fuel_capacity: vehicleData.EngineCapacity,
+          source_label: `Blog Sidebar Quote Form (${siteName})`,
           siteName,
           pageUrl: typeof window !== "undefined" ? window.location.href : "",
         }),
