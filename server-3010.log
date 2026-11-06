@@ -1,0 +1,11 @@
+▲ Next.js 16.2.5
+- Local:         http://localhost:3010
+- Network:       http://192.168.32.1:3010
+✓ Ready in 3.6s
+Error: ENOENT: no such file or directory, open 'D:\engines-market-main\.next\prerender-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\engines-market-main\\.next\\prerender-manifest.json'
+}

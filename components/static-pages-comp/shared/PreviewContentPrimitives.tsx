@@ -17,6 +17,15 @@ export type PreviewCard = {
 
 export type PreviewCardVariant = "standard" | "condition" | "compact" | "metric" | "included" | "excluded" | "value" | "question";
 
+function metricDetails(card: PreviewCard) {
+  const source = `${card.highlight} ${card.meta}`.trim();
+  const verified = source.match(/\[?(?:EM-VERIFIED|THIRD-PARTY)[^\]]*\]?[^\n]*/i)?.[0] ?? "";
+  const value = card.highlight.replace(/\s*\[?(?:EM-VERIFIED|THIRD-PARTY)[^\]]*\]?[^\n]*/i, "").trim() || card.meta.replace(/\s*\[?(?:EM-VERIFIED|THIRD-PARTY)[^\]]*\]?[^\n]*/i, "").trim();
+  const title = card.title || "Market insight";
+  const label = /(?:time|day|delivery|timeline)/i.test(title) ? "Delivery speed" : /(?:rate|cost|price|value)/i.test(title) ? "Market data" : "Engine type";
+  return { label, title, value, verified };
+}
+
 function BadgeIcon({ type = "layers" }: { type?: "layers" | "faq" | "settings" | "data" | "shield" | "link" | "chart" }) {
   if (type === "faq") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-7l-4.5 3v-3H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" /><path d="M8 9h8M8 12h5" /></svg>;
   if (type === "settings") return <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M19 12a7 7 0 0 0-.1-1l2-1.5-2-3.4-2.4 1a8 8 0 0 0-1.8-1L14.4 3h-4.8l-.4 3.1a8 8 0 0 0-1.8 1l-2.4-1-2 3.4L5.1 11a7 7 0 0 0 0 2L3 14.5l2 3.4 2.4-1a8 8 0 0 0 1.8 1l.4 3.1h4.8l.4-3.1a8 8 0 0 0 1.8-1l2.4 1 2-3.4L18.9 13a7 7 0 0 0 .1-1Z" /></svg>;
@@ -27,16 +36,17 @@ function BadgeIcon({ type = "layers" }: { type?: "layers" | "faq" | "settings" |
   return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Z" /><path d="m3 12 9 5 9-5M3 16l9 5 9-5" /></svg>;
 }
 
-export function PreviewSectionBadge({ children }: { children: string; icon?: "layers" | "faq" | "settings" | "data" }) {
-  return <p className={styles.sectionBadge}>{children}</p>;
+export function PreviewSectionBadge({ children, icon = "layers" }: { children: string; icon?: "layers" | "faq" | "settings" | "data" }) {
+  const isLong = children.length > 48 || children.trim().split(/\s+/).length > 7;
+  return <p className={isLong ? styles.sectionKicker : styles.sectionBadge} title={children}><span aria-hidden="true"><BadgeIcon type={icon} /></span>{children}</p>;
 }
 
-export function PreviewSectionHeading({ title, accentWords = 2 }: { title: string; accentWords?: number }) {
+export function PreviewSectionHeading({ title, accentWords = 2, className = "" }: { title: string; accentWords?: number; className?: string }) {
   const words = capitalizeHeading(title).trim().split(/\s+/);
   const count = Math.min(accentWords, words.length);
   const prefix = words.slice(0, -count).join(" ");
   const accent = words.slice(-count).join(" ");
-  return <h2 className={styles.sectionHeading}>{prefix ? `${prefix} ` : null}<span>{accent}</span></h2>;
+  return <h2 className={`${styles.sectionHeading} ${className}`}>{prefix ? `${prefix} ` : null}<span>{accent}</span></h2>;
 }
 
 export function PreviewCardGrid({ cards, variant = "standard" }: { cards: PreviewCard[]; variant?: PreviewCardVariant }) {
@@ -51,22 +61,31 @@ export function PreviewCardGrid({ cards, variant = "standard" }: { cards: Previe
         const displayIcon = variant === "condition" || variant === "compact" || variant === "value" || variant === "question" || variant === "included" || variant === "excluded" ? null : card.icon;
         const IncludedIcon = includedIcons[index % includedIcons.length];
         const ExcludedIcon = excludedIcons[index % excludedIcons.length];
-        const questionMatch = card.title.match(/^(\d+)\.\s*(.*)$/);
+        const questionMatch = card.title.match(/^(?:question\s*)?(\d+)\.?\s*(.*)$/i);
+        const metric = variant === "metric" ? metricDetails(card) : null;
         const cardContent = (
         <article className={styles.card} key={`${card.title}-${index}`}>
           {variant === "condition" ? <div className={styles.cardVisual}><Image className={styles.engineVisualImage} src="/images/engines/skeleton-transparent.png" alt="" width={1168} height={776} /></div> : null}
           <div className={styles.cardBody}>
+            {metric ? <>
+              <p className={styles.metricLabel}>{metric.label}</p>
+              <h3 className={styles.metricTitle}>{metric.title}</h3>
+              {metric.value ? <p className={styles.metricValue}>{metric.value}</p> : null}
+              {metric.verified ? <p className={styles.metricVerified}>{metric.verified}</p> : null}
+              <span className={styles.metricTrend} aria-hidden="true" />
+            </> : <>
             <div className={styles.cardTitleRow}>
               {variant === "condition" ? <span className={styles.cardIcon} aria-hidden="true"><ConditionIcon /></span> : null}
               {variant === "included" ? <span className={styles.inclusionIcon} aria-hidden="true"><IncludedIcon /></span> : null}
               {variant === "excluded" ? <span className={styles.inclusionIcon} aria-hidden="true"><ExcludedIcon /></span> : null}
               {variant === "question" && questionMatch ? <span className={styles.questionNumber} aria-hidden="true">{questionMatch[1].padStart(2, "0")}</span> : null}
               {displayIcon ? <span className={styles.cardIcon} aria-hidden="true">{displayIcon}</span> : null}
-              {card.title ? <h3>{variant === "question" && questionMatch ? questionMatch[2] : card.title}</h3> : null}
+              {card.title ? <h3>{variant === "question" && questionMatch ? questionMatch[2] || card.title : card.title}</h3> : null}
             </div>
             {card.highlight ? <p className={styles.cardHighlight}>{card.highlight}</p> : null}
-            {card.items?.length ? <ul>{card.items.map((item) => <li key={item}>{item}</li>)}</ul> : text ? <p className={styles.cardText}>{text}</p> : null}
-            {card.meta ? <p className={styles.cardMeta}>{card.meta}</p> : null}
+            </>}
+            {!metric && (card.items?.length ? <ul>{card.items.map((item) => <li key={item}>{item}</li>)}</ul> : text ? <p className={styles.cardText}>{text}</p> : null)}
+            {!metric && card.meta ? <p className={styles.cardMeta}>{card.meta}</p> : null}
           </div>
         </article>
       );
@@ -77,6 +96,10 @@ export function PreviewCardGrid({ cards, variant = "standard" }: { cards: Previe
 }
 
 export function PreviewDataTable({ table }: { table: StaticTable }) {
+  const priceColumnIndexes = table.headers.reduce<number[]>((indexes, header, index) => {
+    return /(?:price|cost|amount|value|quote\s*range|£)/i.test(header) ? [...indexes, index] : indexes;
+  }, []);
+
   function getHeaderIcon(header: string): IconType | null {
     const normalized = header.toLowerCase();
     if (/region|location|area/.test(normalized)) return FiMapPin;
@@ -107,7 +130,15 @@ export function PreviewDataTable({ table }: { table: StaticTable }) {
     <div className={styles.tableScroller} tabIndex={0} role="region" aria-label="Scrollable comparison table">
       <table className={styles.table}>
         {table.headers.length ? <thead><tr>{table.headers.map((header) => { const HeaderIcon = getHeaderIcon(header); return <th scope="col" key={header}><span className={styles.tableHeaderContent}>{HeaderIcon ? <HeaderIcon className={styles.tableHeaderIcon} aria-hidden="true" /> : null}<span>{capitalizeHeading(header)}</span></span></th>; })}</tr></thead> : null}
-        <tbody>{table.rows.map((row, rowIndex) => { const mutedPriceRow = rowIndex % 2 === 1; return <tr key={rowIndex}>{row.map((cell, cellIndex) => { const isPrice = cellIndex > 0 && /£[\d,]/.test(cell); return <td key={cellIndex}>{cellIndex === 0 ? <span className={styles.rowLabel}>{cell}</span> : isPrice ? <strong className={`${styles.valuePill} ${mutedPriceRow ? styles.valuePillMuted : ""}`}>{cell}</strong> : cell}</td>; })}</tr>; })}</tbody>
+        <tbody>{table.rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => {
+          const isPrice = cellIndex > 0 && /£[\d,]/.test(cell);
+          const headerPriceOrdinal = priceColumnIndexes.indexOf(cellIndex);
+          const fallbackPriceOrdinal = row.slice(1, cellIndex).filter((value) => /£[\d,]/.test(value)).length;
+          // Use the price column, rather than only values in the current row. A
+          // blank first price prevents the second price from accidentally green.
+          const mutedPrice = priceColumnIndexes.length > 1 ? headerPriceOrdinal % 2 === 1 : fallbackPriceOrdinal % 2 === 1;
+          return <td key={cellIndex}>{cellIndex === 0 ? <span className={styles.rowLabel}>{cell}</span> : isPrice ? <strong className={`${styles.valuePill} ${mutedPrice ? styles.valuePillMuted : ""}`}>{cell}</strong> : cell}</td>;
+        })}</tr>)}</tbody>
       </table>
     </div>
   );
@@ -115,6 +146,13 @@ export function PreviewDataTable({ table }: { table: StaticTable }) {
 
 function cleanQuestion(question: string) {
   return question.replace(/\s*\+\s*$/, "").trim();
+}
+
+export function PreviewFaqItem({ faq, open = false }: { faq: StaticFaq; open?: boolean }) {
+  return <details className={styles.faqItem} open={open}>
+    <summary><span>{cleanQuestion(faq.question)}</span><span className={styles.faqToggle} aria-hidden="true" /></summary>
+    <div className={styles.faqAnswer}><p>{faq.answer}</p></div>
+  </details>;
 }
 
 export function PreviewFaqGrid({ title, faqs }: { title: string; faqs: StaticFaq[] }) {
@@ -125,7 +163,7 @@ export function PreviewFaqGrid({ title, faqs }: { title: string; faqs: StaticFaq
       <PreviewSectionBadge icon="faq">Frequently asked questions</PreviewSectionBadge>
       <PreviewSectionHeading title={title} accentWords={3} />
       <div className={styles.faqGrid}>
-        {columns.map((column, columnIndex) => <div className={styles.faqColumn} key={columnIndex}>{column.map((faq, index) => <details className={styles.faqItem} open={columnIndex === 0 && index === 0} key={faq.question}><summary><span>{cleanQuestion(faq.question)}</span><span className={styles.faqToggle} aria-hidden="true" /></summary><div className={styles.faqAnswer}><p>{faq.answer}</p></div></details>)}</div>)}
+        {columns.map((column, columnIndex) => <div className={styles.faqColumn} key={columnIndex}>{column.map((faq, index) => <PreviewFaqItem faq={faq} open={columnIndex === 0 && index === 0} key={faq.question} />)}</div>)}
       </div>
     </section>
   );

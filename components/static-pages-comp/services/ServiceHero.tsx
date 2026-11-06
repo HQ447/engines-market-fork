@@ -1,9 +1,7 @@
-import Image from "next/image";
-import { getNormalizedPreviewContent } from "@/lib/staticPagePreview";
 import type { StaticPageRecord } from "@/lib/staticPagePreview";
-import PriceQuoteCta from "@/components/static-pages-comp/prices/PriceQuoteCta";
+import SharedPreviewHero from "@/components/static-pages-comp/shared/SharedPreviewHero";
+import { sharedPreviewConfigs } from "@/components/static-pages-comp/shared/SharedPreviewPage";
 
 export default function ServiceHero({ page }: { page: StaticPageRecord }) {
-  const { hero } = getNormalizedPreviewContent(page);
-  return <section className="relative overflow-hidden rounded-xl bg-[#071936] p-6 shadow-[0_18px_45px_rgba(7,25,54,.16)] sm:p-8 lg:p-10"><div aria-hidden="true" className="absolute inset-y-0 right-0 w-2/5 bg-[radial-gradient(circle_at_center,rgba(20,128,61,.26),transparent_68%)]" /><div className={hero.blocks.some((block) => block.type === "form") ? "relative grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(340px,.72fr)]" : "relative"}><div className="min-w-0"><p className="section-pill bg-white/10 text-[#86efac]">{hero.eyebrow}</p><h1 className="mt-5 max-w-4xl text-4xl font-black leading-[.95] tracking-[-.045em] text-white sm:text-5xl lg:text-6xl">{hero.title || page.seo.title}</h1><p className="mt-5 max-w-3xl text-base leading-7 text-slate-200 sm:text-lg">{hero.description}</p>{hero.trust.length?<div className="mt-5 flex flex-wrap gap-2">{hero.trust.map(item=><span className="rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-xs font-bold text-white" key={item}>{item}</span>)}</div>:null}{hero.options.length?<div className="mt-8 grid gap-3 md:grid-cols-3">{hero.options.map(o=><article className="rounded-xl border border-white/15 bg-white/10 p-4 backdrop-blur-sm" key={o.label}><p className="text-sm font-bold text-white">{o.label}</p><strong className="mt-2 block text-xl font-black text-[#86efac]">{o.amount}</strong><small className="mt-1 block leading-5 text-slate-300">{o.detail}</small></article>)}</div>:null}{hero.image?<Image className="mt-6 max-h-72 w-full rounded-xl object-contain" src={hero.image.src} alt={hero.image.alt} width={1200} height={630}/>:null}</div>{hero.blocks.some((block) => block.type === "form") ? <PriceQuoteCta /> : null}</div></section>;
+  return <SharedPreviewHero page={page} config={sharedPreviewConfigs.services} />;
 }

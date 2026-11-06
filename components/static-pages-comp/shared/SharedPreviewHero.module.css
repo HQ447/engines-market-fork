@@ -32,7 +32,24 @@
   padding: 2.4rem 2rem 2.25rem;
 }
 
+.singleColumn { grid-template-columns: minmax(0, 1fr); }
+
 .content { min-width: 0; padding-top: 0.05rem; }
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 1rem;
+  border: 1px solid rgba(190, 227, 250, 0.66);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.34rem 0.8rem;
+  color: #b9edcf;
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
 
 .title {
   max-width: 45rem;
@@ -62,6 +79,9 @@
   font-size: clamp(0.9rem, 1.1vw, 1rem);
   line-height: 1.45;
 }
+
+.trust { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 1rem; }
+.trust span { border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 999px; background: rgba(255, 255, 255, 0.1); padding: 0.35rem 0.65rem; color: #fff; font-size: 0.72rem; font-weight: 800; }
 
 .priceLine { margin: 0.16rem 0; }
 .priceLine strong { color: #fff; font-weight: 900; }
@@ -187,7 +207,7 @@
   animation: floatingObject 5s ease-in-out infinite;
 }
 
-.quotePanel { position: relative; z-index: 2; width: min(100%, 32rem); margin: 0 auto; }
+.quotePanel { position: relative; z-index: 2; width: min(100%, 30rem); margin: 0 auto; }
 
 @keyframes ledPulse { 0%, 100% { opacity: 0.62; } 50% { opacity: 1; } }
 @keyframes floatingObject { 0%, 100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(-11px); } }
@@ -210,8 +230,8 @@
   .optionLabel { font-size: .64rem; line-height: 1.12; letter-spacing: -.02em; overflow-wrap: anywhere; }
   .optionAmount { margin-top: .45rem; font-size: .92rem; letter-spacing: -.06em; }
   .optionDetail { margin-top: .3rem; font-size: .58rem; line-height: 1.15; }
-  .platformStage { min-height: 11.75rem; margin: 0.25rem -1.5rem 0.65rem; padding-top: 0; }
-  .platformImage, .engineImage { bottom: 0.35rem; width: min(100%, 16rem); }
+  .platformStage { min-height: 11rem; margin: 0.25rem -1.5rem 0.15rem; padding-top: 0; }
+  .platformImage, .engineImage { bottom: 0.15rem; width: min(100%, 16rem); }
 }
 
 @media (prefers-reduced-motion: reduce) { .platformStage::before, .engineImage, .option::after { animation: none; } }
