@@ -21,6 +21,12 @@ export type NavGroup = {
 
 export type NavMenu =
   | {
+      id: "blog";
+      label: "Blog";
+      kind: "link";
+      href: "/blog";
+    }
+  | {
       id: "brands";
       label: string;
       kind: "brands";
@@ -41,7 +47,7 @@ export type NavMenu =
       footerLink?: NavLink;
     };
 
-/** Top-level: Brands · Engines · Services · Others */
+/** Top-level: Brands · Engines · Services · Others · Blog */
 export const navMenus: NavMenu[] = [
   {
     id: "brands",
@@ -67,5 +73,11 @@ export const navMenus: NavMenu[] = [
     label: "Others",
     kind: "columns",
     groups: others.groups,
+  },
+  {
+    id: "blog",
+    label: "Blog",
+    kind: "link",
+    href: "/blog",
   },
 ];

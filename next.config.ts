@@ -3,11 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Large brand/model/engine SSG set — default 60s page timeout kills late pages (e.g. /seat/*).
   staticPageGenerationTimeout: 180,
-  // Preview source files are consumed while prerendering. Public assets are deployed by
-  // Vercel's static layer and must not be duplicated inside preview server functions.
-  outputFileTracingExcludes: {
-    "/preview/**": ["./public/**/*"],
-  },
   experimental: {
     // Fewer concurrent pages per worker reduces thrashing on large JSON-heavy routes.
     staticGenerationMaxConcurrency: 2,
@@ -45,22 +40,6 @@ const nextConfig: NextConfig = {
           destination: "/about/about-us",
         },
         {
-          source: "/insights/:slug([a-zA-Z0-9-]+)",
-          destination: "/insights/:slug.html",
-        },
-        {
-          source: "/services/:slug([a-zA-Z0-9-]+)",
-          destination: "/services/:slug.html",
-        },
-        {
-          source: "/prices/:slug([a-zA-Z0-9-]+)",
-          destination: "/prices/:slug.html",
-        },
-        {
-          source: "/services/gearbox-replacement/:slug",
-          destination: "/services/gearbox-replacement/:slug.html",
-        },
-        {
           source: "/about/:slug",
           destination: "/about/:slug.html",
         },
@@ -87,10 +66,6 @@ const nextConfig: NextConfig = {
         {
           source: "/case-studies/:slug",
           destination: "/case-studies/:slug.html",
-        },
-        {
-          source: "/symptoms/:slug([a-zA-Z0-9-]+)",
-          destination: "/symptoms/:slug.html",
         },
       ],
     };

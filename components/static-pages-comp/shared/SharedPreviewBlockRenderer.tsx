@@ -145,7 +145,7 @@ export function SharedQuoteBlock({ block }: { block: Extract<StaticBlock, { type
   return <blockquote className="my-7 rounded-r-2xl border-l-4 border-amber-500 bg-amber-50/70 px-5 py-4 text-base italic leading-7 text-slate-700 shadow-sm">{block.text}</blockquote>;
 }
 
-export function SharedPreviewBlockRenderer({ block, blockIndex, sectionId, sectionHeading, sectionDescription, sectionBlocks, sectionLinks, suppressShortParagraphLabels, relatedGuides = false, marketIntelligence = false }: { block: StaticBlock; blockIndex: number; sectionId: string; sectionHeading: string; sectionDescription?: string; sectionBlocks: StaticBlock[]; sectionLinks: StaticLink[]; suppressShortParagraphLabels: boolean; relatedGuides?: boolean; marketIntelligence?: boolean }): ReactNode {
+export function SharedPreviewBlockRenderer({ block, blockIndex, sectionId, sectionHeading, sectionDescription, sectionBlocks, sectionLinks, suppressShortParagraphLabels, relatedGuides = false, marketIntelligence = false, cardVariantOverride }: { block: StaticBlock; blockIndex: number; sectionId: string; sectionHeading: string; sectionDescription?: string; sectionBlocks: StaticBlock[]; sectionLinks: StaticLink[]; suppressShortParagraphLabels: boolean; relatedGuides?: boolean; marketIntelligence?: boolean; cardVariantOverride?: PreviewCardVariant }): ReactNode {
   const isShortLabel = block.type === "paragraph" && block.text.length < 70 && block.text === block.text.toUpperCase() && /[A-Z]/.test(block.text);
   if (suppressShortParagraphLabels && isShortLabel) return null;
   switch (block.type) {
@@ -157,7 +157,7 @@ export function SharedPreviewBlockRenderer({ block, blockIndex, sectionId, secti
     case "form": return <SharedFormBlock form={block} key={blockIndex} />;
     case "links": return <SharedLinksBlock links={block.links} compact={relatedGuides || isEditorialLinkSection(sectionId, sectionHeading, sectionBlocks)} key={blockIndex} />;
     case "label": return <PreviewSectionBadge icon="layers" key={blockIndex}>{block.text}</PreviewSectionBadge>;
-    case "cards": return <SharedCardsBlock block={block} links={sectionLinks} variant={marketIntelligence ? "metric" : cardVariant(sectionHeading, sectionDescription, sectionBlocks, blockIndex, block)} key={blockIndex} />;
+    case "cards": return <SharedCardsBlock block={block} links={sectionLinks} variant={marketIntelligence ? "metric" : cardVariantOverride ?? cardVariant(sectionHeading, sectionDescription, sectionBlocks, blockIndex, block)} key={blockIndex} />;
     case "stat": return <SharedStatBlock block={block} key={blockIndex} />;
     case "image": return <SharedImageBlock block={block} key={blockIndex} />;
     case "quote": return <SharedQuoteBlock block={block} key={blockIndex} />;

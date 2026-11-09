@@ -333,6 +333,7 @@ function ColumnsPanel({ menu, onNavigate }: { menu: Extract<NavMenu, { kind: "co
 }
 
 function PanelBody({ menu, onNavigate }: { menu: NavMenu; onNavigate?: () => void }) {
+  if (menu.kind === "link") return null;
   if (menu.kind === "brands") {
     return <BrandsPanel brands={menu.brands} footerLink={menu.footerLink} onNavigate={onNavigate} />;
   }
@@ -368,6 +369,15 @@ export function DesktopNavMenus() {
     <div ref={rootRef} className="relative hidden flex-1 lg:block">
       <ul className="flex items-center justify-center gap-1 xl:gap-2">
         {navMenus.map((menu) => {
+          if (menu.kind === "link") {
+            return (
+              <li key={menu.id}>
+                <Link href={menu.href} className={topButtonClass} onClick={() => setOpenId(null)}>
+                  {menu.label}
+                </Link>
+              </li>
+            );
+          }
           const isOpen = openId === menu.id;
           return (
             <li key={menu.id}>
@@ -429,14 +439,20 @@ export function MobileNavMenus({ onNavigate }: { onNavigate?: () => void }) {
       <ul className="grid gap-2">
         {navMenus.map((menu) => (
           <li key={menu.id} className="overflow-hidden rounded-[12px] border border-white/10 bg-white/5">
-            <button
-              type="button"
-              onClick={() => push({ type: "menu", menuId: menu.id })}
-              className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm font-semibold text-white"
-            >
-              <span>{menu.label}</span>
-              <Chevron open={false} />
-            </button>
+            {menu.kind === "link" ? (
+              <Link href={menu.href} onClick={goLink} className="flex w-full items-center px-4 py-3 text-left text-sm font-semibold text-white">
+                {menu.label}
+              </Link>
+            ) : (
+              <button
+                type="button"
+                onClick={() => push({ type: "menu", menuId: menu.id })}
+                className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm font-semibold text-white"
+              >
+                <span>{menu.label}</span>
+                <Chevron open={false} />
+              </button>
+            )}
           </li>
         ))}
       </ul>

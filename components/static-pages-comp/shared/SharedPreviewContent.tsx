@@ -1,11 +1,12 @@
 import { getNormalizedPreviewContent } from "@/lib/staticPagePreview";
 import type { StaticBlock, StaticForm, StaticPageRecord, StaticLink } from "@/lib/staticPagePreview";
-import { PreviewDataTable, PreviewFaqItem, PreviewMethodology, PreviewSectionBadge, PreviewSectionHeading, type MethodologyItem } from "./PreviewContentPrimitives";
+import { PreviewCardGrid, PreviewDataTable, PreviewFaqItem, PreviewMethodology, PreviewSectionBadge, PreviewSectionHeading, type MethodologyItem } from "./PreviewContentPrimitives";
 import type { SharedPreviewConfig } from "./SharedPreviewPage";
-import { isEditorialLinkSection, isMarketIntelligenceSection, questionCardsFromParagraphs, semanticInclusionGroups, SharedFormBlock, SharedImageBlock, SharedInclusionCards, SharedLinksBlock, SharedPreviewBlockRenderer, SharedQuestionChecklist } from "./SharedPreviewBlockRenderer";
+import { isEditorialLinkSection, isMarketIntelligenceSection, semanticInclusionGroups, SharedFormBlock, SharedImageBlock, SharedInclusionCards, SharedLinksBlock, SharedPreviewBlockRenderer, SharedQuestionChecklist } from "./SharedPreviewBlockRenderer";
 import SharedPreviewSection from "./SharedPreviewSection";
 import SharedQuoteCtaSection from "./SharedQuoteCtaSection";
 import styles from "./SharedPreviewContent.module.css";
+import { adaptNumberedQuestions, adaptSemanticParagraphCards, classifyPreviewSection, resolvePreviewPill } from "@/lib/previewSemantics";
 
 function isShortLabel(text: string) {
   return text.length < 70 && text === text.toUpperCase() && /[A-Z]/.test(text);
@@ -21,8 +22,11 @@ function normalizeLinkText(text: string) {
 
 function isLinkCardBlock(block: StaticBlock, links: StaticLink[]) {
   return block.type === "cards" && block.cards.length > 0 && block.cards.every((card) => {
-    const cardText = card.title || card.text;
-    return links.some((link) => normalizeLinkText(link.text) === normalizeLinkText(cardText));
+    const cardText = normalizeLinkText(card.title || card.text).replace(/\bread\s+guide\b/g, "").trim();
+    return Boolean(cardText) && links.some((link) => {
+      const linkText = normalizeLinkText(link.text).replace(/\bread\s+guide\b/g, "").trim();
+      return linkText === cardText || linkText.startsWith(cardText) || cardText.startsWith(linkText);
+    });
   });
 }
 
@@ -76,7 +80,9 @@ export default function SharedPreviewContent({ page, config }: { page: StaticPag
     {extraHeroForms.map((form, index) => <section className={styles.section} key={`hero-form-${index}`}><SharedFormBlock form={form} /></section>)}
     {sections.map((section, sectionIndex) => {
       const explicitBadgeIndex = section.blocks.findIndex((block) => block.type === "label");
-      const badge = explicitBadgeIndex >= 0 ? (section.blocks[explicitBadgeIndex] as Extract<StaticBlock, { type: "label" }>).text : derivedBadge(section.heading, sectionIndex, sections, config);
+      const semantic = classifyPreviewSection({ id: section.id, heading: section.heading, description: section.description, blocks: section.blocks, links: section.links, family: config.family });
+      const explicitBadge = explicitBadgeIndex >= 0 ? (section.blocks[explicitBadgeIndex] as Extract<StaticBlock, { type: "label" }>).text : undefined;
+      const badge = resolvePreviewPill({ id: section.id, heading: section.heading, description: section.description, blocks: section.blocks, links: section.links, family: config.family }, semantic, explicitBadge || (config.derivePriceBadges ? derivedBadge(section.heading, sectionIndex, sections, config) : undefined));
       // A prose-only mention of related guides is content, not a related-guide
       // module. Only switch to the compact text-link treatment when this
       // section actually carries destinations to preserve every extracted word.
@@ -87,8 +93,11 @@ export default function SharedPreviewContent({ page, config }: { page: StaticPag
       // Labels are section chrome, not body content. Retain the first one as the
       // badge and suppress any additional extracted labels so a section never
       // renders duplicate pills.
-      const bodyBlocks = section.blocks.filter((block) => block.type !== "label" && !(isEditorialLinksSection && isLinkCardBlock(block, section.links)));
-      const questionCards = questionCardsFromParagraphs(section.id, bodyBlocks);
+      const allSectionLinks = [...section.links, ...section.blocks.flatMap((block) => block.type === "links" ? block.links : [])];
+      const bodyBlocks = section.blocks.filter((block) => block.type !== "label" && !(allSectionLinks.length && isLinkCardBlock(block, allSectionLinks)));
+      const adaptedCards = adaptSemanticParagraphCards(section.heading, bodyBlocks);
+      const questionCards = (adaptedCards?.variant === "question" ? adaptedCards.cards : adaptNumberedQuestions(bodyBlocks)).map((card) => ({ ...card }));
+      const adaptedCardIndexes = new Set(adaptedCards?.coveredIndexes ?? []);
       const inclusionGroups = semanticInclusionGroups(bodyBlocks);
       const inclusionGroupStarts = new Map(inclusionGroups.map((group) => [group.startIndex, group]));
       const inclusionCoveredIndexes = new Set(inclusionGroups.flatMap((group) => group.coveredIndexes));
@@ -100,18 +109,19 @@ export default function SharedPreviewContent({ page, config }: { page: StaticPag
         id={section.id}
         key={section.id}
         badge={badge}
-        badgeIcon={isConditionSection(section.heading) ? "settings" : "layers"}
+        badgeIcon={isConditionSection(section.heading) ? "settings" : semantic.badgeIcon}
         heading={section.heading}
         description={section.description ?? undefined}
         className={isConditionSection(section.heading) ? styles.conditionSection : ""}
         accentWords={/compare\s+all\s+options/i.test(section.heading) ? 3 : 2}
       >
         {questionCards.length ? <SharedQuestionChecklist cards={questionCards} /> : null}
+        {adaptedCards && adaptedCards.variant !== "question" ? <PreviewCardGrid cards={adaptedCards.cards} variant={adaptedCards.variant} /> : null}
         {bodyBlocks.map((block, index) => {
           const inclusionGroup = inclusionGroupStarts.get(index);
           if (inclusionGroup) return <SharedInclusionCards cards={inclusionGroup.cards} variant={inclusionGroup.variant} key={`inclusion-${index}`} />;
-          if (inclusionCoveredIndexes.has(index) || (questionCards.length && block.type === "paragraph")) return null;
-          return <SharedPreviewBlockRenderer block={block} blockIndex={index} sectionId={section.id} sectionHeading={section.heading} sectionDescription={section.description ?? undefined} sectionBlocks={bodyBlocks} sectionLinks={sectionLinks} suppressShortParagraphLabels={config.suppressShortParagraphLabels || isEditorialLinksSection} relatedGuides={isEditorialLinksSection} marketIntelligence={isMarketIntelligence} key={index} />;
+          if (inclusionCoveredIndexes.has(index) || adaptedCardIndexes.has(index) || (questionCards.length && block.type === "paragraph")) return null;
+          return <SharedPreviewBlockRenderer block={block} blockIndex={index} sectionId={section.id} sectionHeading={section.heading} sectionDescription={section.description ?? undefined} sectionBlocks={bodyBlocks} sectionLinks={sectionLinks} suppressShortParagraphLabels={config.suppressShortParagraphLabels || isEditorialLinksSection} relatedGuides={isEditorialLinksSection} marketIntelligence={isMarketIntelligence || semantic.kind === "market-intelligence"} cardVariantOverride={semantic.cardVariant} key={index} />;
         })}
         {sectionLinks.length ? <SharedLinksBlock links={sectionLinks} compact={isEditorialLinksSection} /> : null}
       </SharedPreviewSection>;
