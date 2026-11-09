@@ -43,6 +43,32 @@ export default function RootLayout({
           src="https://js.clickrank.ai/seo/de019d8b-2456-42e0-b196-442de9f3c54c/script"
           strategy="afterInteractive"
         />
+             <Script
+  id="microsoft-clarity"
+  strategy="afterInteractive"
+>
+  {`
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "z5v36yzyte");
+  `}
+</Script>
+ <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-WZD09S46KE"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            window.gtag = gtag;
+            window.gtag('js', new Date());
+            window.gtag('config', 'G-WZD09S46KE');
+          `}
+        </Script>
         </head>
       <body className="min-h-screen bg-slate-50 text-slate-900 antialiased">
         <div className="flex min-h-screen flex-col">
