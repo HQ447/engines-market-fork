@@ -35,7 +35,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Engine Finders UK Ltd"
+          "text": "PRESTIGE AUTO ENGINEERING LTD"
         },
         {
           "type": "paragraph",
@@ -120,7 +120,7 @@
             },
             {
               "type": "paragraph",
-              "text": "Engines Market is a trading name of Engine Finders UK Ltd , a private limited company registered in England and Wales."
+              "text": "Engines Market is a trading name of PRESTIGE AUTO ENGINEERING LTD , a private limited company registered in England and Wales."
             },
             {
               "type": "paragraph",
@@ -128,7 +128,7 @@
             },
             {
               "type": "paragraph",
-              "text": "Engine Finders UK Ltd"
+              "text": "PRESTIGE AUTO ENGINEERING LTD"
             },
             {
               "type": "paragraph",
@@ -136,7 +136,7 @@
             },
             {
               "type": "paragraph",
-              "text": "13157944"
+              "text": "17406830"
             },
             {
               "type": "paragraph",
@@ -144,7 +144,7 @@
             },
             {
               "type": "paragraph",
-              "text": "113 Park Road, Ilford, IG1 1SQ, United Kingdom"
+              "text": "Unit A5 Windsor Road Commercial Estate, Ramsden Heath, Billericay, United Kingdom, CM11 1QE"
             },
             {
               "type": "paragraph",
@@ -230,7 +230,7 @@
                 ],
                 [
                   "We / us / our",
-                  "Engine Finders UK Ltd, trading as Engines Market."
+                  "PRESTIGE AUTO ENGINEERING LTD, trading as Engines Market."
                 ],
                 [
                   "You / your / user",
@@ -770,7 +770,7 @@
             },
             {
               "type": "paragraph",
-              "text": "All Content on our Platform — including text, graphics, logos, icons, images (including AI-generated visuals), software, and data — is owned by or licensed to Engine Finders UK Ltd. It is protected by copyright, trade mark, and other intellectual property laws of the United Kingdom."
+              "text": "All Content on our Platform — including text, graphics, logos, icons, images (including AI-generated visuals), software, and data — is owned by or licensed to PRESTIGE AUTO ENGINEERING LTD. It is protected by copyright, trade mark, and other intellectual property laws of the United Kingdom."
             },
             {
               "type": "paragraph",
@@ -937,7 +937,7 @@
         {
           "id": "indemnity",
           "title": "Indemnity",
-          "description": "You agree to indemnify, defend, and hold harmless Engine Finders UK Ltd and its directors, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, or expenses (including reasonable legal fees) arising out of or in connection with:",
+          "description": "You agree to indemnify, defend, and hold harmless PRESTIGE AUTO ENGINEERING LTD and its directors, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, or expenses (including reasonable legal fees) arising out of or in connection with:",
           "blocks": [
             {
               "type": "list",
@@ -1165,7 +1165,7 @@
             },
             {
               "type": "paragraph",
-              "text": "These Terms were last reviewed and approved by the legal function of Engine Finders UK Ltd on 13 June 2026."
+              "text": "These Terms were last reviewed and approved by the legal function of PRESTIGE AUTO ENGINEERING LTD on 13 June 2026."
             },
             {
               "type": "paragraph",
@@ -1308,7 +1308,7 @@
             },
             {
               "type": "paragraph",
-              "text": "Postal address (for legal service only — not a public visitor address): Engine Finders UK Ltd, 113 Park Road, Ilford, IG1 1SQ, United Kingdom"
+              "text": "Postal address (for legal service only — not a public visitor address): PRESTIGE AUTO ENGINEERING LTD, Unit A5 Windsor Road Commercial Estate, Ramsden Heath, Billericay, United Kingdom, CM11 1QE"
             },
             {
               "type": "paragraph",
@@ -1351,17 +1351,17 @@
       },
       "mainEntity": {
         "@type": "Organization",
-        "name": "Engine Finders UK Ltd",
+        "name": "PRESTIGE AUTO ENGINEERING LTD",
         "tradingAs": "Engines Market",
         "url": "https://enginesmarket.co.uk",
         "logo": "https://enginesmarket.co.uk/images/logo.png",
-        "legalName": "Engine Finders UK Ltd",
-        "taxID": "13157944",
+        "legalName": "PRESTIGE AUTO ENGINEERING LTD",
+        "taxID": "17406830",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "113 Park Road",
-          "addressLocality": "Ilford",
-          "postalCode": "IG1 1SQ",
+          "streetAddress": "Unit A5 Windsor Road Commercial Estate, Ramsden Heath",
+          "addressLocality": "Billericay",
+          "postalCode": "CM11 1QE",
           "addressCountry": "GB"
         },
         "contactPoint": [

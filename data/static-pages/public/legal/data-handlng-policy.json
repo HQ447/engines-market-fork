@@ -1031,7 +1031,7 @@
             },
             {
               "type": "paragraph",
-              "text": "This Data Handling Policy was last reviewed and approved by the Data Protection Officer of Engine Finders UK Ltd on 13 June 2026."
+              "text": "This Data Handling Policy was last reviewed and approved by the Data Protection Officer of PRESTIGE AUTO ENGINEERING LTD on 13 June 2026."
             },
             {
               "type": "paragraph",
@@ -1138,7 +1138,7 @@
             },
             {
               "type": "paragraph",
-              "text": "Postal address (for formal correspondence): Data Protection Officer Engine Finders UK Ltd 113 Park Road Ilford, IG1 1SQ United Kingdom"
+              "text": "Postal address (for formal correspondence): Data Protection Officer PRESTIGE AUTO ENGINEERING LTD Unit A5 Windsor Road Commercial Estate, Ramsden Heath, Billericay, United Kingdom, CM11 1QE"
             },
             {
               "type": "paragraph",
@@ -1179,17 +1179,17 @@
       },
       "mainEntity": {
         "@type": "Organization",
-        "name": "Engine Finders UK Ltd",
+        "name": "PRESTIGE AUTO ENGINEERING LTD",
         "tradingAs": "Engines Market",
         "url": "https://enginesmarket.co.uk",
         "logo": "https://enginesmarket.co.uk/images/logo.png",
-        "legalName": "Engine Finders UK Ltd",
-        "taxID": "13157944",
+        "legalName": "PRESTIGE AUTO ENGINEERING LTD",
+        "taxID": "17406830",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "113 Park Road",
-          "addressLocality": "Ilford",
-          "postalCode": "IG1 1SQ",
+          "streetAddress": "Unit A5 Windsor Road Commercial Estate, Ramsden Heath",
+          "addressLocality": "Billericay",
+          "postalCode": "CM11 1QE",
           "addressCountry": "GB"
         },
         "contactPoint": [

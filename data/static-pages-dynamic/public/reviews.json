@@ -664,17 +664,17 @@
       },
       "mainEntity": {
         "@type": "Organization",
-        "name": "Engine Finders UK Ltd",
+        "name": "PRESTIGE AUTO ENGINEERING LTD",
         "tradingAs": "Engines Market",
         "url": "https://enginesmarket.co.uk",
         "logo": "https://enginesmarket.co.uk/logo.png",
-        "legalName": "Engine Finders UK Ltd",
-        "taxID": "13157944",
+        "legalName": "PRESTIGE AUTO ENGINEERING LTD",
+        "taxID": "17406830",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "113 Park Road",
-          "addressLocality": "Ilford",
-          "postalCode": "IG1 1SQ",
+          "streetAddress": "Unit A5 Windsor Road Commercial Estate, Ramsden Heath",
+          "addressLocality": "Billericay",
+          "postalCode": "CM11 1QE",
           "addressCountry": "GB"
         },
         "aggregateRating": {

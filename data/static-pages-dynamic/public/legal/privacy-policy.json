@@ -35,7 +35,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Engine Finders UK Ltd"
+          "text": "PRESTIGE AUTO ENGINEERING LTD"
         },
         {
           "type": "paragraph",
@@ -113,7 +113,7 @@
       {
         "id": "who-we-are-data-controller",
         "title": "Who we are (Data Controller)",
-        "description": "Engines Market is a trading name of Engine Finders UK Ltd , a private limited company registered in England and Wales.",
+        "description": "Engines Market is a trading name of PRESTIGE AUTO ENGINEERING LTD , a private limited company registered in England and Wales.",
         "blocks": [
           {
             "type": "paragraph",
@@ -121,7 +121,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Engine Finders UK Ltd"
+            "text": "PRESTIGE AUTO ENGINEERING LTD"
           },
           {
             "type": "paragraph",
@@ -129,7 +129,7 @@
           },
           {
             "type": "paragraph",
-            "text": "13157944"
+            "text": "17406830"
           },
           {
             "type": "paragraph",
@@ -137,7 +137,7 @@
           },
           {
             "type": "paragraph",
-            "text": "113 Park Road, Ilford, IG1 1SQ, United Kingdom"
+            "text": "Unit A5 Windsor Road Commercial Estate, Ramsden Heath, Billericay, United Kingdom, CM11 1QE"
           },
           {
             "type": "paragraph",
@@ -830,7 +830,7 @@
               [
                 "Original photography",
                 "Images we have taken ourselves (e.g., of reconditioning processes, workshops).",
-                "© Engines Market / Engine Finders UK Ltd. All rights reserved."
+                "© Engines Market / PRESTIGE AUTO ENGINEERING LTD. All rights reserved."
               ],
               [
                 "Supplier-provided images",
@@ -983,7 +983,7 @@
               ],
               [
                 "Post",
-                "Data Protection Officer, Engine Finders UK Ltd, 113 Park Road, Ilford, IG1 1SQ, United Kingdom"
+                "Data Protection Officer, PRESTIGE AUTO ENGINEERING LTD, Unit A5 Windsor Road Commercial Estate, Ramsden Heath, Billericay, United Kingdom, CM11 1QE"
               ],
               [
                 "Phone",
@@ -1097,7 +1097,7 @@
           },
           {
             "type": "paragraph",
-            "text": "This Privacy Policy was last reviewed and approved by the Data Protection Officer of Engine Finders UK Ltd on 13 June 2026."
+            "text": "This Privacy Policy was last reviewed and approved by the Data Protection Officer of PRESTIGE AUTO ENGINEERING LTD on 13 June 2026."
           },
           {
             "type": "paragraph",
@@ -1199,17 +1199,17 @@
       },
       "mainEntity": {
         "@type": "Organization",
-        "name": "Engine Finders UK Ltd",
+        "name": "PRESTIGE AUTO ENGINEERING LTD",
         "tradingAs": "Engines Market",
         "url": "https://enginesmarket.co.uk",
         "logo": "https://enginesmarket.co.uk/images/logo.png",
-        "legalName": "Engine Finders UK Ltd",
-        "taxID": "13157944",
+        "legalName": "PRESTIGE AUTO ENGINEERING LTD",
+        "taxID": "17406830",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "113 Park Road",
-          "addressLocality": "Ilford",
-          "postalCode": "IG1 1SQ",
+          "streetAddress": "Unit A5 Windsor Road Commercial Estate, Ramsden Heath",
+          "addressLocality": "Billericay",
+          "postalCode": "CM11 1QE",
           "addressCountry": "GB"
         },
         "contactPoint": [

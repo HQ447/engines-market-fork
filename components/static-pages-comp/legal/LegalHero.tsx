@@ -29,7 +29,7 @@ function getBadges(page: StaticPageRecord) {
 function badgeLabel(page: StaticPageRecord) {
   if (page.slug.endsWith("cookie-policy")) return "Legal";
   if (page.slug.endsWith("data-handlng-policy")) return "Data Handling Policy";
-  if (page.slug.endsWith("privacy-policy") || page.slug.endsWith("terms-and-conditions")) return "Engine Finders UK Ltd";
+  if (page.slug.endsWith("privacy-policy") || page.slug.endsWith("terms-and-conditions")) return "PRESTIGE AUTO ENGINEERING LTD";
   if (page.slug.endsWith("complaints-procedure")) return "Complaints Procedure";
   return "Engines Market";
 }
