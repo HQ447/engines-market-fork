@@ -597,7 +597,7 @@
             },
             {
               "type": "paragraph",
-              "text": "This Cookie Policy was last reviewed and approved by the Data Protection Officer of Engine Finders UK Ltd on 13 June 2026."
+              "text": "This Cookie Policy was last reviewed and approved by the Data Protection Officer of PRESTIGE AUTO ENGINEERING LTD on 13 June 2026."
             },
             {
               "type": "paragraph",
@@ -658,13 +658,13 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "@id": "https://enginesmarket.co.uk/#organization",
-      "name": "Engine Finders UK Ltd",
+      "name": "PRESTIGE AUTO ENGINEERING LTD",
       "url": "https://enginesmarket.co.uk",
       "logo": {
         "@type": "ImageObject",
         "url": "https://enginesmarket.co.uk/images/logo.png"
       },
-      "legalName": "Engine Finders UK Ltd",
+      "legalName": "PRESTIGE AUTO ENGINEERING LTD",
       "description": "Engines Market is a free, no-pressure platform to compare engine replacement quotes from 100+ vetted UK specialists.",
       "sameAs": [
         "https://www.facebook.com/enginesmarket",
